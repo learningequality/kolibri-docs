@@ -1,0 +1,4 @@
+# These are for building the docs
+sphinx
+sphinx_rtd_theme
+sphinx-intl

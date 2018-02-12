@@ -1,0 +1,331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-22 18:09-0800\n"
+"PO-Revision-Date: 2018-02-09 14:25-0500\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Filipino\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fil\n"
+"X-Crowdin-File: /release-v0.7.x/learner.po\n"
+"Language: fil_PH\n"
+
+#: ../../learner.rst:2
+msgid "Learner"
+msgstr "Ang Mag-aaral"
+
+#: ../../learner.rst:5
+msgid "Access Kolibri"
+msgstr "Pag-akses sa Kolibri"
+
+#: ../../learner.rst:8
+msgid "If you are using Kolibri in your school, education center or facility, your coach or administrator will provide the instructions how to open the sign-in page, and username and password if necessary."
+msgstr "Kung ikaw ay gumagamit ng Kolibri sa inyong eskwelahan, sentro ng edukasyon o pasilidad, ang iyong coach o administrador ay magbibiga ng mga instruksyon kung paano i-open ang pahina ng pag-sign in, at username at password kung kinakailangan."
+
+#: ../../learner.rst:9
+msgid "If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access` according to your operating system."
+msgstr "Kung ikaw ay gumagamit ng Kolibri sa pangsirli, sa labas ng sentro ng edukasyon o pasilidad, sundin ang mga instruksyon kung paano :doc:`pag-access` ukol sa iyong sistema ng pago-operate."
+
+#: ../../learner.rst:11
+msgid "To sign in to **Kolibri** and start learning follow these steps:"
+msgstr "Upang maka-sign in sa **Kolibri** at magsimulang matuto sundin ang mga hakbang na ito:"
+
+#: ../../learner.rst:13
+msgid "Type your username and password (may be optional)."
+msgstr "I-type and iyong username at password (maaaring opsyonal)."
+
+#: ../../learner.rst:14
+msgid "Click the **SIGN IN** button."
+msgstr "I-click ang pindutan na **MAG-SIGN IN**."
+
+#: ../../learner.rst:19
+msgid "Main sign-in page."
+msgstr "Pangunahing pahina sa pag-sign in."
+
+#: ../../learner.rst:23
+msgid "If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page."
+msgstr "Kung ikaw ay nagsimula bilang panauhin sa pagba-browse sa Kolibri, kailangan mo atang piliin ang opsyon sa **Mag-Sign in** mula sa menu na **Panauhin** sa ibabaw na kanang korner, o mula sa menu ng sidebar (sa kaliwa o ibaba) upang i-open ang pahina ng pag-sign in."
+
+#: ../../learner.rst:28
+msgid "Location of \"Sign in\" to Kolibri links."
+msgstr "Lokasyon ng “Pag-Sign in” sa mga link ng Kolibri."
+
+#: ../../learner.rst:30
+msgid "Once you have logged in into Kolibri, you can see and edit your user data from the **Profile** option in the main menu (below **Learn**)."
+msgstr "Kung ikaw ay naka-logged in na sa Kolibri, makikita mo at maii-edit mo ang iyong data ng gumagamit mula sa **Profayl** na opsyon sa pangunahing menu (sa ibaba ng **Matuto**)."
+
+#: ../../learner.rst:35
+msgid "View and edit your user profile."
+msgstr "Tingnan at i-edit ang iyong user na profayl."
+
+#: ../../learner.rst:42
+msgid "To sign out from Kolibri you can either:"
+msgstr "Upang mag-sign out mula sa Kolibri maaaring ikaw yata:"
+
+#: ../../learner.rst:38
+msgid "Click the user icon in the upper right corner and select **Sign out** option."
+msgstr "I-click ang ikono ng gumagamit sa itaas ng korner sa kanan at piliin ang opsyon na **Mag-sign out**."
+
+#: ../../learner.rst:39
+msgid "OR"
+msgstr "O"
+
+#: ../../learner.rst:41
+msgid "Select **Sign out** option in the main menu."
+msgstr "Piliin ang opsyon na **Mag-sign out** sa pangunahing menu."
+
+#: ../../learner.rst:45
+msgid "Learn"
+msgstr "Matuto"
+
+#: ../../learner.rst:47
+msgid "Each time you login into **Kolibri**, the first thing you will see is the **Learn** page. Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest)."
+msgstr "Sa bawat panahon na ikaw ay mag-log in sa **Kolibri**, ang pinakauna mong makikita ay ang pahina ng **Matuto**. Dito mo makakatagpo ka ng mga paksa sa pagpapatuto at mga materyales na kaugnay sa kung ano ang ginawa mo sa huling beses na ginamit mo ang Kolibri, o iyong mga nirerekomenda ng iyong mga guro at mga coach (hindi nakikita kung ikaw ay nagbabrowse bilang isang bisita)."
+
+#: ../../learner.rst:50
+msgid "Recommended"
+msgstr "Nirerekomenda"
+
+#: ../../learner.rst:52
+msgid "In the **Recommended** tab you can see various sections:"
+msgstr "Sa tab ng **Nirerekomenda** makikita mo ang samot saring mga seksyon:"
+
+#: ../../learner.rst:54
+msgid "**Most popular** section which displays the most frequently used materials in your school or facility."
+msgstr "Ang section na **Pinaka popular** kung saan nagpapakita sa mga pinaka madalas na mga materyales na ginagamit ng iyong skwelahan o pasilidad."
+
+#: ../../learner.rst:55
+msgid "**Next steps** section which displays suggestions according to your previously visited activities."
+msgstr "Ang seksyon na **Mga Susunod na Hakbang** na nagpapakita sa mga suhestiyon batay sa iyong mga nakaraang mga aktibidad na nabisita."
+
+#: ../../learner.rst:56
+msgid "**Resume section** displays activities that you started but haven’t finished yet."
+msgstr "Ang **Seksyon sa Pagpatuloy** nagpapakita sa mga aktibidad na iyong nasimula ngunit hindi natapos."
+
+#: ../../learner.rst:57
+msgid "**Featured in...** section."
+msgstr "Ang seksyong **Tumampok sa...**."
+
+#: ../../learner.rst:59
+msgid "You can browse through learning materials in all sections by using the arrow icons at the beginning and the end of the section rows."
+msgstr "Maaari kang makapag-browse sa buong mga materyales sa pagtuto sa lahat ng mga seksyon sa paggamit ng mga ikono na arrow at sa simula at kataposan nga mga hilera ng seksyon."
+
+#: ../../learner.rst:64
+msgid "Learn page gives you access to all Kolibri learning content and activities."
+msgstr "Ang pahina sa pagtuto ay nagbibigay sa iyo ng access sa lahat ng nilalaman at mga aktibidad sa pagpatuto ng Kolibri."
+
+#: ../../learner.rst:67
+msgid "Topics"
+msgstr "Mga Paksa"
+
+#: ../../learner.rst:69
+msgid "**Topics** tab offers you the option to navigate through the complete set of learning topics and materials available in Kolibri. Use it as you wish, or according to indications from your teachers and coaches."
+msgstr "Ang tab ng **Mga Paksa** ay nago-offer sa iyo ng mga opsyon para makapagnabiga sa buong kumpletong mga set ng pagksang pampatuto at mga materyales na magagamit sa Kolibri. Gamitin ito ayon sa iyong hangarin, o ayon sa mga indikasyon mula sa iyong mga guro at mga coach."
+
+#: ../../learner.rst:71
+msgid "In Kolibri **Topic tab** content from different sources is grouped in **Channels**. Depending on how your school and teachers or coaches decided to organize the content, you may have one or more **Channels** available here. Follow the indications by your teachers or coaches on how to use the content from each available **Channel**."
+msgstr "Ang nilalaman ng **Tab ng Paksa** sa Kolibri mula sa iba-ibang mga pinagkukunan ay naka-grupo sa **Mga Channel**. Nakadepende sa kung paano ang eskwelahan at mga titser o mga coach sa pagdesisyon sa pag-oorganisa sa nilalaman, maaaring ikaw ay maayroong isa o higit pang **Mga Channel** na magagamit dito. Sundin ang mga indikasyon ng iyong mga titser o mga coach kung oaano nila ginagamit ang mga nilalaman mula sa bawat na magagamit na **Channel**."
+
+#: ../../learner.rst:76
+msgid "Content in Kolibri is grouped in Channels."
+msgstr "Ang Nilalaman sa Kolibri ay naka-pangkat sa mga Channel."
+
+#: ../../learner.rst:79
+msgid "Navigate Kolibri topics with breadcrumb links"
+msgstr "I-naviga ang mga paksa ng Kolibri kasama ang mga link na breadcrumb"
+
+#: ../../learner.rst:81
+msgid "When you are browsing a topic in Kolibri, the **Breadcrumb** links indicate previously visited, more general topics. Current topic is at the last position, and you can click any of the previous links in the breadcrumb to go back to a specific broader topic."
+msgstr "Kung ikaw ay nagba-browse sa isang paksa sa Kolibri, ang mga link ng **Breadcrumb** ay mag-iindika sa mga nabisita mo sa nakaraan, higit pa sa mga paksang pangkalahatan. Ang kasalukuyang paksa ay makikita sa hulihan na posisyon, at maaari mo itong i-click sa kahit anuman sa mga nakaraang mga link sa breadcrumb na bumalik sa espesipikong mas malawak na paksa."
+
+#: ../../learner.rst:86
+msgid "Use breadcrumbs links to navigate back through Kolibri topics."
+msgstr "Gamitin ang mga link na mga breadcrumb para magnabiga pabalik sa buong mga paksa sa Kolibri."
+
+#: ../../learner.rst:90
+msgid "Search"
+msgstr "Maghanap"
+
+#: ../../learner.rst:92
+msgid "If you are looking for a specific subject, topic, or term, use the **Search** feature:"
+msgstr "Kung ikay ay naghahanap ng isang espesipikong subjek, paksa, o termino, gamitin ang tampok na **Maghanap**:"
+
+#: ../../learner.rst:94
+msgid "Click the magnifying glass icon in the upper right corner."
+msgstr "I-klik ang ikono ng glass na pangmagnifiko na nasa taas na korner sa kanan."
+
+#: ../../learner.rst:95
+msgid "Type the word or combination of words you are looking for in the search field."
+msgstr "I-type ang salita o kombinaston ng mga salita na gusto mong hanapin mula sa patlang ng paghahanap."
+
+#: ../../learner.rst:96
+msgid "Press **Enter** to display search results below the field."
+msgstr "Pindutin ang **Enter** para maipakita ang mga resulta sa paghahanap sa ibaba ng patlang."
+
+#: ../../learner.rst:101
+msgid "Search page gives you option to search for a specific term in Kolibri."
+msgstr "Ang pahina ng paghahanap ay nagbibigay sa iyo ng opsyon para makapaghanap para sa espesipikong termino sa Kolibri."
+
+#: ../../learner.rst:104
+msgid "Content types"
+msgstr "Mga uri ng nilalaman"
+
+#: ../../learner.rst:107
+msgid "Exercises"
+msgstr "Mga pagsasanay"
+
+#: ../../learner.rst:109
+msgid "Kolibri **Exercises** can require you to do different things: fill in a missing number, write a formula, choose one of the available options, etc. Each correct answer gets you a checkmark, and majority of exercises require 5 correct answers in a row to be completed. Some exercises can offer one or more hints, to help you solve the problem."
+msgstr "Ang **Mga Pagsasanay** sa Kolibri ay nangangailangan sa iyo na gumawa ng mga bagay na iba-iba: punan ang numerong nawawala, isulat ang formula, pumili ng isa sa mga opsyon na magagamit, atbp. Sa bawat wastong sagot makakuha ka ng checkmark, at mayorya ng mga pagsasanay na ngangailangan ng 5 na mga sagot na wasto na sunud-sunod na dapat makumpleto. Iilan sa mga pagsasanay ay maayrong alok ng isa o higit pang mga hint, para tulungan kang i-solve ang problema."
+
+#: ../../learner.rst:111
+msgid "Independent of the required action (writing an answer yourself or choosing one of the options), these are the steps to follow."
+msgstr "Naka-independente na mga kinakailangang aksyon (pagsusulat ng sagot para sa iyong sarili o pagpili ng isa sa mga opsyon), na mga hakbang para sundin."
+
+#: ../../learner.rst:113
+msgid "**Read the question carefully**."
+msgstr "**Maayos na pagbasa sa kwestiyon**."
+
+#: ../../learner.rst:114
+msgid "Write the answer or choose one of the provided options."
+msgstr "Isulat ang sagot o piliin ang isa sa binigay na mga opsyon."
+
+#: ../../learner.rst:115
+msgid "When you are ready to submit, click the **Check answer** button."
+msgstr "Kung ikaw ay handa na isumite, i-click ang pindutan ng **Suriin ang sagot**."
+
+#: ../../learner.rst:117
+msgid "If the answer is correct and a checkmark appears, click the **Next question** button to proceed."
+msgstr "Kung ang sagot ay tama at makikita ang markangcheck, i-click ang pindutan **Susunod na kwestiyon** upang makapagpatuloy."
+
+#: ../../learner.rst:118
+msgid "If the answer is incorrect, click the **Get a hint** button, read the suggestions, and try to answer again."
+msgstr "Kung ang sagot ay hindi tama, i-click ang pindutan **Kumuha ng hint**, basahin ang mga suhestiyon, at subukang sagutin muli ito."
+
+#: ../../learner.rst:120
+msgid "Once you have achieved the required number of correct answers in a row, click the **Next item** button, to continue learning with the rest of the material in that topic."
+msgstr "Kapag na nakamtan mo na ang kinakailangang numero ng mga sagot na wasto na sunud-sunod, i-click ang pindutan ng **Susunod na aytem**, para magpatuloy ang iyong pagtuto sa nalalabing mga materyal sa paksang yaon."
+
+#: ../../learner.rst:121
+msgid "If you are unable to solve some questions, try reviewing the videos in the **Recommended** section below the exercise, or seek help from your peers or teacher/coach."
+msgstr "Kung hindi mo kayang i-solve ang iilan sa mga kwestiyon, subukang mag-review sa mga bidyong nasa seksyon ng **Nirerekomenda** sa ibaba ng pagsasanay, o tumawag ng tulong mula sa iyong mga klasmeyt o titser/coach."
+
+#: ../../learner.rst:126
+msgid "Exercise page in Kolibri."
+msgstr "Ang pahina ng pagsasanay sa Kolibri."
+
+#: ../../learner.rst:130
+msgid "Video and Audio Player options"
+msgstr "Ang mga opsyon sa Bidyo at Awdio na Player"
+
+#: ../../learner.rst:132
+msgid "To play videos and listen to audio files in Kolibri you have several available control buttons at the bottom of the player screen. Move the cursor or tap on the player screen to make appear the control buttons while playing."
+msgstr "Para mag-play ng mga bidyo at pakinggan ang mga faylbna awdyo sa Kolibri ikaw ay mayroong maraming mga pindutan sa pagkontrol sa nagagamit sa ibaba ng iskren sa player. Igalaw ang kursor o i-tap ang iskren ng player para makikita ang mga pindutan sa kontrol habang nagpi-play."
+
+#: ../../learner.rst:137
+msgid "Kolibri video and audio player."
+msgstr "Ang bidyo at awdyo ng player sa Kolibri."
+
+#: ../../learner.rst:139
+msgid "(controls at the bottom of the player)"
+msgstr "(mga kontrol sa ibaba ng player)"
+
+#: ../../learner.rst:141
+msgid "Play/Pause buttons"
+msgstr "Mga pindutan sa pag-play/pag-tigil"
+
+#: ../../learner.rst:142
+msgid "Rewind/Fast forward buttons by +/- 10 seconds"
+msgstr "I-rewind/Fast forward na mga pindutan sa agwat na +/- 10 na mga segundo"
+
+#: ../../learner.rst:143
+msgid "Time tracker indicator with progress bar"
+msgstr "Indikador sa tracker ng oras kasama ang bar ng progreso"
+
+#: ../../learner.rst:144
+msgid "Video duration indicator"
+msgstr "Indikador sa durasyon ng bidyo"
+
+#: ../../learner.rst:145
+msgid "Volume scrollbar"
+msgstr "Volyum ng iksrolbar"
+
+#: ../../learner.rst:146
+msgid "Playback speed selector"
+msgstr "Tagapili ng bilis sa Playback"
+
+#: ../../learner.rst:147
+msgid "Fullscreen button"
+msgstr "Pindutan ng fullscreen"
+
+#: ../../learner.rst:150
+msgid "Use the **Download content** button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options."
+msgstr "Gamitin ang pindutan ng **Nilalaman ng download** sa ibaba ng player sa pagdownload sa bidyo, awdyo at mga fayl sa thumbnail ng iyong kompyuter. Ang iilan sa mga bidyo ay nagbibigay ng mga opsyon sa multipol na mga resolusyon."
+
+#: ../../learner.rst:155
+msgid "PDF Viewer options"
+msgstr "Mga opsyon sa Viewer ng PDF"
+
+#: ../../learner.rst:158
+msgid "Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri."
+msgstr "Mga opsyon para sa pagtanaw sa mga fayl na PDF ay naka-depende sa browser at operating system na iyong ginagamit para makita ang Kolibri."
+
+#: ../../learner.rst:160
+msgid "Use the **Toggle Fullscreen** button to open the PDF file in fullscreen view."
+msgstr "Gamitin ang pindutan na **Toggle Fulskren** para buksan ang fayl na PDF sa fulskren na view."
+
+#: ../../learner.rst:161
+msgid "Use the **Esc** button to close the fullscreen view and return."
+msgstr "Gamitin ang pindutan na **Esc** para isarado ang fulskren na view at bumalik."
+
+#: ../../learner.rst:168
+msgid "Use the **Download content** button below the PDF viewer to download the PDF file to your computer."
+msgstr "Gamitin ang pindutan ng **Pagdownload sa nilalaman** sa ibaba ng viewer ng PDF para maka-download sa fayl na PDF sa iyong kompyuter."
+
+#: ../../learner.rst:172
+msgid "Exams"
+msgstr "Mga Eksamen"
+
+#: ../../learner.rst:174
+msgid "If your teacher/coach scheduled an exam for you or your class, it will be available through the **Exams** tab."
+msgstr "Kung ang iyong titser/coach ay nag-eskedyul ng isang pagsusulit para sa iyo o sa inyong klase, ito ay makikitang buo sa tab ng **Mga Eksamen**."
+
+#: ../../learner.rst:180
+msgid "Press the button **Start** when you are ready to start taking exam."
+msgstr "I-press ang pindutan na **Simula** kung ikaw ay handa nang magsimulang i-take ang eksamen."
+
+#: ../../learner.rst:181
+msgid "You can go on answering the questions in the order you prefer: move through questions with Previous and Next question buttons, or click on the question number in the column on the left side."
+msgstr "Ikaw ay maaaring sumagot sa mga kwestiyon sa ayos ng iyong gusto: mag-galaw sa buong mga kwestiyon kasama ang Nakaraan at Susunod na mga pindutan na kwestiyon, o i-click ang numero ng kwestiyon sa hanay na nasa kaliwang gilid."
+
+#: ../../learner.rst:186
+msgid "Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side."
+msgstr "Sa tuwing ikaw ay maglalagay sa patlang ng sagor, o pumili sa mga opsyon na magagamit, ang kwestiyon ay mamarkhan ng isang tuldok na kinukayan sa hanay na nasa kaliwang gilid."
+
+#: ../../learner.rst:187
+msgid "You can review and correct your answers to all questions as many times you need before submitting."
+msgstr "Ikaw ay maaaring mag rebyu at magsuri sa iyong mga sagot sa lahat ng mga kwestiyon sa maraming beses na gusto mo bago mo ito isumite."
+
+#: ../../learner.rst:188
+msgid "Press the *Back to exam list* if you want to pause the exam and come back later."
+msgstr "Pindutin ang **Bumalik sa listahan ng eksamen** kung gusto mong itigil muna ang eksamen at babalikan mamaya."
+
+#: ../../learner.rst:189
+msgid "Press the button **Continue** to resume when you are ready."
+msgstr "Pindutin ang pindutan na **Magpatuloy** para magpatuloy kung ikaw ay handa na."
+
+#: ../../learner.rst:194
+msgid "Press the button Submit exam when you are positive that you answered all the questions, and you want to finish the exam."
+msgstr "I-press ang pindutang Submit ng eksamen kung ikaw ay positibo na nasagutan ang lahat ng mga kwestiyon, at gusto mong tapusin na ang eksamen."
+
+#: ../../learner.rst:195
+msgid "You will see instant feedback with the result of your exam."
+msgstr "Ikaw ay makakakita ng feedback na instant na may kasamang resulta ng iyong eksamen."
+

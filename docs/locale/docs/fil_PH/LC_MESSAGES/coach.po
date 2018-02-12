@@ -1,0 +1,379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-02 15:44-0800\n"
+"PO-Revision-Date: 2018-02-09 14:25-0500\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Filipino\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fil\n"
+"X-Crowdin-File: /release-v0.7.x/coach.po\n"
+"Language: fil_PH\n"
+
+#: ../../coach.rst:16
+msgid "Coach your Learners in Kolibri"
+msgstr ""
+
+#: ../../coach.rst:18
+msgid "You can track progress of the **Learner** users, create and assign **Exams** to classes or learner groups from the **Coach** dashboard. The default view of the **Coach** dashboard presents the list of **Classes** with number of learners enrolled to each class."
+msgstr "Ikaw ay maaaring makapag-trak sa progreso ng mga **Mag-aaral** na gumagamit, gumawa at mag-assign ng **Mga Eksamen** para sa mga klase o pangkat ng mga mag-aaral mula sa dasbord ng **Coach**. Ang view na naka-default para sa dasbord na **Coach** ay nagpipresenta ng listahan ng **Mga Klase** na may bilang ng mga nag-aaral na nakapag-enrol sa bawat klase."
+
+#: ../../coach.rst:20
+msgid "Select a class from the list to access the progress-tracking features and create exams."
+msgstr "I-select ang klase mula sa listahan para makapag-akses sa pag-trak-ng-proseso na mga featura at makapagsawa ng nga eksamen."
+
+#: ../../coach.rst:29
+msgid "View Recent Activity"
+msgstr ""
+
+#: ../../coach.rst:31
+msgid "This is the default view when you select a class from the **Coach** dashboard. It displays the list of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class."
+msgstr "Ito ang view na naka-default kung ikaw ay nakapili ng klase mula sa dasbord ng **Coach**. Ito ay nagdi-display ng listahan ng mga tsanel at mga aytem (mga pagsasanay at mga bidyong-pinagmumulan, materyal sa pambasa, atbp.) na naa-akses sa natapos na 7 na mga araw ng mga mag-aaral sa napiliang klase."
+
+#: ../../coach.rst:36
+msgid "If the class learners have access to more then one channel, you will first see the list of channels which you can navigate by topics and subtopics until you arrive to a specific item. In this view you can see the progress of each class learner for that specific item."
+msgstr "Kapag ang mga mag-aaral sa klase ay mayroong akses sa mahigit isa pang tsanel, ikaw ay makakita ng una sa lista ng mga tsanel kung saan ikaw ay makakapagnabiga sa mga paksa at mga sub na paksa hanggang sa ikaw ay mag-a-arrive sa ayyem na ispesipiko. Sa view na ito ikaw makakakita sa progreso ng bawat mag-aaral sa klase para sa aytem na espisipiko."
+
+#: ../../coach.rst:42
+msgid "View Activity by Topic"
+msgstr ""
+
+#: ../../coach.rst:44
+msgid "Use this view to access the full report of activity progress for the selected class. You can navigate channels by topics and subtopics until you see the progress of each class learner for one specific item."
+msgstr "Gamitin ang view na ito para makapag-akses sa buong ulat ng progreso sa aktibidad para sa mga klaseng napilian. Ikaw ay maaaring makakapagnabiga sa mga tsanel na pang-paksa at pang-sub na mga paksa hanggang sa ikaw ay makakakita sa progreso ng bawat mag-aaral sa klase para sa isang aytem na espisipiko."
+
+#: ../../coach.rst:49
+msgid "Use the topic view to see the average progress for exercises and resources for all the learners in the class."
+msgstr ""
+
+#: ../../coach.rst:54
+msgid "Track Learner Progress"
+msgstr ""
+
+#: ../../coach.rst:56
+msgid "When you navigate to the last level in the topic tree, you can see the average progress of all class learners for each exercise or resource (video, document, HTML5 activity) in that particular topic."
+msgstr ""
+
+#: ../../coach.rst:58
+msgid "When learner answers exercise questions in Kolibri, the progress bar below the exercise is taking into account only the most recent given answers, meaning that the learner must complete the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed."
+msgstr ""
+
+#: ../../coach.rst:63
+msgid "The correct answers in the image above are not in a row; this exercise will be completed only after learner gives 5 correct answers one after another."
+msgstr ""
+
+#: ../../coach.rst:68
+msgid "In the example above, the progress bar for this exercise will appear as 40%, because the student has given 2 correct answers within the most recent set of 5 attempts. If this student had earlier made, for example, 20 incorrect attempts before the 4 displayed attempts, those 20 incorrect attempts don't get factored into the progress bar."
+msgstr ""
+
+#: ../../coach.rst:70
+msgid "How does it looks if learner A does 5 correct answers in a row on their first try, but learner B gets 10 wrong answers in a row before giving 5 correct ones in a row? In both cases, the progress would show as 100%, and you would have to click each learner's name to access their progress report and see the attempt history."
+msgstr ""
+
+#: ../../coach.rst:72
+msgid "In the figure below you can see the progress of 5 learners for the exercise **Numbers to 120** in ascending order."
+msgstr ""
+
+#: ../../coach.rst:77
+msgid "View the progress for a single exercise or resource in a topic."
+msgstr ""
+
+#: ../../coach.rst:79
+msgid "To see the progress of a single learner, click their name. In the figure below you can see the progress of the learner **Hansen** for the exercise **Numbers to 120**. The exercise is still **In progress** as the learner has not completed the 5 correct answers in the row. You can also see that for the *Question 13* the learner has given the correct answer only on the 4th attempt, which indicates that they are still struggling with the given concept."
+msgstr ""
+
+#: ../../coach.rst:84
+msgid "View the details for all the answers and attempts for a single exercise."
+msgstr ""
+
+#: ../../manage/_groups.rst:5
+msgid "Manage Groups"
+msgstr "Mamahala sa mga Grupo"
+
+#: ../../manage/_groups.rst:7
+msgid "In case you need to further divide learners inside classes, for example to address the different progress needs or levels, you can use the **Groups** feature. Create and delete groups, as well as assign learners to them from the **Groups** tab in your **Coach** dashboard. Default view displays the list of all groups for the selected class, with the list of assigned learners for each group."
+msgstr "Sa kaso na ikaw ay nangangailangan ng karagdagang mga mag-aaral na ma-divide sa loob ng mga klase, halimbawa para i-address ang ibang mga kailangan o mga level sa progreso, maaari kang makagamit sa tampok na **Mga Grupo**. Gumawa at magbura ng mga pangkat, kasali na ang pag-assign ng mga mag-aaral sa kanila mula sa tab na **Mga Grupo** sa inyong dasbord ng **Coach**. Ang view na naka-default ay magdi-display sa listahan ng lahat ng mga grupo para sa napiliang klase, kasama ang listahan ng mga mag-aaral na na-assign para sa bawat pangkat."
+
+#: ../../manage/_groups.rst:13
+msgid "To manage Kolibri groups you must sign in as **Super user**, **Admin** or **Coach**."
+msgstr ""
+
+#: ../../manage/_groups.rst:17
+msgid "Create a New Group"
+msgstr "Gumawa ng Bagong Grupo"
+
+#: ../../manage/_groups.rst:19
+msgid "To create a new learner group, follow these steps."
+msgstr "Para makagawa ng bagong grupo ng mag-aaral, sundin ang mga hakbang nito."
+
+#: ../../manage/_groups.rst:21
+msgid "Click the **New group** button."
+msgstr ""
+
+#: ../../manage/_groups.rst:22
+msgid "Give group a desired name."
+msgstr "Bigyan ng ninanais na pangalan ang grupo."
+
+#: ../../manage/_groups.rst:23
+msgid "Click **Save** to confirm, or **Cancel** to exit without creating a group."
+msgstr "Para kumpirmahin i-klik ang **Mag-save**, o ang **Ikansela** para maka-eksit nang hindi nakapaggawa ng grupo."
+
+#: ../../manage/_groups.rst:27
+msgid "Assign Learners to Group"
+msgstr "Magtakda ng mga Mag-aaral sa Grupo"
+
+#: ../../manage/_groups.rst:29
+msgid "Below the existing groups there is a list with all learners currently **NOT** assigned to any groups."
+msgstr ""
+
+#: ../../manage/_groups.rst:31
+msgid "Use checkboxes to select all the learners in the list, or specific ones you want to assign to the group."
+msgstr "Gamitin ang mga checkbox sa pagpili sa lahat ng mga mag-aaral sa listahan, o mga naka-espesipiko na gusto mong italaga sa pangkat."
+
+#: ../../manage/_groups.rst:32
+msgid "Click **Move learners** button on the right side of the list."
+msgstr "I-klik ang pindutan na **I-move ang mga mag-aaral** sa kanang gilid ng listahan."
+
+#: ../../manage/_groups.rst:33
+msgid "Select the group to which you want to assign the selected learners in the **Move learners** window."
+msgstr ""
+
+#: ../../manage/_groups.rst:34
+msgid "Click **Move** to proceed, or **Cancel** to exit without assigning."
+msgstr "I-klik ang **Ilipat** para magpatuloy, o ang **Ikansela** para maka-eksit nang walang naitalaga."
+
+#: ../../manage/_groups.rst:41
+msgid "Move learners between groups"
+msgstr "Ilipat ang mga nag-aaral sa pagitan ng mga pangkat"
+
+#: ../../manage/_groups.rst:43
+msgid "Use checkboxes to select all the user in one group, or specific users you want to assign to another group."
+msgstr "Gamitin ang mga tsekbox para piliin ang lahat ng gumagamit sa isang pangkat, o mga gumagamit na naka-espisipikad na gusto mong ipa-assign sa iba pang grupo."
+
+#: ../../manage/_groups.rst:44
+msgid "Click **Move learners** button on the right side of the origin group."
+msgstr "I-klik ang pindutan ng **Ilipat ang mga mag-aaral** sa kanan ng gilid sa pangkat na pinanggagalingan."
+
+#: ../../manage/_groups.rst:45
+msgid "Select the group to which you want to move the selected learners, or the **Ungrouped** option if you want to remove them from the origin group without assigning to a new one."
+msgstr "I-select ang pangkat na kung saan gusto mong ilipat ang napiliang mga mag-aaral, o ang opsyon na **Naka-ungroup** kung gusto mong tanggalin sila mula sa orihinal na grupo na hindi nag-a-assign ng isang bago."
+
+#: ../../manage/_groups.rst:46
+msgid "Click **Move** to proceed, or **Cancel** to exit without moving."
+msgstr "I-klik ang **Ilipat** para makapagpatuloy, o ang **Ikansela** para maka-eksit nang hindi nanglilipat."
+
+#: ../../manage/_groups.rst:53
+msgid "Rename Group"
+msgstr "Pagpalit sa pangalan ng Grupo"
+
+#: ../../manage/_groups.rst:55
+msgid "To rename group, follow these steps."
+msgstr "Para makapagpalit ng pangalan ng pangkat, sundin ang mga hakbang na ito."
+
+#: ../../manage/_groups.rst:57 ../../manage/_groups.rst:68
+msgid "Click the down arrow icon on the right edge of the desired group."
+msgstr ""
+
+#: ../../manage/_groups.rst:58
+msgid "Select the **Rename group** option."
+msgstr ""
+
+#: ../../manage/_groups.rst:59
+msgid "Input the new name for the group in the confirmation window."
+msgstr "I-input ang bagong pangalan para sa grupo sa window ng kumpirmasyon."
+
+#: ../../manage/_groups.rst:60
+msgid "Click **Save** button to proceed, or **Cancel** to exit without renaming the group."
+msgstr ""
+
+#: ../../manage/_groups.rst:64
+msgid "Delete Group"
+msgstr "Burahin ang Pangkat"
+
+#: ../../manage/_groups.rst:66
+msgid "To delete a group, follow these steps."
+msgstr "Para makapag-bura ng pangkat, sundin ang mga hakbang na ito."
+
+#: ../../manage/_groups.rst:69
+msgid "Select the **Delete group** option."
+msgstr ""
+
+#: ../../manage/_groups.rst:70
+msgid "Click **Delete group** button in the confirmation window to proceed, or **Cancel** to exit without deleting the group."
+msgstr "I-klik ang pindutan na **Magdelete ng pangkat** sa window ng kumpirmasyon para makapagpatuloy, o ang **Kanselahin** para makapag-eksit ng hindi nakakapagdelete ng isang pangkat."
+
+#: ../../manage/_groups.rst:73
+msgid "Learners currently assigned to group will become ungrouped."
+msgstr "Mga mag-aaral na kasalukuyang naka-takda sa grupo ay magiging naka-ungroup."
+
+#: ../../manage/_exams.rst:5
+msgid "Manage Exams"
+msgstr "Mamahala sa mga Eksamen"
+
+#: ../../manage/_exams.rst:7
+msgid "You can view, create and delete exams, as well as assign them to learners, using the **Exams** tab in your **Coach** dashboard. Default view displays the list of all exams in a selected class, with a series of options to set the visibility, (de)activate when required, and view report of students who took them."
+msgstr "Maaari kang maka-byu, makagawa, makapagbura ng mga eksamen, tsaka ang magtakda sa kanila ng mga nag-aaral, sa paggamit sa tab ng **Mga eksamen** sa inyong dasbord ng **Coach**. Ang naka-default na view ay nagpapakita sa listahan ng mga eksamen sa klaseng napagpilian, na may mga serye ng mga opsyon para i-set ang bisibilidad, pag (hindi) aktibahin kung kinakailangan talaga, at ang view ng ulat sa mga estudyanteng kumuha nito."
+
+#: ../../manage/_exams.rst:13
+msgid "To manage **Exams** in Kolibri classes and groups you must sign in as **Coach** or **Admin**."
+msgstr ""
+
+#: ../../manage/_exams.rst:17
+msgid "Create New Exam"
+msgstr "Gumawa ng Bagong Eksamen"
+
+#: ../../manage/_exams.rst:19
+msgid "To create a new exam, follow these steps."
+msgstr "Para makagawa ng bagong eksamen, sundin ang mga hakbang na ito."
+
+#: ../../manage/_exams.rst:21
+msgid "Click the **New exam** button."
+msgstr ""
+
+#: ../../manage/_exams.rst:22
+msgid "Select the content channel from which you wish to select questions for the exam."
+msgstr "Piliin ang tsanel ng nilalaman mula sa kung ano ang gusto mong mga kwestiyon na pipiliin para sa eksamen."
+
+#: ../../manage/_exams.rst:23
+msgid "Click **Create exam** to confirm, or **Cancel** to exit the confirmation window."
+msgstr "I-klik ang **Mag-create ng eksamen** para kumpirmahin, o ang **Ikansela** para makapag-eksir sa window ng kumpirmasyon."
+
+#: ../../manage/_exams.rst:24
+msgid "Fill in the field for the exam title."
+msgstr ""
+
+#: ../../manage/_exams.rst:25
+msgid "Fill in the field for number of questions you want the exam to contain."
+msgstr ""
+
+#: ../../manage/_exams.rst:26
+msgid "Navigate through the topic tree and activate checkboxes of those exercises you want to include in the exam."
+msgstr ""
+
+#: ../../manage/_exams.rst:31
+msgid "As you keep adding the exercises you will see confirmation messages at the bottom."
+msgstr "Sa pagpatuloy mo sa pagdadagdag ng mga pagsasanay ikaw ay makakita ng mga mensaheng pangkumpirmasyon sa ibaba."
+
+#: ../../manage/_exams.rst:34
+msgid "Click **Preview** button to view the result before finishing."
+msgstr ""
+
+#: ../../manage/_exams.rst:39
+msgid "Click **Randomize questions** button to present them in the different order from those in the topic origin."
+msgstr "I-click ang pindutan ng **Nakarandomang mga kwestiyon** para makapag-presenta sa kanila ng iba-ibang ayos mula sa orihinal na paksa."
+
+#: ../../manage/_exams.rst:40
+msgid "Click **Close** button to return to the exam home page."
+msgstr ""
+
+#: ../../manage/_exams.rst:42
+msgid "Click **Finish** button to save the result."
+msgstr "I-klik ang pindutan ng **Tapusin** para makapag-save ng resulta."
+
+#: ../../manage/_exams.rst:46
+msgid "Change Exam Visibility"
+msgstr "Baguhin ang Bisibilidad ng Eksamen"
+
+#: ../../manage/_exams.rst:48
+msgid "Newly created exam will be visible to entire class by default. To assign an exam to one group of learners instead of the whole class, follow these steps:"
+msgstr ""
+
+#: ../../manage/_exams.rst:50
+msgid "Click **Options** for the desired exam and select the **Change visibility** option."
+msgstr ""
+
+#: ../../manage/_exams.rst:51
+msgid "Select the group(s) of learners to whom you wish to assign the exam."
+msgstr "Piliin ang (mga) pangkat ng mga nag-aaral kung saan gusto mong i-asayn sa eksamen."
+
+#: ../../manage/_exams.rst:52
+msgid "Click **Update** to confirm, or **Cancel** to exit the confirmation window."
+msgstr "I-klik ang **Mag-update** para makapag-kumpirma, o ang **Kanselahin** para makapag-eksit sa window ng kumpirmasyon."
+
+#: ../../manage/_exams.rst:59
+msgid "Activate/Deactivate Exam"
+msgstr "Pag-Activate/Pag-deactivate ng Eksamen"
+
+#: ../../manage/_exams.rst:61
+msgid "Once you set the visibility of exam to the chosen group(s) of learners, you need to **Activate** it in order for it to appear in the **Learn** view of the learners to whom you assigned it."
+msgstr "Kapag nai-takda mo na ang bisibilidad ng eksamen para sa mga napiliang (mga) grupo ng mga mag-aaral, kailangan mong **Aktebahin** ito sa pagkaka-ayos para nito na makita ito sa view ng **Pagtuto** sa mga mag-aaral na tinalagaan mo nito."
+
+#: ../../manage/_exams.rst:63
+msgid "Click **Options** for the desired exam and select the **Activate** option."
+msgstr ""
+
+#: ../../manage/_exams.rst:64
+msgid "Click **Activate** to confirm, or **Cancel** to exit the confirmation window."
+msgstr ""
+
+#: ../../manage/_exams.rst:65
+msgid "When the exam period concludes, select the **Deactivate** option and confirm."
+msgstr ""
+
+#: ../../manage/_exams.rst:69
+msgid "View Exam Report"
+msgstr "Silipin ang Ulat sa Eksamen"
+
+#: ../../manage/_exams.rst:71
+msgid "To view the report and scores for learners who have taken the exam, follow these steps."
+msgstr ""
+
+#: ../../manage/_exams.rst:73
+msgid "Click **Options** for the desired exam and select **View report** option."
+msgstr ""
+
+#: ../../manage/_exams.rst:79
+msgid "This view prominently displays the number of learners who already submitted the exam and their average score. It also presents the list of all the learners who had access to the exam, with the respective statuses and scores. Click the name of the learner to view the detailed report with preview of results for each question."
+msgstr ""
+
+#: ../../manage/_exams.rst:85
+msgid "Click each of the questions to preview it and understand better which question learners answered correctly in the exam and how many attempts they had on each answer."
+msgstr ""
+
+#: ../../manage/_exams.rst:92
+msgid "Delete Exam"
+msgstr "Burahin ang Eksamen"
+
+#: ../../manage/_exams.rst:94
+msgid "To delete exam, follow these steps."
+msgstr "Para makapag-bura ng eksamen, sundin ang mga hakbang na ito."
+
+#: ../../manage/_exams.rst:96
+msgid "Click **Options** for the desired exam and select **Delete** option."
+msgstr ""
+
+#: ../../manage/_exams.rst:97
+msgid "Click **Delete** button in the confirmation window to proceed, or **Cancel** to exit without deleting the exam."
+msgstr "I-klik ang pindutan na **Mag-delete** sa window ng kumpirmasyon para makapagpatuloy, o ang **Ikansela** para makapag-eksit ng hindi nakapag-delete ng eksamen."
+
+#: ../../manage/_exams.rst:100
+msgid "All data from the exam you are deleting will be lost."
+msgstr "Lahat ng mga datos mula sa eksamen na iyong idi-delete ay mawawala."
+
+#: ../../manage/_exams.rst:103
+msgid "Rename Exam"
+msgstr "Palitan ang pangalan ng Eksamen"
+
+#: ../../manage/_exams.rst:105
+msgid "To rename exam, follow these steps."
+msgstr "Para makapagpalit ng pangalan ng eksamen, sundin ang mga hakbang na."
+
+#: ../../manage/_exams.rst:107
+msgid "Click **Options** for the desired exam and select  **Rename** option."
+msgstr ""
+
+#: ../../manage/_exams.rst:108
+msgid "Change the exam title in the confirmation window."
+msgstr "Baguhin ang titulo ng eksamen sa window ng kumpirmasyon."
+
+#: ../../manage/_exams.rst:109
+msgid "Click **Rename** button  to proceed, or **Cancel** to exit without renaming the exam."
+msgstr "I-klik ang pindutan na **Palitan ang Pangalan** para makapagpatuloy o ang **Kanselahin** para makapag-eksit na hindi nakakapagpalit ng pangalan sa eksamen."
+
