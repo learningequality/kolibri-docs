@@ -4,12 +4,10 @@ Kolibri Docs
 
 .. image:: https://img.shields.io/badge/docs-user-ff69b4.svg
   :target: http://kolibri.readthedocs.org/en/latest/
-.. image:: https://img.shields.io/badge/docs-developer-69ffb4.svg
-  :target: http://kolibri-dev.readthedocs.org/en/developer/
+.. image:: https://img.shields.io/badge/translate-crowdin-69ffb4.svg
+  :target: http://crowdin.com/project/kolibri-docs/
 .. image:: https://img.shields.io/badge/support-on%20discourse-blue.svg
   :target: https://community.learningequality.org/
-.. image:: https://img.shields.io/badge/irc-%23kolibri%20on%20freenode-blue.svg
-  :target: http://webchat.freenode.net?channels=%23kolibri
 .. image:: https://img.shields.io/badge/demo-online-green.svg
   :target: http://kolibridemo.learningequality.org/
 
@@ -19,7 +17,7 @@ What is this?
 
 This is the Documentation repository of Kolibri, where documentation is built.
 
-** To translate the documentation, please visit our `CrowdIn project kolibri-docs <http://crowdin.com/project/kolibri-docs/>`__ **
+To translate the documentation, please visit our `CrowdIn project kolibri-docs <http://crowdin.com/project/kolibri-docs/>`__
 
 
 Building the docs locally
