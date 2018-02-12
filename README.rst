@@ -27,25 +27,25 @@ Building the docs locally
 
 You will need an environment with `make <https://en.wikipedia.org/wiki/Make_(software)>`__
 
-```bash
-# Install Python requirements
-$ pip install -r requirements.txt
+.. code-block:: bash
 
-# Build docs with sphinx
-$ make docs  
+  # Install Python requirements
+  $ pip install -r requirements.txt
 
-# Open the docs with Firefox
-$ firefox docs/_build/html/index.html
+  # Build docs with sphinx
+  $ make docs  
 
-# Build a translated (Spanish) version
-$ make docs-translated lang=es
+  # Open the docs with Firefox
+  $ firefox docs/_build/html/index.html
 
-# Install the crowdin-cli client to download/upload translations
-$ make crowdin-install
+  # Build a translated (Spanish) version
+  $ make docs-translated lang=es
 
-# Fetch translations
-$ CROWDIN_API_KEY="your-secret-key" make crowdin-download crowdin-branch=release-v0.7.x
-```
+  # Install the crowdin-cli client to download/upload translations
+  $ make crowdin-install
+
+  # Fetch translations
+  $ CROWDIN_API_KEY="your-secret-key" make crowdin-download crowdin-branch=release-v0.7.x
 
 
 Workflow
