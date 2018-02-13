@@ -10,14 +10,11 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import django
 import inspect
 import os
 import sys
 
 from datetime import datetime
-from django.utils.html import strip_tags
-from django.utils.encoding import force_text
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -36,6 +33,14 @@ builddir = os.path.join(cwd, '_build')
 # When we start loading stuff from kolibri, we're gonna need this
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kolibri.deployment.default.settings.base")
 os.environ["KOLIBRI_HOME"] = os.path.join(builddir, 'kolibri_home')
+
+sys.path.append(os.path.join(os.path.dirname(kolibri.__file__), "dist"))
+
+print(sys.path)
+
+import django
+from django.utils.html import strip_tags
+from django.utils.encoding import force_text
 
 if not os.path.exists(os.environ["KOLIBRI_HOME"]):
     os.mkdir(os.environ["KOLIBRI_HOME"])
