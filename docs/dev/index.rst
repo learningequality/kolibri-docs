@@ -14,14 +14,9 @@ Architecture
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
-   tests
-   stack
-   plugins
-   building
-   conventions
-   frontend
-   i18n
+   architecture/*
 
 .. _themes:
 
@@ -31,12 +26,12 @@ Themes
 .. toctree::
    :maxdepth: 1
 
-   content
+   content/index
    dataflow
-   uap
+   uap/index
    user_management
    asset_loading
-   logger
+   logger/index
 
 References
 ----------
@@ -44,6 +39,7 @@ References
 .. toctree::
   :maxdepth: 1
 
+  upgrade
   cli
   files
   glossary
