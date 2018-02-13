@@ -1,0 +1,13 @@
+project_identifier: "kolibri-docs"
+api_key_env: CROWDIN_API_KEY
+
+base_path: ./docs
+
+files:
+  - source: '/locale/docs/en/LC_MESSAGES/*.po'
+    translation: '/locale/docs/%locale_with_underscore%/LC_MESSAGES/%original_file_name%'
+    languages_mapping:
+      locale_with_underscore:
+        ar: ar
+        es-ES: es
+        hi: hi

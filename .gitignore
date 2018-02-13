@@ -1,0 +1,61 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+.cache
+.eggs
+*.egg
+*.egg-info
+dist
+dist-packages-temp
+dist-packages-cache
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+pip
+
+# Unit test / coverage reports
+.coverage*
+.tox
+nosetests.xml
+htmlcov/
+kolibrihome_test/
+
+# Translations
+*.mo
+kolibri/locale/en/
+
+# IDE stuff
+.project
+.vscode
+.pydevproject
+.venv
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Sphinx
+docs/_build
+docs-developer/_build
+
+# swap files
+*.swp
+
+# ignore strange OSX icon files. (Note there are special characters after 'Icon')
+# see http://stackoverflow.com/a/30755378
+Icon
+
+#ignore added files with DS_Store
+.DS_Store
+
+# Ignore downloaded crowdin client
+crowdin-cli.jar
