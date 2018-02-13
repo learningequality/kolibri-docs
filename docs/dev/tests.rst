@@ -17,11 +17,13 @@ Running tests with a specific Python version:
 
      $ tox -e py2.7  # or...
      $ tox -e py3.4  # or...
-     $ tox -e py3.5  # or...
+     $ tox -e py3.5
 
 To run a subset of tests::
 
      $ py.test test/test_kolibri.py
+     $ # ...or with a tox environment
+     $ tox -e 3.5 test/test_kolibri.py
 
 
 JS unit tests

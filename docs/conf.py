@@ -13,8 +13,8 @@ import sys
 # IMPORTANT! KEEP THIS UPDATED TO REFLECT WHICH VERSION THESE DOCS ARE WRITTEN
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
-# series. 
-DISPLAY_VERSION = "0.4.x"
+# series.
+DISPLAY_VERSION = "0.5.x"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
