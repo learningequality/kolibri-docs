@@ -1,59 +1,106 @@
-Getting Started
----------------
+.. raw:: html
+
+    <style>
+        .row {clear: both}
+
+        @media only screen and (min-width: 1000px),
+               only screen and (min-width: 500px) and (max-width: 768px){
+
+            .column {
+                padding-left: 5px;
+                padding-right: 5px;
+                float: left;
+            }
+
+            .column3  {
+                width: 33.3%;
+            }
+
+            .column2  {
+                width: 50%;
+            }
+        }
+    </style>
+
+
+Kolibri User Guide
+==================
+
+**Kolibri** is an open-source educational platform specially designed to provide offline access to a wide range of quality, openly licensed educational content in low-resource contexts like rural schools, refugee camps, orphanages, and also in non-formal school programs.
+
+Kolibri can serve high quality education content from several publicly available **content channels**, collections of educational resources (exercises, videos, audio or document files) and associated metadata, prepared and organized for their use in Kolibri. It works in conjunction with `Kolibri Studio <https://studio.learningequality.org>`_, the curriculum tool used to organize content and build custom content channels, aligned to the local curricula, or according to specific learning needs.
+
+   .. figure:: img/content-channels-logos.png
+      :alt: Some publicly available learning content that may be included in Kolibri.
+
+      Some publicly available learning content that may be included in Kolibri.
+
+
+.. rst-class:: clearfix row
+
+
+.. rst-class:: column column2
+
+:ref:`Learners <learn>` - start here
+************************************
+
+Weather you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`content and activities <content_types>` can you work with, and how to submit :ref:`exams <exams>` created by your coaches or tutors.
+
+
+.. rst-class:: column column2
+
+For :ref:`Coaches and Tutors <coach>`
+*************************************
+
+Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answer to a particular questions. Create and :ref:`manage different learner groups <manage_groups>`, administer :ref:`exams <manage_exams>` and view reports.
+
+
+.. rst-class:: clearfix row
+
+For :ref:`Administrators and Superusers <manage>` of Kolibri 
+************************************************************
+
+Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolibri server on the supported platforms, and :ref:`configure other devices <access_LAN>` in the local network to access its content. Proceed on how to :ref:`import content channels <manage_content_ref>`, create and manage :ref:`users <manage_users_ref>` and :ref:`classes <manage_classes_ref>`. Configure the :ref:`settings for your facility <manage_facility_ref>`, and assign or edit :ref:`permissions <permissions>` for other users. Learn how to work with Kolibri from :ref:`the command line <command_line>`, 
+:ref:`troubleshoot network issues <network>`, and ask for support on our :ref:`Community Forums <support>`.
+
+Happy learning with Kolibri!
+
+.. image:: img/kolibri-use-cases.png
+  :alt: flying Kolibri
+
 
 .. toctree::
-  :maxdepth: 1
+   :maxdepth: 2
+   :hidden:
 
-  user/index
-  dev/index
-  changelog
-  contributing/index
-  authors
+   install
+   
+.. toctree::
+   :maxdepth: 3
+   :hidden:
 
-Kolibri
-=======
+   access
 
-.. image:: https://badge.fury.io/py/kolibri.svg
-   :target: https://pypi.python.org/pypi/kolibri/
-.. image:: https://travis-ci.org/learningequality/kolibri.svg
-  :target: https://travis-ci.org/learningequality/kolibri
-.. image:: http://codecov.io/github/learningequality/kolibri/coverage.svg?branch=master
-  :target: http://codecov.io/github/learningequality/kolibri?branch=master
-.. image:: https://readthedocs.org/projects/kolibri/badge/?version=latest
-  :target: http://kolibri.readthedocs.org/en/latest/
+.. toctree::
+   :maxdepth: 3
+   :hidden:
 
+   manage
 
-What is Kolibri?
-----------------
+.. toctree::
+   :maxdepth: 3
+   :hidden:
 
-Kolibri is a Learning Management System / Learning App designed to run on low-power devices, targeting the needs of
-learners and teachers in contexts with limited infrastructure. A user can install Kolibri and serve the app on a local
-network, without an internet connection. Kolibri installations can be linked to one another, so that user data and
-content can be shared. Users can create content for Kolibri and share it when there is network access to another
-Kolibri installation or the internet.
+   coach
 
-At its core, Kolibri is about serving educational content. A typical user (called a Learner) will log in to Kolibri
-to consume educational content (videos, documents, other multimedia) and test their understanding of the content by
-completing exercises and quizzes, with immediate feedback. A user’s activity will be tracked to offer individualized
-insight (like "next lesson" recommendations), and to allow user data to be synced across different installations --
-thus a Kolibri learner can use his or her credentials on any linked Kolibri installation, for instance on different
-devices at a school.
+.. toctree::
+   :maxdepth: 2
+   :hidden:
 
-See https://learningequality.org/kolibri/ for more info.
+   learn
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
 
-How can I use it?
------------------
-
-Kolibri is under active development and is not yet ready to be used. In the meantime, take a look at `KA-Lite <https://learningequality.org/ka-lite/>`_, Kolibri's predecessor which is already deployed around the world.
-
-
-How can I contribute?
----------------------
-
-.. warning::
-  We welcome new contributors but since **Kolibri** is still in development, the API is not yet completely ready to integrate external plugins. Please start by:
-
-* Reading our `Developer Documentation <http://kolibri.readthedocs.io/en/develop/dev/getting_started.html>`_ available online, and in the ``docs/`` directory.
-* Contacting us on the Mailing list: `Google groups <https://groups.google.com/a/learningequality.org/forum/#!forum/dev>`_.
-* or via IRC: #kolibri on Freenode.
+   faq
