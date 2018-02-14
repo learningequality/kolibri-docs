@@ -2,4 +2,3 @@
 sphinx
 sphinx_rtd_theme
 sphinx-intl
-kolibri>=0.6,<0.7
