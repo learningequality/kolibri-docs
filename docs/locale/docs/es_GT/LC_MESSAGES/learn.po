@@ -1,0 +1,339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-02 15:44-0800\n"
+"PO-Revision-Date: 2018-02-09 14:25-0500\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Spanish, Guatemala\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: es-GT\n"
+"X-Crowdin-File: /release-v0.7.x/learn.po\n"
+"Language: es_GT\n"
+
+#: ../../learn.rst:16 ../../learn.rst:59
+msgid "Learn with Kolibri"
+msgstr ""
+
+#: ../../learn.rst:21
+msgid "Access Kolibri"
+msgstr ""
+
+#: ../../learn.rst:24
+msgid "If you are using Kolibri in your school, education center or facility, your coach or administrator will provide the instructions how to open the sign-in page, and username and password if necessary."
+msgstr ""
+
+#: ../../learn.rst:25
+msgid "If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access` according to your operating system."
+msgstr ""
+
+#: ../../learn.rst:27
+msgid "To sign in to **Kolibri** and start learning, follow these steps:"
+msgstr ""
+
+#: ../../learn.rst:29
+msgid "Type your username and password (may be optional)."
+msgstr ""
+
+#: ../../learn.rst:30
+msgid "Click the **SIGN IN** button."
+msgstr ""
+
+#: ../../learn.rst:35
+msgid "Main sign in page."
+msgstr ""
+
+#: ../../learn.rst:39
+msgid "If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page."
+msgstr ""
+
+#: ../../learn.rst:44
+msgid "Location of links to \"Sign in\" to Kolibri."
+msgstr ""
+
+#: ../../learn.rst:46
+msgid "Once you have logged in into Kolibri, you can see and edit your user data from the **Profile** option in the main sidebar menu (below **Learn**)."
+msgstr ""
+
+#: ../../learn.rst:51
+msgid "View and edit your user profile."
+msgstr ""
+
+#: ../../learn.rst:56
+msgid "To sign out from Kolibri you can either:"
+msgstr ""
+
+#: ../../learn.rst:54
+msgid "Click the user icon in the upper right corner and select **Sign out** option, **OR**"
+msgstr ""
+
+#: ../../learn.rst:55
+msgid "Select **Sign out** option in the main sidebar menu."
+msgstr ""
+
+#: ../../learn.rst:61
+msgid "Each time you login into **Kolibri**, the first thing you will see is the **Learn** page. Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest)."
+msgstr ""
+
+#: ../../learn.rst:64
+msgid "Recommended"
+msgstr ""
+
+#: ../../learn.rst:66
+msgid "In the **Recommended** tab you can see various sections:"
+msgstr ""
+
+#: ../../learn.rst:68
+msgid "**Most popular** displays the most frequently used materials in your school or facility."
+msgstr ""
+
+#: ../../learn.rst:69
+msgid "**Next steps** displays suggestions according to  topics and materials you previously visited."
+msgstr ""
+
+#: ../../learn.rst:70
+msgid "**Resume** displays activities that you started but haven’t finished yet."
+msgstr ""
+
+#: ../../learn.rst:71
+msgid "**Featured in...** displays a preview of activities for each content channel you have access on Kolibri."
+msgstr ""
+
+#: ../../learn.rst:74
+msgid "**Next steps** and **Resume** are not visible if you are browsing as a guest."
+msgstr ""
+
+#: ../../learn.rst:76
+msgid "The number of displayed content items in each row will depend on the width of your display, but you can browse through with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows."
+msgstr ""
+
+#: ../../learn.rst:81
+msgid "Learn page gives you access to all Kolibri learning content and activities."
+msgstr ""
+
+#: ../../learn.rst:84
+msgid "Channels"
+msgstr ""
+
+#: ../../learn.rst:86
+msgid "**Topics** tab offers you the option to navigate through the complete set of learning topics and materials available in Kolibri. Use it as you wish, or according to indications from your teachers and coaches."
+msgstr ""
+
+#: ../../learn.rst:88
+msgid "Depending on how your school and teachers or coaches decided to organize the content, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the content from each available channel."
+msgstr ""
+
+#: ../../learn.rst:93
+msgid "Content in Kolibri is grouped in channels."
+msgstr ""
+
+#: ../../learn.rst:96
+msgid "Navigate Kolibri topics with breadcrumb links"
+msgstr ""
+
+#: ../../learn.rst:98
+msgid "When you are browsing a topic in Kolibri, the **Breadcrumb** links indicate previously visited, more general topics. Current topic is at the last position, and you can click any of the previous links in the breadcrumb to go back to a specific broader topic."
+msgstr ""
+
+#: ../../learn.rst:103
+msgid "Use breadcrumbs links to navigate back through Kolibri topics."
+msgstr ""
+
+#: ../../learn.rst:107
+msgid "Search"
+msgstr ""
+
+#: ../../learn.rst:109
+msgid "If you are looking for a specific subject, topic, or term, use the **Search** feature:"
+msgstr ""
+
+#: ../../learn.rst:111
+msgid "Click the magnifying glass icon in the upper right corner."
+msgstr ""
+
+#: ../../learn.rst:112
+msgid "Type the word or combination of words you are looking for in the search field."
+msgstr ""
+
+#: ../../learn.rst:113
+msgid "Press **Enter** to display search results below the field."
+msgstr ""
+
+#: ../../learn.rst:118
+msgid "Search page gives you option to search for a specific term in Kolibri."
+msgstr ""
+
+#: ../../learn.rst:123
+msgid "Content types"
+msgstr ""
+
+#: ../../learn.rst:126
+msgid "Exercises"
+msgstr ""
+
+#: ../../learn.rst:128
+msgid "Kolibri **Exercises** can require you to do different things: fill in a missing number, write a formula, choose one of the available options, etc. Each correct answer gets you a check mark, and majority of exercises require 5 correct answers in a row to be completed. Some exercises can offer one or more hints, to help you solve the problem."
+msgstr ""
+
+#: ../../learn.rst:130
+msgid "Independent of the required action (writing an answer yourself or choosing one of the options), these are the steps to follow."
+msgstr ""
+
+#: ../../learn.rst:132
+msgid "**Read the question carefully**."
+msgstr ""
+
+#: ../../learn.rst:133
+msgid "Write the answer or choose one of the provided options."
+msgstr ""
+
+#: ../../learn.rst:134
+msgid "When you are ready to submit, click the **Check answer** button."
+msgstr ""
+
+#: ../../learn.rst:136
+msgid "If the answer is correct and a check mark appears, click the **Next question** button to proceed."
+msgstr ""
+
+#: ../../learn.rst:137
+msgid "If the answer is incorrect, click the **Get a hint** button, read the suggestions, and try to answer again."
+msgstr ""
+
+#: ../../learn.rst:138
+msgid "The progress bar below the exercise is taking into account only the most recent answers you give, and that means that you need to have the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed."
+msgstr ""
+
+#: ../../learn.rst:143
+msgid "The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another."
+msgstr ""
+
+#: ../../learn.rst:145
+msgid "Once you have achieved the required number of correct answers in a row, click the **Next item** button, to continue learning with the rest of the material in that topic."
+msgstr ""
+
+#: ../../learn.rst:146
+msgid "If you are unable to solve some questions, try reviewing the videos in the **Recommended** section below the exercise, or seek help from your peers or teacher/coach."
+msgstr ""
+
+#: ../../learn.rst:151
+msgid "Exercise page in Kolibri."
+msgstr ""
+
+#: ../../learn.rst:155
+msgid "Video and Audio Player options"
+msgstr ""
+
+#: ../../learn.rst:157
+msgid "To play videos and listen to audio files in Kolibri you have several available control buttons at the bottom of the player screen. Move the cursor or tap on the player screen to make appear the control buttons while playing."
+msgstr ""
+
+#: ../../learn.rst:162
+msgid "Kolibri video and audio player."
+msgstr ""
+
+#: ../../learn.rst:164
+msgid "(controls at the bottom of the player)"
+msgstr ""
+
+#: ../../learn.rst:166
+msgid "Play/Pause buttons"
+msgstr ""
+
+#: ../../learn.rst:167
+msgid "Rewind/Fast forward buttons by +/- 10 seconds"
+msgstr ""
+
+#: ../../learn.rst:168
+msgid "Time tracker indicator with progress bar"
+msgstr ""
+
+#: ../../learn.rst:169
+msgid "Video duration indicator"
+msgstr ""
+
+#: ../../learn.rst:170
+msgid "Volume scrollbar"
+msgstr ""
+
+#: ../../learn.rst:171
+msgid "Playback speed selector"
+msgstr ""
+
+#: ../../learn.rst:172
+msgid "Display **closed captions** (subtitles)"
+msgstr ""
+
+#: ../../learn.rst:173
+msgid "Fullscreen button"
+msgstr ""
+
+#: ../../learn.rst:176
+msgid "Use the **Download content** button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options."
+msgstr ""
+
+#: ../../learn.rst:181
+msgid "PDF Viewer options"
+msgstr ""
+
+#: ../../learn.rst:184
+msgid "Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri."
+msgstr ""
+
+#: ../../learn.rst:186
+msgid "Use the **Enter fullscreen** button to open the PDF file in fullscreen view."
+msgstr ""
+
+#: ../../learn.rst:187
+msgid "Use the **Esc** key to close the fullscreen view and return."
+msgstr ""
+
+#: ../../learn.rst:193
+msgid "Use the **Download content** button below the PDF viewer to download the PDF file to your computer."
+msgstr ""
+
+#: ../../learn.rst:198
+msgid "Exams"
+msgstr ""
+
+#: ../../learn.rst:200
+msgid "If your teacher/coach scheduled an exam for you or your class, it will be available through the **Exams** tab. You may have more than one exam available at the time."
+msgstr ""
+
+#: ../../learn.rst:206
+msgid "Press the button **Start** for the exam you are ready to start taking."
+msgstr ""
+
+#: ../../learn.rst:207
+msgid "You can go on answering the questions in the order you prefer: move through questions with **Previous** and **Next question** buttons, or click on the question number in the column on the left side."
+msgstr ""
+
+#: ../../learn.rst:212
+msgid "Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side."
+msgstr ""
+
+#: ../../learn.rst:213
+msgid "You can review and correct your answers to all questions as many times you need before submitting."
+msgstr ""
+
+#: ../../learn.rst:214
+msgid "Press the *Back to exam list* if you want to pause the exam and come back later."
+msgstr ""
+
+#: ../../learn.rst:215
+msgid "Press the button **Continue** to resume when you are ready."
+msgstr ""
+
+#: ../../learn.rst:220
+msgid "Press the button **Submit exam** when you are positive that you answered all the questions, and you want to submit it for grading."
+msgstr ""
+
+#: ../../learn.rst:221
+msgid "You will see instant feedback with the result of your exam."
+msgstr ""
+
