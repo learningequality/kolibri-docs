@@ -1,0 +1,1031 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-02 15:44-0800\n"
+"PO-Revision-Date: 2018-02-09 14:25-0500\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Filipino\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fil\n"
+"X-Crowdin-File: /release-v0.7.x/manage.po\n"
+"Language: fil_PH\n"
+
+#: ../../manage.rst:16
+msgid "Manage Kolibri"
+msgstr "Mamahala sa Kolibri"
+
+#: ../../manage/_user_roles.rst:4
+msgid "Default User Roles"
+msgstr "Mga Tungkulin ng Gumagamit na Naka-default"
+
+#: ../../manage/_user_roles.rst:6
+msgid "Kolibri users by default can be divided in 3 different roles with respective access to features."
+msgstr "Ang mga gumagamit ng Kolibri ay maaaring maihiwalay sa 3 na magkakaibang mga tungkulin na mayroon pansariling pag-akses sa mga featyur."
+
+#: ../../manage/_user_roles.rst:9
+msgid "Default user roles"
+msgstr "Naka-default na mga tungkulin ng gumagamit"
+
+#: ../../manage/_user_roles.rst:11
+msgid "**Learners** can:"
+msgstr "Ang mga **Nag-aaral** ay maaaring:"
+
+#: ../../manage/_user_roles.rst:12 ../../manage/_user_roles.rst:15
+#: ../../manage/_user_roles.rst:21 ../../manage/_user_roles.rst:36
+msgid "View content and have their progress tracked"
+msgstr "I-view ang kontent at subaybayin ang kanilang progreso"
+
+#: ../../manage/_user_roles.rst:17
+msgid "**Coaches** can:"
+msgstr "Ang mga **Coach** ay maaaring:"
+
+#: ../../manage/_user_roles.rst:16 ../../manage/_user_roles.rst:22
+#: ../../manage/_user_roles.rst:37
+msgid "View *Coach* dashboard and track progress of other users and usage stats for individual exercises"
+msgstr "Tingnan ang dashbord ng **Coach** at subaybayan ang progreso ng ibang gumagamit at ang istatistiko ng paggamit para sa indibidwal na mga pagsasanay"
+
+#: ../../manage/_user_roles.rst:17 ../../manage/_user_roles.rst:24
+#: ../../manage/_user_roles.rst:39
+msgid "Create/Edit/Delete *Groups* in *Classes* and add users to them"
+msgstr "Gumawa/I-edit/Magbura ng mga *Grupo* sa mga *Klase* at magdagdag ng mga gumagamit sa kanila"
+
+#: ../../manage/_user_roles.rst:18
+msgid "Create/Edit/Delete *Exams* and assign them to users"
+msgstr "Gumawa/Mag-Edit/Magbura ng mga *Eksamen* at italaga sa kanilang mga gumagamit"
+
+#: ../../manage/_user_roles.rst:26
+msgid "**Admins** can:"
+msgstr "Ang mga **Admin** ay maaaring:"
+
+#: ../../manage/_user_roles.rst:23 ../../manage/_user_roles.rst:38
+msgid "Create/Edit/Delete other **Admins**, **Coaches**, and **Learners**"
+msgstr "Gumawa/Mag-Edit/Mag-delet ng iba pang mga **Admin**, mga **Coach**, at mga **Nag-aaral**"
+
+#: ../../manage/_user_roles.rst:25 ../../manage/_user_roles.rst:40
+msgid "Create/Edit/Delete *Classes* and enroll users in them"
+msgstr "Gumawa/Mag-Edit/Magbura ng mga **Klase** at i-enrol ang mga gumagamit sa kanila"
+
+#: ../../manage/_user_roles.rst:26 ../../manage/_user_roles.rst:41
+msgid "View/Edit *Facility configuration* settings"
+msgstr "Tingnan/I-edit ang mga setting sa *Konfigurasyon ng pasilidad*"
+
+#: ../../manage/_user_roles.rst:27 ../../manage/_user_roles.rst:42
+msgid "Export *Detail* and *Summary* logs usage data"
+msgstr "Magluwas ng *Detalye* at *Sumaryo* ng mga log sa datos ng paggamit"
+
+#: ../../manage/_user_roles.rst:31
+msgid "Kolibri Super Users"
+msgstr "Mga Gumagamit na Super ng Kolibri"
+
+#: ../../manage/_user_roles.rst:33
+msgid "Kolibri **Super users** have all device permissions and are able to :ref:`assign them to other users <permissions>`. Therefore **Super users** can:"
+msgstr "Ang mga **Gumagamit na Super** ng Kolibri ay mayroong permisyon sa lahat ng mga aparato at kayang-kayang :ref: ` mag-asayn ng iba pang <permissions> gumagamit sa kanila`. Sa ganoong dahilan ang **Mga gumagamit na Super** ay maaaring:"
+
+#: ../../manage/_user_roles.rst:43
+msgid "Import/Export *Content* channels"
+msgstr "Mag-angkat/Magluwas ng mga tsanel ng *Nilalaman*"
+
+#: ../../manage/_user_roles.rst:44
+msgid "View/Edit *Permissions* of other users"
+msgstr "I-byu/Mag-edit sa *Mga Permisyon* ng iba pang mga gumagamit"
+
+#: ../../manage/_user_roles.rst:48
+msgid "Assign Additional Permissions"
+msgstr "Mag-asayn ng Karagdagang mga Permisyon"
+
+#: ../../manage/_user_roles.rst:50
+msgid "By default, only **Super users** can view the **Device** dashboard, import/export **Content** channels in Kolibri, and modify **Permissions** for other users. However, depending on the needs of the institution, **Super users** can also :ref:`grant these permissions <permissions>` to other users."
+msgstr "Sa pagkaka-default, ang **mga gumagamit na Super** lamang ang maaaring makakatingin sa dashbord ng **Aparato**, maka-angkat/makapag-luwas ng mga tsanel ng **Nilalaman** sa Kolibri, at makapag-modifika sa **Mga Permisyon** ng iba pang mga gumagamit. Subalit, nakadepende ito sa kinakailangan ng institusyon, ang **mga gumagamit na Super** maaari ring :ref: ` makapag-grant sa mga permisyong ito <permissions> ` sa iba pang mga gumagamit."
+
+#: ../../manage/_device.rst:4
+msgid "Manage Device"
+msgstr "Mamahala sa Debays"
+
+#: ../../manage/_device.rst:6
+msgid "You can manage content and permissions, and view the detailed info of the device where Kolibri is running from the **Device** dashboard."
+msgstr "Ikaw ay maaaring makapamahal sa nilalaman at mga permisyon, at silipin ang infong nakadetalyado sa iyong device kung saan ang Kolibri ay gumagana mula sa dashbord ng **Device**."
+
+#: ../../manage/_device.rst:9
+msgid "To manage device settings you must have the appropriate permissions."
+msgstr "Para makapag-pamahala sa mga setting nga debays kailangan mong magkaroon ng kinauukulang mga permisyon."
+
+#: ../../manage/_device.rst:15
+msgid "Assign Permissions"
+msgstr "I-asayn ang mga Permisyon"
+
+#: ../../manage/_device.rst:17
+msgid "You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the **Permission** tab in the  **Device** dashboard (|lock| icon)."
+msgstr "Ikaw ay maaaring makapagtalaga ng karagdagang mga permisyon sa gumagamit ng Kolibri na kung saan ito ay magpo-provide sa kanila ng higit pang akses sa higit pang mga tampok kung ikukumpara sa kanilang :ref:` mga tungkulin ng gumagamit <user_roles>`. Para makapagpamahala sa mga permisyon ng gumagamit ng Kolibri, gamitin ang tab na **Permisyon** sa dashbord ng **Device** (|naka-lock| na ikono)."
+
+#: ../../manage/_device.rst:23
+msgid "Permission to Manage Content"
+msgstr "Permisyon para Makapagpamahala ng Nilalaman"
+
+#: ../../manage/_device.rst:25
+msgid "To grant permission to manage content channels in Kolibri to another user, follow these steps."
+msgstr "Para makapag-grant ng permisyon sa pamamahala sa mga tsanel ng nilalaman sa Kolibri patungo sa ibang gumagamit, sundin ang mga hakbang na’to."
+
+#: ../../manage/_device.rst:27 ../../manage/_device.rst:42
+msgid "Click **Edit permissions** for the chosen user."
+msgstr "I-klik ang **Mag-edit sa mga permisyon** para sa gumagamit na napilian."
+
+#: ../../manage/_device.rst:28
+msgid "Under **Device Permissions** activate the option *Can import and export content channels*."
+msgstr "Sa ilalim ng **Mga Permisyon sa Debays** aktebahin ang opsyong *Maaaring makapag-angkat/makapag-luwas ng mga tsanel ng nilalaman*."
+
+#: ../../manage/_device.rst:29 ../../manage/_device.rst:44
+#: ../../manage/_facility.rst:9
+msgid "Click **Save changes** to apply and finish."
+msgstr "I-klik ang **I-seyb ang mga pagbabago** para i-aplay at tapusin."
+
+#: ../../manage/_device.rst:34
+msgid "The users who have been granted the permissions to manage content channels will have a black key indicator in front of their name, and will be able to see the **Device** dashboard with the **Content** tab."
+msgstr "Ang mga gumagamit na napagkalooban ng mga permisyon para makapag-pamahala sa mga tsanel ng nilalaman ay magkakaroon ng indikador na itim na key sa harapan ng kani-kanilang pangalan, at maaaring makapagsilipbsa dashbord ng **Debays** sa tab ng **Nilalaman**."
+
+#: ../../manage/_device.rst:38
+msgid "Super User Permissions"
+msgstr "Mga Permisyon ng Gumagamit na Super"
+
+#: ../../manage/_device.rst:40
+msgid "To grant **Super user** permissions to another user, follow these steps."
+msgstr "Para makapag-grant ng mga permisyong pang **Super na gumagamit** sa ibang gumagamit, sundin ang mga hakbang na’to."
+
+#: ../../manage/_device.rst:43
+msgid "Activate the option *Make superuser*."
+msgstr "Aktebahin ang opsyong *Gumawa ng superuser*."
+
+#: ../../manage/_device.rst:49
+msgid "The users who have been granted the **Super user** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs."
+msgstr "Ang mga gumagamit na pinagkakalooban ng mg permisyong pang **Gumagamit na Super** ay magkakaroon ng indikador na dilaw na key sa harapan ng kani-kanilang pangalan, at maaaring makapabyu sa dashbord ng **Debays** kasama na ang dalawang mga tab na mga **Nilalaman** at ang **Mga Permisyon**."
+
+#: ../../manage/_device.rst:59
+msgid "View Device Info"
+msgstr "I-byu ang Info ng Debays"
+
+#: ../../manage/_device.rst:61
+msgid "To view the detailed info of the device where Kolibri is running on, use the **Info** tab in the  **Device** dashboard (|info| icon). This information will be useful in case you need to report an issue with Kolibri to FLE support team. Make note or copy the following device details:"
+msgstr "Para makapag-byu sa detalyadong info sa debays na kung saan ang Kolibri ay nagtatakbo, gamitin ang tab na **Info** sa dashbord ng **Debays** (|info| ikono). Ang impormasyong ito ay sobrang kapakipakinabang inkasong kinakailangan mong mag-report ng isang isyu sa Kolibri sa team nagsusporta sa FLE. Gumawa ng nota o kopya para sa mga sumusunod na mga detalye ng debays:"
+
+#: ../../manage/_device.rst:63
+msgid "Kolibri version"
+msgstr "Bersyon ng Kolibri"
+
+#: ../../manage/_device.rst:64
+msgid "Server IP/URL(s)"
+msgstr "Serber IP/(mga) URL"
+
+#: ../../manage/_device.rst:65
+msgid "Database path"
+msgstr "Dadaanan ng Database"
+
+#: ../../manage/_device.rst:66
+msgid "Device name"
+msgstr "Pangalan ng device"
+
+#: ../../manage/_device.rst:67
+msgid "Operating system"
+msgstr "Sistema sa pag-o-opeyret"
+
+#: ../../manage/_device.rst:68
+msgid "Free disk space"
+msgstr "Bakanteng ispes ng disk"
+
+#: ../../manage/_device.rst:69
+msgid "Server time"
+msgstr "Oras ng serber"
+
+#: ../../manage/_device.rst:70
+msgid "Server timezone"
+msgstr "Taymzone ng serber"
+
+#: ../../manage/_device.rst:76
+msgid "Find out the detailed device info in the Device > Info tab."
+msgstr "Alamin ang info ng device na detalyado sa Device > tab ng Info."
+
+#: ../../manage/_content.rst:4
+msgid "Manage Content"
+msgstr "Mamahala sa Nilalaman"
+
+#: ../../manage/_content.rst:7
+msgid "To manage Kolibri content channels you must have the appropriate permissions."
+msgstr "Para makapagpamahala sa mga tsanel ng nilalaman sa Kolibri ay kailangan mong magkaroon ng mga kinauukulang mga permisyon."
+
+#: ../../manage/_content.rst:9
+msgid "Kolibri **Content Channel** is a collection of educational resources (video, audio or document files) prepared and organized by the content curator for their use in Kolibri. You can import and export content channels in Kolibri from the **Content** tab of the **Device** dashboard (|content| icon)."
+msgstr "Ang **Tsanel ng Nilalaman** sa Kolibri ay isang koleksyon ng mga pangedukasyonal na mga pinagkukunan (bidyo, awdyo o mga payl na dokumento) na inihanda at inorganisa ng kurador ng nilalaman para kani-kanilang paggamit sa Kolibri. Ikaw ay maaaring mang-angkat o mang-luwas ng mga nilalaman sa tsanel ng Kolibri mula sa tab na **Nilalaman** sa dashbord ng **Debays** (|nilalaman | ikono)."
+
+#: ../../manage/_content.rst:15
+msgid "Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to import content from **private or unlisted** channels, you will need the **channel token or ID from the content curator who assembled it**."
+msgstr "Bawat tsanel ng nilalaman ng Kolibri ay may kanya-kanyang sariling **token/ID** sa `Istudyo ng Kolibri <https://studio.learningequality.org/accounts/login/>`_. Ikaw ay libreng makakabyu at makakapag-browse ng nilalaman na mai-angkat mula sa mga tsanel na **pampubliko** sa Kolibri, subalit para makapag-angkat ng nilalaman mhla sa **pribadong o hindi nakalistang** mga tsanel, kailangan mo na ang **token sa tsanel o ID mula sa nilalaman ng kurador na nag-asembol nito**."
+
+#: ../../manage/_content.rst:17
+msgid "The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we will start using exclusively the term **token** to uniquely designate each channel."
+msgstr "Ang terminong **ID ng Tsanel** ay balido para sa bersyong 0.6 pababa ng Kolibri, habang mula sa bersyong 0.7 pataas, kami ay magsisimulang gagamit ng ekslusibo sa terminong **token** para i-designado sa bawat tsanel na katangi-tangi."
+
+#: ../../manage/_content.rst:20
+msgid "Import Content into Kolibri"
+msgstr "Mag-angkat ng Nilalaman para sa Kolibri"
+
+#: ../../manage/_content.rst:22
+msgid "**Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import content from:"
+msgstr ""
+
+#: ../../manage/_content.rst:24
+msgid "already curated **content channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_, if the computer running Kolibri is connected to internet"
+msgstr ""
+
+#: ../../manage/_content.rst:26
+msgid "OR"
+msgstr ""
+
+#: ../../manage/_content.rst:28
+msgid "an external storage drive (USB or hard drive) where content channels have been previously exported to from another Kolibri installation, if the computer running Kolibri is not connected to internet"
+msgstr ""
+
+#: ../../manage/_content.rst:30
+msgid "**To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/index.html>`_."
+msgstr ""
+
+#: ../../manage/_content.rst:34
+msgid "As a precaution, we recommend you avoid other interactions with Kolibri (navigate away or manage users, for example) while content import is in progress."
+msgstr ""
+
+#: ../../manage/_content.rst:37
+msgid "To import content into Kolibri, follow these steps."
+msgstr "Para makapag-angkat ng nilalaman patungo sa Kolibri, sundin ang mga hakbang na’to."
+
+#: ../../manage/_content.rst:39
+msgid "Click **Import** button in the **Content** page."
+msgstr "I-klik ang pindutang **Mag-angkat** sa pahina ng **Nilalaman**."
+
+#: ../../manage/_content.rst:40
+msgid "Choose the source option: **Kolibri Studio** or **Attached drive or memory card**."
+msgstr ""
+
+#: ../../manage/_content.rst:48
+msgid "Import Content from Kolibri Studio"
+msgstr ""
+
+#: ../../manage/_content.rst:50
+msgid "If the computer where Kolibri is running has an Internet connection with the sufficient bandwidth, follow these steps to import content channels."
+msgstr "Kung ang kompyuter na kung saan tumatakbo ang Kolibri ay nagkakaroon ng koneksyon sa Internet na may bandwidth na sapat lamang, sundin ang mga hakbang na’to para makapag-angkat ng mga tsanel ng nilalaman."
+
+#: ../../manage/_content.rst:54
+msgid "Choose option *Kolibri Central Server*, and you will be able to see all the available **public** content channels."
+msgstr "Piliin ang opsyong **Sentral na Serber ng Kolibri**, at ikaw ay makakakita sa lahat ng mga tsanel ng nilalaman na **pampubliko** na magagamit."
+
+#: ../../manage/_content.rst:59 ../../manage/_content.rst:139
+msgid "Click **Select** button for the desired channel, and wait for Kolibri to display the channel information and the topic tree."
+msgstr "I-klik ang pindutang **Mag-select** para tsanel na ginugusto, at hintayin ang Kolibri na makapag-displey sa impormasyon ng tsanel at ang puno ng paksa."
+
+#: ../../manage/_content.rst:60
+msgid "In the **Select content** page you will see all the details of the selected channel: description, version, total size and number of learning resources, with the information weather you have some of the resources from that channel already imported on the local device."
+msgstr "Sa pahinang **Piliin ang nilalaman** ikaw ay makakakita sa lahat ng mga detalye ng tsanel na napagpilian: deskripsyon, bersyon, kabuuang laki at bilang ng mga pinagkukunan sa pagkakatuto, sa mga panahon ng impormasyon na mayroon kang iilan sa mga pinagmumulan mula sa tsanel na nai-angkat sa lokal na debays."
+
+#: ../../manage/_content.rst:65
+msgid "Under **Choose content to import** you can browse the channel topics and individual resources. Use the *Select all* checkbox to import the content channel in full, or select only certain topics or resources. As you keep selecting, you will see the total number and size on disk under *Resources selected:*, and the remaining space on your device."
+msgstr "Sa ilalim ng **Pumili ng nilalaman na i-aangkat** maaari kang makapagbrowse sa tsanel ng mga paksa at mga indibidwal na mga pinagkukunan. Gamitin ang tsekbaks ng *Piliin lahat* para makapag-angkat ng mga puno na nilalaman ng tsanel, o piliin lamang ang mga nakakasigurong mga paksa o mga pinagkukunan. Sa iyong pagpapatuloy sa pagpipili, ikaw ay makakit sa kabuuang numero at laki ng disk sa ilalim ng *Napiling mga pinagkukunan:*, at ang mga natitirang espasyo sa iyong debays."
+
+#: ../../manage/_content.rst:66
+msgid "Click **Import** button once you finish selecting all the desired content."
+msgstr "I-klik ang pindutang **Mag-angkat** maka-isang beses pagkatapos mong pumili sa lahat ng nilalaman na iyong gusto."
+
+#: ../../manage/_content.rst:67
+msgid "Wait for the content to be downloaded and click **Close** for the new channel to appear under the **Content** heading."
+msgstr "Hintayin ang nilalaman na mai-download at i-klik ang **Isarado** para sa tsanel na bago na makikita sa ilalim ng heading ng **Nilalaman**."
+
+#: ../../manage/_content.rst:72
+msgid "If you need to import content from a **private/unlisted** channel, scroll to the bottom of the *Kolibri Central Server* page."
+msgstr "Kung ikaw nangangailangang talagang mag-angkat ng nilalaman mula sa **pribadong/hindi nakalista** na tsanel, i-skrol sa ibabang pahina ng *Sentral na Serber ng Kolibri*."
+
+#: ../../manage/_content.rst:73
+msgid "Click on **Try adding the token** link, and enter the **channel token/ID** received from the channel curator on Kolibri Studio."
+msgstr "Mag-klik sa link na \"Subukang magdagdag ng token**, at mag-enter sa **token/ID ng tsanel** na natanggap mula sa kurador ng tsanel sa Istudyo ng Kolibri."
+
+#: ../../manage/_content.rst:78
+msgid "Click **Confirm** to unlock channel, or **Cancel** to exit."
+msgstr "I-klik ang **Kumpirmahin** para ang tsanel ay ma-unlock, o ang **Kanselahin** para makapag-eksit."
+
+#: ../../manage/_content.rst:79
+msgid "Proceed to select and import channel topics and resources as for the public channels."
+msgstr "Magpatuloy sa pagpili at pag-aangkat sa mga paksa ng tsanel at mga pakinagkukunan para sa mga tsanel na pampubliko."
+
+#: ../../manage/_content.rst:83
+msgid "Import Content from a Local Drive"
+msgstr "Mang-angkat na Nilalaman mula sa isang Drive na Lokal"
+
+#: ../../manage/_content.rst:85
+msgid "If the computer where Kolibri server is running does not have access to Internet or has insufficient bandwidth, you have the option to receive content channels stored on an external drive (USB stick or hard disk). Follow these steps to import content channels."
+msgstr "Kapag ang kompyuter na kung saan ang serber ng Kolibri ay tumatakbo ay walang akses sa Internet o walang sapat na bandwidth, ikaw ay mayroong opsyon na makatanggap ng nilalaman mula sa mga tsanel na naka-store sa isang drive na eksternal (estik na USB o hard disk). Sunurin ang mga hakbang na’to para makapag-angkat ng mga tsanel ng nilalaman."
+
+#: ../../manage/_content.rst:87
+msgid "Connect the external USB drive to your computer."
+msgstr ""
+
+#: ../../manage/_content.rst:88
+msgid "Choose option for *Attached drive or memory card*, and click **Continue**."
+msgstr "Piliin ang opsyon para sa *Naka-attach na drive o kard ng memorya*, at i-klik ang *Magpatuloy**."
+
+#: ../../manage/_content.rst:89
+msgid "Kolibri will automatically detect and display the drive(s) with available Kolibri content files."
+msgstr "Ang Kolibri ay awtomarikong nagde-detek at nagdidispley sa (mga) driver na magagamit sa mga fayl ng nilalaman ng Kolibri."
+
+#: ../../manage/_content.rst:90
+msgid "Select the drive where the desired channel is stored, and click **Continue**."
+msgstr "Piliin ang drive na kung saang tsanel na gusto mong i-store, at i-klik ang **Magpatuloy**."
+
+#: ../../manage/_content.rst:91
+msgid "Click **Select** button for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Central Server <central_server>`."
+msgstr "I-klik ang pindutang **Pumili** para sa tsanel na ginugusto, at sundin ang mga kaparehang hakbang na’to para sa pagpili ng mga paksa at mga pinagkukunan para sa :ref:` mag-angkat mula sa Sentral na Serber ng Kolibri <central_server>`."
+
+#: ../../manage/_content.rst:97
+msgid "**Workaround for import from external drive on older devices.**"
+msgstr ""
+
+#: ../../manage/_content.rst:99
+msgid "If Kolibri is installed on an older or a low-resource device, you can try the following procedure for importing content channels for faster results."
+msgstr "Kung ang Kolibri ay naka-install sa isang mas matanda o isang mababang-pinagkukunan na debays, ikaw ay maaaring sumubok sa mga sumusunod na mga prosedyur para sa pangangangkat ng mga tsanel ng nilalaman para sa mabilisang mga resulta."
+
+#: ../../manage/_content.rst:101
+msgid "Stop Kolibri."
+msgstr "Patigilin ang Kolibri."
+
+#: ../../manage/_content.rst:102
+msgid "Browse the local drive with the file explorer of your operating system."
+msgstr "Mag-browse sa drayb na lokal gamit ang payl na eskplorer ng iyong operating system."
+
+#: ../../manage/_content.rst:103
+msgid "Copy the ``content`` folder located inside the ``KOLIBRI_DATA`` folder on the local drive."
+msgstr "Kopyahin ang polder ng``nilalaman`` na makikita sa loob ng polder na``KOLIBRI_DATA`` sa drayb na lokal."
+
+#: ../../manage/_content.rst:104
+msgid "Paste the copied ``content`` folder inside the ``.kolibri`` folder on your hard disk. The location of the ``.kolibri`` folder will depend on your operating system (see the table below)."
+msgstr "Mag-paste sa naikopyang polder na ``nilalaman`` sa loob ng polder na ``.kolibri`` sa inyong hard disk. Ang lokasyon ng polder na ``.kolibri`` ay dumedepende sa inyong operating system (pakitingnan ang talahanayan sa ibaba)."
+
+#: ../../manage/_content.rst:105
+msgid "Confirm the merge of the two folders."
+msgstr "Kumpirmahin ang pagsasanib ng dalawang mga polder."
+
+#: ../../manage/_content.rst:106
+msgid "Restart Kolibri, and the new channels should now be available."
+msgstr "I-restart ang Kolibri, at sa ngayon magagamit nang muli ang mga bagong tsanel."
+
+#: ../../manage/_content.rst:112
+msgid "**Operating system**"
+msgstr "**Operating system**"
+
+#: ../../manage/_content.rst:112
+msgid "**Location**"
+msgstr "**Lokasyon**"
+
+#: ../../manage/_content.rst:114
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../manage/_content.rst:114
+msgid "``C:/Users/<your_username>/.kolibri/``"
+msgstr "``C:/Users/<your_username>/.kolibri/``"
+
+#: ../../manage/_content.rst:116
+msgid "OSX"
+msgstr "OSX"
+
+#: ../../manage/_content.rst:116
+msgid "``HD/Users/<your_username>/.kolibri/``"
+msgstr "``HD/Usets/<your_username>/.kolibri/``"
+
+#: ../../manage/_content.rst:118
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../manage/_content.rst:118
+msgid "``/home/<your_username>/.kolibri/``"
+msgstr "``/home/<your_username>/.kolibri/``"
+
+#: ../../manage/_content.rst:121
+msgid "On Linux and OSX you will need to enable the **Show hidden folders** option in order to view the ``.kolibri`` folder."
+msgstr "Sa Linux at OSX ikaw ay mangangailangan na paganahin ang opsyong **Ipakita ang mga polder na nakatago** nang sa ganung makikita ang polder na ``.kolibri``."
+
+#: ../../manage/_content.rst:125
+msgid "Export from Kolibri to Local Drive"
+msgstr "Mag-luwas mula sa Kolibro patungo sa Drayb na Lokal"
+
+#: ../../manage/_content.rst:127
+msgid "If you want to make available the content you have imported on your Kolibri device, to another computer where Kolibri is installed, follow these steps to export your content channels."
+msgstr "Kung gusto mo talagang magagamit ang nilalaman ng iyong naipag-angkat sa iyong debays na Kolibri, patungo sa ibang kompyuter na kung saan ang Kolibri ay naipag-install, pakisunod sa mga sumusunod ng mga hakbang na’to para makapag-angkat sa iyong mga tsanel ng nilalaman."
+
+#: ../../manage/_content.rst:130
+msgid "You must have an external drive (USB stick or hard disk) attached to your device."
+msgstr "Dapat ikaw ay mayroong isang drayb na pangeksternal (istik na USB o hard disk) na naipag-lakip sa iyong debays."
+
+#: ../../manage/_content.rst:132
+msgid "Click **Export** button in **Content** page."
+msgstr "I-klik ang pindutang **Mag-luwas** sa pahina ng **Nilalaman**."
+
+#: ../../manage/_content.rst:133
+msgid "Select the local drive (export destination) where you wish to export **Kolibri** content, and click **Continue**."
+msgstr "Piliin ang drayb na lokal (destinasyon sa pagluluwas) na kung saan gusto mo itong mailuwas ang nilalaman ng **Kolibri**, at paki-klik ang **Magpatuloy**."
+
+#: ../../manage/_content.rst:134
+msgid "In the *Export to <name-of-your-drive>* page you will be able to see all the available content channels on your device."
+msgstr "Sa pahinang *Iluwas sa <name-of-your-drive>* ikaw ay makakakita sa lahat ng mga tsanel ng nilalamang magagamit sa inyong debays."
+
+#: ../../manage/_content.rst:140
+msgid "In the **Select content** page you will see all the details of the selected channel: description, version, total size and number of learning resources."
+msgstr "Sa pahinang **Pumili ng nilalaman** ikaw ay makakakita sa lahat ng mga detalye ng tsanel na napagpilian: deskripsyon, bersyon, kabuuang laki at bilang ng mga pinagmumulan ng aralin."
+
+#: ../../manage/_content.rst:141
+msgid "Under **Choose content to export** you can browse the channel topics and individual resources. Use the *Select all* checkbox to import the content channel in full, or select only certain topics or resources. As you keep selecting, you will see the total number and size on disk under *Resources selected:*, and the remaining space on the destination drive."
+msgstr "Sa ilalim ng **Pumili ng nilalaman na nailuluwas** ikaw ay maaaring mag-browse sa mga paksa ng tsanel at mga indibidwal na mga pinagkukunan. Gamitin ang tsekbox na *Piliin lahat* para makapag-angkat ang nilalaman ng tsanel nang buong-buo, o di kaya’y piliin lamang ang partikular na mga paksa o mga pinagkukunan. Sa pagpapatuloy mong pagpipili, ikaw ay makakita sa kabuuang bilang at laki ng disk sa *Maga napiliang pinagkukunan:*, at sa natitirang espasyo sa drayb ng destinasyon."
+
+#: ../../manage/_content.rst:142
+msgid "Click **Export** button once you finish selecting all the desired content."
+msgstr "I-klik nang makaisang beses ang pindutang *Mag-luwas* pagkatpo mong pumili sa lahat ng nilalaman na ginugusto mo."
+
+#: ../../manage/_content.rst:143
+msgid "Wait for Kolibri to export the selected content and click **Close**."
+msgstr "Hintayin ang Kolibri na makapag-luwas sa nilalamang napilian at i-klik ang **Isarado**."
+
+#: ../../manage/_content.rst:144
+msgid "Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices."
+msgstr "Kapag ang pag-luwas ay naipagtapos na, marahang-marahan na i-diskonek ang drayb ayon sa prosedyur na nirerekomenda para sa iyong operating system, at magpatuloy na mag-angkat ng mga tsanel sa ibang mga debays."
+
+#: ../../manage/_content.rst:146
+msgid "This procedure makes a copy of the ``content`` folder located inside the ``.kolibri`` folder on your hard disk, and places it the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command."
+msgstr "Ang prosedyur na ito ay gumagawa ng kopya sa polder na ``nilalaman`` na nasa looban ng polder na ``.kolibri``sa iyong hard disk, at nailalagay sa polder na ``KOLIBRI_DATA`` sa drayb na napagpilian. Ang istrukturang ito ay kinikilala bilang command na **Mag-angkat mula sa drayb na lokal**."
+
+#: ../../manage/_content.rst:153
+msgid "Peer-to-Peer Content Synchronization"
+msgstr ""
+
+#: ../../manage/_content.rst:155 ../../manage/_data.rst:19
+msgid "``Stay tuned!``"
+msgstr ""
+
+#: ../../manage/_facility.rst:4
+msgid "Manage Facility"
+msgstr "Mamahala sa Pasilidad"
+
+#: ../../manage/_facility.rst:6
+msgid "You can edit facility configuration settings in Kolibri from the **Configuration** tab in your **Facility** dashboard."
+msgstr "Ikaw ay maaaring makapagpa-edit sa mga setting sa konfigurasyon ng pasilidad sa Kolibri mula sa tan na **Konfigurasyon** sa iyong dashbord na **Pasilidad**."
+
+#: ../../manage/_facility.rst:8
+msgid "Activate the options you want to make available for the users of your facility. You have the possibility to allow users to edit their full names and usernames, to sign in without password (except Admin users), and to allow guests to sign up and use Kolibri."
+msgstr ""
+
+#: ../../manage/_facility.rst:15
+msgid "To manage facility settings in Kolibri you must sign in as **Super user** or **Admin**."
+msgstr ""
+
+#: ../../manage/_users.rst:4
+msgid "Manage Users"
+msgstr "Mamahala sa Mga Gumagamit"
+
+#: ../../manage/_users.rst:6
+msgid "You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard."
+msgstr "Ikaw ay maaaring makapaghanap para sa, pag-sala, pagdagdag, at pag-i-edit sa account ng mga gumagamit ng Kolibri mula sa tab na **Mga Gumagamit** sa iyong dashbord na **Pasilidad**."
+
+#: ../../manage/_users.rst:12
+msgid "To manage Kolibri users you must sign in as **Super user** or **Admin**."
+msgstr ""
+
+#: ../../manage/_users.rst:16
+msgid "Create a New User Account"
+msgstr "Gumawa ng Bagong Account sa Gumagamit"
+
+#: ../../manage/_users.rst:18
+msgid "To create a new user account, follow these steps."
+msgstr "Para makapag-gawa ng bagong account ng isang gumagamit, pakisunod sa mga hakbang na’to."
+
+#: ../../manage/_users.rst:20
+msgid "Click **Add New** button."
+msgstr "I-klik ang pindutang **Magdagdag ng Bago**."
+
+#: ../../manage/_users.rst:21
+msgid "Fill in the required information (name, username, password)."
+msgstr "Punan ang mga impormasyong kinakailangan (pangalan, username, password)."
+
+#: ../../manage/_users.rst:22
+msgid "Select user profile (*Admin*, *Coach* or *Learner*)."
+msgstr "Pumili ng profayl para sa gumagamit (*Admin*, *Coach* o *Nag-aaral*)."
+
+#: ../../manage/_users.rst:23
+msgid "Click **Create Account** to add the new user."
+msgstr "I-klik ang pindutang **Gumawa ng Account** para makadagdag ng isang bagong gumagamit."
+
+#: ../../manage/_users.rst:31
+msgid "Select Users by Type"
+msgstr "Piliin ang mga Gumagamit ukol sa Klase"
+
+#: ../../manage/_users.rst:33
+msgid "Click **All Users** selector to display user types."
+msgstr "I-klik ang tagapagpiling **Lahat ng Mga Gumagamit** para makapag-displey sa mga klase ng gumagamit."
+
+#: ../../manage/_users.rst:34
+msgid "Toggle between options to filter the user roster according to type, or leave it as **All Users** to display all."
+msgstr "I-toggle sa pagitan ng mga opsyon para makapag-dala sa roster ng gumagamit ayon sa klase, o iwanan ito para makapagdispley sa lahat ng napapabilang na **Lahat ng Mga Gumagamit**."
+
+#: ../../manage/_users.rst:41
+msgid "Edit User’s Account"
+msgstr "I-edit ang Account ng Gumagamit"
+
+#: ../../manage/_users.rst:43
+msgid "To edit username, full name or account type, follow these steps."
+msgstr ""
+
+#: ../../manage/_users.rst:45
+msgid "Click on the **Manage** button for the desired user and select the **Edit** option."
+msgstr ""
+
+#: ../../manage/_users.rst:46
+msgid "Edit **Full name** or **Username** in the **Edit user** window."
+msgstr ""
+
+#: ../../manage/_users.rst:47
+msgid "Click **Save** to update the edited information, or **Cancel** to exit without saving."
+msgstr ""
+
+#: ../../manage/_users.rst:54
+msgid "Reset User’s Password"
+msgstr "Mag-reset sa Password ng Gumagamit"
+
+#: ../../manage/_users.rst:56
+msgid "Click on the **Manage** button for the desired user and select the **Reset user password** option."
+msgstr ""
+
+#: ../../manage/_users.rst:57
+msgid "Enter the new password in both fields."
+msgstr "I-enter ang bagong password sa dalawang mga patlang."
+
+#: ../../manage/_users.rst:58
+msgid "Click **Save** to confirm, or **Cancel** to exit without changing the password."
+msgstr ""
+
+#: ../../manage/_users.rst:65
+msgid "Delete User’s Account"
+msgstr "Burahin ang Account ng Gumagamit"
+
+#: ../../manage/_users.rst:67
+msgid "Click on the **Manage** button for the desired user and select the **Delete** option."
+msgstr ""
+
+#: ../../manage/_users.rst:68
+msgid "Click **Yes** to confirm, or **No** to exit without deleting the account."
+msgstr "Para makapag-kumpirma i-klik ang **Oo**, o ang **Hindi** para makapag-eksit nang hindi nagbubura ng account."
+
+#: ../../manage/_classes.rst:5
+msgid "Manage Classes"
+msgstr "Mamahala sa Mga Klase"
+
+#: ../../manage/_classes.rst:7
+msgid "You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard. Default view displays the list of all classes in your facility, with the number of enrolled users for each class."
+msgstr "Ikaw ay maaaring makapag-view, makagawa at makapagbura ng mga klase, tsaka makapaghanap, makapagsala at makapag-enrol sa kanila ng mga gumagamit sa Kolibri, sa paggamit sa tab ng **Mga Klase** sa iyong dashbord na **Pasilidad**. Ang naka-default na byu at nagdidispley sa listahan ng lahat ng mga klase sa inyong pasilidad, kasama na rito ang bilang ng mga gumagamit na nakapag-enrol sa bawat klase."
+
+#: ../../manage/_classes.rst:13
+msgid "To manage Kolibri users you must sign-in as **Super user** or **Admin**."
+msgstr "Para makapamahala sa mga gumagamit ng Kolibri kailangan mong sumign-in bilang isang **gumagamit na Super** o **Admin**."
+
+#: ../../manage/_classes.rst:17
+msgid "Add New Class"
+msgstr "Magdagdag ng Klaseng Bago"
+
+#: ../../manage/_classes.rst:19
+msgid "To add a new class, follow these steps."
+msgstr "Para makapagdagdag ng bagong klase, sundin ang mga hakbang na’to."
+
+#: ../../manage/_classes.rst:21
+msgid "Click **Add new class** button."
+msgstr "I-klik ang pindutang **Magdagdag ng bagong klase**."
+
+#: ../../manage/_classes.rst:22
+msgid "Fill in the class name."
+msgstr "Punan ang pangalan ng klase."
+
+#: ../../manage/_classes.rst:23
+msgid "Click **Create** to add the new class, or **Cancel** to exit."
+msgstr "I-klik ang **Gumawa** para makapagdagdag ng bagong klase o ang **Kanselahin** para makapag-eksit."
+
+#: ../../manage/_classes.rst:30
+msgid "Delete Class"
+msgstr "Burahin ang Klase"
+
+#: ../../manage/_classes.rst:32
+msgid "To delete class, follow these steps."
+msgstr "Para makapagbura ng klase, sundin ang mga hakbang na’to."
+
+#: ../../manage/_classes.rst:34
+msgid "Click **Delete class** button for the chosen class from the list."
+msgstr "I-klik ang pindutang **Burahin ang klase** para sa klaseng napagpilian na mula sa listahan."
+
+#: ../../manage/_classes.rst:35
+msgid "Click **Delete class** in the confirmation window to proceed, or **Cancel** to exit without deleting the class."
+msgstr "I-klik sa window ng kumpirmasyon ang **Burahin ang klase** para makapagpatuloy, o ang **Kanselahin** para makapag-eksit nang hindi nagbubura ng klase."
+
+#: ../../manage/_classes.rst:41
+msgid "Users enrolled in the class you are deleting will not be removed from the database."
+msgstr "Ang mga nag-aaral na nakapag-enrol sa klaseng binubura mo ay hindi maitatanggal mula sa database."
+
+#: ../../manage/_classes.rst:45
+msgid "Edit Class and Enroll Users"
+msgstr "I-edit ang Klase at Mag-enrol ng mga Gumagamit"
+
+#: ../../manage/_classes.rst:47
+msgid "To edit a class select it from the default view in the **Classes** tab. In the following **Class** view you can change class name, remove currently enrolled users from the class and enroll new ones."
+msgstr "Para makapag-edit ng klase piliin ito mula sa byu na nakadefault sa tab ng **Mga Klase**. Sa sumusunod na byung **Klase** ikaw ay maaaring makakapagbago sa pangalan ng klase, makakapagtanggal sa mga kasalukuyang mga gumagamit na nakapag-enrol mula sa klase at makakapag-enrol ng mga bago."
+
+#: ../../manage/_classes.rst:50
+msgid "Change Class Name"
+msgstr "Baguhin ang Pangalan ng Klase"
+
+#: ../../manage/_classes.rst:52
+msgid "To edit class name, follow these steps."
+msgstr "Para makapag-edit sa pangalan ng klase, sundin ang mga hakbang na’to."
+
+#: ../../manage/_classes.rst:54
+msgid "Click on the **Edit** button (pencil icon) next to the class’ name."
+msgstr "Mag-klik sa pindutang **Mag-edit** (nakalapis na ikono) sa susunod ng pangalan ng klase."
+
+#: ../../manage/_classes.rst:55
+msgid "Write the new name in the **Class name** field."
+msgstr "Magsulat sa patlang na **Pangalan ng klase** ng pangalang bago."
+
+#: ../../manage/_classes.rst:56
+msgid "Click **Update** to confirm the edited information, or **Cancel** to exit without saving."
+msgstr "I-klik ang **Updeyt** para kumpirmahin ang impormasyong naipag-edit, ang **Kanselahin** para makapag-eksit ng hindi nakapag-seyb."
+
+#: ../../manage/_classes.rst:64
+msgid "Enroll users to class"
+msgstr "Mag-enrol ng mga gumagamit sa klase"
+
+#: ../../manage/_classes.rst:66
+msgid "Click the **Enroll users** button on the class details page."
+msgstr ""
+
+#: ../../manage/_classes.rst:71
+msgid "List in this view contains all the users currently **NOT** enrolled for the selected class."
+msgstr "Ang listahan sa view na ito ay naglalaman sa lahat ng mga gumagamit na kasalukuyang **HINDI PA** nakakapag-enrol para sa klaseng napagpilian."
+
+#: ../../manage/_classes.rst:72
+msgid "You can search for a specific user by name."
+msgstr "Ikaw ay maaaring makapaghanap ng isang espesipikong gumagamit gamit ang pangalan nito."
+
+#: ../../manage/_classes.rst:74
+msgid "Use checkboxes to select all the user in the list, or specific users you want to enroll to class. You can also use the **New user account** button to create a new user AND enroll them at the same time."
+msgstr "Gamitin ang mga tsekbos para makapagpili sa lahat ng mga gumagamit sa listahan, o yong mga gumagamit na espesipiko na gusto mong i-enrol sa klase. Ikaw ay maaari ring makagamit sa pindutang **Bagong account ng gumagamit** para makapagpagawabng bagong gumagamit AT makapagpaenrol sa kanila sa parehong panahon."
+
+#: ../../manage/_classes.rst:75
+msgid "Click **Review & save** button."
+msgstr "I-klik ang pindutang **Pag-byung muli & seyb**."
+
+#: ../../manage/_classes.rst:76
+msgid "Click **Yes, enroll users** to confirm, or **No, go back** to exit without enrolling the selected users."
+msgstr "Para makapag-kumpirma i-klik ang **Oo, mag-enrol ng mga gumagamit**, o ang **Hindi, bumalik** para makapag-eksit nang hindi nakakapag-enrol sa mga gumagamit na napagpilian."
+
+#: ../../manage/_classes.rst:83
+msgid "Remove users from class"
+msgstr "Tanggalin ang mga gumagamit mula sa klase"
+
+#: ../../manage/_classes.rst:85
+msgid "Click **Remove** button for the chosen user."
+msgstr "Para sa napagpiliang gumagamit i-klik ang pindutang **Tanggalin**."
+
+#: ../../manage/_classes.rst:86
+msgid "Click **Remove from class** to confirm, or **Cancel** to exit without removing the user."
+msgstr "Para makapag-kumpirma i-klik ang **Tanggalin mula sa klase**, o ang **Kanselahin** para makapag-eksit ng hindi nakakapagtanggal ng gumagamit."
+
+#: ../../manage/_classes.rst:92
+msgid "Users removed from the class will not be deleted from the database, and you can still access their accounts from the **Users** tab in the **Facility** dashboard."
+msgstr "Hindi mabubura sa database ang mga gumagamit na naitanggal mula sa klase, at ikaw ay maaari paring makapag-akses sa kanilang mga account mula sa tab ng **Mga Gumagamit** sa dashbord na **Pasilidad**."
+
+#: ../../manage/_data.rst:4
+msgid "Manage Data"
+msgstr "Pamahalaanan ang Data"
+
+#: ../../manage/_data.rst:7
+msgid "To manage Kolibri data you must sign-in as **Super user** or **Admin**."
+msgstr ""
+
+#: ../../manage/_data.rst:10
+msgid "You can download Kolibri *Session* and *Summary* logs usage data and export in the CSV (comma separated values) format from the **Data** tab in your **Facility** dashboard."
+msgstr ""
+
+#: ../../manage/_data.rst:17
+msgid "Data Syncing"
+msgstr ""
+
+#: ../../manage/_command_line.rst:5
+msgid "Working with Kolibri from the Command Line"
+msgstr ""
+
+#: ../../manage/_command_line.rst:8
+msgid "In Windows you need to open ``cmd.exe`` Command prompt in the folder where Kolibri executable is located: ``c:/Python27/Scripts``."
+msgstr ""
+
+#: ../../manage/_command_line.rst:10
+msgid "*Make sure not to include the angle brackets “< >” in the commands below.*"
+msgstr ""
+
+#: ../../manage/_command_line.rst:13
+msgid "If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_."
+msgstr ""
+
+#: ../../manage/_command_line.rst:17
+msgid "Start/Stop Kolibri"
+msgstr ""
+
+#: ../../manage/_command_line.rst:19
+msgid "In case you need to troubleshoot potential problems while running Kolibri, you may try to start it manually from the command line."
+msgstr ""
+
+#: ../../manage/_command_line.rst:32
+msgid "Run Kolibri from a Different Port"
+msgstr ""
+
+#: ../../manage/_command_line.rst:34
+msgid "If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:42
+msgid "Import Content Channels from Internet"
+msgstr ""
+
+#: ../../manage/_command_line.rst:44
+msgid "To import content channels from Internet, run these two commands in sequence. The first downloads the channel database, and the second downloads the resources (videos, documents, etc.)."
+msgstr ""
+
+#: ../../manage/_command_line.rst:66
+msgid "Export Content Channels"
+msgstr ""
+
+#: ../../manage/_command_line.rst:68
+msgid "To export Kolibri content channels on a local drive in order to share it with another device, run these two commands in sequence. The first exports the channel database, and the second exports the resources (videos, documents, etc.)."
+msgstr ""
+
+#: ../../manage/_command_line.rst:75
+msgid "The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI."
+msgstr ""
+
+#: ../../manage/_command_line.rst:79
+msgid "Create a New Super User"
+msgstr ""
+
+#: ../../manage/_command_line.rst:81
+msgid "In case you need to create another Super user, either to address additional need of managing facility, or if you lost the password for the old one, run the following command:"
+msgstr ""
+
+#: ../../manage/_command_line.rst:87
+msgid "You will be prompted to input the **Username** and **Password** and the new **Super user** user account will be created."
+msgstr ""
+
+#: ../../manage/_command_line.rst:91
+msgid "Change Language"
+msgstr ""
+
+#: ../../manage/_command_line.rst:98
+msgid "Language"
+msgstr ""
+
+#: ../../manage/_command_line.rst:98
+msgid "<langcode>"
+msgstr ""
+
+#: ../../manage/_command_line.rst:100
+msgid "English"
+msgstr ""
+
+#: ../../manage/_command_line.rst:100
+msgid "``en``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:102
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: ../../manage/_command_line.rst:102
+msgid "``es-es``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:104
+msgid "French"
+msgstr ""
+
+#: ../../manage/_command_line.rst:104
+msgid "``fr``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:106
+msgid "Swahili (Tanzania)"
+msgstr ""
+
+#: ../../manage/_command_line.rst:106
+msgid "``sw-tz``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:108
+msgid "Arabic"
+msgstr ""
+
+#: ../../manage/_command_line.rst:108
+msgid "``ar``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:110
+msgid "Farsi"
+msgstr ""
+
+#: ../../manage/_command_line.rst:110
+msgid "``fa``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:112
+msgid "Urdu (Pakistan)"
+msgstr ""
+
+#: ../../manage/_command_line.rst:112
+msgid "``ur-pk``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:117
+msgid "Backup and Restore Kolibri Database"
+msgstr ""
+
+#: ../../manage/_command_line.rst:119
+msgid "Kolibri automatically creates a backup of the database with every version upgrade. If for some reason you need to make a manual backup, use the following command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:125
+msgid "This command will create a time-stamped ``.dump`` file in the ``./kolibri/backups`` folder that you can use to restore the database with the following command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:131
+msgid "If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file."
+msgstr ""
+
+#: ../../manage/_command_line.rst:138
+msgid "This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database."
+msgstr ""
+
+#: ../../manage/_command_line.rst:142
+msgid "Change the Location of ALL Kolibri Files"
+msgstr ""
+
+#: ../../manage/_command_line.rst:144
+msgid "If you want to change the directory where all of Kolibri’s runtime files go, the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice."
+msgstr ""
+
+#: ../../manage/_command_line.rst:146
+msgid "If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s :ref:`Home <home>` folder, under the ``.kolibri`` subfolder."
+msgstr ""
+
+#: ../../manage/_command_line.rst:148
+msgid "There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps."
+msgstr ""
+
+#: ../../manage/_command_line.rst:150 ../../manage/_command_line.rst:162
+msgid "Stop the server."
+msgstr ""
+
+#: ../../manage/_command_line.rst:151 ../../manage/_command_line.rst:163
+msgid "Move the ``.kolibri`` folder to the new location."
+msgstr ""
+
+#: ../../manage/_command_line.rst:152
+msgid "Run the following in Terminal:"
+msgstr ""
+
+#: ../../manage/_command_line.rst:158
+msgid "When you start the server again, all your files should be seamlessly detected at that location."
+msgstr ""
+
+#: ../../manage/_command_line.rst:160
+msgid "To change the environment variable ``KOLIBRI_HOME`` on **Windows**, follow these steps."
+msgstr ""
+
+#: ../../manage/_command_line.rst:164
+msgid "Run the following in Command Prompt:"
+msgstr ""
+
+#: ../../manage/_command_line.rst:170
+msgid "Restart the server, and your files should be seamlessly detected at the new location."
+msgstr ""
+
+#: ../../manage/_command_line.rst:173
+msgid "Alternatively, you can follow these steps in the GUI."
+msgstr ""
+
+#: ../../manage/_command_line.rst:175
+msgid "Go to **Computer > Advanced System Settings** and press the **Environment Variables** button."
+msgstr ""
+
+#: ../../manage/_command_line.rst:176
+msgid "Under **User Variables for...** press the **New...** button."
+msgstr ""
+
+#: ../../manage/_command_line.rst:177
+msgid "Input the new path and press **OK** on both open windows."
+msgstr ""
+
+#: ../../manage/_command_line.rst:182
+msgid "Restart Kolibri."
+msgstr ""
+
+#: ../../manage/_get_support.rst:4
+msgid "Support and Troubleshooting"
+msgstr ""
+
+#: ../../manage/_get_support.rst:9
+msgid "Report a problem with Kolibri"
+msgstr ""
+
+#: ../../manage/_get_support.rst:11
+msgid "If you want to contact the **Learning Equality** Support team to report an issue, or share your experience about using Kolibri, please register at our `Community Forums <https://community.learningequality.org/>`_."
+msgstr "Kung gusto mong kontakin ang Suportang team ng **Learning Equality** para makapag-report ng isang istu, o makapagbahagi ng iyong eksperyens tungkol sa paggamit ng Kolibri, mangyaring paki-rehistro sa aming `Mga Forum sa Komunidad <https://community.learningequality.org/>`_."
+
+#: ../../manage/_get_support.rst:13
+msgid "Once you register on our forums, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* )"
+msgstr "Kapag ikaw ay nakapag-rehistro na sa aming mga forum, mangyaring pakibasa sa pinakaunang dalawang paksa na pinag-pin (**Maligayang Pagdating sa Komunidad Pang-suporta* at *Paano ako makakapag-post sa forum na ito?* )"
+
+#: ../../manage/_get_support.rst:15
+msgid "You can add a new topic with the **+ New Topic** button on the right. Make sure to select the **Kolibri** category in the **Create a New Topic** window so it’s easier to classify and respond to."
+msgstr "Ikaw ay maaaring makapagdagdag ng isang bagong paksa sa pindutang **+ Paksang Bago** na nasa kanan. Siguraduhing napilian ang kategoryang **Kolibri** na nasa window na **Gumawa ng Paksang Bago** nang sa ganun ito ay mas madaling i-klasipika at i-responde."
+
+#: ../../manage/_get_support.rst:21
+msgid "Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs."
+msgstr ""
+
+#: ../../manage/_get_support.rst:27
+msgid "Troubleshoot Network Issues"
+msgstr ""
+
+#: ../../manage/_get_support.rst:29
+msgid "Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the address bar of the browser?"
+msgstr ""
+
+#: ../../manage/_get_support.rst:30
+msgid "Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself?"
+msgstr ""
+
+#: ../../manage/_get_support.rst:31
+msgid "Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:"
+msgstr ""
+
+#: ../../manage/_get_support.rst:39
+msgid "About IP addresses"
+msgstr ""
+
+#: ../../manage/_get_support.rst:41
+msgid "``0.0.0.0`` = A special IP address on the **server** (your device running Kolibri and \"serving\" its content to others in the local network), which actually means \"all available IP addresses\". It's a kind of alias. But accessing ``0.0.0.0`` from another computer doesn't make sense and doesn't work. By default, Kolibri will serve on ``0.0.0.0``, which essentially means all IP addresses that are available on the device will render Kolibri accessible."
+msgstr ""
+
+#: ../../manage/_get_support.rst:42
+msgid "``127.0.0.1`` = A device's local IP address, meaning \"myself\". Some people joke and say \"There's no place like 127.0.0.1\", meaning \"there's no place like home\" :) This can be used on the serving device itself to test that Kolibri is running, in case you need a failsafe way of checking that Kolibri is in fact running and responsive."
+msgstr ""
+
+#: ../../manage/_get_support.rst:43
+msgid "``192.x.y.z`` = Addresses starting with ``192`` are local network IP addresses. The same thing can be said about ``10.x.y.z``. The address that you wanna use to enter on the clients/tablets in order to contact the server will in most cases start with ``192`` or ``10``."
+msgstr ""
+
+#: ../../manage/_get_support.rst:44
+msgid "Port number: Kolibri runs on port ``8080``. When you access something on an IP address, you need a port. Ports can be open or closed on the server, but they can also be regulated by firewall rules on the way. ``http://`` <- this is the protocol that the browser reads out from the \"URL\", which is just some text that describes Kolibri."
+msgstr ""
+
+#: ../../manage/_get_support.rst:45
+msgid "``http://192.168.1.1:8080`` means: \"Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol\". The browser will the continue to try to reach this address, but may fail for instance if Kolibri isn't running, or if a step along the way blocks access."
+msgstr ""
+
+#: ../../manage/_get_support.rst:49
+msgid "Locate Kolibri log files"
+msgstr ""
+
+#: ../../manage/_get_support.rst:51
+msgid "When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing."
+msgstr ""
+
+#: ../../manage/_get_support.rst:53
+msgid "Open the ``.kolibri`` folder inside the :ref:`Home <home>` of the device where Kolibri is running and locate these two files:"
+msgstr ""
+
+#: ../../manage/_get_support.rst:55
+msgid "``kolibri.log``"
+msgstr ""
+
+#: ../../manage/_get_support.rst:56
+msgid "``debug.log``"
+msgstr ""
+
+#: ../../manage/_get_support.rst:60
+msgid "Videos are not playing"
+msgstr ""
+
+#: ../../manage/_get_support.rst:62
+msgid "Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using."
+msgstr ""
+

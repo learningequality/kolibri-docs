@@ -1,0 +1,379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-02 15:44-0800\n"
+"PO-Revision-Date: 2018-02-09 14:24-0500\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /release-v0.7.x/coach.po\n"
+"Language: es_ES\n"
+
+#: ../../coach.rst:16
+msgid "Coach your Learners in Kolibri"
+msgstr "Seguimiento de estudiantes en Kolibri"
+
+#: ../../coach.rst:18
+msgid "You can track progress of the **Learner** users, create and assign **Exams** to classes or learner groups from the **Coach** dashboard. The default view of the **Coach** dashboard presents the list of **Classes** with number of learners enrolled to each class."
+msgstr "Puedes hacer el seguimiento de **Estudiantes**, crear y asignar **Exámenes** para clases o grupos de estudiantes desde el panel **Tutorizar**. La vista predeterminada del panel **Tutorizar** presenta la lista de **Clases** con el número de estudiantes matriculados en cada clase."
+
+#: ../../coach.rst:20
+msgid "Select a class from the list to access the progress-tracking features and create exams."
+msgstr "Seleccionar una clase de la lista para acceder a las funciones de seguimiento de progreso y creación de exámenes."
+
+#: ../../coach.rst:29
+msgid "View Recent Activity"
+msgstr "Ver actividad reciente"
+
+#: ../../coach.rst:31
+msgid "This is the default view when you select a class from the **Coach** dashboard. It displays the list of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class."
+msgstr "Esta es la vista predeterminada cuando se selecciona una clase en el panel **Tutorizar**. Muestra la lista de canales y elementos (ejercicios y recursos - vídeos, material de lectura, etc.) accedidos durante los últimos 7 días de parte de estudiantes en la clase seleccionada."
+
+#: ../../coach.rst:36
+msgid "If the class learners have access to more then one channel, you will first see the list of channels which you can navigate by topics and subtopics until you arrive to a specific item. In this view you can see the progress of each class learner for that specific item."
+msgstr "Si los alumnos de la clase tienen acceso a más de un canal, se verá la lista de canales que se pueden navegar por temas y subtemas hasta llegar a un elemento específico. En esta vista se puede ver el progreso de cada estudiante de la clase para ese elemento específico."
+
+#: ../../coach.rst:42
+msgid "View Activity by Topic"
+msgstr "Ver actividad por temas"
+
+#: ../../coach.rst:44
+msgid "Use this view to access the full report of activity progress for the selected class. You can navigate channels by topics and subtopics until you see the progress of each class learner for one specific item."
+msgstr "Esta vista se puede usar para acceder al informe completo del progreso de aprendizaje para la clase seleccionada. Canales de contenido se pueden explorar por temas y subtemas para ver el progreso de cada uno de estudiantes."
+
+#: ../../coach.rst:49
+msgid "Use the topic view to see the average progress for exercises and resources for all the learners in the class."
+msgstr "Usar la vista por temas para ver el progreso promedio de ejercicios y recursos para todos estudiantes de la clase."
+
+#: ../../coach.rst:54
+msgid "Track Learner Progress"
+msgstr "El seguimiento del progreso del alumno"
+
+#: ../../coach.rst:56
+msgid "When you navigate to the last level in the topic tree, you can see the average progress of all class learners for each exercise or resource (video, document, HTML5 activity) in that particular topic."
+msgstr "Al navegar hasta el último nivel del árbol de temas, puedes ver el progreso promedio de todos los estudiantes de la clase para cada ejercicio o recurso (vídeo, documento, actividad HTML) para ese tema particular."
+
+#: ../../coach.rst:58
+msgid "When learner answers exercise questions in Kolibri, the progress bar below the exercise is taking into account only the most recent given answers, meaning that the learner must complete the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed."
+msgstr "La barra de progreso debajo del ejercicio toma en consideración solo las respuestas más recientes, y esto significa que estudiantes tienen que dar el número requerido de respuestas correctas (marcas de visto) **en fila** para que el ejercicio sea considerado completado."
+
+#: ../../coach.rst:63
+msgid "The correct answers in the image above are not in a row; this exercise will be completed only after learner gives 5 correct answers one after another."
+msgstr "Las respuestas correctas en la imagen no están en fila; este ejercicio será completado solo después que estudiante haya dado 5 respuestas correctas una después de otra."
+
+#: ../../coach.rst:68
+msgid "In the example above, the progress bar for this exercise will appear as 40%, because the student has given 2 correct answers within the most recent set of 5 attempts. If this student had earlier made, for example, 20 incorrect attempts before the 4 displayed attempts, those 20 incorrect attempts don't get factored into the progress bar."
+msgstr "En el ejemplo anterior, la barra de progreso para este ejercicio muestra 40%, porque el estudiante ha dado 2 respuestas correctas dentro del conjunto más reciente de 5 intentos. Si este estudiante anteriormente había hecho, por ejemplo, 20 intentos incorrectos antes de los 4 últimos intentos, la barra de progreso no toma en consideración aquellos 20 intentos incorrectos."
+
+#: ../../coach.rst:70
+msgid "How does it looks if learner A does 5 correct answers in a row on their first try, but learner B gets 10 wrong answers in a row before giving 5 correct ones in a row? In both cases, the progress would show as 100%, and you would have to click each learner's name to access their progress report and see the attempt history."
+msgstr "¿Como se ve si estudiante A da 5 respuestas correctas seguidas en primer intento, pero estudiante B obtiene 10 respuestas incorrectas seguidas antes de dar 5 respuestas correctas? En ambos casos, el progreso se mostrará como 100% y tienes que seleccionar el nombre de cada estudiante para acceder a su informe y ver la historial de intentos."
+
+#: ../../coach.rst:72
+msgid "In the figure below you can see the progress of 5 learners for the exercise **Numbers to 120** in ascending order."
+msgstr "En la imagen abajo se puede ver el progreso de 5 estudiantes para el ejercicio **Números hasta 120** en orden ascendente."
+
+#: ../../coach.rst:77
+msgid "View the progress for a single exercise or resource in a topic."
+msgstr "Ver el progreso de un particular ejercicio o recurso en el tema."
+
+#: ../../coach.rst:79
+msgid "To see the progress of a single learner, click their name. In the figure below you can see the progress of the learner **Hansen** for the exercise **Numbers to 120**. The exercise is still **In progress** as the learner has not completed the 5 correct answers in the row. You can also see that for the *Question 13* the learner has given the correct answer only on the 4th attempt, which indicates that they are still struggling with the given concept."
+msgstr "Para ver el progreso de un estudiante hay que clicar su nombre. En la imagen abajo se puede ver el progreso de del estudiantes **Hansen** para el ejercicio **Números hasta 120**. El ejercicio tiene el estado **Iniciado** porque el estudiante aun no ha completado 5 respuestas correctas en fila. También puedes ver que para la *Pregunta 13* estudiante ha acertado la respuesta correcta solo al cuarto intento, el que indica que siguen teniendo problemas para entender el concepto."
+
+#: ../../coach.rst:84
+msgid "View the details for all the answers and attempts for a single exercise."
+msgstr "Ver los detalles para todas las respuestas y intentos de un ejercicio en concreto."
+
+#: ../../manage/_groups.rst:5
+msgid "Manage Groups"
+msgstr "Gestionar grupos"
+
+#: ../../manage/_groups.rst:7
+msgid "In case you need to further divide learners inside classes, for example to address the different progress needs or levels, you can use the **Groups** feature. Create and delete groups, as well as assign learners to them from the **Groups** tab in your **Coach** dashboard. Default view displays the list of all groups for the selected class, with the list of assigned learners for each group."
+msgstr "En caso fuera necesario dividir estudiantes en las clases, por ejemplo para seguir el progreso para diferentes necesidades o niveles, se pueden utilizar la opción de **Grupos**. Puedes crear y eliminar grupos, así como asignarles estudiantes desde la pestaña **Grupos** en el panel **Tutorizar**. La vista principal muestra la lista de todos los grupos para la clase seleccionada, con la lista de estudiantes asignados a cada grupo."
+
+#: ../../manage/_groups.rst:13
+msgid "To manage Kolibri groups you must sign in as **Super user**, **Admin** or **Coach**."
+msgstr "Para gestionar grupos de usuarios en Kolibri hay que iniciar sesión como **Superusuario** o **Administrador**."
+
+#: ../../manage/_groups.rst:17
+msgid "Create a New Group"
+msgstr "Crear un nuevo grupo"
+
+#: ../../manage/_groups.rst:19
+msgid "To create a new learner group, follow these steps."
+msgstr "Para crear un nuevo grupo de estudiantes, seguir estos pasos."
+
+#: ../../manage/_groups.rst:21
+msgid "Click the **New group** button."
+msgstr "Clicar el botón **Nuevo grupo**."
+
+#: ../../manage/_groups.rst:22
+msgid "Give group a desired name."
+msgstr "Introducir el nombre del nuevo grupo."
+
+#: ../../manage/_groups.rst:23
+msgid "Click **Save** to confirm, or **Cancel** to exit without creating a group."
+msgstr "Clicar **Guardar** para confirmar, o **Cancelar** para salir sin crear grupo."
+
+#: ../../manage/_groups.rst:27
+msgid "Assign Learners to Group"
+msgstr "Asignar estudiantes a un grupo"
+
+#: ../../manage/_groups.rst:29
+msgid "Below the existing groups there is a list with all learners currently **NOT** assigned to any groups."
+msgstr "Debajo de los grupos existentes hay una lista con todos los estudiantes actualmente **no** asignados a ningún grupo."
+
+#: ../../manage/_groups.rst:31
+msgid "Use checkboxes to select all the learners in the list, or specific ones you want to assign to the group."
+msgstr "Usa casillas de verificación para seleccionar todos estudiantes de la lista, o nombres específicos que deseas asignar a un grupo."
+
+#: ../../manage/_groups.rst:32
+msgid "Click **Move learners** button on the right side of the list."
+msgstr "Clicar el botón **Mover estudiantes** botón a la derecha de la lista."
+
+#: ../../manage/_groups.rst:33
+msgid "Select the group to which you want to assign the selected learners in the **Move learners** window."
+msgstr "Seleccionar el grupo al que deseas asignar estudiantes seleccionados en la ventana de confirmación."
+
+#: ../../manage/_groups.rst:34
+msgid "Click **Move** to proceed, or **Cancel** to exit without assigning."
+msgstr "Clicar **Mover** para confirmar, o **Cancelar** para salir sin asignar."
+
+#: ../../manage/_groups.rst:41
+msgid "Move learners between groups"
+msgstr "Mover estudiantes entre grupos"
+
+#: ../../manage/_groups.rst:43
+msgid "Use checkboxes to select all the user in one group, or specific users you want to assign to another group."
+msgstr "Usa casillas de verificación para seleccionar todos estudiantes en un grupo, o solo nombres específicos que deseas asignar a otro grupo."
+
+#: ../../manage/_groups.rst:44
+msgid "Click **Move learners** button on the right side of the origin group."
+msgstr "Clicar el botón **Mover estudiantes** a la derecha del grupo de origen."
+
+#: ../../manage/_groups.rst:45
+msgid "Select the group to which you want to move the selected learners, or the **Ungrouped** option if you want to remove them from the origin group without assigning to a new one."
+msgstr "Seleccionar el grupo al que deseas mover estudiantes seleccionados, o la opción **No agrupados** si deseas moverlos desde el grupo de origen sin asignarlos a uno nuevo."
+
+#: ../../manage/_groups.rst:46
+msgid "Click **Move** to proceed, or **Cancel** to exit without moving."
+msgstr "Clicar **Mover** para confirmar, o **Cancelar** para salir sin mover."
+
+#: ../../manage/_groups.rst:53
+msgid "Rename Group"
+msgstr "Cambiar el nombre de grupo"
+
+#: ../../manage/_groups.rst:55
+msgid "To rename group, follow these steps."
+msgstr "Para cambiar el nombre de grupo, seguir estos pasos."
+
+#: ../../manage/_groups.rst:57 ../../manage/_groups.rst:68
+msgid "Click the down arrow icon on the right edge of the desired group."
+msgstr "Clicar el icono de flecha hacia abajo a la derecha del grupo deseado."
+
+#: ../../manage/_groups.rst:58
+msgid "Select the **Rename group** option."
+msgstr "Seleccionar la opción **Cambiar el nombre de grupo**."
+
+#: ../../manage/_groups.rst:59
+msgid "Input the new name for the group in the confirmation window."
+msgstr "Introducir el nuevo nombre para el grupo en la ventana de confirmación."
+
+#: ../../manage/_groups.rst:60
+msgid "Click **Save** button to proceed, or **Cancel** to exit without renaming the group."
+msgstr "Clicar **Guardar** para confirmar, o **Cancelar** para salir sin cambiar el nombre del grupo."
+
+#: ../../manage/_groups.rst:64
+msgid "Delete Group"
+msgstr "Eliminar grupo"
+
+#: ../../manage/_groups.rst:66
+msgid "To delete a group, follow these steps."
+msgstr "Para eliminar grupo de estudiantes, seguir estos pasos."
+
+#: ../../manage/_groups.rst:69
+msgid "Select the **Delete group** option."
+msgstr "Seleccionar la opción **Eliminar grupo**."
+
+#: ../../manage/_groups.rst:70
+msgid "Click **Delete group** button in the confirmation window to proceed, or **Cancel** to exit without deleting the group."
+msgstr "Clicar **Eliminar grupo** en la ventana de confirmación para proceder, o **Cancelar** para salir sin eliminar."
+
+#: ../../manage/_groups.rst:73
+msgid "Learners currently assigned to group will become ungrouped."
+msgstr "Estudiantes asignados al grupo eliminado quedarán no agrupados."
+
+#: ../../manage/_exams.rst:5
+msgid "Manage Exams"
+msgstr "Gestionar exámenes"
+
+#: ../../manage/_exams.rst:7
+msgid "You can view, create and delete exams, as well as assign them to learners, using the **Exams** tab in your **Coach** dashboard. Default view displays the list of all exams in a selected class, with a series of options to set the visibility, (de)activate when required, and view report of students who took them."
+msgstr "Para ver, crear y eliminar los exámenes, así como asignarlos a estudiantes, hay que utilizar la pestaña **Exámenes ** en el panel **Tutorizar**. La vista predeterminada muestra la lista de todos los exámenes en una clase seleccionada, con una serie de opciones para configurar la visibilidad, (de)activar cuando sea necesario y ver el informe de los estudiantes que ya los hicieron."
+
+#: ../../manage/_exams.rst:13
+msgid "To manage **Exams** in Kolibri classes and groups you must sign in as **Coach** or **Admin**."
+msgstr "Para gestionar **Exámenes** en clases y grupos de Kolibri hay que iniciar sesión como **Tutor** o **Administrador**."
+
+#: ../../manage/_exams.rst:17
+msgid "Create New Exam"
+msgstr "Crear un nuevo examen"
+
+#: ../../manage/_exams.rst:19
+msgid "To create a new exam, follow these steps."
+msgstr "Para crear un nuevo examen, seguir estos pasos."
+
+#: ../../manage/_exams.rst:21
+msgid "Click the **New exam** button."
+msgstr "Clicar el botón **Nuevo examen**."
+
+#: ../../manage/_exams.rst:22
+msgid "Select the content channel from which you wish to select questions for the exam."
+msgstr "Seleccionar el canal de contenido del cual deseas escoger preguntas para el examen."
+
+#: ../../manage/_exams.rst:23
+msgid "Click **Create exam** to confirm, or **Cancel** to exit the confirmation window."
+msgstr "Clicar **Crear examen** para confirmar, o **Cancelar** para salir la ventana de confirmación."
+
+#: ../../manage/_exams.rst:24
+msgid "Fill in the field for the exam title."
+msgstr "Rellenar el campo del título de examen."
+
+#: ../../manage/_exams.rst:25
+msgid "Fill in the field for number of questions you want the exam to contain."
+msgstr "Rellenar el campo de número de preguntas que examen deberá contener."
+
+#: ../../manage/_exams.rst:26
+msgid "Navigate through the topic tree and activate checkboxes of those exercises you want to include in the exam."
+msgstr "Explorar el árbol de temas y activar las casillas de verificación de los ejercicios que se desean incluir en el examen."
+
+#: ../../manage/_exams.rst:31
+msgid "As you keep adding the exercises you will see confirmation messages at the bottom."
+msgstr "Como se vayan añadiendo los ejercicios, se verán mensajes de confirmación en la parte inferior."
+
+#: ../../manage/_exams.rst:34
+msgid "Click **Preview** button to view the result before finishing."
+msgstr "Clicar **Vista previa** para ver el resultado antes de finalizar."
+
+#: ../../manage/_exams.rst:39
+msgid "Click **Randomize questions** button to present them in the different order from those in the topic origin."
+msgstr "Clicar **Aleatorizar preguntas** para presentarlas en el orden diferente del cual aparecen en el tema de origen."
+
+#: ../../manage/_exams.rst:40
+msgid "Click **Close** button to return to the exam home page."
+msgstr "Clicar el botón **Cerrar** para volver a la página de inicio del examen."
+
+#: ../../manage/_exams.rst:42
+msgid "Click **Finish** button to save the result."
+msgstr "Clicar el botón **Finalizar** para guardar el resultado."
+
+#: ../../manage/_exams.rst:46
+msgid "Change Exam Visibility"
+msgstr "Cambiar visibilidad del examen"
+
+#: ../../manage/_exams.rst:48
+msgid "Newly created exam will be visible to entire class by default. To assign an exam to one group of learners instead of the whole class, follow these steps:"
+msgstr "Nuevo examen por defecto será visible a toda la clase. Para cambiar la visibilidad de examen, es decir asignarlo solo a un grupo de estudiantes en lugar de toda la clase, seguir estos pasos:"
+
+#: ../../manage/_exams.rst:50
+msgid "Click **Options** for the desired exam and select the **Change visibility** option."
+msgstr "Clicar en **Opciones** para el examen deseado y seleccionar **Cambiar visibilidad**."
+
+#: ../../manage/_exams.rst:51
+msgid "Select the group(s) of learners to whom you wish to assign the exam."
+msgstr "Seleccionar el grupo (o grupos) de estudiantes al cual asignar el examen."
+
+#: ../../manage/_exams.rst:52
+msgid "Click **Update** to confirm, or **Cancel** to exit the confirmation window."
+msgstr "Clicar **Actualizar** para confirmar, o **Cancelar** para salir."
+
+#: ../../manage/_exams.rst:59
+msgid "Activate/Deactivate Exam"
+msgstr "Activar/desactivar examen"
+
+#: ../../manage/_exams.rst:61
+msgid "Once you set the visibility of exam to the chosen group(s) of learners, you need to **Activate** it in order for it to appear in the **Learn** view of the learners to whom you assigned it."
+msgstr "Una vez se haya establecido la visibilidad de examen para el grupo (o grupos) de estudiantes seleccionado, es necesario **activarlo** para que aparezca en la página **Aprender** de los estudiantes a quienes está asignado."
+
+#: ../../manage/_exams.rst:63
+msgid "Click **Options** for the desired exam and select the **Activate** option."
+msgstr "Clicar en **Opciones** para el examen deseado y seleccionar **Activar**."
+
+#: ../../manage/_exams.rst:64
+msgid "Click **Activate** to confirm, or **Cancel** to exit the confirmation window."
+msgstr "Clicar **Activar** para confirmar, o **Cancelar** para salir."
+
+#: ../../manage/_exams.rst:65
+msgid "When the exam period concludes, select the **Deactivate** option and confirm."
+msgstr "Cuando concluya el período de examen, clicar el botón **Desactivar**."
+
+#: ../../manage/_exams.rst:69
+msgid "View Exam Report"
+msgstr "Ver informe del examen"
+
+#: ../../manage/_exams.rst:71
+msgid "To view the report and scores for learners who have taken the exam, follow these steps."
+msgstr "Para ver el informe sobre los estudiantes que ya han hecho el examen, seguir estos pasos."
+
+#: ../../manage/_exams.rst:73
+msgid "Click **Options** for the desired exam and select **View report** option."
+msgstr "Clicar en **Opciones** para el examen deseado y seleccionar **Ver informe**."
+
+#: ../../manage/_exams.rst:79
+msgid "This view prominently displays the number of learners who already submitted the exam and their average score. It also presents the list of all the learners who had access to the exam, with the respective statuses and scores. Click the name of the learner to view the detailed report with preview of results for each question."
+msgstr "Esta vista en primer lugar muestra el número de estudiantes que ya enviaron el examen para evaluación y la puntuación promedia. También presenta la lista de todos los estudiantes que tienen acceso al examen y si lo iniciaron o no. Clicar cada uno de nombres para ver el informe detallado y la vista previa de resultados para cada pregunta."
+
+#: ../../manage/_exams.rst:85
+msgid "Click each of the questions to preview it and understand better which question learners answered correctly in the exam and how many attempts they had on each answer."
+msgstr "Clicar cada una de las preguntas para previsualizarla y entender mejor cuales preguntas en el examen estudiante respondió correctamente, y cuantos intentos hizo."
+
+#: ../../manage/_exams.rst:92
+msgid "Delete Exam"
+msgstr "Eliminar examen"
+
+#: ../../manage/_exams.rst:94
+msgid "To delete exam, follow these steps."
+msgstr "Para eliminar un examen, seguir estos pasos."
+
+#: ../../manage/_exams.rst:96
+msgid "Click **Options** for the desired exam and select **Delete** option."
+msgstr "Clicar en **Opciones** para el examen deseado y seleccionar **Eliminar**."
+
+#: ../../manage/_exams.rst:97
+msgid "Click **Delete** button in the confirmation window to proceed, or **Cancel** to exit without deleting the exam."
+msgstr "Clicar a **Eliminar** en la ventana de confirmación para proceder, o **Cancelar** para salir."
+
+#: ../../manage/_exams.rst:100
+msgid "All data from the exam you are deleting will be lost."
+msgstr "Se perderán todos los datos del examen eliminado."
+
+#: ../../manage/_exams.rst:103
+msgid "Rename Exam"
+msgstr "Cambiar el nombre de examen"
+
+#: ../../manage/_exams.rst:105
+msgid "To rename exam, follow these steps."
+msgstr "Para cambiar el nombre del examen, seguir estos pasos."
+
+#: ../../manage/_exams.rst:107
+msgid "Click **Options** for the desired exam and select  **Rename** option."
+msgstr "Clicar en **Opciones** para el examen deseado y seleccionar **Cambiar nombre**."
+
+#: ../../manage/_exams.rst:108
+msgid "Change the exam title in the confirmation window."
+msgstr "Cambiar el título de examen en la ventana de confirmación."
+
+#: ../../manage/_exams.rst:109
+msgid "Click **Rename** button  to proceed, or **Cancel** to exit without renaming the exam."
+msgstr "Clicar **Cambiar nombre** para confirmar, o **Cancelar** para salir sin cambiar nombre."
+
