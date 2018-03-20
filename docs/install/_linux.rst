@@ -16,6 +16,8 @@ Use the following commands in Terminal to add the PPA and install Kolibri::
     sudo apt-get install kolibri
 
 
+.. _lin_deb:
+
 Install from a .deb file
 ------------------------
 
@@ -52,9 +54,5 @@ OR
 Upgrade
 -------
 
-To upgrade Kolibri, follow these steps.
-
-#. Download the new version of Kolibri.
-#. Start the installer.
-#. Once the installation of the upgrade is finished, Kolibri will auto-start and open in the default browser on your computer.
-#. Go explore the new and improved Kolibri features!
+Upgrades are automatic when you use the PPA installation method. 
+To upgrade Kolibri with a ``.deb``, follow the same steps in :ref:`lin_deb`.
