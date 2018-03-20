@@ -7,33 +7,37 @@ Debian/Ubuntu Linux
 Install from PPA repository
 ---------------------------
 
-#. Use the following commands in Terminal to add the PPA and install Kolibri.
+Use the following commands in Terminal to add the PPA and install Kolibri::
 
-  .. code-block:: bash
+.. code-block:: bash
 
     sudo add-apt-repository ppa:learningequality/kolibri
     sudo apt-get update
     sudo apt-get install kolibri
 
-**OR**
 
-#. Go to `Kolibri project page on Launchpad <https://launchpad.net/~learningequality/+archive/ubuntu/kolibri/+packages>`_.
-#. Click and select the latest source package. It doesn't matter which series, all binaries are the same, regardless of your architecture or Ubuntu/Debian version.
-#. Scroll down to **Package files**.
+Install from a .deb file
+------------------------
+
+The advantage of having a ``.deb`` file is about portability. If you need to
+install Kolibri on devices without internet access, you can copy the file from
+device to device.
+
+#. Go to `learningequality.org/download <https://learningequality.org/download/>`__ and download the latest version (or have it copied to your local drive).
 #. Download the Kolibri installer  (``DEB`` file).
 #. Run the command:
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    sudo dpkg -i kolibri-installer-filename.deb
+       sudo dpkg -i kolibri-installer-filename.deb
 
-5. Wait for the installation to finish and run this command to start Kolibri:
+#. Wait for the installation to finish and run this command to start Kolibri:
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    kolibri start
+       kolibri start
 	
-6. When command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+#. When command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
 
 Uninstall
