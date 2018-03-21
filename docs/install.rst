@@ -3,10 +3,7 @@
 Install Kolibri
 ###############
 
-
-.. warning::
-  **Kolibri** is not released yet, so these guides are *Work in Progress* !
-
+These docs are for version 0.7.x. See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>`_. Documentation for `other versions are available here <https://readthedocs.org/projects/kolibri/>`_.
 
 To install **Kolibri**, check the system requirements first and then follow the procedure for the operating system on your device.
 
@@ -30,6 +27,3 @@ To install **Kolibri**, check the system requirements first and then follow the 
 
 
 .. include:: install/_initial_setup.rst
-
-
-.. include:: changes.rst
