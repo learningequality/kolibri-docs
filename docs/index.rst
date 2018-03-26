@@ -52,7 +52,7 @@ Weather you are using Kolibri at your school, in a training center or at home, l
 For :ref:`Coaches and Tutors <coach>`
 *************************************
 
-Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answer to a particular questions. Create and :ref:`manage different learner groups <manage_groups>`, administer :ref:`exams <manage_exams>` and view reports.
+Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answer to a particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`exams <manage_exams>` and view reports.
 
 
 .. rst-class:: clearfix row

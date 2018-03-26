@@ -35,9 +35,6 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
 Starting Kolibri on Linux
 =========================
 
-.. warning::
-  Final **Kolibri** installer for Linux and OSX is not released yet, so these steps are *Work in Progress*!
-
 1. Run this command in Terminal to start Kolibri:
 
   .. code-block:: bash

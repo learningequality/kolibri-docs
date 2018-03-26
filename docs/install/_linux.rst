@@ -7,13 +7,13 @@ Debian/Ubuntu Linux
 Install from PPA repository
 ---------------------------
 
-Use the following commands in Terminal to add the PPA and install Kolibri::
+Use the following commands in Terminal to add the PPA and install Kolibri:
 
-.. code-block:: bash
+	.. code-block:: bash
 
-    sudo add-apt-repository ppa:learningequality/kolibri
-    sudo apt-get update
-    sudo apt-get install kolibri
+	   sudo add-apt-repository ppa:learningequality/kolibri
+	   sudo apt-get update
+	   sudo apt-get install kolibri
 
 
 .. _lin_deb:
@@ -45,7 +45,7 @@ device to device.
 Uninstall
 ---------
 
-* Open up **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
+* Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 
 OR
 
