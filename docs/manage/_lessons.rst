@@ -4,7 +4,7 @@
 Manage Lessons
 ~~~~~~~~~~~~~~
 
-Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and asign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes if needed. 
+Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and asign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
 To view, create and delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are asigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
 
