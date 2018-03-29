@@ -9,11 +9,11 @@ Install from PPA repository
 
 Use the following commands in Terminal to add the PPA and install Kolibri:
 
-	.. code-block:: bash
+.. code-block:: bash
 
-	   sudo add-apt-repository ppa:learningequality/kolibri
-	   sudo apt-get update
-	   sudo apt-get install kolibri
+    sudo add-apt-repository ppa:learningequality/kolibri
+    sudo apt-get update
+    sudo apt-get install kolibri
 
 
 .. _lin_deb:
@@ -46,10 +46,7 @@ Uninstall
 ---------
 
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
-
-OR
-
-* Use ``sudo apt-get remove <name of package>``. You need to know the exact name of the package you installed, most probably ``kolibri``.
+* Or from command line: ``sudo apt-get remove kolibri``.
 
 Upgrade
 -------
