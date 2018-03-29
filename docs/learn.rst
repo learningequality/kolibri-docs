@@ -204,12 +204,15 @@ Use the **Download content** button below the PDF viewer to download the PDF fil
 Lessons
 ^^^^^^^
 
-When your teacher or coach prepares a *lesson*, that is a recommended set of learning resources for you or your class to view, it will be available in the **Class** tab, under the **Lessons** heading. You may have more than one lesson available at the time.
+When your teacher or coach prepares a *lesson*, that is a recommended set of learning resources for you or your class to view, it will be available in the **Class** tab, below the **Lessons** heading. You may have more than one lesson available at the time.
 
 Click on a lesson title to open its content, and follow the indications of your teachers or coaches on how to use it.
 
 .. figure:: img/learner-lesson-home.png
 	:alt: lessons tab
+
+
+Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
 
 
 .. _exams:
@@ -242,6 +245,3 @@ If your teacher or coach scheduled an exam for you or your class, it will be ava
 
 .. figure:: img/exam-result.png
 	:alt: exams tab
-
-
-Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
