@@ -102,7 +102,7 @@ To rename a lesson, follow these steps.
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click the **Options** button, and select **Edit details**.
 #. Change the lesson title in the confirmation window.
-#. Click **Save** button to proceed, or **Cancel** to exit without renaming the lesson.
+#. Click **Save** to proceed, or **Cancel** to exit without renaming the lesson.
 
 
 Delete Lesson
@@ -111,5 +111,5 @@ Delete Lesson
 To delete a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click **Options** button, and select **Delete**.
-#. Click **Delete** button in the confirmation window to proceed, or **Cancel** to exit without deleting the lesson.
+#. Click the **Options** button, and select **Delete**.
+#. Click **Delete** in the confirmation window to proceed, or **Cancel** to exit without deleting the lesson.
