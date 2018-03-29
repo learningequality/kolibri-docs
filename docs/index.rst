@@ -26,7 +26,7 @@
 Kolibri User Guide
 ==================
 
-**Kolibri** is an open-source educational platform specially designed to provide offline access to a wide range of quality, openly licensed educational content in low-resource contexts like rural schools, refugee camps, orphanages, and also in non-formal school programs.
+**Kolibri** is an open-source educational platform specially designed to provide offline access to a wide range of quality, openly licensed educational contents in low-resource contexts like rural schools, refugee camps, orphanages, and also in non-formal school programs.
 
 Kolibri can serve high quality education content from several publicly available **content channels**, collections of educational resources (exercises, videos, audio or document files) and associated metadata, prepared and organized for their use in Kolibri. It works in conjunction with `Kolibri Studio <https://studio.learningequality.org>`_, the curriculum tool used to organize content and build custom content channels, aligned to the local curricula, or according to specific learning needs.
 
@@ -52,7 +52,7 @@ Weather you are using Kolibri at your school, in a training center or at home, l
 For :ref:`Coaches and Tutors <coach>`
 *************************************
 
-Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answer to a particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`exams <manage_exams>` and view reports.
+Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`exams <manage_exams>` and view reports.
 
 
 .. rst-class:: clearfix row
