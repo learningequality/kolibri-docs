@@ -8,237 +8,529 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.8.0.dev020171220114619-git\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 12:11-0500\n"
+"POT-Creation-Date: 2018-03-30 00:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.5.3\n"
 
-#: ../../faq.rst:11
+#: ../../faq.rst:2
 msgid "Frequently Asked Questions"
 msgstr ""
 
+#: ../../faq.rst:6
+msgid "How much does Kolibri cost to install?"
+msgstr ""
+
+#: ../../faq.rst:8
+msgid ""
+"It is FREE – both free as in “free speech” and free as in “free beer”! To"
+" learn more about free software, see this `Free Software Foundation "
+"article <http://www.fsf.org/about/what-is-free-software>`_."
+msgstr ""
+
+#: ../../faq.rst:12
+msgid "Do I need the internet to run Kolibri?"
+msgstr ""
+
 #: ../../faq.rst:14
-msgid "Network Terminology"
-msgstr ""
-
-#: ../../faq.rst:17
-msgid "About IP addresses"
-msgstr ""
-
-#: ../../faq.rst:19
 msgid ""
-"``0.0.0.0`` = A special IP address on the **server** (your device running"
-" Kolibri and \"serving\" its content to others in the local network), "
-"which actually means \"all available IP addresses\". It's a kind of "
-"alias. But accessing ``0.0.0.0`` from another computer doesn't make sense"
-" and doesn't work. By default, Kolibri will serve on ``0.0.0.0``, which "
-"essentially means all IP addresses that are available on the device will "
-"render Kolibri accessible."
+"Short answer: **No!** You can bring or send a storage device (USB or HDD "
+"unit) with Kolibri installer and content channels downloaded somewhere "
+"with available internet connection, and install everything on an "
+"completely offline device."
 msgstr ""
 
-#: ../../faq.rst:20
+#: ../../faq.rst:16
 msgid ""
-"``127.0.0.1`` = A device's local IP address, meaning \"myself\". Some "
-"people joke and say \"There's no place like 127.0.0.1\", meaning "
-"\"there's no place like home\" :) This can be used on the serving device "
-"itself to test that Kolibri is running, in case you need a failsafe way "
-"of checking that Kolibri is in fact running and responsive."
+"In a nutshell, Kolibri can run independently of internet availability, "
+"but you need to procure the installer and content channels from somewhere"
+" for the initial installation and for subsequent upgrades."
 msgstr ""
 
-#: ../../faq.rst:21
+#: ../../faq.rst:18
 msgid ""
-"``192.x.y.z`` = Addresses starting with ``192`` are local network IP "
-"addresses. The same thing can be said about ``10.x.y.z``. The address "
-"that you wanna use to enter on the clients/tablets in order to contact "
-"the server will in most cases start with ``192`` or ``10``."
+"One possibility is to have Kolibri installed in one location with "
+"internet connection, where you can import content channels from `Kolibri "
+"Studio <https://studio.learningequality.org/>`_ (curriculum tool and "
+"content curation server), and then export them to removable USB drives "
+"that you bring or send to offline locations (rural schools, refugee "
+"camps, etc.) to import locally."
 msgstr ""
 
 #: ../../faq.rst:22
-msgid ""
-"Port number: Kolibri runs on port ``8080``. When you access something on "
-"an IP address, you need a port. Ports can be open or closed on the "
-"server, but they can also be regulated by firewall rules on the way. "
-"``http://`` <- this is the protocol that the browser reads out from the "
-"\"URL\", which is just some text that describes Kolibri."
+msgid "What languages is Kolibri available in?"
 msgstr ""
 
-#: ../../faq.rst:23
+#: ../../faq.rst:24
 msgid ""
-"``http://192.168.1.1:8080`` means: \"Connect to IP address "
-"``192.168.1.1`` on port ``8080`` with the HTTP protocol\". The browser "
-"will the continue to try to reach this address, but may fail for instance"
-" if Kolibri isn't running, or if a step along the way blocks access."
+"Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_"
+" are translation-ready and currently available in these languages:"
 msgstr ""
 
 #: ../../faq.rst:27
-msgid "Troubleshoot Network Problems"
+msgid "Language"
+msgstr ""
+
+#: ../../faq.rst:27
+msgid "Kolibri"
+msgstr ""
+
+#: ../../faq.rst:27
+msgid "Kolibri Studio"
 msgstr ""
 
 #: ../../faq.rst:29
-msgid "Can you access Kolibri via ``http://127.0.0.1:8080``?"
+msgid "English"
 msgstr ""
 
-#: ../../faq.rst:30
-msgid ""
-"Can you access anything from the external IP of the device running "
-"Kolibri **FROM** the device itself?"
+#: ../../faq.rst:29 ../../faq.rst:31 ../../faq.rst:33 ../../faq.rst:35
+#: ../../faq.rst:37 ../../faq.rst:39 ../../faq.rst:41 ../../faq.rst:43
+msgid "✓"
 msgstr ""
 
 #: ../../faq.rst:31
-msgid "Can you ping the external IP address from another device on the network?"
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: ../../faq.rst:33
+msgid "Spanish (Mexico)"
+msgstr ""
+
+#: ../../faq.rst:33
+msgid "⨯   (✓ ver 0.5)"
 msgstr ""
 
 #: ../../faq.rst:35
-msgid "Working with Kolibri from the Command Line"
+msgid "French"
 msgstr ""
 
-#: ../../faq.rst:38
+#: ../../faq.rst:35 ../../faq.rst:37 ../../faq.rst:39 ../../faq.rst:41
+#: ../../faq.rst:43 ../../faq.rst:45
+msgid "⨯"
+msgstr ""
+
+#: ../../faq.rst:37
+msgid "Swahili (Tanzania)"
+msgstr ""
+
+#: ../../faq.rst:39
+msgid "Arabic"
+msgstr ""
+
+#: ../../faq.rst:41
+msgid "Farsi"
+msgstr ""
+
+#: ../../faq.rst:43
+msgid "Urdu (Pakistan)"
+msgstr ""
+
+#: ../../faq.rst:45
+msgid "Hindi"
+msgstr ""
+
+#: ../../faq.rst:45
+msgid "⨯   (✓ ver 0.4)"
+msgstr ""
+
+#: ../../faq.rst:48
 msgid ""
-"In Windows you need to open ``cmd.exe`` Command prompt in the folder "
-"where Kolibri executable is located: ``c:/Python27/Scripts``."
+"To contribute to Kolibri and Kolibri Studio as a translator, you can get "
+"started over on our `translations and internationalization page "
+"<http://learningequality.org/translate/>`_."
 msgstr ""
 
-#: ../../faq.rst:40
+#: ../../faq.rst:51
+msgid "What are the typical deployment scenarios?"
+msgstr ""
+
+#: ../../faq.rst:53
 msgid ""
-"If you see errors in the prompt/terminal output while running the "
-"commands below, ask for help at our `Community Forums "
-"<https://community.learningequality.org/>`_, or `file an issue on GitHub "
-"<https://github.com/learningequality/kolibri/issues/new>`_."
+"There is no typical deployment scenario. However, we can share with you "
+"what we’ve learned from our community of KA Lite and Kolibri users. A "
+"typical school deployment varies depending on whether or not a school "
+"already has a computer lab."
 msgstr ""
 
-#: ../../faq.rst:44
-msgid "Start/Stop Kolibri"
-msgstr ""
-
-#: ../../faq.rst:46
+#: ../../faq.rst:55
 msgid ""
-"In case you need to troubleshoot potential problems while running "
-"Kolibri, you may try to start it manually from the command line."
+"School with an existing computer lab: In this case, Kolibri would be "
+"deployed as a server on one of the existing computers. Students would "
+"connect using client devices over the local network."
 msgstr ""
 
-#: ../../faq.rst:59
-msgid "Import Content Channels from Internet"
-msgstr ""
-
-#: ../../faq.rst:61
+#: ../../faq.rst:56
 msgid ""
-"To import content channels from Internet, run these two commands in "
-"sequence. The first downloads the channel database, and the second "
-"downloads the resources (videos, documents, etc.). *Make sure not to "
-"include the angle brackets “< >” in the command.*"
+"School with no existing computer lab: For schools that do not have an "
+"existing computer lab, a Kolibri deployment would involve obtaining a "
+"device that can run as a Kolibri server (most computers) and other "
+"devices to be used as clients. One common configuration is using a "
+"Raspberry Pi or other inexpensive computer as a server and relatively "
+"cheap tablets as client devices."
+msgstr ""
+
+#: ../../faq.rst:60
+msgid "What are some possible hardware configurations for deploying Kolibri?"
+msgstr ""
+
+#: ../../faq.rst:62
+msgid "To deploy Kolibri for multiple users you will need:"
+msgstr ""
+
+#: ../../faq.rst:64
+msgid ""
+"**Server device**: a computer that is running the Kolibri software (e.g. "
+"a desktop computer, laptop, or Raspberry Pi)."
+msgstr ""
+
+#: ../../faq.rst:65
+msgid ""
+"One or more **client devices** that have web browsers (laptops, tablets, "
+"desktop computers, etc)"
+msgstr ""
+
+#: ../../faq.rst:68
+msgid ""
+"For a single-device deployment (1) and (2) can be the same computer, with"
+" the browser connecting to the locally running Kolibri server. To make "
+"the software accessible to multiple client devices, you will need to put "
+"them on the same local network as the Kolibri server device (1), e.g. "
+"through a WIFI access point."
 msgstr ""
 
 #: ../../faq.rst:70
-msgid "Import Content Channels from a Local Drive"
-msgstr ""
-
-#: ../../faq.rst:72
 msgid ""
-"To import content channels from the local drive, run these two commands "
-"in sequence. Local drive should have a folder ``KOLIBRI_DATA`` at the "
-"root, with Kolibri ``content`` inside."
+"To read more details, see the full `Kolibri Hardware Guide "
+"<https://learningequality.org/r/hardware-guide>`_ and examples of "
+"`Hardware Configurations for Kolibri "
+"<https://learningequality.org/r/hardware>`_ (PDF documents)."
 msgstr ""
 
-#: ../../faq.rst:81
-msgid "Export Content Channels"
+#: ../../faq.rst:74
+msgid "How can I generate content aligned to local curriculum?"
 msgstr ""
 
-#: ../../faq.rst:83
+#: ../../faq.rst:76
 msgid ""
-"To export Kolibri content channels on a local drive in order to share it "
-"with another device, run these two commands in sequence. The first "
-"exports the channel database, and the second exports the resources "
-"(videos, documents, etc.)."
+"Use `Kolibri Studio <https://studio.learningequality.org/>`_ curriculum "
+"tool to curate content channels aligned to your local requirements. Once "
+"you finish creating the channels on Studio, you can import them on all "
+"your Kolibri deployments for use in learning environments."
+msgstr ""
+
+#: ../../faq.rst:80
+msgid "Bulk Downloads of Content Channels"
+msgstr ""
+
+#: ../../faq.rst:82
+msgid "``Coming soon!``"
+msgstr ""
+
+#: ../../faq.rst:84
+msgid ""
+"At this time we do not support bulk downloads of content channel outside "
+"the Kolibri platform.  In the near future, we will consider offering bit "
+"torrents for certain global content channels."
+msgstr ""
+
+#: ../../faq.rst:88
+msgid "Something isn’t working!"
 msgstr ""
 
 #: ../../faq.rst:90
 msgid ""
-"The path should be to a folder named ``KOLIBRI_DATA`` at the root of the "
-"local drive, so it will get picked up later for importing via the Web UI."
+"Refer to the :ref:`Troubleshoot and Support <support>` section of this "
+"guide."
 msgstr ""
 
 #: ../../faq.rst:94
-msgid "Create a New Super User"
+msgid "Who maintains the Kolibri project?"
 msgstr ""
 
 #: ../../faq.rst:96
 msgid ""
-"In case you need to create another Super user, either to address "
-"additional need of managing facility, or if you lost the password for the"
-" old one, run the following command:"
+"Kolibri is created, maintained, and operated by `Learning Equality, Inc "
+"<http://learningequality.org/about/>`_, a California-based nonprofit "
+"organization."
+msgstr ""
+
+#: ../../faq.rst:100
+msgid "How do you operate in the field?"
 msgstr ""
 
 #: ../../faq.rst:102
 msgid ""
-"You will be prompted to input the **Username** and **Password** and the "
-"new **Super user** user account will be created."
+"The Learning Equality team primarily works in our San Diego offices, "
+"building software and shaping our road map based on our interactions with"
+" our partners around the world. We work with individual humanitarians and"
+" NGOs of all sizes to help them distribute Kolibri to offline communities"
+" around the world, and will work on site for research and training "
+"purposes."
 msgstr ""
 
 #: ../../faq.rst:106
-msgid "Change Language"
+msgid "What is Kolibri’s affiliation with Khan Academy?"
 msgstr ""
 
-#: ../../faq.rst:113
-msgid "Available languages in Kolibri"
+#: ../../faq.rst:108
+msgid ""
+"Kolibri is an independent, open-source project maintained by `Learning "
+"Equality <http://learningequality.org/about/>`_, and is not officially "
+"affiliated with Khan Academy, although they are very supportive of the "
+"Kolibri project, and are one of our key partners."
 msgstr ""
 
-#: ../../faq.rst:115
-msgid "English"
+#: ../../faq.rst:112
+msgid "Can I contribute to Kolibri as a developer?"
 msgstr ""
 
-#: ../../faq.rst:115
-msgid "``en``"
+#: ../../faq.rst:114
+msgid ""
+"Yes! Kolibri is an `open source project "
+"<https://github.com/learningequality/>`_, and developers are encouraged "
+"to contribute!"
 msgstr ""
 
-#: ../../faq.rst:117
-msgid "Spanish (Spain)"
+#: ../../faq.rst:118
+msgid "Can I contribute to Kolibri as a translator?"
 msgstr ""
 
-#: ../../faq.rst:117
-msgid "``es-es``"
+#: ../../faq.rst:120
+msgid ""
+"Yes, absolutely! To contribute to Kolibri and Kolibri Studio as a "
+"translator, you can get started over on our `translations and "
+"internationalization page <http://learningequality.org/translate/>`_."
 msgstr ""
 
-#: ../../faq.rst:119
-msgid "Spanish (Mexico)"
+#: ../../faq.rst:124
+msgid "How do I find out more about LE and Kolibri?"
 msgstr ""
 
-#: ../../faq.rst:119
-msgid "``es-mx``"
+#: ../../faq.rst:126
+msgid ""
+"To stay up-to-date on all our activities, follow our `blog "
+"<https://blog.learningequality.org/>`_, `Twitter "
+"<https://twitter.com/LearnEQ/>`_, and `Facebook "
+"<https://www.facebook.com/learningequality>`_!"
 msgstr ""
 
-#: ../../faq.rst:121
-msgid "French"
-msgstr ""
+#~ msgid "Network Terminology"
+#~ msgstr ""
 
-#: ../../faq.rst:121
-msgid "``fr``"
-msgstr ""
+#~ msgid "About IP addresses"
+#~ msgstr ""
 
-#: ../../faq.rst:123
-msgid "Portuguese (Portugal)"
-msgstr ""
+#~ msgid ""
+#~ "``0.0.0.0`` = A special IP address "
+#~ "on the **server** (your device running"
+#~ " Kolibri and \"serving\" its content "
+#~ "to others in the local network), "
+#~ "which actually means \"all available IP"
+#~ " addresses\". It's a kind of alias."
+#~ " But accessing ``0.0.0.0`` from another "
+#~ "computer doesn't make sense and doesn't"
+#~ " work. By default, Kolibri will serve"
+#~ " on ``0.0.0.0``, which essentially means"
+#~ " all IP addresses that are available"
+#~ " on the device will render Kolibri"
+#~ " accessible."
+#~ msgstr ""
 
-#: ../../faq.rst:123
-msgid "``pt-pt``"
-msgstr ""
+#~ msgid ""
+#~ "``127.0.0.1`` = A device's local IP "
+#~ "address, meaning \"myself\". Some people "
+#~ "joke and say \"There's no place "
+#~ "like 127.0.0.1\", meaning \"there's no "
+#~ "place like home\" :) This can be"
+#~ " used on the serving device itself"
+#~ " to test that Kolibri is running, "
+#~ "in case you need a failsafe way"
+#~ " of checking that Kolibri is in "
+#~ "fact running and responsive."
+#~ msgstr ""
 
-#: ../../faq.rst:125
-msgid "Portuguese (Brazil)"
-msgstr ""
+#~ msgid ""
+#~ "``192.x.y.z`` = Addresses starting with "
+#~ "``192`` are local network IP addresses."
+#~ " The same thing can be said "
+#~ "about ``10.x.y.z``. The address that you"
+#~ " wanna use to enter on the "
+#~ "clients/tablets in order to contact the"
+#~ " server will in most cases start "
+#~ "with ``192`` or ``10``."
+#~ msgstr ""
 
-#: ../../faq.rst:125
-msgid "``pt-br``"
-msgstr ""
+#~ msgid ""
+#~ "Port number: Kolibri runs on port "
+#~ "``8080``. When you access something on"
+#~ " an IP address, you need a "
+#~ "port. Ports can be open or closed"
+#~ " on the server, but they can "
+#~ "also be regulated by firewall rules "
+#~ "on the way. ``http://`` <- this is"
+#~ " the protocol that the browser reads"
+#~ " out from the \"URL\", which is "
+#~ "just some text that describes Kolibri."
+#~ msgstr ""
 
-#: ../../faq.rst:127
-msgid "Swahili (Tanzania)"
-msgstr ""
+#~ msgid ""
+#~ "``http://192.168.1.1:8080`` means: \"Connect to "
+#~ "IP address ``192.168.1.1`` on port "
+#~ "``8080`` with the HTTP protocol\". The"
+#~ " browser will the continue to try "
+#~ "to reach this address, but may "
+#~ "fail for instance if Kolibri isn't "
+#~ "running, or if a step along the"
+#~ " way blocks access."
+#~ msgstr ""
 
-#: ../../faq.rst:127
-msgid "``sw-tz``"
-msgstr ""
+#~ msgid "Troubleshoot Network Problems"
+#~ msgstr ""
+
+#~ msgid "Can you access Kolibri via ``http://127.0.0.1:8080``?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Can you access anything from the "
+#~ "external IP of the device running "
+#~ "Kolibri **FROM** the device itself?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Can you ping the external IP "
+#~ "address from another device on the "
+#~ "network?"
+#~ msgstr ""
+
+#~ msgid "Working with Kolibri from the Command Line"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Windows you need to open "
+#~ "``cmd.exe`` Command prompt in the folder"
+#~ " where Kolibri executable is located: "
+#~ "``c:/Python27/Scripts``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you see errors in the "
+#~ "prompt/terminal output while running the "
+#~ "commands below, ask for help at "
+#~ "our `Community Forums "
+#~ "<https://community.learningequality.org/>`_, or `file "
+#~ "an issue on GitHub "
+#~ "<https://github.com/learningequality/kolibri/issues/new>`_."
+#~ msgstr ""
+
+#~ msgid "Start/Stop Kolibri"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case you need to troubleshoot "
+#~ "potential problems while running Kolibri, "
+#~ "you may try to start it manually"
+#~ " from the command line."
+#~ msgstr ""
+
+#~ msgid "Import Content Channels from Internet"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To import content channels from "
+#~ "Internet, run these two commands in "
+#~ "sequence. The first downloads the "
+#~ "channel database, and the second "
+#~ "downloads the resources (videos, documents,"
+#~ " etc.). *Make sure not to include "
+#~ "the angle brackets “< >” in the"
+#~ " command.*"
+#~ msgstr ""
+
+#~ msgid "Import Content Channels from a Local Drive"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To import content channels from the "
+#~ "local drive, run these two commands "
+#~ "in sequence. Local drive should have "
+#~ "a folder ``KOLIBRI_DATA`` at the root,"
+#~ " with Kolibri ``content`` inside."
+#~ msgstr ""
+
+#~ msgid "Export Content Channels"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To export Kolibri content channels on"
+#~ " a local drive in order to "
+#~ "share it with another device, run "
+#~ "these two commands in sequence. The "
+#~ "first exports the channel database, and"
+#~ " the second exports the resources "
+#~ "(videos, documents, etc.)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The path should be to a folder "
+#~ "named ``KOLIBRI_DATA`` at the root of"
+#~ " the local drive, so it will "
+#~ "get picked up later for importing "
+#~ "via the Web UI."
+#~ msgstr ""
+
+#~ msgid "Create a New Super User"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case you need to create another"
+#~ " Super user, either to address "
+#~ "additional need of managing facility, or"
+#~ " if you lost the password for "
+#~ "the old one, run the following "
+#~ "command:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will be prompted to input the"
+#~ " **Username** and **Password** and the "
+#~ "new **Super user** user account will "
+#~ "be created."
+#~ msgstr ""
+
+#~ msgid "Change Language"
+#~ msgstr ""
+
+#~ msgid "Available languages in Kolibri"
+#~ msgstr ""
+
+#~ msgid "``en``"
+#~ msgstr ""
+
+#~ msgid "``es-es``"
+#~ msgstr ""
+
+#~ msgid "``es-mx``"
+#~ msgstr ""
+
+#~ msgid "``fr``"
+#~ msgstr ""
+
+#~ msgid "Portuguese (Portugal)"
+#~ msgstr ""
+
+#~ msgid "``pt-pt``"
+#~ msgstr ""
+
+#~ msgid "Portuguese (Brazil)"
+#~ msgstr ""
+
+#~ msgid "``pt-br``"
+#~ msgstr ""
+
+#~ msgid "``sw-tz``"
+#~ msgstr ""
 
