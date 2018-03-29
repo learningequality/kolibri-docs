@@ -4,15 +4,15 @@
 Manage Lessons
 ~~~~~~~~~~~~~~
 
-Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and asign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
+Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
-To view, create and delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are asigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
+To view, create or delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are asigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
 
 .. image:: img/lessons.png
   :alt: manage lessons home page
 
 .. note::
-  To manage **Lessons** in Kolibri classes and groups you must sign in as **Coach** or **Admin**.
+  To manage **Lessons** in Kolibri classes and groups, you must sign in as **Coach** or **Admin**.
 
 
 Create New Lesson
@@ -26,7 +26,7 @@ To create a new lesson, follow these steps.
   .. image:: img/new-lesson.png
     :alt: create new lesson options
 
-3. Click the **Continue** button. In this step the lesson does not have any learning resources yet, but you can see and edit some options.
+3. Click the **Continue** button. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
 
   .. image:: img/lesson-options.png
     :alt: new lesson with no resources added
@@ -43,7 +43,7 @@ To create a new lesson, follow these steps.
 
 6. Click **Save** to confirm the selection and finish. 
 
-7. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the **Remove** button to delete them. You will see confirmation notification at the bottom.
+7. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the **Remove** button to delete them. You will see a confirmation notification at the bottom.
 
   .. image:: img/reorder-lesson-resources.png
     :alt: reorder and delete resources in the lesson
@@ -54,7 +54,7 @@ To create a new lesson, follow these steps.
 Change Lesson Status
 --------------------
 
-Newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps.
+A newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps.
 
 1. Click the **Change** link under the *Status* heading.
 
@@ -76,10 +76,10 @@ You can change the visibility of the lesson that you set when you initially crea
 #. Click **Save** to confirm, or **Cancel** to exit without change.
 
 
-Copy Lesson to Another Group or Class
--------------------------------------
+Copy Lesson
+-----------
 
-To copy lesson to a different group or another class of your facility, follow these steps.
+To copy a lesson to a different group or another class of your facility, follow these steps.
 
 1. Select the desired lesson from the list in the **Lessons** tab.
 2. Click the **Options** button, and select **Copy lesson**.
@@ -91,13 +91,13 @@ To copy lesson to a different group or another class of your facility, follow th
 4. If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson.
 5. Click **Save** to confirm, or **Cancel** to exit without change.
 
-If the lesson is copied to another group in the same class it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.
+If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.
 
 
 Rename Lesson
 -------------
 
-To rename lesson, follow these steps.
+To rename a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click the **Options** button, and select **Edit details**.
@@ -108,7 +108,7 @@ To rename lesson, follow these steps.
 Delete Lesson
 -------------
 
-To delete lesson, follow these steps.
+To delete a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click **Options** button, and select **Delete**.
