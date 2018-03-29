@@ -7,7 +7,7 @@ Debian/Ubuntu Linux
 Install from PPA repository
 ---------------------------
 
-Use the following commands in Terminal to add the PPA and install Kolibri::
+Use the following commands in Terminal to add the PPA and install Kolibri:
 
 .. code-block:: bash
 
@@ -45,11 +45,8 @@ device to device.
 Uninstall
 ---------
 
-* Open up **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
-
-OR
-
-* Use ``sudo apt-get remove <name of package>``. You need to know the exact name of the package you installed, most probably ``kolibri``.
+* Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
+* Or from command line: ``sudo apt-get remove kolibri``.
 
 Upgrade
 -------

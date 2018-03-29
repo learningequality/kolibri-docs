@@ -158,6 +158,8 @@ rst_prolog = """
 .. |pencil| replace:: :raw-html:`<span class="fa fa-pencil" aria-hidden="true"></span><span class="visuallyhidden">Edit</span>`
 .. |arrow-right| replace:: :raw-html:`<span class="fa fa-arrow-right" aria-hidden="true"></span><span class="visuallyhidden">See next</span>`
 .. |arrow-left| replace:: :raw-html:`<span class="fa fa-arrow-left" aria-hidden="true"></span><span class="visuallyhidden">See previous</span>`
+.. |arrow-up| replace:: :raw-html:`<span class="fa fa-angle-up fa-lg fa-border" aria-hidden="true"></span><span class="visuallyhidden">Arrow up</span>`
+.. |arrow-down| replace:: :raw-html:`<span class="fa fa-angle-down fa-lg fa-border" aria-hidden="true"></span><span class="visuallyhidden">Arrow down</span>`
 
 """
 

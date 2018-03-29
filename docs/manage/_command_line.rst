@@ -143,7 +143,7 @@ Change the Location of ALL Kolibri Files
 
 If you want to change the directory where all of Kolibri’s runtime files go, the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.
 
-If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s :ref:`Home <home>` folder, under the ``.kolibri`` subfolder. 
+If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s ``Home`` folder, under the ``.kolibri`` subfolder. 
 
 There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps.
 

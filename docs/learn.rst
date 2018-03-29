@@ -46,7 +46,36 @@ To sign out from Kolibri you can either:
 Learn with Kolibri
 ==================
 
-Each time you login into **Kolibri**, the first thing you will see is the **Learn** page. Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
+Classes
+^^^^^^^
+
+Each time you login into **Kolibri**, the first thing you will see is the **Learn** page with the list of all the classes you are enrolled to. 
+
+	.. figure:: img/learn-classes.png
+		:alt: Learn start page with all your classes.
+
+		Learn start page with all your classes.
+
+Select one of your classes to access :ref:`Lessons` and :ref:`Exams` your teachers or coaches prepared for your class.
+
+	.. figure:: img/exams-lessons.png
+		:alt: You can see all your lessons and exams in the Class tab.
+
+		You can see all your lessons and exams in the Class tab.
+
+
+Channels
+^^^^^^^^
+
+**Channels** tab offers you the option to navigate through the complete set of learning topics and materials available in Kolibri. Use it as you wish, or according to indications from your teachers and coaches.
+
+Depending on how your school and teachers or coaches decided to organize the content, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the content from each available channel.
+
+.. figure:: img/channels.png
+	:alt: Content in Kolibri is grouped in channels.
+
+	Content in Kolibri is grouped in channels.
+
 
 Recommended
 ^^^^^^^^^^^
@@ -68,17 +97,7 @@ The number of displayed content items in each row will depend on the width of yo
 
 		Learn page gives you access to all Kolibri learning content and activities.
 
-Channels
-^^^^^^^^
 
-**Topics** tab offers you the option to navigate through the complete set of learning topics and materials available in Kolibri. Use it as you wish, or according to indications from your teachers and coaches.
-
-Depending on how your school and teachers or coaches decided to organize the content, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the content from each available channel.
-
-.. figure:: img/channels.png
-	:alt: Content in Kolibri is grouped in channels.
-
-	Content in Kolibri is grouped in channels.
 
 Navigate Kolibri topics with breadcrumb links
 """""""""""""""""""""""""""""""""""""""""""""
@@ -180,12 +199,28 @@ PDF Viewer options
 
 Use the **Download content** button below the PDF viewer to download the PDF file to your computer.
 
+.. _lessons:
+
+Lessons
+^^^^^^^
+
+When your teacher or coach prepares a *lesson*, that is a recommended set of learning resources for you or your class to view, it will be available in the **Class** tab, below the **Lessons** heading. You may have more than one lesson available at the time.
+
+Click on a lesson title to open its content, and follow the indications of your teachers or coaches on how to use it.
+
+.. figure:: img/learner-lesson-home.png
+	:alt: lessons tab
+
+
+Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
+
+
 .. _exams:
 
 Exams
 ^^^^^
 
-If your teacher/coach scheduled an exam for you or your class, it will be available through the **Exams** tab. You may have more than one exam available at the time.
+If your teacher or coach scheduled an exam for you or your class, it will be available in the **Class** tab, under the **Exams** heading. You may have more than one exam available at the time.
 
 .. figure:: img/exams3.png
 	:alt: exams tab
@@ -210,4 +245,3 @@ If your teacher/coach scheduled an exam for you or your class, it will be availa
 
 .. figure:: img/exam-result.png
 	:alt: exams tab
-
