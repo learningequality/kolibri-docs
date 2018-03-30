@@ -24,7 +24,7 @@
 
 
 Kolibri User Guide
-=================
+==================
 
 **Kolibri** is an open-source educational platform specially designed to provide offline access to a wide range of quality, openly licensed educational contents in low-resource contexts like rural schools, refugee camps, orphanages, and also in non-formal school programs.
 
