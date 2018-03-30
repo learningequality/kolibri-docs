@@ -5,7 +5,7 @@ Frequently Asked Questions
 How much does Kolibri cost to install?
 --------------------------------------
 
-It is FREE – both free as in “free speech” and free as in “free beer”! To learn more about free software, see this `Free Software Foundation article <http://www.fsf.org/about/what-is-free-software>`_.
+It is FREE – both free as in “free speech” and free as in “free beer”! To learn more about free software, see this `Free Software Foundation article <https://www.fsf.org/about/what-is-free-software>`_.
 
 
 Do I need the internet to run Kolibri?

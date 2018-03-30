@@ -39,7 +39,7 @@ Technical issues
 If you are certain that you have found a technical issue, please open up an
 issue report in our public software repository, following the guidelines:
 
-`github.com/learningequality/kolibri <http://github.com/learningequality/kolibri/>`__
+`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__
 
 
 Contributions and development
