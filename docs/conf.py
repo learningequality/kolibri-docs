@@ -30,6 +30,8 @@ builddir = os.path.join(cwd, '_build')
 
 linkcheck_ignore = [
     'https://groups.google.com/a/learningequality.org/forum/#!forum/dev',
+    'http://127.0.0.1:8080',
+    'http://127.0.0.1:8080/',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
