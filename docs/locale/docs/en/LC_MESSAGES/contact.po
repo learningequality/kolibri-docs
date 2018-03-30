@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Learning Equality
+# This file is distributed under the same license as the Kolibri package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kolibri 0.8.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-30 00:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../contact.rst:4
+msgid "Get in touch"
+msgstr ""
+
+#: ../../contact.rst:10
+msgid "Getting support"
+msgstr ""
+
+#: ../../contact.rst:12
+msgid ""
+"If you want to contact the **Learning Equality** Support team to report "
+"an issue, or share your experience about using Kolibri, please register "
+"at our `Community Forums <https://community.learningequality.org/>`_."
+msgstr ""
+
+#: ../../contact.rst:16
+msgid ""
+"Once you register on our forums, please read the the first two pinned "
+"topics (*Welcome to LE’s Support Community* and *How do I post to this "
+"forum?* )"
+msgstr ""
+
+#: ../../contact.rst:19
+msgid ""
+"You can add a new topic with the **+ New Topic** button on the right. "
+"Make sure to select the **Kolibri** category in the **Create a New "
+"Topic** window so it’s easier to classify and respond to."
+msgstr ""
+
+#: ../../contact.rst:27
+msgid "Feedback"
+msgstr ""
+
+#: ../../contact.rst:30
+msgid "New ideas"
+msgstr ""
+
+#: ../../contact.rst:32
+msgid ""
+"Until we can present a proper feedback platform, we encourage you to post"
+" any new ideas to the `Community Forums "
+"<https://community.learningequality.org/>`_."
+msgstr ""
+
+#: ../../contact.rst:37
+msgid "Technical issues"
+msgstr ""
+
+#: ../../contact.rst:39
+msgid ""
+"If you are certain that you have found a technical issue, please open up "
+"an issue report in our public software repository, following the "
+"guidelines:"
+msgstr ""
+
+#: ../../contact.rst:42
+msgid ""
+"`github.com/learningequality/kolibri "
+"<http://github.com/learningequality/kolibri/>`__"
+msgstr ""
+
+#: ../../contact.rst:46
+msgid "Contributions and development"
+msgstr ""
+
+#: ../../contact.rst:48
+msgid "Please refer to our developer docs:"
+msgstr ""
+
+#: ../../contact.rst:50
+msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+msgstr ""
+
