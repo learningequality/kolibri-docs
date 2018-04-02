@@ -7,8 +7,8 @@ You can track progress of the **Learner** users, create and assign **Lessons** a
 
 Select a class from the list to access the progress-tracking features and create exams.
 
-	.. figure:: img/coach-home.png
-	  :alt: default coach view with list of classes
+.. figure:: img/coach-home.png
+  :alt: default coach view with list of classes
 
 .. _track_progress:
 
@@ -16,26 +16,26 @@ Select a class from the list to access the progress-tracking features and create
 View Learner Reports
 ~~~~~~~~~~~~~~~~~~~~
 
-This is the default view when you select a class from the **Coach** dashboard. It displays the list of learners in the class and the group they are asigned to.
+This is the default view when you select a class from the **Coach** dashboard. It displays the list of learners in the class and the group they are assigned to.
 
 When you click the username of a learner, you will see the list of content they accessed and when were they last active on each of the channels:
 
-	.. figure:: img/learner-report-content.png
-	  :alt: Learner Reports present a quick view of all the content accessed by a learner.
+.. figure:: img/learner-report-content.png
+  :alt: Learner Reports present a quick view of all the content accessed by a learner.
 
-	  Learner Reports present a quick view of all the content accessed by a learner.
-
+  Learner Reports present a quick view of all the content accessed by a learner.
 
 .. tip::
-  Username of the selected learner will be the last item in the breadcrumb menu on the top.
+  In this view the username of the selected learner will be the last item in the breadcrumb navigation menu.
 
+Navigate the topic tree of each channel to see the progress of the selected learner for the topics, subtopics and individual resources. As you navigate, you will see topics added to the breadcrumbs menu. 
 
-Navigate the topic tree of each channel to see the progress of the selected learner for the topics, subtopics and individual resources. In the image below you can see that the learner **abbyl** accessed and completed only one of the subtopics from the topic **Addition and Subtraction to 10**: 
+In the image below you can see that the learner **Abby L.** accessed and completed only one of the subtopics from the topic **Addition and Subtraction to 10**: 
 
-	.. figure:: img/learner-report-topic.png
-	  :alt: Learner Reports across topics for the selected content channel.
+.. figure:: img/learner-report-topic.png
+  :alt: Learner Reports across topics for the selected content channel.
 
-	  Learner Reports across topics for the selected content channel.
+  Learner Reports across topics for the selected content channel.
 
 
 .. _exercise_progress:
@@ -57,20 +57,20 @@ In the example below, the progress bar for the exercise **Subtract within 5** wi
 
 Click the exercise title to see all the answers and attempts on each question. In the figure below, you can see the progress of the learner **Hansen** for the exercise **Numbers to 120**. The exercise is still **In progress** as the learner has not completed the 5 correct answers in the row. You can also see that for the *Question 13*, the learner has given the correct answer only on the 4th attempt, which indicates that they are still struggling with the given concept.
 
-	.. figure:: img/learner-exercise-attempts.png
-	    :alt: View the details for all the answers and attempts for a single exercise.
+.. figure:: img/learner-exercise-attempts.png
+    :alt: View the details for all the answers and attempts for a single exercise.
 
-	    View the details for all the answers and attempts for a single exercise.
+    View the details for all the answers and attempts for a single exercise.
 
 
 How does it looks if learner A does 5 correct answers in a row on their first try, but learner B gets 10 wrong answers in a row before giving 5 correct ones in a row? In both cases, the progress would show as 100%, and you would have to click each learner's name to access their progress report and attempt history.
 
 In the figure below, you can see the progress of 5 learners for the exercise **Numbers to 120** in ascending order.
 
-	.. figure:: img/exercise-view-detail.png
-	    :alt: View the progress for a single exercise or resource in a topic.
+.. figure:: img/exercise-view-detail.png
+    :alt: View the progress for a single exercise or resource in a topic.
 
-	    View the progress for a single exercise or resource in a topic.
+    View the progress for a single exercise or resource in a topic.
 
 
 
@@ -96,15 +96,15 @@ If the class learners have access to more than one channel, you will see the lis
 
 .. _topic_view:
 
-View Class Activity by Topic
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+View Class Activity by Channels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Use this view to access the full report of activity progress for the selected class. You can navigate channels by topics and subtopics until you see the progress of each class learner for a specific item.
 
 	.. figure:: img/topic-activity.png
 	  :alt: Use the topic view to see the average progress for exercises and resources for all the learners in the class.
 
-	  Use the topic view to see the average progress for exercises and resources for all the learners in the class.
+	  Use the channel view to see the average progress for exercises and resources for all the learners in the class.
 
 
 When you navigate to the last level in the topic tree, you can see the average progress of all class learners for each exercise or resource (video, document, HTML5 activity) in that particular topic.

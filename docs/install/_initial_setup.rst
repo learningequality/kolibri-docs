@@ -34,7 +34,7 @@ To do the initial setup of after the installation, follow these steps.
 
 	   Select the username and password for the facility Super User.
 
-#. **Choose a Facility setup.** Click the **Setup details** for more information about user permissions for each setup type.
+#. **Choose a Facility setup.** Click the **More information** link for more details about user permissions for each setup type.
 
 +--------------------------------------------------+----------------------------------------------------+
 | Facility type                                    | Users                                              |

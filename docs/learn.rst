@@ -97,6 +97,7 @@ The number of displayed content items in each row will depend on the width of yo
 
 		Learn page gives you access to all Kolibri learning content and activities.
 
+Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
 
 
 Navigate Kolibri topics with breadcrumb links
@@ -183,7 +184,6 @@ To play videos and listen to audio files in Kolibri you have several available c
 Use the **Download content** button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
 
 
-
 PDF Viewer options
 """"""""""""""""""
 
@@ -212,9 +212,6 @@ Click on a lesson title to open its content, and follow the indications of your 
 	:alt: lessons tab
 
 
-Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
-
-
 .. _exams:
 
 Exams
@@ -225,8 +222,9 @@ If your teacher or coach scheduled an exam for you or your class, it will be ava
 .. figure:: img/exams3.png
 	:alt: exams tab
 
+If the exam is listed as *Not started*, follow these steps.
 
-#. Press the button **Start** when you are ready to start taking exam.
+#. Click on the exam when you are ready to start taking it.
 #. You can go on answering the questions in the order you prefer: move through questions with **Previous** and **Next question** buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
@@ -235,13 +233,14 @@ If your teacher or coach scheduled an exam for you or your class, it will be ava
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
 #. Press the *Back to exam list* if you want to pause the exam and come back later.
-#. Press the button **Continue** to resume when you are ready.
-
-	.. figure:: img/exam-continue.png
-		:alt: exams tab
-
 #. Press the button **Submit exam** when you are positive that you answered all the questions, and you want to submit it for grading.
-#. You will see instant feedback with the result of your exam.
+
+If the exam is listed as having *...questions left*, click on it to resume when you are ready.
+
+If the exam is listed as *Completed*, click on it to see the score and review your answers.
 
 .. figure:: img/exam-result.png
 	:alt: exams tab
+
+.. tip::
+   Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.
