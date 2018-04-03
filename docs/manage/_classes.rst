@@ -44,7 +44,7 @@ To delete class, follow these steps.
 Edit Class, Learners and Coaches
 --------------------------------
 
-The newly created class does not have any learners or coaches. To edit a class select it from the default view in the **Classes** tab. In this view you can change class name, add or remove currently enrolled learners and assign or remove coaches from the class.
+A newly created class does not have any learners or coaches. To edit a class select it from the default view in the **Classes** tab. In this view, you can change class name, add or remove currently enrolled learners and assign or remove coaches from the class.
 
 .. image:: img/new-class.png
   :alt: new class with no learners and coaches
@@ -64,7 +64,7 @@ To edit class name, follow these steps.
 
 .. _enroll_learners:
 
-Enroll Learners to Class
+Enroll Learners in Class
 ************************
 
 #. Click the **Enroll learners** button on the class details page.
@@ -106,8 +106,8 @@ Assign Coaches to Class
 2. Use checkboxes to select all the user in the list, or the search field for specific users you want to assign as a coach to class.
 3. Click **Confirm** button to finish.
 
-Remove Coaches from Class
-*************************
+Remove Coaches from a Class
+***************************
 
 #. Click **Remove** button for the chosen user.
 #. Click **Remove** to confirm, or **Cancel** to exit without removing the coach.
