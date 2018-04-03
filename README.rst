@@ -2,6 +2,8 @@
 Kolibri Docs
 ============
 
+.. image:: https://api.travis-ci.org/learningequality/kolibri-docs.svg?branch=develop
+  :target: https://travis-ci.org/learningequality/kolibri-docs
 .. image:: https://img.shields.io/badge/docs-user-ff69b4.svg
   :target: http://kolibri.readthedocs.org/en/latest/
 .. image:: https://img.shields.io/badge/translate-crowdin-69ffb4.svg

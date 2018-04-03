@@ -30,7 +30,6 @@ clean:
 
 lint:
 	$(MAKE) -C docs linkcheck
-	$(MAKE) -C docs doctest
 
 docs: clean
 	$(MAKE) -C docs html
