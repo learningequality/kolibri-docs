@@ -21,8 +21,7 @@ Use the following commands in Terminal to add the PPA and install Kolibri:
 Install from a .deb file
 ------------------------
 
-The advantage of having a ``.deb`` file is about portability. If you need to install Kolibri on devices without internet access, you can copy the file from
-device to device.
+The advantages of downloading a ``.deb`` file concern portability: If you need to install Kolibri on devices without internet access, you can copy the file from device to device.
 
 #. Download the latest Kolibri `DEB installer <https://learningequality.org/r/kolibri-deb-latest>`_, or have it copied to your local drive.
 #. Run this command from the location where you downloaded the ``DEB`` file:
