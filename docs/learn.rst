@@ -235,7 +235,7 @@ If the exam is listed as *Not started*, follow these steps.
 #. Press the *Back to exam list* if you want to pause the exam and come back later.
 #. Press the button **Submit exam** when you are positive that you answered all the questions, and you want to submit it for grading.
 
-If the exam is listed as having *...questions left*, click on it to resume when you are ready.
+If the exam in the **Class** tab is listed as having *...questions left*, click on it to resume when you are ready.
 
 If the exam is listed as *Completed*, click on it to see the score and review your answers.
 

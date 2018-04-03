@@ -55,7 +55,7 @@ Change Class Name
 
 To edit class name, follow these steps.
 
-#. Click on the **Edit** button (pencil icon) next to the class’ name.
+#. Click on the **Edit** button ( |pencil| icon) next to the class’ name.
 #. Write the new name in the **Class name** field.
 #. Click **Update** to confirm the edited information, or **Cancel** to exit without saving.
 
