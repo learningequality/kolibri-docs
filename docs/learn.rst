@@ -87,17 +87,17 @@ In the **Recommended** tab you can see various sections:
 * **Resume** displays activities that you started but haven’t finished yet.
 * **Featured in...** displays a preview of activities for each content channel you have access on Kolibri.
 
+These learning topics and materials are either related to what you were doing the last time you used Kolibri or recommended by your teachers and coaches (not visible if you are browsing as a guest).
+
 .. note::
    **Next steps** and **Resume** are not visible if you are browsing as a guest.
 
-The number of displayed content items in each row will depend on the width of your display, but you can browse through with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows.
+The number of displayed content items in each row will depend on the width of your display, and you can browse with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows.
 
 	.. figure:: img/learn.png
 		:alt: Learn page gives you access to all Kolibri learning content and activities.
 
 		Learn page gives you access to all Kolibri learning content and activities.
-
-Here you will find learning topics and materials related to what you were doing the last time you used Kolibri, or those recommended by your teachers and coaches (not visible if you are browsing as a guest).
 
 
 Navigate Kolibri topics with breadcrumb links
