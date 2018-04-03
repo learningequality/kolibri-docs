@@ -43,10 +43,10 @@ To create a new exam, follow these steps.
 Change Exam Visibility
 ----------------------
 
-Newly created exam will be visible to entire class by default. To change exam *Recipients*, that is assign it to one group of learners instead of the whole class, follow these steps:
+Newly created exam will be visible to entire class by default. To change exam *Recipients* (a select group of learners instead of the whole class), follow these steps:
 
 #. Select the exam by clicking its title from the exam list.
-#. Click the **Options** button and select **Edit details** option.
+#. Click the **Options** button and select the **Edit details** option.
 #. Select the group(s) of learners to whom you wish to assign the exam under the *Recipients* heading.
 #. Click **Save** to confirm, or **Cancel** to exit without change.
 
@@ -80,9 +80,9 @@ To view the report and scores for learners who have taken the exam, follow these
     .. image:: img/exam-report.png
       :alt: view the exam report for the whole group or class
 
-  This view presents the list of all the learners who had access to the exam, with the respective progress and scores. Click the name of the learner to view the detailed exam report with preview of results for each question.
+  This view presents the list of all the learners who had access to the exam, with the respective progress and scores. Click the name of the learner to view the detailed exam report with a preview of the results for each question.
 
-3. Click each of the questions to preview it and understand better which question learners answered correctly in the exam and how many attempts they had on each answer.
+3. Click each of the questions to preview it. This can help understand which questions learners had difficulties answering correctly and how many attempts they used.
   
   * yellow star icon indicates a **completed** exam
   * blue clock icon indicates the exam is **in progress**, not submitted yet
@@ -93,13 +93,13 @@ To view the report and scores for learners who have taken the exam, follow these
     .. image:: img/exam-report-detail.png
       :alt: view the detailed exam report for the selected learner
 
-  * Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
+  * Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: The first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
 
 
 Copy Exam
 ---------
 
-To copy exam to a different group or another class of your facility, follow these steps.
+To copy an exam to a different group or another class, follow these steps.
 
 1. Select the desired exam from the list in the **Exams** tab.
 2. Click the **Options** button, and select **Copy to**.
