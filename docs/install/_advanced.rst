@@ -10,7 +10,7 @@ Generic installation (pip install)
 
 Once Kolibri is released, you may install it as a standard package from PyPi using this command::
 
-    $ pip install kolibri --pre
+    pip install kolibri --pre
 
 
 .. _ppa-installation:

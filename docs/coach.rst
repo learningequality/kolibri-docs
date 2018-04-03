@@ -3,9 +3,9 @@
 Coach your Learners in Kolibri
 ##############################
  
-You can track progress of the **Learner** users, create and assign **Lessons** and **Exams** to classes or learner groups from the **Coach** dashboard. The default view of the **Coach** dashboard presents the list of **Classes** with number of learners enrolled to each class.
+You can track progress of the **Learner** users, create and assign **Lessons** and **Exams** to classes or learner groups from the **Coach** dashboard. The default view of the **Coach** dashboard presents the list of **Classes** with their assigned coaches, and the number of learners enrolled to each class.
 
-Select a class from the list to access the progress-tracking features and create exams.
+Click on a class from the list to access the progress-tracking features and create lessons and exams.
 
 .. figure:: img/coach-home.png
   :alt: default coach view with list of classes
@@ -18,7 +18,7 @@ View Learner Reports
 
 This is the default view when you select a class from the **Coach** dashboard. It displays the list of learners in the class and the group they are assigned to.
 
-When you click the username of a learner, you will see the list of content they accessed and when were they last active on each of the channels:
+When you click the username of a learner, you will see the list of content they accessed, and the last time they were active on each of the channels:
 
 .. figure:: img/learner-report-content.png
   :alt: Learner Reports present a quick view of all the content accessed by a learner.

@@ -28,7 +28,7 @@ To create a new user account, follow these steps.
 Coach Type
 **********
 
-When you can create a new *Coach* user account, or change the role to *Coach* for an existing user, you can choose between:
+When you create a new *Coach* user account, or change the role to *Coach* for an existing user, you can choose between:
 
 * **Class coach**, that will have access to the coach dashboard and permissions to instruct ONLY the learners in the classes they are assigned to.
 * **Facility coach**, that will have access to the coach dashboard and permissions to instruct ALL the classes and the learners in the facility.

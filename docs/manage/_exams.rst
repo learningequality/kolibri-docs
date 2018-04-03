@@ -83,9 +83,17 @@ To view the report and scores for learners who have taken the exam, follow these
   This view presents the list of all the learners who had access to the exam, with the respective progress and scores. Click the name of the learner to view the detailed exam report with preview of results for each question.
 
 3. Click each of the questions to preview it and understand better which question learners answered correctly in the exam and how many attempts they had on each answer.
+  
+  * yellow star icon indicates a **completed** exam
+  * blue clock icon indicates the exam is **in progress**, not submitted yet
+  * green check mark icon indicates the **correct** answer
+  * red X mark icon indicates the **incorrect** answer
+  * gray X mark icon indicates an **unanswered** question
 
     .. image:: img/exam-report-detail.png
       :alt: view the detailed exam report for the selected learner
+
+  * Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
 
 
 Copy Exam

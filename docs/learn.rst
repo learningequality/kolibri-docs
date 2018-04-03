@@ -110,6 +110,10 @@ When you are browsing a topic in Kolibri, the **Breadcrumb** links indicate prev
 
 	Use breadcrumbs links to navigate back through Kolibri topics.
 
+If the full length of the breadcrumbs becomes too wide for the width of your display, the more general topics will be hidden. Click the leftmost down arrow icon to access them.
+
+.. figure:: img/breadcrumbs-folded.png
+	:alt: click the expand more button to reveal folded breadcrumb links
 
 Search
 ^^^^^^
@@ -237,7 +241,7 @@ If the exam is listed as *Not started*, follow these steps.
 
 If the exam in the **Class** tab is listed as having *...questions left*, click on it to resume when you are ready.
 
-If the exam is listed as *Completed*, click on it to see the score and review your answers.
+Once you submit the exam, it will be listed as *Completed* in the **Class** tab, but you can click on it to see the score and review your answers.
 
 .. figure:: img/exam-result.png
 	:alt: exams tab
