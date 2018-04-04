@@ -99,4 +99,4 @@ To change language in which **Kolibri** user interface is displayed, follow thes
 #. Open your user menu in the upper right corner.
 #. Select the **Change language** option.
 #. Choose the desired language.
-#. Click **Confirm** and Kolibri will speak the selected language!
+#. Click **Confirm** and Kolibri will be displayed in the selected language!

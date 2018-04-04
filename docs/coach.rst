@@ -16,16 +16,16 @@ Click on a class to access the progress-tracking features and create lessons and
 View Learner Reports
 ~~~~~~~~~~~~~~~~~~~~
 
-Clicking a class on the **Coach** dashboard displays the list of learners in the class and the group they are assigned to.
+Click a class on the **Coach** dashboard to display the list of enrolled learners, and the group they are assigned to (if applicable).
 
-When you click the username of a learner, you will see a list of content which the learner has accessed. This displays the last time they were active on each of the channels:
+When you click the username of a learner, you will see a list of content channels they accessed, and the last time they were active on each of them:
 
 .. figure:: img/learner-report-content.png
   :alt: Learner Reports present a quick view of all the content accessed by a learner.
 
   Learner Reports present a quick view of all the content accessed by a learner.
 
-.. tip::
+.. note::
   In a Learner report, the username of the selected learner will be the last item in the breadcrumb navigation menu.
 
 Navigate the topic tree of each channel to see the progress of the selected learner for the topics, subtopics and individual resources. As you navigate, you will see topics added to the breadcrumbs menu.
@@ -60,7 +60,7 @@ Click the exercise title to see all the answers and attempts on each question. I
 .. figure:: img/learner-exercise-attempts.png
     :alt: Details for answers and attempts of a single exercise.
 
-    Details for answers and attempts of a single exercise.
+    Details for answers and attempts on a single exercise.
 
 
 How does it looks if learner A does 5 correct answers in a row on their first try, but learner B gets 10 wrong answers in a row before giving 5 correct ones in a row? In both cases, the progress would show as 100%, and you would have to click each learner's name to access their progress report and attempt history.

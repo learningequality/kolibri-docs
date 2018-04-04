@@ -87,7 +87,7 @@ In the **Recommended** tab you can see various sections:
 * **Resume** displays activities that you started but haven’t finished yet.
 * **Featured in...** displays a preview of activities for each content channel you have access on Kolibri.
 
-These learning topics and materials are either related to what you were doing the last time you used Kolibri or recommended by your teachers and coaches (not visible if you are browsing as a guest).
+These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
 
 .. note::
    **Next steps** and **Resume** are not visible if you are browsing as a guest.
@@ -237,7 +237,7 @@ If the exam is listed as *Not started*, follow these steps.
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
 #. Press the *Back to exam list* if you want to pause the exam and come back later.
-#. Press the button **Submit exam** when you are positive that you answered all the questions, and you want to submit it for grading.
+#. Press the button **Submit exam** when you want to submit it for grading.
 
 If the exam in the **Class** tab is listed as having *...questions left*, click on it to resume when you are ready.
 

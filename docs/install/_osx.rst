@@ -13,10 +13,10 @@ Install
 #. Download the `Kolibri PEX installer <https://learningequality.org/r/kolibri-pex-latest>`_.
 #. Open Terminal in the folder where ``PEX`` file is located and run the command:
 
-  .. code-block:: bash
+	.. code-block:: bash
 
-    chmod +x kolibri-installer-filename.pex
-    ./kolibri-installer-filename.pex start
+	  chmod +x kolibri-installer-filename.pex
+	  ./kolibri-installer-filename.pex start
 
 #. Once the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
