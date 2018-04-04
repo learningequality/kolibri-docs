@@ -8,7 +8,7 @@ Operating systems
 
  - Windows Vista, 7, 8.1, 10
  - Debian/Ubuntu: 14.04, 16.04 and up - anything that's *not* end-of-life.
- - Linux: Any system with Python 2.7
+ - Linux: Any system with Python 3.4
  - Mac OSX 10.9, 10.10 and 10.11
  - Debian/Raspberry Pi packages: Wheezy or later
  - *(planned)* Android: 4.2.2 or later
@@ -24,7 +24,7 @@ Supported Browsers
  - Chrome
  - *(planned)* Safari
  - *(planned)* Epiphany on Raspberry Pi
- - *(planned)* others on Android and  iOS.  
+ - *(planned)* others on Android and iOS.
 
 
 .. TODO - Known issues
