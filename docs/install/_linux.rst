@@ -11,6 +11,7 @@ Use the following commands in Terminal to add the PPA and install Kolibri:
 
 .. code-block:: bash
 
+    sudo apt-get install software-properties-common python-software-properties
     sudo add-apt-repository ppa:learningequality/kolibri
     sudo apt-get update
     sudo apt-get install kolibri
