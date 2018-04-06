@@ -42,7 +42,7 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 +---------------------------+-----------------+-----------------+
 | Urdu (Pakistan)           | ✓               | ⨯               |
 +---------------------------+-----------------+-----------------+
-| Hindi                     | ⨯   (✓ ver 0.4) | ⨯               |
+| Hindi                     | ✓               | ⨯               |
 +---------------------------+-----------------+-----------------+
 
 To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <http://learningequality.org/translate/>`_.

@@ -10,7 +10,7 @@ You can view, create and delete classes, as well as search, filter and enroll Ko
   :alt: manage classes
 
 .. note::
-  To manage Kolibri users you must sign-in as **Super user** or **Admin**.
+  To manage Kolibri classes you must sign-in as **Super user** or **Admin**.
 
 
 Add New Class
@@ -18,7 +18,7 @@ Add New Class
 
 To add a new class, follow these steps.
 
-#. Click **Add new class** button.
+#. Click **New class** button.
 #. Fill in the class name.
 #. Click **Create** to add the new class, or **Cancel** to exit.
 
@@ -41,52 +41,79 @@ To delete class, follow these steps.
   Users enrolled in the class you are deleting will not be removed from the database.
 
 
-Edit Class and Enroll Users
----------------------------
+Edit Class, Learners and Coaches
+--------------------------------
 
-To edit a class select it from the default view in the **Classes** tab. In the following **Class** view you can change class name, remove currently enrolled users from the class and enroll new ones.
+A newly created class does not have any learners or coaches. To edit a class select it from the default view in the **Classes** tab. In this view, you can change class name, add or remove currently enrolled learners and assign or remove coaches from the class.
+
+.. image:: img/new-class.png
+  :alt: new class with no learners and coaches
+
 
 Change Class Name
 *****************
 
 To edit class name, follow these steps.
 
-#. Click on the **Edit** button (pencil icon) next to the class’ name.
+#. Click on the **Edit** button ( |pencil| icon) next to the class’ name.
 #. Write the new name in the **Class name** field.
 #. Click **Update** to confirm the edited information, or **Cancel** to exit without saving.
 
 .. image:: img/change-class-name.png
   :alt: change class name
 
-.. _enroll_new_users_class:
+.. _enroll_learners:
 
-Enroll users to class
-*********************
+Enroll Learners in Class
+************************
 
-#. Click the **Enroll users** button on the class details page.
+#. Click the **Enroll learners** button on the class details page.
 
     .. image:: img/add-users-to-class.png
       :alt: add users to class
 
-    * List in this view contains all the users currently **NOT** enrolled for the selected class.
-    * You can search for a specific user by name.
+    * List in this view contains all the learners currently **NOT** enrolled for the selected class.
+    * You can search for a specific learner by name.
 
-#. Use checkboxes to select all the user in the list, or specific users you want to enroll to class. You can also use the **New user account** button to create a new user AND enroll them at the same time.
-#. Click **Review & save** button.
-#. Click **Yes, enroll users** to confirm, or **No, go back** to exit without enrolling the selected users.
+#. Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll to class.
+#. Click **Confirm** button to finish enrolling the selected learners.
 
-.. image:: img/confirm-add-users-to-class.png
-  :alt: confirm enrollment of users to class
+Remove Learners from Class
+**************************
 
+#. Click **Remove** button for the chosen learner.
+#. Click **Remove** to confirm, or **Cancel** to exit without removing the learner.
 
-Remove users from class
+    .. image:: img/remove-user-from-class.png
+      :alt: remove learner from class
+
+  .. note::
+    Learners removed from the class will not be deleted from the database, and you can still access their accounts from the **Users** tab in the **Facility** dashboard.
+
+.. _assign_coaches:
+
+Assign Coaches to Class
 ***********************
 
-#. Click **Remove** button for the chosen user.
-#. Click **Remove from class** to confirm, or **Cancel** to exit without removing the user.
+1. Click the **Assign coaches** button on the class details page.
 
-.. image:: img/remove-user-from-class.png
-  :alt: remove user from class
+  .. image:: img/assign-coach.png
+    :alt: assign coaches to class
+
+  * List in this view contains all the users with *Coach*, *Facility coach* or *Admin* roles.
+  * You can search for a specific user by name.
+
+2. Use checkboxes to select all the user in the list, or the search field for specific users you want to assign as a coach to class.
+3. Click **Confirm** button to finish.
+
+Remove Coaches from a Class
+***************************
+
+#. Click **Remove** button for the chosen user.
+#. Click **Remove** to confirm, or **Cancel** to exit without removing the coach.
+
+  .. image:: img/remove-coach-from-class.png
+    :alt: remove user from class
 
 .. note::
-  Users removed from the class will not be deleted from the database, and you can still access their accounts from the **Users** tab in the **Facility** dashboard.
+  Coaches removed from the class will not be deleted from the database, and you can still access their accounts from the **Users** tab in the **Facility** dashboard.

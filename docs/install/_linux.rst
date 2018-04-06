@@ -21,13 +21,10 @@ Use the following commands in Terminal to add the PPA and install Kolibri:
 Install from a .deb file
 ------------------------
 
-The advantage of having a ``.deb`` file is about portability. If you need to
-install Kolibri on devices without internet access, you can copy the file from
-device to device.
+The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
 
-#. Go to `learningequality.org/download <https://learningequality.org/download/>`__ and download the latest version (or have it copied to your local drive).
-#. Download the Kolibri installer  (``DEB`` file).
-#. Run the command:
+#. Download the latest Kolibri `DEB installer <https://learningequality.org/r/kolibri-deb-latest>`_, or have it copied to your local drive.
+#. Run this command from the location where you downloaded the ``DEB`` file:
 
    .. code-block:: bash
 
@@ -51,5 +48,6 @@ Uninstall
 Upgrade
 -------
 
-Upgrades are automatic when you use the PPA installation method. 
-To upgrade Kolibri with a ``.deb``, follow the same steps in :ref:`lin_deb`.
+When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
+
+To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`.
