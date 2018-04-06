@@ -4,6 +4,9 @@ System requirements
 ===================
 
 
+Operating systems
+-----------------
+
 Servers
 ^^^^^^^
 
@@ -30,7 +33,7 @@ Clients
 
 
 Supported Browsers
-------------------
+******************
 
  - IE11+, Microsoft Edge
  - Firefox
@@ -41,7 +44,7 @@ Supported Browsers
 
 
 Video playback
---------------
+**************
 
 Videos are MP4 encoded, and require no additional installation of plugins or codecs.
 
