@@ -45,9 +45,35 @@ Uninstall
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 * Or from command line: ``sudo apt-get remove kolibri``.
 
+
 Upgrade
 -------
 
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
 To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`.
+
+
+.. _raspberry_pi:
+
+Raspberry Pi (Raspbian)
+-----------------------
+
+Kolibri currently doesn't work out of the box for Raspbian Jessie due. We are
+refining our distribution to work out of the box, but you need to follow these
+two steps (tested on Kolibri 0.9):
+
+1. Running ``add-apt-repository`` as shown in the PPA instructions does not work. Instead, run::
+
+      echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list
+      sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
+      sudo apt update
+      sudo apt install kolibri
+
+2. Kolibri does not start after installation. This is because ``python3-cffi`` is outdated on Raspbian. Upgrade it like this::
+
+      sudo apt install libffi-dev
+      sudo pip3 install pip --upgrade
+      sudo pip3 install cffi --upgrade
+      sudo systemctl start kolibri
+
