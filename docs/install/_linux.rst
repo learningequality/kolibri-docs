@@ -77,3 +77,19 @@ two steps (tested on Kolibri 0.9):
       sudo pip3 install cffi --upgrade
       sudo systemctl start kolibri
 
+
+Troubleshooting
+~~~~~~~~~~~~~~~
+
+The following issues are quite common on a Raspberry Pi:
+
+* The time isn't set properly and you will have errors downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
+
+* You run out of storage space. If you have a USB source for additional storage, do something like this::
+
+      sudo systemctl kolibri stop  # Stop kolibri
+      sudo mv /var/kolibri /your/external/media  # Move its data
+      sudo chown -R kolibri.kolibri /your/external/media/kolibri  # Ensure that the kolibri user owns the folder
+      sudo ln -s /your/external/media /var/kolibri  # Restore the original location with a symbolic link
+      sudo systemctl kolibri start  # Start kolibri
+
