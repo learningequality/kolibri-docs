@@ -78,8 +78,11 @@ two steps (tested on Kolibri 0.9):
       sudo systemctl start kolibri
 
 
+.. warning: Loading channels can take a **long time** on a Raspberry Pi. When generating channel contens for Khan Academy, * Generating channel listing. This could take a few minutes…* means ~30 minutes. The device's computation power is the bottleneck. You might get logged out while waiting, but this is harmless and the process will continue. Sit tight!
+
+
 Troubleshooting
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 The following issues are quite common on a Raspberry Pi:
 
