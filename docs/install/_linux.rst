@@ -88,8 +88,8 @@ The following issues are quite common on a Raspberry Pi:
 * You run out of storage space. If you have a USB source for additional storage, do something like this::
 
       sudo systemctl kolibri stop  # Stop kolibri
-      sudo mv /var/kolibri /your/external/media  # Move its data
-      sudo chown -R kolibri.kolibri /your/external/media/kolibri  # Ensure that the kolibri user owns the folder
-      sudo ln -s /your/external/media /var/kolibri  # Restore the original location with a symbolic link
+      sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data  # Move its data
+      sudo chown -R kolibri /your/external/media/kolibri_data  # Ensure that the kolibri user owns the folder
+      sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri  # Restore the original location with a symbolic link
       sudo systemctl kolibri start  # Start kolibri
 
