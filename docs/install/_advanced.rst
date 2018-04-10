@@ -8,24 +8,9 @@ Advanced installation options
 Generic installation (pip install)
 ----------------------------------
 
-Once Kolibri is released, you may install it as a standard package from PyPi using this command::
+You can install Kolibri as a standard package from PyPi (works on Mac, Windows, and Linux) using this command::
 
-    pip install kolibri --pre
-
-
-.. _ppa-installation:
-
-Debian/Ubuntu: Subscribe to updates through a PPA
--------------------------------------------------
-
-We maintain a `PPA on Launchpad <https://launchpad.net/~learningequality/+archive/ubuntu/kolibri>`__ and if you are connected to the internet, this will also give you automatic updates.
-
-On Ubuntu/Debian/Raspbian, do this::
-
-    sudo apt-get install software-properties-common python-software-properties
-    sudo add-apt-repository ppa:learningequality/kolibri
-    sudo apt-get update
-    sudo apt-get install kolibri
+    pip install kolibri
 
 
 .. _raspberry-pi-wifi:

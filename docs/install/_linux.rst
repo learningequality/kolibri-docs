@@ -37,14 +37,15 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
 
        kolibri start
 	
-#. When command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
 
 Uninstall
 ---------
 
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
-* Or from command line: ``sudo apt-get remove kolibri``.
+* Or from the command line: ``sudo apt-get remove kolibri``.
+
 
 Upgrade
 -------
@@ -52,3 +53,19 @@ Upgrade
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
 To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`.
+
+
+Run Kolibri with PEX package
+----------------------------
+
+#. Download the `Kolibri PEX installer <https://learningequality.org/r/kolibri-pex-latest>`_.
+#. Open Terminal in the folder where ``PEX`` file is located and run the command:
+
+	.. code-block:: bash
+
+	  chmod +x kolibri-installer-filename.pex
+	  ./kolibri-installer-filename.pex start
+
+#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+
+To uninstall simply delete the ``PEX`` file, and the ``./kolibri`` folder in your user's Home directory if you want to completely remove all the Kolibri files and content channels you imported.
