@@ -3,7 +3,6 @@
 System requirements
 ===================
 
-
 Operating systems
 -----------------
 
