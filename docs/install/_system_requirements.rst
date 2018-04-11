@@ -17,9 +17,9 @@ Servers
 
 
 * MacOS: 10.6+ (install with :ref:`PEX <osx>`)
-* Ubuntu: 14.04, 16.04 and up - anything that's *not* end-of-life
+* Debian/Ubuntu with Python 3.4: 14.04, 16.04 and up - anything that's *not* end-of-life
 * Debian/Raspbian: Jessie or later
-* Linux: Any system with Python 2.7
+* Linux: Any system with Python 2.7 (install the :ref:`PEX <other_linux>` or :ref:`PyPi package <pip-installation>`) and 3.4+
 * **Android: not yet supported**
 * **iOS: not yet supported**
 

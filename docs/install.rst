@@ -17,9 +17,6 @@ To install **Kolibri**, check the system requirements first and then follow the 
 .. include:: install/_linux.rst
 
 
-.. include:: install/_rpi.rst
-
-
 .. include:: install/_osx.rst
 
 
