@@ -20,10 +20,19 @@ To install **Kolibri**, check the system requirements first and then follow the 
 .. include:: install/_osx.rst
 
 
-.. include:: install/_android.rst
+.. include: install/_android.rst
 
 
-.. include:: install/_advanced.rst
+.. _pip-installation:
+
+
+Python pip package
+==================
+
+You can install Kolibri as a standard package from PyPi (works on Mac, Windows, and Linux) using this command::
+
+    pip install kolibri
+
 
 
 .. include:: install/_initial_setup.rst

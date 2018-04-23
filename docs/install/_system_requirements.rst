@@ -6,41 +6,13 @@ System requirements
 Operating systems
 -----------------
 
-Servers
-^^^^^^^
-
-* Windows
-
-  - Supported: Vista, 7, 8, 10
-  - **Not supported: Windows XP** cannot be used to install Kolibri server, but could potentially work as a client device if the browsers are `as up-to-date as possible <https://support.mozilla.org/en-US/questions/1173904>`_.
-
-
-* MacOS: 10.6+ (install with :ref:`PEX <osx>`)
-* Debian/Ubuntu with Python 3.4: 14.04, 16.04 and up - anything that's *not* end-of-life
-* Debian/Raspbian: Jessie or later
-* Linux: Any system with Python 2.7 (install the :ref:`PEX <other_linux>` or :ref:`PyPi package <pip-installation>`) and 3.4+
-* **Android: not yet supported**
-* **iOS: not yet supported**
-
-Clients
+Clients 
 ^^^^^^^
 * Windows: IE 11+, Chrome, Firefox
 * MacOS: all browsers supported
 * Linux: all browsers supported
 * Android: 4.2+ 
 * iOS: **Safari not supported**, Chrome & Firefox supported
-
-
-Supported Browsers
-******************
-
- - IE11+, Microsoft Edge
- - Firefox
- - Chrome
- - *(planned)* Safari
- - *(planned)* Epiphany on Raspberry Pi
- - *(planned)* others on Android and  iOS.  
-
 
 Video playback
 **************

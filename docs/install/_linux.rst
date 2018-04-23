@@ -6,6 +6,12 @@ Linux
 Debian/Ubuntu
 -------------
 
+Compatibility
+^^^^^^^^^^^^^
+
+Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life
+
+
 Install from PPA repository
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -62,6 +68,9 @@ To upgrade Kolibri on a Debian device without internet access, bring the updated
 Raspberry Pi (Raspbian)
 -----------------------
 
+Compatibility
+^^^^^^^^^^^^^
+
 Kolibri currently doesn't work out of the box for Raspbian Jessie. We are refining our distribution to work out of the box, but you need to follow these two steps in order to install it (tested on Kolibri 0.9):
 
 1. Running ``add-apt-repository`` as shown in the PPA instructions does not work. Instead, run::
@@ -80,40 +89,18 @@ Kolibri currently doesn't work out of the box for Raspbian Jessie. We are refini
 
 3. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
-.. warning: Loading channels can take a **long time** on a Raspberry Pi. When generating channel contens for Khan Academy, * Generating channel listing. This could take a few minutes…* means ~30 minutes. The device's computation power is the bottleneck. You might get logged out while waiting, but this is harmless and the process will continue. Sit tight!
 
+.. note:: The following issues are quite common on a Raspberry Pi:
 
-Troubleshooting
-^^^^^^^^^^^^^^^
+  * The time isn't set properly and you will have errors downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
 
-The following issues are quite common on a Raspberry Pi:
+  * You run out of storage space. If you have a USB source for additional storage, do something like this::
 
-* The time isn't set properly and you will have errors downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
+        sudo systemctl kolibri stop  # Stop kolibri
+        sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data  # Move its data
+        sudo chown -R kolibri /your/external/media/kolibri_data  # Ensure that the kolibri user owns the folder
+        sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri  # Restore the original location with a symbolic link
+        sudo systemctl kolibri start  # Start kolibri
 
-* You run out of storage space. If you have a USB source for additional storage, do something like this::
+  * Loading channels can take a **long time** on a Raspberry Pi. When generating channel contens for Khan Academy, * Generating channel listing. This could take a few minutes…* means ~30 minutes. The device's computation power is the bottleneck. You might get logged out while waiting, but this is harmless and the process will continue. Sit tight!
 
-      sudo systemctl kolibri stop  # Stop kolibri
-      sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data  # Move its data
-      sudo chown -R kolibri /your/external/media/kolibri_data  # Ensure that the kolibri user owns the folder
-      sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri  # Restore the original location with a symbolic link
-      sudo systemctl kolibri start  # Start kolibri
-
-
-.. _other_linux:
-
-Other Linux distributions
--------------------------
-
-To install Kolibri on Linux distributions other than Debian, you can use :ref:`generic installation <pip-installation>` with ``pip install`` command, or follow these steps to run Kolibri with the ``PEX`` package. 
-
-#. Download the `Kolibri PEX installer <https://learningequality.org/r/kolibri-pex-latest>`_.
-#. Open Terminal in the folder where ``PEX`` file is located and run the command:
-
-	.. code-block:: bash
-
-	  chmod +x kolibri-installer-filename.pex
-	  ./kolibri-installer-filename.pex start
-
-#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
-
-To uninstall simply delete the ``PEX`` file, and the ``./kolibri`` folder in your user's Home directory if you want to completely remove all the Kolibri files and content channels you imported.

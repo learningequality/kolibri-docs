@@ -32,8 +32,8 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
   Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
 
 
-Starting Kolibri on Linux
-=========================
+Starting Kolibri on Linux or MacOS
+==================================
 
 1. Run this command in Terminal to start Kolibri:
 
@@ -53,20 +53,6 @@ Starting Kolibri on Linux
     kolibri stop
 
 
-Starting Kolibri on Android
-===========================
-
-.. warning::
-  Final **Kolibri** installer for Android is not released yet, support is *experimental*!
-
-Go to **Apps** on your device and tap the **Kolibri** icon.
-
-.. figure:: img/android-apps.png
-  :alt: Tap the Kolibri icon among your device apps to start.
-
-  Tap the Kolibri icon among your device apps to start.
-
-
 .. _access_LAN:
 
 Accessing Kolibri from Other Devices in the Network
@@ -74,7 +60,7 @@ Accessing Kolibri from Other Devices in the Network
 
 While **Kolibri** is up and running on the device where you installed it, other computers, tablets, even mobile phones in the same **Local Area Network (LAN)** can access its learning contents.
 
-* To access the content on the same device/computer where **Kolibri** is running, open the browser at the address ``http://127.0.0.1:8080/``.
+* To access the content on the same device/computer where **Kolibri** is running, open the browser at the address ``http://127.0.0.1:8080/`` (``8080`` is the default port).
 
 * To access the content from other devices in the same network, you need to know the IP address of one where where **Kolibri** is running. For example, if **Kolibri** is on a device/computer with IP address **192.168.0.104**, you can access it from others in the same network by opening the browser and typing the address ``http://192.168.0.104:8080``.
 
@@ -87,6 +73,22 @@ While **Kolibri** is up and running on the device where you installed it, other 
 
 .. tip::
   You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find out the IP address of the device running the **Kolibri**.
+
+
+Access Kolibri on Android
+-------------------------
+
+Kolibri cannot not run as a standalone on an Android device (tablet or phone). However, if you connect it to a local network where Kolibri is installed on another device/computer, you can access Kolibri content through the browser on Android. 
+
+For example, if Kolibri is running on a device/computer with IP address **192.168.0.104**, all you need to do is  open the browser on Android and type the address ``http://192.168.0.104:8080``.
+
+
+..Go to **Apps** on your device and tap the **Kolibri** icon.
+
+.. figure: img/android-apps.png
+..  :alt: Tap the Kolibri icon among your device apps to start.
+
+..  Tap the Kolibri icon among your device apps to start.
 
 
 .. _change_language:
