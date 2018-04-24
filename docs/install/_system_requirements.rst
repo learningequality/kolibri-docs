@@ -1,15 +1,12 @@
 .. _sys_reqs:
 
-System requirements
-===================
-
 Hardware requirements
----------------------
+=====================
 
 .. tip:: Below you will find general recommendations regarding hardware requirements. To read more detailed information and find out examples of hardware setups that have been implemented by our partners and users, download the full `Kolibri Hardware Guide <https://learningequality.org/r/hardware-guide>`_ and examples of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`_ (PDF documents).
 
 Servers
-^^^^^^^
+-------
 
 Minimum hardware requirements to run Kolibri as a server:
 
@@ -19,13 +16,11 @@ Minimum hardware requirements to run Kolibri as a server:
 
 If you have a facility with less than 30 computers, a device as simple as a `Raspberry Pi <https://www.raspberrypi.org/>`_ is known to work fine as a server.
 
-.. TODO - REVIEW with RPi package reqs if necessary
-
    .. note:: In case you are deploying on Linux and want an efficient setup, use the ``kolibri-raspberry-pi`` package, it doesn't require a specific architecture, but it's required to use if you deploy on a system with specs equivalent to or smaller than Raspberry Pi.
 
 
 Clients
-^^^^^^^
+-------
 
 Very old desktops and very low-power computers can be used as client devices to access Kolibri. For instance, some deployments are known to use first-gen Raspberry Pi as desktop computers.
 
