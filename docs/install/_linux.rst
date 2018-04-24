@@ -11,6 +11,7 @@ Compatibility
 
 Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life
 
+.. _ppa:
 
 Install from PPA repository
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -44,7 +45,9 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
    .. code-block:: bash
 
        kolibri start
-	
+
+   .. note:: If you choose to install Kolibri as a system service, you will not need to start it manually.
+
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
 

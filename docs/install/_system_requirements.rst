@@ -3,23 +3,6 @@
 System requirements
 ===================
 
-Operating systems
------------------
-
-Clients 
-^^^^^^^
-* Windows: IE 11+, Chrome, Firefox
-* MacOS: all browsers supported
-* Linux: all browsers supported
-* Android: 4.2+ 
-* iOS: **Safari not supported**, Chrome & Firefox supported
-
-Video playback
-**************
-
-Videos are MP4 encoded, and require no additional installation of plugins or codecs.
-
-
 Hardware requirements
 ---------------------
 

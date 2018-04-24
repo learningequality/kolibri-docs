@@ -9,11 +9,12 @@ Compatibility
 * MacOS: 10.6+, all browsers supported
 * Linux: Any system with Python 2.7, all browsers supported
 
+.. _pex:
 
 Install
 -------
 
-To install Kolibri on Linux distributions other than Debian and MacOS, you can use :ref:`generic installation <pip-installation>` with ``pip install`` command, or follow these steps to run Kolibri with the ``PEX`` package. 
+To install Kolibri on Linux distributions other than Debian, as well as on MacOS, you can use :ref:`generic installation <pip-installation>` with ``pip install`` command, or follow these steps to run Kolibri with the ``PEX`` package. 
 
 #. Download the `Kolibri PEX installer <https://learningequality.org/r/kolibri-pex-latest>`_.
 #. Open Terminal in the folder where ``PEX`` file is located and run the command:
