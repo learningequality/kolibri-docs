@@ -5,7 +5,7 @@ Install Kolibri
 
 See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>`_. Documentation for `previous Kolibri versions are available here <https://readthedocs.org/projects/kolibri/>`_.
 
-To install **Kolibri** on device that will act as server, check the hardware requirements first and then follow the procedure for the operating system on your device.
+To install **Kolibri** on a device that will act as a server, check the hardware requirements first, and then follow the procedure for the operating system on your device.
 
 
 .. include:: install/_system_requirements.rst

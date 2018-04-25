@@ -17,4 +17,4 @@ Configure Nginx
 ---------------
 
 .. note::
-  If you are an experienced system administrator or Django user, know that it is possible to use Kolibri with for instance UWSGI+Nginx, using conventional methods.
+  If you are an experienced system administrator or Django user, it is possible to deploy Kolibri using conventional methods - for instance with uWSGI and Nginx.

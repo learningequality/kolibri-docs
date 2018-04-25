@@ -7,7 +7,7 @@ Compatibility
 -------------
 
 * Supported: Windows 7, 8.1 and 10, with IE 11+, Chrome or Firefox
-* **Not supported: Windows XP** cannot be used to install Kolibri server, but could potentially work as a client device if the browsers are `as up-to-date as possible <https://support.mozilla.org/en-US/questions/1173904>`_.
+* **Not supported:** Windows XP cannot be used to install Kolibri server, but could potentially work as a client device if the browsers are `as up-to-date as possible <https://support.mozilla.org/en-US/questions/1173904>`_.
 
 
 Install

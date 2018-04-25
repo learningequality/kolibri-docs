@@ -7,7 +7,7 @@ Access Kolibri
 Starting Kolibri on Windows
 ===========================
 
-To start **Kolibri** server on Windows, just double-click the desktop shortcut. You will see the notification message *Kolibri is starting, please wait...*.
+To start the **Kolibri** server on Windows, just double-click the desktop shortcut. You will see the notification message *Kolibri is starting, please wait...*.
 
 When you see the notification *Kolibri is running...*, **Kolibri** will open in the browser with the URL http://127.0.0.1:8080.
 
@@ -77,7 +77,7 @@ Kolibri currently supports these combinations of operating systems and browsers 
 * MacOS 10.6+ with Safari, Chrome and Firefox
 * Linux, any browser
 * Android 4.2+, Chrome and Firefox
-* iOS ``XXX``, Chrome and Firefox supported, **Safari not supported**
+* iOS, Chrome and Firefox supported, **Safari not supported**
 
 To access the content from other devices in the same network, you need to know the **IP address** of the computer where where Kolibri is running. 
 
