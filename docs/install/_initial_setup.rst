@@ -4,7 +4,7 @@
 Initial Setup
 =============
 
-To do the initial setup of after the installation, follow these steps.
+To do the initial setup of your Kolibri facility after the installation, follow these steps.
 
 .. note::
   You need to do the initial setup only once, the first time you start Kolibri after the installation.
