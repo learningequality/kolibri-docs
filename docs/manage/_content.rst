@@ -31,7 +31,7 @@ Import Content into Kolibri
 
 
 .. tip::
-  As a precaution, we recommend you avoid other interactions with Kolibri (navigate away or manage users, for example) while content import is in progress.
+  As a precaution, we recommend you avoid other interactions with Kolibri (view learner pages or manage users, for example) while content import is in progress.
 
 
 To import content into Kolibri, follow these steps.
