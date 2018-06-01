@@ -38,6 +38,8 @@ If you need to change the default port ``8080`` from which Kolibri is serving co
   kolibri start --port <new-port-number>
 
 
+.. _import_command_line:
+
 Import Content Channels from Internet
 -------------------------------------
 
@@ -47,6 +49,9 @@ To import content channels from Internet, run these two commands in sequence. Th
 
   kolibri manage importchannel -- network <Channel ID>
   kolibri manage importcontent -- network <Channel ID>
+
+
+.. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
   Commented out because the API is weird and should be fixed
