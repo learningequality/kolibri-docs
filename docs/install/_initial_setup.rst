@@ -4,7 +4,7 @@
 Initial Setup
 =============
 
-To do the initial setup of after the installation, follow these steps.
+To do the initial setup of your Kolibri facility after the installation, follow these steps.
 
 .. note::
   You need to do the initial setup only once, the first time you start Kolibri after the installation.
@@ -34,7 +34,7 @@ To do the initial setup of after the installation, follow these steps.
 
 	   Select the username and password for the facility Super User.
 
-#. **Choose a Facility setup.** Click the **Setup details** for more information about user permissions for each setup type.
+#. **Choose a Facility setup.** Click the **More information** link for more details about user permissions for each setup type.
 
 +--------------------------------------------------+----------------------------------------------------+
 | Facility type                                    | Users                                              |

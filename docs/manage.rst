@@ -28,4 +28,7 @@ Manage Kolibri
 .. include:: manage/_command_line.rst
 
 
+.. include: manage/_how_to.rst
+
+
 .. include:: manage/_get_support.rst

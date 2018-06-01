@@ -50,11 +50,12 @@ Locate Kolibri log files
 
 When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing. 
 
-Open the ``.kolibri`` folder inside the :ref:`Home <home>` of the device where Kolibri is running and locate these two files:
+Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate these two files:
 
 * ``kolibri.log``
 * ``debug.log``
 
+.. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
 
 Videos are not playing
 ----------------------
