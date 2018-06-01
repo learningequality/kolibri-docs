@@ -32,7 +32,7 @@ Import Content into Kolibri
 
   * an external storage drive (USB or hard drive) where content channels have been previously exported to from another Kolibri installation, if the computer running Kolibri is not connected to internet
 
-  **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/index.html>`_. 
+  **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our Kolibri `Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/index.html>`_.
 
 
 .. tip::
