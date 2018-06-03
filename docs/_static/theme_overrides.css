@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
@@ -5,3 +6,10 @@
     white-space: normal !important;
     vertical-align: top !important;
  }
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: middle !important;
+    padding-bottom: 8px !important;
+    padding-right: -5px !important;
+}

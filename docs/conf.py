@@ -154,14 +154,17 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |content| replace:: :raw-html:`<span class="fa fa-th" aria-hidden="true"></span><span class="visuallyhidden">Content</span>`
-.. |info| replace:: :raw-html:`<span class="fa fa-info fa-border" aria-hidden="true"></span><span class="visuallyhidden">Info</span>`
-.. |lock| replace:: :raw-html:`<span class="fa fa-lock" aria-hidden="true"></span><span class="visuallyhidden">Permissions</span>`
-.. |pencil| replace:: :raw-html:`<span class="fa fa-pencil" aria-hidden="true"></span><span class="visuallyhidden">Edit</span>`
-.. |arrow-right| replace:: :raw-html:`<span class="fa fa-arrow-right" aria-hidden="true"></span><span class="visuallyhidden">See next</span>`
-.. |arrow-left| replace:: :raw-html:`<span class="fa fa-arrow-left" aria-hidden="true"></span><span class="visuallyhidden">See previous</span>`
-.. |arrow-up| replace:: :raw-html:`<span class="fa fa-angle-up fa-lg fa-border" aria-hidden="true"></span><span class="visuallyhidden">Arrow up</span>`
-.. |arrow-down| replace:: :raw-html:`<span class="fa fa-angle-down fa-lg fa-border" aria-hidden="true"></span><span class="visuallyhidden">Arrow down</span>`
+.. |content| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">apps</span><span class="visuallyhidden">Content</span>`
+.. |info| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">perm_device_information</span><span class="visuallyhidden">Info</span>`
+.. |lock| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">https</span><span class="visuallyhidden">Permissions</span>`
+.. |pencil| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">create</span><span class="visuallyhidden">Edit</span>`
+.. |arrow-right| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_forward</span><span class="visuallyhidden">See next</span>`
+.. |arrow-left| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_back</span><span class="visuallyhidden">See previous</span>`
+.. |arrow-up| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_up</span><span class="visuallyhidden">Arrow up</span>`
+.. |arrow-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Arrow down</span>`
+.. |lock-open| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">lock_open</span><span class="visuallyhidden">Unlisted channel</span>`
+.. |on-device| image:: img/on-device.png 
+   :alt: On your device
 
 """
 

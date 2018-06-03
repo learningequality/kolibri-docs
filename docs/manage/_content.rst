@@ -61,6 +61,11 @@ If the computer where Kolibri is running has an Internet connection with the suf
   	.. image:: img/kolibri-central-server.png
 	  :alt: Select from which public channel you want to import content from.
 
+  * |lock-open| indicates an unlisted/private channel you have access to on Kolibri Studio
+  * |on-device| indicates a channel from which you have already imported some or all content onto your device
+
+
+
 #. Click **Select** button for the desired channel, and wait for Kolibri to display the channel information and the topic tree.
 #. In the **Select content** page you will see all the details of the selected channel: description, version, total size and number of learning resources, with the information weather you have some of the resources from that channel already imported on the local device.
 
