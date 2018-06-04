@@ -92,7 +92,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 #. Click **Confirm** to unlock channel, or **Cancel** to exit.
 #. Proceed to select and import channel topics and resources as for the public channels.
 
-   Unlisted or private channels in the list are indicated with the |lock-open| icon.
+   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
 #. To add more learning resources from a channel that you previously imported content from, click **Actions**, select **Import more**, and repeat the selecting procedure from step 3. 
 
 
