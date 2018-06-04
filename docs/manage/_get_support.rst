@@ -57,6 +57,18 @@ Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device 
 
 .. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
 
+Troubleshoot Database Issues
+----------------------------
+
+In case you receive the ``database disk image is malformed`` error in Terminal, try running these commands (note that **you must have the** ``sqlite3`` **command available on your system**).
+
+  .. code-block:: bash
+
+    sqlite3 /home/<your_username>/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db 
+    cp fixed.db /home/<your_username>/.kolibri/db.sqlite3
+
+For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
+
 Videos are not playing
 ----------------------
 
