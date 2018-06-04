@@ -4,7 +4,7 @@
 Manage Groups
 ~~~~~~~~~~~~~
 
-In case you need to further divide learners inside classes, for example to address the different progress needs or levels, you can use the **Groups** feature. Create and delete groups, as well as assign learners to them from the **Groups** tab in your **Coach** dashboard. Default view displays the list of all groups for the selected class, with the list of assigned learners for each group.
+In case you need to further divide learners inside classes, for example to address the different progress needs or levels, you can use the **Groups** feature. Create and delete groups, as well as assign learners to them from the **Groups** tab in your **Coach** dashboard tab (|groups| icon). Default view displays the list of all groups for the selected class, with the list of assigned learners for each group.
 
 	.. image:: img/groups.png
 	  :alt: manage learner groups

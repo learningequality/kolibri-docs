@@ -3,7 +3,7 @@
 Manage Users
 ~~~~~~~~~~~~
 
-You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard.
+You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard (|users| icon).
 
 .. image:: img/manage-users.png
   :alt: manage users

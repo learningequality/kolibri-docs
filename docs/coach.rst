@@ -16,7 +16,7 @@ Click on a class to access the progress-tracking features and create lessons and
 View Learner Reports
 ~~~~~~~~~~~~~~~~~~~~
 
-Click a class on the **Coach** dashboard to display the list of enrolled learners, and the group they are assigned to (if applicable).
+Click a desired class inside the initial view of the **Coach** dashboard, and it will open the **Learners** tab (|learners| icon). Here you can see the list of learners enrolled in the class, and the group they are assigned to (if applicable).
 
 When you click the username of a learner, you will see a list of content channels they accessed, and the last time they were active on each of them:
 
@@ -86,7 +86,7 @@ In the figure below, you can see the progress of 5 learners for the exercise **N
 View Class Recent Activity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use this view to access the full report channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class.
+Open the **Recent** tab (|recent| icon) to access the full report of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class.
 
 	.. image:: img/coach-recent.png
 	  :alt: coach recent activity
@@ -99,7 +99,7 @@ If the class learners have access to more than one channel, you will see the lis
 View Class Activity by Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use this view to access the full report of activity progress for the selected class. You can navigate channels by topics and subtopics until you see the progress of each class learner for a specific item.
+Use this tab (|channels| icon) to access the full report of activity progress for the selected class. You can navigate channels by topics and subtopics until you see the progress of each class learner for a specific item.
 
 	.. figure:: img/topic-activity.png
 	  :alt: Use the topic view to see the average progress for exercises and resources for all the learners in the class.

@@ -4,7 +4,7 @@
 Manage Classes
 ~~~~~~~~~~~~~~
 
-You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard. Default view displays the list of all classes in your facility, with the number of enrolled users for each class.
+You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard (|classes| icon). Default view displays the list of all classes in your facility, with the number of enrolled users for each class.
 
 .. image:: img/classes.png
   :alt: manage classes
@@ -55,7 +55,7 @@ Change Class Name
 
 To edit class name, follow these steps.
 
-#. Click on the **Edit** button ( |pencil| icon) next to the class’ name.
+#. Click on the **Edit** button (|edit| icon) next to the class’ name.
 #. Write the new name in the **Class name** field.
 #. Click **Update** to confirm the edited information, or **Cancel** to exit without saving.
 

@@ -6,7 +6,7 @@ Manage Lessons
 
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
-To view, create or delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
+To view, create or delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard tab (|lessons| icon). Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
 
 .. image:: img/lessons.png
   :alt: manage lessons home page
@@ -72,7 +72,7 @@ You can change the visibility of the lesson that you set when you initially crea
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click the **Options** button, and select **Edit details**.
-#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Visible to* heading.
+#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Recipients* heading.
 #. Click **Save** to confirm, or **Cancel** to exit without change.
 
 

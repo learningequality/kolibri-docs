@@ -4,7 +4,7 @@
 Manage Exams
 ~~~~~~~~~~~~
 
-You can view, create and delete exams, as well as assign them to learners, using the **Exams** tab in your **Coach** dashboard. Default view displays the list of all exams in a selected class, with indicators of their visibility status and groups they are assigned to.
+You can view, create and delete exams, as well as assign them to learners, using the **Exams** tab in your **Coach** dashboard tab (|exams| icon). Default view displays the list of all exams in a selected class, with indicators of their visibility status and groups they are assigned to.
 
 .. image:: img/manage-exams.png
   :alt: manage exams home page
@@ -43,7 +43,7 @@ To create a new exam, follow these steps.
 Change Exam Visibility
 ----------------------
 
-Newly created exam will be visible to entire class by default. To change exam *Recipients* (a select group of learners instead of the whole class), follow these steps:
+Newly created exam will be visible to entire class by default. To change exam *Recipients* (a select group of learners instead of the whole class), follow these steps.
 
 #. Select the exam by clicking its title from the exam list.
 #. Click the **Options** button and select the **Edit details** option.

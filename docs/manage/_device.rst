@@ -14,7 +14,7 @@ You can manage content and permissions, and view the detailed info of the device
 Assign Permissions
 ------------------
 
-You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the **Permission** tab in the  **Device** dashboard (|lock| icon).
+You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the **Permission** tab in the  **Device** dashboard (|permissions| icon).
 
 .. image:: img/manage-permissions.png
   :alt: manage permissions  
