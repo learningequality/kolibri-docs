@@ -64,8 +64,8 @@ In case you receive the ``database disk image is malformed`` error in Terminal, 
 
   .. code-block:: bash
 
-    sqlite3 /home/<your_username>/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db 
-    cp fixed.db /home/<your_username>/.kolibri/db.sqlite3
+    sqlite3 ~/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db 
+    cp fixed.db ~/.kolibri/db.sqlite3
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
