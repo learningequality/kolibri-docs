@@ -108,3 +108,20 @@ Use this tab (|channels| icon) to access the full report of activity progress fo
 
 
 When you navigate to the last level in the topic tree, you can see the average progress of all class learners for each exercise or resource (video, document, HTML5 activity) in that particular topic.
+
+Support Resources for Coaches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. When content curators set the visibility this way, the resource in Kolibri will be visible only for users assigned to coach classes.
+
+	.. figure:: img/coach-resource-studio.png
+	  :alt: Setting the visibiility of content in Kolibri Studio.
+
+	  Setting the visibiility of content in Kolibri Studio.
+
+Coach resources and content channels that contain them are marked with the |coach-resource| icon in Kolibri.
+
+	.. figure:: img/coach-resource.png
+	  :alt: Content channel with 4 support resources for coaches in Kolibri.
+
+	  Content channel with 4 support resources for coaches in Kolibri.
