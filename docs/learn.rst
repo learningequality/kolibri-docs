@@ -120,9 +120,8 @@ Search
 
 If you are looking for a specific subject, topic, or term, use the **Search** feature:
 
-#. Click the magnifying glass icon in the upper right corner.
-#. Type the word or combination of words you are looking for in the search field.
-#. Press **Enter** to display search results below the field.
+#. Type the word or combination of words you are looking for in the search field located in the top bar.
+#. Press **Enter** or click the |search| button to display the results.
 
 .. figure:: img/search.png
 	:alt: search page
