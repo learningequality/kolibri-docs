@@ -175,8 +175,13 @@ rst_prolog = """
 .. |classes| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">domain</span><span class="visuallyhidden">Classes</span>`
 .. |coach-resource| replace:: :raw-html:`<span class="material-icons local_library" aria-hidden="true">local_library</span><span class="visuallyhidden">Coach resource</span>`
 .. |search| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">search</span><span class="visuallyhidden">Start search</span>`
+.. |in-progress| replace:: :raw-html:`<span class="material-icons schedule" aria-hidden="true">schedule</span><span class="visuallyhidden">In progress</span>`
+.. |completed| replace:: :raw-html:`<span class="material-icons star" aria-hidden="true">star</span><span class="visuallyhidden">Completed</span>`
+.. |recommended| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">forum</span>`
 .. |on-device| image:: img/on-device.png 
    :alt: On your device
+.. |green-check| image:: img/on-device.png 
+   :alt: Correct answer
 
 """
 

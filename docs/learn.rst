@@ -80,7 +80,7 @@ Depending on how your school and teachers or coaches decided to organize the con
 Recommended
 ^^^^^^^^^^^
 
-In the **Recommended** tab you can see various sections:
+In the **Recommended** |recommended| tab you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
 * **Next steps** displays suggestions according to  topics and materials you previously visited.
@@ -133,6 +133,8 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 Content types
 ^^^^^^^^^^^^^
 
+You may have different types of content available in Kolibri channels: videos, documents, exercises... When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish and complete them, they will be marked with |completed| icon.
+
 Exercises
 """""""""
 
@@ -142,19 +144,19 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 #. **Read the question carefully**.
 #. Write the answer or choose one of the provided options.
-#. When you are ready to submit, click the **Check answer** button.
+#. When you are ready to submit, click the **Check** button.
 
-   * If the answer is correct and a check mark appears, click the **Next question** button to proceed.
-   * If the answer is incorrect, click the **Get a hint** button, read the suggestions, and try to answer again.
-   * The progress bar below the exercise is taking into account only the most recent answers you give, and that means that you need to have the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed.
+   * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the **Next** button to proceed.
+   * If the answer is incorrect, click the **Use a hint** button, read the suggestions, and try to answer again.
+   * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
 
-    .. figure:: img/correct-row.png
+    .. figure:: img/get-5-correct.png
 	    :alt: If the exercise requires 5 check marks, you must provide 5 correct answers one after another.
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, click the **Next item** button, to continue learning with the rest of the material in that topic.
-#. If you are unable to solve some questions, try reviewing the videos in the **Recommended** section below the exercise, or seek help from your peers or teacher/coach.
+#. Once you have achieved the required number of correct answers in a row, click the **Next resource** below, to continue learning with the rest of the material in that topic.
+#. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 .. figure:: img/exercise.png
 	:alt: exercise page
