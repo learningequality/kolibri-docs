@@ -56,7 +56,7 @@ Each time you login into **Kolibri**, the first thing you will see is the **Lear
 
 		Learn start page with all your classes.
 
-Select one of your classes to access :ref:`Lessons` and :ref:`Exams` your teachers or coaches prepared for your class.
+Select one of your classes to access :ref:`Lessons` and :ref:`Exams` teachers or coaches prepared for your class.
 
 	.. figure:: img/exams-lessons.png
 		:alt: You can see all your lessons and exams in the Class tab.
@@ -67,7 +67,7 @@ Select one of your classes to access :ref:`Lessons` and :ref:`Exams` your teache
 Channels
 ^^^^^^^^
 
-**Channels** tab offers you the option to navigate through the complete set of learning topics and materials available in Kolibri. Use it as you wish, or according to indications from your teachers and coaches.
+Use this tab (|channels| icon) to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
 
 Depending on how your school and teachers or coaches decided to organize the content, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the content from each available channel.
 
@@ -80,7 +80,7 @@ Depending on how your school and teachers or coaches decided to organize the con
 Recommended
 ^^^^^^^^^^^
 
-In the **Recommended** |recommended| tab you can see various sections:
+In this tab (|recommended| icon) you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
 * **Next steps** displays suggestions according to  topics and materials you previously visited.
@@ -124,16 +124,21 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 #. Press **Enter** or click the |search| button to display the results.
 
 .. figure:: img/search.png
-	:alt: search page
+	:alt: Filter the search results by channel or type of content.
 
-	Search page gives you option to search for a specific term in Kolibri.
+	Filter the search results by channel or type of content.
 
 .. _content_types:
 
 Content types
 ^^^^^^^^^^^^^
 
-You may have different types of content available in Kolibri channels: videos, documents, exercises... When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish and complete them, they will be marked with |completed| icon.
+You may have different types of content available in Kolibri channels: videos, documents, exercises... When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish or complete them, they will be marked with the |completed| icon.
+
+.. figure:: img/progress-icons.png
+	:alt: Progress indicators for learning resources.
+
+	Progress indicators for learning resources.
 
 Exercises
 """""""""
@@ -155,7 +160,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, click the **Next resource** below, to continue learning with the rest of the material in that topic.
+#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the **Next resource** below, to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 .. figure:: img/exercise.png
@@ -209,7 +214,7 @@ Use the **Download content** button below the PDF viewer to download the PDF fil
 Lessons
 ^^^^^^^
 
-When your teacher or coach prepares a *lesson*, that is a recommended set of learning resources for you or your class to view, it will be available in the **Class** tab, below the **Lessons** heading. You may have more than one lesson available at the time.
+Your teacher or coach may prepare a *lesson* (|lessons| icon), a recommended set of learning resources for you or your class to view. You may have more than one lesson available at the time in the **Class** tab, below the **Lessons** heading. 
 
 Click on a lesson title to open its content, and follow the indications of your teachers or coaches on how to use it.
 
@@ -219,10 +224,10 @@ Click on a lesson title to open its content, and follow the indications of your 
 
 .. _exams:
 
-Exams
+Exams 
 ^^^^^
 
-If your teacher or coach scheduled an exam for you or your class, it will be available in the **Class** tab, under the **Exams** heading. You may have more than one exam available at the time.
+If your teacher or coach scheduled an *exam* (|exams| icon) for you or your class, it will be available in the **Class** tab, under the **Exams** heading. You may have more than one exam available at the time.
 
 .. figure:: img/exams3.png
 	:alt: exams tab
@@ -233,19 +238,21 @@ If the exam is listed as *Not started*, follow these steps.
 #. You can go on answering the questions in the order you prefer: move through questions with **Previous** and **Next question** buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
-		:alt: exams tab
+		:alt: Exam page
 
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
-#. Press the *Back to exam list* if you want to pause the exam and come back later.
-#. Press the button **Submit exam** when you want to submit it for grading.
+#. Press the *Back to exam list* if you want to pause the exam and come back later. 
+#. Press the button **Submit exam** when you want to submit it for grading. 
 
-If the exam in the **Class** tab is listed as having *...questions left*, click on it to resume when you are ready.
+Exam that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
 
-Once you submit the exam, it will be listed as *Completed* in the **Class** tab, but you can click on it to see the score and review your answers.
+Once you complete and submit an exam, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
 
 .. figure:: img/exam-result.png
-	:alt: exams tab
+	:alt: Open the completed result to review your answers.
+
+	Open the completed result to review your answers.
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.

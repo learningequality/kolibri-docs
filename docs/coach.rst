@@ -16,7 +16,7 @@ Click on a class to access the progress-tracking features and create lessons and
 View Learner Reports
 ~~~~~~~~~~~~~~~~~~~~
 
-Click a desired class inside the initial view of the **Coach** dashboard, and it will open the **Learners** tab (|learners| icon). Here you can see the list of learners enrolled in the class, and the group they are assigned to (if applicable).
+Click the desired class inside the initial view of the **Coach** dashboard, and it will open the **Learners** tab (|learners| icon). Here you can see the list of learners enrolled in the class, and the group they are assigned to (if applicable).
 
 When you click the username of a learner, you will see a list of content channels they accessed, and the last time they were active on each of them:
 
@@ -45,7 +45,7 @@ Review Exercise Progress
 
 When a learner answers exercise questions in Kolibri, the progress bar below the exercise is taking into account only the most recent given answers, meaning that the learner must complete the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed.
 
-	.. figure:: img/correct-row.png
+	.. figure:: img/get-5-correct.png
 	    :alt: If the exercise requires 5 check marks, learner must provide 5 correct answers one after another.
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
@@ -86,7 +86,7 @@ In the figure below, you can see the progress of 5 learners for the exercise **N
 View Class Recent Activity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the **Recent** tab (|recent| icon) to access the full report of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class.
+Use this tab (|recent| icon) to access the full report of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class.
 
 	.. image:: img/coach-recent.png
 	  :alt: coach recent activity
@@ -112,7 +112,7 @@ When you navigate to the last level in the topic tree, you can see the average p
 Support Resources for Coaches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. When content curators set the visibility this way, the resource in Kolibri will be visible only for users assigned to coach classes.
+`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. When content curators set the visibility this way, the resource in Kolibri will not be visible to learners, but only to admins, facility coaches, or other users assigned to coach classes.
 
 	.. figure:: img/coach-resource-studio.png
 	  :alt: Setting the visibiility of content in Kolibri Studio.
