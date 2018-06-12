@@ -128,6 +128,21 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 
 	Filter the search results by channel or type of content.
 
+
+Some Kolibri resources may be duplicated in different topics and/or channels. Search results will indicate when a resource is duplicated, and you can click on the ``...locations`` link to discover the details for each location.
+
+.. figure:: img/search-duplicates.png
+	:alt: Duplicated resources in the search results.
+
+	Duplicated resources in the search results.
+
+
+.. figure:: img/search-duplicates2.png
+	:alt: Details for the duplicated resources in the search results.
+
+	Details for the duplicated resources in the search results.
+
+
 .. _content_types:
 
 Content types
