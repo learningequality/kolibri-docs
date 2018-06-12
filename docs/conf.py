@@ -182,6 +182,16 @@ rst_prolog = """
    :alt: On your device
 .. |green-check| image:: img/on-device.png 
    :alt: Correct answer
+.. |topic-icon| image:: img/topic-icon.png 
+   :alt: Topic
+.. |video-icon| image:: img/video-icon.png 
+   :alt: Video
+.. |doc-icon| image:: img/doc-icon.png 
+   :alt: Document
+.. |exercise-icon| image:: img/exercise-icon.png 
+   :alt: Exercise
+.. |html-icon| image:: img/html-icon.png 
+   :alt: App
 
 """
 
