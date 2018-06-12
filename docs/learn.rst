@@ -151,13 +151,9 @@ Content types
 You may be different types of content available in Kolibri channels, and you can easily distinguish them by their icons:
 
 * Videos - |video-icon|
-..
 * Exercises - |exercise-icon|
-..
 * Documents - |doc-icon|
-..
 * Interactive HTML Apps - |html-icon|
-..
 * Topics - |topic-icon|
 
 When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish or complete them, they will be marked with the |completed| icon.

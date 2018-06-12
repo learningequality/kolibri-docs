@@ -31,3 +31,8 @@
 	border-radius: 50%;
 	color: #fff;
 }
+
+img {
+	height: 1.2em;
+	vertical-align: text-bottom;
+}
