@@ -5,7 +5,7 @@ Frequently Asked Questions
 How much does Kolibri cost to install?
 --------------------------------------
 
-It is FREE – both free as in “free speech” and free as in “free beer”! To learn more about free software, see this `Free Software Foundation article <https://www.fsf.org/about/what-is-free-software>`_.
+Kolibri is **free and open source** software! To learn more about free software, see this `Free Software Foundation article <https://www.fsf.org/about/what-is-free-software>`_.
 
 
 Do I need the internet to run Kolibri?
@@ -25,34 +25,44 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 
 +---------------------------+-----------------+-----------------+ 
 | Language                  | Kolibri         | Kolibri Studio  | 
-+===========================+=================+=================+  
++===========================+=================+=================+ 
+| Arabic                    | ✓               |                 |
++---------------------------+-----------------+-----------------+ 
+| Bengali                   | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Burmese                   | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Chinyanja                 | ✓               |                 |
++---------------------------+-----------------+-----------------+
 | English                   | ✓               | ✓               |
 +---------------------------+-----------------+-----------------+
+| Farsi                     | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| French                    | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Hindi                     | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Kannada                   | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Marathi                   | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Portuguese (Brazil)       | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Spanish (Mexico)          |                 | ✓               |
++---------------------------+-----------------+-----------------+ 
 | Spanish (Spain)           | ✓               | ✓               |
 +---------------------------+-----------------+-----------------+
-| Spanish (Mexico)          | ⨯   (✓ ver 0.5) | ✓               |
-+---------------------------+-----------------+-----------------+ 
-| French                    | ✓               | ⨯               |
+| Swahili (Tanzania)        | ✓               |                 |
 +---------------------------+-----------------+-----------------+
-| Swahili (Tanzania)        | ✓               | ⨯               |
+| Tamil                     | ✓               |                 |
 +---------------------------+-----------------+-----------------+
-| Arabic                    | ✓               | ⨯               |
+| Telugu                    | ✓               |                 |
 +---------------------------+-----------------+-----------------+
-| Farsi                     | ✓               | ⨯               |
+| Urdu (Pakistan)           | ✓               |                 |
 +---------------------------+-----------------+-----------------+
-| Urdu (Pakistan)           | ✓               | ⨯               |
+| Yoruba                    | ✓               |                 |
 +---------------------------+-----------------+-----------------+
-| Hindi                     | ✓               | ⨯               |
-+---------------------------+-----------------+-----------------+
-| Tamil                     | ✓               | ⨯               |
-+---------------------------+-----------------+-----------------+
-| Telugu                    | ✓               | ⨯               |
-+---------------------------+-----------------+-----------------+
-| Marathi                   | ✓               | ⨯               |
-+---------------------------+-----------------+-----------------+
-| Chinyanja                 | ✓               | ⨯               |
-+---------------------------+-----------------+-----------------+
-| Portuguese (Brasil)       | ✓               | ⨯               |
+| Zulu                      | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 
 To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <http://learningequality.org/translate/>`_.
@@ -60,10 +70,19 @@ To contribute to Kolibri and Kolibri Studio as a translator, you can get started
 What are the typical deployment scenarios?
 ------------------------------------------
 
-There is no typical deployment scenario. However, we can share with you what we’ve learned from our community of KA Lite and Kolibri users. A typical school deployment varies depending on whether or not a school already has a computer lab.
+There is no typical implementation setting. However, we can share with you what we’ve learned from our community of KA Lite and Kolibri users. Some example implementation settings are provided below based on the presence of a coach and whether the settings allows for formal, non-formal, and informal learning.
 
-* School with an existing computer lab: In this case, Kolibri would be deployed as a server on one of the existing computers. Students would connect using client devices over the local network.
-* School with no existing computer lab: For schools that do not have an existing computer lab, a Kolibri deployment would involve obtaining a device that can run as a Kolibri server (most computers) and other devices to be used as clients. One common configuration is using a Raspberry Pi or other inexpensive computer as a server and relatively cheap tablets as client devices.
++---------------------------+-----------------------------------+--------------------------------------------------------------------------------+ 
+|                           | Coach                             | No Coach                                                                       | 
++===========================+===================================+================================================================================+ 
+| Formal and Non-Formal     | * School classroom                | * After school program                                                         |
+|                           | * Home schooling                  | * Supplementary education setting (computer labs model)                        |
+|                           | * Supplementary education setting | * Use in classroom that has teacher, but without coach engagement or monitoring|
+|                           |                                   |                                                                                |
++---------------------------+-----------------------------------+--------------------------------------------------------------------------------+ 
+| Informal                  | * Tutoring session                | * Mobile school vans                                                           |
+|                           |                                   | * Use for homework only                                                        |
++---------------------------+-----------------------------------+--------------------------------------------------------------------------------+
 
 
 What are some possible hardware configurations for deploying Kolibri?
@@ -103,7 +122,7 @@ Refer to the :ref:`Troubleshoot and Support <support>` section of this guide.
 Who maintains the Kolibri project?
 ----------------------------------
 
-Kolibri is created, maintained, and operated by `Learning Equality, Inc <http://learningequality.org/about/>`_, a California-based nonprofit organization.
+Kolibri is created, maintained, and operated by `Learning Equality <http://learningequality.org/about/>`_.
 
 
 How do you operate in the field?
@@ -115,7 +134,7 @@ The Learning Equality team primarily works in our San Diego offices, building so
 What is Kolibri’s affiliation with Khan Academy?
 ------------------------------------------------
 
-Kolibri is an independent, open-source project maintained by `Learning Equality <http://learningequality.org/about/>`_, and is not officially affiliated with Khan Academy, although they are very supportive of the Kolibri project, and are one of our key partners.
+Kolibri is an independent, open-source project maintained by `Learning Equality <http://learningequality.org/about/>`_, and is not officially affiliated with Khan Academy, although they are very supportive of the Kolibri project.
 
 
 Can I contribute to Kolibri as a developer?
@@ -130,7 +149,7 @@ Can I contribute to Kolibri as a translator?
 Yes, absolutely! To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <http://learningequality.org/translate/>`_.
 
 
-How do I find out more about LE and Kolibri?
---------------------------------------------
+How do I find out more about Learning Equality and Kolibri?
+-----------------------------------------------------------
 
 To stay up-to-date on all our activities, follow our `blog <https://blog.learningequality.org/>`_, `Twitter <https://twitter.com/LearnEQ/>`_, and `Facebook <https://www.facebook.com/learningequality>`_!

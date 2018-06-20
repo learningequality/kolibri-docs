@@ -158,7 +158,7 @@ If you need to restore a backup version prior to the latest one, you must specif
 Change the Location of Kolibri Content Files
 --------------------------------------------
 
-Kolibri content channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move just the Kolibri **content files** on another drive.
+Kolibri content channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move the Kolibri **content files** to another drive.
 
 .. tip::
   If you have both SSD disk and HDD disk available on your device, it is recommended to install Kolibri on the SSD drive to allow faster access to the database, and move just the content file to the HDD drive.
@@ -179,15 +179,23 @@ To move the Kolibri content folders to another location, follow these steps.
     kolibri manage content movedirectory <destination>
 
 
-  For example, if you created a new folder ``KolibriContent`` on the drive ``F:``, run this command.
+  For example, if you created a new folder ``KolibriContent`` on an external drive, run this command.
+
+  .. code-block:: bash
+
+    kolibri manage content movedirectory /mnt/my_external_drive/KolibriContent
+
+
+  If you are on Windows, and the new folder ``KolibriContent`` is on the drive ``F:``, run this command.
 
   .. code-block:: bash
 
     kolibri manage content movedirectory F:\KolibriContent
 
+
 3. Restart Kolibri.
 
-This command will move the 2 subfolders ``databases`` and ``storage``, from their default location inside the ``.kolibri/content`` folder in your device's ``Home`` directory, to a new location you specified in the command.
+This command will move the 2 subfolders ``databases`` and ``storage``, from their default location inside the ``.kolibri/content`` folder in your device's home directory, to a new location you specified in the command.
 
 
 
@@ -196,7 +204,14 @@ Change the Location of ALL Kolibri Files
 
 If you want to change the directory where all of Kolibri's runtime files are located, together with the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.
 
-If the variable is left unset, by default, Kolibri's runtime files and content will be placed in your user’s ``Home`` folder, under the ``.kolibri`` subfolder. 
+If the variable is left unset, by default, Kolibri's runtime files and content will be placed in your user’s home folder, under the ``.kolibri`` subfolder. 
+
+.. note::
+  Adjusting this environment variable behaves differently than the ``movedirectory`` command above:
+
+  * Adjusting the environment variable will not automatically migrate over data. You need to copy the ``.kolibri`` folder manually to the new location.
+  * If you do copy the ``.kolibri`` folder, the content will not be affected **if it had been previously set** using the ``movedirectory`` command.
+
 
 There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps.
 

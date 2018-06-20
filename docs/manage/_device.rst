@@ -58,7 +58,7 @@ The users who have been granted the **Super user** permissions will have a yello
 View Device Info
 ----------------
 
-To view the detailed info of the device where Kolibri is running on, use the **Info** tab in the  **Device** dashboard (|info| icon). This information will be useful in case you need to report an issue with Kolibri to FLE support team. Make note or copy the following device details:
+To view the detailed info of the device where Kolibri is running on, use the **Info** tab in the  **Device** dashboard (|info| icon). This information will be useful in case you need to report an issue with Kolibri to Learning Equality support team. Make note or copy the following device details:
 
 * Kolibri version
 * Server IP/URL(s)

@@ -148,7 +148,7 @@ Some Kolibri resources may be duplicated in different topics and/or channels. Se
 Content types
 ^^^^^^^^^^^^^
 
-You may be different types of content available in Kolibri channels, and you can easily distinguish them by their icons:
+You may see different types of content available in Kolibri channels, and you can easily distinguish them by their icons:
 
 * Videos - |video-icon|
 * Exercises - |exercise-icon|
@@ -156,7 +156,7 @@ You may be different types of content available in Kolibri channels, and you can
 * Interactive HTML Apps - |html-icon|
 * Topics - |topic-icon|
 
-When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish or complete them, they will be marked with the |completed| icon.
+When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish viewing a video or complete the exercise, they will be marked with the |completed| icon.
 
 .. figure:: img/progress-icons.png
 	:alt: Progress indicators for learning resources.
@@ -175,7 +175,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. When you are ready to submit, click the **Check** button.
 
    * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the **Next** button to proceed.
-   * If the answer is incorrect, click the **Use a hint** button, read the suggestions, and try to answer again.
+   * If the answer is incorrect, read the question again, and try another answer. You can also click the **Use a hint** button, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
@@ -183,7 +183,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the **Next resource** below, to continue learning with the rest of the material in that topic.
+#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the **Next resource** below to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 .. figure:: img/exercise.png
