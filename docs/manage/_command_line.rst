@@ -80,16 +80,16 @@ To export Kolibri content channels on a local drive in order to share it with an
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
 
-Create a New Super User
------------------------
+Create a New Superuser
+----------------------
 
-In case you need to create another Super user, either to address additional need of managing facility, or if you lost the password for the old one, run the following command.
+In case you need to create another **Superuser**, either to address additional need of managing facility, or if you lost the password for the old one, run the following command.
 
 .. code-block:: bash
 
   kolibri manage createsuperuser
 
-You will be prompted to input the **Username** and **Password** and the new **Super user** user account will be created.
+You will be prompted to input the **Username** and **Password** and the new **Superuser** user account will be created.
 
 
 Change Language

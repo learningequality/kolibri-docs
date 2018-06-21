@@ -10,7 +10,7 @@ In case you need to further divide learners inside classes, for example to addre
 	  :alt: manage learner groups
 
 .. note::
-  To manage Kolibri groups you must sign in as **Super user**, **Admin** or **Coach**.
+  To manage Kolibri groups you must sign in as **Superuser**, **Admin** or **Coach**.
 
 
 Create a New Group

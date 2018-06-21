@@ -34,10 +34,10 @@ To grant permission to manage content channels in Kolibri to another user, follo
 The users who have been granted the permissions to manage content channels will have a black key indicator in front of their name, and will be able to see the **Device** dashboard with the **Content** tab.
 
 
-Super User Permissions
-**********************
+Superuser Permissions
+*********************
 
-To grant **Super user** permissions to another user, follow these steps.
+To grant **Superuser** permissions to another user, follow these steps.
 
 #. Click **Edit permissions** for the chosen user.
 #. Activate the option *Make superuser*.
@@ -46,7 +46,7 @@ To grant **Super user** permissions to another user, follow these steps.
 .. image:: img/coach-superuser.png
   :alt: grant superuser permissions
 
-The users who have been granted the **Super user** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs.
+The users who have been granted the **Superuser** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs.
 
 .. image:: img/permissions-keys.png
   :alt: permissions indicators

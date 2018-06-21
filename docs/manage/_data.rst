@@ -9,4 +9,4 @@ You can download Kolibri *Detail* and *Summary* logs usage data and export in th
   :alt: options for exporting usage data 
 
 .. note::
-  To manage Kolibri users you must sign-in as **Super user** or **Admin**.
+  To manage Kolibri users you must sign-in as **Superuser** or **Admin**.

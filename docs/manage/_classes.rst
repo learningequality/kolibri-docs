@@ -10,7 +10,7 @@ You can view, create and delete classes, as well as search, filter and enroll Ko
   :alt: manage classes
 
 .. note::
-  To manage Kolibri classes you must sign-in as **Super user** or **Admin**.
+  To manage Kolibri classes you must sign-in as **Superuser** or **Admin**.
 
 
 Add New Class

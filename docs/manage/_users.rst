@@ -9,7 +9,7 @@ You can search for, filter, add, and edit user accounts in Kolibri from the **Us
   :alt: manage users
 
 .. note::
-  To manage Kolibri users you must sign in as **Super user** or **Admin**.
+  To manage Kolibri users you must sign in as **Superuser** or **Admin**.
 
 
 Create a New User Account

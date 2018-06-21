@@ -17,4 +17,4 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
   :alt: manage facility configuration settings
 
 .. note::
-  To manage facility settings in Kolibri you must sign in as **Super user** or **Admin**.
+  To manage facility settings in Kolibri you must sign in as **Superuser** or **Admin**.

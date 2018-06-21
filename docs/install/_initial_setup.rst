@@ -27,12 +27,12 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
 	   Select the name for the facility where Kolibri is running.
 
-#. **Create the Admin account.** This Admin user will be a **Super User** able to manage all the device content, and all the rest of the facility users and their permissions.
+#. **Create the Admin account.** This Admin user will be a **Superuser** able to manage all the device content, and all the rest of the facility users and their permissions.
 
   	.. figure:: img/create-superuser.png
-	   :alt: Select the username and password for the facility Super User.
+	   :alt: Select the username and password for the facility Superuser.
 
-	   Select the username and password for the facility Super User.
+	   Select the username and password for the facility Superuser.
 
 #. **Choose a Facility setup.** Click the **More information** link for more details about user permissions for each setup type.
 
