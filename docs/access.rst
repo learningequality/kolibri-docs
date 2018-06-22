@@ -71,13 +71,18 @@ After you have installed and started Kolibri on the computer that will act as a 
 Compatibility
 *************
 
-Kolibri currently supports these combinations of operating systems and browsers as client devices. Videos are MP4 encoded, and require no additional installation of plugins or codecs.
+Kolibri currently supports these combinations of operating systems and browsers as client devices. 
 
 * Windows 7, 8.1 and 10, with IE 11+, Chrome and Firefox
 * MacOS 10.6+ with Safari, Chrome and Firefox
 * Linux, any browser
 * Android 4.2+, Chrome and Firefox
 * iOS, Chrome and Firefox supported, **Safari not supported**
+
+.. warning:: Videos are MP4 encoded, and in majority of browsers do not require additional plugins or codecs. **However, if you are using Firefox on Ubuntu/Debian, you must install the** `Ubuntu restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`_.
+
+Setup Access on Other Devices
+*****************************
 
 To access the content from other devices in the same network, you need to know the **IP address** of the computer where where Kolibri is running. 
 
