@@ -5,9 +5,14 @@ Working with Kolibri from the Command Line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. warning::
-  In Windows you need to open ``cmd.exe`` Command prompt in the folder where Kolibri executable is located: ``c:/Python27/Scripts``.
+  * In Windows you need to open ``cmd.exe`` Command prompt in the folder where Kolibri executable is located: ``c:/Python34/Scripts``.
 
-  *Make sure not to include the angle brackets “< >” in the commands below.*
+  * On macOS you may need to prefix the commands with ``python``, for example ``python kolibri start``.
+
+  * If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.10.pex``, type ``./kolibri-v0.10.pex start``.
+
+  * Make sure not to include the angle brackets “< >” in the commands below.*
+
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -79,6 +84,8 @@ To export Kolibri content channels on a local drive in order to share it with an
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
+
+.. _create_superuser:
 
 Create a New Superuser
 ----------------------

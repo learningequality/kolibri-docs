@@ -51,6 +51,9 @@ Kolibri **Superusers** have all device permissions and are able to :ref:`assign 
 |  * View/Edit *Permissions* of other users                                                            |
 +------------------------------------------------------------------------------------------------------+
 
+.. tip::
+   If you are unable to retrieve the username and password for a superuser account in your facility, you can :ref:`create a new superuser account using the command line <create_superuser>`.
+
 Assign Additional Permissions
 -----------------------------
 

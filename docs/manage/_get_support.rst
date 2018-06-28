@@ -35,6 +35,8 @@ Troubleshoot Network Issues
     ping 192.168.0.104
 
 
+.. _ips:
+
 About IP addresses
 ******************
 

@@ -6,7 +6,7 @@ Raspbian
 Compatibility
 -------------
 
-Kolibri currently doesn't work out of the box for Raspbian Jessie. We are refining our distribution to work out of the box, but you can follow the below steps in order to install it (tested on Kolibri 0.9).
+Kolibri currently doesn't work out of the box for Raspbian Jessie. We are refining our distribution to work out of the box, but you can follow the below steps in order to install it (tested on Kolibri v0.9).
 
 Install
 -------

@@ -17,7 +17,7 @@ Install
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
 #. Follow the instructions in the installation wizard window.
-#. Once the installation finishes, Kolibri will auto-start and open in the default browser on your computer.
+#. Once the installation finishes, Kolibri will auto-start and open in the default browser on your computer at http://127.0.0.1:8080. This may take a moment, so please be patient.
 #. Proceed with the :ref:`setup_initial` of your facility.
 
 .. warning::

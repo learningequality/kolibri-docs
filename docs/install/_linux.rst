@@ -13,7 +13,7 @@ Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life
 Install from PPA repository
 ---------------------------
 
-Use the following commands in Terminal to add the PPA and install Kolibri:
+Use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:
 
 .. code-block:: bash
 

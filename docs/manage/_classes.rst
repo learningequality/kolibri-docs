@@ -103,7 +103,7 @@ Assign Coaches to Class
   * List in this view contains all the users with *Coach*, *Facility coach* or *Admin* roles.
   * You can search for a specific user by name.
 
-2. Use checkboxes to select all the user in the list, or the search field for specific users you want to assign as a coach to class.
+2. Use checkboxes to select all the users in the list, or the search field for specific users you want to assign as a coach to class.
 3. Click **Confirm** button to finish.
 
 Remove Coaches from a Class

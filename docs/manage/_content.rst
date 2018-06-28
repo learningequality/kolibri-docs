@@ -6,7 +6,7 @@ Manage Content
 .. note::
   To manage Kolibri content channels you must have the appropriate permissions.
 
-Kolibri **Content Channel** is a collection of educational resources (video, audio or document files) prepared and organized by the content curator for their use in Kolibri. You can import and export content channels in Kolibri from the **Content** tab of the **Device** dashboard (|content| icon).
+Kolibri **Content Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the content curator for their use in Kolibri. You can import and export content channels in Kolibri from the **Content** tab of the **Device** dashboard (|content| icon).
 
 .. image:: img/manage-content.png
   :alt: manage content page with list of available channels
@@ -160,7 +160,7 @@ If you want to make available the content you have imported on your Kolibri devi
 #. Wait for Kolibri to export the selected content and click **Close**.
 #. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
 
-.. note:: This procedure makes a copy of the ``content`` folder located inside the ``.kolibri`` folder on your hard disk, and places it the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command.
+.. note:: This procedure makes a copy of the ``content`` folder located inside the ``.kolibri`` folder on your hard disk, and places it in the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command.
 
 	.. image:: img/kolibri-data-osx.png
 	  :alt: structure of the local drive folders with exported content channels
