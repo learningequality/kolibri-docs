@@ -6,10 +6,10 @@ Get in touch
 
 .. _get_support_ref:
 
-Getting support from Learning Equality and from our community
--------------------------------------------------------------
+Getting support from Learning Equality and our community
+--------------------------------------------------------
 
-Due to the open-source nature of our work, we encourage that all inquiries, inputs, contributions and feedback are openly shared in our `Community Forums <https://community.learningequality.org/>`_, so that any user with similar questions to yours can benefit from the answer, and have a centralized place to search for it. 
+Due to the open-source nature of our work, we encourage that all inquiries, inputs, contributions and feedback are openly shared in our `Community Forums <https://community.learningequality.org/>`_, so that any user with similar questions to yours can benefit from the answer, and have a centralized place to search for it. *Please consider supporting others whenever you can. Your goals are likely overlapping with other users of Kolibri, so you may consider yourself as part of a community of like-minded practitioners!*
 
 The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* ) 
 
