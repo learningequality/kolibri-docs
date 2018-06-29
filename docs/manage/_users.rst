@@ -37,10 +37,6 @@ When you create a new *Coach* user account, or change the role to *Coach* for an
 	  :alt: choose between class coach and facility coach
 
 
-.. tip::
-  You can change the role of an advanced *Learner* user to *Class coach* to help you manage the instruction of the rest of the learners in that class.
-
-
 Select Users by Type
 --------------------
 

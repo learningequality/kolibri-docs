@@ -76,6 +76,18 @@ You can change the visibility of the lesson that you set when you initially crea
 #. Click **Save** to confirm, or **Cancel** to exit without change.
 
 
+View Lesson Progress
+--------------------
+
+After activating the lesson and making it available for the learners, you can view the cumulative progress for each resource in the main lesson view. Click the title of a specific resource to see the progress by all the learners to whom it was assigned.  
+
+  .. figure:: img/lesson-report-detail.png
+    :alt: Open individual lesson resource to see the progress for each learner.
+
+    Open individual lesson resource to see the progress for each learner.
+
+Click on the column headers to order the results by name, progress, group or the time the resource was accessed. 
+
 Copy Lesson
 -----------
 

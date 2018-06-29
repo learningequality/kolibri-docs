@@ -27,9 +27,16 @@ To sign in to **Kolibri** and start learning, follow these steps:
    If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
 
 	.. figure:: img/learn-page-signin.png
-		:alt: Location of links to "Sign in" to Kolibri.
+		:alt: "Sign in" link in the sidebar.
 
-		Location of links to "Sign in" to Kolibri.
+		"Sign in" link in the sidebar.
+
+
+	.. figure:: img/learn-page-signin2.png
+	    :alt: "Sign in" link in the user menu.
+
+	    "Sign in" link in the user menu.
+
 
 Once you have logged in into Kolibri, you can see and edit your user data from the **Profile** option in the main sidebar menu (below **Learn**).
 
@@ -84,8 +91,7 @@ In this tab (|recommended| icon) you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
 * **Next steps** displays suggestions according to  topics and materials you previously visited.
-* **Resume** displays activities that you started but haven’t finished yet.
-* **Featured in...** displays a preview of activities for each content channel you have access on Kolibri.
+* **Resume** displays activities that you started but haven't finished yet.
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
 
