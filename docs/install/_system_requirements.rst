@@ -18,7 +18,7 @@ Minimum hardware requirements to run Kolibri as a server:
 
 If you have a facility with less than 30 computers, a device as simple as a `Raspberry Pi <https://www.raspberrypi.org/>`_ is known to work fine as a server.
 
-   .. note:: In case you are running Kolibri on Linux and want an efficient setup, use the ``kolibri-raspberry-pi`` package. It doesn't require a specific architecture, but it's required to use if you implement on a system with specs equivalent to or smaller than Raspberry Pi.
+.. In case you are running Kolibri on Linux and want an efficient setup, use the ``kolibri-raspberry-pi`` package. It doesn't require a specific architecture, but it's required to use if you implement on a system with specs equivalent to or smaller than Raspberry Pi.
 
 
 Clients
