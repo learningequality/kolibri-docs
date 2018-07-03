@@ -62,3 +62,27 @@ When you use the PPA installation method, upgrades to newer versions will be aut
 
 To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`.
 
+
+.. _changing-system-user:
+
+Changing the owner of Kolibri system service
+--------------------------------------------
+
+If you installed Kolibri from the ``DEB`` file **prior to v0.10**, the new account named ``kolibri`` was created as the default user account (*owner*) of the system service. This configuration worked well in most cases, but it did not allow Kolibri the access to the local USB drives. From Kolibri v0.10 on, we have changed the system service configuration to select the default desktop user's account as the service owner.
+
+When you upgrade Kolibri **to v0.10 and later** using the ``DEB`` file, you will need to change the user account who owns the system service, move the data (user and content databases) and assign the owner permissions to your desktop user. To change the owner, follow these steps. 
+
+.. code-block:: bash
+
+	# Stop kolibri
+	sudo service kolibri stop
+	# Move data to your desktop user:
+	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
+	# Change ownership
+	sudo chown -R $USER /home/$USER/.kolibri
+	# Change the username configuration
+	sudo echo -n $USER > /etc/kolibri/username
+	# Start kolibri again
+	sudo service kolibri start
+
+.. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
