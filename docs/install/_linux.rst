@@ -68,9 +68,11 @@ To upgrade Kolibri on a Debian device without internet access, bring the updated
 Changing the owner of Kolibri system service
 --------------------------------------------
 
-If you installed Kolibri from the ``DEB`` file **prior to v0.10**, the new account named ``kolibri`` was created as the default user account (*owner*) of the system service. This configuration worked well in most cases, but it did not allow Kolibri the access to the local USB drives. From Kolibri v0.10 on, we have changed the system service configuration to select the default desktop user's account as the service owner.
+The "system service" is the script that runs Kolibri in the background when your system boots. It is particular to the Debian-based distribution.
 
-When you upgrade Kolibri **to v0.10 and later** using the ``DEB`` file, you will need to change the user account who owns the system service, move the data (user and content databases) and assign the owner permissions to your desktop user. To change the owner, follow these steps. 
+You may need to change the system service to run with the permissions of a different user account: Prior to v0.10, we used a ``kolibri`` user account as the owner of the system service. Since v0.10, we expect a desktop user's account for accessing USB storage.
+
+To change the system service owner, you need to change the configuration of the system service: Move the ``.kolibri`` data folder (containing channels, databases etc.) and assign permissions such that it is owned by the new user:
 
 .. code-block:: bash
 
