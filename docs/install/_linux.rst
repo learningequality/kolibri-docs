@@ -68,23 +68,23 @@ To upgrade Kolibri on a Debian device without internet access, bring the updated
 Changing the owner of Kolibri system service
 --------------------------------------------
 
-The "system service" is the script that runs Kolibri in the background when your system boots. It is particular to the Debian-based distribution.
+The *system service* is the script that runs Kolibri in the background when your system boots on Debian-based distributions.
 
-You may need to change the system service to run with the permissions of a different user account: Prior to v0.10, we used a ``kolibri`` user account as the owner of the system service. Since v0.10, we expect a desktop user's account for accessing USB storage.
+You may need to change the system service to run with the permissions of a different user account. Prior to v0.10, ``kolibri`` user account was the owner of the system service, while from v0.10 and later, desktop user's account is preferred, in order for Kolibri to access the local USB storage.
 
-To change the system service owner, you need to change the configuration of the system service: Move the ``.kolibri`` data folder (containing channels, databases etc.) and assign permissions such that it is owned by the new user:
+To change the system service owner, you need to change the configuration of the system service: move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
 
 .. code-block:: bash
 
-	# Stop kolibri
-	sudo service kolibri stop
+	# Stop Kolibri
+	sudo systemctl stop kolibri
 	# Move data to your desktop user:
 	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
 	# Change ownership
 	sudo chown -R $USER /home/$USER/.kolibri
 	# Change the username configuration
-	sudo echo -n $USER > /etc/kolibri/username
-	# Start kolibri again
-	sudo service kolibri start
+	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
+	# Start Kolibri again
+	sudo systemctl start kolibri
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
