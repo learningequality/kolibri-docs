@@ -83,21 +83,24 @@ In the figure below, you can see the progress of 5 learners for the exercise **N
 
 .. _recent_view:
 
-View Class Recent Activity
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+View Class Activity
+~~~~~~~~~~~~~~~~~~~
 
-Use this tab (|recent| icon) to access the full report of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class.
+Recent Class Activity
+---------------------
+
+Use the **Recent** tab (|recent| icon) to access a report of channels and items (exercises and resources - videos, reading material, etc.) accessed during the last 7 days by learners of the selected class.
 
 	.. image:: img/coach-recent.png
 	  :alt: coach recent activity
 
-If the class learners have access to more than one channel, you will see the list of channels firstly. From there, you can navigate by topics and subtopics until you arrive to a specific item. In the item's view, you can review the progress of each learner in the class that accessed the item.
+If the enrolled learners have access to more than one channel, you will see the list of channels firstly. From there, you can navigate by topics and subtopics until you arrive to a specific item. In the item's view, you can review the progress of each learner in the class that accessed the item.
 
 
 .. _topic_view:
 
-View Class Activity by Channels
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Class Activity by Channels
+--------------------------
 
 Use this tab (|channels| icon) to access the full report of activity progress for the selected class. You can navigate channels by topics and subtopics until you see the progress of each class learner for a specific item.
 
