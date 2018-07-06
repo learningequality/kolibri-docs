@@ -73,7 +73,7 @@ After you have installed and started Kolibri on the computer that will act as a 
 Compatibility
 *************
 
-Kolibri currently supports these combinations of operating systems and browsers as client devices. 
+Kolibri currently supports the following combinations of operating systems and browsers for client devices:
 
 * Windows 7, 8.1 and 10, with IE 11+, Chrome and Firefox
 * MacOS 10.6+ with Safari, Chrome and Firefox
@@ -81,30 +81,30 @@ Kolibri currently supports these combinations of operating systems and browsers 
 * Android 4.2+, Chrome and Firefox
 * iOS, Chrome and Firefox supported, **Safari not supported**
 
-.. warning:: Videos are MP4 encoded, and in majority of browsers do not require additional plugins or codecs. **However, if you are using Firefox on Ubuntu/Debian, you must install the** `Ubuntu restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`_.
+.. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
 
 Setup Access on Other Devices
 *****************************
 
-To access the content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. 
+To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. 
 
 For example, if Kolibri is installed and started on a computer with the IP address **192.168.0.104**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.0.104:8080``.
 
 
 .. tip::
-  * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard, .
+  * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard.
 
     .. figure:: img/device-info.png
-      :alt: Find out the IP/Server URL in the Device > Info tab.
+      :alt: Find the IP/Server URL in the Device > Info tab.
 
-      Find out the IP/Server URL in the Device > Info tab.
+      Find the IP/Server URL in the Device > Info tab.
   
-  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find out the IP address of the device running the Kolibri.
+  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri.
 
 
 .. note::
-  * In case of the problems with the network, check out these :ref:`troubleshooting tips <network>`.
-  * See some examples of the recommended `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`_ (PDF document).
+  * In case of network problems, see :ref:`troubleshooting tips <network>`.
+  * Examples and comparison of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`__ (PDF document).
 
 
 .. Access Kolibri on Android
@@ -123,7 +123,7 @@ For example, if Kolibri is installed and started on a computer with the IP addre
 Change Language
 ===============
 
-To change language in which **Kolibri** user interface is displayed, follow these steps.
+To change language in which the **Kolibri** user interface is displayed, follow these steps:
 
 #. Open your user menu in the upper right corner.
 #. Select the **Change language** option.
@@ -131,4 +131,4 @@ To change language in which **Kolibri** user interface is displayed, follow thes
 #. Click **Confirm** and Kolibri will be displayed in the selected language!
 
 .. warning::
-  The default language configured for content in your browser preferences might override the language you choose in this step. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content.
+  The default language configured in your browser preferences might override the language configured in Kolibri. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content.
