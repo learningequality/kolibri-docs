@@ -43,24 +43,24 @@ Starting Kolibri on Linux and MacOS will differ depending on the method you used
 
 * If you installed Kolibri through the :ref:`PPA <ppa>`, or :ref:`generic installation <pip-installation>` with ``pip install`` command, follow these steps.
 
-1. Run this command in Terminal to start Kolibri:
+  1. Run this command in Terminal to start Kolibri:
 
-  .. code-block:: bash
+    .. code-block:: bash
 
-    kolibri start
+      kolibri start
 
-  .. warning:: On macOS you may need to prefix the command with ``python``, and type ``python kolibri start`` instead.
+    .. warning:: On macOS you may need to prefix the command with ``python``, and type ``python -m kolibri start`` instead.
 
-2. Open the default browser at ``http://127.0.0.1:8080`` displaying the **Kolibri** start page.
+  2. Open the default browser at ``http://127.0.0.1:8080`` displaying the **Kolibri** start page.
 
-.. note::
-  Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
+    .. note::
+      Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
 
-3. Run this command in Terminal to stop Kolibri:
+  3. Run this command in Terminal to stop Kolibri:
 
-  .. code-block:: bash
+    .. code-block:: bash
 
-    kolibri stop
+      kolibri stop
 
 
 .. _access_LAN:

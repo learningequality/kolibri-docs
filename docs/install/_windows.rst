@@ -16,7 +16,8 @@ Install
 #. Download the Kolibri `Windows installer <https://learningequality.org/r/kolibri-windows-setup-latest>`_.
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
-#. Follow the instructions in the installation wizard window.
+#. Python 3 installer is included, confirm the installation or the upgrade to proceed.
+#. Follow the rest of the instructions in the Kolibri installation setup wizard. 
 #. Once the installation finishes, Kolibri will auto-start and open in the default browser on your computer at http://127.0.0.1:8080. This may take a moment, so please be patient.
 #. Proceed with the :ref:`setup_initial` of your facility.
 
