@@ -110,7 +110,7 @@ html_logo = 'logo.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
+html_style = 'theme_overrides.css'
 # This should be commented back in for wide tables
 # See: https://github.com/rtfd/readthedocs.org/issues/2116
 # and: https://github.com/rtfd/sphinx_rtd_theme/pull/432
@@ -125,9 +125,9 @@ html_static_path = ['_static']
 # adapted from: http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 # and https://github.com/altair-viz/altair/pull/418/files
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
-def setup(app):
+# def setup(app):
     # Add our custom CSS overrides
-    app.add_stylesheet('theme_overrides.css')
+  #  app.add_stylesheet('theme_overrides.css')
 
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
@@ -154,14 +154,14 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |content| replace:: :raw-html:`<span class="fa fa-th" aria-hidden="true"></span><span class="visuallyhidden">Content</span>`
-.. |info| replace:: :raw-html:`<span class="fa fa-info fa-border" aria-hidden="true"></span><span class="visuallyhidden">Info</span>`
-.. |lock| replace:: :raw-html:`<span class="fa fa-lock" aria-hidden="true"></span><span class="visuallyhidden">Permissions</span>`
-.. |pencil| replace:: :raw-html:`<span class="fa fa-pencil" aria-hidden="true"></span><span class="visuallyhidden">Edit</span>`
-.. |arrow-right| replace:: :raw-html:`<span class="fa fa-arrow-right" aria-hidden="true"></span><span class="visuallyhidden">See next</span>`
-.. |arrow-left| replace:: :raw-html:`<span class="fa fa-arrow-left" aria-hidden="true"></span><span class="visuallyhidden">See previous</span>`
-.. |arrow-up| replace:: :raw-html:`<span class="fa fa-angle-up fa-lg fa-border" aria-hidden="true"></span><span class="visuallyhidden">Arrow up</span>`
-.. |arrow-down| replace:: :raw-html:`<span class="fa fa-angle-down fa-lg fa-border" aria-hidden="true"></span><span class="visuallyhidden">Arrow down</span>`
+.. |content| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">apps</span><span class="visuallyhidden">Content</span>`
+.. |info| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">perm_device_information</span><span class="visuallyhidden">Info</span>`
+.. |lock| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">https</span><span class="visuallyhidden">Permissions</span>`
+.. |pencil| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">create</span><span class="visuallyhidden">Edit</span>`
+.. |arrow-right| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_forward</span><span class="visuallyhidden">See next</span>`
+.. |arrow-left| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_back</span><span class="visuallyhidden">See previous</span>`
+.. |arrow-up| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_up</span><span class="visuallyhidden">Arrow up</span>`
+.. |arrow-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Arrow down</span>`
 
 """
 
