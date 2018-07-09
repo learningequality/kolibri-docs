@@ -3,13 +3,13 @@
 Manage Users
 ~~~~~~~~~~~~
 
-You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard.
+You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard (|users| icon).
 
 .. image:: img/manage-users.png
   :alt: manage users
 
 .. note::
-  To manage Kolibri users you must sign in as **Super user** or **Admin**.
+  To manage Kolibri users you must sign in as **Superuser** or **Admin**.
 
 
 Create a New User Account
@@ -35,10 +35,6 @@ When you create a new *Coach* user account, or change the role to *Coach* for an
 
 	.. image:: img/coach-type.png
 	  :alt: choose between class coach and facility coach
-
-
-.. tip::
-  You can change the role of an advanced *Learner* user to *Class coach* to help you manage the instruction of the rest of the learners in that class.
 
 
 Select Users by Type

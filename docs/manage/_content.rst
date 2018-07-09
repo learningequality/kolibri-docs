@@ -6,15 +6,20 @@ Manage Content
 .. note::
   To manage Kolibri content channels you must have the appropriate permissions.
 
-Kolibri **Content Channel** is a collection of educational resources (video, audio or document files) prepared and organized by the content curator for their use in Kolibri. You can import and export content channels in Kolibri from the **Content** tab of the **Device** dashboard (|content| icon).
+Kolibri **Content Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the content curator for their use in Kolibri. You can import and export content channels in Kolibri from the **Content** tab of the **Device** dashboard (|content| icon).
 
 .. image:: img/manage-content.png
   :alt: manage content page with list of available channels
 
+.. _id_token:
 
 Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to import content from **private or unlisted** channels, you will need the **channel token or ID from the content curator who assembled it**.
 
-.. warning:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we will start using exclusively the term **token** to uniquely designate each channel.
+.. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we started using exclusively the term **token** to uniquely designate each channel.
+
+.. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import content channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
+
+
 
 Import Content into Kolibri
 ---------------------------
@@ -27,7 +32,7 @@ Import Content into Kolibri
 
   * an external storage drive (USB or hard drive) where content channels have been previously exported to from another Kolibri installation, if the computer running Kolibri is not connected to internet
 
-  **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/index.html>`_. 
+  **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our Kolibri `Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/index.html>`_.
 
 
 .. tip::
@@ -56,27 +61,39 @@ If the computer where Kolibri is running has an Internet connection with the suf
   	.. image:: img/kolibri-central-server.png
 	  :alt: Select from which public channel you want to import content from.
 
+    
+      Channels from which you have already imported some or all content onto your device will have the |on-device| icon. 
+
+
 #. Click **Select** button for the desired channel, and wait for Kolibri to display the channel information and the topic tree.
-#. In the **Select content** page you will see all the details of the selected channel: description, version, total size and number of learning resources, with the information weather you have some of the resources from that channel already imported on the local device.
+
+   .. warning:: This could take some time for big channels. Please be patient, as Kolibri needs to retrieve a lot of information to display.
+
+
+#. In the **Select content from...** page you will see all the details for the selected channel: description, version, total size and number of learning resources, with the information weather you have some of the resources from that channel already imported on the local device.
 
   	.. image:: img/select-content.png
 	  :alt: Select topics and resources to import from channel.
 
-#. Under **Choose content to import** you can browse the channel topics and individual resources. Use the *Select all* checkbox to import the content channel in full, or select only certain topics or resources. As you keep selecting, you will see the total number and size on disk under *Resources selected:*, and the remaining space on your device.
+#. Under **Choose content to import** click the topics links to browse through the channel contents. Use the *Select all* checkbox to import the content channel in full, or select only certain topics or resources. As you keep selecting, you will see the total number and size on disk under *Resources selected:*, and the remaining space on your device.
 #. Click **Import** button once you finish selecting all the desired content.
+
 #. Wait for the content to be downloaded and click **Close** for the new channel to appear under the **Content** heading.
 
 	.. image:: img/import-CC.png
 	  :alt: wait for import channel to finish
 
-#. If you need to import content from a **private/unlisted** channel, scroll to the bottom of the *Kolibri Studio* page.
-#. Click on **Try adding the token** link, and enter the **channel token/ID** received from the channel curator on Kolibri Studio.
+#. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
+#. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.
 
 	.. image:: img/enter-token.png
 	  :alt: enter content token to import from unlisted channel
 
 #. Click **Confirm** to unlock channel, or **Cancel** to exit.
 #. Proceed to select and import channel topics and resources as for the public channels.
+
+   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+#. To add more learning resources from a channel that you previously imported content from, click **Actions**, select **Import more**, and repeat the selection procedure from step 3. 
 
 
 Import Content from a Local Drive
@@ -127,7 +144,7 @@ Export from Kolibri to Local Drive
 If you want to make available the content you have imported on your Kolibri device, to another computer where Kolibri is installed, follow these steps to export your content channels.
 
 .. note::
-  You must have an external drive (USB stick or hard disk) attached to your device.
+  You must have an external drive (SD card, USB stick or hard disk) attached to your device.
 
 #. Click **Export** button in **Content** page.
 #. Select the local drive (export destination) where you wish to export **Kolibri** content, and click **Continue**.
@@ -137,16 +154,29 @@ If you want to make available the content you have imported on your Kolibri devi
 	  :alt: Select from which channel you want to export to local drive.
 
 #. Click **Select** button for the desired channel, and wait for Kolibri to display the channel information and the topic tree.
-#. In the **Select content** page you will see all the details of the selected channel: description, version, total size and number of learning resources.
+#. In the **Select content from...** page you will see all the details of the selected channel: description, version, total size and number of learning resources.
 #. Under **Choose content to export** you can browse the channel topics and individual resources. Use the *Select all* checkbox to import the content channel in full, or select only certain topics or resources. As you keep selecting, you will see the total number and size on disk under *Resources selected:*, and the remaining space on the destination drive.
 #. Click **Export** button once you finish selecting all the desired content.
 #. Wait for Kolibri to export the selected content and click **Close**.
 #. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
 
-.. note:: This procedure makes a copy of the ``content`` folder located inside the ``.kolibri`` folder on your hard disk, and places it the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command.
+.. note:: This procedure makes a copy of the ``content`` folder located inside the ``.kolibri`` folder on your hard disk, and places it in the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command.
 
 	.. image:: img/kolibri-data-osx.png
 	  :alt: structure of the local drive folders with exported content channels
+
+Delete Channel
+--------------
+
+To delete a content channel from your device, follow these steps.
+
+#. Click **Actions** for the channel you want to delete.
+#. Select **Delete** option.
+#. Click **Delete** to proceed, or **Cancel** to exit without deleting the channel.
+
+  .. image:: img/delete-channel.png
+    :alt: delete content channel from your device
+
 
 
 Peer-to-Peer Content Synchronization

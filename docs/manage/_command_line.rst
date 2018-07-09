@@ -5,9 +5,14 @@ Working with Kolibri from the Command Line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. warning::
-  In Windows you need to open ``cmd.exe`` Command prompt in the folder where Kolibri executable is located: ``c:/Python27/Scripts``.
+  * In Windows you need to open ``cmd.exe`` Command prompt in the folder where Kolibri executable is located: ``c:/Python34/Scripts``.
 
-  *Make sure not to include the angle brackets “< >” in the commands below.*
+  * On macOS you may need to prefix the commands with ``python``, for example ``python kolibri start``.
+
+  * If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.10.pex``, type ``./kolibri-v0.10.pex start``.
+
+  * Make sure not to include the angle brackets “< >” in the commands below.*
+
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -38,6 +43,8 @@ If you need to change the default port ``8080`` from which Kolibri is serving co
   kolibri start --port <new-port-number>
 
 
+.. _import_command_line:
+
 Import Content Channels from Internet
 -------------------------------------
 
@@ -47,6 +54,9 @@ To import content channels from Internet, run these two commands in sequence. Th
 
   kolibri manage importchannel -- network <Channel ID>
   kolibri manage importcontent -- network <Channel ID>
+
+
+.. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
   Commented out because the API is weird and should be fixed
@@ -75,16 +85,18 @@ To export Kolibri content channels on a local drive in order to share it with an
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
 
-Create a New Super User
------------------------
+.. _create_superuser:
 
-In case you need to create another Super user, either to address additional need of managing facility, or if you lost the password for the old one, run the following command:
+Create a New Superuser
+----------------------
+
+In case you need to create another **Superuser**, either to address additional need of managing facility, or if you lost the password for the old one, run the following command.
 
 .. code-block:: bash
 
   kolibri manage createsuperuser
 
-You will be prompted to input the **Username** and **Password** and the new **Super user** user account will be created.
+You will be prompted to input the **Username** and **Password** and the new **Superuser** user account will be created.
 
 
 Change Language
@@ -109,7 +121,19 @@ Change Language
 +-----------------------+-----------------+
 | Farsi                 | ``fa``          | 
 +-----------------------+-----------------+
+| Hindi (India)         | ``hi-in``       | 
++-----------------------+-----------------+
 | Urdu (Pakistan)       | ``ur-pk``       | 
++-----------------------+-----------------+
+| Marathi               | ``mr``          | 
++-----------------------+-----------------+
+| Chinyanja             | ``nyn``         | 
++-----------------------+-----------------+
+| Portuguese (Brasil)   | ``pt-br``       | 
++-----------------------+-----------------+
+| Telugu                | ``te``          | 
++-----------------------+-----------------+
+| Tamil                 | ``ta``          | 
 +-----------------------+-----------------+
 
 
@@ -138,12 +162,63 @@ If you need to restore a backup version prior to the latest one, you must specif
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.
 
 
+Change the Location of Kolibri Content Files
+--------------------------------------------
+
+Kolibri content channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move the Kolibri **content files** to another drive.
+
+.. tip::
+  If you have both SSD disk and HDD disk available on your device, it is recommended to install Kolibri on the SSD drive to allow faster access to the database, and move just the content file to the HDD drive.
+
+To move the Kolibri content folders to another location, follow these steps.
+
+1. Stop Kolibri.
+
+  .. code-block:: bash
+
+    kolibri stop
+
+
+2. Create a new folder that will contain all the content files and resources on the destination drive.
+
+  .. code-block:: bash
+
+    kolibri manage content movedirectory <destination>
+
+
+  For example, if you created a new folder ``KolibriContent`` on an external drive, run this command.
+
+  .. code-block:: bash
+
+    kolibri manage content movedirectory /mnt/my_external_drive/KolibriContent
+
+
+  If you are on Windows, and the new folder ``KolibriContent`` is on the drive ``F:``, run this command.
+
+  .. code-block:: bash
+
+    kolibri manage content movedirectory F:\KolibriContent
+
+
+3. Restart Kolibri.
+
+This command will move the 2 subfolders ``databases`` and ``storage``, from their default location inside the ``.kolibri/content`` folder in your device's home directory, to a new location you specified in the command.
+
+
+
 Change the Location of ALL Kolibri Files
 ----------------------------------------
 
-If you want to change the directory where all of Kolibri’s runtime files go, the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.
+If you want to change the directory where all of Kolibri's runtime files are located, together with the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.
 
-If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s ``Home`` folder, under the ``.kolibri`` subfolder. 
+If the variable is left unset, by default, Kolibri's runtime files and content will be placed in your user’s home folder, under the ``.kolibri`` subfolder. 
+
+.. note::
+  Adjusting this environment variable behaves differently than the ``movedirectory`` command above:
+
+  * Adjusting the environment variable will not automatically migrate over data. You need to copy the ``.kolibri`` folder manually to the new location.
+  * If you do copy the ``.kolibri`` folder, the content will not be affected **if it had been previously set** using the ``movedirectory`` command.
+
 
 There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps.
 

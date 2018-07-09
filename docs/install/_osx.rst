@@ -31,7 +31,7 @@ To install Kolibri on Linux distributions other than Debian, as well as on MacOS
 	  chmod +x kolibri-installer-filename.pex
 	  ./kolibri-installer-filename.pex start
 
-	.. warning:: Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.9.2.pex``, type that instead of ``kolibri-installer-filename.pex``. 
+	.. warning:: Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.10.0.pex``, type that instead of ``kolibri-installer-filename.pex``. 
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 

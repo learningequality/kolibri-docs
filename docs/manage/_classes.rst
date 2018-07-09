@@ -4,13 +4,13 @@
 Manage Classes
 ~~~~~~~~~~~~~~
 
-You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard. Default view displays the list of all classes in your facility, with the number of enrolled users for each class.
+You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard (|classes| icon). Default view displays the list of all classes in your facility, with the number of enrolled users for each class.
 
 .. image:: img/classes.png
   :alt: manage classes
 
 .. note::
-  To manage Kolibri classes you must sign-in as **Super user** or **Admin**.
+  To manage Kolibri classes you must sign-in as **Superuser** or **Admin**.
 
 
 Add New Class
@@ -55,7 +55,7 @@ Change Class Name
 
 To edit class name, follow these steps.
 
-#. Click on the **Edit** button ( |pencil| icon) next to the class’ name.
+#. Click on the **Edit** button (|edit| icon) next to the class’ name.
 #. Write the new name in the **Class name** field.
 #. Click **Update** to confirm the edited information, or **Cancel** to exit without saving.
 
@@ -103,7 +103,7 @@ Assign Coaches to Class
   * List in this view contains all the users with *Coach*, *Facility coach* or *Admin* roles.
   * You can search for a specific user by name.
 
-2. Use checkboxes to select all the user in the list, or the search field for specific users you want to assign as a coach to class.
+2. Use checkboxes to select all the users in the list, or the search field for specific users you want to assign as a coach to class.
 3. Click **Confirm** button to finish.
 
 Remove Coaches from a Class

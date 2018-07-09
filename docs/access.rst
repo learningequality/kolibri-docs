@@ -37,28 +37,30 @@ Starting Kolibri on Linux or MacOS
 
 Starting Kolibri on Linux and MacOS will differ depending on the method you used to install it.
 
-* If you used the :ref:`PEX package <pex>`, Kolibri will be accessible as long as the process is running in the Terminal.  
+* If you used the :ref:`PEX package <pex>`, Kolibri will be accessible as long as the process is running in the `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_.  
 
 * If you installed Kolibri as a system service with the :ref:`DEB installer <lin_deb>`, it will run automatically on each system restart, and you do not need to start it manually. Proceed to step 2 below.
 
 * If you installed Kolibri through the :ref:`PPA <ppa>`, or :ref:`generic installation <pip-installation>` with ``pip install`` command, follow these steps.
 
-1. Run this command in Terminal to start Kolibri:
+  1. Run this command in Terminal to start Kolibri:
 
-  .. code-block:: bash
+    .. code-block:: bash
 
-    kolibri start
+      kolibri start
 
-2. Open the default browser at ``http://127.0.0.1:8080`` displaying the **Kolibri** start page.
+    .. warning:: On macOS you may need to prefix the command with ``python``, and type ``python -m kolibri start`` instead.
 
-.. note::
-  Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
+  2. Open the default browser at ``http://127.0.0.1:8080`` displaying the **Kolibri** start page.
 
-3. Run this command in Terminal to stop Kolibri:
+    .. note::
+      Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
 
-  .. code-block:: bash
+  3. Run this command in Terminal to stop Kolibri:
 
-    kolibri stop
+    .. code-block:: bash
+
+      kolibri stop
 
 
 .. _access_LAN:
@@ -66,12 +68,12 @@ Starting Kolibri on Linux and MacOS will differ depending on the method you used
 Accessing Kolibri from Other Devices in the Network
 ===================================================
 
-After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the the same **Local Area Network (LAN)**, such as other computers, tablets or phones, so they can access the the learning contents on the server.
+After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning content on the server.
 
 Compatibility
 *************
 
-Kolibri currently supports these combinations of operating systems and browsers as client devices. Videos are MP4 encoded, and require no additional installation of plugins or codecs.
+Kolibri currently supports the following combinations of operating systems and browsers for client devices:
 
 * Windows 7, 8.1 and 10, with IE 11+, Chrome and Firefox
 * MacOS 10.6+ with Safari, Chrome and Firefox
@@ -79,20 +81,30 @@ Kolibri currently supports these combinations of operating systems and browsers 
 * Android 4.2+, Chrome and Firefox
 * iOS, Chrome and Firefox supported, **Safari not supported**
 
-To access the content from other devices in the same network, you need to know the **IP address** of the computer where where Kolibri is running. 
+.. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
+
+Setup Access on Other Devices
+*****************************
+
+To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. 
 
 For example, if Kolibri is installed and started on a computer with the IP address **192.168.0.104**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.0.104:8080``.
 
 
 .. tip::
-  * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard, .
+  * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard.
 
     .. figure:: img/device-info.png
-      :alt: Find out the IP/Server URL in the Device > Info tab.
+      :alt: Find the IP/Server URL in the Device > Info tab.
 
-      Find out the IP/Server URL in the Device > Info tab.
+      Find the IP/Server URL in the Device > Info tab.
   
-  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find out the IP address of the device running the Kolibri.
+  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri.
+
+
+.. note::
+  * In case of network problems, see :ref:`troubleshooting tips <network>`.
+  * Examples and comparison of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`__ (PDF document).
 
 
 .. Access Kolibri on Android
@@ -111,9 +123,12 @@ For example, if Kolibri is installed and started on a computer with the IP addre
 Change Language
 ===============
 
-To change language in which **Kolibri** user interface is displayed, follow these steps.
+To change language in which the **Kolibri** user interface is displayed, follow these steps:
 
 #. Open your user menu in the upper right corner.
 #. Select the **Change language** option.
 #. Choose the desired language.
 #. Click **Confirm** and Kolibri will be displayed in the selected language!
+
+.. warning::
+  The default language configured in your browser preferences might override the language configured in Kolibri. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content.
