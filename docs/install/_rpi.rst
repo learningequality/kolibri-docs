@@ -13,6 +13,7 @@ Install
 
 1. Running ``add-apt-repository`` as shown in the PPA instructions does not work. Instead, run::
 
+      sudo apt install dirmngr
       sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
       sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
       sudo apt update
