@@ -27,9 +27,16 @@ To sign in to **Kolibri** and start learning, follow these steps:
    If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
 
 	.. figure:: img/learn-page-signin.png
-		:alt: Location of links to "Sign in" to Kolibri.
+		:alt: "Sign in" link in the sidebar.
 
-		Location of links to "Sign in" to Kolibri.
+		"Sign in" link in the sidebar.
+
+
+	.. figure:: img/learn-page-signin2.png
+	    :alt: "Sign in" link in the user menu.
+
+	    "Sign in" link in the user menu.
+
 
 Once you have logged in into Kolibri, you can see and edit your user data from the **Profile** option in the main sidebar menu (below **Learn**).
 
@@ -56,7 +63,7 @@ Each time you login into **Kolibri**, the first thing you will see is the **Lear
 
 		Learn start page with all your classes.
 
-Select one of your classes to access :ref:`Lessons` and :ref:`Exams` your teachers or coaches prepared for your class.
+Select one of your classes to access :ref:`Lessons` and :ref:`Exams` teachers or coaches prepared for your class.
 
 	.. figure:: img/exams-lessons.png
 		:alt: You can see all your lessons and exams in the Class tab.
@@ -67,7 +74,7 @@ Select one of your classes to access :ref:`Lessons` and :ref:`Exams` your teache
 Channels
 ^^^^^^^^
 
-**Channels** tab offers you the option to navigate through the complete set of learning topics and materials available in Kolibri. Use it as you wish, or according to indications from your teachers and coaches.
+Use this tab (|channels| icon) to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
 
 Depending on how your school and teachers or coaches decided to organize the content, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the content from each available channel.
 
@@ -80,12 +87,11 @@ Depending on how your school and teachers or coaches decided to organize the con
 Recommended
 ^^^^^^^^^^^
 
-In the **Recommended** tab you can see various sections:
+In this tab (|recommended| icon) you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
 * **Next steps** displays suggestions according to  topics and materials you previously visited.
-* **Resume** displays activities that you started but haven’t finished yet.
-* **Featured in...** displays a preview of activities for each content channel you have access on Kolibri.
+* **Resume** displays activities that you started but haven't finished yet.
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
 
@@ -120,19 +126,48 @@ Search
 
 If you are looking for a specific subject, topic, or term, use the **Search** feature:
 
-#. Click the magnifying glass icon in the upper right corner.
-#. Type the word or combination of words you are looking for in the search field.
-#. Press **Enter** to display search results below the field.
+#. Type the word or combination of words you are looking for in the search field located in the top bar.
+#. Press **Enter** or click the |search| button to display the results.
 
 .. figure:: img/search.png
-	:alt: search page
+	:alt: Filter the search results by channel or type of content.
 
-	Search page gives you option to search for a specific term in Kolibri.
+	Filter the search results by channel or type of content.
+
+
+Some Kolibri resources may be duplicated in different topics and/or channels. Search results will indicate when a resource is duplicated, and you can click on the ``...locations`` link to discover the details for each location.
+
+.. figure:: img/search-duplicates.png
+	:alt: Duplicated resources in the search results.
+
+	Duplicated resources in the search results.
+
+
+.. figure:: img/search-duplicates2.png
+	:alt: Details for the duplicated resources in the search results.
+
+	Details for the duplicated resources in the search results.
+
 
 .. _content_types:
 
 Content types
 ^^^^^^^^^^^^^
+
+You may see different types of content available in Kolibri channels, and you can easily distinguish them by their icons:
+
+* Videos - |video-icon|
+* Exercises - |exercise-icon|
+* Documents - |doc-icon|
+* Interactive HTML Apps - |html-icon|
+* Topics - |topic-icon|
+
+When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish viewing a video or complete the exercise, they will be marked with the |completed| icon.
+
+.. figure:: img/progress-icons.png
+	:alt: Progress indicators for learning resources.
+
+	Progress indicators for learning resources.
 
 Exercises
 """""""""
@@ -143,19 +178,19 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 #. **Read the question carefully**.
 #. Write the answer or choose one of the provided options.
-#. When you are ready to submit, click the **Check answer** button.
+#. When you are ready to submit, click the **Check** button.
 
-   * If the answer is correct and a check mark appears, click the **Next question** button to proceed.
-   * If the answer is incorrect, click the **Get a hint** button, read the suggestions, and try to answer again.
-   * The progress bar below the exercise is taking into account only the most recent answers you give, and that means that you need to have the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed.
+   * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the **Next** button to proceed.
+   * If the answer is incorrect, read the question again, and try another answer. You can also click the **Use a hint** button, read the suggestions, and try to answer again.
+   * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
 
-    .. figure:: img/correct-row.png
+    .. figure:: img/get-5-correct.png
 	    :alt: If the exercise requires 5 check marks, you must provide 5 correct answers one after another.
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, click the **Next item** button, to continue learning with the rest of the material in that topic.
-#. If you are unable to solve some questions, try reviewing the videos in the **Recommended** section below the exercise, or seek help from your peers or teacher/coach.
+#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the **Next resource** below to continue learning with the rest of the material in that topic.
+#. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 .. figure:: img/exercise.png
 	:alt: exercise page
@@ -208,7 +243,7 @@ Use the **Download content** button below the PDF viewer to download the PDF fil
 Lessons
 ^^^^^^^
 
-When your teacher or coach prepares a *lesson*, that is a recommended set of learning resources for you or your class to view, it will be available in the **Class** tab, below the **Lessons** heading. You may have more than one lesson available at the time.
+Your teacher or coach may prepare a *lesson* (|lessons| icon), a recommended set of learning resources for you or your class to view. You may have more than one lesson available at the time in the **Class** tab, below the **Lessons** heading. 
 
 Click on a lesson title to open its content, and follow the indications of your teachers or coaches on how to use it.
 
@@ -218,10 +253,10 @@ Click on a lesson title to open its content, and follow the indications of your 
 
 .. _exams:
 
-Exams
+Exams 
 ^^^^^
 
-If your teacher or coach scheduled an exam for you or your class, it will be available in the **Class** tab, under the **Exams** heading. You may have more than one exam available at the time.
+If your teacher or coach scheduled an *exam* (|exams| icon) for you or your class, it will be available in the **Class** tab, under the **Exams** heading. You may have more than one exam available at the time.
 
 .. figure:: img/exams3.png
 	:alt: exams tab
@@ -232,19 +267,21 @@ If the exam is listed as *Not started*, follow these steps.
 #. You can go on answering the questions in the order you prefer: move through questions with **Previous** and **Next question** buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
-		:alt: exams tab
+		:alt: Exam page
 
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
-#. Press the *Back to exam list* if you want to pause the exam and come back later.
-#. Press the button **Submit exam** when you want to submit it for grading.
+#. Press the *Back to exam list* if you want to pause the exam and come back later. 
+#. Press the button **Submit exam** when you want to submit it for grading. 
 
-If the exam in the **Class** tab is listed as having *...questions left*, click on it to resume when you are ready.
+Exam that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
 
-Once you submit the exam, it will be listed as *Completed* in the **Class** tab, but you can click on it to see the score and review your answers.
+Once you complete and submit an exam, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
 
 .. figure:: img/exam-result.png
-	:alt: exams tab
+	:alt: Open the completed result to review your answers.
+
+	Open the completed result to review your answers.
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.

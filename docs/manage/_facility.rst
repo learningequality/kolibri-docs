@@ -3,7 +3,7 @@
 Manage Facility
 ~~~~~~~~~~~~~~~~
 
-You can edit facility configuration settings in Kolibri from the **Configuration** tab in your **Facility** dashboard.
+You can edit facility configuration settings in Kolibri from the **Settings** tab in your **Facility** dashboard (|settings| icon).
 
 #. Activate the options you want to make available for the users of your facility. You have the possibility to allow users to:
 
@@ -17,4 +17,4 @@ You can edit facility configuration settings in Kolibri from the **Configuration
   :alt: manage facility configuration settings
 
 .. note::
-  To manage facility settings in Kolibri you must sign in as **Super user** or **Admin**.
+  To manage facility settings in Kolibri you must sign in as **Superuser** or **Admin**.

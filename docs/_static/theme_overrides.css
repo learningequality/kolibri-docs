@@ -15,3 +15,25 @@
     padding-bottom: 8px !important;
     padding-right: -5px !important;
 }
+
+.local_library {
+	color: #2196f3;
+}
+
+.schedule {
+	padding-bottom: 1px !important;
+	background-color: #2196f3;
+	border-radius: 50%;
+	color: #fff;
+}
+
+.star {
+	padding-bottom: 1px !important;
+	background-color: #ffc107;
+	border-radius: 50%;
+	color: #fff;
+}
+
+img {
+	height: 1.2em;
+	vertical-align: text-bottom;

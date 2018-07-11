@@ -6,13 +6,14 @@ Raspbian
 Compatibility
 -------------
 
-Kolibri currently doesn't work out of the box for Raspbian Jessie. We are refining our distribution to work out of the box, but you can follow the below steps in order to install it (tested on Kolibri 0.9).
+Kolibri works well on Debian-based distributions for `Raspberry Pi <https://www.raspberrypi.org/>`_, such as Raspbian, and has been tested on RPi 3 models.
 
 Install
 -------
 
 1. Running ``add-apt-repository`` as shown in the PPA instructions does not work. Instead, run::
 
+      sudo apt install dirmngr
       sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
       sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
       sudo apt update
@@ -34,13 +35,18 @@ Install
 
   * You run out of storage space. If you have a USB source for additional storage, do something like this::
 
-        sudo systemctl kolibri stop  # Stop kolibri
-        sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data  # Move its data
-        sudo chown -R kolibri /your/external/media/kolibri_data  # Ensure that the kolibri user owns the folder
-        sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri  # Restore the original location with a symbolic link
-        sudo systemctl kolibri start  # Start kolibri
+        # Stop kolibri
+        sudo systemctl kolibri stop  
+        # Move its data
+        sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data  
+        # Ensure that the kolibri system service user owns the folder
+        sudo chown -R `cat /etc/kolibri/username` /your/external/media/kolibri_data  
+        # Restore the original location with a symbolic link
+        sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri  
+        # Start kolibri
+        sudo systemctl kolibri start  
 
-  * Loading channels can take a **long time** on a Raspberry Pi. When generating channel contens for Khan Academy, the step indicated as "Generating channel listing. This could take a few minutes…" could mean ~30 minutes. The device's computation power is the bottleneck. You might get logged out while waiting, but this is harmless and the process will continue. Sit tight!
+  * Loading channels can take a **long time** on a Raspberry Pi. When generating channel contents for Khan Academy, the step indicated as "Generating channel listing. This could take a few minutes…" could mean ~30 minutes. The device's computation power is the bottleneck. You might get logged out while waiting, but this is harmless and the process will continue. Sit tight!
 
 
 Uninstall

@@ -13,7 +13,7 @@ Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life
 Install from PPA repository
 ---------------------------
 
-Use the following commands in Terminal to add the PPA and install Kolibri:
+Use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:
 
 .. code-block:: bash
 
@@ -62,3 +62,29 @@ When you use the PPA installation method, upgrades to newer versions will be aut
 
 To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`.
 
+
+.. _changing-system-user:
+
+Changing the owner of Kolibri system service
+--------------------------------------------
+
+The *system service* is the script that runs Kolibri in the background when your system boots on Debian-based distributions.
+
+You may need to change the system service to run with the permissions of a different user account. Prior to v0.10, ``kolibri`` user account was the owner of the system service, while from v0.10 and later, desktop user's account is preferred, in order for Kolibri to access the local USB storage.
+
+To change the system service owner, you need to change the configuration of the system service: move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
+
+.. code-block:: bash
+
+	# Stop Kolibri
+	sudo systemctl stop kolibri
+	# Move data to your desktop user:
+	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
+	# Change ownership
+	sudo chown -R $USER /home/$USER/.kolibri
+	# Change the username configuration
+	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
+	# Start Kolibri again
+	sudo systemctl start kolibri
+
+.. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.

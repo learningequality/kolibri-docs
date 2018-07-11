@@ -10,7 +10,7 @@ Report a problem with Kolibri
 
 If you want to contact the **Learning Equality** Support team to report an issue, or share your experience about using Kolibri, please register at our `Community Forums <https://community.learningequality.org/>`_.
 
-Once you register on our forums, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* ) 
+Once you register on our forums, please read the the first two pinned topics (*Welcome to Learning Equality Support Community* and *How do I post to this forum?* ) 
 
 You can add a new topic with the **+ New Topic** button on the right. Make sure to select the **Kolibri** category in the **Create a New Topic** window so it’s easier to classify and respond to.
 
@@ -19,6 +19,19 @@ You can add a new topic with the **+ New Topic** button on the right. Make sure 
 
 
 Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs.
+
+
+Locate Kolibri log files
+------------------------
+
+When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing. 
+
+Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate these two files:
+
+* ``kolibri.log``
+* ``debug.log``
+
+.. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
 
 
 .. _network:
@@ -35,6 +48,8 @@ Troubleshoot Network Issues
     ping 192.168.0.104
 
 
+.. _ips:
+
 About IP addresses
 ******************
 
@@ -45,19 +60,38 @@ About IP addresses
 * ``http://192.168.1.1:8080`` means: "Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol". The browser will the continue to try to reach this address, but may fail for instance if Kolibri isn't running, or if a step along the way blocks access.
 
 
-Locate Kolibri log files
-------------------------
+Troubleshoot Database Issues
+----------------------------
 
-When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing. 
+In case you receive the ``database disk image is malformed`` error in Terminal, try running these commands (note that **you must have the** ``sqlite3`` **command available on your system**).
 
-Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate these two files:
+  .. code-block:: bash
 
-* ``kolibri.log``
-* ``debug.log``
+    sqlite3 ~/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db 
+    cp fixed.db ~/.kolibri/db.sqlite3
 
-.. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
+For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
+
 
 Videos are not playing
 ----------------------
 
 Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using.
+
+
+Problems with import and export from USB drives
+-----------------------------------------------
+
+Kolibri needs read and write access to USB drives in order to import and export content. There are several possibilities why you may encounter issues during this procedure.
+
+* **User account does not have access**:
+
+  - you installed Kolibri in your own environment running as a non-desktop user (for instance UWSGI)
+  - you have upgraded Kolibri on Debian from a version prior to v0.10. Follow these instructions to :ref:`change the ownership of Kolibri system service <changing-system-user>` from one user account to another
+  - to grant access to USB drives to other accounts, refer to the documentation of your operating system
+
+* **Write access denied**: Some USB drives will experience problems when they are unplugged from the computer in an "unclean" way. If you are denied access to write, look for options to "fix" or "repair" the file system.
+
+* **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning content data.
+
+* **Hardware life expectancy**: SD and flash storage drives can "expire". Reading and writing large quantities of content data, especially on older or models with smaller capacity, may produce data errors over time.
