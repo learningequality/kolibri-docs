@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.9.x"
+DISPLAY_VERSION = "0.10.x"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -110,7 +110,6 @@ html_logo = 'logo.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_style = 'theme_overrides.css'
 # This should be commented back in for wide tables
 # See: https://github.com/rtfd/readthedocs.org/issues/2116
 # and: https://github.com/rtfd/sphinx_rtd_theme/pull/432
@@ -125,9 +124,9 @@ html_style = 'theme_overrides.css'
 # adapted from: http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 # and https://github.com/altair-viz/altair/pull/418/files
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
-# def setup(app):
+def setup(app):
     # Add our custom CSS overrides
-  #  app.add_stylesheet('theme_overrides.css')
+   app.add_stylesheet('theme_overrides.css')
 
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
@@ -180,19 +179,19 @@ rst_prolog = """
 .. |in-progress| replace:: :raw-html:`<span class="material-icons schedule" aria-hidden="true">schedule</span><span class="visuallyhidden">In progress</span>`
 .. |completed| replace:: :raw-html:`<span class="material-icons star" aria-hidden="true">star</span><span class="visuallyhidden">Completed</span>`
 .. |recommended| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">forum</span><span class="visuallyhidden">Recommended</span>`
-.. |on-device| image:: img/on-device.png 
+.. |on-device| image:: img/on-device.png
    :alt: On your device
-.. |green-check| image:: img/on-device.png 
+.. |green-check| image:: img/on-device.png
    :alt: Correct answer
-.. |topic-icon| image:: img/topic-icon.png 
+.. |topic-icon| image:: img/topic-icon.png
    :alt: Topic
-.. |video-icon| image:: img/video-icon.png 
+.. |video-icon| image:: img/video-icon.png
    :alt: Video
-.. |doc-icon| image:: img/doc-icon.png 
+.. |doc-icon| image:: img/doc-icon.png
    :alt: Document
-.. |exercise-icon| image:: img/exercise-icon.png 
+.. |exercise-icon| image:: img/exercise-icon.png
    :alt: Exercise
-.. |html-icon| image:: img/html-icon.png 
+.. |html-icon| image:: img/html-icon.png
    :alt: App
 
 """
