@@ -110,7 +110,7 @@ html_logo = 'logo.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
+html_style = 'theme_overrides.css'
 # This should be commented back in for wide tables
 # See: https://github.com/rtfd/readthedocs.org/issues/2116
 # and: https://github.com/rtfd/sphinx_rtd_theme/pull/432
@@ -125,9 +125,9 @@ html_static_path = ['_static']
 # adapted from: http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 # and https://github.com/altair-viz/altair/pull/418/files
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
-def setup(app):
+# def setup(app):
     # Add our custom CSS overrides
-    app.add_stylesheet('theme_overrides.css')
+  #  app.add_stylesheet('theme_overrides.css')
 
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
@@ -158,6 +158,8 @@ rst_prolog = """
 .. |info| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">perm_device_information</span><span class="visuallyhidden">Info</span>`
 .. |permissions| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">https</span><span class="visuallyhidden">Permissions</span>`
 .. |edit| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">create</span><span class="visuallyhidden">Edit</span>`
+.. |lock| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">https</span><span class="visuallyhidden">Permissions</span>`
+.. |pencil| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">create</span><span class="visuallyhidden">Edit</span>`
 .. |arrow-right| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_forward</span><span class="visuallyhidden">See next</span>`
 .. |arrow-left| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_back</span><span class="visuallyhidden">See previous</span>`
 .. |arrow-up| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_up</span><span class="visuallyhidden">Arrow up</span>`
