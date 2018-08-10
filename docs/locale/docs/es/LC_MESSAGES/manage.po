@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-02 15:44-0800\n"
-"PO-Revision-Date: 2018-02-09 14:24-0500\n"
+"POT-Creation-Date: 2018-03-30 00:39+0200\n"
+"PO-Revision-Date: 2018-08-10 13:55\n"
 "Last-Translator: learningequality <accounts@learningequality.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: kolibri-docs\n"
 "X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: /release-v0.7.x/manage.po\n"
+"X-Crowdin-File: /release-v0.8.x/manage.po\n"
 "Language: es_ES\n"
 
-#: ../../manage.rst:16
+#: ../../manage.rst:4
 msgid "Manage Kolibri"
 msgstr "Gestionar Kolibri"
 
@@ -86,7 +86,7 @@ msgstr "Superusuarios en Kolibri"
 
 #: ../../manage/_user_roles.rst:33
 msgid "Kolibri **Super users** have all device permissions and are able to :ref:`assign them to other users <permissions>`. Therefore **Super users** can:"
-msgstr "Los **Superusuarios** en Kolibri tienen todos los permisos del dispositivo y son capaces de :ref:`asignarlos <permissions> a otros usuarios`. Por lo tanto **Superusuarios** pueden:"
+msgstr "Los **Superusuarios** en Kolibri tienen todos los permisos del dispositivo y son capaces de :ref:`asignarlos a otros usuarios <permissions>`. Por lo tanto **Superusuarios** pueden:"
 
 #: ../../manage/_user_roles.rst:43
 msgid "Import/Export *Content* channels"
@@ -278,8 +278,8 @@ msgid "If the computer where Kolibri is running has an Internet connection with 
 msgstr "Si el equipo donde se ejecuta el Kolibri tiene una conexión a Internet con suficiente ancho de banda, seguir estos pasos para importar canales de contenidos."
 
 #: ../../manage/_content.rst:54
-msgid "Choose option *Kolibri Central Server*, and you will be able to see all the available **public** content channels."
-msgstr "Escoger la opción *Servidor central de Kolibri* para ver todos los disponibles canales de contenido **públicos**."
+msgid "Choose option *Kolibri Studio*, and you will be able to see all the available **public** content channels."
+msgstr "Escoger la opción *Kolibri Studio* para ver todos los disponibles canales de contenido **públicos**."
 
 #: ../../manage/_content.rst:59 ../../manage/_content.rst:139
 msgid "Click **Select** button for the desired channel, and wait for Kolibri to display the channel information and the topic tree."
@@ -302,8 +302,8 @@ msgid "Wait for the content to be downloaded and click **Close** for the new cha
 msgstr "Esperar que el contenido sea descargado y clicar **Cerrar** para que el nuevo canal aparezca bajo el encabezado **Contenido**."
 
 #: ../../manage/_content.rst:72
-msgid "If you need to import content from a **private/unlisted** channel, scroll to the bottom of the *Kolibri Central Server* page."
-msgstr "Si fuera necesario importar contenido de un canal **privado**, hay que desplazarse hasta la parte inferior de la página *Servidor central de Kolibri*."
+msgid "If you need to import content from a **private/unlisted** channel, scroll to the bottom of the *Kolibri Studio* page."
+msgstr "Si fuera necesario importar contenido de un canal **privado**, hay que desplazarse hasta la parte inferior de la página *Kolibri Studio*."
 
 #: ../../manage/_content.rst:73
 msgid "Click on **Try adding the token** link, and enter the **channel token/ID** received from the channel curator on Kolibri Studio."
@@ -311,7 +311,7 @@ msgstr "Usar el enlace **Añadir un token** e introducir el **token/ID del canal
 
 #: ../../manage/_content.rst:78
 msgid "Click **Confirm** to unlock channel, or **Cancel** to exit."
-msgstr "Clicar **Confirmar ** para desbloquear el canal, o **Cancelar** para salir."
+msgstr "Clicar **Confirmar** para desbloquear el canal, o **Cancelar** para salir."
 
 #: ../../manage/_content.rst:79
 msgid "Proceed to select and import channel topics and resources as for the public channels."
@@ -342,8 +342,8 @@ msgid "Select the drive where the desired channel is stored, and click **Continu
 msgstr "Seleccionar la unidad donde está almacenado el canal deseado y clicar **Continuar**."
 
 #: ../../manage/_content.rst:91
-msgid "Click **Select** button for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Central Server <central_server>`."
-msgstr "Clicar el botón **Seleccionar** para el canal deseado y seguir los mismos pasos para la selección de temas y recursos como para :ref:`importar desde el servidor central de Kolibri <central_server>`."
+msgid "Click **Select** button for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`."
+msgstr "Clicar el botón **Seleccionar** para el canal deseado y seguir los mismos pasos para la selección de temas y recursos como para :ref:`importar desde Kolibri Studio <central_server>`."
 
 #: ../../manage/_content.rst:97
 msgid "**Workaround for import from external drive on older devices.**"
@@ -465,7 +465,7 @@ msgstr "Este procedimiento hace una copia de la carpeta ``content`` situada dent
 msgid "Peer-to-Peer Content Synchronization"
 msgstr "Sincronización de contenido Peer-to-Peer"
 
-#: ../../manage/_content.rst:155 ../../manage/_data.rst:19
+#: ../../manage/_content.rst:155
 msgid "``Stay tuned!``"
 msgstr "``¡Próximamente!``"
 
@@ -589,7 +589,7 @@ msgstr "Gestionar clases"
 msgid "You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard. Default view displays the list of all classes in your facility, with the number of enrolled users for each class."
 msgstr "Para ver, crear y eliminar las clases, así como la buscar, filtrar e inscribir los usuarios Kolibri en ellas, hay que ir a la pestaña **Clases** en el panel **Centro educativo**. Vista predeterminada muestra la lista de todas las clases del centro, con el número de estudiantes en cada una."
 
-#: ../../manage/_classes.rst:13
+#: ../../manage/_classes.rst:13 ../../manage/_data.rst:7
 msgid "To manage Kolibri users you must sign-in as **Super user** or **Admin**."
 msgstr "Para gestionar usuarios de Kolibri hay que iniciar sesión como **Superusuario** o **Administrador**."
 
@@ -709,17 +709,9 @@ msgstr "Los usuarios eliminados de la clase no se borrarán de la base de datos,
 msgid "Manage Data"
 msgstr "Gestionar datos"
 
-#: ../../manage/_data.rst:7
-msgid "To manage Kolibri data you must sign-in as **Super user** or **Admin**."
-msgstr "Para gestionar datos de uso de Kolibri hay que iniciar sesión como **Superusuario** o **Administrador**."
-
 #: ../../manage/_data.rst:10
-msgid "You can download Kolibri *Session* and *Summary* logs usage data and export in the CSV (comma separated values) format from the **Data** tab in your **Facility** dashboard."
+msgid "You can download Kolibri *Detail* and *Summary* logs usage data and export in the CSV format from the **Data** tab in your **Facility** dashboard."
 msgstr "Puedes descargar *Registros de sesión* y *Registros resumidos* de datos de uso en el formato CSV desde la pestaña **Datos** en el panel **Centro educativo** de Kolibri."
-
-#: ../../manage/_data.rst:17
-msgid "Data Syncing"
-msgstr "Sincronización de datos"
 
 #: ../../manage/_command_line.rst:5
 msgid "Working with Kolibri from the Command Line"
@@ -751,7 +743,7 @@ msgstr "Iniciar Kolibri desde otro puerto"
 
 #: ../../manage/_command_line.rst:34
 msgid "If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command."
-msgstr "If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command."
+msgstr "Si necesitas cambiar el puerto por defecto ``8080`` desde el cual Kolibri está sirviendo el contenido, añadir el siguiente \"flag\" al comando anterior."
 
 #: ../../manage/_command_line.rst:42
 msgid "Import Content Channels from Internet"
@@ -855,19 +847,19 @@ msgstr "``ur-pk``"
 
 #: ../../manage/_command_line.rst:117
 msgid "Backup and Restore Kolibri Database"
-msgstr "Backup and Restore Kolibri Database"
+msgstr "Hacer copia y restaurar la base de datos de Kolibri"
 
 #: ../../manage/_command_line.rst:119
 msgid "Kolibri automatically creates a backup of the database with every version upgrade. If for some reason you need to make a manual backup, use the following command."
-msgstr "Kolibri automatically creates a backup of the database with every version upgrade. If for some reason you need to make a manual backup, use the following command."
+msgstr "Kolibri crea automáticamente una copia de respaldo de la base de datos cada actualización de la versión. Si por alguna razón deseas hacer una copia manual, usa el siguiente comando."
 
 #: ../../manage/_command_line.rst:125
 msgid "This command will create a time-stamped ``.dump`` file in the ``./kolibri/backups`` folder that you can use to restore the database with the following command."
-msgstr "This command will create a time-stamped ``.dump`` file in the ``./kolibri/backups`` folder that you can use to restore the database with the following command."
+msgstr "Este comando crea el archivo``.dump`` con la marca de tiempo en la carpeta ``./kolibri/backups`` que puedes usar para restaurar la base de datos con el siguiente comando."
 
 #: ../../manage/_command_line.rst:131
 msgid "If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file."
-msgstr "If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file."
+msgstr "Si necesitas restaurar una versión de copia de respaldo anterior a la última, debes especificar la ruta completa a ese archivo ``*.dump``."
 
 #: ../../manage/_command_line.rst:138
 msgid "This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database."
@@ -875,19 +867,19 @@ msgstr "This command is not intended for replication across different devices, b
 
 #: ../../manage/_command_line.rst:142
 msgid "Change the Location of ALL Kolibri Files"
-msgstr "Change the Location of ALL Kolibri Files"
+msgstr "Cambiar la ubicación de TODOS los archivos de Kolibri"
 
 #: ../../manage/_command_line.rst:144
 msgid "If you want to change the directory where all of Kolibri’s runtime files go, the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice."
-msgstr "If you want to change the directory where all of Kolibri’s runtime files go, the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice."
+msgstr "Si quieres cambiar la ubicación de la carpeta de todos los archivos de Kolibri, incluidos los canales de contenidos importados, tienes que cambiar la variable de entorno llamada ``KOLIBRI_HOME`` con la ruta de nueva ubicación."
 
 #: ../../manage/_command_line.rst:146
-msgid "If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s :ref:`Home <home>` folder, under the ``.kolibri`` subfolder."
-msgstr "If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s :ref:`Home <home>` folder, under the ``.kolibri`` subfolder."
+msgid "If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s ``Home`` folder, under the ``.kolibri`` subfolder."
+msgstr "If the variable is left unset, by default, Kolibri’s runtime files and content will be placed in your user’s ``Home`` folder, under the ``.kolibri`` subfolder."
 
 #: ../../manage/_command_line.rst:148
 msgid "There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps."
-msgstr "There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps."
+msgstr "Hay muchas maneras de establecer las variables de entorno, de manera permanente o temporal. Para iniciar Kolibri en **OSX o Linux** con una carpeta de inicio diferente, sigue estos pasos."
 
 #: ../../manage/_command_line.rst:150 ../../manage/_command_line.rst:162
 msgid "Stop the server."
@@ -895,43 +887,43 @@ msgstr "Detener el servidor."
 
 #: ../../manage/_command_line.rst:151 ../../manage/_command_line.rst:163
 msgid "Move the ``.kolibri`` folder to the new location."
-msgstr "Move the ``.kolibri`` folder to the new location."
+msgstr "Mover la carpeta ``.kolibri`` en la nueva ubicación."
 
 #: ../../manage/_command_line.rst:152
 msgid "Run the following in Terminal:"
-msgstr "Run the following in Terminal:"
+msgstr "Ejecute los comandos siguientes en el Terminal:"
 
 #: ../../manage/_command_line.rst:158
 msgid "When you start the server again, all your files should be seamlessly detected at that location."
-msgstr "When you start the server again, all your files should be seamlessly detected at that location."
+msgstr "Cuando vuelvas a iniciar el servidor los archivos en la nueva ubicación se detectarán por defecto."
 
 #: ../../manage/_command_line.rst:160
 msgid "To change the environment variable ``KOLIBRI_HOME`` on **Windows**, follow these steps."
-msgstr "To change the environment variable ``KOLIBRI_HOME`` on **Windows**, follow these steps."
+msgstr "Para cambiar la variable de entorno ``KOLIBRI_HOME`` en **Windows**, sigue estos pasos."
 
 #: ../../manage/_command_line.rst:164
 msgid "Run the following in Command Prompt:"
-msgstr "Run the following in Command Prompt:"
+msgstr "Ejecuta lo siguiente en el símbolo del sistema (``cmd. exe``):"
 
 #: ../../manage/_command_line.rst:170
 msgid "Restart the server, and your files should be seamlessly detected at the new location."
-msgstr "Restart the server, and your files should be seamlessly detected at the new location."
+msgstr "Cuando vuelvas a iniciar el servidor los archivos en la nueva ubicación se detectarán por defecto."
 
 #: ../../manage/_command_line.rst:173
 msgid "Alternatively, you can follow these steps in the GUI."
-msgstr "Alternatively, you can follow these steps in the GUI."
+msgstr "Alternativamente, puedes seguir estos pasos en la interfaz gráfica."
 
 #: ../../manage/_command_line.rst:175
 msgid "Go to **Computer > Advanced System Settings** and press the **Environment Variables** button."
-msgstr "Go to **Computer > Advanced System Settings** and press the **Environment Variables** button."
+msgstr "Ir a **Mi PC > Configuración avanzada de sistema** y pulsa el botón **Variables de entorno**."
 
 #: ../../manage/_command_line.rst:176
 msgid "Under **User Variables for...** press the **New...** button."
-msgstr "Under **User Variables for...** press the **New...** button."
+msgstr "Bajo **Variables de usuario para...** pulsa el botón **Nueva...**."
 
 #: ../../manage/_command_line.rst:177
 msgid "Input the new path and press **OK** on both open windows."
-msgstr "Input the new path and press **OK** on both open windows."
+msgstr "Introducir la nueva ruta y pulsa **OK** en ambas ventanas."
 
 #: ../../manage/_command_line.rst:182
 msgid "Restart Kolibri."
@@ -959,7 +951,7 @@ msgstr "Para empezar un nuevo tema hay que usar el botón **+ New Topic** a la d
 
 #: ../../manage/_get_support.rst:21
 msgid "Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs."
-msgstr "Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs."
+msgstr "Los usuarios más avanzados, incluidos los desarrolladores de software, deben seguir las instrucciones de nuestra`documentación para desarrolladores <http://kolibri-dev.readthedocs.io/>`_ para informar de fallos."
 
 #: ../../manage/_get_support.rst:27
 msgid "Troubleshoot Network Issues"
@@ -967,7 +959,7 @@ msgstr "Resolver problemas de red"
 
 #: ../../manage/_get_support.rst:29
 msgid "Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the address bar of the browser?"
-msgstr "Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the address bar of the browser?"
+msgstr "¿Puedes acceder a Kolibri escribiendo ``http://127.0.0.1:8080`` en la barra de direcciones del navegador?"
 
 #: ../../manage/_get_support.rst:30
 msgid "Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself?"
@@ -975,7 +967,7 @@ msgstr "¿Puedes acceder a la dirección :ref: `IP externa <access_LAN>` del dis
 
 #: ../../manage/_get_support.rst:31
 msgid "Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:"
-msgstr "Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:"
+msgstr "¿Puede hacer ping la dirección IP externa desde otro dispositivo en la red? Por ejemplo, si Kolibri está en un dispositivo/ordenador con dirección IP ``192.168.0.104``, escribir esto en el Terminal o símbolo del sistema:"
 
 #: ../../manage/_get_support.rst:39
 msgid "About IP addresses"
@@ -1003,15 +995,15 @@ msgstr "``http://192.168.1.1:8080`` significa: \"Conecta a la dirección IP ``19
 
 #: ../../manage/_get_support.rst:49
 msgid "Locate Kolibri log files"
-msgstr "Locate Kolibri log files"
+msgstr "Ubicar los logs de Kolibri"
 
 #: ../../manage/_get_support.rst:51
 msgid "When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing."
-msgstr "When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing."
+msgstr "Cuando reportas un problema con Kolibri, puede que te pidamos de enviarnos los archivos **log** de Kolibri para ayudarnos resolver el problema."
 
 #: ../../manage/_get_support.rst:53
 msgid "Open the ``.kolibri`` folder inside the :ref:`Home <home>` of the device where Kolibri is running and locate these two files:"
-msgstr "Open the ``.kolibri`` folder inside the :ref:`Home <home>` of the device where Kolibri is running and locate these two files:"
+msgstr "Abrir la carpeta ``.kolibri`` dentro la carpeta ``Home`` del dispositivo donde se ejecuta el Kolibri y localizar estos dos archivos:"
 
 #: ../../manage/_get_support.rst:55
 msgid "``kolibri.log``"
@@ -1023,9 +1015,60 @@ msgstr "``debug.log``"
 
 #: ../../manage/_get_support.rst:60
 msgid "Videos are not playing"
-msgstr "Videos are not playing"
+msgstr "Vídeos no se reproducen"
 
 #: ../../manage/_get_support.rst:62
 msgid "Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using."
 msgstr "Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using."
+
+#~ msgid ""
+#~ "Choose the source option (*Kolibri "
+#~ "Studio* or *Attached drive or memory "
+#~ "card*)."
+#~ msgstr ""
+
+#~ msgid "Insert the USB drive in your computer."
+#~ msgstr ""
+
+#~ msgid "**Workaround for import from local drive on older devices.**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Activate the options you want to "
+#~ "make available for the users of "
+#~ "your facility."
+#~ msgstr ""
+
+#~ msgid "To edit username or the full name account, follow these steps."
+#~ msgstr ""
+
+#~ msgid "Click on the **Edit** button (pencil icon) next to the user’s name."
+#~ msgstr ""
+
+#~ msgid "Edit **Full name** or **Username** in the **Edit account info** window."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Confirm** to update the edited"
+#~ " information, or **Cancel** to exit "
+#~ "without saving."
+#~ msgstr ""
+
+#~ msgid "Click **Reset password** in the **Edit account info** window."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Save** to confirm, or **Back**"
+#~ " to exit without changing the "
+#~ "password."
+#~ msgstr ""
+
+#~ msgid "Click **Delete user** in the **Edit account info** window."
+#~ msgstr ""
+
+#~ msgid "Click **Enroll users** button."
+#~ msgstr ""
+
+#~ msgid "Get support"
+#~ msgstr ""
 
