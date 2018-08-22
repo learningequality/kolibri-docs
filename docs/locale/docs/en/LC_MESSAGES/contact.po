@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kolibri 0.8.x\n"
+"Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 10:11-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -97,49 +97,4 @@ msgstr ""
 #: ../../contact.rst:44
 msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
 msgstr ""
-
-#~ msgid "Getting support"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you want to contact the "
-#~ "**Learning Equality** Support team to "
-#~ "report an issue, or share your "
-#~ "experience about using Kolibri, please "
-#~ "register at our `Community Forums "
-#~ "<https://community.learningequality.org/>`_."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Once you register on our forums, "
-#~ "please read the the first two "
-#~ "pinned topics (*Welcome to LE’s Support"
-#~ " Community* and *How do I post "
-#~ "to this forum?* )"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can add a new topic with "
-#~ "the **+ New Topic** button on the"
-#~ " right. Make sure to select the "
-#~ "**Kolibri** category in the **Create a"
-#~ " New Topic** window so it’s easier"
-#~ " to classify and respond to."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you are certain that you have"
-#~ " found a technical issue, please open"
-#~ " up an issue report in our "
-#~ "public software repository, following the "
-#~ "guidelines:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`github.com/learningequality/kolibri "
-#~ "<http://github.com/learningequality/kolibri/>`__"
-#~ msgstr ""
-
-#~ msgid "Please refer to our developer docs:"
-#~ msgstr ""
 
