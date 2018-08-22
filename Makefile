@@ -21,8 +21,8 @@ help:
 	@echo "--------------------"
 	@echo ""
 	@echo "gettext: updates source messages for docs"
-	@echo "crowdin-install: fetch crowdin-cli"
-	@echo "crowdin-upload: crowdin-branch=<id> uploads docs translation sources via CrowdIn"
+	@echo "crowdin-install fetch crowdin-cli"
+	@echo "crowdin-upload crowdin-branch=<id> uploads docs translation sources via CrowdIn"
 	@echo "crowdin-download crowdin-branch=<id>: downloads docs translated languages via CrowdIn"
 
 clean:
