@@ -21,8 +21,8 @@ help:
 	@echo "--------------------"
 	@echo ""
 	@echo "gettext: updates source messages for docs"
-	@echo "crowdin-install: fetch crowdin-cli"
-	@echo "crowdin-upload: crowdin-branch=<id> uploads docs translation sources via CrowdIn"
+	@echo "crowdin-install fetch crowdin-cli"
+	@echo "crowdin-upload crowdin-branch=<id> uploads docs translation sources via CrowdIn"
 	@echo "crowdin-download crowdin-branch=<id>: downloads docs translated languages via CrowdIn"
 
 clean:
@@ -35,11 +35,11 @@ docs: clean
 	$(MAKE) -C docs html
 
 gettext:
-	make -C docs/ gettext
+	$(MAKE) -C docs gettext
 	cd docs && sphinx-intl update -p _build/locale -l en
 
 docs-translated:
-	make -C docs/ -e SPHINXOPTS="-D language='${lang}'" html
+	$(MAKE) -C docs -e SPHINXOPTS="-D language='${lang}'" html
 
 crowdin-install:
 	@`[ -f crowdin-cli.jar ]` && echo "Found crowdin-cli.jar" || wget -O crowdin-cli.jar https://storage.googleapis.com/le-downloads/crowdin-cli/crowdin-cli.jar
