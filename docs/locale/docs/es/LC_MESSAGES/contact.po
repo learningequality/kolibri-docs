@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-30 00:39+0200\n"
+"PO-Revision-Date: 2018-08-10 13:55\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /release-v0.8.x/contact.po\n"
+"Language: es_ES\n"
+
+#: ../../contact.rst:4
+msgid "Get in touch"
+msgstr "Ponte en contacto con nosotros"
+
+#: ../../contact.rst:10
+msgid "Getting support"
+msgstr "Obtener soporte"
+
+#: ../../contact.rst:12
+msgid "If you want to contact the **Learning Equality** Support team to report an issue, or share your experience about using Kolibri, please register at our `Community Forums <https://community.learningequality.org/>`_."
+msgstr "Para ponerse en contacto con el equipo de soporte de **Learning Equality** para informar sobre un problema, o compartir su experiencia usando Kolibri, por favor regístrate en nuestros `foros de la comunidad de usuarios <https://community.learningequality.org/>`_ (en idioma inglés)."
+
+#: ../../contact.rst:16
+msgid "Once you register on our forums, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* )"
+msgstr "Una vez acabado el registro en nuestros foros, recomendamos leer los dos primeros temas (*Welcome to LE’s Support Community* y *How do I post to this forum?* )."
+
+#: ../../contact.rst:19
+msgid "You can add a new topic with the **+ New Topic** button on the right. Make sure to select the **Kolibri** category in the **Create a New Topic** window so it’s easier to classify and respond to."
+msgstr "Para empezar un nuevo tema hay que usar el botón **+ New Topic** a la derecha. Asegurarse de seleccionar la categoría **Kolibri** en la ventana **Create a New Topic** para que sea más fácil clasificar y responder a la pregunta."
+
+#: ../../contact.rst:27
+msgid "Feedback"
+msgstr "Comentarios"
+
+#: ../../contact.rst:30
+msgid "New ideas"
+msgstr "Nuevas ideas"
+
+#: ../../contact.rst:32
+msgid "Until we can present a proper feedback platform, we encourage you to post any new ideas to the `Community Forums <https://community.learningequality.org/>`_."
+msgstr "Hasta que podamos presentar una plataforma de información adecuada, te animamos a publicar cualquier nueva idea en los `foros de la comunidad <https://community.learningequality.org/>`_."
+
+#: ../../contact.rst:37
+msgid "Technical issues"
+msgstr "Problemas técnicos"
+
+#: ../../contact.rst:39
+msgid "If you are certain that you have found a technical issue, please open up an issue report in our public software repository, following the guidelines:"
+msgstr "Si tienes la certeza que encontraste un problema técnico, envía un informe (*issue*) en el repositorio del código siguiendo estas directrices (en idioma inglés):"
+
+#: ../../contact.rst:42
+msgid "`github.com/learningequality/kolibri <http://github.com/learningequality/kolibri/>`__"
+msgstr "`github.com/learningequality/kolibri <http://github.com/learningequality/kolibri/>`__"
+
+#: ../../contact.rst:46
+msgid "Contributions and development"
+msgstr "Contribuir al desarrollo"
+
+#: ../../contact.rst:48
+msgid "Please refer to our developer docs:"
+msgstr "Consulte nuestra documentación para los desarrolladores: "
+
+#: ../../contact.rst:50
+msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+msgstr "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+
