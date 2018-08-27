@@ -27,7 +27,7 @@ msgstr "¿Cuánto cuesta instalar Kolibri?"
 
 #: ../../faq.rst:8
 msgid "Kolibri is **free and open source** software! To learn more about free software, see this `Free Software Foundation article <https://www.fsf.org/about/what-is-free-software>`_."
-msgstr "Kolibri es **software libre y de código abierto**. Para obtener más información sobre el software libre, consulta este artículo de `Free Software Foundation '<https://www.fsf.org/about/what-is-free-software>`_."
+msgstr "Kolibri es **software libre y de código abierto**. Para obtener más información sobre el software libre, consulta este artículo de `Free Software Foundation <https://www.fsf.org/about/what-is-free-software>`_."
 
 #: ../../faq.rst:12
 msgid "Do I need the internet to run Kolibri?"
@@ -271,7 +271,7 @@ msgstr "¿Quién mantiene el proyecto Kolibri?"
 
 #: ../../faq.rst:125
 msgid "Kolibri is created, maintained, and operated by `Learning Equality <http://learningequality.org/about/>`_."
-msgstr "Kolibri es creado y mantenido por `Learning Equality <http://learningequality.org/about/> _."
+msgstr "Kolibri es creado y mantenido por `Learning Equality <http://learningequality.org/about/>`_."
 
 #: ../../faq.rst:129
 msgid "How do you operate in the field?"

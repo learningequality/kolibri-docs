@@ -523,7 +523,7 @@ msgstr "marca X gris indica una pregunta **sin respuesta**"
 
 #: ../../manage/_exams.rst:96
 msgid "Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: The first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect."
-msgstr "Clicar los iconos de intento para ver las respuestas de cada uno. En la la imagen anterior, la estudiante **Abby L.** tuvo 3 intentos en la *Pregunta 8. El primero fue incorrecto, el segundo (seleccionado) fue correcto, pero el tercero y el que finalmente se envió fue incorrecto."
+msgstr "Clicar los iconos de intento para ver las respuestas de cada uno. En la la imagen anterior, la estudiante **Abby L.** tuvo 3 intentos en la *Pregunta 8*. El primero fue incorrecto, el segundo (seleccionado) fue correcto, pero el tercero y el que finalmente se envió fue incorrecto."
 
 #: ../../manage/_exams.rst:100
 msgid "Copy Exam"

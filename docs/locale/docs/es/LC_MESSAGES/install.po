@@ -236,7 +236,7 @@ msgstr "Cuando utilizas el método de instalación de PPA, las actualizaciones a
 
 #: ../../install/_linux.rst:63
 msgid "To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`."
-msgstr "Para actualizar Kolibri en un dispositivo Debian sin acceso a Internet, obtén el archivo ``.deb``actualizado y sigue los mismos pasos que en :ref:`lin_deb`."
+msgstr "Para actualizar Kolibri en un dispositivo Debian sin acceso a Internet, obtén el archivo ``.deb`` actualizado y sigue los mismos pasos que en :ref:`lin_deb`."
 
 #: ../../install/_linux.rst:69
 msgid "Changing the owner of Kolibri system service"

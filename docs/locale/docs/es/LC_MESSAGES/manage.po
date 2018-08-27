@@ -96,7 +96,7 @@ msgstr "Superusuarios en Kolibri"
 
 #: ../../manage/_user_roles.rst:38
 msgid "Kolibri **Superusers** have all device permissions and are able to :ref:`assign them to other users <permissions>`. Therefore **Superusers** can:"
-msgstr "Los **Superusuarios** en Kolibri tienen todos los permisos del dispositivo y son capaces de :ref:`asignarlos <permissions> a otros usuarios`. Por lo tanto **Superusuarios** pueden:"
+msgstr "Los **Superusuarios** en Kolibri tienen todos los permisos del dispositivo y son capaces de :ref:`asignarlos <permissions>` a otros usuarios. Por lo tanto **Superusuarios** pueden:"
 
 #: ../../manage/_user_roles.rst:50
 msgid "Import/Export *Content* channels"
@@ -1221,7 +1221,7 @@ msgstr "Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the ad
 
 #: ../../manage/_get_support.rst:43
 msgid "Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself?"
-msgstr "¿Puedes acceder a la dirección :ref: `IP externa <access_LAN>` del dispositivo donde se está ejecutando Kolibri desde ese **MISMO** dispositivo?"
+msgstr "¿Puedes acceder a la dirección :ref:`IP externa <access_LAN>` del dispositivo donde se está ejecutando Kolibri desde ese **MISMO** dispositivo?"
 
 #: ../../manage/_get_support.rst:44
 msgid "Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:"
