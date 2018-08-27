@@ -6,16 +6,16 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kolibri 0.8.0.dev020171220114619-git\n"
+"Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 00:39+0200\n"
+"POT-Creation-Date: 2018-08-22 10:11-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../manage.rst:4
 msgid "Manage Kolibri"
@@ -40,79 +40,98 @@ msgid "**Learners** can:"
 msgstr ""
 
 #: ../../manage/_user_roles.rst:12 ../../manage/_user_roles.rst:15
-#: ../../manage/_user_roles.rst:21 ../../manage/_user_roles.rst:36
+#: ../../manage/_user_roles.rst:24 ../../manage/_user_roles.rst:41
 msgid "View content and have their progress tracked"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:17
+#: ../../manage/_user_roles.rst:20
 msgid "**Coaches** can:"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:16 ../../manage/_user_roles.rst:22
-#: ../../manage/_user_roles.rst:37
+#: ../../manage/_user_roles.rst:16 ../../manage/_user_roles.rst:25
+#: ../../manage/_user_roles.rst:42
 msgid ""
 "View *Coach* dashboard and track progress of other users and usage stats "
 "for individual exercises"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:17 ../../manage/_user_roles.rst:24
-#: ../../manage/_user_roles.rst:39
+#: ../../manage/_user_roles.rst:17 ../../manage/_user_roles.rst:28
+#: ../../manage/_user_roles.rst:45
 msgid "Create/Edit/Delete *Groups* in *Classes* and add users to them"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:18
+#: ../../manage/_user_roles.rst:18 ../../manage/_user_roles.rst:29
+#: ../../manage/_user_roles.rst:46
 msgid "Create/Edit/Delete *Exams* and assign them to users"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:26
-msgid "**Admins** can:"
+#: ../../manage/_user_roles.rst:19 ../../manage/_user_roles.rst:30
+#: ../../manage/_user_roles.rst:47
+msgid "Create/Edit/Delete *Lessons* and assign them to users"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:23 ../../manage/_user_roles.rst:38
-msgid "Create/Edit/Delete other **Admins**, **Coaches**, and **Learners**"
-msgstr ""
-
-#: ../../manage/_user_roles.rst:25 ../../manage/_user_roles.rst:40
-msgid "Create/Edit/Delete *Classes* and enroll users in them"
-msgstr ""
-
-#: ../../manage/_user_roles.rst:26 ../../manage/_user_roles.rst:41
-msgid "View/Edit *Facility configuration* settings"
-msgstr ""
-
-#: ../../manage/_user_roles.rst:27 ../../manage/_user_roles.rst:42
-msgid "Export *Detail* and *Summary* logs usage data"
+#: ../../manage/_user_roles.rst:21
+msgid ""
+"*Facility Coaches* have access to all classes, *Class Coaches* only to "
+"ones they are assigned to"
 msgstr ""
 
 #: ../../manage/_user_roles.rst:31
-msgid "Kolibri Super Users"
+msgid "**Admins** can:"
 msgstr ""
 
-#: ../../manage/_user_roles.rst:33
+#: ../../manage/_user_roles.rst:26 ../../manage/_user_roles.rst:43
+msgid "Create/Edit/Delete other **Admins**, **Coaches**, and **Learners**"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:27 ../../manage/_user_roles.rst:44
+msgid "Create/Edit/Delete *Classes* and enroll users in them"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:31 ../../manage/_user_roles.rst:48
+msgid "View/Edit *Facility configuration* settings"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:32 ../../manage/_user_roles.rst:49
+msgid "Export *Detail* and *Summary* logs usage data"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:36
+msgid "Kolibri Superusers"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:38
 msgid ""
-"Kolibri **Super users** have all device permissions and are able to "
-":ref:`assign them to other users <permissions>`. Therefore **Super "
-"users** can:"
-msgstr ""
-
-#: ../../manage/_user_roles.rst:43
-msgid "Import/Export *Content* channels"
-msgstr ""
-
-#: ../../manage/_user_roles.rst:44
-msgid "View/Edit *Permissions* of other users"
-msgstr ""
-
-#: ../../manage/_user_roles.rst:48
-msgid "Assign Additional Permissions"
+"Kolibri **Superusers** have all device permissions and are able to "
+":ref:`assign them to other users <permissions>`. Therefore **Superusers**"
+" can:"
 msgstr ""
 
 #: ../../manage/_user_roles.rst:50
+msgid "Import/Export *Content* channels"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:51
+msgid "View/Edit *Permissions* of other users"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:55
 msgid ""
-"By default, only **Super users** can view the **Device** dashboard, "
+"If you are unable to retrieve the username and password for a superuser "
+"account in your facility, you can :ref:`create a new superuser account "
+"using the command line <create_superuser>`."
+msgstr ""
+
+#: ../../manage/_user_roles.rst:58
+msgid "Assign Additional Permissions"
+msgstr ""
+
+#: ../../manage/_user_roles.rst:60
+msgid ""
+"By default, only **Superusers** can view the **Device** dashboard, "
 "import/export **Content** channels in Kolibri, and modify **Permissions**"
 " for other users. However, depending on the needs of the institution, "
-"**Super users** can also :ref:`grant these permissions <permissions>` to "
+"**Superusers** can also :ref:`grant these permissions <permissions>` to "
 "other users."
 msgstr ""
 
@@ -139,7 +158,7 @@ msgid ""
 "You can assign additional permissions to Kolibri users which will provide"
 " them access to more features compared to their :ref:`user roles "
 "<user_roles>`. To manage permissions for Kolibri users, use the "
-"**Permission** tab in the  **Device** dashboard (|lock| icon)."
+"**Permission** tab in the  **Device** dashboard (|permissions| icon)."
 msgstr ""
 
 #: ../../manage/_device.rst:23
@@ -163,7 +182,7 @@ msgid ""
 msgstr ""
 
 #: ../../manage/_device.rst:29 ../../manage/_device.rst:44
-#: ../../manage/_facility.rst:9
+#: ../../manage/_facility.rst:14
 msgid "Click **Save changes** to apply and finish."
 msgstr ""
 
@@ -175,11 +194,11 @@ msgid ""
 msgstr ""
 
 #: ../../manage/_device.rst:38
-msgid "Super User Permissions"
+msgid "Superuser Permissions"
 msgstr ""
 
 #: ../../manage/_device.rst:40
-msgid "To grant **Super user** permissions to another user, follow these steps."
+msgid "To grant **Superuser** permissions to another user, follow these steps."
 msgstr ""
 
 #: ../../manage/_device.rst:43
@@ -188,10 +207,9 @@ msgstr ""
 
 #: ../../manage/_device.rst:49
 msgid ""
-"The users who have been granted the **Super user** permissions will have "
-"a yellow key indicator in front of their name, and will be able to see "
-"the **Device** dashboard with both the **Content** and **Permissions** "
-"tabs."
+"The users who have been granted the **Superuser** permissions will have a"
+" yellow key indicator in front of their name, and will be able to see the"
+" **Device** dashboard with both the **Content** and **Permissions** tabs."
 msgstr ""
 
 #: ../../manage/_device.rst:59
@@ -203,8 +221,8 @@ msgid ""
 "To view the detailed info of the device where Kolibri is running on, use "
 "the **Info** tab in the  **Device** dashboard (|info| icon). This "
 "information will be useful in case you need to report an issue with "
-"Kolibri to FLE support team. Make note or copy the following device "
-"details:"
+"Kolibri on the :ref:`Learning Equality Community Forums <forums>`. Make "
+"note or copy the following device details:"
 msgstr ""
 
 #: ../../manage/_device.rst:63
@@ -256,13 +274,13 @@ msgstr ""
 #: ../../manage/_content.rst:9
 msgid ""
 "Kolibri **Content Channel** is a collection of educational resources "
-"(video, audio or document files) prepared and organized by the content "
-"curator for their use in Kolibri. You can import and export content "
-"channels in Kolibri from the **Content** tab of the **Device** dashboard "
-"(|content| icon)."
+"(video, audio, document files or interactive apps) prepared and organized"
+" by the content curator for their use in Kolibri. You can import and "
+"export content channels in Kolibri from the **Content** tab of the "
+"**Device** dashboard (|content| icon)."
 msgstr ""
 
-#: ../../manage/_content.rst:15
+#: ../../manage/_content.rst:16
 msgid ""
 "Each Kolibri content channel has its own **token/ID** in `Kolibri Studio "
 "<https://studio.learningequality.org/accounts/login/>`_. You can freely "
@@ -272,149 +290,187 @@ msgid ""
 "curator who assembled it**."
 msgstr ""
 
-#: ../../manage/_content.rst:17
+#: ../../manage/_content.rst:18
 msgid ""
 "The term **Channel ID** was valid for Kolibri versions up to 0.6, while "
-"from the Kolibri version 0.7 onward, we will start using exclusively the "
+"from the Kolibri version 0.7 onward, we started using exclusively the "
 "term **token** to uniquely designate each channel."
 msgstr ""
 
 #: ../../manage/_content.rst:20
+msgid ""
+"When you :ref:`use the Terminal or command prompt <import_command_line>` "
+"to import content channels in Kolibri from the command line, you still "
+"must use the **32 digit channel ID**, as the command will not work with "
+"the token. Make sure to receive the correct channel ID from the person "
+"who curated the channel you need to import, or refer to `Kolibri Studio "
+"user guide <http://kolibri-"
+"studio.readthedocs.io/en/latest/share_channels.html#make-content-"
+"channels-available-for-import-into-kolibri>`_ how to find it in Studio "
+"user interface, if you have channel editor access."
+msgstr ""
+
+#: ../../manage/_content.rst:25
 msgid "Import Content into Kolibri"
 msgstr ""
 
-#: ../../manage/_content.rst:22
+#: ../../manage/_content.rst:27
 msgid ""
 "**Important**: You **cannot** import your own files (videos, documents, "
 "etc.) as learning resources directly into Kolibri from your computer. "
 "Kolibri can **only** import content from:"
 msgstr ""
 
-#: ../../manage/_content.rst:24
+#: ../../manage/_content.rst:29
 msgid ""
 "already curated **content channels** on `Kolibri Studio "
 "<https://studio.learningequality.org/accounts/login/>`_, if the computer "
 "running Kolibri is connected to internet"
 msgstr ""
 
-#: ../../manage/_content.rst:26
+#: ../../manage/_content.rst:31
 msgid "OR"
 msgstr ""
 
-#: ../../manage/_content.rst:28
+#: ../../manage/_content.rst:33
 msgid ""
 "an external storage drive (USB or hard drive) where content channels have"
 " been previously exported to from another Kolibri installation, if the "
 "computer running Kolibri is not connected to internet"
 msgstr ""
 
-#: ../../manage/_content.rst:30
+#: ../../manage/_content.rst:35
 msgid ""
 "**To import your own files for use in Kolibri**, you need to register at "
 "`Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ "
 "site (it's free), and build your own content channel that you can "
 "subsequently import into Kolibri. Read more about how to do this in our "
-"`Kolibri Studio user guide <http://kolibri-"
+"Kolibri `Studio user guide <http://kolibri-"
 "studio.readthedocs.io/en/latest/index.html>`_."
 msgstr ""
 
-#: ../../manage/_content.rst:34
+#: ../../manage/_content.rst:39
 msgid ""
 "As a precaution, we recommend you avoid other interactions with Kolibri "
-"(navigate away or manage users, for example) while content import is in "
-"progress."
+"(view learner pages or manage users, for example) while content import is"
+" in progress."
 msgstr ""
 
-#: ../../manage/_content.rst:37
+#: ../../manage/_content.rst:42
 msgid "To import content into Kolibri, follow these steps."
 msgstr ""
 
-#: ../../manage/_content.rst:39
+#: ../../manage/_content.rst:44
 msgid "Click **Import** button in the **Content** page."
 msgstr ""
 
-#: ../../manage/_content.rst:40
+#: ../../manage/_content.rst:45
 msgid ""
 "Choose the source option: **Kolibri Studio** or **Attached drive or "
 "memory card**."
 msgstr ""
 
-#: ../../manage/_content.rst:48
+#: ../../manage/_content.rst:53
 msgid "Import Content from Kolibri Studio"
 msgstr ""
 
-#: ../../manage/_content.rst:50
+#: ../../manage/_content.rst:55
 msgid ""
 "If the computer where Kolibri is running has an Internet connection with "
 "the sufficient bandwidth, follow these steps to import content channels."
 msgstr ""
 
-#: ../../manage/_content.rst:54
+#: ../../manage/_content.rst:59
 msgid ""
 "Choose option *Kolibri Studio*, and you will be able to see all the "
 "available **public** content channels."
 msgstr ""
 
-#: ../../manage/_content.rst:59 ../../manage/_content.rst:139
+#: ../../manage/_content.rst:65
+msgid ""
+"Channels from which you have already imported some or all content onto "
+"your device will have the |on-device| icon."
+msgstr ""
+
+#: ../../manage/_content.rst:68 ../../manage/_content.rst:156
 msgid ""
 "Click **Select** button for the desired channel, and wait for Kolibri to "
 "display the channel information and the topic tree."
 msgstr ""
 
-#: ../../manage/_content.rst:60
+#: ../../manage/_content.rst:70
 msgid ""
-"In the **Select content** page you will see all the details of the "
-"selected channel: description, version, total size and number of learning"
-" resources, with the information weather you have some of the resources "
-"from that channel already imported on the local device."
+"This could take some time for big channels. Please be patient, as Kolibri"
+" needs to retrieve a lot of information to display."
 msgstr ""
 
-#: ../../manage/_content.rst:65
+#: ../../manage/_content.rst:73
 msgid ""
-"Under **Choose content to import** you can browse the channel topics and "
-"individual resources. Use the *Select all* checkbox to import the content"
-" channel in full, or select only certain topics or resources. As you keep"
-" selecting, you will see the total number and size on disk under "
+"In the **Select content from...** page you will see all the details for "
+"the selected channel: description, version, total size and number of "
+"learning resources, with the information weather you have some of the "
+"resources from that channel already imported on the local device."
+msgstr ""
+
+#: ../../manage/_content.rst:78
+msgid ""
+"Under **Choose content to import** click the topics links to browse "
+"through the channel contents. Use the *Select all* checkbox to import the"
+" content channel in full, or select only certain topics or resources. As "
+"you keep selecting, you will see the total number and size on disk under "
 "*Resources selected:*, and the remaining space on your device."
 msgstr ""
 
-#: ../../manage/_content.rst:66
+#: ../../manage/_content.rst:79
 msgid "Click **Import** button once you finish selecting all the desired content."
 msgstr ""
 
-#: ../../manage/_content.rst:67
+#: ../../manage/_content.rst:81
 msgid ""
 "Wait for the content to be downloaded and click **Close** for the new "
 "channel to appear under the **Content** heading."
 msgstr ""
 
-#: ../../manage/_content.rst:72
+#: ../../manage/_content.rst:86
 msgid ""
-"If you need to import content from a **private/unlisted** channel, scroll"
-" to the bottom of the *Kolibri Studio* page."
+"If you need to import content from a **private/unlisted** channel, click "
+"on **Try adding the token** link above the channel list."
 msgstr ""
 
-#: ../../manage/_content.rst:73
+#: ../../manage/_content.rst:87
 msgid ""
-"Click on **Try adding the token** link, and enter the **channel "
-"token/ID** received from the channel curator on Kolibri Studio."
+"Enter the **channel token/ID** received from the channel curator on "
+"Kolibri Studio."
 msgstr ""
 
-#: ../../manage/_content.rst:78
+#: ../../manage/_content.rst:92
 msgid "Click **Confirm** to unlock channel, or **Cancel** to exit."
 msgstr ""
 
-#: ../../manage/_content.rst:79
+#: ../../manage/_content.rst:93
 msgid ""
 "Proceed to select and import channel topics and resources as for the "
 "public channels."
 msgstr ""
 
-#: ../../manage/_content.rst:83
+#: ../../manage/_content.rst:95
+msgid ""
+"Unlisted or private channels in the list are indicated with the "
+"|unlisted-channel| icon."
+msgstr ""
+
+#: ../../manage/_content.rst:96
+msgid ""
+"To add more learning resources from a channel that you previously "
+"imported content from, click **Actions**, select **Import more**, and "
+"repeat the selection procedure from step 3."
+msgstr ""
+
+#: ../../manage/_content.rst:100
 msgid "Import Content from a Local Drive"
 msgstr ""
 
-#: ../../manage/_content.rst:85
+#: ../../manage/_content.rst:102
 msgid ""
 "If the computer where Kolibri server is running does not have access to "
 "Internet or has insufficient bandwidth, you have the option to receive "
@@ -422,152 +478,152 @@ msgid ""
 "Follow these steps to import content channels."
 msgstr ""
 
-#: ../../manage/_content.rst:87
+#: ../../manage/_content.rst:104
 msgid "Connect the external USB drive to your computer."
 msgstr ""
 
-#: ../../manage/_content.rst:88
+#: ../../manage/_content.rst:105
 msgid "Choose option for *Attached drive or memory card*, and click **Continue**."
 msgstr ""
 
-#: ../../manage/_content.rst:89
+#: ../../manage/_content.rst:106
 msgid ""
 "Kolibri will automatically detect and display the drive(s) with available"
 " Kolibri content files."
 msgstr ""
 
-#: ../../manage/_content.rst:90
+#: ../../manage/_content.rst:107
 msgid ""
 "Select the drive where the desired channel is stored, and click "
 "**Continue**."
 msgstr ""
 
-#: ../../manage/_content.rst:91
+#: ../../manage/_content.rst:108
 msgid ""
 "Click **Select** button for the desired channel, and follow the same "
 "steps for selecting topics and resources as for the :ref:`import from "
 "Kolibri Studio <central_server>`."
 msgstr ""
 
-#: ../../manage/_content.rst:97
+#: ../../manage/_content.rst:114
 msgid "**Workaround for import from external drive on older devices.**"
 msgstr ""
 
-#: ../../manage/_content.rst:99
+#: ../../manage/_content.rst:116
 msgid ""
 "If Kolibri is installed on an older or a low-resource device, you can try"
 " the following procedure for importing content channels for faster "
 "results."
 msgstr ""
 
-#: ../../manage/_content.rst:101
+#: ../../manage/_command_line.rst:175 ../../manage/_content.rst:118
 msgid "Stop Kolibri."
 msgstr ""
 
-#: ../../manage/_content.rst:102
+#: ../../manage/_content.rst:119
 msgid "Browse the local drive with the file explorer of your operating system."
 msgstr ""
 
-#: ../../manage/_content.rst:103
+#: ../../manage/_content.rst:120
 msgid ""
 "Copy the ``content`` folder located inside the ``KOLIBRI_DATA`` folder on"
 " the local drive."
 msgstr ""
 
-#: ../../manage/_content.rst:104
+#: ../../manage/_content.rst:121
 msgid ""
 "Paste the copied ``content`` folder inside the ``.kolibri`` folder on "
 "your hard disk. The location of the ``.kolibri`` folder will depend on "
 "your operating system (see the table below)."
 msgstr ""
 
-#: ../../manage/_content.rst:105
+#: ../../manage/_content.rst:122
 msgid "Confirm the merge of the two folders."
 msgstr ""
 
-#: ../../manage/_content.rst:106
+#: ../../manage/_content.rst:123
 msgid "Restart Kolibri, and the new channels should now be available."
 msgstr ""
 
-#: ../../manage/_content.rst:112
+#: ../../manage/_content.rst:129
 msgid "**Operating system**"
 msgstr ""
 
-#: ../../manage/_content.rst:112
+#: ../../manage/_content.rst:129
 msgid "**Location**"
 msgstr ""
 
-#: ../../manage/_content.rst:114
+#: ../../manage/_content.rst:131
 msgid "Windows"
 msgstr ""
 
-#: ../../manage/_content.rst:114
+#: ../../manage/_content.rst:131
 msgid "``C:/Users/<your_username>/.kolibri/``"
 msgstr ""
 
-#: ../../manage/_content.rst:116
+#: ../../manage/_content.rst:133
 msgid "OSX"
 msgstr ""
 
-#: ../../manage/_content.rst:116
+#: ../../manage/_content.rst:133
 msgid "``HD/Users/<your_username>/.kolibri/``"
 msgstr ""
 
-#: ../../manage/_content.rst:118
+#: ../../manage/_content.rst:135
 msgid "Linux"
 msgstr ""
 
-#: ../../manage/_content.rst:118
+#: ../../manage/_content.rst:135
 msgid "``/home/<your_username>/.kolibri/``"
 msgstr ""
 
-#: ../../manage/_content.rst:121
+#: ../../manage/_content.rst:138
 msgid ""
 "On Linux and OSX you will need to enable the **Show hidden folders** "
 "option in order to view the ``.kolibri`` folder."
 msgstr ""
 
-#: ../../manage/_content.rst:125
+#: ../../manage/_content.rst:142
 msgid "Export from Kolibri to Local Drive"
 msgstr ""
 
-#: ../../manage/_content.rst:127
+#: ../../manage/_content.rst:144
 msgid ""
 "If you want to make available the content you have imported on your "
 "Kolibri device, to another computer where Kolibri is installed, follow "
 "these steps to export your content channels."
 msgstr ""
 
-#: ../../manage/_content.rst:130
+#: ../../manage/_content.rst:147
 msgid ""
-"You must have an external drive (USB stick or hard disk) attached to your"
-" device."
+"You must have an external drive (SD card, USB stick or hard disk) "
+"attached to your device."
 msgstr ""
 
-#: ../../manage/_content.rst:132
+#: ../../manage/_content.rst:149
 msgid "Click **Export** button in **Content** page."
 msgstr ""
 
-#: ../../manage/_content.rst:133
+#: ../../manage/_content.rst:150
 msgid ""
 "Select the local drive (export destination) where you wish to export "
 "**Kolibri** content, and click **Continue**."
 msgstr ""
 
-#: ../../manage/_content.rst:134
+#: ../../manage/_content.rst:151
 msgid ""
 "In the *Export to <name-of-your-drive>* page you will be able to see all "
 "the available content channels on your device."
 msgstr ""
 
-#: ../../manage/_content.rst:140
+#: ../../manage/_content.rst:157
 msgid ""
-"In the **Select content** page you will see all the details of the "
-"selected channel: description, version, total size and number of learning"
-" resources."
+"In the **Select content from...** page you will see all the details of "
+"the selected channel: description, version, total size and number of "
+"learning resources."
 msgstr ""
 
-#: ../../manage/_content.rst:141
+#: ../../manage/_content.rst:158
 msgid ""
 "Under **Choose content to export** you can browse the channel topics and "
 "individual resources. Use the *Select all* checkbox to import the content"
@@ -576,34 +632,56 @@ msgid ""
 "*Resources selected:*, and the remaining space on the destination drive."
 msgstr ""
 
-#: ../../manage/_content.rst:142
+#: ../../manage/_content.rst:159
 msgid "Click **Export** button once you finish selecting all the desired content."
 msgstr ""
 
-#: ../../manage/_content.rst:143
+#: ../../manage/_content.rst:160
 msgid "Wait for Kolibri to export the selected content and click **Close**."
 msgstr ""
 
-#: ../../manage/_content.rst:144
+#: ../../manage/_content.rst:161
 msgid ""
 "Once the export is finished, safely disconnect the drive according to the"
 " recommended procedure for your operating system, and proceed to import "
 "channels on other devices."
 msgstr ""
 
-#: ../../manage/_content.rst:146
+#: ../../manage/_content.rst:163
 msgid ""
 "This procedure makes a copy of the ``content`` folder located inside the "
-"``.kolibri`` folder on your hard disk, and places it the ``KOLIBRI_DATA``"
-" folder on the selected local drive. This structure is recognized by the "
-"**Import from local drive** command."
+"``.kolibri`` folder on your hard disk, and places it in the "
+"``KOLIBRI_DATA`` folder on the selected local drive. This structure is "
+"recognized by the **Import from local drive** command."
 msgstr ""
 
-#: ../../manage/_content.rst:153
+#: ../../manage/_content.rst:169
+msgid "Delete Channel"
+msgstr ""
+
+#: ../../manage/_content.rst:171
+msgid "To delete a content channel from your device, follow these steps."
+msgstr ""
+
+#: ../../manage/_content.rst:173
+msgid "Click **Actions** for the channel you want to delete."
+msgstr ""
+
+#: ../../manage/_content.rst:174
+msgid "Select **Delete** option."
+msgstr ""
+
+#: ../../manage/_content.rst:175
+msgid ""
+"Click **Delete** to proceed, or **Cancel** to exit without deleting the "
+"channel."
+msgstr ""
+
+#: ../../manage/_content.rst:183
 msgid "Peer-to-Peer Content Synchronization"
 msgstr ""
 
-#: ../../manage/_content.rst:155
+#: ../../manage/_content.rst:185
 msgid "``Stay tuned!``"
 msgstr ""
 
@@ -614,21 +692,35 @@ msgstr ""
 #: ../../manage/_facility.rst:6
 msgid ""
 "You can edit facility configuration settings in Kolibri from the "
-"**Configuration** tab in your **Facility** dashboard."
+"**Settings** tab in your **Facility** dashboard (|settings| icon)."
 msgstr ""
 
 #: ../../manage/_facility.rst:8
 msgid ""
 "Activate the options you want to make available for the users of your "
-"facility. You have the possibility to allow users to edit their full "
-"names and usernames, to sign in without password (except Admin users), "
-"and to allow guests to sign up and use Kolibri."
+"facility. You have the possibility to allow users to:"
 msgstr ""
 
-#: ../../manage/_facility.rst:15
+#: ../../manage/_facility.rst:10
+msgid "edit their full names and usernames"
+msgstr ""
+
+#: ../../manage/_facility.rst:11
+msgid "sign in without password (except Admin users)"
+msgstr ""
+
+#: ../../manage/_facility.rst:12
+msgid "download content items (videos, documents, etc.) on their own devices"
+msgstr ""
+
+#: ../../manage/_facility.rst:13
+msgid "allow guests to sign up and use Kolibri"
+msgstr ""
+
+#: ../../manage/_facility.rst:20
 msgid ""
-"To manage facility settings in Kolibri you must sign in as **Super user**"
-" or **Admin**."
+"To manage facility settings in Kolibri you must sign in as **Superuser** "
+"or **Admin**."
 msgstr ""
 
 #: ../../manage/_users.rst:4
@@ -638,11 +730,11 @@ msgstr ""
 #: ../../manage/_users.rst:6
 msgid ""
 "You can search for, filter, add, and edit user accounts in Kolibri from "
-"the **Users** tab in your **Facility** dashboard."
+"the **Users** tab in your **Facility** dashboard (|users| icon)."
 msgstr ""
 
 #: ../../manage/_users.rst:12
-msgid "To manage Kolibri users you must sign in as **Super user** or **Admin**."
+msgid "To manage Kolibri users you must sign in as **Superuser** or **Admin**."
 msgstr ""
 
 #: ../../manage/_users.rst:16
@@ -669,76 +761,107 @@ msgstr ""
 msgid "Click **Create Account** to add the new user."
 msgstr ""
 
+#: ../../manage/_users.rst:29
+msgid "Coach Type"
+msgstr ""
+
 #: ../../manage/_users.rst:31
-msgid "Select Users by Type"
+msgid ""
+"When you create a new *Coach* user account, or change the role to *Coach*"
+" for an existing user, you can choose between:"
 msgstr ""
 
 #: ../../manage/_users.rst:33
-msgid "Click **All Users** selector to display user types."
+msgid ""
+"**Class coach**, that will have access to the coach dashboard and "
+"permissions to instruct ONLY the learners in the classes they are "
+"assigned to."
 msgstr ""
 
 #: ../../manage/_users.rst:34
+msgid ""
+"**Facility coach**, that will have access to the coach dashboard and "
+"permissions to instruct ALL the classes and the learners in the facility."
+msgstr ""
+
+#: ../../manage/_users.rst:41
+msgid "Select Users by Type"
+msgstr ""
+
+#: ../../manage/_users.rst:43
+msgid "Click **All Users** selector to display user types."
+msgstr ""
+
+#: ../../manage/_users.rst:44
 msgid ""
 "Toggle between options to filter the user roster according to type, or "
 "leave it as **All Users** to display all."
 msgstr ""
 
-#: ../../manage/_users.rst:41
+#: ../../manage/_users.rst:51
 msgid "Edit User’s Account"
 msgstr ""
 
-#: ../../manage/_users.rst:43
+#: ../../manage/_users.rst:53
 msgid "To edit username, full name or account type, follow these steps."
 msgstr ""
 
-#: ../../manage/_users.rst:45
+#: ../../manage/_users.rst:55
 msgid ""
 "Click on the **Manage** button for the desired user and select the "
 "**Edit** option."
 msgstr ""
 
-#: ../../manage/_users.rst:46
+#: ../../manage/_users.rst:56
 msgid "Edit **Full name** or **Username** in the **Edit user** window."
 msgstr ""
 
-#: ../../manage/_users.rst:47
+#: ../../manage/_users.rst:57
 msgid ""
 "Click **Save** to update the edited information, or **Cancel** to exit "
 "without saving."
 msgstr ""
 
-#: ../../manage/_users.rst:54
+#: ../../manage/_users.rst:64
 msgid "Reset User’s Password"
 msgstr ""
 
-#: ../../manage/_users.rst:56
+#: ../../manage/_users.rst:66
 msgid ""
 "Click on the **Manage** button for the desired user and select the "
-"**Reset user password** option."
+"**Reset password** option."
 msgstr ""
 
-#: ../../manage/_users.rst:57
+#: ../../manage/_users.rst:67
 msgid "Enter the new password in both fields."
 msgstr ""
 
-#: ../../manage/_users.rst:58
+#: ../../manage/_users.rst:68
 msgid ""
 "Click **Save** to confirm, or **Cancel** to exit without changing the "
 "password."
 msgstr ""
 
-#: ../../manage/_users.rst:65
+#: ../../manage/_users.rst:75
 msgid "Delete User’s Account"
 msgstr ""
 
-#: ../../manage/_users.rst:67
+#: ../../manage/_users.rst:77
 msgid ""
 "Click on the **Manage** button for the desired user and select the "
 "**Delete** option."
 msgstr ""
 
-#: ../../manage/_users.rst:68
-msgid "Click **Yes** to confirm, or **No** to exit without deleting the account."
+#: ../../manage/_users.rst:78
+msgid ""
+"Click **Delete** to confirm, or **Cancel** to exit without deleting the "
+"account."
+msgstr ""
+
+#: ../../manage/_users.rst:84
+msgid ""
+"When you delete a user, all their learning records will be erased from "
+"the database."
 msgstr ""
 
 #: ../../manage/_classes.rst:5
@@ -749,12 +872,13 @@ msgstr ""
 msgid ""
 "You can view, create and delete classes, as well as search, filter and "
 "enroll Kolibri users in them, using the **Classes** tab in your "
-"**Facility** dashboard. Default view displays the list of all classes in "
-"your facility, with the number of enrolled users for each class."
+"**Facility** dashboard (|classes| icon). Default view displays the list "
+"of all classes in your facility, with the number of enrolled users for "
+"each class."
 msgstr ""
 
-#: ../../manage/_classes.rst:13 ../../manage/_data.rst:7
-msgid "To manage Kolibri users you must sign-in as **Super user** or **Admin**."
+#: ../../manage/_classes.rst:13
+msgid "To manage Kolibri classes you must sign-in as **Superuser** or **Admin**."
 msgstr ""
 
 #: ../../manage/_classes.rst:17
@@ -766,7 +890,7 @@ msgid "To add a new class, follow these steps."
 msgstr ""
 
 #: ../../manage/_classes.rst:21
-msgid "Click **Add new class** button."
+msgid "Click **New class** button."
 msgstr ""
 
 #: ../../manage/_classes.rst:22
@@ -802,91 +926,134 @@ msgid ""
 msgstr ""
 
 #: ../../manage/_classes.rst:45
-msgid "Edit Class and Enroll Users"
+msgid "Edit Class, Learners and Coaches"
 msgstr ""
 
 #: ../../manage/_classes.rst:47
 msgid ""
-"To edit a class select it from the default view in the **Classes** tab. "
-"In the following **Class** view you can change class name, remove "
-"currently enrolled users from the class and enroll new ones."
-msgstr ""
-
-#: ../../manage/_classes.rst:50
-msgid "Change Class Name"
-msgstr ""
-
-#: ../../manage/_classes.rst:52
-msgid "To edit class name, follow these steps."
+"A newly created class does not have any learners or coaches. To edit a "
+"class select it from the default view in the **Classes** tab. In this "
+"view, you can change class name, add or remove currently enrolled "
+"learners and assign or remove coaches from the class."
 msgstr ""
 
 #: ../../manage/_classes.rst:54
-msgid "Click on the **Edit** button (pencil icon) next to the class’ name."
-msgstr ""
-
-#: ../../manage/_classes.rst:55
-msgid "Write the new name in the **Class name** field."
+msgid "Change Class Name"
 msgstr ""
 
 #: ../../manage/_classes.rst:56
+msgid "To edit class name, follow these steps."
+msgstr ""
+
+#: ../../manage/_classes.rst:58
+msgid "Click on the **Edit** button (|edit| icon) next to the class’ name."
+msgstr ""
+
+#: ../../manage/_classes.rst:59
+msgid "Write the new name in the **Class name** field."
+msgstr ""
+
+#: ../../manage/_classes.rst:60
 msgid ""
 "Click **Update** to confirm the edited information, or **Cancel** to exit"
 " without saving."
 msgstr ""
 
-#: ../../manage/_classes.rst:64
-msgid "Enroll users to class"
+#: ../../manage/_classes.rst:68
+msgid "Enroll Learners in Class"
 msgstr ""
 
-#: ../../manage/_classes.rst:66
-msgid "Click the **Enroll users** button on the class details page."
-msgstr ""
-
-#: ../../manage/_classes.rst:71
-msgid ""
-"List in this view contains all the users currently **NOT** enrolled for "
-"the selected class."
-msgstr ""
-
-#: ../../manage/_classes.rst:72
-msgid "You can search for a specific user by name."
-msgstr ""
-
-#: ../../manage/_classes.rst:74
-msgid ""
-"Use checkboxes to select all the user in the list, or specific users you "
-"want to enroll to class. You can also use the **New user account** button"
-" to create a new user AND enroll them at the same time."
+#: ../../manage/_classes.rst:70
+msgid "Click the **Enroll learners** button on the class details page."
 msgstr ""
 
 #: ../../manage/_classes.rst:75
-msgid "Click **Review & save** button."
+msgid ""
+"List in this view contains all the learners currently **NOT** enrolled "
+"for the selected class."
 msgstr ""
 
 #: ../../manage/_classes.rst:76
-msgid ""
-"Click **Yes, enroll users** to confirm, or **No, go back** to exit "
-"without enrolling the selected users."
+msgid "You can search for a specific learner by name."
 msgstr ""
 
-#: ../../manage/_classes.rst:83
-msgid "Remove users from class"
+#: ../../manage/_classes.rst:78
+msgid ""
+"Use checkboxes to select all the learners in the list, or the search "
+"field for specific learners you want to enroll to class."
+msgstr ""
+
+#: ../../manage/_classes.rst:79
+msgid "Click **Confirm** button to finish enrolling the selected learners."
+msgstr ""
+
+#: ../../manage/_classes.rst:82
+msgid "Remove Learners from Class"
+msgstr ""
+
+#: ../../manage/_classes.rst:84
+msgid "Click **Remove** button for the chosen learner."
 msgstr ""
 
 #: ../../manage/_classes.rst:85
+msgid ""
+"Click **Remove** to confirm, or **Cancel** to exit without removing the "
+"learner."
+msgstr ""
+
+#: ../../manage/_classes.rst:91
+msgid ""
+"Learners removed from the class will not be deleted from the database, "
+"and you can still access their accounts from the **Users** tab in the "
+"**Facility** dashboard."
+msgstr ""
+
+#: ../../manage/_classes.rst:96
+msgid "Assign Coaches to Class"
+msgstr ""
+
+#: ../../manage/_classes.rst:98
+msgid "Click the **Assign coaches** button on the class details page."
+msgstr ""
+
+#: ../../manage/_classes.rst:103
+msgid ""
+"List in this view contains all the users with *Coach*, *Facility coach* "
+"or *Admin* roles."
+msgstr ""
+
+#: ../../manage/_classes.rst:104
+msgid "You can search for a specific user by name."
+msgstr ""
+
+#: ../../manage/_classes.rst:106
+msgid ""
+"Use checkboxes to select all the users in the list, or the search field "
+"for specific users you want to assign as a coach to class."
+msgstr ""
+
+#: ../../manage/_classes.rst:107
+msgid "Click **Confirm** button to finish."
+msgstr ""
+
+#: ../../manage/_classes.rst:110
+msgid "Remove Coaches from a Class"
+msgstr ""
+
+#: ../../manage/_classes.rst:112
 msgid "Click **Remove** button for the chosen user."
 msgstr ""
 
-#: ../../manage/_classes.rst:86
+#: ../../manage/_classes.rst:113
 msgid ""
-"Click **Remove from class** to confirm, or **Cancel** to exit without "
-"removing the user."
+"Click **Remove** to confirm, or **Cancel** to exit without removing the "
+"coach."
 msgstr ""
 
-#: ../../manage/_classes.rst:92
+#: ../../manage/_classes.rst:119
 msgid ""
-"Users removed from the class will not be deleted from the database, and "
-"you can still access their accounts from the **Users** tab in the "
+"Coaches removed from the class will not be deleted from the database, and"
+" you can still access their accounts from the **Users** tab in the "
 "**Facility** dashboard."
 msgstr ""
 
@@ -894,11 +1061,15 @@ msgstr ""
 msgid "Manage Data"
 msgstr ""
 
-#: ../../manage/_data.rst:10
+#: ../../manage/_data.rst:6
 msgid ""
 "You can download Kolibri *Detail* and *Summary* logs usage data and "
 "export in the CSV format from the **Data** tab in your **Facility** "
-"dashboard."
+"dashboard (|data| icon)."
+msgstr ""
+
+#: ../../manage/_data.rst:12
+msgid "To manage Kolibri users you must sign-in as **Superuser** or **Admin**."
 msgstr ""
 
 #: ../../manage/_command_line.rst:5
@@ -908,14 +1079,29 @@ msgstr ""
 #: ../../manage/_command_line.rst:8
 msgid ""
 "In Windows you need to open ``cmd.exe`` Command prompt in the folder "
-"where Kolibri executable is located: ``c:/Python27/Scripts``."
+"where Kolibri executable is located: ``c:/Python34/Scripts``."
 msgstr ""
 
 #: ../../manage/_command_line.rst:10
-msgid "*Make sure not to include the angle brackets “< >” in the commands below.*"
+msgid ""
+"On macOS you may need to prefix the commands with ``python``, for example"
+" ``python kolibri start``."
 msgstr ""
 
-#: ../../manage/_command_line.rst:13
+#: ../../manage/_command_line.rst:12
+msgid ""
+"If you are running Kolibri with the ``PEX`` file, make sure to substitute"
+" the ``kolibri`` in below commands **with the exact name of the file you "
+"downloaded** preceded by ``./``. For example, to start Kolibri from the "
+"downloaded file ``kolibri-v0.10.pex``, type ``./kolibri-v0.10.pex "
+"start``."
+msgstr ""
+
+#: ../../manage/_command_line.rst:14
+msgid "Make sure not to include the angle brackets “< >” in the commands below.*"
+msgstr ""
+
+#: ../../manage/_command_line.rst:18
 msgid ""
 "If you see errors in the prompt/terminal output while running the "
 "commands below, ask for help at our `Community Forums "
@@ -923,42 +1109,54 @@ msgid ""
 "<https://github.com/learningequality/kolibri/issues/new>`_."
 msgstr ""
 
-#: ../../manage/_command_line.rst:17
+#: ../../manage/_command_line.rst:22
 msgid "Start/Stop Kolibri"
 msgstr ""
 
-#: ../../manage/_command_line.rst:19
+#: ../../manage/_command_line.rst:24
 msgid ""
 "In case you need to troubleshoot potential problems while running "
 "Kolibri, you may try to start it manually from the command line."
 msgstr ""
 
-#: ../../manage/_command_line.rst:32
+#: ../../manage/_command_line.rst:37
 msgid "Run Kolibri from a Different Port"
 msgstr ""
 
-#: ../../manage/_command_line.rst:34
+#: ../../manage/_command_line.rst:39
 msgid ""
 "If you need to change the default port ``8080`` from which Kolibri is "
 "serving content, add the following flag to the previous command."
 msgstr ""
 
-#: ../../manage/_command_line.rst:42
+#: ../../manage/_command_line.rst:49
 msgid "Import Content Channels from Internet"
 msgstr ""
 
-#: ../../manage/_command_line.rst:44
+#: ../../manage/_command_line.rst:51
 msgid ""
 "To import content channels from Internet, run these two commands in "
 "sequence. The first downloads the channel database, and the second "
 "downloads the resources (videos, documents, etc.)."
 msgstr ""
 
-#: ../../manage/_command_line.rst:66
+#: ../../manage/_command_line.rst:59
+msgid ""
+"When you import content channels from the command line, you still must "
+"use the **32 digit channel ID**, as the :ref:`command will not work with "
+"the token <id_token>`. Make sure to receive the correct channel ID from "
+"the person who curated the unlisted channel you need to import, or refer "
+"to `Kolibri Studio user guide <http://kolibri-"
+"studio.readthedocs.io/en/latest/share_channels.html#make-content-"
+"channels-available-for-import-into-kolibri>`_ how to find it in Studio "
+"user interface, if you have channel editor access."
+msgstr ""
+
+#: ../../manage/_command_line.rst:76
 msgid "Export Content Channels"
 msgstr ""
 
-#: ../../manage/_command_line.rst:68
+#: ../../manage/_command_line.rst:78
 msgid ""
 "To export Kolibri content channels on a local drive in order to share it "
 "with another device, run these two commands in sequence. The first "
@@ -966,207 +1164,325 @@ msgid ""
 "(videos, documents, etc.)."
 msgstr ""
 
-#: ../../manage/_command_line.rst:75
+#: ../../manage/_command_line.rst:85
 msgid ""
 "The path should be to a folder named ``KOLIBRI_DATA`` at the root of the "
 "local drive, so it will get picked up later for importing via the Web UI."
 msgstr ""
 
-#: ../../manage/_command_line.rst:79
-msgid "Create a New Super User"
+#: ../../manage/_command_line.rst:91
+msgid "Create a New Superuser"
 msgstr ""
 
-#: ../../manage/_command_line.rst:81
+#: ../../manage/_command_line.rst:93
 msgid ""
-"In case you need to create another Super user, either to address "
+"In case you need to create another **Superuser**, either to address "
 "additional need of managing facility, or if you lost the password for the"
-" old one, run the following command:"
+" old one, run the following command."
 msgstr ""
 
-#: ../../manage/_command_line.rst:87
+#: ../../manage/_command_line.rst:99
 msgid ""
 "You will be prompted to input the **Username** and **Password** and the "
-"new **Super user** user account will be created."
+"new **Superuser** user account will be created."
 msgstr ""
 
-#: ../../manage/_command_line.rst:91
+#: ../../manage/_command_line.rst:103
 msgid "Change Language"
 msgstr ""
 
-#: ../../manage/_command_line.rst:98
+#: ../../manage/_command_line.rst:110
 msgid "Language"
 msgstr ""
 
-#: ../../manage/_command_line.rst:98
+#: ../../manage/_command_line.rst:110
 msgid "<langcode>"
 msgstr ""
 
-#: ../../manage/_command_line.rst:100
+#: ../../manage/_command_line.rst:112
 msgid "English"
 msgstr ""
 
-#: ../../manage/_command_line.rst:100
+#: ../../manage/_command_line.rst:112
 msgid "``en``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:102
+#: ../../manage/_command_line.rst:114
 msgid "Spanish (Spain)"
 msgstr ""
 
-#: ../../manage/_command_line.rst:102
+#: ../../manage/_command_line.rst:114
 msgid "``es-es``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:104
+#: ../../manage/_command_line.rst:116
 msgid "French"
 msgstr ""
 
-#: ../../manage/_command_line.rst:104
+#: ../../manage/_command_line.rst:116
 msgid "``fr``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:106
+#: ../../manage/_command_line.rst:118
 msgid "Swahili (Tanzania)"
 msgstr ""
 
-#: ../../manage/_command_line.rst:106
+#: ../../manage/_command_line.rst:118
 msgid "``sw-tz``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:108
+#: ../../manage/_command_line.rst:120
 msgid "Arabic"
 msgstr ""
 
-#: ../../manage/_command_line.rst:108
+#: ../../manage/_command_line.rst:120
 msgid "``ar``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:110
+#: ../../manage/_command_line.rst:122
 msgid "Farsi"
 msgstr ""
 
-#: ../../manage/_command_line.rst:110
+#: ../../manage/_command_line.rst:122
 msgid "``fa``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:112
+#: ../../manage/_command_line.rst:124
+msgid "Hindi (India)"
+msgstr ""
+
+#: ../../manage/_command_line.rst:124
+msgid "``hi-in``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:126
 msgid "Urdu (Pakistan)"
 msgstr ""
 
-#: ../../manage/_command_line.rst:112
+#: ../../manage/_command_line.rst:126
 msgid "``ur-pk``"
 msgstr ""
 
-#: ../../manage/_command_line.rst:117
+#: ../../manage/_command_line.rst:128
+msgid "Marathi"
+msgstr ""
+
+#: ../../manage/_command_line.rst:128
+msgid "``mr``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:130
+msgid "Chinyanja"
+msgstr ""
+
+#: ../../manage/_command_line.rst:130
+msgid "``nyn``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:132
+msgid "Portuguese (Brasil)"
+msgstr ""
+
+#: ../../manage/_command_line.rst:132
+msgid "``pt-br``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:134
+msgid "Telugu"
+msgstr ""
+
+#: ../../manage/_command_line.rst:134
+msgid "``te``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:136
+msgid "Tamil"
+msgstr ""
+
+#: ../../manage/_command_line.rst:136
+msgid "``ta``"
+msgstr ""
+
+#: ../../manage/_command_line.rst:141
 msgid "Backup and Restore Kolibri Database"
 msgstr ""
 
-#: ../../manage/_command_line.rst:119
+#: ../../manage/_command_line.rst:143
 msgid ""
 "Kolibri automatically creates a backup of the database with every version"
 " upgrade. If for some reason you need to make a manual backup, use the "
 "following command."
 msgstr ""
 
-#: ../../manage/_command_line.rst:125
+#: ../../manage/_command_line.rst:149
 msgid ""
 "This command will create a time-stamped ``.dump`` file in the "
 "``./kolibri/backups`` folder that you can use to restore the database "
 "with the following command."
 msgstr ""
 
-#: ../../manage/_command_line.rst:131
+#: ../../manage/_command_line.rst:155
 msgid ""
 "If you need to restore a backup version prior to the latest one, you must"
 " specify the full path to a specific ``*.dump`` file."
 msgstr ""
 
-#: ../../manage/_command_line.rst:138
+#: ../../manage/_command_line.rst:162
 msgid ""
 "This command is not intended for replication across different devices, "
 "but **only** for restoring on a single device from a local backup of the "
 "database."
 msgstr ""
 
-#: ../../manage/_command_line.rst:142
+#: ../../manage/_command_line.rst:166
+msgid "Change the Location of Kolibri Content Files"
+msgstr ""
+
+#: ../../manage/_command_line.rst:168
+msgid ""
+"Kolibri content channels may occupy a considerable amount of hard disk "
+"space over time. If you have concerns about running out of storage on "
+"your device, you can move the Kolibri **content files** to another drive."
+msgstr ""
+
+#: ../../manage/_command_line.rst:171
+msgid ""
+"If you have both SSD disk and HDD disk available on your device, it is "
+"recommended to install Kolibri on the SSD drive to allow faster access to"
+" the database, and move just the content file to the HDD drive."
+msgstr ""
+
+#: ../../manage/_command_line.rst:173
+msgid ""
+"To move the Kolibri content folders to another location, follow these "
+"steps."
+msgstr ""
+
+#: ../../manage/_command_line.rst:182
+msgid ""
+"Create a new folder that will contain all the content files and resources"
+" on the destination drive."
+msgstr ""
+
+#: ../../manage/_command_line.rst:189
+msgid ""
+"For example, if you created a new folder ``KolibriContent`` on an "
+"external drive, run this command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:196
+msgid ""
+"If you are on Windows, and the new folder ``KolibriContent`` is on the "
+"drive ``F:``, run this command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:203 ../../manage/_command_line.rst:257
+msgid "Restart Kolibri."
+msgstr ""
+
+#: ../../manage/_command_line.rst:205
+msgid ""
+"This command will move the 2 subfolders ``databases`` and ``storage``, "
+"from their default location inside the ``.kolibri/content`` folder in "
+"your device's home directory, to a new location you specified in the "
+"command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:210
 msgid "Change the Location of ALL Kolibri Files"
 msgstr ""
 
-#: ../../manage/_command_line.rst:144
+#: ../../manage/_command_line.rst:212
 msgid ""
-"If you want to change the directory where all of Kolibri’s runtime files "
-"go, the imported content channels, you need to change the environment "
-"variable called ``KOLIBRI_HOME`` to the path of your choice."
+"If you want to change the directory where all of Kolibri's runtime files "
+"are located, together with the imported content channels, you need to "
+"change the environment variable called ``KOLIBRI_HOME`` to the path of "
+"your choice."
 msgstr ""
 
-#: ../../manage/_command_line.rst:146
+#: ../../manage/_command_line.rst:214
 msgid ""
-"If the variable is left unset, by default, Kolibri’s runtime files and "
-"content will be placed in your user’s ``Home`` folder, under the "
-"``.kolibri`` subfolder."
+"If the variable is left unset, by default, Kolibri's runtime files and "
+"content will be placed in your user’s home folder, under the ``.kolibri``"
+" subfolder."
 msgstr ""
 
-#: ../../manage/_command_line.rst:148
+#: ../../manage/_command_line.rst:217
+msgid ""
+"Adjusting this environment variable behaves differently than the "
+"``movedirectory`` command above:"
+msgstr ""
+
+#: ../../manage/_command_line.rst:219
+msgid ""
+"Adjusting the environment variable will not automatically migrate over "
+"data. You need to copy the ``.kolibri`` folder manually to the new "
+"location."
+msgstr ""
+
+#: ../../manage/_command_line.rst:220
+msgid ""
+"If you do copy the ``.kolibri`` folder, the content will not be affected "
+"**if it had been previously set** using the ``movedirectory`` command."
+msgstr ""
+
+#: ../../manage/_command_line.rst:223
 msgid ""
 "There are many ways to set an environment variable either temporarily or "
 "permanently. To start Kolibri on **OSX or Linux** with a different home, "
 "follow these steps."
 msgstr ""
 
-#: ../../manage/_command_line.rst:150 ../../manage/_command_line.rst:162
+#: ../../manage/_command_line.rst:225 ../../manage/_command_line.rst:237
 msgid "Stop the server."
 msgstr ""
 
-#: ../../manage/_command_line.rst:151 ../../manage/_command_line.rst:163
+#: ../../manage/_command_line.rst:226 ../../manage/_command_line.rst:238
 msgid "Move the ``.kolibri`` folder to the new location."
 msgstr ""
 
-#: ../../manage/_command_line.rst:152
+#: ../../manage/_command_line.rst:227
 msgid "Run the following in Terminal:"
 msgstr ""
 
-#: ../../manage/_command_line.rst:158
+#: ../../manage/_command_line.rst:233
 msgid ""
 "When you start the server again, all your files should be seamlessly "
 "detected at that location."
 msgstr ""
 
-#: ../../manage/_command_line.rst:160
+#: ../../manage/_command_line.rst:235
 msgid ""
 "To change the environment variable ``KOLIBRI_HOME`` on **Windows**, "
 "follow these steps."
 msgstr ""
 
-#: ../../manage/_command_line.rst:164
+#: ../../manage/_command_line.rst:239
 msgid "Run the following in Command Prompt:"
 msgstr ""
 
-#: ../../manage/_command_line.rst:170
+#: ../../manage/_command_line.rst:245
 msgid ""
 "Restart the server, and your files should be seamlessly detected at the "
 "new location."
 msgstr ""
 
-#: ../../manage/_command_line.rst:173
+#: ../../manage/_command_line.rst:248
 msgid "Alternatively, you can follow these steps in the GUI."
 msgstr ""
 
-#: ../../manage/_command_line.rst:175
+#: ../../manage/_command_line.rst:250
 msgid ""
 "Go to **Computer > Advanced System Settings** and press the **Environment"
 " Variables** button."
 msgstr ""
 
-#: ../../manage/_command_line.rst:176
+#: ../../manage/_command_line.rst:251
 msgid "Under **User Variables for...** press the **New...** button."
 msgstr ""
 
-#: ../../manage/_command_line.rst:177
+#: ../../manage/_command_line.rst:252
 msgid "Input the new path and press **OK** on both open windows."
-msgstr ""
-
-#: ../../manage/_command_line.rst:182
-msgid "Restart Kolibri."
 msgstr ""
 
 #: ../../manage/_get_support.rst:4
@@ -1187,8 +1503,8 @@ msgstr ""
 #: ../../manage/_get_support.rst:13
 msgid ""
 "Once you register on our forums, please read the the first two pinned "
-"topics (*Welcome to LE’s Support Community* and *How do I post to this "
-"forum?* )"
+"topics (*Welcome to Learning Equality Support Community* and *How do I "
+"post to this forum?* )"
 msgstr ""
 
 #: ../../manage/_get_support.rst:15
@@ -1205,34 +1521,65 @@ msgid ""
 "dev.readthedocs.io/>`_ for reporting bugs."
 msgstr ""
 
+#: ../../manage/_get_support.rst:25
+msgid "Locate Kolibri log files"
+msgstr ""
+
 #: ../../manage/_get_support.rst:27
-msgid "Troubleshoot Network Issues"
+msgid ""
+"When you report a problem with Kolibri, we may ask you to send us Kolibri"
+" **log** files to help us find out why is it not working or crashing."
 msgstr ""
 
 #: ../../manage/_get_support.rst:29
+msgid ""
+"Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the "
+"device where Kolibri is running and locate these two files:"
+msgstr ""
+
+#: ../../manage/_get_support.rst:31
+msgid "``kolibri.log``"
+msgstr ""
+
+#: ../../manage/_get_support.rst:32
+msgid "``debug.log``"
+msgstr ""
+
+#: ../../manage/_get_support.rst:34
+msgid ""
+"On Linux and MacOS systems you will need to activate the *Show Hidden "
+"Files* option in your file browser, in order to view the ``.kolibri`` "
+"folder."
+msgstr ""
+
+#: ../../manage/_get_support.rst:40
+msgid "Troubleshoot Network Issues"
+msgstr ""
+
+#: ../../manage/_get_support.rst:42
 msgid ""
 "Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the "
 "address bar of the browser?"
 msgstr ""
 
-#: ../../manage/_get_support.rst:30
+#: ../../manage/_get_support.rst:43
 msgid ""
 "Can you access anything from the :ref:`external IP <access_LAN>` of the "
 "device running Kolibri **FROM** the device itself?"
 msgstr ""
 
-#: ../../manage/_get_support.rst:31
+#: ../../manage/_get_support.rst:44
 msgid ""
 "Can you ping the external IP address from another device on the network? "
 "For example, if Kolibri is on a device/computer with IP address "
 "``192.168.0.104``, type this in the Terminal or Command prompt:"
 msgstr ""
 
-#: ../../manage/_get_support.rst:39
+#: ../../manage/_get_support.rst:54
 msgid "About IP addresses"
 msgstr ""
 
-#: ../../manage/_get_support.rst:41
+#: ../../manage/_get_support.rst:56
 msgid ""
 "``0.0.0.0`` = A special IP address on the **server** (your device running"
 " Kolibri and \"serving\" its content to others in the local network), "
@@ -1243,7 +1590,7 @@ msgid ""
 "render Kolibri accessible."
 msgstr ""
 
-#: ../../manage/_get_support.rst:42
+#: ../../manage/_get_support.rst:57
 msgid ""
 "``127.0.0.1`` = A device's local IP address, meaning \"myself\". Some "
 "people joke and say \"There's no place like 127.0.0.1\", meaning "
@@ -1252,7 +1599,7 @@ msgid ""
 "of checking that Kolibri is in fact running and responsive."
 msgstr ""
 
-#: ../../manage/_get_support.rst:43
+#: ../../manage/_get_support.rst:58
 msgid ""
 "``192.x.y.z`` = Addresses starting with ``192`` are local network IP "
 "addresses. The same thing can be said about ``10.x.y.z``. The address "
@@ -1260,7 +1607,7 @@ msgid ""
 "the server will in most cases start with ``192`` or ``10``."
 msgstr ""
 
-#: ../../manage/_get_support.rst:44
+#: ../../manage/_get_support.rst:59
 msgid ""
 "Port number: Kolibri runs on port ``8080``. When you access something on "
 "an IP address, you need a port. Ports can be open or closed on the "
@@ -1269,7 +1616,7 @@ msgid ""
 "\"URL\", which is just some text that describes Kolibri."
 msgstr ""
 
-#: ../../manage/_get_support.rst:45
+#: ../../manage/_get_support.rst:60
 msgid ""
 "``http://192.168.1.1:8080`` means: \"Connect to IP address "
 "``192.168.1.1`` on port ``8080`` with the HTTP protocol\". The browser "
@@ -1277,35 +1624,29 @@ msgid ""
 " if Kolibri isn't running, or if a step along the way blocks access."
 msgstr ""
 
-#: ../../manage/_get_support.rst:49
-msgid "Locate Kolibri log files"
+#: ../../manage/_get_support.rst:64
+msgid "Troubleshoot Database Issues"
 msgstr ""
 
-#: ../../manage/_get_support.rst:51
+#: ../../manage/_get_support.rst:66
 msgid ""
-"When you report a problem with Kolibri, we may ask you to send us Kolibri"
-" **log** files to help us find out why is it not working or crashing."
+"In case you receive the ``database disk image is malformed`` error in "
+"Terminal, try running these commands (note that **you must have the** "
+"``sqlite3`` **command available on your system**)."
 msgstr ""
 
-#: ../../manage/_get_support.rst:53
+#: ../../manage/_get_support.rst:73
 msgid ""
-"Open the ``.kolibri`` folder inside the :ref:`Home <home>` of the device "
-"where Kolibri is running and locate these two files:"
+"For further assistance, please report the issue on our `Community Forums "
+"<https://community.learningequality.org/>`_, stating the operating system"
+" and Kolibri version."
 msgstr ""
 
-#: ../../manage/_get_support.rst:55
-msgid "``kolibri.log``"
-msgstr ""
-
-#: ../../manage/_get_support.rst:56
-msgid "``debug.log``"
-msgstr ""
-
-#: ../../manage/_get_support.rst:60
+#: ../../manage/_get_support.rst:77
 msgid "Videos are not playing"
 msgstr ""
 
-#: ../../manage/_get_support.rst:62
+#: ../../manage/_get_support.rst:79
 msgid ""
 "Make sure to check the :ref:`system requirements <sys_reqs>` to see if "
 "you can support video playback. Please report any issues on our "
@@ -1313,54 +1654,61 @@ msgid ""
 "the operating system and browser you are using."
 msgstr ""
 
-#~ msgid ""
-#~ "Choose the source option (*Kolibri "
-#~ "Studio* or *Attached drive or memory "
-#~ "card*)."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:83
+msgid "Problems with import and export from USB drives"
+msgstr ""
 
-#~ msgid "Insert the USB drive in your computer."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:85
+msgid ""
+"Kolibri needs read and write access to USB drives in order to import and "
+"export content. There are several possibilities why you may encounter "
+"issues during this procedure."
+msgstr ""
 
-#~ msgid "**Workaround for import from local drive on older devices.**"
-#~ msgstr ""
+#: ../../manage/_get_support.rst:87
+msgid "**User account does not have access**:"
+msgstr ""
 
-#~ msgid ""
-#~ "Activate the options you want to "
-#~ "make available for the users of "
-#~ "your facility."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:89
+msgid ""
+"you installed Kolibri in your own environment running as a non-desktop "
+"user (for instance UWSGI)"
+msgstr ""
 
-#~ msgid "To edit username or the full name account, follow these steps."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:90
+msgid ""
+"you have upgraded Kolibri on Debian from a version prior to v0.10. Follow"
+" these instructions to :ref:`change the ownership of Kolibri system "
+"service <changing-system-user>` from one user account to another"
+msgstr ""
 
-#~ msgid "Click on the **Edit** button (pencil icon) next to the user’s name."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:91
+msgid ""
+"to grant access to USB drives to other accounts, refer to the "
+"documentation of your operating system"
+msgstr ""
 
-#~ msgid "Edit **Full name** or **Username** in the **Edit account info** window."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:93
+msgid ""
+"**Write access denied**: Some USB drives will experience problems when "
+"they are unplugged from the computer in an \"unclean\" way. If you are "
+"denied access to write, look for options to \"fix\" or \"repair\" the "
+"file system."
+msgstr ""
 
-#~ msgid ""
-#~ "Click **Confirm** to update the edited"
-#~ " information, or **Cancel** to exit "
-#~ "without saving."
-#~ msgstr ""
+#: ../../manage/_get_support.rst:95
+msgid ""
+"**Data failures**: Copying the data can take a long time. If you do not "
+"see the final success confirmation message after the copy apparently "
+"finishes, do not assume that the data has been imported or exported "
+"correctly. Restart the process instead, otherwise you risk inconsistent "
+"and malfunctioning content data."
+msgstr ""
 
-#~ msgid "Click **Reset password** in the **Edit account info** window."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Click **Save** to confirm, or **Back**"
-#~ " to exit without changing the "
-#~ "password."
-#~ msgstr ""
-
-#~ msgid "Click **Delete user** in the **Edit account info** window."
-#~ msgstr ""
-
-#~ msgid "Click **Enroll users** button."
-#~ msgstr ""
-
-#~ msgid "Get support"
-#~ msgstr ""
+#: ../../manage/_get_support.rst:97
+msgid ""
+"**Hardware life expectancy**: SD and flash storage drives can \"expire\"."
+" Reading and writing large quantities of content data, especially on "
+"older or models with smaller capacity, may produce data errors over time."
+msgstr ""
 

@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"PO-Revision-Date: 2018-08-22 17:32\n"
+"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /release-v0.10.x/contact.po\n"
+"Language: es_ES\n"
+
+#: ../../contact.rst:4
+msgid "Get in touch"
+msgstr "Ponte en contacto con nosotros"
+
+#: ../../contact.rst:10
+msgid "Getting support from Learning Equality and our community"
+msgstr ""
+
+#: ../../contact.rst:12
+msgid "Due to the open-source nature of our work, we encourage that all inquiries, inputs, contributions and feedback are openly shared in our `Community Forums <https://community.learningequality.org/>`_, so that any user with similar questions to yours can benefit from the answer, and have a centralized place to search for it. *Please consider supporting others whenever you can. Your goals are likely overlapping with other users of Kolibri, so you may consider yourself as part of a community of like-minded practitioners!*"
+msgstr ""
+
+#: ../../contact.rst:14
+msgid "The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* )"
+msgstr ""
+
+#: ../../contact.rst:16
+msgid "You can add a new topic with the **+ New Topic** button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes."
+msgstr ""
+
+#: ../../contact.rst:22
+msgid "Feedback"
+msgstr "Comentarios"
+
+#: ../../contact.rst:25
+msgid "New ideas"
+msgstr "Nuevas ideas"
+
+#: ../../contact.rst:27
+msgid "Until we can present a proper feedback platform, we encourage you to post any new ideas to the `Community Forums <https://community.learningequality.org/>`_."
+msgstr "Hasta que podamos presentar una plataforma de información adecuada, te animamos a publicar cualquier nueva idea en los `foros de la comunidad <https://community.learningequality.org/>`_."
+
+#: ../../contact.rst:32
+msgid "Technical issues"
+msgstr "Problemas técnicos"
+
+#: ../../contact.rst:34
+msgid "In order to report  a technical issue, you can either use the *Support* category in our forum, or open up an issue report in our public software repository, following the guidelines:"
+msgstr ""
+
+#: ../../contact.rst:36
+msgid "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
+msgstr ""
+
+#: ../../contact.rst:40
+msgid "Contributions and development"
+msgstr "Contribuir al desarrollo"
+
+#: ../../contact.rst:42
+msgid "Kolibri is an open-source project, and as such, contributions from the tech community are welcomed, encouraged and appreciated. If you'd like to contribute to Kolibri, please refer to our developer docs:"
+msgstr ""
+
+#: ../../contact.rst:44
+msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+msgstr "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+
