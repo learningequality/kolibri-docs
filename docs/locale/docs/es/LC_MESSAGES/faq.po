@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 10:11-0700\n"
-"PO-Revision-Date: 2018-08-22 17:32\n"
+"PO-Revision-Date: 2018-08-27 16:56\n"
 "Last-Translator: learningequality <accounts@learningequality.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "¿Cuánto cuesta instalar Kolibri?"
 
 #: ../../faq.rst:8
 msgid "Kolibri is **free and open source** software! To learn more about free software, see this `Free Software Foundation article <https://www.fsf.org/about/what-is-free-software>`_."
-msgstr ""
+msgstr "Kolibri es **software libre y de código abierto**. Para obtener más información sobre el software libre, consulta este artículo de `Free Software Foundation '<https://www.fsf.org/about/what-is-free-software>`_."
 
 #: ../../faq.rst:12
 msgid "Do I need the internet to run Kolibri?"
@@ -83,15 +83,15 @@ msgstr "Árabe"
 
 #: ../../faq.rst:33
 msgid "Bengali"
-msgstr ""
+msgstr "Bengali"
 
 #: ../../faq.rst:35
 msgid "Burmese"
-msgstr ""
+msgstr "Birmano"
 
 #: ../../faq.rst:37
 msgid "Chinyanja"
-msgstr ""
+msgstr "Chinyanja"
 
 #: ../../faq.rst:39
 msgid "Farsi"
@@ -107,15 +107,15 @@ msgstr "Hindi"
 
 #: ../../faq.rst:45
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: ../../faq.rst:47
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi"
 
 #: ../../faq.rst:49
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugués (Brasil)"
 
 #: ../../faq.rst:51
 msgid "Spanish (Mexico)"
@@ -131,11 +131,11 @@ msgstr "Swahili (Tanzania)"
 
 #: ../../faq.rst:57
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: ../../faq.rst:59
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #: ../../faq.rst:61
 msgid "Urdu (Pakistan)"
@@ -143,11 +143,11 @@ msgstr "Urdu (Pakistan)"
 
 #: ../../faq.rst:63
 msgid "Yoruba"
-msgstr ""
+msgstr "Yoruba"
 
 #: ../../faq.rst:65
 msgid "Zulu"
-msgstr ""
+msgstr "Zulú"
 
 #: ../../faq.rst:68
 msgid "To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <http://learningequality.org/translate/>`_."
@@ -159,59 +159,59 @@ msgstr "¿Cuáles son los escenarios de implementación típica?"
 
 #: ../../faq.rst:73
 msgid "There is no typical implementation setting. However, we can share with you what we’ve learned from our community of KA Lite and Kolibri users. Some example implementation settings are provided below based on the presence of a coach and whether the settings allows for formal, non-formal, and informal learning."
-msgstr ""
+msgstr "No hay una implementación típica. Sin embargo, podemos compartir lo que hemos aprendido de nuestra comunidad de usuarios de KA Lite y Kolibri. Algunos ejemplos de configuración de implementación se proporcionan a continuación en función de la presencia de tutores y si la configuración adopta el aprendizaje formal, no formal o informal."
 
 #: ../../faq.rst:76
 msgid "Coach"
-msgstr ""
+msgstr "Tutor"
 
 #: ../../faq.rst:76
 msgid "No Coach"
-msgstr ""
+msgstr "Sin tutor"
 
 #: ../../faq.rst:78
 msgid "Formal and Non-Formal"
-msgstr ""
+msgstr "Formal y no formal"
 
 #: ../../faq.rst:78
 msgid "School classroom"
-msgstr ""
+msgstr "Aula escolar"
 
 #: ../../faq.rst:79
 msgid "Home schooling"
-msgstr ""
+msgstr "Educación en el hogar"
 
 #: ../../faq.rst:80
 msgid "Supplementary education setting"
-msgstr ""
+msgstr "Entorno de educación complementaria"
 
 #: ../../faq.rst:78
 msgid "After school program"
-msgstr ""
+msgstr "Programa después de escuela"
 
 #: ../../faq.rst:79
 msgid "Supplementary education setting (computer labs model)"
-msgstr ""
+msgstr "Entorno de educación complementaria (modelo de laboratorios de informática)"
 
 #: ../../faq.rst:80
 msgid "Use in classroom that has teacher, but without coach engagement or monitoring"
-msgstr ""
+msgstr "Uso en clase que tiene profesorado, pero sin supervisión"
 
 #: ../../faq.rst:83
 msgid "Informal"
-msgstr ""
+msgstr "Informal"
 
 #: ../../faq.rst:83
 msgid "Tutoring session"
-msgstr ""
+msgstr "Sesión de tutoría"
 
 #: ../../faq.rst:83
 msgid "Mobile school vans"
-msgstr ""
+msgstr "Furgonetas de la escuela móvil"
 
 #: ../../faq.rst:84
 msgid "Use for homework only"
-msgstr ""
+msgstr "Uso solo para las tareas en casa"
 
 #: ../../faq.rst:89
 msgid "What are some possible hardware configurations for deploying Kolibri?"
@@ -271,7 +271,7 @@ msgstr "¿Quién mantiene el proyecto Kolibri?"
 
 #: ../../faq.rst:125
 msgid "Kolibri is created, maintained, and operated by `Learning Equality <http://learningequality.org/about/>`_."
-msgstr ""
+msgstr "Kolibri es creado y mantenido por `Learning Equality <http://learningequality.org/about/> _."
 
 #: ../../faq.rst:129
 msgid "How do you operate in the field?"
@@ -287,7 +287,7 @@ msgstr "¿Cuál es la afiliación de Kolibri con Khan Academy?"
 
 #: ../../faq.rst:137
 msgid "Kolibri is an independent, open-source project maintained by `Learning Equality <http://learningequality.org/about/>`_, and is not officially affiliated with Khan Academy, although they are very supportive of the Kolibri project."
-msgstr ""
+msgstr "Kolibri es un proyecto independiente, de código abierto, mantenido por`Learning Equality <http://learningequality.org/about/>`_, que no está oficialmente afiliada a Khan Academy, organización que a su vez apoya el proyecto Kolibri."
 
 #: ../../faq.rst:141
 msgid "Can I contribute to Kolibri as a developer?"
@@ -307,7 +307,7 @@ msgstr "¡Absolutamente! Para contribuir a Kolibri y Kolibri Studio como traduct
 
 #: ../../faq.rst:153
 msgid "How do I find out more about Learning Equality and Kolibri?"
-msgstr ""
+msgstr "¿Cómo puedo obtener más información sobre Learning Equality y Kolibri?"
 
 #: ../../faq.rst:155
 msgid "To stay up-to-date on all our activities, follow our `blog <https://blog.learningequality.org/>`_, `Twitter <https://twitter.com/LearnEQ/>`_, and `Facebook <https://www.facebook.com/learningequality>`_!"
