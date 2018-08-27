@@ -91,7 +91,7 @@ msgstr "Página de inicio con todas tus clases."
 
 #: ../../learn.rst:59
 msgid "Select one of your classes to access :ref:`Lessons` and :ref:`Exams` your teachers or coaches prepared for your class."
-msgstr "Selecciona una de las clases para acceder a :ref:`Lecciones` y :ref:`Exámenes` que tus profesores o tutores hayan preparado."
+msgstr "Selecciona una de las clases para acceder a :ref:`Lessons` y :ref:`Exams` que tus profesores o tutores hayan preparado."
 
 #: ../../learn.rst:64
 msgid "You can see all your lessons and exams in the Class tab."

@@ -23,7 +23,7 @@ msgstr "Instalar Kolibri"
 
 #: ../../install.rst:6
 msgid "See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>`_. Documentation for `other versions are available here <https://readthedocs.org/projects/kolibri/>`_."
-msgstr "Ver el historial de cambios de`Kolibri <https://learningequality.org/r/kolibri-changes>`_. Documentación de `otras versiones está disponibles aquí <https://readthedocs.org/projects/kolibri/>`_."
+msgstr "Ver el historial de cambios de `Kolibri <https://learningequality.org/r/kolibri-changes>`_. Documentación de `otras versiones está disponibles aquí <https://readthedocs.org/projects/kolibri/>`_."
 
 #: ../../install.rst:8
 msgid "To install **Kolibri**, check the system requirements first and then follow the procedure for the operating system on your device."
@@ -330,7 +330,7 @@ msgstr "Permitir la instalación de **Kolibri** en tu dispositivo Android."
 
 #: ../../install/_android.rst:16
 msgid "This beta version of **Kolibri** Android installer is not yet available on Play Store, and in order to install it, you need to change a security setting (these steps may be slightly different depending on the device model and Android version):"
-msgstr "Esta versión beta del instalador de **Kolibri ** para Android aún no está disponible en Play Store, y para instalarlo es necesario cambiar una configuración de seguridad (estos pasos pueden variar dependiendo del modelo de dispositivo y versión de Android):"
+msgstr "Esta versión beta del instalador de **Kolibri** para Android aún no está disponible en Play Store, y para instalarlo es necesario cambiar una configuración de seguridad (estos pasos pueden variar dependiendo del modelo de dispositivo y versión de Android):"
 
 #: ../../install/_android.rst:18
 msgid "Open your device's **Settings** app."

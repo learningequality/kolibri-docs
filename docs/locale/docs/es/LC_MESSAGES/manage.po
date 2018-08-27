@@ -951,7 +951,7 @@ msgstr "Para empezar un nuevo tema hay que usar el botón **+ New Topic** a la d
 
 #: ../../manage/_get_support.rst:21
 msgid "Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs."
-msgstr "Los usuarios más avanzados, incluidos los desarrolladores de software, deben seguir las instrucciones de nuestra`documentación para desarrolladores <http://kolibri-dev.readthedocs.io/>`_ para informar de fallos."
+msgstr "Los usuarios más avanzados, incluidos los desarrolladores de software, deben seguir las instrucciones de nuestra `documentación para desarrolladores <http://kolibri-dev.readthedocs.io/>`_ para informar de fallos."
 
 #: ../../manage/_get_support.rst:27
 msgid "Troubleshoot Network Issues"
@@ -963,7 +963,7 @@ msgstr "¿Puedes acceder a Kolibri escribiendo ``http://127.0.0.1:8080`` en la b
 
 #: ../../manage/_get_support.rst:30
 msgid "Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself?"
-msgstr "¿Puedes acceder a la dirección :ref: `IP externa <access_LAN>` del dispositivo donde se está ejecutando Kolibri desde ese **MISMO** dispositivo?"
+msgstr "¿Puedes acceder a la dirección :ref:`IP externa <access_LAN>` del dispositivo donde se está ejecutando Kolibri desde ese **MISMO** dispositivo?"
 
 #: ../../manage/_get_support.rst:31
 msgid "Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:"
@@ -1003,7 +1003,7 @@ msgstr "Cuando reportas un problema con Kolibri, puede que te pidamos de enviarn
 
 #: ../../manage/_get_support.rst:53
 msgid "Open the ``.kolibri`` folder inside the :ref:`Home <home>` of the device where Kolibri is running and locate these two files:"
-msgstr "Abrir la carpeta ``.kolibri`` dentro la carpeta ``Home`` del dispositivo donde se ejecuta el Kolibri y localizar estos dos archivos:"
+msgstr "Abrir la carpeta ``.kolibri`` dentro la carpeta :ref:`Home <home>` del dispositivo donde se ejecuta el Kolibri y localizar estos dos archivos:"
 
 #: ../../manage/_get_support.rst:55
 msgid "``kolibri.log``"
