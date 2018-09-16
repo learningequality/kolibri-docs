@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 10:11-0700\n"
-"PO-Revision-Date: 2018-08-22 17:32\n"
+"PO-Revision-Date: 2018-08-27 16:56\n"
 "Last-Translator: learningequality <accounts@learningequality.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -23,19 +23,19 @@ msgstr "Ponte en contacto con nosotros"
 
 #: ../../contact.rst:10
 msgid "Getting support from Learning Equality and our community"
-msgstr ""
+msgstr "Obtener soporte de Learning Equality y la comunidad"
 
 #: ../../contact.rst:12
 msgid "Due to the open-source nature of our work, we encourage that all inquiries, inputs, contributions and feedback are openly shared in our `Community Forums <https://community.learningequality.org/>`_, so that any user with similar questions to yours can benefit from the answer, and have a centralized place to search for it. *Please consider supporting others whenever you can. Your goals are likely overlapping with other users of Kolibri, so you may consider yourself as part of a community of like-minded practitioners!*"
-msgstr ""
+msgstr "Debido a la naturaleza de código abierto de nuestro proyecto, fomentamos que todas las consultas, aportes, contribuciones y comentarios se compartan abiertamente en nuestros `Foros de comunidad <https://community.learningequality.org/>`_, para que cualquier usuario con preguntas similares puede beneficiarse de la respuesta, y tener un lugar centralizado para buscarla. *Por favor, considera ayudar a los demás siempre que puedas. Es probable que tus objetivos son similares a otros usuarios de Kolibri, por lo que puedes considerarte parte de una comunidad de profesionales de ideas afines.*"
 
 #: ../../contact.rst:14
 msgid "The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* )"
-msgstr ""
+msgstr "Una vez acabado el registro en nuestros foros, recomendamos leer los dos primeros temas (*Welcome to LE’s Support Community* y *How do I post to this forum?* )."
 
 #: ../../contact.rst:16
 msgid "You can add a new topic with the **+ New Topic** button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes."
-msgstr ""
+msgstr "Para empezar un nuevo tema hay que usar el botón **+ New Topic** a la derecha. Asegurarse de seleccionar la categoría **Kolibri** en la ventana **Create a New Topic** para que sea más fácil clasificar y responder a la pregunta."
 
 #: ../../contact.rst:22
 msgid "Feedback"
@@ -55,11 +55,11 @@ msgstr "Problemas técnicos"
 
 #: ../../contact.rst:34
 msgid "In order to report  a technical issue, you can either use the *Support* category in our forum, or open up an issue report in our public software repository, following the guidelines:"
-msgstr ""
+msgstr "Para informar sobre un problema técnico, puedes usar la categoría *Support* en nuestro foro o abrir un *issue report* en nuestro repositorio de software público, siguiendo estas pautas:"
 
 #: ../../contact.rst:36
 msgid "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
-msgstr ""
+msgstr "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
 
 #: ../../contact.rst:40
 msgid "Contributions and development"
@@ -67,7 +67,7 @@ msgstr "Contribuir al desarrollo"
 
 #: ../../contact.rst:42
 msgid "Kolibri is an open-source project, and as such, contributions from the tech community are welcomed, encouraged and appreciated. If you'd like to contribute to Kolibri, please refer to our developer docs:"
-msgstr ""
+msgstr "Kolibri es un proyecto de código abierto, y como tal, las contribuciones de la comunidad tecnológica son bienvenidas, fomentadas y apreciadas. Si deseas contribuir al proyecto Kolibri, consulta nuestra documentación para desarrolladores:"
 
 #: ../../contact.rst:44
 msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"

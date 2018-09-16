@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 10:11-0700\n"
-"PO-Revision-Date: 2018-08-22 17:32\n"
+"PO-Revision-Date: 2018-08-27 16:56\n"
 "Last-Translator: learningequality <accounts@learningequality.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Iniciar Kolibri en Windows"
 
 #: ../../access.rst:10
 msgid "To start the **Kolibri** server on Windows, just double-click the desktop shortcut. You will see the notification message *Kolibri is starting, please wait...*."
-msgstr ""
+msgstr "Para iniciar **Kolibri** en Windows, haz doble clic al icono de acceso directo en el escritorio, y verás el mensaje de notificación *Kolibri se está iniciando, espera por favor...*."
 
 #: ../../access.rst:12
 msgid "When you see the notification *Kolibri is running...*, **Kolibri** will open in the browser with the URL http://127.0.0.1:8080."
@@ -67,23 +67,23 @@ msgstr "Recuerda que tienes que :ref:`configurar otros equipos <access_LAN>` en 
 
 #: ../../access.rst:36
 msgid "Starting Kolibri on Linux or MacOS"
-msgstr ""
+msgstr "Iniciar Kolibri en Linux o MacOS"
 
 #: ../../access.rst:38
 msgid "Starting Kolibri on Linux and MacOS will differ depending on the method you used to install it."
-msgstr ""
+msgstr "Iniciar Kolibri en Linux y MacOS variará según el método utilizado para instalarlo."
 
 #: ../../access.rst:40
 msgid "If you used the :ref:`PEX package <pex>`, Kolibri will be accessible as long as the process is running in the `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_."
-msgstr ""
+msgstr "Si has usado el :ref:`paquete PEX <pex>`, podrás acceder a Kolibri siempre que el proceso se esté ejecutando en el `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_."
 
 #: ../../access.rst:42
 msgid "If you installed Kolibri as a system service with the :ref:`DEB installer <lin_deb>`, it will run automatically on each system restart, and you do not need to start it manually. Proceed to step 2 below."
-msgstr ""
+msgstr "Si has instalado Kolibri como un servicio del sistema con el :ref:`instalador DEB <lin_deb>`, se ejecutará automáticamente en cada reinicio del sistema, y no necesitas iniciarlo manualmente. Continúa con el paso 2."
 
 #: ../../access.rst:44
 msgid "If you installed Kolibri through the :ref:`PPA <ppa>`, or :ref:`generic installation <pip-installation>` with ``pip install`` command, follow these steps."
-msgstr ""
+msgstr "Si has instalado Kolibri a través del comando :ref:`PPA <ppa>`, o :ref:`instalación genérica <pip-installation>` con el comando ``pip install``, sigue estos pasos."
 
 #: ../../access.rst:46
 msgid "Run this command in Terminal to start Kolibri:"
@@ -91,11 +91,11 @@ msgstr "Ejecuta este comando en el Terminal para iniciar Kolibri:"
 
 #: ../../access.rst:52
 msgid "On macOS you may need to prefix the command with ``python``, and type ``python -m kolibri start`` instead."
-msgstr ""
+msgstr "En macOS, puede que necesitas preceder el comando con ``python``, escribiendo ``python -m kolibri start``."
 
 #: ../../access.rst:54
 msgid "Open the default browser at ``http://127.0.0.1:8080`` displaying the **Kolibri** start page."
-msgstr ""
+msgstr "Abrir el navegador por defecto en ``http://127.0.0.1:8080`` que mostrará la página de inicio de **Kolibri**."
 
 #: ../../access.rst:59
 msgid "Run this command in Terminal to stop Kolibri:"
@@ -107,71 +107,71 @@ msgstr "Acceder al contenido de Kolibri desde otros dispositivos en la red local
 
 #: ../../access.rst:71
 msgid "After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning content on the server."
-msgstr ""
+msgstr "Después de haber instalado e iniciado Kolibri en el ordenador que actuará como servidor, tienes que configurar otros dispositivos en la misma `Red de área local <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), tal como otros ordenadores, tabletas o teléfonos moviles, para que puedan acceder al contenido de aprendizaje en el servidor."
 
 #: ../../access.rst:74
 msgid "Compatibility"
-msgstr ""
+msgstr "Compatibilidad"
 
 #: ../../access.rst:76
 msgid "Kolibri currently supports the following combinations of operating systems and browsers for client devices:"
-msgstr ""
+msgstr "Kolibri actualmente soporta las siguientes combinaciones de sistemas operativos y navegadores para dispositivos cliente:"
 
 #: ../../access.rst:78
 msgid "Windows 7, 8.1 and 10, with IE 11+, Chrome and Firefox"
-msgstr ""
+msgstr "Windows 7, 8.1 y 10, con IE 11+, Chrome y Firefox"
 
 #: ../../access.rst:79
 msgid "MacOS 10.6+ with Safari, Chrome and Firefox"
-msgstr ""
+msgstr "MacOS 10.6+ con Safari, Chrome y Firefox"
 
 #: ../../access.rst:80
 msgid "Linux, any browser"
-msgstr ""
+msgstr "Linux, cualquier navegador"
 
 #: ../../access.rst:81
 msgid "Android 4.2+, Chrome and Firefox"
-msgstr ""
+msgstr "Android 4.2+, Chrome y Firefox"
 
 #: ../../access.rst:82
 msgid "iOS, Chrome and Firefox supported, **Safari not supported**"
-msgstr ""
+msgstr "iOS, Chrome y Firefox compatible, **Safari no compatible**"
 
 #: ../../access.rst:84
 msgid "Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__."
-msgstr ""
+msgstr "Los videos están codificados como MP4. Si bien la mayoría de los navegadores no requieren complementos o códecs adicionales, las plataformas de código abierto a menudo requerirán que instale los códecs MP4 por separado: por ejemplo, en Ubuntu, hay que instalar el paquete `restricted extras <https://help.ubuntu.com/community/RestrictedFormats>`__."
 
 #: ../../access.rst:87
 msgid "Setup Access on Other Devices"
-msgstr ""
+msgstr "Configuración de acceso desde otros dispositivos"
 
 #: ../../access.rst:89
 msgid "To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running."
-msgstr ""
+msgstr "Para acceder al contenido desde otros dispositivos en la misma red, necesitas la :ref:`dirección IP <ips>` del ordenador donde se está ejecutando Kolibri."
 
 #: ../../access.rst:91
 msgid "For example, if Kolibri is installed and started on a computer with the IP address **192.168.0.104**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.0.104:8080``."
-msgstr ""
+msgstr "Por ejemplo, si Kolibri está instalado e iniciado en el ordenador con la dirección IP **192.168.0.104**, puede acceder desde una tableta Android conectada a la misma red abriendo el navegador en la tableta y escribiendo la dirección ``http: //192.168.0.104: 8080``."
 
 #: ../../access.rst:95
 msgid "You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard."
-msgstr ""
+msgstr "Puedes averiguar cual es la IP (**URL del servidor**) del dispositivo donde se ejecuta Kolibri si vas a la pestaña **Información** en el panel **Dispositivo**."
 
 #: ../../access.rst:100
 msgid "Find the IP/Server URL in the Device > Info tab."
-msgstr ""
+msgstr "Averiguar la IP (URL de servidor) en la pestaña **Dispositivo > Información**."
 
 #: ../../access.rst:102
 msgid "You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri."
-msgstr ""
+msgstr "También puedes utilizar el comando ``ipconfig`` en Windows o ``ifconfig`` en Linux/OSX para averiguar la dirección IP del dispositivo donde Kolibri está funcionando."
 
 #: ../../access.rst:106
 msgid "In case of network problems, see :ref:`troubleshooting tips <network>`."
-msgstr ""
+msgstr "En caso de problemas de red, consulta :ref:`consejos para la solución de problemas <network>`."
 
 #: ../../access.rst:107
 msgid "Examples and comparison of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`__ (PDF document)."
-msgstr ""
+msgstr "Ejemplos y comparación de `Configuraciones de hardware para Kolibri <https://learningequality.org/r/hardware>`__ (documento PDF)."
 
 #: ../../access.rst:124
 msgid "Change Language"
@@ -179,7 +179,7 @@ msgstr "Cambiar Idioma"
 
 #: ../../access.rst:126
 msgid "To change language in which the **Kolibri** user interface is displayed, follow these steps:"
-msgstr ""
+msgstr "Para cambiar el idioma de la interfaz de usuario de **Kolibri**, sigue estos pasos:"
 
 #: ../../access.rst:128
 msgid "Open your user menu in the upper right corner."
@@ -195,9 +195,9 @@ msgstr "Elegir el idioma deseado."
 
 #: ../../access.rst:131
 msgid "Click **Confirm** and Kolibri will be displayed in the selected language!"
-msgstr ""
+msgstr "Haz clic en **Confirmar** y Kolibri se mostrará en el idioma seleccionado!"
 
 #: ../../access.rst:134
 msgid "The default language configured in your browser preferences might override the language configured in Kolibri. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content."
-msgstr ""
+msgstr "El idioma predeterminado configurado en las preferencias de su navegador puede interferir con el idioma configurado en Kolibri. Para asegurarse que Kolibri se muestra en el idioma deseado, asegúrate de configurarlo de manera predeterminada en los navegadores de todos los dispositivos que se usarán para ver el contenido de Kolibri."
 

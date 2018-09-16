@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 10:11-0700\n"
-"PO-Revision-Date: 2018-08-22 17:32\n"
+"PO-Revision-Date: 2018-08-27 16:56\n"
 "Last-Translator: learningequality <accounts@learningequality.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -35,15 +35,15 @@ msgstr "Algunos ejemplos de contenidos de aprendizaje de acceso público que se 
 
 #: ../../index.rst:45
 msgid ":ref:`Learners - start here <learn>`"
-msgstr ""
+msgstr ":ref:`Estudiantes - empezar aquí <learn>`"
 
 #: ../../index.rst:47
 msgid "Whether you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`content and activities <content_types>` can you work with, and how to submit :ref:`exams <exams>` created by your coaches or tutors."
-msgstr ""
+msgstr "Independientemente si usas Kolibri en tu escuela, centro de formación o a casa, aquí puedes aprender como :ref:`abrirlo <access_learner>` en tu ordenador, que tipo de :ref:`contenido y actividades <content_types>` puedes hacer, y como entregar :ref:`exámenes <exams>` preparados por tus tutores o profesores."
 
 #: ../../index.rst:53
 msgid "For :ref:`Coaches <coach>` using Kolibri"
-msgstr ""
+msgstr "Para :ref:`Tutores <coach>` - usar Kolibri"
 
 #: ../../index.rst:55
 msgid "Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`exams <manage_exams>` and view reports."
