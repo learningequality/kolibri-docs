@@ -62,12 +62,14 @@ About IP addresses
 
 .. _firewalls:
 
-Firewalls (Windows)
-*******************
+Firewalls
+*********
 
-Especially Windows-based systems often come with firewalls bundled and enabled. This is critical to the server running Kolibri, as it can block traffic in and out of Kolibri. You may want to have your firewall enabled for various security issues, especially if the server is also online.
+If you are having trouble connecting to Kolibri from other computers, your firewall might be blocking access.
 
-In order to troubleshoot network issues, you should temporarily disable your firewall to narrow down the problem.
+Windows systems often come with firewalls bundled and enabled, and this may interfere with running Kolibri. That said, you probably want to keep your firewall enabled for security reasons, especially if the server is connected to the public internet.
+
+You can try temporarily disable your firewall to see if it helps with connecting to Kolibri. If so, you'll want to turn the firewall back on and then create a exception rule for Kolibri to allow access.
 
 
 Troubleshoot Database Issues
