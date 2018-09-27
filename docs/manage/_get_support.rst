@@ -60,6 +60,18 @@ About IP addresses
 * ``http://192.168.1.1:8080`` means: "Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol". The browser will the continue to try to reach this address, but may fail for instance if Kolibri isn't running, or if a step along the way blocks access.
 
 
+.. _firewalls:
+
+Firewalls
+*********
+
+If you are having trouble connecting to Kolibri from other computers, your firewall might be blocking access.
+
+Windows systems often come with firewalls bundled and enabled, and this may interfere with running Kolibri. That said, you probably want to keep your firewall enabled for security reasons, especially if the server is connected to the public internet.
+
+You can try temporarily disable your firewall to see if it helps with connecting to Kolibri. If so, you'll want to turn the firewall back on and then create a exception rule for Kolibri to allow access.
+
+
 Troubleshoot Database Issues
 ----------------------------
 
