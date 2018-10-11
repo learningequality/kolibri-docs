@@ -1,7 +1,7 @@
 Raspberry Pi
 ============
 
-This is a draft that is not yet included in the TOC.
+There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian.
 
 Prerequisites
 -------------
@@ -10,24 +10,32 @@ Prerequisites
 * Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)
 * Card reader for a laptop or computer to write to the MicroSD card
 * Latest Raspbian Stretch OS .img file
+
   * `Raspbian Desktop <http://downloads.raspberrypi.org/raspbian/>`__
   * `Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__
-* **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
+  * **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
 * Internet connectivity (for setting up the device)
 
 Getting started guides
 ----------------------
 
-https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started
-https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+This guide provides a step-by-step setup of Kolibri but does not try to explain basic concepts for your Raspberry Pi. If you are new to the system, you are encouraged to read the official `Getting Started <https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started>`__ guide for basic knowledge about setting up your device.
 
 Setting up the SD card
 ----------------------
 
+The following commands work on Linux/macOS for setting up the .img files provided. You will also need to know the *device node* for the SD Card reader. On Linux, this is typically ``/dev/mmcblk0`` for the 0th card in your card reader.
+
+.. code-block:: bash
+
+  unzip -p /path/to/raspbian-stretch-lite.zip | sudo dd of=<device node> bs=4M conv=fsync
+
+.. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`__
+
 Updating the software
 ---------------------
 
-After installation, it is recommended that you upgrade all the software on the device:
+After installing and starting up your Raspberry Pi, it is recommended that you upgrade all the software on the device:
   
 .. code-block:: bash
 

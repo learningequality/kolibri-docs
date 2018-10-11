@@ -103,6 +103,12 @@ Happy learning with Kolibri!
    :maxdepth: 2
    :hidden:
 
+   howto/index
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
    faq
    
 .. toctree::

@@ -179,19 +179,19 @@ rst_prolog = """
 .. |in-progress| replace:: :raw-html:`<span class="material-icons schedule" aria-hidden="true">schedule</span><span class="visuallyhidden">In progress</span>`
 .. |completed| replace:: :raw-html:`<span class="material-icons star" aria-hidden="true">star</span><span class="visuallyhidden">Completed</span>`
 .. |recommended| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">forum</span><span class="visuallyhidden">Recommended</span>`
-.. |on-device| image:: img/on-device.png
+.. |on-device| image:: /img/on-device.png
    :alt: On your device
-.. |green-check| image:: img/on-device.png
+.. |green-check| image:: /img/on-device.png
    :alt: Correct answer
-.. |topic-icon| image:: img/topic-icon.png
+.. |topic-icon| image:: /img/topic-icon.png
    :alt: Topic
-.. |video-icon| image:: img/video-icon.png
+.. |video-icon| image:: /img/video-icon.png
    :alt: Video
-.. |doc-icon| image:: img/doc-icon.png
+.. |doc-icon| image:: /img/doc-icon.png
    :alt: Document
-.. |exercise-icon| image:: img/exercise-icon.png
+.. |exercise-icon| image:: /img/exercise-icon.png
    :alt: Exercise
-.. |html-icon| image:: img/html-icon.png
+.. |html-icon| image:: /img/html-icon.png
    :alt: App
 
 """
