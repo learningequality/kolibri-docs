@@ -53,22 +53,6 @@ Install
         kolibri manage movedirectory /path/to/your/external_drive
         # Start kolibri
         sudo systemctl kolibri start
-        
-  
-    **Or** using symbolic links, you need to start and stop Kolibri and to set the permissions correctly:
-
-    .. code-block:: bash
-
-        # Stop kolibri
-        sudo systemctl kolibri stop
-        # Move its data
-        sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data
-        # Ensure that the kolibri system service user owns the folder
-        sudo chown -R `cat /etc/kolibri/username` /your/external/media/kolibri_data
-        # Restore the original location with a symbolic link
-        sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri
-        # Start kolibri
-        sudo systemctl kolibri start
 
   * **I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial contents of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards.
 
