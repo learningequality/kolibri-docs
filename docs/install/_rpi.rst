@@ -1,52 +1,62 @@
 .. _rpi:
 
-Raspbian
-========
+Raspberry Pi
+============
 
-Compatibility
--------------
+There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian. To obtain and install Raspbian, refer to the official documentation.
 
-Kolibri works well on Debian-based distributions for `Raspberry Pi <https://www.raspberrypi.org/>`_, such as Raspbian, and has been tested on RPi 3 models.
+Kolibri is intended for **Raspberry Pi Model 3** and upwards.
+
+.. tip:: The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both.
+
+.. warning:: Most of these steps require an internet connection. It is not possible to prepare a blank Raspberry Pi for Kolibri without fetching additional software packages from online sources.
+
 
 Install
 -------
 
-1. Running ``add-apt-repository`` as shown in the PPA instructions does not work. Instead, run::
+#. We need to upgrade the ``python3-cffi`` library, which is outdated on Raspbian. Upgrade it like this:
 
-      sudo apt install dirmngr
+   .. code-block:: bash
+
+      sudo apt install libffi-dev python3-pip python3-pkg-resources dirmngr
+      sudo pip3 install pip setuptools --upgrade
+      sudo pip3 install cffi --upgrade
+
+#. Add our Ubuntu PPA with these special instructions:
+
+   .. code-block:: bash
+
       sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
       sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
       sudo apt update
       sudo apt install kolibri
 
-2. Kolibri does not start after installation. This is because ``python3-cffi`` is outdated on Raspbian. Upgrade it like this::
+   When asked questions during the installation, it is recommended that you use the default ``pi`` command for running Kolibri because it will have access to USB devices.
 
-      sudo apt install libffi-dev
-      sudo pip3 install pip --upgrade
-      sudo pip3 install cffi --upgrade
-      sudo systemctl start kolibri
-
-3. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
 
 .. note:: The following issues are quite common on a Raspberry Pi:
 
-  * The time isn't set properly and you will have errors downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
+  * **System time** isn't set properly or resets during power-off. This causes errors while downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
 
-  * You run out of storage space. If you have a USB source for additional storage, do something like this::
+  * **Storage space** is often scarce. If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
+  
+    Using the built-in management command:
+
+    .. code-block:: bash
 
         # Stop kolibri
-        sudo systemctl kolibri stop  
-        # Move its data
-        sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data  
-        # Ensure that the kolibri system service user owns the folder
-        sudo chown -R `cat /etc/kolibri/username` /your/external/media/kolibri_data  
-        # Restore the original location with a symbolic link
-        sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri  
+        sudo systemctl kolibri stop
+        # Move the data
+        kolibri manage movedirectory /path/to/your/external_drive
         # Start kolibri
-        sudo systemctl kolibri start  
+        sudo systemctl kolibri start
 
-  * Loading channels can take a **long time** on a Raspberry Pi. When generating channel contents for Khan Academy, the step indicated as "Generating channel listing. This could take a few minutes…" could mean ~30 minutes. The device's computation power is the bottleneck. You might get logged out while waiting, but this is harmless and the process will continue. Sit tight!
+  * **I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial contents of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards.
+
+    When replicating installations, you can save time if you connect the SD card of USB storage to another device with faster transfer speeds. Replication will be described in future guides.
 
 
 Uninstall
