@@ -26,7 +26,7 @@ Setting up the SD card
 
 The following commands work on Linux/macOS for setting up the .img files provided. You will also need to know the *device node* for the SD Card reader. On Linux, this is typically ``/dev/mmcblk0`` for the 0th card in your card reader.
 
-.. code-block:: bash
+.. code-block:: console
 
   unzip -p /path/to/raspbian-stretch-lite.zip | sudo dd of=<device node> bs=4M conv=fsync
 
@@ -37,7 +37,7 @@ Updating the software
 
 After installing and starting up your Raspberry Pi, it is recommended that you upgrade all the software on the device:
   
-.. code-block:: bash
+.. code-block:: console
 
   sudo apt update
   sudo apt upgrade
@@ -68,7 +68,7 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
   
     Using the built-in management command:
 
-    .. code-block:: bash
+    .. code-block:: console
 
         # Stop kolibri
         sudo systemctl kolibri stop
@@ -80,7 +80,7 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
   
     **Or** using symbolic links, you need to start and stop Kolibri and to set the permissions correctly:
 
-    .. code-block:: bash
+    .. code-block:: console
 
         # Stop kolibri
         sudo systemctl kolibri stop
