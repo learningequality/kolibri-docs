@@ -87,16 +87,16 @@ The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local d
 
 .. _create_superuser:
 
-Create a New Superuser
-----------------------
+Create a New Super Admin
+------------------------
 
-In case you need to create another **Superuser**, either to address additional need of managing facility, or if you lost the password for the old one, run the following command.
+In case you need to create another **super admin** user, either to address additional need of managing facility, or if you lost the password for the old one, run the following command.
 
 .. code-block:: bash
 
   kolibri manage createsuperuser
 
-You will be prompted to input the **Username** and **Password** and the new **Superuser** user account will be created.
+You will be prompted to input the **Username** and **Password** and the new **super admin** user account will be created.
 
 
 Change Language
@@ -112,6 +112,8 @@ Change Language
 | English               | ``en``          |
 +-----------------------+-----------------+
 | Spanish (Spain)       | ``es-es``       | 
++-----------------------+-----------------+ 
+| Spanish (Mexico)      | ``es-mx``       | 
 +-----------------------+-----------------+ 
 | French                | ``fr``          | 
 +-----------------------+-----------------+

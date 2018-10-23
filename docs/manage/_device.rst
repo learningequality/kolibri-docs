@@ -25,28 +25,28 @@ Permission to Manage Content
 To grant permission to manage content channels in Kolibri to another user, follow these steps.
 
 #. Click **Edit permissions** for the chosen user.
-#. Under **Device Permissions** activate the option *Can import and export content channels*.
+#. Under **Device permissions** activate the option *Can import and export content channels*.
 #. Click **Save changes** to apply and finish.
 
 .. image:: img/manage-content-permissions.png
   :alt: grant permissions to manage content
 
-The users who have been granted the permissions to manage content channels will have a black key indicator in front of their name, and will be able to see the **Device** dashboard with the **Content** tab.
+The users who have been granted the permissions to manage content channels will have a black key indicator in front of their name, and will be able to see the **Device** dashboard with the **Channels** tab.
 
 
-Superuser Permissions
-*********************
+Super Admin Permissions
+***********************
 
-To grant **Superuser** permissions to another user, follow these steps.
+To grant **super admin** permissions to another user, follow these steps.
 
 #. Click **Edit permissions** for the chosen user.
-#. Activate the option *Make superuser*.
+#. Activate the option *Make super admin*.
 #. Click **Save changes** to apply and finish.
 
 .. image:: img/coach-superuser.png
   :alt: grant superuser permissions
 
-The users who have been granted the **Superuser** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs.
+The users who have been granted the **super admin** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs.
 
 .. image:: img/permissions-keys.png
   :alt: permissions indicators

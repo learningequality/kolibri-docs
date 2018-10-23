@@ -1,6 +1,18 @@
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+blockquote.rst-content {
+	margin-left: 0px;
+}
+
+div.figure {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: auto 5px;
+}
+
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
        this as on RTD they are loaded after this stylesheet */

@@ -6,7 +6,9 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life
+Debian/Ubuntu 14.04 and up - anything that's *not* end-of-life
+
+.. warning:: Django 1.11 used in Kolibri isn't compatible with Python 3.7. You will need to downgrade to Python 3.4-3.6, set them to run in parallel, or use Python 2.7. For a workaround and more details `read this thread <https://github.com/learningequality/kolibri/issues/4182#issuecomment-419408270>`_.
 
 .. _ppa:
 

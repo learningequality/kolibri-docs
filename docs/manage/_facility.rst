@@ -10,11 +10,14 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
 	* edit their full names and usernames
 	* sign in without password (except Admin users)
 	* download content items (videos, documents, etc.) on their own devices 
-	* allow guests to sign up and use Kolibri
+	* browse as guests to browse content without signing in
+	* create accounts on your facility 
 #. Click **Save changes** to apply and finish.
 
-.. image:: img/manage-facility.png
-  :alt: manage facility configuration settings
+    .. figure:: img/manage-facility.png
+      :alt: Manage facility configuration settings.
+
+      Manage facility configuration settings.
 
 .. note::
-  To manage facility settings in Kolibri you must sign in as **Superuser** or **Admin**.
+  To manage facility settings in Kolibri you must sign in as **admin** or **super admin**.

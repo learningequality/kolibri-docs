@@ -10,7 +10,7 @@ You can view, create and delete classes, as well as search, filter and enroll Ko
   :alt: manage classes
 
 .. note::
-  To manage Kolibri classes you must sign-in as **Superuser** or **Admin**.
+  To manage Kolibri classes you must sign in as **admin** or **super admin**.
 
 
 Add New Class
@@ -20,10 +20,7 @@ To add a new class, follow these steps.
 
 #. Click **New class** button.
 #. Fill in the class name.
-#. Click **Create** to add the new class, or **Cancel** to exit.
-
-.. image:: img/add-new-class.png
-  :alt: add new class
+#. Click **Save** to add the new class, or **Cancel** to exit.
 
 
 Delete Class
@@ -32,10 +29,7 @@ Delete Class
 To delete class, follow these steps.
 
 #. Click **Delete class** button for the chosen class from the list.
-#. Click **Delete class** in the confirmation window to proceed, or **Cancel** to exit without deleting the class.
-
-.. image:: img/delete-class.png
-  :alt: delete class
+#. Click **Delete** in the confirmation window to proceed, or **Cancel** to exit without deleting the class.
 
 .. note::
   Users enrolled in the class you are deleting will not be removed from the database.
@@ -50,17 +44,15 @@ A newly created class does not have any learners or coaches. To edit a class sel
   :alt: new class with no learners and coaches
 
 
-Change Class Name
-*****************
+Rename Class
+************
 
 To edit class name, follow these steps.
 
 #. Click on the **Edit** button (|edit| icon) next to the class’ name.
 #. Write the new name in the **Class name** field.
-#. Click **Update** to confirm the edited information, or **Cancel** to exit without saving.
+#. Click **Save** to confirm the edited information, or **Cancel** to exit without saving.
 
-.. image:: img/change-class-name.png
-  :alt: change class name
 
 .. _enroll_learners:
 

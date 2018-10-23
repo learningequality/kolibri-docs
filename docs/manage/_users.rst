@@ -9,7 +9,7 @@ You can search for, filter, add, and edit user accounts in Kolibri from the **Us
   :alt: manage users
 
 .. note::
-  To manage Kolibri users you must sign in as **Superuser** or **Admin**.
+  To manage Kolibri users you must sign in as **admin** or **super admin**.
 
 
 Create a New User Account
@@ -17,10 +17,10 @@ Create a New User Account
 
 To create a new user account, follow these steps.
 
-#. Click **Add New** button.
+#. Click **New user** button.
 #. Fill in the required information (name, username, password).
-#. Select user profile (*Admin*, *Coach* or *Learner*).
-#. Click **Create Account** to add the new user.
+#. Select user type (*Admin*, *Coach* or *Learner*).
+#. Click **Save** to add the new user.
 
 	.. image:: img/add-new-account.png
 	  :alt: add new account form
@@ -52,7 +52,7 @@ Edit User’s Account
 
 To edit username, full name or account type, follow these steps.
 
-#. Click on the **Manage** button for the desired user and select the **Edit** option.
+#. Click on the **Options** button for the desired user and select the **Edit details** option.
 #. Edit **Full name** or **Username** in the **Edit user** window.
 #. Click **Save** to update the edited information, or **Cancel** to exit without saving.
 
@@ -63,7 +63,7 @@ To edit username, full name or account type, follow these steps.
 Reset User’s Password
 *********************
 
-#. Click on the **Manage** button for the desired user and select the **Reset password** option.
+#. Click on the **Options** button for the desired user and select the **Reset password** option.
 #. Enter the new password in both fields.
 #. Click **Save** to confirm, or **Cancel** to exit without changing the password.
 

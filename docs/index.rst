@@ -57,7 +57,7 @@ Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <
 
 .. rst-class:: clearfix row
 
-For :ref:`Administrators and Superusers <manage>` of Kolibri 
+For :ref:`Administrators and super admins <manage>` of Kolibri 
 ************************************************************
 
 Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolibri server on the supported platforms, and :ref:`configure other devices <access_LAN>` in the local network to access its content. Proceed on how to :ref:`import content channels <manage_content_ref>`, create and manage :ref:`users <manage_users_ref>` and :ref:`classes <manage_classes_ref>`. Configure the :ref:`settings for your facility <manage_facility_ref>`, and assign or edit :ref:`permissions <permissions>` for other users. Learn how to work with Kolibri from :ref:`the command line <command_line>`, 
