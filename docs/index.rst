@@ -31,9 +31,9 @@ Kolibri User Guide
 Kolibri can serve high quality education content from several publicly available **content channels**, collections of educational resources (exercises, videos, audio or document files) and associated metadata, prepared and organized for their use in Kolibri. It works in conjunction with `Kolibri Studio <https://studio.learningequality.org>`_, the curriculum tool used to organize content and build custom content channels, aligned to the local curricula, or according to specific learning needs.
 
    .. figure:: img/content-channels-logos.png
-      :alt: Some publicly available learning content that may be included in Kolibri.
+      :alt: Logos of several publicly available learning content sources that can be used with Kolibri.
 
-      Some publicly available learning content that may be included in Kolibri.
+      Some of the publicly available learning content that you can use with Kolibri.
 
 
 .. rst-class:: clearfix row

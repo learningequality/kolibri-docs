@@ -128,6 +128,7 @@ Follow these steps to import content channels.
 #. Click **Add** to save this address to your device settings. If you later decide to delete it, use the link *Forget*.
 #. Click **Continue** and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`.
 
+.. warning:: This feature is introduced in Kolibri version 0.11, and all the server devices to be used for this type of content import **must have the Kolibri version 0.11 or later** running.
 
 .. _local_drive:
 
