@@ -10,7 +10,7 @@ You can view, create and delete exams, as well as assign them to learners, using
   :alt: manage exams home page
 
 .. note::
-  To manage **Exams** in Kolibri classes and groups you must sign in as **Coach** or **Admin**.
+  To manage **Exams** in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Exam
@@ -19,7 +19,7 @@ Create New Exam
 To create a new exam, follow these steps.
 
 #. Click the **New exam** button.
-#. Fill in the field for the exam title in the *Create a new exam* view.
+#. Fill in the field for the exam title in the *Create a new exam* page.
 #. Fill in the field for number of questions you want the exam to contain.
 #. Navigate through the topic tree and activate checkboxes of those exercises you want to include in the exam.
 
@@ -28,6 +28,13 @@ To create a new exam, follow these steps.
 
       As you keep adding the exercises you will see confirmation messages at the bottom.
 
+#. Use the **Search** feature to look for topics and exercises about a specific subject. Write the search term in the field, press the **Enter** key or click the |search| button to display the results. 
+   
+    .. figure:: img/search-exam-resources.png
+      :alt: search for exercises to add to the exam
+
+
+  You can filter the search results by *type* of resource (exercise or topic), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`. Click **Exit search** to return to main exam view.
 
 #. Click **Preview** button to view the result before finishing.
 
@@ -37,7 +44,7 @@ To create a new exam, follow these steps.
   * Click **Randomize questions** button to present them in the different order from those in the topic origin.
   * Click **Close** button to return to the exam home page.
 
-8. Click **Finish** button to save the result.
+8. Click **Save** button to finish. You will see a confirmation notification at the bottom.
 
 
 Change Exam Visibility
@@ -82,10 +89,10 @@ To view the report and scores for learners who have taken the exam, follow these
 
   This view presents the list of all the learners who had access to the exam, with the respective progress and scores. Click the name of the learner to view the detailed exam report with a preview of the results for each question.
 
-3. Click each of the questions to preview it. This can help understand which questions learners had difficulties answering correctly and how many attempts they used.
+3. Click each of the questions to preview it. This can help understand which questions learners had difficulties answering correctly, and how many attempts they used.
   
   * yellow star icon indicates a **completed** exam
-  * blue clock icon indicates the exam is **in progress**, not submitted yet
+  * blue clock icon indicates the exam is **in progress**, but not submitted yet
   * green check mark icon indicates the **correct** answer
   * red X mark icon indicates the **incorrect** answer
   * gray X mark icon indicates an **unanswered** question
@@ -93,7 +100,7 @@ To view the report and scores for learners who have taken the exam, follow these
     .. image:: img/exam-report-detail.png
       :alt: view the detailed exam report for the selected learner
 
-  * Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: The first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
+  * Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
 
 
 Copy Exam
@@ -102,7 +109,7 @@ Copy Exam
 To copy an exam to a different group or another class, follow these steps.
 
 1. Select the desired exam from the list in the **Exams** tab.
-2. Click the **Options** button, and select **Copy to**.
+2. Click the **Options** button, and select **Copy exam**.
 
     .. image:: img/copy-exam.png
       :alt: make a copy of the exam for another class

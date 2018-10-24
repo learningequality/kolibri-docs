@@ -112,6 +112,8 @@ Use this tab (|channels| icon) to access the full report of activity progress fo
 
 When you navigate to the last level in the topic tree, you can see the average progress of all class learners for each exercise or resource (video, document, HTML5 activity) in that particular topic.
 
+.. _coach_resource:
+
 Coach Support Resources
 ~~~~~~~~~~~~~~~~~~~~~~~
 

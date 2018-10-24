@@ -3,7 +3,7 @@
 Get in touch
 ============
 
-
+.. _forums:
 .. _get_support_ref:
 
 Getting support from Learning Equality and our community
@@ -17,6 +17,7 @@ You can add a new topic with the **+ New Topic** button on the right. Make sure 
 
 .. image:: img/community-forums.png
   :alt: add new topic on community forums
+
 
 Feedback
 --------

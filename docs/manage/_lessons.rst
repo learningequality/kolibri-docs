@@ -12,7 +12,7 @@ To view, create or delete lessons, as well as assign them to learners, use the *
   :alt: manage lessons home page
 
 .. note::
-  To manage **Lessons** in Kolibri classes and groups, you must sign in as **Coach** or **Admin**.
+  To manage **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Lesson
@@ -31,24 +31,32 @@ To create a new lesson, follow these steps.
   .. image:: img/lesson-options.png
     :alt: new lesson with no resources added
 
-4. Click the **Add resources** button, and select the content channel from which you wish to select resources for the lesson.
+4. Click the **Manage resources** button, and select the content channel from which you wish to select resources for the lesson.
 
   .. image:: img/select-lesson-resources.png
     :alt: add resources to the lesson
 
-5. Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson.
+5. Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson, and you will see a snackbar confirmation at the bottom that the resource has been added.
 
   .. image:: img/select-lesson-resources2.png
     :alt: add resources to the lesson
 
-6. Click **Save** to confirm the selection and finish. 
+6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the **Enter** key or click the |search| button to display the results. 
+   
+  .. image:: img/search-lesson-resources.png
+    :alt: search for resources to add to the lesson
 
-7. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the **Remove** button to delete them. You will see a confirmation notification at the bottom.
+
+  You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
+
+7. Close the **Manage resources** window when you finish to return to the main view of the lesson.
+
+8. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the **Remove** button to delete them. You will see a confirmation notification at the bottom.
 
   .. image:: img/reorder-lesson-resources.png
     :alt: reorder and delete resources in the lesson
 
-8. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 7 again.
+9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 8 again.
 
 
 Change Lesson Status
@@ -72,7 +80,7 @@ You can change the visibility of the lesson that you set when you initially crea
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click the **Options** button, and select **Edit details**.
-#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Recipients* heading.
+#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Visible to* heading.
 #. Click **Save** to confirm, or **Cancel** to exit without change.
 
 

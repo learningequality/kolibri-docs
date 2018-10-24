@@ -10,7 +10,7 @@ In case you need to further divide learners inside classes, for example to addre
 	  :alt: manage learner groups
 
 .. note::
-  To manage Kolibri groups you must sign in as **Superuser**, **Admin** or **Coach**.
+  To manage Kolibri groups you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create a New Group
@@ -54,8 +54,8 @@ Rename Group
 
 To rename group, follow these steps.
 
-#. Click the down arrow icon on the right edge of the desired group.
-#. Select the **Rename group** option.
+#. Click **Options** button on the right edge of the desired group.
+#. Select the **Rename** option.
 #. Input the new name for the group in the confirmation window.
 #. Click **Save** button to proceed, or **Cancel** to exit without renaming the group.
 
@@ -65,9 +65,9 @@ Delete Group
 
 To delete a group, follow these steps.
 
-#. Click the down arrow icon on the right edge of the desired group.
-#. Select the **Delete group** option.
-#. Click **Delete group** button in the confirmation window to proceed, or **Cancel** to exit without deleting the group.
+#. Click **Options** button on the right edge of the desired group.
+#. Select the **Delete** option.
+#. Click **Delete** button in the confirmation window to proceed, or **Cancel** to exit without deleting the group.
 
 .. note::
   Learners currently assigned to group will become ungrouped.

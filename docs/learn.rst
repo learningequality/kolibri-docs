@@ -238,6 +238,23 @@ PDF Viewer options
 
 Use the **Download content** button below the PDF viewer to download the PDF file to your computer.
 
+Ebook Viewer options
+""""""""""""""""""""
+
+To read digital books in Kolibri you have several available controls at the top and bottom of the viewer.
+
+* **Table of content** button in the upper left corner allows you to view the book chapters
+* Open the **Settings** to adjust the text size and the background color 
+* If you want to search for a word or a phrase, use the **magnifying glass** button
+* Use the **Enter fullscreen** button in the upper right corner to open the ebook in fullscreen view.
+* Use the **Esc** key to close the fullscreen view and return.
+
+.. figure:: img/epub.gif
+	:alt: pdf page
+
+
+Use the **Download content** button below the viewer to download the ePub file to your computer.
+
 .. _lessons:
 
 Lessons
