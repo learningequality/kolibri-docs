@@ -18,7 +18,7 @@ Kolibri Taskbar Options
 While it is running, **Kolibri** will display an icon in the Windows taskbar (usually at bottom right, near the clock), that allows you to stop it and configure other settings.  
 
     .. figure:: img/taskbar-options.png
-     :alt: Kolibri taskbar options.
+     :alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
 
      Kolibri taskbar options.
 
@@ -95,7 +95,7 @@ For example, if Kolibri is installed and started on a computer with the IP addre
   * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard.
 
     .. figure:: img/device-info.png
-      :alt: Find the IP/Server URL in the Device > Info tab.
+      :alt: Open the Device page and navigate to the Info tab to find the IP (Server URL) for your device.
 
       Find the IP/Server URL in the Device > Info tab.
   

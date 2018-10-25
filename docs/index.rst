@@ -66,7 +66,7 @@ Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolib
 Happy learning with Kolibri!
 
 .. image:: img/kolibri-use-cases.png
-  :alt: flying Kolibri
+  :alt: 
 
 
 .. toctree::
