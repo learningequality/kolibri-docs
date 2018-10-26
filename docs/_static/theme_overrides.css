@@ -7,7 +7,7 @@
 
 div.figure {
     padding: 4px;
-    background-color: #fff;
+    /*background-color: #fff;*/
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: auto 5px;
@@ -53,16 +53,20 @@ img {
 	vertical-align: text-bottom;
 }
 
-.rst-content .guilabel {
+.rst-content span.guilabel {
     display: inline-block;
     padding: 3px 5px;
     font-size: 80%;
     line-height: 10px;
     color: #444d56;
     vertical-align: middle;
-    background-color: #fafbfc;
+    background-color: #fafbfc !important;
     border: solid 1px #c6cbd1;
     border-bottom-color: #959da5;
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 #959da5;
+}
+
+.rst-content div.highlight {
+    background: #feffe9 !important;
 }

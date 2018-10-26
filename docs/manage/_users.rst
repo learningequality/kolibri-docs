@@ -5,8 +5,8 @@ Manage Users
 
 You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard (|users| icon).
 
-.. image:: img/manage-users.png
-  :alt: manage users
+	.. figure:: img/manage-users.png
+	  :alt: Open Facility page and navigate to Users tab to see the the list of all the users, and access the options to manage them.
 
 .. note::
   To manage Kolibri users you must sign in as **admin** or **super admin**.
@@ -19,32 +19,32 @@ To create a new user account, follow these steps.
 
 #. Click **New user** button.
 #. Fill in the required information (name, username, password).
-#. Select user type (*Admin*, *Coach* or *Learner*).
+#. Select the user type (*Admin*, *Coach* or *Learner*).
 #. Click **Save** to add the new user.
 
-	.. image:: img/add-new-account.png
-	  :alt: add new account form
+		.. figure:: img/add-new-account.png
+		  :alt: 
 
 Coach Type
 **********
 
-When you create a new *Coach* user account, or change the role to *Coach* for an existing user, you can choose between:
+When you create a new *Coach* user account, or change the type (role) to *Coach* for an existing user, you can choose between:
 
 * **Class coach**, that will have access to the coach dashboard and permissions to instruct ONLY the learners in the classes they are assigned to.
 * **Facility coach**, that will have access to the coach dashboard and permissions to instruct ALL the classes and the learners in the facility.
 
-	.. image:: img/coach-type.png
-	  :alt: choose between class coach and facility coach
+		.. figure:: img/coach-type.png
+		  :alt: Use the radio buttons to choose between class coach and facility coach.
 
 
 Select Users by Type
 --------------------
 
-#. Click **All Users** selector to display user types.
-#. Toggle between options to filter the user roster according to type, or leave it as **All Users** to display all.
+#. Click to open the selector under **User type** to see filtering options. **All** users are displayed by default.
+#. Toggle between options (learners, coaches, admins) to display the users according to type.
 
-	.. image:: img/select-users.png
-	  :alt: select users
+	.. figure:: img/select-users.png
+	  :alt: 
 
 
 Edit User’s Account
@@ -53,32 +53,32 @@ Edit User’s Account
 To edit username, full name or account type, follow these steps.
 
 #. Click on the **Options** button for the desired user and select the **Edit details** option.
-#. Edit **Full name** or **Username** in the **Edit user** window.
+#. Edit **Full name**, **Username** or **User type** in the **Edit user details** window.
 #. Click **Save** to update the edited information, or **Cancel** to exit without saving.
 
-.. image:: img/edit-account-info.png
-  :alt: edit account info form
+	.. figure:: img/edit-account-info.png
+	  :alt: 
 
 
 Reset User’s Password
 *********************
 
 #. Click on the **Options** button for the desired user and select the **Reset password** option.
-#. Enter the new password in both fields.
+#. Enter the new password in both fields in the **Reset user password** window.
 #. Click **Save** to confirm, or **Cancel** to exit without changing the password.
 
-.. image:: img/edit-password.png
-  :alt: edit password form
+	.. figure:: img/edit-password.png
+	  :alt: 
 
 
 Delete User’s Account
 *********************
 
-#. Click on the **Manage** button for the desired user and select the **Delete** option.
+#. Click on the **Options** button for the desired user and select the **Delete** option.
 #. Click **Delete** to confirm, or **Cancel** to exit without deleting the account.
 
-.. image:: img/delete-account-confirm.png
-  :alt: confirm delete account
+	.. figure:: img/delete-account-confirm.png
+	  :alt: 
 
 .. warning::
   When you delete a user, all their learning records will be erased from the database.

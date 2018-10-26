@@ -251,9 +251,9 @@ Alternatively, you can follow these steps in the GUI.
 
 #. Go to **Computer > Advanced System Settings** and press the **Environment Variables** button.
 #. Under **User Variables for...** press the **New...** button.
-#. Input the new path and press **OK** on both open windows.
+#. Input ``KOLIBRI_HOME`` in the **Variable name** field, and your new path in the **Variable value** field, and press **OK** on both open windows.
 
-    .. image:: img/env-vars.png
-      :alt: Set the new path for Kolibri home.
+    .. figure:: img/env-vars.png
+      :alt: 
 
 #. Restart Kolibri.

@@ -8,8 +8,8 @@ Kolibri **Lessons** offer you the possibility to prepare smaller selections of a
 
 To view, create or delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard tab (|lessons| icon). Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
 
-.. image:: img/lessons.png
-  :alt: manage lessons home page
+  .. figure:: img/lessons.png
+    :alt: 
 
 .. note::
   To manage **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
@@ -21,42 +21,41 @@ Create New Lesson
 To create a new lesson, follow these steps.
 
 1. Click the **New lesson** button.
-2. Fill in the field for the lesson title, description and set the visibility. 
+2. Fill in the field for the lesson title, description and choose the group(s) or the entire class as the recipients. 
 
-  .. image:: img/new-lesson.png
-    :alt: create new lesson options
+  .. figure:: img/new-lesson.png
+    :alt: 
 
 3. Click the **Continue** button. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
 
-  .. image:: img/lesson-options.png
-    :alt: new lesson with no resources added
+  .. figure:: img/lesson-options.png
+    :alt: New lesson with no resources added; navigate to Options button and click to open it for more actions.
 
 4. Click the **Manage resources** button, and select the content channel from which you wish to select resources for the lesson.
 
-  .. image:: img/select-lesson-resources.png
-    :alt: add resources to the lesson
+  .. figure:: img/select-lesson-resources.png
+    :alt: This window presents a list of channels from which you can choose to add resources to the lesson.
 
 5. Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson, and you will see a snackbar confirmation at the bottom that the resource has been added.
 
-  .. image:: img/select-lesson-resources2.png
-    :alt: add resources to the lesson
+  .. figure:: img/select-lesson-resources2.png
+    :alt: 
 
 6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the **Enter** key or click the |search| button to display the results. 
    
-  .. image:: img/search-lesson-resources.png
-    :alt: search for resources to add to the lesson
+  .. figure:: img/search-lesson-resources.png
+    :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
 
-
-  You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
+    You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
 
 7. Close the **Manage resources** window when you finish to return to the main view of the lesson.
 
 8. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the **Remove** button to delete them. You will see a confirmation notification at the bottom.
 
-  .. image:: img/reorder-lesson-resources.png
-    :alt: reorder and delete resources in the lesson
+  .. figure:: img/reorder-lesson-resources.png
+    :alt: 
 
-9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 8 again.
+9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 9 again.
 
 
 Change Lesson Status
@@ -65,13 +64,11 @@ Change Lesson Status
 A newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps.
 
 1. Click the **Change** link under the *Status* heading.
-
-  .. image:: img/change-lesson-status.png
-    :alt: set lesson to active or inactive
-
 2. Select **Active** or **Inactive**.
 3. Click **Save** to confirm, or **Cancel** to exit without change.
 
+  .. figure:: img/change-lesson-status.png
+    :alt: 
 
 Change Lesson Visibility
 ------------------------
@@ -90,9 +87,7 @@ View Lesson Progress
 After activating the lesson and making it available for the learners, you can view the cumulative progress for each resource in the main lesson view. Click the title of a specific resource to see the progress by all the learners to whom it was assigned.  
 
   .. figure:: img/lesson-report-detail.png
-    :alt: Open individual lesson resource to see the progress for each learner.
-
-    Open individual lesson resource to see the progress for each learner.
+    :alt: 
 
 Click on the column headers to order the results by name, progress, group or the time the resource was accessed. 
 
@@ -104,8 +99,8 @@ To copy a lesson to a different group or another class of your facility, follow 
 1. Select the desired lesson from the list in the **Lessons** tab.
 2. Click the **Options** button, and select **Copy lesson**.
 
-    .. image:: img/copy-lesson.png
-      :alt: make a copy of the lesson for another class
+    .. figure:: img/copy-lesson.png
+      :alt: 
 
 3. Select the class to which you wish to copy the lesson to.
 4. If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson.

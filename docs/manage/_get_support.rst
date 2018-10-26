@@ -104,7 +104,7 @@ You can use the following command to collect information about the device where 
 The command will have an output similar to this:
 
 	.. figure:: img/benchmark.png
-  	  :alt: output of the kolibri manage benchmark command
+  	  :alt: Command line output of the 'kolibri manage benchmark' command
 
   	  Command line output of the 'kolibri manage benchmark' command
 
