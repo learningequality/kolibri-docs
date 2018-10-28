@@ -11,17 +11,24 @@ Access Kolibri
 .. note::
   	* If you are using Kolibri in your school, education center or facility, your coach or administrator will provide the instructions how to open the sign-in page, and username and password if necessary.
   	* If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access` according to your operating system.
+  	* If you don't have an account, but Kolibri at your facility or home is set up to allow learners to create their own, follow steps to :ref:`create one for yourself <create_account>`. 
+
+
+Sign in to Kolibri
+^^^^^^^^^^^^^^^^^^
 
 To sign in to **Kolibri** and start learning, follow these steps:
 
 #. Type your username and password (may be optional).
 #. Click the **SIGN IN** button.
 
-	.. figure:: img/login-modal.jpg
-	   :alt: Main sign in page.
+	.. figure:: img/login-modal.png
+	   :alt: Input your username and password (if required) on the main sign in page.
 
 	   Main sign in page.
 
+
+.. _sign_in_page:
 
 .. warning::
    If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
@@ -48,6 +55,23 @@ Once you have logged in into Kolibri, you can see and edit your user data from t
 To sign out from Kolibri you can either:
 	* Click the user icon in the upper right corner and select **Sign out** option, **OR**
 	* Select **Sign out** option in the main sidebar menu.
+
+
+.. _create_account:
+
+Create an account
+^^^^^^^^^^^^^^^^^
+
+To create your own account on a **Kolibri** facility and start learning, follow these steps:
+
+#. Click **Create an account** button on :ref:`Kolibri sign in page <sign_in_page>`. 
+#. Think of and type in your chosen username and password (twice).
+#. Click the **Finish** button.
+
+When page reloads you will see the Learn page with Kolibri channels.
+
+	.. tip::
+	  Make sure to remember your username and password, or save them in a safe place!
 
 
 Learn with Kolibri

@@ -32,6 +32,9 @@ new ideas to the `Community Forums <https://community.learningequality.org/>`_.
 Technical issues
 ~~~~~~~~~~~~~~~~~
 
+Try reading the :ref:`Troubleshooting <support>` section of this guide first.
+
+
 In order to report  a technical issue, you can either use the *Support* category in our forum, or open up an issue report in our public software repository, following the guidelines:
 
 `github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__

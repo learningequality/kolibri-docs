@@ -65,7 +65,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 	   Select the username and password for the facility super admin.
 
 	.. tip::
-	  Make sure to save these  super admin credentials in a safe place!
+	  Make sure to save these super admin credentials in a safe place!
 
 
 #. **Data usage and privacy - responsibilities of the adminstrator.** 

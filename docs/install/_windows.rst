@@ -13,7 +13,7 @@ Compatibility
 Install
 -------
 
-#. Download the Kolibri `Windows installer <https://learningequality.org/r/kolibri-windows-setup-latest>`_.
+#. Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version 0.11**.
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
 #. Python 3 installer is included, confirm the installation or the upgrade to proceed.
@@ -44,7 +44,7 @@ Upgrade
 
 To upgrade Kolibri, follow these steps.
 
-#. Download the new version of Kolibri `Windows installer <https://learningequality.org/r/kolibri-windows-setup-latest>`_.
+#. Download the new version of Kolibri `Windows installer <https://learningequality.org/download/>`_.
 #. Double-click the downloaded ``.exe`` file.
 #. Follow the instructions in the installation wizard window.
 #. Once the installation of the upgrade is finished, Kolibri will auto-start and open in the default browser on your computer.

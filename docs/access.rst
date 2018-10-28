@@ -83,8 +83,8 @@ Kolibri currently supports the following combinations of operating systems and b
 
 .. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
 
-Setup Access on Other Devices
-*****************************
+Set up Access on Other Devices
+******************************
 
 To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. 
 

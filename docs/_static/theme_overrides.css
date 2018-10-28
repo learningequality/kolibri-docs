@@ -14,7 +14,9 @@ div.figure {
 }
 
 .rst-content div.figure p.caption {
-    margin-bottom: 5px;
+    border-top: 1px solid #ddd;
+    margin: auto 5px;
+    padding-top: 5px;
 }
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
@@ -54,17 +56,16 @@ img {
 }
 
 .rst-content span.guilabel {
-    display: inline-block;
-    padding: 3px 5px;
-    font-size: 80%;
-    line-height: 10px;
-    color: #444d56;
-    vertical-align: middle;
-    background-color: #fafbfc !important;
-    border: solid 1px #c6cbd1;
-    border-bottom-color: #959da5;
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #959da5;
+    border: .07em solid #aaa;
+    border-radius: 0.3em;
+    box-shadow: 0.1em 0.2em 0.2em rgba(0,0,0,.25);
+    background-color: #f9f9f9 !important;
+    background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee);
+    padding: 0.1em 0.3em;
+    font-family: Courier, "Courier New", monospace;
+    font-size: 90%;
+    color: #404040;
+    line-height: 1;
 }
 
 .rst-content div.highlight {
