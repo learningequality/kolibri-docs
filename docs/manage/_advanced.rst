@@ -12,7 +12,7 @@ Working with Kolibri from the Command Line
 
   * On macOS you may need to prefix the commands with ``python``, for example ``python kolibri start``.
 
-  * If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.10.pex``, type ``./kolibri-v0.10.pex start``.
+  * If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.11.pex``, type ``./kolibri-v0.11.pex start``.
 
   * Make sure not to include the angle brackets “< >” in the commands below.*
 

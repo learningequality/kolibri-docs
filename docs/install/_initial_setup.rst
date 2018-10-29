@@ -46,7 +46,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
   	.. figure:: img/sign-up.png
 	   :alt: Step 4 of 7 where you can permit anyone to create a user account for themselves, or if user accounts must be created by Kolibri admins.
 
-	   Select if anyone can create a user account for themself, or if user accounts must be created by Kolibri admins.
+	   Select if anyone can create a user account for themselves, or if user accounts must be created by Kolibri admins.
 
 
 #. **Enable passwords for learners.** Simplified sign-in, without the password requirement, allows easier access for younger learners.
