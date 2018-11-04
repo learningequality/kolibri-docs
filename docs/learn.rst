@@ -20,7 +20,7 @@ Sign in to Kolibri
 To sign in to **Kolibri** and start learning, follow these steps:
 
 #. Type your username and password (may be optional).
-#. Click the **SIGN IN** button.
+#. Click the :guilabel:`SIGN IN` button.
 
 	.. figure:: img/login-modal.png
 	  :alt: Input your username and password (if required) on the main sign in page.
@@ -62,9 +62,9 @@ Create an account
 
 To create your own account on a **Kolibri** facility and start learning, follow these steps:
 
-#. Click **Create an account** button on :ref:`Kolibri sign in page <sign_in_page>`. 
-#. Think of and type in your chosen username and password (twice).
-#. Click the **Finish** button.
+#. Click :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
+#. Type in your chosen username and password (twice).
+#. Click the :guilabel:`FINISH` button.
 
 When page reloads you will see the Learn page with Kolibri channels.
 
@@ -139,7 +139,7 @@ Search
 If you are looking for a specific subject, topic, or term, use the **Search** feature:
 
 #. Type the word or combination of words you are looking for in the search field located in the top bar.
-#. Press **Enter** or click the |search| button to display the results.
+#. Press :guilabel:`Enter` or click the |search| button to display the results.
 #. Filter the search results by channel or type of content.
 
 	.. figure:: img/search.png
@@ -187,10 +187,10 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 #. **Read the question carefully**.
 #. Write the answer or choose one of the provided options.
-#. When you are ready to submit, click the **Check** button.
+#. When you are ready to submit, click the :guilabel:`CHECK` button.
 
-   * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the **Next** button to proceed.
-   * If the answer is incorrect, read the question again, and try another answer. You can also click the **Use a hint** button, read the suggestions, and try to answer again.
+   * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
+   * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` button, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
@@ -198,7 +198,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the **Next resource** below to continue learning with the rest of the material in that topic.
+#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the :guilabel:`NEXT RESOURCE` below to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 	.. figure:: img/exercise.png
@@ -229,7 +229,7 @@ To play videos and listen to audio files in Kolibri you have several available c
 * Fullscreen button
 
 
-Use the **Download content** button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
+Use the :guilabel:`DOWNLOAD CONTENT` button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
 
 
 PDF Viewer options
@@ -238,9 +238,9 @@ PDF Viewer options
 .. note::
   Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri.
 
-* Use the **Enter fullscreen** button to open the PDF file in fullscreen view.
-* Use the **Esc** key to close the fullscreen view and return.
-* Use the **Download content** button below the PDF viewer to download the PDF file to your computer.
+* Use the :guilabel:`Enter fullscreen` button to open the PDF file in fullscreen view.
+* Use the :guilabel:`Esc` key to close the fullscreen view and return.
+* Use the :guilabel:`DOWNLOAD CONTENT` button below the PDF viewer to download the PDF file to your computer.
 
 	.. figure:: img/pdf.png
 		:alt: 
@@ -255,8 +255,8 @@ To read digital books in Kolibri you have several available controls at the top 
 * Open the **Settings** to adjust the text size and the background color 
 * If you want to search for a word or a phrase, use the **magnifying glass** button
 * Use the **Enter fullscreen** button in the upper right corner to open the ebook in fullscreen view.
-* Use the **Esc** key to close the fullscreen view and return.
-* Use the **Download content** button below the viewer to download the ePub file to your computer.
+* Use the :guilabel:`Esc` key to close the fullscreen view and return.
+* Use the :guilabel:`DOWNLOAD CONTENT` button below the viewer to download the ePub file to your computer.
 
 	.. figure:: img/epub.gif
 		:alt: 
@@ -288,7 +288,7 @@ If your teacher or coach scheduled an *exam* (|exams| icon) for you or your clas
 If the exam is listed as *Not started*, follow these steps.
 
 #. Click on the exam when you are ready to start taking it.
-#. You can go on answering the questions in the order you prefer: move through questions with **Previous** and **Next question** buttons, or click on the question number in the column on the left side.
+#. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT QUESTION` buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
 		:alt: 
@@ -296,7 +296,7 @@ If the exam is listed as *Not started*, follow these steps.
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
 #. Press the *Back to exam list* if you want to pause the exam and come back later. 
-#. Press the button **Submit exam** when you want to submit it for grading. 
+#. Press the button :guilabel:`SUBMIT EXAM` when you want to submit it for grading. 
 
 Exam that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
 

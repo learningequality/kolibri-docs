@@ -13,7 +13,7 @@ Due to the open-source nature of our work, we encourage that all inquiries, inpu
 
 The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* ) 
 
-You can add a new topic with the **+ New Topic** button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes.
+You can add a new topic with the :guilabel:`+ New Topic` button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes.
 
 .. image:: img/community-forums.png
   :alt: add new topic on community forums

@@ -20,18 +20,18 @@ Create New Lesson
 
 To create a new lesson, follow these steps.
 
-1. Click the **New lesson** button.
+1. Click the :guilabel:`NEW LESSON` button.
 2. Fill in the field for the lesson title, description and choose the group(s) or the entire class as the recipients. 
 
   .. figure:: img/new-lesson.png
     :alt: 
 
-3. Click the **Continue** button. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
+3. Click :guilabel:`CONTINUE`. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
 
   .. figure:: img/lesson-options.png
     :alt: New lesson with no resources added; navigate to Options button and click to open it for more actions.
 
-4. Click the **Manage resources** button, and select the content channel from which you wish to select resources for the lesson.
+4. Click :guilabel:`MANAGE RESOURCES` and select the content channel from which you wish to select resources for the lesson.
 
   .. figure:: img/select-lesson-resources.png
     :alt: This window presents a list of channels from which you can choose to add resources to the lesson.
@@ -41,7 +41,7 @@ To create a new lesson, follow these steps.
   .. figure:: img/select-lesson-resources2.png
     :alt: 
 
-6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the **Enter** key or click the |search| button to display the results. 
+6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| button to display the results. 
    
   .. figure:: img/search-lesson-resources.png
     :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
@@ -50,7 +50,7 @@ To create a new lesson, follow these steps.
 
 7. Close the **Manage resources** window when you finish to return to the main view of the lesson.
 
-8. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the **Remove** button to delete them. You will see a confirmation notification at the bottom.
+8. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the :guilabel:`REMOVE` to delete them. You will see a confirmation notification at the bottom.
 
   .. figure:: img/reorder-lesson-resources.png
     :alt: 
@@ -65,7 +65,7 @@ A newly created lesson is *Inactive* by default, meaning that learners will not 
 
 1. Click the **Change** link under the *Status* heading.
 2. Select **Active** or **Inactive**.
-3. Click **Save** to confirm, or **Cancel** to exit without change.
+3. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
 
   .. figure:: img/change-lesson-status.png
     :alt: 
@@ -76,9 +76,9 @@ Change Lesson Visibility
 You can change the visibility of the lesson that you set when you initially created it. To reassign the lesson to a different group, or entire class, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click the **Options** button, and select **Edit details**.
+#. Click :guilabel:`OPTIONS` and select **Edit details**.
 #. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Visible to* heading.
-#. Click **Save** to confirm, or **Cancel** to exit without change.
+#. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
 View Lesson Progress
@@ -97,14 +97,14 @@ Copy Lesson
 To copy a lesson to a different group or another class of your facility, follow these steps.
 
 1. Select the desired lesson from the list in the **Lessons** tab.
-2. Click the **Options** button, and select **Copy lesson**.
+2. Click :guilabel:`OPTIONS` and select **Copy lesson**.
 
     .. figure:: img/copy-lesson.png
       :alt: 
 
 3. Select the class to which you wish to copy the lesson to.
 4. If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson.
-5. Click **Save** to confirm, or **Cancel** to exit without change.
+5. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.
 
@@ -115,9 +115,9 @@ Rename Lesson
 To rename a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click the **Options** button, and select **Edit details**.
+#. Click :guilabel:`OPTIONS` and select **Edit details**.
 #. Change the lesson title in the confirmation window.
-#. Click **Save** to proceed, or **Cancel** to exit without renaming the lesson.
+#. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without renaming the lesson.
 
 
 Delete Lesson
@@ -126,5 +126,5 @@ Delete Lesson
 To delete a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click the **Options** button, and select **Delete**.
-#. Click **Delete** in the confirmation window to proceed, or **Cancel** to exit without deleting the lesson.
+#. Click :guilabel:`OPTIONS` and select **Delete**.
+#. Click :guilabel:`DELETE` in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the lesson.

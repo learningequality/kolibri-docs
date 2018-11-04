@@ -127,6 +127,8 @@ Change Language
 +-----------------------+-----------------+
 | Arabic                | ``ar``          | 
 +-----------------------+-----------------+
+| Bulgarian             | ``bg``          | 
++-----------------------+-----------------+
 | Farsi                 | ``fa``          | 
 +-----------------------+-----------------+
 | Hindi (India)         | ``hi-in``       | 
@@ -141,8 +143,11 @@ Change Language
 +-----------------------+-----------------+
 | Telugu                | ``te``          | 
 +-----------------------+-----------------+
-| Tamil                 | ``ta``          | 
+| Vietnamese            | ``vi``          | 
 +-----------------------+-----------------+
+| Yoruba                | ``yo``          | 
++-----------------------+-----------------+
+
 
 
 Backup and Restore Kolibri Database
@@ -254,9 +259,9 @@ Restart the server, and your files should be seamlessly detected at the new loca
 
 Alternatively, you can follow these steps in the GUI.
 
-#. Go to **Computer > Advanced System Settings** and press the **Environment Variables** button.
-#. Under **User Variables for...** press the **New...** button.
-#. Input ``KOLIBRI_HOME`` in the **Variable name** field, and your new path in the **Variable value** field, and press **OK** on both open windows.
+#. Go to **Computer > Advanced System Settings** and press the :guilabel:`Environment Variables` button.
+#. Under **User Variables for...** press the :guilabel:`New...` button.
+#. Input ``KOLIBRI_HOME`` in the **Variable name** field, and your new path in the **Variable value** field, and press :guilabel:`OK` on both open windows.
 
     .. figure:: img/env-vars.png
       :alt: 

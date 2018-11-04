@@ -36,7 +36,7 @@ Uninstall
 1. Open the Windows Control Panel.
 2. Select **Programs and Features** option.
 3. Select Kolibri from the list of programs.
-4. Click the button **Uninstall/Change** and follow the instructions.
+4. Click the button :guilabel:`Uninstall/Change` and follow the instructions.
 
 
 Upgrade

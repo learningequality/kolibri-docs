@@ -18,9 +18,9 @@ Add New Class
 
 To add a new class, follow these steps.
 
-#. Click **New class** button.
+#. Click :guilabel:`NEW CLASS`.
 #. Fill in the class name.
-#. Click **Save** to add the new class, or **Cancel** to exit.
+#. Click :guilabel:`SAVE` to add the new class, or :guilabel:`CANCEL` to exit.
 
 
 Delete Class
@@ -28,8 +28,8 @@ Delete Class
 
 To delete class, follow these steps.
 
-#. Click **Delete class** button for the chosen class from the list.
-#. Click **Delete** in the confirmation window to proceed, or **Cancel** to exit without deleting the class.
+#. Click :guilabel:`DELETE CLASS` for the chosen class from the list.
+#. Click :guilabel:`DELETE` in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the class.
 
 .. note::
   Users enrolled in the class you are deleting will not be removed from the database.
@@ -49,7 +49,7 @@ A newly created class does not have any learners or coaches. To edit a class sel
 Enroll Learners in Class
 ************************
 
-#. Click the **Enroll learners** button on the class details page.
+#. Click the :guilabel:`ENROLL LEARNERS` button on the class details page.
 
     * List in this view contains all the learners currently **NOT** enrolled for the selected class.
     * You can search for a specific learner by name.
@@ -59,13 +59,13 @@ Enroll Learners in Class
 
 
 #. Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll to class.
-#. Click **Confirm** button to finish enrolling the selected learners and return to the main class page.
+#. Click :guilabel:`CONFIRM` to finish enrolling the selected learners and return to the main class page.
 
 Remove Learners from Class
 **************************
 
-#. Click **Remove** button for the chosen learner.
-#. Click **Remove** to confirm, or **Cancel** to exit without removing the learner.
+#. Click :guilabel:`REMOVE` for the chosen learner.
+#. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the learner.
 
     .. figure:: img/remove-user-from-class.png
       :alt: 
@@ -78,7 +78,7 @@ Remove Learners from Class
 Assign Coaches to Class
 ***********************
 
-1. Click the **Assign coaches** button on the class details page.
+1. Click the :guilabel:`ASSIGN COACHES` on the class details page.
 
   * List in this view contains all the users with *Coach*, *Facility coach* or *Admin* roles.
   * You can search for a specific user by name.
@@ -88,13 +88,13 @@ Assign Coaches to Class
 
 
 2. Use checkboxes to select all the users in the list, or the search field for specific users you want to assign as a coach to class.
-3. Click **Confirm** button to finish.
+3. Click :guilabel:`CONFIRM` to finish.
 
 Remove Coaches from a Class
 ***************************
 
-#. Click **Remove** button for the chosen user.
-#. Click **Remove** to confirm, or **Cancel** to exit without removing the coach.
+#. Click :guilabel:`REMOVE` for the chosen coach.
+#. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the coach.
 
   .. figure:: img/remove-coach-from-class.png
     :alt: 
@@ -108,6 +108,6 @@ Rename Class
 
 To edit class name, follow these steps.
 
-#. Click on the **Edit** button (|edit| icon) next to the class’ name.
+#. Click on the edit button (|edit| icon) next to the class’ name.
 #. Write the new name in the **Class name** field.
-#. Click **Save** to confirm the edited information, or **Cancel** to exit without saving.
+#. Click :guilabel:`SAVE` to confirm the edited information, or :guilabel:`CANCEL` to exit without saving.

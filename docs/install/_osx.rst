@@ -35,7 +35,7 @@ To install Kolibri on Linux distributions other than Debian, as well as on MacOS
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
    
-.. warning:: Remember that **PEX** package allows you to run Kolibri on your system **only while the process is active in the Terminal window**. If that process is stopped (by either pressing :guilabel:`Ctrl+C`, closing the Terminal, or restarting your system), you will need to repeat the above steps to start Kolibri again. User accounts, classes and groups you create, as well as the content channels you download, will be available every time you restart Kolibri. 
+.. warning:: Remember that **PEX** package allows you to run Kolibri on your system **only while the process is active in the Terminal window**. If that process is stopped (by either pressing :guilabel:`Ctrl` + :guilabel:`C`, closing the Terminal, or restarting your system), you will need to repeat the above steps to start Kolibri again. User accounts, classes and groups you create, as well as the content channels you download, will be available every time you restart Kolibri. 
 
 
 Uninstall

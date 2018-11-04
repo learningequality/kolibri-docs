@@ -24,9 +24,9 @@ Permission to Manage Content
 
 To grant permission to another user to manage content channels in Kolibri, that is to import, export and delete them from the device, follow these steps.
 
-#. Click **Edit permissions** for the chosen user.
+#. Click :guilabel:`EDIT PERMISSIONS` for the chosen user.
 #. Under **Device permissions** activate the option *Can import and export content channels*.
-#. Click **Save changes** to apply and finish.
+#. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
 	.. figure:: img/manage-content-permissions.png
 	  :alt: Use the checkbox to grant the chosen user permissions to manage content
@@ -39,9 +39,9 @@ Super Admin Permissions
 
 To grant **super admin** permissions to another user, follow these steps.
 
-#. Click **Edit permissions** for the chosen user.
+#. Click :guilabel:`EDIT PERMISSIONS` for the chosen user.
 #. Activate the option *Make super admin*.
-#. Click **Save changes** to apply and finish.
+#. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
 	.. figure:: img/coach-superuser.png
 	  :alt: Use the checkbox to grant the chosen user super admin permissions

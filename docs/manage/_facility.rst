@@ -12,7 +12,7 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
 	* download content items (videos, documents, etc.) on their own devices 
 	* browse content without signing in
 	* create accounts on your facility 
-#. Click **Save changes** to apply and finish.
+#. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
     .. figure:: img/manage-facility.png
       :alt: Open Facility page, navigate to Settings tab, and use the checkboxes to activate or deactivate the available options.
