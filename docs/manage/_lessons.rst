@@ -36,7 +36,7 @@ To create a new lesson, follow these steps.
   .. figure:: img/select-lesson-resources.png
     :alt: This window presents a list of channels from which you can choose to add resources to the lesson.
 
-5. Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson, and you will see a snackbar confirmation at the bottom that the resource has been added.
+5. Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson, and you will see a notification at the bottom of the page that the resource has been added.
 
   .. figure:: img/select-lesson-resources2.png
     :alt: 

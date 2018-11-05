@@ -214,8 +214,3 @@ To delete a content channel from your device, follow these steps.
       :alt: 
     
 #. Click :guilabel:`DELETE` to proceed, or :guilabel:`CANCEL` to exit without deleting the channel.
-
-
-.. Peer-to-Peer Content Synchronization
-
-.. Hiding this as it is covered under import from local network, right?

@@ -289,6 +289,8 @@ For some advanced configuration settings you need to use the ``option.ini`` file
 .. note::
   ``option.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation.   
    
+.. _port:
+
 
 Run Kolibri from a Different Port
 *********************************
