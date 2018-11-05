@@ -32,6 +32,7 @@ The following commands work on Linux/macOS for setting up the .img files provide
 
 .. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`__
 
+
 Updating the software
 ---------------------
 
@@ -52,6 +53,7 @@ General system configuration
 
 Run ``sudo raspi-config`` for the general setup options such as keyboard layout, timezone etc.
 
+.. warning:: Always change your password after setting up device. The default password for the user ``pi`` is ``raspberry``.
 
 Setting up a hotspot
 --------------------
