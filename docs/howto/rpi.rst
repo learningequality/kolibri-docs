@@ -95,9 +95,9 @@ It is defined in the configuration file ``/etc/dhcpcd.conf``, which you can edit
 
 .. code-block:: console
 
-  sudo nano /etc/network/interfaces.d/hotspot.conf
+  sudo nano /etc/dhcpcd.conf
 
-Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
+Use the arrow keys to navigate to the end of the file, then copy and paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
 
 .. code-block:: text
 
@@ -105,7 +105,7 @@ Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` t
       static ip_address=192.168.4.1/24
       nohook wpa_supplicant
 
-Finally, after installing the new ``hostapd`` and ``dnsmasq`` packages and setting a static IP, you should reboot the system.
+After installing the new ``hostapd`` and ``dnsmasq`` packages and setting a static IP, you should reboot the system.
 
 .. code-block:: console
 
