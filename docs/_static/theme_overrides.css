@@ -50,6 +50,12 @@ div.figure {
 	color: #2196f3;
 }
 
+.outline {
+    padding-bottom: 1px !important;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
 .schedule {
 	padding-bottom: 1px !important;
 	background-color: #2196f3;

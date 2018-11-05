@@ -238,7 +238,8 @@ PDF Viewer options
 .. note::
   Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri.
 
-* Use the :guilabel:`Enter fullscreen` button to open the PDF file in fullscreen view.
+* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* With the :guilabel:`+` and :guilabel:`-` buttons you can zoom the document in and out.
 * Use the :guilabel:`Esc` key to close the fullscreen view and return.
 * Use the :guilabel:`DOWNLOAD CONTENT` button below the PDF viewer to download the PDF file to your computer.
 
@@ -249,13 +250,14 @@ PDF Viewer options
 Ebook Viewer options
 """"""""""""""""""""
 
-To read digital books in Kolibri you have several available controls at the top and bottom of the viewer.
+To read digital books in Kolibri you have several available controls inside the reader.
 
-* **Table of content** button in the upper left corner allows you to view the book chapters
-* Open the **Settings** to adjust the text size and the background color 
-* If you want to search for a word or a phrase, use the **magnifying glass** button
-* Use the **Enter fullscreen** button in the upper right corner to open the ebook in fullscreen view.
-* Use the :guilabel:`Esc` key to close the fullscreen view and return.
+* Use the |toc| button in the upper left corner to view the table of content with all the book chapters.
+* Click the |epub-settings| button to adjust the text size and the background color. 
+* If you want to search for a word or a phrase, use the |search| button.
+* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Close the fullscreen view with the :guilabel:`Esc` key.
+* Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
 * Use the :guilabel:`DOWNLOAD CONTENT` button below the viewer to download the ePub file to your computer.
 
 	.. figure:: img/epub.gif
