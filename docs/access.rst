@@ -18,7 +18,7 @@ Kolibri Taskbar Options
 While it is running, **Kolibri** will display an icon in the Windows taskbar (usually at bottom right, near the clock), that allows you to stop it and configure other settings.  
 
     .. figure:: img/taskbar-options.png
-     :alt: Kolibri taskbar options.
+     :alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
 
      Kolibri taskbar options.
 
@@ -37,7 +37,7 @@ Starting Kolibri on Linux or MacOS
 
 Starting Kolibri on Linux and MacOS will differ depending on the method you used to install it.
 
-* If you used the :ref:`PEX package <pex>`, Kolibri will be accessible as long as the process is running in the `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_.  
+* If you used the **PEX** package, Kolibri will be accessible as long as the process is running in the `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_. If you stop the process, close the Terminal window, or restart your system, you will need to :ref:`run the PEX again <pex>` to restart Kolibri. 
 
 * If you installed Kolibri as a system service with the :ref:`DEB installer <lin_deb>`, it will run automatically on each system restart, and you do not need to start it manually. Proceed to step 2 below.
 
@@ -51,7 +51,7 @@ Starting Kolibri on Linux and MacOS will differ depending on the method you used
 
     .. warning:: On macOS you may need to prefix the command with ``python``, and type ``python -m kolibri start`` instead.
 
-  2. Open the default browser at ``http://127.0.0.1:8080`` displaying the **Kolibri** start page.
+  2. Open the default browser at ``http://127.0.0.1:8080``, and it will display the **Kolibri** start page.
 
     .. note::
       Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
@@ -83,8 +83,8 @@ Kolibri currently supports the following combinations of operating systems and b
 
 .. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
 
-Setup Access on Other Devices
-*****************************
+Set up Access on Other Devices
+******************************
 
 To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. 
 
@@ -95,7 +95,7 @@ For example, if Kolibri is installed and started on a computer with the IP addre
   * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard.
 
     .. figure:: img/device-info.png
-      :alt: Find the IP/Server URL in the Device > Info tab.
+      :alt: Open the Device page and navigate to the Info tab to find the IP (Server URL) for your device.
 
       Find the IP/Server URL in the Device > Info tab.
   
@@ -128,7 +128,7 @@ To change language in which the **Kolibri** user interface is displayed, follow 
 #. Open your user menu in the upper right corner.
 #. Select the **Change language** option.
 #. Choose the desired language.
-#. Click **Confirm** and Kolibri will be displayed in the selected language!
+#. Click :guilabel:`CONFIRM` and Kolibri will be displayed in the selected language!
 
 .. warning::
   The default language configured in your browser preferences might override the language configured in Kolibri. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content.

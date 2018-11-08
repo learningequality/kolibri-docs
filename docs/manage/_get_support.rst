@@ -1,38 +1,7 @@
 .. _support:
 
-Support and Troubleshooting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. _forums:
-
-Report a problem with Kolibri
------------------------------
-
-If you want to contact the **Learning Equality** Support team to report an issue, or share your experience about using Kolibri, please register at our `Community Forums <https://community.learningequality.org/>`_.
-
-Once you register on our forums, please read the the first two pinned topics (*Welcome to Learning Equality Support Community* and *How do I post to this forum?* ) 
-
-You can add a new topic with the **+ New Topic** button on the right. Make sure to select the **Kolibri** category in the **Create a New Topic** window so it’s easier to classify and respond to.
-
-.. image:: img/community-forums.png
-  :alt: add new topic on community forums
-
-
-Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs.
-
-
-Locate Kolibri log files
-------------------------
-
-When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing. 
-
-Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate these two files:
-
-* ``kolibri.log``
-* ``debug.log``
-
-.. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
-
+Troubleshooting
+~~~~~~~~~~~~~~~
 
 .. _network:
 
@@ -40,24 +9,12 @@ Troubleshoot Network Issues
 ---------------------------
 
 #. Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the address bar of the browser?
-#. Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself?
+#. Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself? Read more information :ref:`about IP addresses <ips>`.
 #. Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:
 
-  .. code-block:: bash
-
-    ping 192.168.0.104
-
-
-.. _ips:
-
-About IP addresses
-******************
-
-* ``0.0.0.0`` = A special IP address on the **server** (your device running Kolibri and "serving" its content to others in the local network), which actually means "all available IP addresses". It's a kind of alias. But accessing ``0.0.0.0`` from another computer doesn't make sense and doesn't work. By default, Kolibri will serve on ``0.0.0.0``, which essentially means all IP addresses that are available on the device will render Kolibri accessible.
-* ``127.0.0.1`` = A device's local IP address, meaning "myself". Some people joke and say "There's no place like 127.0.0.1", meaning "there's no place like home" :) This can be used on the serving device itself to test that Kolibri is running, in case you need a failsafe way of checking that Kolibri is in fact running and responsive.
-* ``192.x.y.z`` = Addresses starting with ``192`` are local network IP addresses. The same thing can be said about ``10.x.y.z``. The address that you wanna use to enter on the clients/tablets in order to contact the server will in most cases start with ``192`` or ``10``.
-* Port number: Kolibri runs on port ``8080``. When you access something on an IP address, you need a port. Ports can be open or closed on the server, but they can also be regulated by firewall rules on the way. ``http://`` <- this is the protocol that the browser reads out from the "URL", which is just some text that describes Kolibri.
-* ``http://192.168.1.1:8080`` means: "Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol". The browser will the continue to try to reach this address, but may fail for instance if Kolibri isn't running, or if a step along the way blocks access.
+	.. code-block:: bash
+	   
+	   ping 192.168.0.104
 
 
 .. _firewalls:
@@ -107,3 +64,30 @@ Kolibri needs read and write access to USB drives in order to import and export 
 * **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning content data.
 
 * **Hardware life expectancy**: SD and flash storage drives can "expire". Reading and writing large quantities of content data, especially on older or models with smaller capacity, may produce data errors over time.
+
+
+Locate Kolibri log files
+------------------------
+
+When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing. 
+
+Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate these two files:
+
+* ``kolibri.log``
+* ``debug.log``
+
+.. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
+
+
+.. _ips:
+
+About IP addresses
+------------------
+
+.. ``0.0.0.0`` = A special IP address on the **server** (your device running Kolibri and "serving" its content to others in the local network), which actually means "all available IP addresses". It's a kind of alias. But accessing ``0.0.0.0`` from another computer doesn't make sense and doesn't work. By default, Kolibri will serve on ``0.0.0.0``, which essentially means all IP addresses that are available on the device will render Kolibri accessible.
+
+* ``127.0.0.1`` IP address, or ``localhost``, is device's own IP address. You can use it in the browser on the device where Kolibri is running to make sure it is working correctly. 
+* Aside from its own `localhost <https://en.wikipedia.org/wiki/Localhost>`_ address, a device running Kolibri also has an external IP address like ``192.*.*.*`` or ``10.*.*.*``, under which it is recognized by other devices in the same local network. That is the IP address that you need to use in the :ref:`browsers on client devices <access_LAN>` (learner tablets or computers), to connect with Kolibri server.
+* Kolibri by default runs on the port number ``8080``, but you can :ref:`change this setting <port>` to meet your particular needs.
+* So when you type the full IP address like ``http://192.168.1.1:8080`` in the browser of a client device, you are telling it to: "Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol, and display its content".
+
