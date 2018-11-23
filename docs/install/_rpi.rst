@@ -32,7 +32,7 @@ Install
       sudo apt update
       sudo apt install kolibri
 
-   When asked questions during the installation, it is recommended that you use the default ``pi`` command for running Kolibri because it will have access to USB devices.
+   When asked questions during the installation, it is recommended that you use the default ``pi`` user for running Kolibri because it will have access to USB devices.
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 

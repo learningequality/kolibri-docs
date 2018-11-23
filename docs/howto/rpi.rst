@@ -1,3 +1,5 @@
+.. _how_to_rpi_wifi:
+
 Raspberry Pi
 ============
 
@@ -103,7 +105,9 @@ Use the arrow keys to navigate to the end of the file, then copy and paste the f
 
   interface wlan0
       static ip_address=192.168.4.1/24
-      nohook wpa_supplicant
+      nohook resolv.conf, wpa_supplicant
+
+Then, make your current local DNS available
 
 After installing the new ``hostapd`` and ``dnsmasq`` packages and setting a static IP, you should reboot the system.
 
@@ -126,7 +130,7 @@ We create a new configuration file for ``dnsmasq`` in the appropriate location a
 
 .. code-block:: console
 
-  sudo nano /etc/dnsmasq.d/hotspot
+  sudo nano /etc/dnsmasq.d/hotspot.conf
 
 Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
 
@@ -195,7 +199,13 @@ Setting up a "Captive portal"
 
 In the previous step, we have configured the Raspberry Pi to tell devices on the local offline hotspot that whatever resource they request such as ``http://domain.com``, it should resolve to the Raspberry Pi's static IP address ``192.168.4.1``.
 
-In
+Firstly, install the HTTP server nginx:
+
+.. code-block:: console
+
+  sudo apt install nginx
+
+Then, you need to edit and adapt your default Captive Portal page. You can use :download:`this template </data/captive_portal_index.html>`.
 
 Attaching USB storage
 ---------------------
@@ -230,6 +240,17 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
         sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri
         # Start kolibri
         sudo systemctl kolibri start
+
+
+Other tips
+----------
+
+You may encounter warnings like ``Can't set locale; make sure $LC_* and $LANG are correct!`` while installing software about the system locale. Typically, these are missing UTF-8 locales for your chosen system locale. These can be fixed by running this from command line:
+
+.. code-block:: console
+
+  # Run this and select the appropriate missing UTF-8 locales
+  sudo dpkg-reconfigure locales
 
 
 Saving your image for replication
