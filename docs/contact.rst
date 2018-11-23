@@ -3,7 +3,7 @@
 Get in touch
 ============
 
-
+.. _forums:
 .. _get_support_ref:
 
 Getting support from Learning Equality and our community
@@ -13,10 +13,11 @@ Due to the open-source nature of our work, we encourage that all inquiries, inpu
 
 The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* ) 
 
-You can add a new topic with the **+ New Topic** button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes.
+You can add a new topic with the :guilabel:`+ New Topic` button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes.
 
 .. image:: img/community-forums.png
   :alt: add new topic on community forums
+
 
 Feedback
 --------
@@ -30,6 +31,9 @@ new ideas to the `Community Forums <https://community.learningequality.org/>`_.
 
 Technical issues
 ~~~~~~~~~~~~~~~~~
+
+Try reading the :ref:`Troubleshooting <support>` section of this guide first.
+
 
 In order to report  a technical issue, you can either use the *Support* category in our forum, or open up an issue report in our public software repository, following the guidelines:
 

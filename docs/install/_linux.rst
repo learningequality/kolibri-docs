@@ -6,7 +6,9 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life
+Debian/Ubuntu 14.04 and up - anything that's *not* end-of-life
+
+.. warning:: Django 1.11 used in Kolibri isn't compatible with Python 3.7. You will need to downgrade to Python 3.4-3.6, set them to run in parallel, or use Python 2.7. For a workaround and more details `read this thread <https://github.com/learningequality/kolibri/issues/4182#issuecomment-419408270>`_.
 
 .. _ppa:
 
@@ -30,7 +32,7 @@ Install from a .deb file
 
 The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
 
-#. Download the latest Kolibri `.deb installer <https://learningequality.org/r/kolibri-deb-latest>`_, or have it copied to your local drive.
+#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.11**, or have it copied to your local drive.
 #. Run this command from the location where you downloaded the ``DEB`` file:
 
    .. code-block:: bash

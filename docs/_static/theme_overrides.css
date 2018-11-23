@@ -1,12 +1,43 @@
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+.rst-content blockquote {
+	margin-left: 5px;
+}
+
+div.figure {
+    padding: 4px;
+    /*background-color: #fff;*/
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: auto 5px;
+}
+
+.rst-content div.figure p.caption {
+    border-top: 1px solid #ddd;
+    margin: auto 5px;
+    padding-top: 5px;
+}
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
        this as on RTD they are loaded after this stylesheet */
     white-space: normal !important;
     vertical-align: top !important;
  }
+
+/* Change background color to match Kolibri brand */
+ .wy-side-nav-search {
+    background-color: #996189 !important;
+ }
+
+.wy-nav-top {
+    background: #996189 !important;   
+}
+
+/* Improve the contrast for the version number.*/
+.wy-side-nav-search > div.version {
+    color: rgba(255,255,255,0.9);
+}
 
 .material-icons {
     display: inline-flex;
@@ -17,6 +48,12 @@
 
 .local_library {
 	color: #2196f3;
+}
+
+.outline {
+    padding-bottom: 1px !important;
+    border: 2px solid;
+    border-radius: 50%;
 }
 
 .schedule {
@@ -36,3 +73,25 @@
 img {
 	height: 1.2em;
 	vertical-align: text-bottom;
+}
+
+.rst-content span.guilabel {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    display: inline-block;
+    font-size: 80%;
+    font-weight: normal;
+    line-height: 10px;
+    padding: 4px 5px 3px;
+    margin-top: -2px;
+    vertical-align: middle;
+    font-family: Consolas, Menlo, Courier, "Courier New", monospace;
+}
+
+.rst-content div.highlight {
+    background: #feffe9 !important;
+}

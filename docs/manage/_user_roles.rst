@@ -18,12 +18,12 @@ Kolibri users by default can be divided in 3 different roles with respective acc
 |  * Create/Edit/Delete *Exams* and assign them to users                                               |
 |  * Create/Edit/Delete *Lessons* and assign them to users                                             |
 |                                                                                                      |
-|  *Facility Coaches* have access to all classes, *Class Coaches* only to ones they are assigned to    |
+|  *Facility coaches* have access to all classes, *class coaches* only to ones they are assigned to    |
 +------------------------------------------------------------------------------------------------------+
 | **Admins** can:                                                                                      |
 |  * View content and have their progress tracked                                                      |
 |  * View *Coach* dashboard and track progress of other users and usage stats for individual exercises |
-|  * Create/Edit/Delete other **Admins**, **Coaches**, and **Learners**                                |
+|  * Create/Edit/Delete other **admins**, **coaches**, and **learners**                                |
 |  * Create/Edit/Delete *Classes* and enroll users in them                                             |
 |  * Create/Edit/Delete *Groups* in *Classes* and add users to them                                    |
 |  * Create/Edit/Delete *Exams* and assign them to users                                               |
@@ -32,15 +32,15 @@ Kolibri users by default can be divided in 3 different roles with respective acc
 |  * Export *Detail* and *Summary* logs usage data                                                     |
 +------------------------------------------------------------------------------------------------------+
 
-Kolibri Superusers
-------------------
+Kolibri Super Admins
+--------------------
 
-Kolibri **Superusers** have all device permissions and are able to :ref:`assign them to other users <permissions>`. Therefore **Superusers** can:
+Kolibri **super admin** users have all device permissions, and are able to :ref:`assign them to other users <permissions>`. Therefore **super admin** users can:
 
 +------------------------------------------------------------------------------------------------------+
 |  * View content and have their progress tracked                                                      |
 |  * View *Coach* dashboard and track progress of other users and usage stats for individual exercises |
-|  * Create/Edit/Delete other **Admins**, **Coaches**, and **Learners**                                |
+|  * Create/Edit/Delete other **admins**, **coaches**, and **learners**                                |
 |  * Create/Edit/Delete *Classes* and enroll users in them                                             |
 |  * Create/Edit/Delete *Groups* in *Classes* and add users to them                                    |
 |  * Create/Edit/Delete *Exams* and assign them to users                                               |
@@ -52,9 +52,9 @@ Kolibri **Superusers** have all device permissions and are able to :ref:`assign 
 +------------------------------------------------------------------------------------------------------+
 
 .. tip::
-   If you are unable to retrieve the username and password for a superuser account in your facility, you can :ref:`create a new superuser account using the command line <create_superuser>`.
+   If you are unable to retrieve the username and password for a super admin account in your facility, you can :ref:`create a new super admin account using the command line <create_superuser>`.
 
 Assign Additional Permissions
 -----------------------------
 
-By default, only **Superusers** can view the **Device** dashboard, import/export **Content** channels in Kolibri, and modify **Permissions** for other users. However, depending on the needs of the institution, **Superusers** can also :ref:`grant these permissions <permissions>` to other users.
+By default, only **super admin** users can view the **Device** dashboard, import/export **Content** channels in Kolibri, and modify **Permissions** for other users. However, depending on the needs of the institution, **super admin** users can also :ref:`grant these permissions <permissions>` to other users.

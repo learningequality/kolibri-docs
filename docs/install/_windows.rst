@@ -13,7 +13,7 @@ Compatibility
 Install
 -------
 
-#. Download the Kolibri `Windows installer <https://learningequality.org/r/kolibri-windows-setup-latest>`_.
+#. Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version 0.11**.
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
 #. Python 3 installer is included, confirm the installation or the upgrade to proceed.
@@ -25,7 +25,7 @@ Install
   Windows firewall will prompt you to allow the Python process needed to run Kolibri. Click **Allow access** to accept and proceed.
 
 	.. figure:: img/windows-firewall.png
-	 :alt: Allow the Python process needed to run Kolibri.
+	 :alt: Windows security alert window that opens when Windows firewall needs your permission to allow the Python process, needed to run Kolibri, to be executed on your computer.
 
 	 Allow the Python process needed to run Kolibri.
 
@@ -36,7 +36,7 @@ Uninstall
 1. Open the Windows Control Panel.
 2. Select **Programs and Features** option.
 3. Select Kolibri from the list of programs.
-4. Click the button **Uninstall/Change** and follow the instructions.
+4. Click the button :guilabel:`Uninstall/Change` and follow the instructions.
 
 
 Upgrade
@@ -44,7 +44,7 @@ Upgrade
 
 To upgrade Kolibri, follow these steps.
 
-#. Download the new version of Kolibri `Windows installer <https://learningequality.org/r/kolibri-windows-setup-latest>`_.
+#. Download the new version of Kolibri `Windows installer <https://learningequality.org/download/>`_.
 #. Double-click the downloaded ``.exe`` file.
 #. Follow the instructions in the installation wizard window.
 #. Once the installation of the upgrade is finished, Kolibri will auto-start and open in the default browser on your computer.
