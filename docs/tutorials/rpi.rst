@@ -209,6 +209,11 @@ Setting up a "Captive portal"
 
 You don't have to set up a "Captive Portal", but it's a good idea, since the behavior will make the user experience better. Users won't have to guess the location (hostname / domain) of services on the Raspberry Pi, and many devices support displaying your welcome page automatically upon connecting to the wifi.
 
+.. figure:: /img/captive_portal_screenshot.png
+    :alt: Captive portal screenshot
+
+    This type of dialogue will appear on many devices when they detect a successful WIFI connection without an internet connection.
+
 In the previous step, we have configured the Raspberry Pi to tell devices on the local offline hotspot that whatever resource they request such as ``http://domain.com``, it should resolve to the Raspberry Pi's static IP address ``192.168.4.1``.
 
 Firstly, install the HTTP server nginx:
@@ -233,7 +238,7 @@ Installing Kolibri
 
 **Firstly**, follow the main instructions for installing :ref:`Kolibri on Raspberry Pi <rpi>`.
 
-After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type ``kolibri.local`` in the browser location bar, and because of our captive portal, it will display.  
+After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type ``kolibri.library`` in the browser location bar, and because of our captive portal, it will display.  
 
 To enable you Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:
 
@@ -249,7 +254,7 @@ Copy and paste the following into the configuration file:
     listen 80;
     listen [::]:80;
 
-    server_name kolibri kolibri.local;
+    server_name kolibri kolibri.library;
 
     location / {
       proxy_pass http://127.0.0.1:8080;
