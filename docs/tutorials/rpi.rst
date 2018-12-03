@@ -1,7 +1,9 @@
-.. _how_to_rpi_wifi:
+.. _tutorial_rpi:
 
-Raspberry Pi
-============
+An offline Raspberry Pi server
+==============================
+
+This guide shows you how to configure a Raspberry Pi as a local WIFI hotspot serving Kolibri.
 
 There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian.
 
@@ -23,7 +25,7 @@ Getting started guides
 
 This guide provides a step-by-step setup of Kolibri but does not try to explain basic concepts for your Raspberry Pi. If you are new to the system, you are encouraged to read the official `Getting Started <https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started>`__ guide for basic knowledge about setting up your device.
 
-This guide installs Kolibri as the very final step. But please read and complete all the prior steps!
+We install Kolibri as one of the very final step. But please read and complete the prior steps.
 
 Setting up the SD card
 ----------------------
@@ -52,7 +54,7 @@ After installing and starting up your Raspberry Pi, it is recommended that you u
 Updating the firmware
 ---------------------
 
-Run ``sudo rpi-update`` to update the firmware. Nothing in this howto necessitates this, but it's always recommended because hardware issues may be solved over time and performance improved. You cannot replicate this by copying MicroSD cards, you would have to repeat this step for every new Raspberry Pi device that you are installing.
+Run ``sudo rpi-update`` to update the firmware. Nothing in this tutorial necessitates this, but it's always recommended because hardware issues may be solved over time and performance improved. You cannot replicate this by copying MicroSD cards, you would have to repeat this step for every new Raspberry Pi device that you are installing.
 
 General system configuration
 ----------------------------
@@ -136,12 +138,20 @@ Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` t
 
 .. code-block:: text
 
-	# Gateway + DNS server
-	dhcp-option=3,192.168.4.1
-	dhcp-option=6,192.168.4.1
+  # Gateway + DNS server
+  dhcp-option=3,192.168.4.1
+  dhcp-option=6,192.168.4.1
 
-	# Let the Raspberry Pi resolve to all DNS queries
-	address=/#/192.168.4.1
+  # Let the Raspberry Pi resolve to all DNS queries
+  address=/#/192.168.4.1
+
+.. warning::
+
+  These settings override the possibility to connect to an online source using the WIFI. It is still possible to connect to the internet **through the cabled ethernet**, however you will need to configure a DNS server manually every time you reboot the device. Put the IP of your DNS provider in ``/etc/resolve.conf``. If you don't know it, you can use Google's OpenDNS address ``8.8.8.8`` as in this example:
+
+  .. code-block:: console
+
+    echo "nameserver 8.8.8.8" > /etc/resolv.conf
 
 
 Configure the access point
@@ -167,14 +177,14 @@ In the file, copy in the following configuration to specify the name of the netw
   auth_algs=1
   ignore_broadcast_ssid=0
 
-  # Remove the '#' in front of below lines to set a password
+  # Remove the '#' in front of below lines to set a password 'Password'
   # wpa=2
   # wpa_passphrase=Password            
   # wpa_key_mgmt=WPA-PSK
   # wpa_pairwise=TKIP
   # rsn_pairwise=CCMP
 
-Next, open the following file to enable the configuration file that we have just written:
+Next, edit ``/etc/default/hostapd`` to enable the configuration file that we have just written:
 
 .. code-block:: console
 
@@ -197,6 +207,8 @@ Finally, start the access point system service ``hostapd`` and the DHCP and DNS 
 Setting up a "Captive portal"
 -----------------------------
 
+You don't have to set up a "Captive Portal", but it's a good idea, since the behavior will make the user experience better. Users won't have to guess the location (hostname / domain) of services on the Raspberry Pi, and many devices support displaying your welcome page automatically upon connecting to the wifi.
+
 In the previous step, we have configured the Raspberry Pi to tell devices on the local offline hotspot that whatever resource they request such as ``http://domain.com``, it should resolve to the Raspberry Pi's static IP address ``192.168.4.1``.
 
 Firstly, install the HTTP server nginx:
@@ -206,6 +218,50 @@ Firstly, install the HTTP server nginx:
   sudo apt install nginx
 
 Then, you need to edit and adapt your default Captive Portal page. You can use :download:`this template </data/captive_portal_index.html>`.
+
+Copy the contents of the template by editing ``/var/www/html/index.html``:
+
+.. code-block:: console
+
+  sudo nano /var/www/html/index.html
+
+You can use :guilabel:`CTRL` + :guilabel:`SHIFT` + :guilabel:`V` to paste text in the terminal. Press :guilabel:`CTRL` + :guilabel:`X` to exit and save.
+
+
+Installing Kolibri
+------------------
+
+**Firstly**, follow the main instructions for installing :ref:`Kolibri on Raspberry Pi <rpi>`.
+
+After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type ``kolibri.local`` in the browser location bar, and because of our captive portal, it will display.  
+
+To enable you Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:
+
+.. code-block:: console
+
+  sudo nano /etc/nginx/sites-available/kolibri
+
+Copy and paste the following into the configuration file:
+
+.. code-block:: text
+
+  server {
+    listen 80;
+    listen [::]:80;
+
+    server_name kolibri kolibri.local;
+
+    location / {
+      proxy_pass http://127.0.0.1:8080;
+    }
+  }
+
+Press :guilabel:`CTRL` + :guilabel:`X` to exit and save. Then enable the new configuration by linking it into the directory of enabled virtual hosts:
+
+.. code-block:: console
+
+  ln -s /etc/nginx/sites-available/kolibri /etc/nginx/sites-enabled/
+
 
 Attaching USB storage
 ---------------------
@@ -224,8 +280,8 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
         kolibri manage movedirectory /path/to/your/external_drive
         # Start kolibri
         sudo systemctl kolibri start
-        
-  
+
+
     **Or** using symbolic links, you need to start and stop Kolibri and to set the permissions correctly:
 
     .. code-block:: console
@@ -256,4 +312,35 @@ You may encounter warnings like ``Can't set locale; make sure $LC_* and $LANG ar
 Saving your image for replication
 ---------------------------------
 
+Once you like the setup and you may want to deploy several Raspberry Pis to different schools, classrooms etc.
 
+.. tip:: Using the same WIFI SSID (in this tutorial, we called it ``Offline Library``) is recommended if you are setting up several Raspberry Pis in the same area. But you should configure them on different WIFI channels. Separate them by a count of 2, this will avoid radio frequency overlaps.
+
+.. warning:: Replicating the Kolibri device registration will make online synchronization unpredictable (fail).
+
+Kolibri has a sync'ing mechanism whereby user data can synchronize from device to device through an online service. This happens automatically when Kolibri detects an internet connection.
+
+.. todo:: A command ``unprovisiondevice`` or similar needs to be released, we expect a 0.11 patch release to cover this need.
+
+After replicating your SD card and external storage device, you need re-register the Kolibri installation on each device. This can be done without removing the installed data:
+
+.. code-block:: console
+
+  # This will ask you questions
+  kolibri manage provisiondevice
+
+  
+Future steps
+------------
+
+Kolibri is under development with regards to optimizing performance on Raspberry Pi. We are adding support for multiple CPU cores, and since the Raspberry Pi has 4 of these, it will benefit greatly. Tests indicate almost a factor 4.
+
+This work will be released in a future package targeting a pre-configured UWSGI and Nginx implementation, which will be possible to add by replacing the package of this tutorial with the new package. We will add a release note and update this tutorial accordingly.
+
+You may also want to install other services such as `Kiwix <https://kiwix.org>`__. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to the one we added for Kolibri.
+
+The WIFI antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the WIFI by removing ``hostapd``.
+
+There are several bottle necks in this setup, but we recommend that you focus on the strong sides of the Raspberry Pi platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
+
+.. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <https://community.learningequality.org/>`__.

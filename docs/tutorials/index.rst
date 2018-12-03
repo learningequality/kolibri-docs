@@ -1,5 +1,5 @@
-HOWTOs
-######
+Tutorials
+#########
 
 Step-by-step guides with more details.
 
