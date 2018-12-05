@@ -10,6 +10,14 @@ There are several varieties of operating systems for Raspberry Pi. This guide is
 Prerequisites
 -------------
 
+.. figure:: /img/rpi_kit.jpeg
+    :alt: Raspberry Pi and accessories
+    :align: right
+    :figwidth: 50%
+
+    Raspberry Pi 3: An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an ethernet cable for online connectivity while installing and fetching contents for Kolibri.
+    
+
 * Raspberry Pi Model 3+
 * Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)
 * Card reader for a laptop or computer to write to the MicroSD card
