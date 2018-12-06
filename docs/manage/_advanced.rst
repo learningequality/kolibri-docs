@@ -270,10 +270,10 @@ Alternatively, you can follow these steps in the GUI.
 
 
 
-Customize Kolibri Settings with the OPTION.INI File
----------------------------------------------------
+Customize Kolibri Settings with the OPTIONS.INI File
+----------------------------------------------------
 
-For some advanced configuration settings you need to use the ``option.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
+For some advanced configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
 
 #. Open the preferred text editor on your computer (eg. Notepad on Windows).
 #. Write the required *sections* and *keys* (see details for available settings below) in the following format:
@@ -284,10 +284,10 @@ For some advanced configuration settings you need to use the ``option.ini`` file
       key1 = a
       key2 = b
 
-3. Save the resulting ``option.ini`` file in the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
+3. Save the resulting ``options.ini`` file in the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
    
 .. note::
-  ``option.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation.   
+  ``options.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation.   
    
 .. _port:
 
@@ -295,7 +295,7 @@ For some advanced configuration settings you need to use the ``option.ini`` file
 Run Kolibri from a Different Port
 *********************************
 
-If you need Kolibri to start and run from a port different than the default ``8080``, add the section ``[Deployment]``, and the key ``HTTP_PORT`` with the value of your desired port, to the ``option.ini`` file.
+If you need Kolibri to start and run from a port different than the default ``8080``, add the section ``[Deployment]``, and the key ``HTTP_PORT`` with the value of your desired port, to the ``options.ini`` file.
 
   .. code-block:: bash
     
@@ -310,7 +310,7 @@ If you need Kolibri to start and run from a port different than the default ``80
 Allow Profiling of Requests
 ***************************
 
-If you need to :ref:`profile server requests <profile_requests>` to get a more detailed information about the Kolibri performance, add the following to the ``option.ini`` file.
+If you need to :ref:`profile server requests <profile_requests>` to get a more detailed information about the Kolibri performance, add the following to the ``options.ini`` file.
 
 
   .. code-block:: bash
@@ -351,11 +351,11 @@ In order to collect more than a current snapshot of Kolibri server performance, 
      
      kolibri manage profile
 
-.. tip:: Command collects and saves the information 60 times by default. If you want to change this value, add the ``--num_samples`` flag with the desired number at the end.
+.. tip:: Command collects and saves the information 60 times by default. If you want to change this value, add the ``--num-samples`` flag with the desired number at the end.
 
   .. code-block:: bash
      
-     kolibri manage profile --num_samples=100
+     kolibri manage profile --num-samples=100
 
 
 Each log line contains this information:
@@ -380,7 +380,7 @@ To help us troubleshoot potential problems on your Kolibri server, locate and se
 Profile Server Requests
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-If you have the ``[Server]`` section of the :ref:`OPTION.INI <profile_requests_ini>` file  configured with ``PROFILE = 1``, the above command will additionally perform a profile of every request made by Kolibri server, and save the results in a second log file as ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``
+If you have the ``[Server]`` section of the :ref:`OPTIONS.INI <profile_requests_ini>` file  configured with ``PROFILE = 1``, the above command will additionally perform a profiling of every request made by Kolibri server, and save the results in a second log file as ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``
 
 Each log line contains this information:
 
@@ -394,6 +394,4 @@ Each log line contains this information:
 * Flag indicating if the request is the slowest one since the analysis started
 
 .. warning::
-  Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``option.ini`` file. Without the ``PROFILE = 1`` key, server requests will not be profiled, and the second CSV file will not be created. 
-
-  
+  Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``options.ini`` file. Without the ``PROFILE = 1`` key, command will not profile server requests (but just the current server state), and it will not create the second CSV file. 
