@@ -33,6 +33,8 @@ Getting started guides
 
 This guide provides a step-by-step setup of Kolibri but does not try to explain basic concepts for your Raspberry Pi. If you are new to the system, you are encouraged to read the official `Getting Started <https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started>`__ guide for basic knowledge about setting up your device.
 
+In doubt about which Raspbian to choose? We recommend using Raspbian Lite if you are comfortable with an environment that only has a terminal and no graphical user interface. Using the desktop version will consume more CPU, memory and electricity. Finally, you do have the option to :ref:`switch off the desktop environment <rpi_tip_desktop_disable>` once you have finished setting up the device.
+
 We install Kolibri as one of the very final step. But please read and complete the prior steps.
 
 Setting up the SD card
@@ -314,12 +316,27 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
 Other tips
 ----------
 
+Locale warnings
+***************
+
 You may encounter warnings like ``Can't set locale; make sure $LC_* and $LANG are correct!`` while installing software about the system locale. Typically, these are missing UTF-8 locales for your chosen system locale. These can be fixed by running this from command line:
 
 .. code-block:: console
 
   # Run this and select the appropriate missing UTF-8 locales
   sudo dpkg-reconfigure locales
+
+.. _rpi_tip_desktop_disable:
+
+Disabling the graphical desktop
+*******************************
+
+Once the Pi device is deployed, the desktop environment may no longer serve a purpose. It can safely be disabled. This saves computer resources and electricity. Use the following steps to disable or enable the desktop:
+
+.. code-block:: console
+
+  # Run the configuration and navigate to the Boot option, selecting "Console"
+  sudo raspi-config
 
 
 Saving your image for replication
