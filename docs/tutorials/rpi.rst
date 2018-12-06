@@ -303,12 +303,12 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
 
         # Stop kolibri
         sudo systemctl kolibri stop
-        # Move its data
-        sudo mv /var/kolibri/.kolibri /your/external/media/kolibri_data
+        # Relocate the full Kolibri data and configuration user folder
+        sudo mv /home/pi/.kolibri /your/external/media/kolibri_data
         # Ensure that the kolibri system service user owns the folder
-        sudo chown -R `cat /etc/kolibri/username` /your/external/media/kolibri_data
+        sudo chown -R pi /your/external/media/kolibri_data
         # Restore the original location with a symbolic link
-        sudo ln -s /your/external/media/kolibri_data /var/kolibri/.kolibri
+        sudo ln -s /your/external/media/kolibri_data /home/pi/.kolibri
         # Start kolibri
         sudo systemctl kolibri start
 
@@ -348,9 +348,11 @@ Once you like the setup and you may want to deploy several Raspberry Pis to diff
 
 .. warning:: Replicating the Kolibri device registration will make online synchronization unpredictable (fail).
 
-Kolibri has a sync'ing mechanism whereby user data can synchronize from device to device through an online service. This happens automatically when Kolibri detects an internet connection.
+Kolibri has a sync'ing mechanism whereby user data can synchronize from device to device through an online service. This happens automatically when Kolibri detects an internet connection. You need to unregister (deprovision) your device before copying the SD card and external storage:
 
-.. todo:: A command ``unprovisiondevice`` or similar needs to be released, we expect a 0.11 patch release to cover this need.
+.. code-block:: console
+
+  kolibri manage deprovision
 
 After replicating your SD card and external storage device, you need re-register the Kolibri installation on each device. This can be done without removing the installed data:
 
