@@ -273,12 +273,12 @@ Alternatively, you can follow these steps in the GUI.
 Customize Kolibri Settings with the OPTIONS.INI File
 ----------------------------------------------------
 
-For some advanced configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
+For certain configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
 
 #. Open the preferred text editor on your computer (eg. Notepad on Windows).
 #. Write the required *sections* and *keys* (see details for available settings below) in the following format:
    
-    .. code-block:: bash
+    .. code-block:: text
 
       [section]
       key1 = a
@@ -297,7 +297,7 @@ Run Kolibri from a Different Port
 
 If you need Kolibri to start and run from a port different than the default ``8080``, add the section ``[Deployment]``, and the key ``HTTP_PORT`` with the value of your desired port, to the ``options.ini`` file.
 
-  .. code-block:: bash
+  .. code-block:: text
     
      [Deployment]
      HTTP_PORT = 1234 
@@ -313,7 +313,7 @@ Allow Profiling of Requests
 If you need to :ref:`profile server requests <profile_requests>` to get a more detailed information about the Kolibri performance, add the following to the ``options.ini`` file.
 
 
-  .. code-block:: bash
+  .. code-block:: text
     
      [Server]
      PROFILE = 1
