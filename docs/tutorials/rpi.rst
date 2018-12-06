@@ -74,11 +74,11 @@ Run ``sudo raspi-config`` for the general setup options such as keyboard layout,
 Setting up a hotspot
 --------------------
 
-The Raspberry Pi 3 has a WIFI adapter which can also serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through WIFI.
+The Raspberry Pi 3 has an internal WIFI adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through WIFI. In this case, we call the Raspberry Pi a *hotspot*.
 
-We assume that you will need to connect the RPi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's ethernet cable connection.
+We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's ethernet cable connection. In this way, you don't have to disable and enable the WIFI configuration each time.
 
-* The device can be setup such that it automatically uses the ethernet interface as *gateway* to the internet when a cable is connected.
+* The device can be setup such that it automatically uses the ethernet interface as a *gateway* to the internet when a cable is connected.
 * If you need to connect to the internet through WIFI, you will have to disable the hotspot and connect through the normal network management.
 
 .. note: If you already have a WIFI network at the location where the device will be setup, you should NOT setup an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Capitive Portal step.
@@ -88,7 +88,7 @@ Installing hostapd and dnsmasq
 
 In order to serve clients on a local WIFI hotspot, you need the Raspberry Pi to act as:
 
-* an Access point
+* an access point
 * a DHCP server
 * a DNS server
 
