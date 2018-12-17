@@ -49,6 +49,7 @@ The following commands work on Linux/macOS for setting up the .img files provide
 
 .. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`__
 
+.. tip:: Select your MicroSD card based on other people's experiences and technical benchmarks. For more information, read `this Community Forums thread <http://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
 
 Updating the software
 ---------------------
@@ -375,4 +376,4 @@ The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many cli
 
 There are several bottle necks in this setup, but we recommend that you focus on the strong sides of the Raspberry Pi platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
 
-.. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <https://community.learningequality.org/>`__.
+.. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <http://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
