@@ -7,5 +7,4 @@ Step-by-step guides with more details.
    :maxdepth: 1
 
    rpi
-   uwsgi
 

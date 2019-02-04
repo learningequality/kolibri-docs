@@ -1,7 +1,7 @@
 .. _how_to_uwsgi:
 
-Multicore w/ uWSGI
-==================
+Classroom servers
+=================
 
 This section will expand into a tutorial for using Kolibri with uWSGI. It will
 initially be made accessible through a Debian package which configures Nginx and
