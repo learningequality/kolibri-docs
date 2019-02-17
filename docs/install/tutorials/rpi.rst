@@ -343,6 +343,8 @@ Once the Pi device is deployed, the desktop environment may no longer serve a pu
   sudo raspi-config
 
 
+.. _rpi_replication:
+
 Saving your image for replication
 ---------------------------------
 

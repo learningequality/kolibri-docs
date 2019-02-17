@@ -9,7 +9,7 @@ Kolibri is intended for **Raspberry Pi Model 3** and upwards.
 
 .. tip:: Read our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`.
 
-.. warning:: Most of these steps require an internet connection. It is not possible to prepare a blank Raspberry Pi for Kolibri without fetching additional software packages from online sources.
+.. warning:: These steps require an internet connection during the installation. After completing the installation, it's possible :ref:`to replicate an image <rpi_replication>` for offline installation.
 
 
 Install
