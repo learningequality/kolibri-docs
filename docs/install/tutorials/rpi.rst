@@ -28,6 +28,9 @@ Prerequisites
   * **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
 * Internet connectivity (for setting up the device)
 
+.. tip:: The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both.
+
+
 Getting started guides
 ----------------------
 
