@@ -16,6 +16,8 @@ Troubleshoot Network Issues
 	   
 	   ping 192.168.0.104
 
+#. Kolibri may change address every time you reboot your network equipment. Read about :ref:`static IP addresses <ips_static>`
+
 
 .. _firewalls:
 
@@ -90,6 +92,28 @@ About IP addresses
 * Aside from its own `localhost <https://en.wikipedia.org/wiki/Localhost>`_ address, a device running Kolibri also has an external IP address like ``192.*.*.*`` or ``10.*.*.*``, under which it is recognized by other devices in the same local network. That is the IP address that you need to use in the :ref:`browsers on client devices <access_LAN>` (learner tablets or computers), to connect with Kolibri server.
 * Kolibri by default runs on the port number ``8080``, but you can :ref:`change this setting <port>` to meet your particular needs.
 * So when you type the full IP address like ``http://192.168.1.1:8080`` in the browser of a client device, you are telling it to: "Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol, and display its content".
+
+.. _ips_static:
+
+Static IP addresses
+-------------------
+
+In order for other clients on your network to find Kolibri on a consistent IP address, this address shouldn't change.
+
+The default behavior of an operating system, no matter if it's Linux/Windows/Mac, will be to receive an IP address from a network authority, i.e. a *DHCP server*. DHCP is a service that's typically run on the local access point or router.
+
+Therefor, you should be cautious that when such a router or access point restarts (for instance during a power cut), it may forget the IP address assigned to your Kolibri device, and thus the IP changes.
+
+To fix this, you have two general options:
+
+#. Find out how to log in and configure your access point or router, such that it assigns the same IP address consistently to your Kolibri device.
+
+   .. tip:: Any network interface, both a WIFI and a cabled ethernet, has a *MAC* address that's consistent. You can use this *MAC* address by configuring your router or access point to assign the same IP address every time.
+
+#. Configure your Kolibri device to use a static IP address: Instead of asking a DHCP server for an IP address, your device can choose one itself.
+
+   .. warning:: If you choose an IP address that's already in use on the network, you can have an IP conflict on your network where traffic doesn't get routed correctly. You need to choose an IP address on the same *subnet* as your automatically assigned DHCP address, but also an address that won't be used by the DHCP server, i.e. outside of the *DHCP range*. For instance, a DHCP server could hand out IP address from `192.168.1.10` to 192.168.1.255` and the router would be located on `192.168.1.1`. Thus, `192.168.1.2` would be free to assign.
+
 
 Still not working?
 ------------------
