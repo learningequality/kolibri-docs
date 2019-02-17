@@ -31,4 +31,4 @@ Manage Kolibri
 .. include: manage/_how_to.rst
 
 
-.. include:: manage/_get_support.rst
+.. include:: manage/_troubleshooting.rst
