@@ -7,15 +7,16 @@ Advanced Manage Options
 Working with Kolibri from the Command Line
 ------------------------------------------
 
-.. warning::
-  * In Windows you need to open ``cmd.exe`` Command prompt in the folder where Kolibri executable is located: ``c:/Python34/Scripts``.
+Tips for Working from the Command Line
+**************************************
 
-  * On macOS you may need to prefix the commands with ``python``, for example ``python kolibri start``.
+* In Windows you need to open ``cmd.exe`` Command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut) in the folder where Kolibri executable is located (most probably ``C:/Python34/Scripts`` when Python is installed on drive ``C:``).
 
-  * If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.11.pex``, type ``./kolibri-v0.11.pex start``.
+* On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
 
-  * Make sure not to include the angle brackets “< >” in the commands below.*
+* If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
 
+* Make sure not to include the angle brackets “< >” in the commands below.
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -36,9 +37,7 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
   kolibri stop
 
 
-.. 
-
-  Run Kolibri from a Different Port
+.. Run Kolibri from a Different Port
 
 ..  If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command.
 
@@ -89,6 +88,48 @@ To export Kolibri content channels on a local drive in order to share it with an
   kolibri manage exportcontent -- <Channel ID> /mount/mydrive/KOLIBRI_DATA 
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
+
+.. _reorder_channels:
+
+Reorder Content Channels
+************************
+
+You can set the specific order for content channels in the **Learn** page according to your preferences. Follow these steps.
+
+* To view the current ordered list of channels, run the command: 
+   
+  .. code-block:: bash
+
+    kolibri manage listchannels
+
+
+  The output will be something like:
+
+  .. code-block:: bash
+
+    Pos       ID                                      Name
+    ---       --                                      ----
+    1         95a52b386f2c485cb97dd60901674a98        CK-12 Testing
+    2         a9b25ac9814742c883ce1b0579448337        TESSA - Teacher Resources
+
+
+* To set a position for a channel, run the command: 
+   
+  .. code-block:: bash
+
+    kolibri manage setchannelposition <Channel ID> <Pos>
+
+
+  Example with the above channels:
+
+  .. code-block:: bash
+
+    kolibri manage setchannelposition a9b25ac9814742c883ce1b0579 1
+
+    Pos       ID                                      Name
+    ---       --                                      ----
+    1         a9b25ac9814742c883ce1b0579448337        TESSA - Teacher Resources
+    2         95a52b386f2c485cb97dd60901674a98        CK-12 Testing
 
 
 .. _create_superuser:
@@ -378,7 +419,7 @@ To help us troubleshoot potential problems on your Kolibri server, locate and se
 
 
 Profile Server Requests
-^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""
 
 If you have the ``[Server]`` section of the :ref:`OPTIONS.INI <profile_requests_ini>` file  configured with ``PROFILE = 1``, the above command will additionally perform a profiling of every request made by Kolibri server, and save the results in a second log file as ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``
 

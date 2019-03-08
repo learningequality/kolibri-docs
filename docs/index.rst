@@ -44,7 +44,7 @@ Kolibri can serve high quality education content from several publicly available
 :ref:`Learners - start here <learn>`
 ************************************
 
-Whether you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`content and activities <content_types>` can you work with, and how to submit :ref:`exams <exams>` created by your coaches or tutors.
+Whether you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`content and activities <content_types>` can you work with, and how to submit :ref:`quizzes <quizzes>` created by your coaches or tutors.
 
 
 .. rst-class:: column column2
@@ -52,7 +52,7 @@ Whether you are using Kolibri at your school, in a training center or at home, l
 For :ref:`Coaches <coach>` using Kolibri
 ****************************************
 
-Read how to :ref:`monitor activity <recent_view>` and :ref:`track the progress <track_progress>` of your learners on whole topics and exercises, all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`exams <manage_exams>` and view reports.
+Read how to :ref:`monitor activity and track the progress <track_progress>` of your learners all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`quizzes <manage_quizzes>` and view reports.
 
 
 .. rst-class:: clearfix row

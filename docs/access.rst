@@ -79,7 +79,7 @@ Kolibri currently supports the following combinations of operating systems and b
 * MacOS 10.6+ with Safari, Chrome and Firefox
 * Linux, any browser
 * Android 4.2+, Chrome and Firefox
-* iOS, Chrome and Firefox supported, **Safari not supported**
+* iOS, Safari 9.3+, Chrome and Firefox
 
 .. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
 
