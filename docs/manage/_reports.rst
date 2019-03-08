@@ -1,7 +1,7 @@
 
 **Reports** tab (|reports| icon) allows you to gain insight into detailed real-time progress of the learners for single resources in lessons and quizzes assigned to them.
 
-Kolibri presents actionable reports for each lesson and quiz the learners assigned to class, together with the possibility to observe the progress by groups and individual learners.
+Kolibri presents actionable reports for each lesson and quiz the class learners have been assigned, together with the possibility to observe the progress by groups and individual learners.
 
 	.. figure:: img/class-reports.gif
 	  :alt: Open the Reports tab to track detailed learner progress
@@ -19,9 +19,9 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
   :alt: 
 
 #. Click on the lesson title to view its list of resources.
-#. In the selected lesson **Report** sub-tab, you can see the clickable list of resources, with their own *progress* and the *average time spent*.
+#. In the selected lesson **Report** sub-tab, you can see the clickable list of resources, with their own *progress* and the *average time spent* on.
 #. When you click to open the single resource, you can see the progress report for each learner (*started* |started|, *completed* |completed-small| or *need help* |need-help|), and the time spent on it.
-#. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each of the incorrect answers and attempts.
+#. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers.
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
 
 
@@ -37,7 +37,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
   :alt: 
 
 #. Click on the quiz title to view its list of resources.
-#. In the selected quiz **Report** sub-tab, you can see the list of learners, with the *progress* and obtained *score* columns.
+#. In the selected quiz **Report** sub-tab, you can see the list of learners, with columns for the *progress* and obtained *score*.
 #. Open the **Difficult questions** sub-tab to view the list of questions learners gave incorrect answers to, and gain insight of how many *need help* |need-help| with the concept.
 #. Click a *difficult question* in the list to review each of the incorrect answers and attempts.
    
@@ -83,7 +83,7 @@ Open the **Groups** sub-tab from the main **Reports** view to access the reports
 Learners
 --------
 
-Open the **Learners** sub-tab from the main **Reports** view to access the progress report per each learner. In the main view you can see the table with summary of completed exercises, scores and viewed resources **for each learner** and the last activity.
+Open the **Learners** sub-tab from the main **Reports** view to access the progress report per each learner. In the main view you can see the table with summary of completed exercises, scores and viewed resources **for each learner**, and their last activity.
 
 #. Click on learner name to view their detailed progress report.
 #. From the learner **Reports** sub-tab you can click to access each lesson and quiz.

@@ -5,7 +5,7 @@ Coach your Learners in Kolibri
  
 You can track progress of the **Learners**, create and assign **Lessons** and **Quizzes** to classes or learner groups from the **Coach** dashboard. The default view of the **Coach** dashboard presents the list of **Classes** with their assigned coaches, and the number of learners enrolled in each class.
 
-Click on a class to access the progress-tracking features and create lessons and quizzes.
+Click on a class to access the progress-tracking features and create lessons, quizzes and groups.
 
 	.. figure:: img/coach-home.png
 	  :alt: Open the Coach page to view the list of classes
@@ -29,16 +29,16 @@ On the **Class Home** tab (|class-home| icon) you can see the overview of the cl
 Quizzes
 -------
 
-You can review the progress of learners on the assigned quizzes |exams| in the **Quizzes** block.
+You can review the progress of learners on the assigned quizzes in the **Quizzes** |exams| block.
 
-* Progress bar will indicate how many learners have started |started| and completed |completed-small| the quiz, and if they need help |need-help| with it.
-* You can click on the progress bar itself to open the complete quiz data in the **Reports** tab
+* Progress bar will indicate how many learners have started |started| and completed |completed-small| the quiz.
+* You can click on the progress bar itself to open the complete quiz data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of notifications about quizzes (only the 3 most recent are displayed in the block).
 
 Lessons
 -------
 
-You can review the progress of learners on the assigned lessons |lessons| in the **Lessons** block.
+You can review the progress of learners on the assigned lessons in the **Lessons** |lessons| block.
 
 * Progress bar will indicate how many learners have started |started| and completed |completed-small| the lesson, and if they need help |need-help| with  some of the resources in it.
 * You can click on the progress bar itself to open the complete lesson data in the **Reports** tab.
