@@ -7,9 +7,9 @@ There are several varieties of operating systems for Raspberry Pi. This guide is
 
 Kolibri is intended for **Raspberry Pi Model 3** and upwards.
 
-.. tip:: The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both.
+.. tip:: Read our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`.
 
-.. warning:: Most of these steps require an internet connection. It is not possible to prepare a blank Raspberry Pi for Kolibri without fetching additional software packages from online sources.
+.. warning:: These steps require an internet connection during the installation. After completing the installation, it's possible :ref:`to replicate an image <rpi_replication>` for offline installation.
 
 
 Install
@@ -32,7 +32,7 @@ Install
       sudo apt update
       sudo apt install kolibri
 
-   When asked questions during the installation, it is recommended that you use the default ``pi`` command for running Kolibri because it will have access to USB devices.
+   When asked questions during the installation, it is recommended that you use the default ``pi`` user for running Kolibri because it will have access to USB devices.
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 

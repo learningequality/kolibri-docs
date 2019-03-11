@@ -24,6 +24,10 @@ cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
 
+extensions = [
+    'sphinx.ext.todo',
+]
+
 builddir = os.path.join(cwd, '_build')
 
 # -- General configuration -----------------------------------------------------
@@ -178,24 +182,24 @@ rst_prolog = """
 .. |in-progress| replace:: :raw-html:`<span class="material-icons schedule" aria-hidden="true">schedule</span><span class="visuallyhidden">In progress</span>`
 .. |completed| replace:: :raw-html:`<span class="material-icons star" aria-hidden="true">star</span><span class="visuallyhidden">Completed</span>`
 .. |recommended| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">forum</span><span class="visuallyhidden">Recommended</span>`
+.. |on-device| image:: /img/on-device.png
 .. |toc| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">list</span><span class="visuallyhidden">Table of content</span>`
 .. |epub-settings| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">tune</span><span class="visuallyhidden">Ebook settings</span>`
 .. |fullscreen| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">fullscreen</span><span class="visuallyhidden">Enter fullscreen</span>`
 .. |previous-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_left</span><span class="visuallyhidden">Previous page</span>`
 .. |next-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_right</span><span class="visuallyhidden">Next page</span>`
-.. |on-device| image:: img/on-device.png
    :alt: On your device
-.. |green-check| image:: img/on-device.png
+.. |green-check| image:: /img/on-device.png
    :alt: Correct answer
-.. |topic-icon| image:: img/topic-icon.png
+.. |topic-icon| image:: /img/topic-icon.png
    :alt: Topic
-.. |video-icon| image:: img/video-icon.png
+.. |video-icon| image:: /img/video-icon.png
    :alt: Video
-.. |doc-icon| image:: img/doc-icon.png
+.. |doc-icon| image:: /img/doc-icon.png
    :alt: Document
-.. |exercise-icon| image:: img/exercise-icon.png
+.. |exercise-icon| image:: /img/exercise-icon.png
    :alt: Exercise
-.. |html-icon| image:: img/html-icon.png
+.. |html-icon| image:: /img/html-icon.png
    :alt: App
 
 """

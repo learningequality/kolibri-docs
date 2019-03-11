@@ -29,10 +29,14 @@ You will need an environment with `make <https://en.wikipedia.org/wiki/Make_(sof
 
 .. code-block:: bash
 
+  # Create a Python 3 virtual environment using Virtualenvwrapper
+  # See: https://virtualenvwrapper.readthedocs.io/
+  $ mkvirtualenv -p python3 kolibri-docs
+
   # Install Python requirements
   $ pip install -r requirements.txt
 
-  # Build docs with sphinx
+  # Build docs with Sphinx
   $ make docs  
 
   # Open the docs with Firefox
