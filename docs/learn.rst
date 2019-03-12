@@ -83,10 +83,10 @@ Each time you login into **Kolibri**, the first thing you will see is the **Lear
 	.. figure:: img/learn-classes.png
 	  :alt: 
 
-Select one of your classes to access :ref:`Lessons` and :ref:`Exams` teachers or coaches prepared for your class.
+Select one of your classes to access :ref:`Lessons` and :ref:`Quizzes` teachers or coaches prepared for your class.
 
 	.. figure:: img/exams-lessons.png
-	  :alt: In each class you are enrolled to you may find one or more lessons and exams.
+	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
 
 
 Channels
@@ -106,7 +106,6 @@ Recommended
 In this tab (|recommended| icon) you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
-* **Next steps** displays suggestions according to  topics and materials you previously visited.
 * **Resume** displays activities that you started but haven't finished yet.
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
@@ -201,11 +200,6 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the :guilabel:`NEXT RESOURCE` below to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
-	.. figure:: img/exercise.png
-		:alt: 
-
-		Exercise page in Kolibri.
-
 
 Video and Audio Player options
 """"""""""""""""""""""""""""""
@@ -277,19 +271,19 @@ Click on a lesson title to open its content, and follow the indications of your 
 		:alt: 
 
 
-.. _exams:
+.. _quizzes:
 
-Exams 
-^^^^^
+Quizzes 
+^^^^^^^
 
-If your teacher or coach scheduled an *exam* (|exams| icon) for you or your class, it will be available in the **Classes** tab, under the **Exams** heading. You may have more than one exam available at the time.
+If your teacher or coach scheduled an *quiz* (|exams| icon) for you or your class, it will be available in the **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
 	.. figure:: img/exams3.png
 		:alt: 
 
-If the exam is listed as *Not started*, follow these steps.
+If the quiz is listed as *Not started*, follow these steps.
 
-#. Click on the exam when you are ready to start taking it.
+#. Click on the quiz when you are ready to start taking it.
 #. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT QUESTION` buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
@@ -297,12 +291,12 @@ If the exam is listed as *Not started*, follow these steps.
 
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
-#. Press the *Back to exam list* if you want to pause the exam and come back later. 
-#. Press the button :guilabel:`SUBMIT EXAM` when you want to submit it for grading. 
+#. Press the *Back to quiz list* if you want to pause the quiz and come back later. 
+#. Press the button :guilabel:`SUBMIT QUIZ` when you want to submit it for grading. 
 
-Exam that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
+Quiz that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
 
-Once you complete and submit an exam, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
+Once you complete and submit a quiz, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
 
 	.. figure:: img/exam-result.png
 		:alt:  

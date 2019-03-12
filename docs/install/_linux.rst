@@ -32,7 +32,7 @@ Install from a .deb file
 
 The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
 
-#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.11**, or have it copied to your local drive.
+#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.12**, or have it copied to your local drive.
 #. Run this command from the location where you downloaded the ``DEB`` file:
 
    .. code-block:: bash

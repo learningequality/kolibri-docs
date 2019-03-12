@@ -2,23 +2,23 @@
 .. _manage_lessons:
 
 Manage Lessons
-~~~~~~~~~~~~~~
+--------------
 
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
-To view, create or delete lessons, as well as assign them to learners, use the **Lessons** tab in your **Coach** dashboard tab (|lessons| icon). Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
+To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones. 
 
   .. figure:: img/lessons.png
     :alt: 
 
 .. note::
-  To manage **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
+  To manage |lessons| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Lesson
------------------
+"""""""""""""""""
 
-To create a new lesson, follow these steps.
+To create a new lesson |lessons|, follow these steps.
 
 1. Click the :guilabel:`NEW LESSON` button.
 2. Fill in the field for the lesson title, description and choose the group(s) or the entire class as the recipients. 
@@ -41,25 +41,32 @@ To create a new lesson, follow these steps.
   .. figure:: img/select-lesson-resources2.png
     :alt: 
 
-6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| button to display the results. 
+6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| button to display the results. When you finish, press the :guilabel:`EXIT SEARCH` button to return to the list of selected resources.
    
   .. figure:: img/search-lesson-resources.png
     :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
 
     You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
 
-7. Close the **Manage resources** window when you finish to return to the main view of the lesson.
 
-8. Use the |arrow-up| and |arrow-down| buttons to reorder the resources in the lesson, and click the :guilabel:`REMOVE` to delete them. You will see a confirmation notification at the bottom.
+7. Press the :guilabel:`FINISH` button to close the **Manage resources** window and return to the main view of the lesson.
 
-  .. figure:: img/reorder-lesson-resources.png
-    :alt: 
+8. After you've selected the resources for the lesson, you can:
+
+    * Grab the |drag| button to reorder lesson resources with the mouse (drag and drop)
+    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation
+    * Click the :guilabel:`REMOVE` button to delete a resource
+
+      .. figure:: img/reorder-lesson-resources.png
+        :alt:     
+
+    You will see a confirmation notification at the bottom every time you change something in the lesson.
 
 9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 9 again.
 
 
 Change Lesson Status
---------------------
+""""""""""""""""""""
 
 A newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps.
 
@@ -71,9 +78,9 @@ A newly created lesson is *Inactive* by default, meaning that learners will not 
     :alt: 
 
 Change Lesson Visibility
-------------------------
+""""""""""""""""""""""""
 
-You can change the visibility of the lesson that you set when you initially created it. To reassign the lesson to a different group, or entire class, follow these steps.
+You can change the visibility of the lesson that you set when you initially created it. To reassign the lesson to a different group or the entire class, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click :guilabel:`OPTIONS` and select **Edit details**.
@@ -81,18 +88,8 @@ You can change the visibility of the lesson that you set when you initially crea
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
-View Lesson Progress
---------------------
-
-After activating the lesson and making it available for the learners, you can view the cumulative progress for each resource in the main lesson view. Click the title of a specific resource to see the progress by all the learners to whom it was assigned.  
-
-  .. figure:: img/lesson-report-detail.png
-    :alt: 
-
-Click on the column headers to order the results by name, progress, group or the time the resource was accessed. 
-
 Copy Lesson
------------
+"""""""""""
 
 To copy a lesson to a different group or another class of your facility, follow these steps.
 
@@ -110,7 +107,7 @@ If the lesson is copied to another group in the same class, it will appear in th
 
 
 Rename Lesson
--------------
+"""""""""""""
 
 To rename a lesson, follow these steps.
 
@@ -121,7 +118,7 @@ To rename a lesson, follow these steps.
 
 
 Delete Lesson
--------------
+"""""""""""""
 
 To delete a lesson, follow these steps.
 

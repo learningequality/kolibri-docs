@@ -63,11 +63,36 @@ div.figure {
 	color: #fff;
 }
 
+.clock {
+    padding-bottom: 1px !important;
+    /*background-color: #fff;*/
+    border-radius: 50%;                                                                                            
+    color: #2196f3;
+}
+
 .star {
 	padding-bottom: 1px !important;
 	background-color: #ffc107;
 	border-radius: 50%;
 	color: #fff;
+}
+
+.star-small {
+    padding-bottom: 1px !important;
+    /*background-color: #fff;*/
+    border-radius: 50%;
+    color: #ffc107;
+}
+
+.help {
+    padding-bottom: 1px !important;
+    /*background-color: #fff;*/
+    border-radius: 50%;
+    color: #df4d4f;
+}
+
+.drag {
+    transform: rotate(90deg);
 }
 
 img {
@@ -94,4 +119,9 @@ img {
 
 .rst-content div.highlight {
     background: #feffe9 !important;
+}
+
+// Reported upstream: https://github.com/rtfd/sphinx_rtd_theme/issues/722
+.admonition {
+  clear: both;
 }

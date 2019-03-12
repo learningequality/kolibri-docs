@@ -108,6 +108,6 @@ Rename Class
 
 To edit class name, follow these steps.
 
-#. Click on the edit button (|edit| icon) next to the class’ name.
+#. Click on the **Edit** link next to the class’ name.
 #. Write the new name in the **Class name** field.
 #. Click :guilabel:`SAVE` to confirm the edited information, or :guilabel:`CANCEL` to exit without saving.

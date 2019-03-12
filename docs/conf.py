@@ -24,6 +24,10 @@ cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
 
+extensions = [
+    'sphinx.ext.todo',
+]
+
 builddir = os.path.join(cwd, '_build')
 
 # -- General configuration -----------------------------------------------------
@@ -168,7 +172,7 @@ rst_prolog = """
 .. |users| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">people</span><span class="visuallyhidden">Users</span>`
 .. |groups| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">group_work</span><span class="visuallyhidden">Groups</span>`
 .. |recent| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">access_time</span><span class="visuallyhidden">Recent</span>`
-.. |exams| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assignment_late</span><span class="visuallyhidden">Exams</span>`
+.. |exams| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assignment_late</span><span class="visuallyhidden">Quizzes</span>`
 .. |channels| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">apps</span><span class="visuallyhidden">Channels</span>`
 .. |settings| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">settings</span><span class="visuallyhidden">Settings</span>`
 .. |data| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">save</span><span class="visuallyhidden">Data</span>`
@@ -176,26 +180,32 @@ rst_prolog = """
 .. |coach-resource| replace:: :raw-html:`<span class="material-icons local_library" aria-hidden="true">local_library</span><span class="visuallyhidden">Coach resource</span>`
 .. |search| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">search</span><span class="visuallyhidden">Start search</span>`
 .. |in-progress| replace:: :raw-html:`<span class="material-icons schedule" aria-hidden="true">schedule</span><span class="visuallyhidden">In progress</span>`
+.. |started| replace:: :raw-html:`<span class="material-icons clock" aria-hidden="true">schedule</span><span class="visuallyhidden">Started</span>`
 .. |completed| replace:: :raw-html:`<span class="material-icons star" aria-hidden="true">star</span><span class="visuallyhidden">Completed</span>`
+.. |completed-small| replace:: :raw-html:`<span class="material-icons star-small" aria-hidden="true">stars</span><span class="visuallyhidden">Completed</span>`
+.. |need-help| replace:: :raw-html:`<span class="material-icons help" aria-hidden="true">error</span><span class="visuallyhidden">Need help</span>`
 .. |recommended| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">forum</span><span class="visuallyhidden">Recommended</span>`
 .. |toc| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">list</span><span class="visuallyhidden">Table of content</span>`
 .. |epub-settings| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">tune</span><span class="visuallyhidden">Ebook settings</span>`
 .. |fullscreen| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">fullscreen</span><span class="visuallyhidden">Enter fullscreen</span>`
 .. |previous-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_left</span><span class="visuallyhidden">Previous page</span>`
 .. |next-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_right</span><span class="visuallyhidden">Next page</span>`
+.. |class-home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">dashboard</span><span class="visuallyhidden">Class home</span>`
+.. |reports| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assessment</span><span class="visuallyhidden">Reports</span>`
+.. |drag| replace:: :raw-html:`<span class="material-icons drag" aria-hidden="true">drag_indicator</span>`
 .. |on-device| image:: img/on-device.png
    :alt: On your device
-.. |green-check| image:: img/on-device.png
+.. |green-check| image:: /img/on-device.png
    :alt: Correct answer
-.. |topic-icon| image:: img/topic-icon.png
+.. |topic-icon| image:: /img/topic-icon.png
    :alt: Topic
-.. |video-icon| image:: img/video-icon.png
+.. |video-icon| image:: /img/video-icon.png
    :alt: Video
-.. |doc-icon| image:: img/doc-icon.png
+.. |doc-icon| image:: /img/doc-icon.png
    :alt: Document
-.. |exercise-icon| image:: img/exercise-icon.png
+.. |exercise-icon| image:: /img/exercise-icon.png
    :alt: Exercise
-.. |html-icon| image:: img/html-icon.png
+.. |html-icon| image:: /img/html-icon.png
    :alt: App
 
 """

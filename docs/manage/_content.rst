@@ -145,34 +145,37 @@ If the computer where Kolibri server is running does not have access to Internet
 #. Click :guilabel:`SELECT` for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`.
 
   .. figure:: img/import-local-drive2.png
-    :alt: 
+    :alt: Importing content from a local drive presents the same interface options as importing from Kolibri Studio.
 
 
-.. tip:: **Workaround for import from external drive on older devices.**
+Workaround for import from external drive on older devices
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-	If Kolibri is installed on an older or a low-resource device, you can try the following procedure for importing content channels for faster results.
+If Kolibri is installed on an older or a low-resource device, you can try the following procedure for importing content channels for faster results.
 
-	#. Stop Kolibri.
-	#. Browse the local drive with the file explorer of your operating system.
-	#. Copy the ``content`` folder located inside the ``KOLIBRI_DATA`` folder on the local drive.
-	#. Paste the copied ``content`` folder inside the ``.kolibri`` folder on your hard disk. The location of the ``.kolibri`` folder will depend on your operating system (see the table below).
-	#. Confirm the merge of the two folders.
-	#. Restart Kolibri, and the new channels should now be available.
+#. Stop Kolibri.
+#. Browse the local drive with the file explorer of your operating system.
+#. Copy the ``content`` folder located inside the ``KOLIBRI_DATA`` folder on the local drive.
+#. Paste the copied ``content`` folder inside the ``.kolibri`` folder on your hard disk. The location of the ``.kolibri`` folder will depend on your operating system (see the table below).
+#. Confirm the merge of the two folders.
+#. Restart Kolibri, and the new channels should now be available.
+  
+**Beware that the restart might take longer after these steps, as Kolibri needs to map all the new content in the database.**  
 
 
 .. _home:
 
-     +---------------------------+-----------------------------------------+
-     | **Operating system**      | **Location**                            |
-     +===========================+=========================================+
-     | Windows                   | ``C:/Users/<your_username>/.kolibri/``  |
-     +---------------------------+-----------------------------------------+
-     | OSX                       | ``HD/Users/<your_username>/.kolibri/``  |
-     +---------------------------+-----------------------------------------+
-     | Linux                     | ``/home/<your_username>/.kolibri/``     |
-     +---------------------------+-----------------------------------------+
++---------------------------+-----------------------------------------+
+| **Operating system**      | **Location**                            |
++===========================+=========================================+
+| Windows                   | ``C:/Users/<your_username>/.kolibri/``  |
++---------------------------+-----------------------------------------+
+| OSX                       | ``HD/Users/<your_username>/.kolibri/``  |
++---------------------------+-----------------------------------------+
+| Linux                     | ``/home/<your_username>/.kolibri/``     |
++---------------------------+-----------------------------------------+
 
-     On Linux and OSX you will need to enable the **Show hidden folders** option in order to view the ``.kolibri`` folder.
+On Linux and OSX you will need to enable the **Show hidden folders** option in order to view the ``.kolibri`` folder.    
 
 
 Export from Kolibri to Local Drive
