@@ -63,11 +63,12 @@ To view the detailed info of the device where Kolibri is running on, use the **I
 #. Click the **Show** link to open the *Advanced* device info.
 #. Make note or copy the following device details to clipboard.
 
-	* Kolibri version
 	* Server IP/URL(s)
+	* Kolibri version
+	* Operating system 
+	* Installer type
 	* Database path
 	* Device name
-	* Operating system 
 	* Free disk space
 	* Server time
 	* Server timezone
