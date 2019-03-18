@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"POT-Creation-Date: 2019-03-18 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,72 +24,279 @@ msgstr ""
 #: ../../coach.rst:6
 msgid ""
 "You can track progress of the **Learners**, create and assign **Lessons**"
-" and **Exams** to classes or learner groups from the **Coach** dashboard."
-" The default view of the **Coach** dashboard presents the list of "
-"**Classes** with their assigned coaches, and the number of learners "
+" and **Quizzes** to classes or learner groups from the **Coach** "
+"dashboard. The default view of the **Coach** dashboard presents the list "
+"of **Classes** with their assigned coaches, and the number of learners "
 "enrolled in each class."
 msgstr ""
 
 #: ../../coach.rst:8
 msgid ""
 "Click on a class to access the progress-tracking features and create "
-"lessons and exams."
+"lessons, quizzes and groups."
 msgstr ""
 
-#: ../../coach.rst:17
-msgid "View Learner Reports"
-msgstr ""
-
-#: ../../coach.rst:19
+#: ../../coach.rst:13
 msgid ""
-"Click the desired class inside the initial view of the **Coach** "
-"dashboard, and it will open the **Learners** tab (|learners| icon). Here "
-"you can see the list of learners enrolled in the class, and the group "
-"they are assigned to (if applicable)."
+"Choose one of the classes from this view to access the Kolibri coach "
+"features."
 msgstr ""
 
-#: ../../coach.rst:21
+#: ../../coach.rst:18
+msgid "Class Home"
+msgstr ""
+
+#: ../../coach.rst:20
 msgid ""
-"When you click the username of a learner, you will see a list of content "
-"channels they accessed, and the last time they were active on each of "
-"them:"
+"On the **Class Home** tab (|class-home| icon) you can see the overview of"
+" the class activity and track progress of the learners on lessons and "
+"quizzes assigned to them."
 msgstr ""
 
-#: ../../coach.rst:26
+#: ../../coach.rst:25
+msgid "Class Home presents an overview of learner progress and activity."
+msgstr ""
+
+#: ../../coach.rst:30 ../../manage/_reports.rst:29
+msgid "Quizzes"
+msgstr ""
+
+#: ../../coach.rst:32
 msgid ""
-"Learner Reports present a quick view of all the content accessed by a "
-"learner."
+"You can review the progress of learners on the assigned quizzes in the "
+"**Quizzes** |exams| block."
 msgstr ""
 
-#: ../../coach.rst:29
+#: ../../coach.rst:34
 msgid ""
-"In a Learner report, the username of the selected learner will be the "
-"last item in the breadcrumb navigation menu."
+"Progress bar will indicate how many learners have started |started| and "
+"completed |completed-small| the quiz."
 msgstr ""
 
-#: ../../coach.rst:31
+#: ../../coach.rst:35
 msgid ""
-"Navigate the topic tree of each channel to see the progress of the "
-"selected learner for the topics, subtopics and individual resources. As "
-"you navigate, you will see topics added to the breadcrumbs menu."
+"You can click on the progress bar itself to open the complete quiz data "
+"in the **Reports** tab."
 msgstr ""
 
-#: ../../coach.rst:33
+#: ../../coach.rst:36
 msgid ""
-"In the image below, you can see that the learner **Abby L.** accessed and"
-" completed only one of the subtopics from the topic **Addition and "
-"Subtraction to 10**:"
+"Click :guilabel:`VIEW ALL` to access the full list of notifications about"
+" quizzes (only the 3 most recent are displayed in the block)."
 msgstr ""
 
-#: ../../coach.rst:38
-msgid "Learner Reports across topics for the selected content channel."
+#: ../../coach.rst:39 ../../manage/_reports.rst:11
+msgid "Lessons"
+msgstr ""
+
+#: ../../coach.rst:41
+msgid ""
+"You can review the progress of learners on the assigned lessons in the "
+"**Lessons** |lessons| block."
+msgstr ""
+
+#: ../../coach.rst:43
+msgid ""
+"Progress bar will indicate how many learners have started |started| and "
+"completed |completed-small| the lesson, and if they need help |need-help|"
+" with  some of the resources in it."
 msgstr ""
 
 #: ../../coach.rst:44
-msgid "Review Exercise Progress"
+msgid ""
+"You can click on the progress bar itself to open the complete lesson data"
+" in the **Reports** tab."
 msgstr ""
 
-#: ../../coach.rst:46
+#: ../../coach.rst:45
+msgid ""
+"Click :guilabel:`VIEW ALL` to access the full list of notification about "
+"lessons (only the 3 most recent are displayed in the block)."
+msgstr ""
+
+#: ../../coach.rst:49
+msgid "Class Activity"
+msgstr ""
+
+#: ../../coach.rst:51
+msgid ""
+"As learners interact with lessons and quizzes, you can track their "
+"progress in the **Class activity** block in real time."
+msgstr ""
+
+#: ../../coach.rst:53
+msgid ""
+"When learners start or complete lessons, you will see one notification "
+"displaying the title of the lesson they started |started| or completed "
+"|completed-small|, and another displaying the title of the specific "
+"resource in that lesson they interacted with. In case of quizzes, you "
+"will see only the quiz title notification."
+msgstr ""
+
+#: ../../coach.rst:54
+msgid ""
+"When multiple learners are working on the same lesson or quiz, you will "
+"see a notification like *Learner1 and 3 other have started...*"
+msgstr ""
+
+#: ../../coach.rst:55
+msgid ""
+"When learners input an incorrect answer to a question in a quiz or a "
+"lesson, the notification in the **Class activity** block will display "
+"that one or more learners need help |need-help| with a specific resource."
+msgstr ""
+
+#: ../../coach.rst:56
+msgid ""
+"You can click each notification link to review the complete resource data"
+" in the **Reports** tab."
+msgstr ""
+
+#: ../../coach.rst:57
+msgid ""
+"Click :guilabel:`VIEW ALL` to access the full list of activity "
+"notifications (only the 5 most recent are displayed in the block)."
+msgstr ""
+
+#: ../../coach.rst:61
+msgid "Reports"
+msgstr ""
+
+#: ../../manage/_reports.rst:2
+msgid ""
+"**Reports** tab (|reports| icon) allows you to gain insight into detailed"
+" real-time progress of the learners for single resources in lessons and "
+"quizzes assigned to them."
+msgstr ""
+
+#: ../../manage/_reports.rst:4
+msgid ""
+"Kolibri presents actionable reports for each lesson and quiz the class "
+"learners have been assigned, together with the possibility to observe the"
+" progress by groups and individual learners."
+msgstr ""
+
+#: ../../manage/_reports.rst:13
+msgid ""
+"Open the **Lessons** sub-tab from the main **Reports** view to access the"
+" progress reports on resources included in each lesson."
+msgstr ""
+
+#: ../../manage/_reports.rst:15
+msgid ""
+"To review past lessons, use the filter to include only the *Inactive* "
+"lessons."
+msgstr ""
+
+#: ../../manage/_reports.rst:16
+msgid ""
+"**Progress** column presents the summary of learners who *started* "
+"|started| and *completed* |completed-small| the lessons, or *need help* "
+"|need-help| with some of the included resources."
+msgstr ""
+
+#: ../../manage/_reports.rst:21
+msgid "Click on the lesson title to view its list of resources."
+msgstr ""
+
+#: ../../manage/_reports.rst:22
+msgid ""
+"In the selected lesson **Report** sub-tab, you can see the clickable list"
+" of resources, with their own *progress* and the *average time spent* on."
+msgstr ""
+
+#: ../../manage/_reports.rst:23
+msgid ""
+"When you click to open the single resource, you can see the progress "
+"report for each learner (*started* |started|, *completed* |completed-"
+"small| or *need help* |need-help|), and the time spent on it."
+msgstr ""
+
+#: ../../manage/_reports.rst:24
+msgid ""
+"If the resource is an exercise, you can access the **Difficult "
+"questions** sub-tab and review each attempt with incorrect answers."
+msgstr ""
+
+#: ../../manage/_reports.rst:25
+msgid ""
+"Open the **Learners** sub-tab to access the progress report per each "
+"learner."
+msgstr ""
+
+#: ../../manage/_reports.rst:31
+msgid ""
+"Open the **Quizzes** sub-tab from the main **Reports** view to access the"
+" progress reports on resources included in each quiz."
+msgstr ""
+
+#: ../../manage/_reports.rst:33
+msgid ""
+"To review past quizzes, use the filter to include only the *Inactive* "
+"ones."
+msgstr ""
+
+#: ../../manage/_reports.rst:34
+msgid ""
+"**Progress** column presents the summary of learners that *started* "
+"|started| and *completed* |completed-small| each quiz."
+msgstr ""
+
+#: ../../manage/_reports.rst:39
+msgid "Click on the quiz title to view its list of resources."
+msgstr ""
+
+#: ../../manage/_reports.rst:40
+msgid ""
+"In the selected quiz **Report** sub-tab, you can see the list of "
+"learners, with columns for the *progress* and obtained *score*."
+msgstr ""
+
+#: ../../manage/_reports.rst:41
+msgid ""
+"Open the **Difficult questions** sub-tab to view the list of questions "
+"learners gave incorrect answers to, and gain insight of how many *need "
+"help* |need-help| with the concept."
+msgstr ""
+
+#: ../../manage/_reports.rst:42
+msgid ""
+"Click a *difficult question* in the list to review each of the incorrect "
+"answers and attempts."
+msgstr ""
+
+#: ../../manage/_reports.rst:44
+msgid ""
+"When you click a name of a single learner, you can see the full report "
+"for each answer. This can help you understand which questions learners "
+"had difficulties answering correctly, and how many attempts they used."
+msgstr ""
+
+#: ../../manage/_reports.rst:46
+msgid "green check mark icon indicates the **correct** answer"
+msgstr ""
+
+#: ../../manage/_reports.rst:47
+msgid "red X mark icon indicates the **incorrect** answer"
+msgstr ""
+
+#: ../../manage/_reports.rst:48
+msgid "gray X mark icon indicates an **unanswered** question"
+msgstr ""
+
+#: ../../manage/_reports.rst:54
+msgid ""
+"Click on the attempt icons to see the answers for each one. In the "
+"screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the "
+"first one was incorrect, the second one (selected) was correct, but the "
+"third and finally submitted one was incorrect."
+msgstr ""
+
+#: ../../manage/_reports.rst:60
+msgid "**Review Exercise Progress**"
+msgstr ""
+
+#: ../../manage/_reports.rst:62
 msgid ""
 "When a learner answers exercise questions in Kolibri, the progress bar "
 "below the exercise is taking into account only the most recent given "
@@ -98,197 +305,78 @@ msgid ""
 "considered completed."
 msgstr ""
 
-#: ../../coach.rst:51
+#: ../../manage/_reports.rst:67
 msgid ""
-"The correct answers in the image above are not in a row; this exercise "
-"will be completed only after the learner gives 5 correct answers one "
-"after another."
+"The correct answers (green check marks) in the image above are not in a "
+"row; this exercise will be completed only after the learner gives 5 "
+"correct answers one after another."
 msgstr ""
 
-#: ../../coach.rst:53
-msgid ""
-"In the example below, the progress bar for the exercise **Subtract within"
-" 5** will appear as 40%, because the student has given 2 correct answers "
-"within the most recent set of 5 attempts. For example: If this student "
-"had made 20 incorrect attempts before the 4 displayed attempts, those 20 "
-"incorrect attempts would not get factored into the progress bar."
+#: ../../manage/_reports.rst:71
+msgid "Groups"
 msgstr ""
 
-#: ../../coach.rst:58
+#: ../../manage/_reports.rst:73
 msgid ""
-"Click the exercise title to see all the answers and attempts on each "
-"question. In the figure below, you can see the progress of the learner "
-"**Hansen** for the exercise **Numbers to 120**. The exercise is still "
-"**In progress** as the learner has not completed the 5 correct answers in"
-" the row. You can also see that for the *Question 13*, the learner has "
-"given the correct answer only on the 4th attempt, which indicates that "
-"they are still struggling with the given concept."
+"Open the **Groups** sub-tab from the main **Reports** view to access the "
+"reports about the progress in lessons and quizzes **per each group**. In "
+"the main view you can see the table with summary of lessons and quizzes "
+"assigned to each group, number of learners and the last activity."
 msgstr ""
 
-#: ../../coach.rst:63
-msgid "Details for answers and attempts on a single exercise."
+#: ../../manage/_reports.rst:75
+msgid "Click on group name to view its detailed progress report."
 msgstr ""
 
-#: ../../coach.rst:66
+#: ../../manage/_reports.rst:76
 msgid ""
-"How does it looks if learner A does 5 correct answers in a row on their "
-"first try, but learner B gets 10 wrong answers in a row before giving 5 "
-"correct ones in a row? In both cases, the progress would show as 100%, "
-"and you would have to click each learner's name to access their progress "
-"report and attempt history."
+"From the group **Reports** sub-tab you can click to access each lesson "
+"and quiz."
+msgstr ""
+
+#: ../../manage/_reports.rst:77
+msgid ""
+"In the **Members** sub-tab you can view the summary of completed "
+"exercises, scores and viewed resources **for each group learner**, and "
+"click to access their full progress report."
+msgstr ""
+
+#: ../../manage/_reports.rst:84
+msgid "Learners"
+msgstr ""
+
+#: ../../manage/_reports.rst:86
+msgid ""
+"Open the **Learners** sub-tab from the main **Reports** view to access "
+"the progress report per each learner. In the main view you can see the "
+"table with summary of completed exercises, scores and viewed resources "
+"**for each learner**, and their last activity."
+msgstr ""
+
+#: ../../manage/_reports.rst:88
+msgid "Click on learner name to view their detailed progress report."
+msgstr ""
+
+#: ../../manage/_reports.rst:89
+msgid ""
+"From the learner **Reports** sub-tab you can click to access each lesson "
+"and quiz."
+msgstr ""
+
+#: ../../manage/_reports.rst:90
+msgid ""
+"In the **Activity** sub-tab you can review their activity on resources "
+"assigned."
 msgstr ""
 
 #: ../../coach.rst:68
+msgid "Plan"
+msgstr ""
+
+#: ../../coach.rst:70
 msgid ""
-"In the figure below, you can see the progress of 5 learners for the "
-"exercise **Numbers to 120** in ascending order."
-msgstr ""
-
-#: ../../coach.rst:73
-msgid "View the progress for a single exercise or resource in a topic."
-msgstr ""
-
-#: ../../manage/_groups.rst:5
-msgid "Manage Groups"
-msgstr ""
-
-#: ../../manage/_groups.rst:7
-msgid ""
-"In case you need to further divide learners inside classes, for example "
-"to address the different progress needs, you can use the **Groups** "
-"feature. Create and delete groups, as well as assign learners to them "
-"from the **Groups** tab in your **Coach** dashboard tab (|groups| icon). "
-"Default view displays the list of all groups for the selected class, with"
-" the list of assigned learners for each group."
-msgstr ""
-
-#: ../../manage/_groups.rst:13
-msgid ""
-"To manage Kolibri groups you must sign in as **Superuser**, **Admin** or "
-"**Coach**."
-msgstr ""
-
-#: ../../manage/_groups.rst:17
-msgid "Create a New Group"
-msgstr ""
-
-#: ../../manage/_groups.rst:19
-msgid "To create a new learner group, follow these steps."
-msgstr ""
-
-#: ../../manage/_groups.rst:21
-msgid "Click the **New group** button."
-msgstr ""
-
-#: ../../manage/_groups.rst:22
-msgid "Give group a desired name."
-msgstr ""
-
-#: ../../manage/_groups.rst:23
-msgid "Click **Save** to confirm, or **Cancel** to exit without creating a group."
-msgstr ""
-
-#: ../../manage/_groups.rst:27
-msgid "Assign Learners to Group"
-msgstr ""
-
-#: ../../manage/_groups.rst:29
-msgid ""
-"Below the existing groups there is a list with all learners currently "
-"**NOT** assigned to any groups."
-msgstr ""
-
-#: ../../manage/_groups.rst:31
-msgid ""
-"Use checkboxes to select all the learners in the list, or specific ones "
-"you want to assign to the group."
-msgstr ""
-
-#: ../../manage/_groups.rst:32
-msgid "Click **Move learners** button on the right side of the list."
-msgstr ""
-
-#: ../../manage/_groups.rst:33
-msgid ""
-"Select the group to which you want to assign the selected learners in the"
-" **Move learners** window."
-msgstr ""
-
-#: ../../manage/_groups.rst:34
-msgid "Click **Move** to proceed, or **Cancel** to exit without assigning."
-msgstr ""
-
-#: ../../manage/_groups.rst:41
-msgid "Move learners between groups"
-msgstr ""
-
-#: ../../manage/_groups.rst:43
-msgid ""
-"Use checkboxes to select all the user in one group, or specific users you"
-" want to assign to another group."
-msgstr ""
-
-#: ../../manage/_groups.rst:44
-msgid "Click **Move learners** button on the right side of the origin group."
-msgstr ""
-
-#: ../../manage/_groups.rst:45
-msgid ""
-"Select the group to which you want to move the selected learners, or the "
-"**Ungrouped** option if you want to remove them from the origin group "
-"without assigning to a new one."
-msgstr ""
-
-#: ../../manage/_groups.rst:46
-msgid "Click **Move** to proceed, or **Cancel** to exit without moving."
-msgstr ""
-
-#: ../../manage/_groups.rst:53
-msgid "Rename Group"
-msgstr ""
-
-#: ../../manage/_groups.rst:55
-msgid "To rename group, follow these steps."
-msgstr ""
-
-#: ../../manage/_groups.rst:57 ../../manage/_groups.rst:68
-msgid "Click the down arrow icon on the right edge of the desired group."
-msgstr ""
-
-#: ../../manage/_groups.rst:58
-msgid "Select the **Rename group** option."
-msgstr ""
-
-#: ../../manage/_groups.rst:59
-msgid "Input the new name for the group in the confirmation window."
-msgstr ""
-
-#: ../../manage/_groups.rst:60
-msgid ""
-"Click **Save** button to proceed, or **Cancel** to exit without renaming "
-"the group."
-msgstr ""
-
-#: ../../manage/_groups.rst:64
-msgid "Delete Group"
-msgstr ""
-
-#: ../../manage/_groups.rst:66
-msgid "To delete a group, follow these steps."
-msgstr ""
-
-#: ../../manage/_groups.rst:69
-msgid "Select the **Delete group** option."
-msgstr ""
-
-#: ../../manage/_groups.rst:70
-msgid ""
-"Click **Delete group** button in the confirmation window to proceed, or "
-"**Cancel** to exit without deleting the group."
-msgstr ""
-
-#: ../../manage/_groups.rst:73
-msgid "Learners currently assigned to group will become ungrouped."
+"Use the options in the **Plan** tab to create and manage the lessons, "
+"quizzes, and groups for the selected class."
 msgstr ""
 
 #: ../../manage/_lessons.rst:5
@@ -306,17 +394,17 @@ msgstr ""
 #: ../../manage/_lessons.rst:9
 msgid ""
 "To view, create or delete lessons, as well as assign them to learners, "
-"use the **Lessons** tab in your **Coach** dashboard tab (|lessons| icon)."
-" Default view displays the list of all lessons created for the selected "
-"class, the number of resources they contain, groups they are assigned to,"
-" and their status indicator. You can filter the lessons in order to see "
-"all, or just active/inactive ones."
+"use the **Lessons** sub-tab in the **Plan** tab (|edit| icon) of your "
+"**Coach** dashboard. Default view displays the list of all lessons "
+"created for the selected class, the number of resources they contain, "
+"groups they are assigned to, and their status indicator. You can filter "
+"the lessons in order to see all, or just active/inactive ones."
 msgstr ""
 
 #: ../../manage/_lessons.rst:15
 msgid ""
-"To manage **Lessons** in Kolibri classes and groups, you must sign in as "
-"**Coach** or **Admin**."
+"To manage |lessons| **Lessons** in Kolibri classes and groups, you must "
+"sign in as **coach**, **admin** or **super admin**."
 msgstr ""
 
 #: ../../manage/_lessons.rst:19
@@ -324,28 +412,28 @@ msgid "Create New Lesson"
 msgstr ""
 
 #: ../../manage/_lessons.rst:21
-msgid "To create a new lesson, follow these steps."
+msgid "To create a new lesson |lessons|, follow these steps."
 msgstr ""
 
 #: ../../manage/_lessons.rst:23
-msgid "Click the **New lesson** button."
+msgid "Click the :guilabel:`NEW LESSON` button."
 msgstr ""
 
 #: ../../manage/_lessons.rst:24
 msgid ""
-"Fill in the field for the lesson title, description and set the "
-"visibility."
+"Fill in the field for the lesson title, description and choose the "
+"group(s) or the entire class as the recipients."
 msgstr ""
 
 #: ../../manage/_lessons.rst:29
 msgid ""
-"Click the **Continue** button. In this step, the lesson does not have any"
-" learning resources yet, but you can see and edit some options."
+"Click :guilabel:`CONTINUE`. In this step, the lesson does not have any "
+"learning resources yet, but you can see and edit some options."
 msgstr ""
 
 #: ../../manage/_lessons.rst:34
 msgid ""
-"Click the **Add resources** button, and select the content channel from "
+"Click :guilabel:`MANAGE RESOURCES` and select the content channel from "
 "which you wish to select resources for the lesson."
 msgstr ""
 
@@ -353,97 +441,115 @@ msgstr ""
 msgid ""
 "Keep navigating the topic tree of the selected content channel until you "
 "arrive to single content items. Use the checkboxes to select the "
-"resources you want to include in the lesson."
+"resources you want to include in the lesson, and you will see a "
+"notification at the bottom of the page that the resource has been added."
 msgstr ""
 
 #: ../../manage/_lessons.rst:44
-msgid "Click **Save** to confirm the selection and finish."
-msgstr ""
-
-#: ../../manage/_lessons.rst:46
 msgid ""
-"Use the |arrow-up| and |arrow-down| buttons to reorder the resources in "
-"the lesson, and click the **Remove** button to delete them. You will see "
-"a confirmation notification at the bottom."
+"Use the **Search** feature to look for resources about a specific "
+"subject. Write the search term in the field, and press the "
+":guilabel:`ENTER` key or click the |search| button to display the "
+"results. When you finish, press the :guilabel:`EXIT SEARCH` button to "
+"return to the list of selected resources."
 msgstr ""
 
-#: ../../manage/_lessons.rst:51
+#: ../../manage/_lessons.rst:49
 msgid ""
-"To add more resources to the same lesson and keep editing if needed, "
-"follow the steps 4 to 7 again."
+"You can filter the search results by *type* of resource (video, document,"
+" exercise...), include only those from a specific *channel*, or exclude "
+":ref:`resources for coaches <coach_resource>`."
 msgstr ""
 
-#: ../../manage/_lessons.rst:55
-msgid "Change Lesson Status"
+#: ../../manage/_lessons.rst:52
+msgid ""
+"Press the :guilabel:`FINISH` button to close the **Manage resources** "
+"window and return to the main view of the lesson."
+msgstr ""
+
+#: ../../manage/_lessons.rst:54
+msgid "After you've selected the resources for the lesson, you can:"
+msgstr ""
+
+#: ../../manage/_lessons.rst:56
+msgid ""
+"Grab the |drag| button to reorder lesson resources with the mouse (drag "
+"and drop)"
 msgstr ""
 
 #: ../../manage/_lessons.rst:57
+msgid ""
+"Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard "
+"navigation"
+msgstr ""
+
+#: ../../manage/_lessons.rst:58
+msgid "Click the :guilabel:`REMOVE` button to delete a resource"
+msgstr ""
+
+#: ../../manage/_lessons.rst:63
+msgid ""
+"You will see a confirmation notification at the bottom every time you "
+"change something in the lesson."
+msgstr ""
+
+#: ../../manage/_lessons.rst:65
+msgid ""
+"To add more resources to the same lesson and keep editing if needed, "
+"follow the steps 4 to 9 again."
+msgstr ""
+
+#: ../../manage/_lessons.rst:69
+msgid "Change Lesson Status"
+msgstr ""
+
+#: ../../manage/_lessons.rst:71
 msgid ""
 "A newly created lesson is *Inactive* by default, meaning that learners "
 "will not see it in their **Learn** view. To change the lesson status, "
 "follow these steps."
 msgstr ""
 
-#: ../../manage/_exams.rst:63 ../../manage/_lessons.rst:59
+#: ../../manage/_lessons.rst:73
 msgid "Click the **Change** link under the *Status* heading."
 msgstr ""
 
-#: ../../manage/_lessons.rst:64
+#: ../../manage/_lessons.rst:74
 msgid "Select **Active** or **Inactive**."
 msgstr ""
 
-#: ../../manage/_exams.rst:51 ../../manage/_exams.rst:69
-#: ../../manage/_lessons.rst:65 ../../manage/_lessons.rst:76
-#: ../../manage/_lessons.rst:104
-msgid "Click **Save** to confirm, or **Cancel** to exit without change."
+#: ../../manage/_lessons.rst:75 ../../manage/_lessons.rst:88
+#: ../../manage/_lessons.rst:104 ../../manage/_quizzes.rst:67
+#: ../../manage/_quizzes.rst:80
+msgid ""
+"Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without "
+"change."
 msgstr ""
 
-#: ../../manage/_lessons.rst:69
+#: ../../manage/_lessons.rst:81
 msgid "Change Lesson Visibility"
 msgstr ""
 
-#: ../../manage/_lessons.rst:71
+#: ../../manage/_lessons.rst:83
 msgid ""
 "You can change the visibility of the lesson that you set when you "
-"initially created it. To reassign the lesson to a different group, or "
+"initially created it. To reassign the lesson to a different group or the "
 "entire class, follow these steps."
 msgstr ""
 
-#: ../../manage/_lessons.rst:73 ../../manage/_lessons.rst:96
+#: ../../manage/_lessons.rst:85 ../../manage/_lessons.rst:96
 #: ../../manage/_lessons.rst:114 ../../manage/_lessons.rst:125
 msgid "Select the desired lesson from the list in the **Lessons** tab."
 msgstr ""
 
-#: ../../manage/_lessons.rst:74 ../../manage/_lessons.rst:115
-msgid "Click the **Options** button, and select **Edit details**."
-msgstr ""
-
-#: ../../manage/_lessons.rst:75
-msgid ""
-"Select **Entire class** or the group(s) of learners to whom you wish to "
-"assign the lesson under the *Recipients* heading."
-msgstr ""
-
-#: ../../manage/_lessons.rst:80
-msgid "View Lesson Progress"
-msgstr ""
-
-#: ../../manage/_lessons.rst:82
-msgid ""
-"After activating the lesson and making it available for the learners, you"
-" can view the cumulative progress for each resource in the main lesson "
-"view. Click the title of a specific resource to see the progress by all "
-"the learners to whom it was assigned."
+#: ../../manage/_lessons.rst:86 ../../manage/_lessons.rst:115
+msgid "Click :guilabel:`OPTIONS` and select **Edit details**."
 msgstr ""
 
 #: ../../manage/_lessons.rst:87
-msgid "Open individual lesson resource to see the progress for each learner."
-msgstr ""
-
-#: ../../manage/_lessons.rst:89
 msgid ""
-"Click on the column headers to order the results by name, progress, group"
-" or the time the resource was accessed."
+"Select **Entire class** or the group(s) of learners to whom you wish to "
+"assign the lesson under the *Visible to* heading."
 msgstr ""
 
 #: ../../manage/_lessons.rst:92
@@ -457,14 +563,14 @@ msgid ""
 msgstr ""
 
 #: ../../manage/_lessons.rst:97
-msgid "Click the **Options** button, and select **Copy lesson**."
+msgid "Click :guilabel:`OPTIONS` and select **Copy lesson**."
 msgstr ""
 
 #: ../../manage/_lessons.rst:102
 msgid "Select the class to which you wish to copy the lesson to."
 msgstr ""
 
-#: ../../manage/_exams.rst:111 ../../manage/_lessons.rst:103
+#: ../../manage/_lessons.rst:103 ../../manage/_quizzes.rst:94
 msgid ""
 "If the destination class has more than one group, select **Entire class**"
 " or the group(s) of learners to whom you wish to assign the lesson."
@@ -491,8 +597,8 @@ msgstr ""
 
 #: ../../manage/_lessons.rst:117
 msgid ""
-"Click **Save** to proceed, or **Cancel** to exit without renaming the "
-"lesson."
+"Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without "
+"renaming the lesson."
 msgstr ""
 
 #: ../../manage/_lessons.rst:121
@@ -504,315 +610,382 @@ msgid "To delete a lesson, follow these steps."
 msgstr ""
 
 #: ../../manage/_lessons.rst:126
-msgid "Click the **Options** button, and select **Delete**."
+msgid "Click :guilabel:`OPTIONS` and select **Delete**."
 msgstr ""
 
 #: ../../manage/_lessons.rst:127
 msgid ""
-"Click **Delete** in the confirmation window to proceed, or **Cancel** to "
-"exit without deleting the lesson."
+"Click :guilabel:`DELETE` in the confirmation window to proceed, or "
+":guilabel:`CANCEL` to exit without deleting the lesson."
 msgstr ""
 
-#: ../../manage/_exams.rst:5
-msgid "Manage Exams"
+#: ../../manage/_quizzes.rst:5
+msgid "Manage Quizzes"
 msgstr ""
 
-#: ../../manage/_exams.rst:7
+#: ../../manage/_quizzes.rst:7
 msgid ""
-"You can view, create and delete exams, as well as assign them to "
-"learners, using the **Exams** tab in your **Coach** dashboard (|exams| "
-"icon). Default view displays the list of all exams in a selected class, "
-"with indicators of their visibility status and groups they are assigned "
-"to."
+"You can view, create and delete quizzes, as well as assign them to "
+"learners, using the **Quizzes** sub-tab in the **Plan** tab (|edit| icon)"
+" of your **Coach** dashboard. Default view displays the list of all "
+"quizzes in a selected class, with indicators of their visibility status "
+"and groups they are assigned to."
 msgstr ""
 
-#: ../../manage/_exams.rst:13
+#: ../../manage/_quizzes.rst:13
 msgid ""
-"To manage **Exams** in Kolibri classes and groups you must sign in as "
-"**Coach** or **Admin**."
+"To manage **Quizzes** |exams| in Kolibri classes and groups you must sign"
+" in as **coach**, **admin** or **super admin**."
 msgstr ""
 
-#: ../../manage/_exams.rst:17
-msgid "Create New Exam"
+#: ../../manage/_quizzes.rst:17
+msgid "Create New Quiz"
 msgstr ""
 
-#: ../../manage/_exams.rst:19
-msgid "To create a new exam, follow these steps."
+#: ../../manage/_quizzes.rst:19
+msgid "To create a new quiz |exams|, follow these steps."
 msgstr ""
 
-#: ../../manage/_exams.rst:21
-msgid "Click the **New exam** button."
+#: ../../manage/_quizzes.rst:21
+msgid "Click the :guilabel:`NEW QUIZ` button."
 msgstr ""
 
-#: ../../manage/_exams.rst:22
-msgid "Fill in the field for the exam title in the *Create a new exam* view."
+#: ../../manage/_quizzes.rst:22
+msgid "Fill in the field for the quiz title in the *Create new quiz* page."
 msgstr ""
 
-#: ../../manage/_exams.rst:23
-msgid "Fill in the field for number of questions you want the exam to contain."
+#: ../../manage/_quizzes.rst:23
+msgid ""
+"Adjust the number of questions you want the quiz to contain. You can use "
+"the arrow field value modifiers with the mouse, or :guilabel:`-` and "
+":guilabel:`+` buttons if you are using the keyboard."
 msgstr ""
 
-#: ../../manage/_exams.rst:24
+#: ../../manage/_quizzes.rst:24
 msgid ""
 "Navigate through the topic tree and activate checkboxes of those "
-"exercises you want to include in the exam."
+"exercises you want to include in the quiz."
 msgstr ""
 
-#: ../../manage/_exams.rst:29
+#: ../../manage/_quizzes.rst:29
 msgid ""
-"As you keep adding the exercises you will see confirmation messages at "
-"the bottom."
+"As you keep adding and removing the exercises you will see confirmation "
+"messages at the bottom."
 msgstr ""
 
-#: ../../manage/_exams.rst:32
-msgid "Click **Preview** button to view the result before finishing."
-msgstr ""
-
-#: ../../manage/_exams.rst:37
+#: ../../manage/_quizzes.rst:31
 msgid ""
-"Click **Randomize questions** button to present them in the different "
-"order from those in the topic origin."
+"Use the **Search** feature to look for topics and exercises about a "
+"specific subject. Write the search term in the field, press the "
+":guilabel:`ENTER` key or click the |search| button to display the "
+"results."
 msgstr ""
 
-#: ../../manage/_exams.rst:38
-msgid "Click **Close** button to return to the exam home page."
-msgstr ""
-
-#: ../../manage/_exams.rst:40
-msgid "Click **Finish** button to save the result."
-msgstr ""
-
-#: ../../manage/_exams.rst:44
-msgid "Change Exam Visibility"
-msgstr ""
-
-#: ../../manage/_exams.rst:46
+#: ../../manage/_quizzes.rst:36
 msgid ""
-"Newly created exam will be visible to entire class by default. To change "
-"exam *Recipients* (a select group of learners instead of the whole "
-"class), follow these steps."
+"You can filter the search results by *type* of resource (exercise or "
+"topic), include only those from a specific *channel*, or exclude "
+":ref:`resources for coaches <coach_resource>`. Click :guilabel:`EXIT "
+"SEARCH` button to return to main quiz view."
 msgstr ""
 
-#: ../../manage/_exams.rst:48
-msgid "Select the exam by clicking its title from the exam list."
-msgstr ""
-
-#: ../../manage/_exams.rst:49
-msgid "Click the **Options** button and select the **Edit details** option."
-msgstr ""
-
-#: ../../manage/_exams.rst:50
+#: ../../manage/_quizzes.rst:38
 msgid ""
-"Select the group(s) of learners to whom you wish to assign the exam under"
-" the *Recipients* heading."
+"When you finish selecting resources, click :guilabel:`CONTINUE` button to"
+" preview the quiz."
 msgstr ""
 
-#: ../../manage/_exams.rst:58
-msgid "Change Exam Status"
-msgstr ""
-
-#: ../../manage/_exams.rst:60
+#: ../../manage/_quizzes.rst:40
 msgid ""
-"Once you set the visibility of exam to the chosen group(s) of learners, "
-"you need to **Activate** it in order for it to appear in the **Learn** "
-"view of the learners to whom you assigned it."
+"Beware that if you click the :guilabel:`GO BACK` button, you will exit "
+"the quiz builder and loose the resource selection."
 msgstr ""
 
-#: ../../manage/_exams.rst:62 ../../manage/_exams.rst:77
-#: ../../manage/_exams.rst:104
-msgid "Select the desired exam from the list in the **Exams** tab."
+#: ../../manage/_quizzes.rst:42
+msgid "You can choose between **Randomized** and **Fixed** question order."
 msgstr ""
 
-#: ../../manage/_exams.rst:68
+#: ../../manage/_quizzes.rst:44
 msgid ""
-"Select **Active** at the start of the exam period. When the exam period "
-"concludes, select the **Inactive** option."
+"To present the questions in a different (*random*) order to each learner,"
+" select :guilabel:`Randomized`. You can not change the order of questions"
+" established by the quiz builder, but you can click the *Choose a "
+"different set of questions* link, to obtain an alternative one."
 msgstr ""
 
-#: ../../manage/_exams.rst:73
-msgid "View Exam Report"
-msgstr ""
-
-#: ../../manage/_exams.rst:75
+#: ../../manage/_quizzes.rst:50
 msgid ""
-"To view the report and scores for learners who have taken the exam, "
+"To present the same (*fixed*) question order to all learners, select "
+":guilabel:`Fixed`. You can reorder the questions by using the |drag| "
+"button with the mouse (drag and drop), or with |arrow-up| and |arrow-"
+"down| buttons if you navigate by keyboard."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:57
+msgid ""
+"When you are satisfied with the question order click the "
+":guilabel:`FINISH` button, and you will see a confirmation notification "
+"at the bottom."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:61
+msgid "Change Quiz Visibility"
+msgstr ""
+
+#: ../../manage/_quizzes.rst:63
+msgid ""
+"Newly created quiz will be visible to entire class by default. To change "
+"quiz *Visibility* (select group of learners instead of the whole class), "
 "follow these steps."
 msgstr ""
 
-#: ../../manage/_exams.rst:78
-msgid "Scroll down to the **Exam report** heading."
-msgstr ""
-
-#: ../../manage/_exams.rst:83
+#: ../../manage/_quizzes.rst:65 ../../manage/_quizzes.rst:78
 msgid ""
-"This view presents the list of all the learners who had access to the "
-"exam, with the respective progress and scores. Click the name of the "
-"learner to view the detailed exam report with a preview of the results "
-"for each question."
+"Click :guilabel:`OPTIONS` button for the desired quiz and select the "
+"**Edit details** option."
 msgstr ""
 
-#: ../../manage/_exams.rst:85
+#: ../../manage/_quizzes.rst:66
 msgid ""
-"Click each of the questions to preview it. This can help understand which"
-" questions learners had difficulties answering correctly and how many "
-"attempts they used."
+"Select the group(s) of learners to whom you wish to assign the quiz under"
+" the *Visible to* heading."
 msgstr ""
 
-#: ../../manage/_exams.rst:87
-msgid "yellow star icon indicates a **completed** exam"
+#: ../../manage/_quizzes.rst:74
+msgid "Change Quiz Status"
 msgstr ""
 
-#: ../../manage/_exams.rst:88
-msgid "blue clock icon indicates the exam is **in progress**, not submitted yet"
-msgstr ""
-
-#: ../../manage/_exams.rst:89
-msgid "green check mark icon indicates the **correct** answer"
-msgstr ""
-
-#: ../../manage/_exams.rst:90
-msgid "red X mark icon indicates the **incorrect** answer"
-msgstr ""
-
-#: ../../manage/_exams.rst:91
-msgid "gray X mark icon indicates an **unanswered** question"
-msgstr ""
-
-#: ../../manage/_exams.rst:96
+#: ../../manage/_quizzes.rst:76
 msgid ""
-"Click on the attempt icons to see the answers for each one. In the "
-"screenshot above learner **Abby L.** had 3 attempts on *Question 8*: The "
-"first one was incorrect, the second one (selected) was correct, but the "
-"third and finally submitted one was incorrect."
+"Once you set the visibility of quiz to the chosen group(s) of learners, "
+"you need to **Activate** it so it can appear in the **Learn** view of the"
+" learners it is assigned to."
 msgstr ""
 
-#: ../../manage/_exams.rst:100
-msgid "Copy Exam"
-msgstr ""
-
-#: ../../manage/_exams.rst:102
-msgid "To copy an exam to a different group or another class, follow these steps."
-msgstr ""
-
-#: ../../manage/_exams.rst:105
-msgid "Click the **Options** button, and select **Copy to**."
-msgstr ""
-
-#: ../../manage/_exams.rst:110
+#: ../../manage/_quizzes.rst:79
 msgid ""
-"Select the class to which you wish to copy the exam to and click "
-"**Continue**."
+"Select **Active** at the start of the quiz period. When the quiz period "
+"concludes, select the **Inactive** option."
 msgstr ""
 
-#: ../../manage/_exams.rst:112
-msgid "Click **Copy** to confirm, or **Cancel** to exit without change."
+#: ../../manage/_quizzes.rst:84
+msgid "Copy Quiz"
 msgstr ""
 
-#: ../../manage/_exams.rst:114
+#: ../../manage/_quizzes.rst:86
+msgid "To copy a quiz to a different group or another class, follow these steps."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:88
+msgid "Click :guilabel:`OPTIONS` for the desired quiz and select **Copy quiz**."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:93
 msgid ""
-"If the exam is copied to another group in the same class, it will appear "
-"in the **Exams** tab as the *Copy of...*. Follow the steps in the next "
+"Select the class to which you wish to copy the quiz to and click "
+":guilabel:`CONTINUE`."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:95
+msgid ""
+"Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without "
+"change."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:97
+msgid ""
+"If the quiz is copied to another group in the same class, it will appear "
+"in the **Quizzes** tab as the *Copy of...*. Follow the steps in the next "
 "heading to rename it."
 msgstr ""
 
-#: ../../manage/_exams.rst:117
-msgid "Rename Exam"
+#: ../../manage/_quizzes.rst:100
+msgid "Rename quiz"
 msgstr ""
 
-#: ../../manage/_exams.rst:119
-msgid "To rename exam, follow these steps."
+#: ../../manage/_quizzes.rst:102
+msgid "To rename quiz, follow these steps."
 msgstr ""
 
-#: ../../manage/_exams.rst:121
-msgid "Click **Options** for the desired exam and select **Edit details** option."
-msgstr ""
-
-#: ../../manage/_exams.rst:122
-msgid "Change the exam title in the confirmation window."
-msgstr ""
-
-#: ../../manage/_exams.rst:123
+#: ../../manage/_quizzes.rst:104
 msgid ""
-"Click **Save** button  to proceed, or **Cancel** to exit without renaming"
-" the exam."
+"Click :guilabel:`OPTIONS` for the desired quiz and select **Edit "
+"details** option."
 msgstr ""
 
-#: ../../manage/_exams.rst:126
-msgid "Delete Exam"
+#: ../../manage/_quizzes.rst:105
+msgid "Change the quiz title in the confirmation window."
 msgstr ""
 
-#: ../../manage/_exams.rst:128
-msgid "To delete exam, follow these steps."
-msgstr ""
-
-#: ../../manage/_exams.rst:130
-msgid "Click **Options** for the desired exam and select **Delete** option."
-msgstr ""
-
-#: ../../manage/_exams.rst:131
+#: ../../manage/_quizzes.rst:106
 msgid ""
-"Click **Delete** button in the confirmation window to proceed, or "
-"**Cancel** to exit without deleting the exam."
+"Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without "
+"renaming the quiz."
 msgstr ""
 
-#: ../../manage/_exams.rst:134
-msgid "All data from the exam you are deleting will be lost."
+#: ../../manage/_quizzes.rst:109
+msgid "Delete Quiz"
 msgstr ""
 
-#: ../../coach.rst:87
-msgid "View Class Activity"
+#: ../../manage/_quizzes.rst:111
+msgid "To delete quiz, follow these steps."
 msgstr ""
 
-#: ../../coach.rst:90
-msgid "Recent Class Activity"
-msgstr ""
-
-#: ../../coach.rst:92
+#: ../../manage/_quizzes.rst:113
 msgid ""
-"Use the **Recent** tab (|recent| icon) to access a report of channels and"
-" items (exercises and resources - videos, reading material, etc.) "
-"accessed during the last 7 days by learners of the selected class."
+"Click :guilabel:`OPTIONS` for the desired quiz and select **Delete** "
+"option."
 msgstr ""
 
-#: ../../coach.rst:97
+#: ../../manage/_quizzes.rst:114
 msgid ""
-"If the enrolled learners have access to more than one channel, you will "
-"see the list of channels firstly. From there, you can navigate by topics "
-"and subtopics until you arrive to a specific item. In the item's view, "
-"you can review the progress of each learner in the class that accessed "
-"the item."
+"Click :guilabel:`DELETE` in the confirmation window to proceed, or "
+":guilabel:`CANCEL` to exit without deleting the quiz."
 msgstr ""
 
-#: ../../coach.rst:103
-msgid "Class Activity by Channels"
+#: ../../manage/_quizzes.rst:117
+msgid "All data from the quiz you are deleting will be lost."
 msgstr ""
 
-#: ../../coach.rst:105
+#: ../../manage/_groups.rst:5
+msgid "Manage Groups"
+msgstr ""
+
+#: ../../manage/_groups.rst:7
 msgid ""
-"Use this tab (|channels| icon) to access the full report of activity "
-"progress for the selected class. You can navigate channels by topics and "
-"subtopics until you see the progress of each class learner for a specific"
-" item."
+"In case you need to further divide learners inside classes, for example "
+"to address the different progress needs, you can use the **Groups** "
+"feature. Create and delete groups, as well as assign learners to them "
+"from the **Groups** sub-tab in the **Plan** tab (|edit| icon) of your "
+"**Coach** dashboard. Default view displays the list of all groups for the"
+" selected class, with the number of assigned learners for each group."
 msgstr ""
 
-#: ../../coach.rst:110
+#: ../../manage/_groups.rst:13
 msgid ""
-"Use the channel view to see the average progress for exercises and "
-"resources for all the learners in the class."
+"To manage Kolibri groups you must sign in as **coach**, **admin** or "
+"**super admin**."
 msgstr ""
 
-#: ../../coach.rst:113
+#: ../../manage/_groups.rst:17
+msgid "Create a New Group"
+msgstr ""
+
+#: ../../manage/_groups.rst:19
+msgid "To create a new learner group, follow these steps."
+msgstr ""
+
+#: ../../manage/_groups.rst:21
+msgid "Click the :guilabel:`NEW GROUP` button."
+msgstr ""
+
+#: ../../manage/_groups.rst:22
+msgid "Give group a desired name."
+msgstr ""
+
+#: ../../manage/_groups.rst:23
 msgid ""
-"When you navigate to the last level in the topic tree, you can see the "
-"average progress of all class learners for each exercise or resource "
-"(video, document, HTML5 activity) in that particular topic."
+"Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without "
+"creating a group."
 msgstr ""
 
-#: ../../coach.rst:116
+#: ../../manage/_groups.rst:27
+msgid "Enroll Learners in Group"
+msgstr ""
+
+#: ../../manage/_groups.rst:29
+msgid "Click to open the desired group in the **Groups** sub-tab."
+msgstr ""
+
+#: ../../manage/_groups.rst:30
+msgid "Click the :guilabel:`ENROLL LEARNERS` button."
+msgstr ""
+
+#: ../../manage/_groups.rst:32
+msgid ""
+"List in this view contains all the learners currently **NOT** enrolled in"
+" the selected group."
+msgstr ""
+
+#: ../../manage/_groups.rst:33
+msgid "You can search for a specific learner by name."
+msgstr ""
+
+#: ../../manage/_groups.rst:39
+msgid ""
+"Use checkboxes to select all the learners in the list, or the search "
+"field for specific learners you want to enroll in the group."
+msgstr ""
+
+#: ../../manage/_groups.rst:40
+msgid ""
+"Click :guilabel:`CONFIRM` to finish enrolling the selected learners and "
+"return to the group page."
+msgstr ""
+
+#: ../../manage/_groups.rst:43
+msgid "Remove Learners from Group"
+msgstr ""
+
+#: ../../manage/_groups.rst:45
+msgid "Click :guilabel:`REMOVE` for the chosen learner."
+msgstr ""
+
+#: ../../manage/_groups.rst:46
+msgid ""
+"Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit "
+"without removing the learner."
+msgstr ""
+
+#: ../../manage/_groups.rst:50
+msgid "Rename Group"
+msgstr ""
+
+#: ../../manage/_groups.rst:52
+msgid "To rename group, follow these steps."
+msgstr ""
+
+#: ../../manage/_groups.rst:54 ../../manage/_groups.rst:65
+msgid "Click :guilabel:`OPTIONS` button on the right edge of the desired group."
+msgstr ""
+
+#: ../../manage/_groups.rst:55
+msgid "Select the **Rename** option."
+msgstr ""
+
+#: ../../manage/_groups.rst:56
+msgid "Input the new name for the group in the confirmation window."
+msgstr ""
+
+#: ../../manage/_groups.rst:57
+msgid ""
+"Click :guilabel:`SAVE` button to proceed, or :guilabel:`CANCEL` to exit "
+"without renaming the group."
+msgstr ""
+
+#: ../../manage/_groups.rst:61
+msgid "Delete Group"
+msgstr ""
+
+#: ../../manage/_groups.rst:63
+msgid "To delete a group, follow these steps."
+msgstr ""
+
+#: ../../manage/_groups.rst:66
+msgid "Select the **Delete** option."
+msgstr ""
+
+#: ../../manage/_groups.rst:67
+msgid ""
+"Click :guilabel:`DELETE` button in the confirmation window to proceed, or"
+" :guilabel:`CANCEL` to exit without deleting the group."
+msgstr ""
+
+#: ../../coach.rst:84
 msgid "Coach Support Resources"
 msgstr ""
 
-#: ../../coach.rst:118
+#: ../../coach.rst:86
 msgid ""
 "`Kolibri Studio <https://studio.learningequality.org/>`_ supports the "
 "option to set visibility for any resource added to content channels as a "
@@ -823,17 +996,685 @@ msgid ""
 "training materials, etc. only viewable by coaches and not learners."
 msgstr ""
 
-#: ../../coach.rst:123
-msgid "Setting the visibiility of content in Kolibri Studio."
+#: ../../coach.rst:91
+msgid "Setting the visibility of content in Kolibri Studio."
 msgstr ""
 
-#: ../../coach.rst:125
+#: ../../coach.rst:93
 msgid ""
 "Coach resources and content channels that contain them are marked with "
 "the |coach-resource| icon in Kolibri."
 msgstr ""
 
-#: ../../coach.rst:130
+#: ../../coach.rst:98
 msgid "Content channel with 4 support resources for coaches in Kolibri."
 msgstr ""
+
+#~ msgid ""
+#~ "You can track progress of the "
+#~ "**Learners**, create and assign **Lessons**"
+#~ " and **Exams** to classes or learner"
+#~ " groups from the **Coach** dashboard. "
+#~ "The default view of the **Coach** "
+#~ "dashboard presents the list of "
+#~ "**Classes** with their assigned coaches, "
+#~ "and the number of learners enrolled "
+#~ "in each class."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on a class to access the "
+#~ "progress-tracking features and create "
+#~ "lessons and exams."
+#~ msgstr ""
+
+#~ msgid "View Learner Reports"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the desired class inside the "
+#~ "initial view of the **Coach** dashboard,"
+#~ " and it will open the **Learners**"
+#~ " tab (|learners| icon). Here you can"
+#~ " see the list of learners enrolled"
+#~ " in the class, and the group "
+#~ "they are assigned to (if applicable)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you click the username of a"
+#~ " learner, you will see a list "
+#~ "of content channels they accessed, and"
+#~ " the last time they were active "
+#~ "on each of them:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Learner Reports present a quick view "
+#~ "of all the content accessed by a"
+#~ " learner."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In a Learner report, the username "
+#~ "of the selected learner will be "
+#~ "the last item in the breadcrumb "
+#~ "navigation menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate the topic tree of each "
+#~ "channel to see the progress of the"
+#~ " selected learner for the topics, "
+#~ "subtopics and individual resources. As "
+#~ "you navigate, you will see topics "
+#~ "added to the breadcrumbs menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the image below, you can see"
+#~ " that the learner **Abby L.** "
+#~ "accessed and completed only one of "
+#~ "the subtopics from the topic **Addition"
+#~ " and Subtraction to 10**:"
+#~ msgstr ""
+
+#~ msgid "Learner Reports across topics for the selected content channel."
+#~ msgstr ""
+
+#~ msgid "Review Exercise Progress"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The correct answers in the image "
+#~ "above are not in a row; this "
+#~ "exercise will be completed only after"
+#~ " the learner gives 5 correct answers"
+#~ " one after another."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the example below, the progress "
+#~ "bar for the exercise **Subtract within"
+#~ " 5** will appear as 40%, because "
+#~ "the student has given 2 correct "
+#~ "answers within the most recent set "
+#~ "of 5 attempts. For example: If "
+#~ "this student had made 20 incorrect "
+#~ "attempts before the 4 displayed "
+#~ "attempts, those 20 incorrect attempts "
+#~ "would not get factored into the "
+#~ "progress bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the exercise title to see "
+#~ "all the answers and attempts on "
+#~ "each question. In the figure below, "
+#~ "you can see the progress of the"
+#~ " learner **Hansen** for the exercise "
+#~ "**Numbers to 120**. The exercise is "
+#~ "still **In progress** as the learner "
+#~ "has not completed the 5 correct "
+#~ "answers in the row. You can also"
+#~ " see that for the *Question 13*, "
+#~ "the learner has given the correct "
+#~ "answer only on the 4th attempt, "
+#~ "which indicates that they are still "
+#~ "struggling with the given concept."
+#~ msgstr ""
+
+#~ msgid "Details for answers and attempts on a single exercise."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "How does it looks if learner A "
+#~ "does 5 correct answers in a row"
+#~ " on their first try, but learner "
+#~ "B gets 10 wrong answers in a "
+#~ "row before giving 5 correct ones "
+#~ "in a row? In both cases, the "
+#~ "progress would show as 100%, and "
+#~ "you would have to click each "
+#~ "learner's name to access their progress"
+#~ " report and attempt history."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the figure below, you can see"
+#~ " the progress of 5 learners for "
+#~ "the exercise **Numbers to 120** in "
+#~ "ascending order."
+#~ msgstr ""
+
+#~ msgid "View the progress for a single exercise or resource in a topic."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case you need to further divide"
+#~ " learners inside classes, for example "
+#~ "to address the different progress needs,"
+#~ " you can use the **Groups** feature."
+#~ " Create and delete groups, as well"
+#~ " as assign learners to them from "
+#~ "the **Groups** tab in your **Coach** "
+#~ "dashboard tab (|groups| icon). Default "
+#~ "view displays the list of all "
+#~ "groups for the selected class, with "
+#~ "the list of assigned learners for "
+#~ "each group."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To manage Kolibri groups you must "
+#~ "sign in as **Superuser**, **Admin** or"
+#~ " **Coach**."
+#~ msgstr ""
+
+#~ msgid "Click the **New group** button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Save** to confirm, or **Cancel**"
+#~ " to exit without creating a group."
+#~ msgstr ""
+
+#~ msgid "Assign Learners to Group"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Below the existing groups there is "
+#~ "a list with all learners currently "
+#~ "**NOT** assigned to any groups."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use checkboxes to select all the "
+#~ "learners in the list, or specific "
+#~ "ones you want to assign to the "
+#~ "group."
+#~ msgstr ""
+
+#~ msgid "Click **Move learners** button on the right side of the list."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the group to which you want"
+#~ " to assign the selected learners in"
+#~ " the **Move learners** window."
+#~ msgstr ""
+
+#~ msgid "Click **Move** to proceed, or **Cancel** to exit without assigning."
+#~ msgstr ""
+
+#~ msgid "Move learners between groups"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use checkboxes to select all the "
+#~ "user in one group, or specific "
+#~ "users you want to assign to "
+#~ "another group."
+#~ msgstr ""
+
+#~ msgid "Click **Move learners** button on the right side of the origin group."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the group to which you want"
+#~ " to move the selected learners, or"
+#~ " the **Ungrouped** option if you want"
+#~ " to remove them from the origin "
+#~ "group without assigning to a new "
+#~ "one."
+#~ msgstr ""
+
+#~ msgid "Click **Move** to proceed, or **Cancel** to exit without moving."
+#~ msgstr ""
+
+#~ msgid "Click the down arrow icon on the right edge of the desired group."
+#~ msgstr ""
+
+#~ msgid "Select the **Rename group** option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Save** button to proceed, or "
+#~ "**Cancel** to exit without renaming the"
+#~ " group."
+#~ msgstr ""
+
+#~ msgid "Select the **Delete group** option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Delete group** button in the "
+#~ "confirmation window to proceed, or "
+#~ "**Cancel** to exit without deleting the"
+#~ " group."
+#~ msgstr ""
+
+#~ msgid "Learners currently assigned to group will become ungrouped."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To view, create or delete lessons, "
+#~ "as well as assign them to "
+#~ "learners, use the **Lessons** tab in "
+#~ "your **Coach** dashboard tab (|lessons| "
+#~ "icon). Default view displays the list"
+#~ " of all lessons created for the "
+#~ "selected class, the number of resources"
+#~ " they contain, groups they are "
+#~ "assigned to, and their status indicator."
+#~ " You can filter the lessons in "
+#~ "order to see all, or just "
+#~ "active/inactive ones."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To manage **Lessons** in Kolibri classes"
+#~ " and groups, you must sign in "
+#~ "as **Coach** or **Admin**."
+#~ msgstr ""
+
+#~ msgid "To create a new lesson, follow these steps."
+#~ msgstr ""
+
+#~ msgid "Click the **New lesson** button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fill in the field for the lesson"
+#~ " title, description and set the "
+#~ "visibility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the **Continue** button. In this"
+#~ " step, the lesson does not have "
+#~ "any learning resources yet, but you "
+#~ "can see and edit some options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the **Add resources** button, and"
+#~ " select the content channel from "
+#~ "which you wish to select resources "
+#~ "for the lesson."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keep navigating the topic tree of "
+#~ "the selected content channel until you"
+#~ " arrive to single content items. Use"
+#~ " the checkboxes to select the "
+#~ "resources you want to include in "
+#~ "the lesson."
+#~ msgstr ""
+
+#~ msgid "Click **Save** to confirm the selection and finish."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the |arrow-up| and |arrow-"
+#~ "down| buttons to reorder the resources"
+#~ " in the lesson, and click the "
+#~ "**Remove** button to delete them. You"
+#~ " will see a confirmation notification "
+#~ "at the bottom."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add more resources to the same"
+#~ " lesson and keep editing if needed,"
+#~ " follow the steps 4 to 7 again."
+#~ msgstr ""
+
+#~ msgid "Click **Save** to confirm, or **Cancel** to exit without change."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can change the visibility of "
+#~ "the lesson that you set when you"
+#~ " initially created it. To reassign "
+#~ "the lesson to a different group, "
+#~ "or entire class, follow these steps."
+#~ msgstr ""
+
+#~ msgid "Click the **Options** button, and select **Edit details**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select **Entire class** or the group(s)"
+#~ " of learners to whom you wish "
+#~ "to assign the lesson under the "
+#~ "*Recipients* heading."
+#~ msgstr ""
+
+#~ msgid "View Lesson Progress"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After activating the lesson and making"
+#~ " it available for the learners, you"
+#~ " can view the cumulative progress for"
+#~ " each resource in the main lesson "
+#~ "view. Click the title of a "
+#~ "specific resource to see the progress"
+#~ " by all the learners to whom it"
+#~ " was assigned."
+#~ msgstr ""
+
+#~ msgid "Open individual lesson resource to see the progress for each learner."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on the column headers to "
+#~ "order the results by name, progress, "
+#~ "group or the time the resource was"
+#~ " accessed."
+#~ msgstr ""
+
+#~ msgid "Click the **Options** button, and select **Copy lesson**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Save** to proceed, or **Cancel**"
+#~ " to exit without renaming the lesson."
+#~ msgstr ""
+
+#~ msgid "Click the **Options** button, and select **Delete**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Delete** in the confirmation "
+#~ "window to proceed, or **Cancel** to "
+#~ "exit without deleting the lesson."
+#~ msgstr ""
+
+#~ msgid "Manage Exams"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can view, create and delete "
+#~ "exams, as well as assign them to"
+#~ " learners, using the **Exams** tab in"
+#~ " your **Coach** dashboard (|exams| icon)."
+#~ " Default view displays the list of"
+#~ " all exams in a selected class, "
+#~ "with indicators of their visibility "
+#~ "status and groups they are assigned "
+#~ "to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To manage **Exams** in Kolibri classes"
+#~ " and groups you must sign in as"
+#~ " **Coach** or **Admin**."
+#~ msgstr ""
+
+#~ msgid "Create New Exam"
+#~ msgstr ""
+
+#~ msgid "To create a new exam, follow these steps."
+#~ msgstr ""
+
+#~ msgid "Click the **New exam** button."
+#~ msgstr ""
+
+#~ msgid "Fill in the field for the exam title in the *Create a new exam* view."
+#~ msgstr ""
+
+#~ msgid "Fill in the field for number of questions you want the exam to contain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate through the topic tree and "
+#~ "activate checkboxes of those exercises "
+#~ "you want to include in the exam."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As you keep adding the exercises "
+#~ "you will see confirmation messages at"
+#~ " the bottom."
+#~ msgstr ""
+
+#~ msgid "Click **Preview** button to view the result before finishing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Randomize questions** button to "
+#~ "present them in the different order "
+#~ "from those in the topic origin."
+#~ msgstr ""
+
+#~ msgid "Click **Close** button to return to the exam home page."
+#~ msgstr ""
+
+#~ msgid "Click **Finish** button to save the result."
+#~ msgstr ""
+
+#~ msgid "Change Exam Visibility"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Newly created exam will be visible "
+#~ "to entire class by default. To "
+#~ "change exam *Recipients* (a select group"
+#~ " of learners instead of the whole "
+#~ "class), follow these steps."
+#~ msgstr ""
+
+#~ msgid "Select the exam by clicking its title from the exam list."
+#~ msgstr ""
+
+#~ msgid "Click the **Options** button and select the **Edit details** option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the group(s) of learners to "
+#~ "whom you wish to assign the exam"
+#~ " under the *Recipients* heading."
+#~ msgstr ""
+
+#~ msgid "Change Exam Status"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you set the visibility of "
+#~ "exam to the chosen group(s) of "
+#~ "learners, you need to **Activate** it"
+#~ " in order for it to appear in"
+#~ " the **Learn** view of the learners"
+#~ " to whom you assigned it."
+#~ msgstr ""
+
+#~ msgid "Select the desired exam from the list in the **Exams** tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select **Active** at the start of "
+#~ "the exam period. When the exam "
+#~ "period concludes, select the **Inactive** "
+#~ "option."
+#~ msgstr ""
+
+#~ msgid "View Exam Report"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To view the report and scores for"
+#~ " learners who have taken the exam,"
+#~ " follow these steps."
+#~ msgstr ""
+
+#~ msgid "Scroll down to the **Exam report** heading."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This view presents the list of all"
+#~ " the learners who had access to "
+#~ "the exam, with the respective progress"
+#~ " and scores. Click the name of "
+#~ "the learner to view the detailed "
+#~ "exam report with a preview of the"
+#~ " results for each question."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click each of the questions to "
+#~ "preview it. This can help understand "
+#~ "which questions learners had difficulties "
+#~ "answering correctly and how many "
+#~ "attempts they used."
+#~ msgstr ""
+
+#~ msgid "yellow star icon indicates a **completed** exam"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "blue clock icon indicates the exam "
+#~ "is **in progress**, not submitted yet"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on the attempt icons to see"
+#~ " the answers for each one. In "
+#~ "the screenshot above learner **Abby L.**"
+#~ " had 3 attempts on *Question 8*: "
+#~ "The first one was incorrect, the "
+#~ "second one (selected) was correct, but"
+#~ " the third and finally submitted one"
+#~ " was incorrect."
+#~ msgstr ""
+
+#~ msgid "Copy Exam"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To copy an exam to a different "
+#~ "group or another class, follow these "
+#~ "steps."
+#~ msgstr ""
+
+#~ msgid "Click the **Options** button, and select **Copy to**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the class to which you wish"
+#~ " to copy the exam to and click"
+#~ " **Continue**."
+#~ msgstr ""
+
+#~ msgid "Click **Copy** to confirm, or **Cancel** to exit without change."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the exam is copied to another"
+#~ " group in the same class, it "
+#~ "will appear in the **Exams** tab "
+#~ "as the *Copy of...*. Follow the "
+#~ "steps in the next heading to "
+#~ "rename it."
+#~ msgstr ""
+
+#~ msgid "Rename Exam"
+#~ msgstr ""
+
+#~ msgid "To rename exam, follow these steps."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Options** for the desired exam"
+#~ " and select **Edit details** option."
+#~ msgstr ""
+
+#~ msgid "Change the exam title in the confirmation window."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Save** button  to proceed, or"
+#~ " **Cancel** to exit without renaming "
+#~ "the exam."
+#~ msgstr ""
+
+#~ msgid "Delete Exam"
+#~ msgstr ""
+
+#~ msgid "To delete exam, follow these steps."
+#~ msgstr ""
+
+#~ msgid "Click **Options** for the desired exam and select **Delete** option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Delete** button in the "
+#~ "confirmation window to proceed, or "
+#~ "**Cancel** to exit without deleting the"
+#~ " exam."
+#~ msgstr ""
+
+#~ msgid "All data from the exam you are deleting will be lost."
+#~ msgstr ""
+
+#~ msgid "View Class Activity"
+#~ msgstr ""
+
+#~ msgid "Recent Class Activity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the **Recent** tab (|recent| icon)"
+#~ " to access a report of channels "
+#~ "and items (exercises and resources - "
+#~ "videos, reading material, etc.) accessed "
+#~ "during the last 7 days by learners"
+#~ " of the selected class."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the enrolled learners have access "
+#~ "to more than one channel, you will"
+#~ " see the list of channels firstly."
+#~ " From there, you can navigate by "
+#~ "topics and subtopics until you arrive"
+#~ " to a specific item. In the "
+#~ "item's view, you can review the "
+#~ "progress of each learner in the "
+#~ "class that accessed the item."
+#~ msgstr ""
+
+#~ msgid "Class Activity by Channels"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use this tab (|channels| icon) to "
+#~ "access the full report of activity "
+#~ "progress for the selected class. You "
+#~ "can navigate channels by topics and "
+#~ "subtopics until you see the progress "
+#~ "of each class learner for a "
+#~ "specific item."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the channel view to see the"
+#~ " average progress for exercises and "
+#~ "resources for all the learners in "
+#~ "the class."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you navigate to the last "
+#~ "level in the topic tree, you can"
+#~ " see the average progress of all "
+#~ "class learners for each exercise or "
+#~ "resource (video, document, HTML5 activity) "
+#~ "in that particular topic."
+#~ msgstr ""
+
+#~ msgid "Setting the visibiility of content in Kolibri Studio."
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"POT-Creation-Date: 2019-03-18 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,55 +46,70 @@ msgstr ""
 
 #: ../../contact.rst:16
 msgid ""
-"You can add a new topic with the **+ New Topic** button on the right. "
-"Make sure to select the appropriate category in the **Create a New "
-"Topic** window to facilitate the triage and response processes."
+"You can add a new topic with the :guilabel:`+ New Topic` button on the "
+"right. Make sure to select the appropriate category in the **Create a New"
+" Topic** window to facilitate the triage and response processes."
 msgstr ""
 
-#: ../../contact.rst:22
+#: ../../contact.rst:23
 msgid "Feedback"
 msgstr ""
 
-#: ../../contact.rst:25
+#: ../../contact.rst:26
 msgid "New ideas"
 msgstr ""
 
-#: ../../contact.rst:27
+#: ../../contact.rst:28
 msgid ""
 "Until we can present a proper feedback platform, we encourage you to post"
 " any new ideas to the `Community Forums "
 "<https://community.learningequality.org/>`_."
 msgstr ""
 
-#: ../../contact.rst:32
+#: ../../contact.rst:33
 msgid "Technical issues"
 msgstr ""
 
-#: ../../contact.rst:34
+#: ../../contact.rst:35
+msgid ""
+"Try reading the :ref:`Troubleshooting <support>` section of this guide "
+"first."
+msgstr ""
+
+#: ../../contact.rst:38
 msgid ""
 "In order to report  a technical issue, you can either use the *Support* "
 "category in our forum, or open up an issue report in our public software "
 "repository, following the guidelines:"
 msgstr ""
 
-#: ../../contact.rst:36
+#: ../../contact.rst:40
 msgid ""
 "`github.com/learningequality/kolibri "
 "<https://github.com/learningequality/kolibri/>`__"
 msgstr ""
 
-#: ../../contact.rst:40
+#: ../../contact.rst:44
 msgid "Contributions and development"
 msgstr ""
 
-#: ../../contact.rst:42
+#: ../../contact.rst:46
 msgid ""
 "Kolibri is an open-source project, and as such, contributions from the "
 "tech community are welcomed, encouraged and appreciated. If you'd like to"
 " contribute to Kolibri, please refer to our developer docs:"
 msgstr ""
 
-#: ../../contact.rst:44
+#: ../../contact.rst:48
 msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
 msgstr ""
+
+#~ msgid ""
+#~ "You can add a new topic with "
+#~ "the **+ New Topic** button on the"
+#~ " right. Make sure to select the "
+#~ "appropriate category in the **Create a"
+#~ " New Topic** window to facilitate the"
+#~ " triage and response processes."
+#~ msgstr ""
 
