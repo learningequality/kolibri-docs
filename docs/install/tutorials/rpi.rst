@@ -5,7 +5,7 @@ An offline Raspberry Pi server
 
 This guide shows you how to configure a Raspberry Pi as a local Wi-Fi hotspot serving Kolibri.
 
-There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian.
+There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspbian <https://raspbian.org/>`__, the most popular choice of OS, based on Debian.
 
 Prerequisites
 -------------
