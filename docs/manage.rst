@@ -28,4 +28,4 @@ Manage Kolibri
 .. include:: manage/_advanced.rst
 
 
-.. include:: manage/_get_support.rst
+.. include:: manage/_troubleshooting.rst

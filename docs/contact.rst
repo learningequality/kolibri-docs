@@ -4,7 +4,7 @@ Get in touch
 ============
 
 .. _forums:
-.. _get_support_ref:
+.. _support:
 
 Getting support from Learning Equality and our community
 --------------------------------------------------------
