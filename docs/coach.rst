@@ -32,8 +32,12 @@ Quizzes
 You can review the progress of learners on the assigned quizzes in the **Quizzes** |exams| block.
 
 * Progress bar will indicate how many learners have started |started| and completed |completed-small| the quiz.
-* You can click on the progress bar itself to open the complete quiz data in the **Reports** tab.
+* You can click on the progress bar to open the complete quiz data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of notifications about quizzes (only the 3 most recent are displayed in the block).
+
+.. note::
+  **Quizzes** were known as **Exams** in Kolibri versions prior to 0.12.
+
 
 Lessons
 -------
@@ -41,18 +45,18 @@ Lessons
 You can review the progress of learners on the assigned lessons in the **Lessons** |lessons| block.
 
 * Progress bar will indicate how many learners have started |started| and completed |completed-small| the lesson, and if they need help |need-help| with  some of the resources in it.
-* You can click on the progress bar itself to open the complete lesson data in the **Reports** tab.
+* You can click on the progress bar to open the complete lesson data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of notification about lessons (only the 3 most recent are displayed in the block).
 
 
 Class Activity
 --------------
 
-As learners interact with lessons and quizzes, you can track their progress in the **Class activity** block in real time. 
+As learners interact with lessons and quizzes, you can track their progress in the **Class activity** block. 
 
-* When learners start or complete lessons, you will see one notification displaying the title of the lesson they started |started| or completed |completed-small|, and another displaying the title of the specific resource in that lesson they interacted with. In case of quizzes, you will see only the quiz title notification.
+* When learners start or complete lessons, you will see one notification displaying the title of the lesson they started |started| or completed |completed-small|, and another displaying the title of the specific resource in the lesson they interacted with. In case of quizzes, you will see only the quiz title notification.
 * When multiple learners are working on the same lesson or quiz, you will see a notification like *Learner1 and 3 other have started...*
-* When learners input an incorrect answer to a question in a quiz or a lesson, the notification in the **Class activity** block will display that one or more learners need help |need-help| with a specific resource.
+* When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners need help |need-help| with a specific resource.
 * You can click each notification link to review the complete resource data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
 

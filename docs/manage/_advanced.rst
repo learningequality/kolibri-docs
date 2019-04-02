@@ -7,16 +7,16 @@ Advanced Manage Options
 Working with Kolibri from the Command Line
 ------------------------------------------
 
-Tips for Working from the Command Line
-**************************************
+* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located (most probably ``C:/Python34/Scripts`` when Python is installed on drive ``C:``).
 
-* In Windows you need to open ``cmd.exe`` Command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut) in the folder where Kolibri executable is located (most probably ``C:/Python34/Scripts`` when Python is installed on drive ``C:``).
+      .. figure:: img/cmd.exe.png
+        :alt: 
 
 * On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
 
-* If you are running Kolibri with the ``PEX`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
+* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
 
-* Make sure not to include the angle brackets “< >” in the commands below.
+* In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -61,7 +61,7 @@ To import content channels from Internet, run these two commands in sequence. Th
   kolibri manage importcontent -- network <Channel ID>
 
 
-.. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
+.. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
   Commented out because the API is weird and should be fixed
