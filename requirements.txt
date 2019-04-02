@@ -3,3 +3,4 @@ sphinx
 sphinx_rtd_theme
 sphinx-intl
 sphinx-autobuild
+rst2pdf
