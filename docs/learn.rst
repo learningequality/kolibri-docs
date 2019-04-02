@@ -294,7 +294,7 @@ If the quiz is listed as *Not started*, follow these steps.
 #. Press the *Back to quiz list* if you want to pause the quiz and come back later. 
 #. Press the button :guilabel:`SUBMIT QUIZ` when you want to submit it for grading. 
 
-Quiz that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
+A quiz that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
 
 Once you complete and submit a quiz, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
 

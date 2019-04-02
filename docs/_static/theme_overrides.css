@@ -5,9 +5,12 @@
 	margin-left: 5px;
 }
 
+.rst-content .section ul li {
+    margin-bottom: 8px;
+}
+
 div.figure {
     padding: 4px;
-    /*background-color: #fff;*/
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: auto 5px;
@@ -65,7 +68,6 @@ div.figure {
 
 .clock {
     padding-bottom: 1px !important;
-    /*background-color: #fff;*/
     border-radius: 50%;                                                                                            
     color: #2196f3;
 }
@@ -79,14 +81,12 @@ div.figure {
 
 .star-small {
     padding-bottom: 1px !important;
-    /*background-color: #fff;*/
     border-radius: 50%;
     color: #ffc107;
 }
 
 .help {
     padding-bottom: 1px !important;
-    /*background-color: #fff;*/
     border-radius: 50%;
     color: #df4d4f;
 }

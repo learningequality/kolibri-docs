@@ -15,7 +15,7 @@ Prerequisites
     :align: right
     :figwidth: 50%
 
-    Raspberry Pi 3: An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an ethernet cable for online connectivity while installing and fetching contents for Kolibri.
+    Raspberry Pi 3
     
 
 * Raspberry Pi Model 3+
@@ -27,6 +27,7 @@ Prerequisites
   * `Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__
   * **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
 * Internet connectivity (for setting up the device)
+* An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an ethernet cable for online connectivity while installing and fetching contents for Kolibri.
 
 .. tip:: The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both.
 
@@ -52,7 +53,7 @@ The following commands work on Linux/macOS for setting up the .img files provide
 
 .. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`__
 
-.. tip:: Select your MicroSD card based on other people's experiences and technical benchmarks. For more information, read `this Community Forums thread <http://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
+.. tip:: Select your MicroSD card based on other people's experiences and technical benchmarks. For more information, read `this Community Forums thread <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
 
 Updating the software
 ---------------------
@@ -375,10 +376,10 @@ Kolibri is under development with regards to optimizing performance on Raspberry
 
 This work will be released in a future package targeting a pre-configured UWSGI and Nginx implementation, which will be possible to add by replacing the package of this tutorial with the new package. We will add a release note and update this tutorial accordingly.
 
-You may also want to install other services such as `Kiwix <https://kiwix.org>`__. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to the one we added for Kolibri.
+You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to the one we added for Kolibri.
 
 The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``.
 
 There are several bottle necks in this setup, but we recommend that you focus on the strong sides of the Raspberry Pi platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
 
-.. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <http://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
+.. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.

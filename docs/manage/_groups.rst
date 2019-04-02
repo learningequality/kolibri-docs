@@ -23,13 +23,13 @@ To create a new learner group, follow these steps.
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without creating a group.
    
 
-Enroll Learners in Group
-""""""""""""""""""""""""
+Enroll Learners in a Group
+""""""""""""""""""""""""""
 
 #. Click to open the desired group in the **Groups** sub-tab.
 #. Click the :guilabel:`ENROLL LEARNERS` button.
 
-    * List in this view contains all the learners currently **NOT** enrolled in the selected group.
+    * List in this view contains all the learners currently **not** enrolled in the selected group.
     * You can search for a specific learner by name.
       
       .. figure:: img/learner-groups.png
