@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.11.0.dev"
+DISPLAY_VERSION = "0.12.0.dev"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -233,3 +233,181 @@ man_pages = [
 locale_dirs = [
     os.path.join(os.getcwd(), "locale", "docs"),
 ]
+
+
+# -- Options for LaTeX output ---------------------------------------------
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+
+'fncychap': '\\usepackage{fncychap}',
+    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
+
+    'figure_align':'htbp',
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    'pointsize': '12pt',
+# The font size ('10pt', '11pt' or '12pt').
+#'pointsize': '10pt',
+
+# Additional stuff for the LaTeX preamble.
+'preamble': r'''
+        %%%%%%%%%%%%%%%%%%%% Meher %%%%%%%%%%%%%%%%%%
+        %%%add number to subsubsection 2=subsection, 3=subsubsection
+        %%% below subsubsection is not good idea.
+        \setcounter{secnumdepth}{3}
+        %
+        %%%% Table of content upto 2=subsection, 3=subsubsection
+        \setcounter{tocdepth}{2}
+
+        \usepackage{amsmath,amsfonts,amssymb,amsthm}
+        \usepackage{graphicx}
+
+        %%% reduce spaces for Table of contents, figures and tables
+        %%% it is used "\addtocontents{toc}{\vskip -1.2cm}" etc. in the document
+        \usepackage[notlot,nottoc,notlof]{}
+
+        \usepackage{color}
+        \usepackage{transparent}
+        \usepackage{eso-pic}
+        \usepackage{lipsum}
+
+        \usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
+
+        %% spacing between line
+        \usepackage{setspace}
+        %%%%\onehalfspacing
+        %%%%\doublespacing
+        \singlespacing
+
+
+        %%%%%%%%%%% datetime
+        \usepackage{datetime}
+
+        \newdateformat{MonthYearFormat}{%
+            \monthname[\THEMONTH], \THEYEAR}
+
+
+        %% RO, LE will not work for 'oneside' layout.
+        %% Change oneside to twoside in document class
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{}
+
+        %%% Alternating Header for oneside
+        \fancyhead[L]{\ifthenelse{\isodd{\value{page}}}{ \small \nouppercase{\leftmark} }{}}
+        \fancyhead[R]{\ifthenelse{\isodd{\value{page}}}{}{ \small \nouppercase{\rightmark} }}
+
+        %%% Alternating Header for two side
+        %\fancyhead[RO]{\small \nouppercase{\rightmark}}
+        %\fancyhead[LE]{\small \nouppercase{\leftmark}}
+
+        %% for oneside: change footer at right side. If you want to use Left and right then use same as header defined above.
+        \fancyfoot[R]{\ifthenelse{\isodd{\value{page}}}{{\tiny Learning Equality} }{\href{https://learningequality.org}{\tiny learningequality.org}}}
+
+        %%% Alternating Footer for two side
+        %\fancyfoot[RO, RE]{\scriptsize Learning Equality (info@learningequality.org)}
+
+        %%% page number
+        \fancyfoot[CO, CE]{\thepage}
+
+        \renewcommand{\headrulewidth}{0.5pt}
+        \renewcommand{\footrulewidth}{0.5pt}
+
+        \RequirePackage{tocbibind} %%% comment this to remove page number for following
+        \addto\captionsenglish{\renewcommand{\contentsname}{Table of contents}}
+        \addto\captionsenglish{\renewcommand{\listfigurename}{List of figures}}
+        \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}}
+        \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}} %%% Heading for TOC
+
+
+        %%reduce spacing for itemize
+        \usepackage{enumitem}
+        \setlist{nosep}
+
+        %%%%%%%%%%% Quote Styles at the top of chapter
+        \usepackage{epigraph}
+        \setlength{\epigraphwidth}{0.8\columnwidth}
+        \newcommand{\chapterquote}[2]{\epigraphhead[60]{\epigraph{\textit{#1}}{\textbf {\textit{--#2}}}}}
+        %%%%%%%%%%% Quote for all places except Chapter
+        \newcommand{\sectionquote}[2]{{\quote{\textit{``#1''}}{\textbf {\textit{--#2}}}}}
+    ''',
+
+
+    'maketitle': r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
+
+        \begin{titlepage}
+            \centering
+
+            \vspace*{80mm} %%% * is used to give space from top
+            \begin{figure}[!h]
+            \centering
+            \includegraphics[scale=0.75]{logo.png}
+            \end{figure}
+            
+            \vspace{0mm}
+            \textbf{\Huge {Kolibri User Guide}}
+
+            \vspace{0mm}
+            \small Published by Learning Equality
+
+
+            %% \vfill adds at the bottom
+            \vfill
+            \small \textit{More information available at }{\href{https://learningequality.org}{learningequality.org}}
+        \end{titlepage}
+
+        \clearpage
+        \pagenumbering{roman}
+        \tableofcontents
+        % \listoffigures
+        % \listoftables
+        \clearpage
+        \pagenumbering{arabic}
+
+        ''',
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+    'sphinxsetup': \
+        'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
+        verbatimwithframe=true, \
+        TitleColor={rgb}{0,0,0}, \
+        HeaderFamily=\\rmfamily\\bfseries, \
+        InnerLinkColor={rgb}{0,0,1}, \
+        OuterLinkColor={rgb}{0,0,1}',
+
+        'tableofcontents':' ',
+}
+
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+  ('index', 'kolibri.tex', u'Kolibri User Guide',
+   u'Published by learningequality.org', 'manual'),
+]
+
+# The name of an image file (relative to this directory) to place at the top of
+# the title page.
+#latex_logo = None
+latex_logo = 'logo.png'
+
+# For "manual" documents, if this is true, then toplevel headings are parts,
+# not chapters.
+#latex_use_parts = False
+
+# If true, show page references after internal links.
+#latex_show_pagerefs = False
+
+# If true, show URL addresses after external links.
+#latex_show_urls = False
+
+# Documents to append as an appendix to all manuals.
+#latex_appendices = []
+
+# If false, no module index is generated.
+#latex_domain_indices = True
