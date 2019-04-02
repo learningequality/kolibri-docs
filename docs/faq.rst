@@ -61,7 +61,7 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 | Vietnamese                | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 
-To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <http://learningequality.org/translate/>`_.
+To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <https://learningequality.org/translate/>`_.
 
 What are the typical deployment scenarios?
 ------------------------------------------
@@ -118,7 +118,7 @@ Refer to the :ref:`Troubleshoot and Support <support>` section of this guide.
 Who maintains the Kolibri project?
 ----------------------------------
 
-Kolibri is created, maintained, and operated by `Learning Equality <http://learningequality.org/about/>`_.
+Kolibri is created, maintained, and operated by `Learning Equality <https://learningequality.org/about/>`_.
 
 
 How do you operate in the field?
@@ -130,7 +130,7 @@ The Learning Equality team primarily works in our San Diego offices, building so
 What is Kolibri’s affiliation with Khan Academy?
 ------------------------------------------------
 
-Kolibri is an independent, open-source project maintained by `Learning Equality <http://learningequality.org/about/>`_, and is not officially affiliated with Khan Academy, although they are very supportive of the Kolibri project.
+Kolibri is an independent, open-source project maintained by `Learning Equality <https://learningequality.org/about/>`_, and is not officially affiliated with Khan Academy, although they are very supportive of the Kolibri project.
 
 
 Can I contribute to Kolibri as a developer?
@@ -142,7 +142,7 @@ Yes! Kolibri is an `open source project <https://github.com/learningequality/>`_
 Can I contribute to Kolibri as a translator?
 --------------------------------------------
 
-Yes, absolutely! To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <http://learningequality.org/translate/>`_.
+Yes, absolutely! To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <https://learningequality.org/translate/>`_.
 
 
 How do I find out more about Learning Equality and Kolibri?
