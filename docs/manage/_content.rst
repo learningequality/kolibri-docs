@@ -16,11 +16,11 @@ Kolibri **Content Channel** is a collection of educational resources (video, aud
 
 .. _id_token:
 
-Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to import content from **private or unlisted** channels, you will need the **channel token or ID from the content curator who assembled it**.
+Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to import content from **private or unlisted** channels, you will need the **channel token or ID from the content curator who assembled it**.
 
 .. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we started using exclusively the term **token** to uniquely designate each channel.
 
-.. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import content channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
+.. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import content channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`__ how to find it in Studio user interface, if you have channel editor access.
 
 
 
@@ -29,13 +29,13 @@ Import Content into Kolibri
 
 .. warning:: **Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import content from:
 
-  * already curated **content channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_, if the computer running Kolibri is connected to internet
+  * already curated **content channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
 
   OR 
 
   * an external storage drive (USB or hard drive) where content channels have been previously exported to from another Kolibri installation, if the computer running Kolibri is not connected to internet
 
-  **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`_ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our Kolibri `Studio user guide <http://kolibri-studio.readthedocs.io/en/latest/index.html>`_.
+  **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__ site (it's free), and build your own content channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/index.html>`__.
 
 
 .. warning::
