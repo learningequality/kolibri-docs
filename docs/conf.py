@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.11.0.dev"
+DISPLAY_VERSION = "0.12.2"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -36,6 +36,7 @@ linkcheck_ignore = [
     'https://groups.google.com/a/learningequality.org/forum/#!forum/dev',
     'http://127.0.0.1:8080',
     'http://127.0.0.1:8080/',
+    'https://www.kiwix.org',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

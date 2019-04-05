@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"POT-Creation-Date: 2019-03-18 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr ""
 #: ../../faq.rst:37 ../../faq.rst:39 ../../faq.rst:41 ../../faq.rst:43
 #: ../../faq.rst:45 ../../faq.rst:47 ../../faq.rst:49 ../../faq.rst:51
 #: ../../faq.rst:53 ../../faq.rst:55 ../../faq.rst:57 ../../faq.rst:59
-#: ../../faq.rst:61 ../../faq.rst:63 ../../faq.rst:65
+#: ../../faq.rst:61
 msgid "✓"
 msgstr ""
 
@@ -104,81 +104,73 @@ msgid "Bengali"
 msgstr ""
 
 #: ../../faq.rst:35
-msgid "Burmese"
-msgstr ""
-
-#: ../../faq.rst:37
 msgid "Chinyanja"
 msgstr ""
 
-#: ../../faq.rst:39
+#: ../../faq.rst:37
 msgid "Farsi"
 msgstr ""
 
-#: ../../faq.rst:41
+#: ../../faq.rst:39
 msgid "French"
 msgstr ""
 
-#: ../../faq.rst:43
+#: ../../faq.rst:41
 msgid "Hindi"
 msgstr ""
 
-#: ../../faq.rst:45
-msgid "Kannada"
-msgstr ""
-
-#: ../../faq.rst:47
+#: ../../faq.rst:43
 msgid "Marathi"
 msgstr ""
 
-#: ../../faq.rst:49
+#: ../../faq.rst:45
 msgid "Portuguese (Brazil)"
 msgstr ""
 
-#: ../../faq.rst:51
+#: ../../faq.rst:47
 msgid "Spanish (Mexico)"
 msgstr ""
 
-#: ../../faq.rst:53
+#: ../../faq.rst:49
 msgid "Spanish (Spain)"
 msgstr ""
 
-#: ../../faq.rst:55
+#: ../../faq.rst:51
 msgid "Swahili (Tanzania)"
 msgstr ""
 
-#: ../../faq.rst:57
+#: ../../faq.rst:53
 msgid "Tamil"
 msgstr ""
 
-#: ../../faq.rst:59
-msgid "Telugu"
+#: ../../faq.rst:55
+msgid "Bulgarian"
 msgstr ""
 
-#: ../../faq.rst:61
+#: ../../faq.rst:57
 msgid "Urdu (Pakistan)"
 msgstr ""
 
-#: ../../faq.rst:63
+#: ../../faq.rst:59
 msgid "Yoruba"
 msgstr ""
 
-#: ../../faq.rst:65
-msgid "Zulu"
+#: ../../faq.rst:61
+msgid "Vietnamese"
 msgstr ""
 
-#: ../../faq.rst:68
+#: ../../faq.rst:64
 msgid ""
 "To contribute to Kolibri and Kolibri Studio as a translator, you can get "
 "started over on our `translations and internationalization page "
 "<http://learningequality.org/translate/>`_."
 msgstr ""
 
-#: ../../faq.rst:71
+#: ../../faq.rst:67
 msgid "What are the typical deployment scenarios?"
 msgstr ""
 
-#: ../../faq.rst:73
+#: ../../faq.rst:69
 msgid ""
 "There is no typical implementation setting. However, we can share with "
 "you what we’ve learned from our community of KA Lite and Kolibri users. "
@@ -187,81 +179,81 @@ msgid ""
 "formal, and informal learning."
 msgstr ""
 
-#: ../../faq.rst:76
+#: ../../faq.rst:72
 msgid "Coach"
 msgstr ""
 
-#: ../../faq.rst:76
+#: ../../faq.rst:72
 msgid "No Coach"
 msgstr ""
 
-#: ../../faq.rst:78
+#: ../../faq.rst:74
 msgid "Formal and Non-Formal"
 msgstr ""
 
-#: ../../faq.rst:78
+#: ../../faq.rst:74
 msgid "School classroom"
 msgstr ""
 
-#: ../../faq.rst:79
+#: ../../faq.rst:75
 msgid "Home schooling"
 msgstr ""
 
-#: ../../faq.rst:80
+#: ../../faq.rst:76
 msgid "Supplementary education setting"
 msgstr ""
 
-#: ../../faq.rst:78
+#: ../../faq.rst:74
 msgid "After school program"
 msgstr ""
 
-#: ../../faq.rst:79
+#: ../../faq.rst:75
 msgid "Supplementary education setting (computer labs model)"
 msgstr ""
 
-#: ../../faq.rst:80
+#: ../../faq.rst:76
 msgid ""
 "Use in classroom that has teacher, but without coach engagement or "
 "monitoring"
 msgstr ""
 
-#: ../../faq.rst:83
+#: ../../faq.rst:79
 msgid "Informal"
 msgstr ""
 
-#: ../../faq.rst:83
+#: ../../faq.rst:79
 msgid "Tutoring session"
 msgstr ""
 
-#: ../../faq.rst:83
+#: ../../faq.rst:79
 msgid "Mobile school vans"
 msgstr ""
 
-#: ../../faq.rst:84
+#: ../../faq.rst:80
 msgid "Use for homework only"
 msgstr ""
 
-#: ../../faq.rst:89
+#: ../../faq.rst:85
 msgid "What are some possible hardware configurations for deploying Kolibri?"
 msgstr ""
 
-#: ../../faq.rst:91
+#: ../../faq.rst:87
 msgid "To deploy Kolibri for multiple users you will need:"
 msgstr ""
 
-#: ../../faq.rst:93
+#: ../../faq.rst:89
 msgid ""
 "**Server device**: a computer that is running the Kolibri software (e.g. "
 "a desktop computer, laptop, or Raspberry Pi)."
 msgstr ""
 
-#: ../../faq.rst:94
+#: ../../faq.rst:90
 msgid ""
 "One or more **client devices** that have web browsers (laptops, tablets, "
 "desktop computers, etc)"
 msgstr ""
 
-#: ../../faq.rst:97
+#: ../../faq.rst:93
 msgid ""
 "For a single-device deployment (1) and (2) can be the same computer, with"
 " the browser connecting to the locally running Kolibri server. To make "
@@ -270,7 +262,7 @@ msgid ""
 "through a WIFI access point."
 msgstr ""
 
-#: ../../faq.rst:99
+#: ../../faq.rst:95
 msgid ""
 "To read more details, see the full `Kolibri Hardware Guide "
 "<https://learningequality.org/r/hardware-guide>`_ and examples of "
@@ -278,11 +270,11 @@ msgid ""
 "<https://learningequality.org/r/hardware>`_ (PDF documents)."
 msgstr ""
 
-#: ../../faq.rst:103
+#: ../../faq.rst:99
 msgid "How can I generate content aligned to local curriculum?"
 msgstr ""
 
-#: ../../faq.rst:105
+#: ../../faq.rst:101
 msgid ""
 "Use `Kolibri Studio <https://studio.learningequality.org/>`_ curriculum "
 "tool to curate content channels aligned to your local requirements. Once "
@@ -290,46 +282,46 @@ msgid ""
 "your Kolibri deployments for use in learning environments."
 msgstr ""
 
-#: ../../faq.rst:109
+#: ../../faq.rst:105
 msgid "Bulk Downloads of Content Channels"
 msgstr ""
 
-#: ../../faq.rst:111
+#: ../../faq.rst:107
 msgid "``Coming soon!``"
 msgstr ""
 
-#: ../../faq.rst:113
+#: ../../faq.rst:109
 msgid ""
 "At this time we do not support bulk downloads of content channel outside "
 "the Kolibri platform.  In the near future, we will consider offering bit "
 "torrents for certain global content channels."
 msgstr ""
 
-#: ../../faq.rst:117
+#: ../../faq.rst:113
 msgid "Something isn’t working!"
 msgstr ""
 
-#: ../../faq.rst:119
+#: ../../faq.rst:115
 msgid ""
 "Refer to the :ref:`Troubleshoot and Support <support>` section of this "
 "guide."
 msgstr ""
 
-#: ../../faq.rst:123
+#: ../../faq.rst:119
 msgid "Who maintains the Kolibri project?"
 msgstr ""
 
-#: ../../faq.rst:125
+#: ../../faq.rst:121
 msgid ""
 "Kolibri is created, maintained, and operated by `Learning Equality "
 "<http://learningequality.org/about/>`_."
 msgstr ""
 
-#: ../../faq.rst:129
+#: ../../faq.rst:125
 msgid "How do you operate in the field?"
 msgstr ""
 
-#: ../../faq.rst:131
+#: ../../faq.rst:127
 msgid ""
 "The Learning Equality team primarily works in our San Diego offices, "
 "building software and shaping our road map based on our interactions with"
@@ -339,11 +331,11 @@ msgid ""
 "purposes."
 msgstr ""
 
-#: ../../faq.rst:135
+#: ../../faq.rst:131
 msgid "What is Kolibri’s affiliation with Khan Academy?"
 msgstr ""
 
-#: ../../faq.rst:137
+#: ../../faq.rst:133
 msgid ""
 "Kolibri is an independent, open-source project maintained by `Learning "
 "Equality <http://learningequality.org/about/>`_, and is not officially "
@@ -351,37 +343,49 @@ msgid ""
 "Kolibri project."
 msgstr ""
 
-#: ../../faq.rst:141
+#: ../../faq.rst:137
 msgid "Can I contribute to Kolibri as a developer?"
 msgstr ""
 
-#: ../../faq.rst:143
+#: ../../faq.rst:139
 msgid ""
 "Yes! Kolibri is an `open source project "
 "<https://github.com/learningequality/>`_, and developers are encouraged "
 "to contribute!"
 msgstr ""
 
-#: ../../faq.rst:147
+#: ../../faq.rst:143
 msgid "Can I contribute to Kolibri as a translator?"
 msgstr ""
 
-#: ../../faq.rst:149
+#: ../../faq.rst:145
 msgid ""
 "Yes, absolutely! To contribute to Kolibri and Kolibri Studio as a "
 "translator, you can get started over on our `translations and "
 "internationalization page <http://learningequality.org/translate/>`_."
 msgstr ""
 
-#: ../../faq.rst:153
+#: ../../faq.rst:149
 msgid "How do I find out more about Learning Equality and Kolibri?"
 msgstr ""
 
-#: ../../faq.rst:155
+#: ../../faq.rst:151
 msgid ""
 "To stay up-to-date on all our activities, follow our `blog "
 "<https://blog.learningequality.org/>`_, `Twitter "
 "<https://twitter.com/LearnEQ/>`_, and `Facebook "
 "<https://www.facebook.com/learningequality>`_!"
 msgstr ""
+
+#~ msgid "Burmese"
+#~ msgstr ""
+
+#~ msgid "Kannada"
+#~ msgstr ""
+
+#~ msgid "Telugu"
+#~ msgstr ""
+
+#~ msgid "Zulu"
+#~ msgstr ""
 

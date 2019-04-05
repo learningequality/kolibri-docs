@@ -36,10 +36,14 @@ Troubleshoot Database Issues
 
 In case you receive the ``database disk image is malformed`` error in Terminal, try running these commands (note that **you must have the** ``sqlite3`` **command available on your system**).
 
-  .. code-block:: bash
+.. code-block:: bash
 
-    sqlite3 ~/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db 
-    cp fixed.db ~/.kolibri/db.sqlite3
+	mkdir -p malformed
+	cp -b db.sqlite3* malformed
+	sqlite3 ~/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db
+	cp fixed.db ~/.kolibri/db.sqlite3
+	rm -f db.sqlite3-wal db.sqlite3-shm			
+
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
