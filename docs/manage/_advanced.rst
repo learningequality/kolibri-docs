@@ -7,7 +7,7 @@ Advanced Manage Options
 Working with Kolibri from the Command Line
 ------------------------------------------
 
-* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located (most probably ``C:/Python34/Scripts`` when Python is installed on drive ``C:``).
+* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located. When Python is installed on drive ``C:`` the correct path will most probably be ``C:/Python27/Scripts`` in Kolibri up to version 0.9, and ``C:/Python34/Scripts`` in version 0.10 or above.
 
       .. figure:: img/cmd.exe.png
         :alt: 
@@ -144,6 +144,61 @@ In case you need to create another **super admin** user, either to address addit
   kolibri manage createsuperuser
 
 You will be prompted to input the **Username** and **Password** and the new **super admin** user account will be created.
+
+
+Import Users from a CSV File
+****************************
+
+.. note:: 
+  This is currently an experimental feature, so please forward to the development team any details about the issues you may encounter while using it.
+
+  Command works on Kolibri version 0.9 and above.
+
+CSV File Structure
+""""""""""""""""""
+
+To import users into Kolibri with this command, you will need to provide the user data in a CSV (comma separated values) file format. You can export a CSV file from a tabular data in any spreadsheet program (Excel, Google Sheets, LibreOffice Calc, etc.).
+
+  .. figure:: img/csv.png
+      :alt: User data in a spreadsheet table
+
+      User data in a spreadsheet table.
+
+* Header row is optional, but if you do not include it, Kolibri will assume that you are providing the data in the following order:
+
+    ``<full_name>,<username>,<password>,<facility>,<class>``
+
+* If you do include a header row, you can provide less data, or put them a different order:
+
+    ``<full_name>,<username>,<password>``
+
+    ``<username>,<full_name>``
+
+* Only the ``username`` is required.
+
+* When you do not provide passwords for the imported users, Kolibri will set the default password ``kolibri`` for those usernames.
+
+* The facility can be either the facility name or the facility ID. If you do not provide the facility, Kolibri will import users in the default facility on the device. You can also specify the facility by adding the ``--facility`` argument in the command line (see below).
+
+
+.. code-block:: bash
+
+  kolibri manage importusers your-csv-file.csv
+
+  kolibri manage importusers your-csv-file.csv --facility <your-facility>
+
+
+Delete Users Permanantly
+************************
+
+If you need to permanently delete a Kolibri user and all the data associated with their account, for example to ensure privacy rights according to GDPR, use the following command.
+
+.. code-block:: bash
+
+  kolibri manage deleteuser <username>
+
+
+.. warning:: This will permanently erase all the user data.
 
 
 Change Language
