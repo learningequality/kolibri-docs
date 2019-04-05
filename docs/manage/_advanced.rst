@@ -7,7 +7,7 @@ Advanced Manage Options
 Working with Kolibri from the Command Line
 ------------------------------------------
 
-* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located (most probably ``C:/Python34/Scripts`` when Python is installed on drive ``C:``).
+* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located. When Python is installed on drive ``C:`` the correct path will most probably be ``C:/Python27/Scripts`` in Kolibri up to version 0.9, and ``C:/Python34/Scripts`` in version 0.10 or above.
 
       .. figure:: img/cmd.exe.png
         :alt: 
@@ -181,33 +181,11 @@ To import users into Kolibri with this command, you will need to provide the use
 * The facility can be either the facility name or the facility ID. If you do not provide the facility, Kolibri will import users in the default facility on the device. You can also specify the facility by adding the ``--facility`` argument in the command line (see below).
 
 
-Linux or OSX
-""""""""""""
-
-Open the Terminal and run this command from the folder where the CSV file is located:
-
 .. code-block:: bash
 
   kolibri manage importusers your-csv-file.csv
 
   kolibri manage importusers your-csv-file.csv --facility <your-facility>
-
-Windows
-"""""""
-
-* Kolibri version 0.9
-
-  .. code-block:: bash
-
-    C:\Python27\Scripts>kolibri manage importusers your-csv-file.csv
-    C:\Python27\Scripts>kolibri manage importusers your-csv-file.csv --facility <your-facility>
-
-* Kolibri version 0.10 or above
-
-  .. code-block:: bash
-
-    C:\Python34\Scripts>kolibri manage importusers name-of-your-csv-file.csv
-    C:\Python34\Scripts>kolibri manage importusers your-csv-file.csv --facility <your-facility>
 
 
 Delete Users Permanantly
