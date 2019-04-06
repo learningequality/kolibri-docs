@@ -12,8 +12,7 @@ Prerequisites
 
 .. figure:: /img/rpi_kit.jpeg
     :alt: Raspberry Pi and accessories
-    :align: right
-    :figwidth: 50%
+    :width: 50%
 
     Raspberry Pi 3: An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an ethernet cable for online connectivity while installing and fetching contents for Kolibri.
     

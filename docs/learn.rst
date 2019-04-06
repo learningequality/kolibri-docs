@@ -33,16 +33,16 @@ To sign in to **Kolibri** and start learning, follow these steps:
 .. warning::
    If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
 
-	.. figure:: img/learn-page-signin.png
-	  :alt: Open the sidebar to access the sign in link.
+.. figure:: img/learn-page-signin.png
+  :alt: Open the sidebar to access the sign in link.
 
-	  "Sign in" link in the sidebar.
+  "Sign in" link in the sidebar.
 
 
-	.. figure:: img/learn-page-signin2.png
-	  :alt: Open the user menu to access the sign in link.
+.. figure:: img/learn-page-signin2.png
+  :alt: Open the user menu to access the sign in link.
 
-	  "Sign in" link in the user menu.
+  "Sign in" link in the user menu.
 
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below **Learn**), or from the user menu.
