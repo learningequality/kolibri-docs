@@ -24,10 +24,11 @@ Install
 .. warning::
   Windows firewall will prompt you to allow the Python process needed to run Kolibri. Click **Allow access** to accept and proceed.
 
-	.. figure:: img/windows-firewall.png
-	 :alt: Windows security alert window that opens when Windows firewall needs your permission to allow the Python process, needed to run Kolibri, to be executed on your computer.
+.. figure:: img/windows-firewall.png
+ :width: 50%
+ :alt: Windows security alert window that opens when Windows firewall needs your permission to allow the Python process, needed to run Kolibri, to be executed on your computer.
 
-	 Allow the Python process needed to run Kolibri.
+ Allow the Python process needed to run Kolibri.
 
 
 Uninstall
