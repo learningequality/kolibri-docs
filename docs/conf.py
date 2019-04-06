@@ -212,6 +212,16 @@ rst_prolog = """
 
 """
 
+# Apr 5th: directive to allow .gif use for HTML docs with .png fallback for latexpdf
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.supported_image_types = [
+    'image/svg+xml',
+    'image/gif',
+    'image/png',
+    'image/jpeg'
+]
+
+
 
 # -- Options for manual page output --------------------------------------------
 
@@ -513,4 +523,5 @@ pdf_use_numbered_links = False
 pdf_fit_background_mode = 'scale'
 
 # Repeat table header on tables that cross a page boundary?
-pdf_repeat_table_rows = True
+pdf_repeat_table_rows = True 
+
