@@ -260,6 +260,7 @@ latex_elements = {
     # The font size ('10pt', '11pt' or '12pt').
     #
     'pointsize': '12pt',
+    'extraclassoptions': 'oneside',
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
 
@@ -289,9 +290,9 @@ latex_elements = {
 
         %% spacing between line
         \usepackage{setspace}
-        %%%%\onehalfspacing
-        %%%%\doublespacing
-        \singlespacing
+        \onehalfspacing
+        % \doublespacing
+        % \singlespacing
 
 
         %%%%%%%%%%% datetime
