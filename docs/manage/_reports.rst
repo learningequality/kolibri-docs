@@ -3,7 +3,7 @@
 
 Kolibri presents actionable reports for each lesson and quiz the class learners have been assigned, together with the possibility to observe the progress by groups and individual learners.
 
-	.. figure:: img/class-reports.gif
+	.. figure:: img/class-reports.*
 	  :alt: Open the Reports tab to track detailed learner progress
 
 
@@ -15,7 +15,7 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 * To review past lessons, use the filter to include only the *Inactive* lessons.
 * **Progress** column presents the summary of learners who *started* |started| and *completed* |completed-small| the lessons, or *need help* |need-help| with some of the included resources.
   
-.. figure:: img/lessons.gif
+.. figure:: img/lessons.*
   :alt: 
 
 #. Click on the lesson title to view its list of resources.
@@ -33,7 +33,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 * To review past quizzes, use the filter to include only the *Inactive* ones.
 * **Progress** column presents the summary of learners that *started* |started| and *completed* |completed-small| each quiz.
 
-.. figure:: img/quizzes.gif
+.. figure:: img/quizzes.*
   :alt: 
 
 #. Click on the quiz title to view its list of resources.
@@ -76,7 +76,7 @@ Open the **Groups** sub-tab from the main **Reports** view to access the reports
 #. From the group **Reports** sub-tab you can click to access each lesson and quiz.
 #. In the **Members** sub-tab you can view the summary of completed exercises, scores and viewed resources **for each group learner**, and click to access their full progress report.   
 
-.. figure:: img/groups.gif
+.. figure:: img/groups.*
   :alt: 
 
 
@@ -89,5 +89,5 @@ Open the **Learners** sub-tab from the main **Reports** view to access the progr
 #. From the learner **Reports** sub-tab you can click to access each lesson and quiz.
 #. In the **Activity** sub-tab you can review their activity on resources assigned.   
 
-.. figure:: img/learners.gif
+.. figure:: img/learners.*
   :alt: 

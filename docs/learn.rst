@@ -254,7 +254,7 @@ To read digital books in Kolibri you have several available controls inside the 
 * Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
 * Use the :guilabel:`DOWNLOAD CONTENT` button below the viewer to download the ePub file to your computer.
 
-	.. figure:: img/epub.gif
+	.. figure:: img/epub.*
 		:alt: 
 
 
