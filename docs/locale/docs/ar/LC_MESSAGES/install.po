@@ -1,0 +1,612 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Learning Equality
+# This file is distributed under the same license as the Kolibri package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kolibri 0.10.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../install.rst:4
+msgid "Install Kolibri"
+msgstr ""
+
+#: ../../install.rst:6
+msgid ""
+"See the `Kolibri changelog here <https://learningequality.org/r/kolibri-"
+"changes>`_ to review specific changes in each version of Kolibri. "
+"Documentation for `previous Kolibri versions are available here "
+"<https://readthedocs.org/projects/kolibri/>`_."
+msgstr ""
+
+#: ../../install/_system_requirements.rst:4
+msgid "Hardware requirements"
+msgstr ""
+
+#: ../../install/_system_requirements.rst:6
+msgid ""
+"To install **Kolibri** on a device that will act as a server, check the "
+"hardware requirements first, and then follow the procedure for the "
+"operating system on your device."
+msgstr ""
+
+#: ../../install/_system_requirements.rst:8
+msgid ""
+"Below you will find general recommendations regarding hardware "
+"requirements to run Kolibri. To read more detailed information and find "
+"out examples of hardware setups that have been implemented by our users, "
+"download the full `Kolibri Hardware Guide <https://learningequality.org/r"
+"/hardware-guide>`_ and examples of `Hardware Configurations for Kolibri "
+"<https://learningequality.org/r/hardware>`_ (PDF documents)."
+msgstr ""
+
+#: ../../install/_system_requirements.rst:11
+msgid "Servers"
+msgstr ""
+
+#: ../../install/_system_requirements.rst:13
+msgid "Minimum hardware requirements to run Kolibri as a server:"
+msgstr ""
+
+#: ../../install/_system_requirements.rst:15
+msgid "500 MB RAM (1 GB recommended)"
+msgstr ""
+
+#: ../../install/_system_requirements.rst:16
+msgid "500 MHz CPU (1 GHz recommended)"
+msgstr ""
+
+#: ../../install/_system_requirements.rst:17
+msgid ""
+"Hard drive space depends on the size of the content channels you intend "
+"to import from `Kolibri Studio <https://studio.learningequality.org/>`_ "
+"or a local storage device."
+msgstr ""
+
+#: ../../install/_system_requirements.rst:19
+msgid ""
+"If you have a facility with less than 30 computers, a device as simple as"
+" a `Raspberry Pi <https://www.raspberrypi.org/>`_ is known to work fine "
+"as a server."
+msgstr ""
+
+#: ../../install/_system_requirements.rst:25
+msgid "Clients"
+msgstr ""
+
+#: ../../install/_system_requirements.rst:27
+msgid ""
+"Very old desktops and very low-power computers can be used as client "
+"devices to access Kolibri. For instance, some implementations are known "
+"to use first-gen Raspberry Pi as desktop computers."
+msgstr ""
+
+#: ../../install/_system_requirements.rst:29
+msgid ""
+"It is always a good idea to do a practical test, but when you want to "
+"implement Kolibri, usually it's not necessary to scale your hardware. The"
+" main requirement is that your system needs a video card and driver that "
+"can play the videos."
+msgstr ""
+
+#: ../../install/_windows.rst:4
+msgid "Windows"
+msgstr ""
+
+#: ../../install/_linux.rst:7 ../../install/_osx.rst:7 ../../install/_rpi.rst:7
+#: ../../install/_windows.rst:7
+msgid "Compatibility"
+msgstr ""
+
+#: ../../install/_windows.rst:9
+msgid "Supported: Windows 7, 8.1 and 10, with IE 11+, Chrome or Firefox"
+msgstr ""
+
+#: ../../install/_windows.rst:10
+msgid ""
+"**Not supported:** Windows XP cannot be used to install Kolibri server, "
+"but could potentially work as a client device if the browsers are `as up-"
+"to-date as possible <https://support.mozilla.org/en-"
+"US/questions/1173904>`_."
+msgstr ""
+
+#: ../../install/_osx.rst:15 ../../install/_rpi.rst:12
+#: ../../install/_windows.rst:14
+msgid "Install"
+msgstr ""
+
+#: ../../install/_windows.rst:16
+msgid ""
+"Download the Kolibri `Windows installer <https://learningequality.org/r"
+"/kolibri-windows-setup-latest>`_."
+msgstr ""
+
+#: ../../install/_windows.rst:17 ../../install/_windows.rst:48
+msgid "Double-click the downloaded ``.exe`` file."
+msgstr ""
+
+#: ../../install/_windows.rst:18
+msgid "Select the language for the installation."
+msgstr ""
+
+#: ../../install/_windows.rst:19
+msgid ""
+"Python 3 installer is included, confirm the installation or the upgrade "
+"to proceed."
+msgstr ""
+
+#: ../../install/_windows.rst:20
+msgid ""
+"Follow the rest of the instructions in the Kolibri installation setup "
+"wizard."
+msgstr ""
+
+#: ../../install/_windows.rst:21
+msgid ""
+"Once the installation finishes, Kolibri will auto-start and open in the "
+"default browser on your computer at http://127.0.0.1:8080. This may take "
+"a moment, so please be patient."
+msgstr ""
+
+#: ../../install/_windows.rst:22
+msgid "Proceed with the :ref:`setup_initial` of your facility."
+msgstr ""
+
+#: ../../install/_windows.rst:25
+msgid ""
+"Windows firewall will prompt you to allow the Python process needed to "
+"run Kolibri. Click **Allow access** to accept and proceed."
+msgstr ""
+
+#: ../../install/_windows.rst:30
+msgid "Allow the Python process needed to run Kolibri."
+msgstr ""
+
+#: ../../install/_linux.rst:52 ../../install/_osx.rst:40
+#: ../../install/_rpi.rst:53 ../../install/_windows.rst:34
+msgid "Uninstall"
+msgstr ""
+
+#: ../../install/_windows.rst:36
+msgid "Open the Windows Control Panel."
+msgstr ""
+
+#: ../../install/_windows.rst:37
+msgid "Select **Programs and Features** option."
+msgstr ""
+
+#: ../../install/_windows.rst:38
+msgid "Select Kolibri from the list of programs."
+msgstr ""
+
+#: ../../install/_windows.rst:39
+msgid "Click the button **Uninstall/Change** and follow the instructions."
+msgstr ""
+
+#: ../../install/_linux.rst:59 ../../install/_osx.rst:46
+#: ../../install/_rpi.rst:59 ../../install/_windows.rst:43
+msgid "Upgrade"
+msgstr ""
+
+#: ../../install/_osx.rst:48 ../../install/_windows.rst:45
+msgid "To upgrade Kolibri, follow these steps."
+msgstr ""
+
+#: ../../install/_windows.rst:47
+msgid ""
+"Download the new version of Kolibri `Windows installer "
+"<https://learningequality.org/r/kolibri-windows-setup-latest>`_."
+msgstr ""
+
+#: ../../install/_windows.rst:49
+msgid "Follow the instructions in the installation wizard window."
+msgstr ""
+
+#: ../../install/_windows.rst:50
+msgid ""
+"Once the installation of the upgrade is finished, Kolibri will auto-start"
+" and open in the default browser on your computer."
+msgstr ""
+
+#: ../../install/_osx.rst:52 ../../install/_windows.rst:51
+msgid "Go explore the new and improved Kolibri features!"
+msgstr ""
+
+#: ../../install/_linux.rst:4
+msgid "Debian/Ubuntu"
+msgstr ""
+
+#: ../../install/_linux.rst:9
+msgid "Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life"
+msgstr ""
+
+#: ../../install/_linux.rst:14
+msgid "Install from PPA repository"
+msgstr ""
+
+#: ../../install/_linux.rst:16
+msgid ""
+"Use the following commands in `Terminal "
+"<https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and"
+" install Kolibri:"
+msgstr ""
+
+#: ../../install/_linux.rst:29
+msgid "Install from a .deb file"
+msgstr ""
+
+#: ../../install/_linux.rst:31
+msgid ""
+"The advantages of downloading a ``.deb`` file is the portability: you can"
+" copy the file from device to device and install Kolibri without internet"
+" access."
+msgstr ""
+
+#: ../../install/_linux.rst:33
+msgid ""
+"Download the latest Kolibri `.deb installer "
+"<https://learningequality.org/r/kolibri-deb-latest>`_, or have it copied "
+"to your local drive."
+msgstr ""
+
+#: ../../install/_linux.rst:34
+msgid "Run this command from the location where you downloaded the ``DEB`` file:"
+msgstr ""
+
+#: ../../install/_linux.rst:40
+msgid "Wait for the installation to finish and run this command to start Kolibri:"
+msgstr ""
+
+#: ../../install/_linux.rst:46
+msgid ""
+"If you choose to install Kolibri as a system service, you will not need "
+"to start it manually."
+msgstr ""
+
+#: ../../install/_linux.rst:48 ../../install/_osx.rst:36
+#: ../../install/_rpi.rst:29
+msgid ""
+"When the command finishes, open the default browser at "
+"http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your "
+"facility."
+msgstr ""
+
+#: ../../install/_linux.rst:54
+msgid "Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**."
+msgstr ""
+
+#: ../../install/_linux.rst:55
+msgid "Or from the command line: ``sudo apt-get remove kolibri``."
+msgstr ""
+
+#: ../../install/_linux.rst:61 ../../install/_rpi.rst:61
+msgid ""
+"When you use the PPA installation method, upgrades to newer versions will"
+" be automatic, provided there is internet access available."
+msgstr ""
+
+#: ../../install/_linux.rst:63
+msgid ""
+"To upgrade Kolibri on a Debian device without internet access, bring the "
+"updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`."
+msgstr ""
+
+#: ../../install/_linux.rst:69
+msgid "Changing the owner of Kolibri system service"
+msgstr ""
+
+#: ../../install/_linux.rst:71
+msgid ""
+"The *system service* is the script that runs Kolibri in the background "
+"when your system boots on Debian-based distributions."
+msgstr ""
+
+#: ../../install/_linux.rst:73
+msgid ""
+"You may need to change the system service to run with the permissions of "
+"a different user account. Prior to v0.10, ``kolibri`` user account was "
+"the owner of the system service, while from v0.10 and later, desktop "
+"user's account is preferred, in order for Kolibri to access the local USB"
+" storage."
+msgstr ""
+
+#: ../../install/_linux.rst:75
+msgid ""
+"To change the system service owner, you need to change the configuration "
+"of the system service: move the ``.kolibri`` data folder (containing "
+"channels, databases etc.), and assign owner permissions to the new user. "
+"Follow these steps."
+msgstr ""
+
+#: ../../install/_linux.rst:90
+msgid ""
+"Replace the ``$USER`` in commands above with the name of the user you "
+"wish to be the new Kolibri system service owner."
+msgstr ""
+
+#: ../../install/_rpi.rst:4
+msgid "Raspbian"
+msgstr ""
+
+#: ../../install/_rpi.rst:9
+msgid ""
+"Kolibri works well on Debian-based distributions for `Raspberry Pi "
+"<https://www.raspberrypi.org/>`_, such as Raspbian, and has been tested "
+"on RPi 3 models."
+msgstr ""
+
+#: ../../install/_rpi.rst:14
+msgid ""
+"Running ``add-apt-repository`` as shown in the PPA instructions does not "
+"work. Instead, run::"
+msgstr ""
+
+#: ../../install/_rpi.rst:22
+msgid ""
+"Kolibri does not start after installation. This is because "
+"``python3-cffi`` is outdated on Raspbian. Upgrade it like this::"
+msgstr ""
+
+#: ../../install/_rpi.rst:32
+msgid "The following issues are quite common on a Raspberry Pi:"
+msgstr ""
+
+#: ../../install/_rpi.rst:34
+msgid ""
+"The time isn't set properly and you will have errors downloading "
+"software. For instance, SSL certificates for online sources will fail to "
+"validate. Ensure that you have the right timezone in ``/etc/timezone`` "
+"and that the clock is set properly by running ``sudo ntpd -gq``."
+msgstr ""
+
+#: ../../install/_rpi.rst:36
+msgid ""
+"You run out of storage space. If you have a USB source for additional "
+"storage, do something like this::"
+msgstr ""
+
+#: ../../install/_rpi.rst:49
+msgid ""
+"Loading channels can take a **long time** on a Raspberry Pi. When "
+"generating channel contents for Khan Academy, the step indicated as "
+"\"Generating channel listing. This could take a few minutes…\" could mean"
+" ~30 minutes. The device's computation power is the bottleneck. You might"
+" get logged out while waiting, but this is harmless and the process will "
+"continue. Sit tight!"
+msgstr ""
+
+#: ../../install/_rpi.rst:55
+msgid "From the command line: ``sudo apt-get remove kolibri``."
+msgstr ""
+
+#: ../../install/_osx.rst:4
+msgid "Other Linux & MacOS"
+msgstr ""
+
+#: ../../install/_osx.rst:9
+msgid "MacOS: 10.6+, all browsers supported"
+msgstr ""
+
+#: ../../install/_osx.rst:10
+msgid "Linux: Any system with Python 2.7, all browsers supported"
+msgstr ""
+
+#: ../../install/_osx.rst:17
+msgid ""
+"To install Kolibri on Linux distributions other than Debian, as well as "
+"on MacOS, you can use :ref:`generic installation <pip-installation>` with"
+" ``pip install`` command, or follow these steps to run Kolibri with the "
+"``PEX`` package."
+msgstr ""
+
+#: ../../install/_osx.rst:19
+msgid ""
+"Download the `Kolibri PEX installer <https://learningequality.org/r"
+"/kolibri-pex-latest>`_."
+msgstr ""
+
+#: ../../install/_osx.rst:20
+msgid ""
+"Make sure to **open the Terminal where you downloaded** the ``PEX`` file."
+" For example, if you saved it in the *Downloads* folder, type this when "
+"you open the Terminal, and press Enter:"
+msgstr ""
+
+#: ../../install/_osx.rst:26
+msgid "Type the following commands next (press Enter after each one)."
+msgstr ""
+
+#: ../../install/_osx.rst:34
+msgid ""
+"Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with"
+" the exact name of the file you downloaded** in both commands. For "
+"example, if the name of the downloaded file is ``kolibri-v0.10.0.pex``, "
+"type that instead of ``kolibri-installer-filename.pex``."
+msgstr ""
+
+#: ../../install/_osx.rst:42
+msgid "Delete the ``PEX`` file."
+msgstr ""
+
+#: ../../install/_osx.rst:43
+msgid ""
+"Delete the ``./kolibri`` folder in your user's Home directory if you want"
+" to completely remove all the Kolibri files and content channels you "
+"imported."
+msgstr ""
+
+#: ../../install/_osx.rst:50
+msgid ""
+"Download the new version of `Kolibri PEX installer "
+"<https://learningequality.org/r/kolibri-pex-latest>`_."
+msgstr ""
+
+#: ../../install/_osx.rst:51
+msgid "Start Kolibri as during the first install."
+msgstr ""
+
+#: ../../install.rst:32
+msgid "Python pip package"
+msgstr ""
+
+#: ../../install.rst:34
+msgid ""
+"You can install Kolibri as a standard package from PyPi (works on Mac, "
+"Windows, and Linux) using this command::"
+msgstr ""
+
+#: ../../install/_initial_setup.rst:5
+msgid "Initial Setup"
+msgstr ""
+
+#: ../../install/_initial_setup.rst:7
+msgid ""
+"To do the initial setup of your Kolibri facility after the installation, "
+"follow these steps."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:10
+msgid ""
+"You need to do the initial setup only once, the first time you start "
+"Kolibri after the installation."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:12
+msgid "**Select the default language for Kolibri.**"
+msgstr ""
+
+#: ../../install/_initial_setup.rst:17
+msgid "Select the default Kolibri language."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:21
+msgid ""
+"The default language configured for content in your browser preferences "
+"might override the language you choose in this step. To ensure that "
+"Kolibri displays in the desired language, make sure to configure it as "
+"default in the browsers of all the devices that will be used to view "
+"Kolibri content."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:24
+msgid ""
+"**Name your Facility.** A \"Facility\" is the location where you are "
+"installing Kolibri, such as a school or a training center."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:29
+msgid "Select the name for the facility where Kolibri is running."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:32
+msgid ""
+"**Choose a Facility setup.** Click the link *More information about these"
+" settings* for more details about user permissions for each setup type."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:35
+msgid "Facility type"
+msgstr ""
+
+#: ../../install/_initial_setup.rst:35
+msgid "Users"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "**Self-managed**"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "For parent-child learning, homeschooling"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "or supplementary individual learning."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:37 ../../install/_initial_setup.rst:45
+msgid "Guests can create their own accounts."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:38 ../../install/_initial_setup.rst:46
+msgid "Users can edit their account information."
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "**Admin managed**"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "For schools and other formal learning contexts."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:41
+msgid "Admins must create all user accounts."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:42
+msgid "Users can sign in without password."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:43
+msgid "Users cannot edit their account information."
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "**Informal and personal use**"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "For libraries, orphanages, correctional"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "facilities, youth centers, computer labs,"
+msgstr ""
+
+#: ../../install/_initial_setup.rst
+msgid "and other non-formal learning contexts."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:54
+msgid "Choose a Facility setup."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:59
+msgid "View the Facility setup details."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:62
+msgid ""
+"**Create your Admin account.** This Admin user will be a **Superuser** "
+"able to manage all the device content, and all the rest of the facility "
+"users and their permissions."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:67
+msgid "Select the username and password for the facility Superuser."
+msgstr ""
+
+#: ../../install/_initial_setup.rst:71
+msgid "Make sure to save these superuser credentials in a safe place!"
+msgstr ""
+
+#: ../../install/_initial_setup.rst:74
+msgid ""
+"Once you finish the initial setup, proceed to :ref:`import some content "
+"<manage_content_ref>`, and :ref:`create users <manage_users_ref>` (if you"
+" chose the Admin-managed facility setup). Make sure to check how to "
+":ref:`configure other computers <access_LAN>` in the network to access "
+"Kolibri."
+msgstr ""
+
