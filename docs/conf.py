@@ -387,31 +387,53 @@ latex_elements = {
         % \listoftables
         \clearpage
         \pagenumbering{arabic}
-
         ''',
     # Latex figure (float) alignment
-    #
     # 'figure_align': 'htbp',
+    #
+    # GLOBAL OPTIONS FOR THE sphynx.sty STYLE CLASS ############################
     'sphinxsetup': \
         'hmargin={1in,1in}, vmargin={1.2in,0.7in}, \
-        verbatimwithframe=true, \
         TitleColor={rgb}{0,0,0}, \
         InnerLinkColor={rgb}{0,0,1}, \
         OuterLinkColor={rgb}{0,0,1}, \
+        verbatimwithframe=false, \
+        VerbatimColor={rgb}{0.95,0.95,0.95}, \
         verbatimvisiblespace={}, \
         verbatimcontinued={}', 
         'tableofcontents':' ',
-}
+    }
+    # other sphinxsetup options:
+    #       verbatimwithframe=true, \
+    #       VerbatimColor={named}{OldLace}, \
+    #       verbatimsep=3pt
+    #       hintBorderColor={named}{LightCoral},
+    #
+    #       attentionborder=3pt,
+    #       attentionBorderColor={named}{Crimson},
+    #       attentionBgColor={named}{FloralWhite},
+    #
+    #       noteborder=2pt,
+    #       noteBorderColor={named}{Olive},
+    #
+    #       cautionborder=3pt,
+    #       cautionBorderColor={named}{Cyan},
+    #       cautionBgColor={named}{LightCyan}}
+    ############################################################################
+
+
 
 # Show URLs in footnote
 latex_show_urls = 'footnote'
 
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
+# Grouping the document tree into LaTeX files. List of tuples:
 latex_documents = [
-  ('index', 'kolibri.tex', u'Kolibri User Guide',
-   u'Published by learningequality.org', 'manual'),
+    ( 'index',                              # source start file,
+      'kolibri.tex',                        # target name,
+     u'Kolibri User Guide',                 # title,
+     u'Published by learningequality.org',  # author,
+      'manual'                              # documentclass [howto, manual, or own class])
+     ),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
