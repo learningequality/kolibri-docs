@@ -336,7 +336,27 @@ latex_elements = {
         \newcommand{\sectionquote}[2]{{\quote{\textit{``#1''}}{\textbf {\textit{--#2}}}}}
     ''',
 
-    'maketitle': r'''    
+    'maketitle': r'''
+
+        %%% SET PDF INFO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Note: this has to be after preamble where \title and \author are defined
+        \makeatletter
+        \hypersetup{
+            pdftitle=\@title,
+            pdfauthor=\@author,
+            pdfkeywords={Kolibri, Kolibri Studio, offline learning, open educational resources},
+            pdfsubject={Kolibri},
+            pdfstartview=Fit,   % default value
+            pdfstartpage=1,     % default value
+            % other available options:
+            % pdfstartview={FitH},
+            % pdfpagelayout=SinglePage,
+            % pdfpagelabels=true,
+            % bookmarksopen=true,
+            % bookmarksopenlevel=0
+        }
+        \makeatother
+
         %%%  COVER PAGE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
