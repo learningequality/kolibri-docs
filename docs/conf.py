@@ -250,12 +250,10 @@ locale_dirs = [
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
-
-'fncychap': '\\usepackage{fncychap}',
-    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
-
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+    'fncychap': '\\usepackage{fncychap}',
+    'fontpkg': '\\usepackage[default]{lato}\\usepackage[T1]{fontenc}',
     'figure_align':'htbp',
     # The font size ('10pt', '11pt' or '12pt').
     #
@@ -273,20 +271,20 @@ latex_elements = {
         %
         %%%% Table of content upto 2=subsection, 3=subsubsection
         \setcounter{tocdepth}{2}
-
-        \usepackage{amsmath,amsfonts,amssymb,amsthm}
-        \usepackage{graphicx}
-
+        %\usepackage{amsmath,amsfonts,amssymb,amsthm}   % not needed since we don't math
+        %\usepackage{graphicx}                          % not needed here because imported in sphinx.sty
+        %
         %%% reduce spaces for Table of contents, figures and tables
         %%% it is used "\addtocontents{toc}{\vskip -1.2cm}" etc. in the document
         \usepackage[notlot,nottoc,notlof]{}
 
-        \usepackage{color}
-        \usepackage{transparent}
-        \usepackage{eso-pic}
-        \usepackage{lipsum}
+        % \usepackage{color}                            % not needed here because imported in sphinx.sty
+        % \usepackage{transparent}
+        % \usepackage{eso-pic}
+        % \usepackage{lipsum}
 
-        \usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
+        % link at the footnote to go to the place of footnote in the text
+        \usepackage{footnotebackref} 
 
         %% spacing between line
         \usepackage{setspace}
@@ -347,8 +345,8 @@ latex_elements = {
         \newcommand{\sectionquote}[2]{{\quote{\textit{``#1''}}{\textbf {\textit{--#2}}}}}
     ''',
 
-
-    'maketitle': r'''
+    'maketitle': r'''    
+        %%%  COVER PAGE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
         \begin{titlepage}
@@ -385,16 +383,18 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
     'sphinxsetup': \
-        'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
+        'hmargin={1in,1in}, vmargin={1.2in,1in}, \
         verbatimwithframe=true, \
         TitleColor={rgb}{0,0,0}, \
-        HeaderFamily=\\rmfamily\\bfseries, \
         InnerLinkColor={rgb}{0,0,1}, \
-        OuterLinkColor={rgb}{0,0,1}',
-
+        OuterLinkColor={rgb}{0,0,1}, \
+        verbatimvisiblespace={}, \
+        verbatimcontinued={}', 
         'tableofcontents':' ',
 }
 
+# Show URLs in footnote
+latex_show_urls = 'footnote'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
