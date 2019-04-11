@@ -376,7 +376,7 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
     'sphinxsetup': \
-        'hmargin={1in,1in}, vmargin={1.2in,1in}, \
+        'hmargin={1in,1in}, vmargin={1.2in,0.7in}, \
         verbatimwithframe=true, \
         TitleColor={rgb}{0,0,0}, \
         InnerLinkColor={rgb}{0,0,1}, \
