@@ -259,14 +259,13 @@ latex_elements = {
     #
     'pointsize': '12pt',
     'extraclassoptions': 'oneside',
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
-
-# Additional stuff for the LaTeX preamble.
-'preamble': r'''
-        %%%%%%%%%%%%%%%%%%%% Meher %%%%%%%%%%%%%%%%%%
+    # The font size ('10pt', '11pt' or '12pt').
+    #'pointsize': '10pt',
+    # Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+        %%% FRONTMATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %
         %%%add number to subsubsection 2=subsection, 3=subsubsection
-        %%% below subsubsection is not good idea.
         \setcounter{secnumdepth}{3}
         %
         %%%% Table of content upto 2=subsection, 3=subsubsection
@@ -292,52 +291,47 @@ latex_elements = {
         % \doublespacing
         % \singlespacing
 
-
-        %%%%%%%%%%% datetime
+        %%% datetime
         \usepackage{datetime}
-
-        \newdateformat{MonthYearFormat}{%
-            \monthname[\THEMONTH], \THEYEAR}
+        \newdateformat{MonthYearFormat}{\monthname[\THEMONTH], \THEYEAR}
 
 
-        %% RO, LE will not work for 'oneside' layout.
-        %% Change oneside to twoside in document class
+
+        %%% HEADERS TEXT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         \usepackage{fancyhdr}
-        \pagestyle{fancy}
-        \fancyhf{}
-
-        %%% Alternating Header for oneside
-        \fancyhead[L]{\ifthenelse{\isodd{\value{page}}}{ \small \nouppercase{\leftmark} }{}}
-        \fancyhead[R]{\ifthenelse{\isodd{\value{page}}}{}{ \small \nouppercase{\rightmark} }}
-
-        %%% Alternating Header for two side
-        %\fancyhead[RO]{\small \nouppercase{\rightmark}}
-        %\fancyhead[LE]{\small \nouppercase{\leftmark}}
-
-        %% for oneside: change footer at right side. If you want to use Left and right then use same as header defined above.
-        \fancyfoot[R]{\ifthenelse{\isodd{\value{page}}}{{\tiny Learning Equality} }{\href{https://learningequality.org}{\tiny learningequality.org}}}
-
-        %%% Alternating Footer for two side
-        %\fancyfoot[RO, RE]{\scriptsize Learning Equality (info@learningequality.org)}
-
-        %%% page number
-        \fancyfoot[CO, CE]{\thepage}
-
-        \renewcommand{\headrulewidth}{0.5pt}
-        \renewcommand{\footrulewidth}{0.5pt}
-
-        \RequirePackage{tocbibind} %%% comment this to remove page number for following
-        \addto\captionsenglish{\renewcommand{\contentsname}{Table of contents}}
-        \addto\captionsenglish{\renewcommand{\listfigurename}{List of figures}}
-        \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}}
-        \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}} %%% Heading for TOC
+        % plain = first-page of each chapter
+        \fancypagestyle{plain}{
+            \fancyhf{}
+            \fancyhead{}
+            \renewcommand{\headrulewidth}{0pt}
+            \renewcommand{\footrulewidth}{0pt}
+            \fancyfoot[C]{{\small\thepage}}
+        }
+        % normal = subclass of plain = applies to rest of pages
+        \fancypagestyle{normal}{
+            \fancyhead{}
+            \fancyhead[L]{\small\rightmark}
+            \fancyhead[R]{{\small\thepage}}
+            \renewcommand{\headrulewidth}{0.4pt}
+            \renewcommand{\footrulewidth}{0pt}
+            \fancyfoot[C]{{}}  % undo the \fancyfoot[C]{{\small\thepage}} in the base class
+            %   \fancyfoot[R]{\ifthenelse{\isodd{\value{page}}}{{\tiny Learning Equality} }{\href{https://learningequality.org}{\tiny learningequality.org}}}
+            %%% Alternating Footer for two side
+            %%% \fancyfoot[RO, RE]{\scriptsize Learning Equality (info@learningequality.org)}
+        }
+        %% callback that changes document header text
+        %%                                               = section number counter (\thesection)
+        %%                                                          + the section title
+        \renewcommand{\sectionmark}[1]{\markboth{}{\emph{\thesection~#1}}}
+        %%%% optional: uncomment next line to change header on every \section and not on \subsection
+        %%%% \renewcommand{\subsectionmark}[1]{}
 
 
-        %%reduce spacing for itemize
+        %%reduce spacing for itemize ???
         \usepackage{enumitem}
         \setlist{nosep}
 
-        %%%%%%%%%%% Quote Styles at the top of chapter
+        %%%%%%%%%%% Quote Styles at the top of chapter ???
         \usepackage{epigraph}
         \setlength{\epigraphwidth}{0.8\columnwidth}
         \newcommand{\chapterquote}[2]{\epigraphhead[60]{\epigraph{\textit{#1}}{\textbf {\textit{--#2}}}}}
@@ -363,7 +357,6 @@ latex_elements = {
 
             \vspace{0mm}
             \small Published by Learning Equality
-
 
             %% \vfill adds at the bottom
             \vfill
