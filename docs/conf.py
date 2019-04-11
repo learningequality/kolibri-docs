@@ -282,9 +282,6 @@ latex_elements = {
         % \usepackage{eso-pic}
         % \usepackage{lipsum}
 
-        % link at the footnote to go to the place of footnote in the text
-        \usepackage{footnotebackref} 
-
         %% spacing between line
         \usepackage{setspace}
         \onehalfspacing
