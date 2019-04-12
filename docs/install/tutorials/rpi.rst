@@ -12,8 +12,7 @@ Prerequisites
 
 .. figure:: /img/rpi_kit.jpeg
     :alt: Raspberry Pi and accessories
-    :align: right
-    :figwidth: 50%
+    :width: 50%
 
     Raspberry Pi 3
     
