@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-18 19:52+0100\n"
-"PO-Revision-Date: 2019-04-08 21:19\n"
-"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"PO-Revision-Date: 2019-04-29 06:29\n"
+"Last-Translator: learningequality\n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,19 +23,19 @@ msgstr "كن على تواصل"
 
 #: ../../contact.rst:10
 msgid "Getting support from Learning Equality and our community"
-msgstr "الحصول على الدعم من المساواة في التعلم ومن مجتمعنا"
+msgstr "الحصول على الدعم من Learning Equality ومن مجتمعنا"
 
 #: ../../contact.rst:12
 msgid "Due to the open-source nature of our work, we encourage that all inquiries, inputs, contributions and feedback are openly shared in our `Community Forums <https://community.learningequality.org/>`_, so that any user with similar questions to yours can benefit from the answer, and have a centralized place to search for it. *Please consider supporting others whenever you can. Your goals are likely overlapping with other users of Kolibri, so you may consider yourself as part of a community of like-minded practitioners!*"
-msgstr "نظراً لطبيعة المصدر المفتوح في عملنا، فإننا نشجع على أن تتم مشاركة جميع الاستفسارات والمدخلات والمساهمات والتعليقات في `منتديات مجتمعنا <https://community.learningequality.org/>`_، بحيث يمكن لأي مستخدم لديه أسئلة مماثلة لأسئلتك أن يستفيد من الإجابة، وبالتالي يكون له مكان مركزي للبحث عنه. *Please consider supporting others whenever you can. Your goals are likely overlapping with other users of Kolibri, so you may consider yourself as part of a community of like-minded practitioners!*"
+msgstr "نظراً لطبيعة تقديم المصادر المفتوحة في عملنا، فإننا نشجع على أن تتم مشاركة جميع الاستفسارات والمدخلات والمساهمات والتعليقات في `منتديات مجتمعنا <https://community.learningequality.org/>`_، بحيث يمكن لأي مستخدم لديه أسئلة مماثلة لأسئلتك أن يستفيد من الإجابة، وبالتالي يكون له مكان رئيسي للبحث من خلاله. *يرجى أخذ دعم الآخرين بالاعتبار كلما استطعت. من المحتمل أن تتقاطع أهدافك مع أهداف مستخدمين آخرين لكوليبري، لذلك قد تعد نفسك جزءاً من مجتمع من الممارسين المشابهين لك في التفكير!*"
 
 #: ../../contact.rst:14
 msgid "The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* )"
-msgstr "أول ما ينبغي أن تقوم به هو التسجيل في المنتدى. بمجرد التسجيل، يرجى قراءة أول موضوعين مثبتين (*Welcome to LE’s Support Community* و *How do I post to this forum?* )"
+msgstr "أول ما ينبغي أن تقوم به هو التسجيل في المنتدى. بمجرد التسجيل، يرجى قراءة أول موضوعين مثبتين (*مرحبا في مجتمع دعم Learning Equality* و *كيف يمكنني النشر في هذا المنتدى*)"
 
 #: ../../contact.rst:16
 msgid "You can add a new topic with the :guilabel:`+ New Topic` button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes."
-msgstr "يمكنك إضافة موضوع جديد من خلال زر :guilabel:`+ New Topic` على اليمين. تأكد من تحديد الفئة المناسبة في نافذة **Create a New Topic** لتسهيل عمليات الفرز والتجاوب."
+msgstr "يمكنك إضافة موضوع جديد من خلال زر :guilabel:`+ New Topic` الموجود على اليمين. تأكد من تحديد الفئة المناسبة في نافذة **إنشاء موضوع جديد** لتسهيل عمليات الفرز والتجاوب."
 
 #: ../../contact.rst:23
 msgid "Feedback"
@@ -43,7 +43,7 @@ msgstr "التعليقات"
 
 #: ../../contact.rst:26
 msgid "New ideas"
-msgstr "أفكار جديدة"
+msgstr "الأفكار الجديدة"
 
 #: ../../contact.rst:28
 msgid "Until we can present a proper feedback platform, we encourage you to post any new ideas to the `Community Forums <https://community.learningequality.org/>`_."
@@ -51,7 +51,7 @@ msgstr "إلى أن نتمكن من تقديم منصة مناسبة للتعل�
 
 #: ../../contact.rst:33
 msgid "Technical issues"
-msgstr "مشاكل تقنية"
+msgstr "المشاكل التقنية"
 
 #: ../../contact.rst:35
 msgid "Try reading the :ref:`Troubleshooting <support>` section of this guide first."
@@ -59,11 +59,11 @@ msgstr "حاول أولاً قراءة قسم :ref:`استكشاف الأخطا�
 
 #: ../../contact.rst:38
 msgid "In order to report  a technical issue, you can either use the *Support* category in our forum, or open up an issue report in our public software repository, following the guidelines:"
-msgstr "للإبلاغ عن مشكلة تقنية، بإمكانك إما استخدام فئة *Support* في منتدانا، أو فتح تقرير مشكلة في مُجمّع البرامج العامة الخاص بنا، وذلك باتباع الإرشادات:"
+msgstr "للإبلاغ عن مشكلة تقنية، بإمكانك إما استخدام فئة *الدعم* في منتدانا، أو فتح تقرير مشكلة في مُجمّع البرامج العامة الخاص بنا، وذلك باتباع الإرشادات:"
 
 #: ../../contact.rst:40
 msgid "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
-msgstr "`github.com/learningequality/كوليبري <https://github.com/learningequality/kolibri/>`__"
+msgstr "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
 
 #: ../../contact.rst:44
 msgid "Contributions and development"
@@ -71,11 +71,11 @@ msgstr "المساهمة والتطوير"
 
 #: ../../contact.rst:46
 msgid "Kolibri is an open-source project, and as such, contributions from the tech community are welcomed, encouraged and appreciated. If you'd like to contribute to Kolibri, please refer to our developer docs:"
-msgstr "كوليبري هو مشروع مفتوح المصدر، وبناء على ذلك، فإن مساهمات المجتمع التكنولوجي هي موضع ترحيب وتشجيع وتقدير. إذا كنت ترغب بالمساهمة في كوليبري، يرجى الرجوع إلى مستندات المطور الخاص:"
+msgstr "كوليبري هو مشروع مفتوح المصدر، وبناء على ذلك، فإن مساهمات مجتمع التكنولوجيا هي موضع ترحيب وتشجيع وتقدير. إذا كنت ترغب بالمساهمة في كوليبري، يرجى الرجوع إلى مستندات المطور الخاص:"
 
 #: ../../contact.rst:48
 msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
-msgstr "`كوليبري-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+msgstr "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
 
 #~ msgid ""
 #~ "You can add a new topic with "

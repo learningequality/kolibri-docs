@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-05 00:31-0700\n"
-"PO-Revision-Date: 2019-04-08 22:30\n"
-"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"PO-Revision-Date: 2019-04-29 06:29\n"
+"Last-Translator: learningequality\n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../coach.rst:4
 msgid "Coach your Learners in Kolibri"
-msgstr "درب المتعلمين لديك في كوليبري"
+msgstr "قم بتدريب المتعلمين الخاصين بك في كوليبري"
 
 #: ../../coach.rst:6
 msgid "You can track progress of the **Learners**, create and assign **Lessons** and **Quizzes** to classes or learner groups from the **Coach** dashboard. The default view of the **Coach** dashboard presents the list of **Classes** with their assigned coaches, and the number of learners enrolled in each class."
-msgstr "يمكنك متابعة التقدم في **Learners**، قم بإنشاء وتعيين **Lessons** و **Quizzes** للصفوف أو مجموعات المتعليمن من لوحة معلومات **Coach**. العرض الافتراضي لاوحة معلومات **Coach** يظهر قائمة **Classes** مع مدربيهم المعينين، إضافة لعدد المتعلمين المسجلين في كل صف دراسي."
+msgstr "يمكنك متابعة التقدم المحرز في قسم **المتعلمون**، قم بإنشاء وتعيين **دروس** و **اختبارات قصيرة** للصفوف أو مجموعات المتعلمين من صفحة **المدرب** الرئيسية. العرض الافتراضي لصفحة **المدرب** الرئيسية يظهر قائمة **الصفوف الدراسية** مع المدربين المحددين لها، إضافة لعدد المتعلمين المضافين لكل صف دراسي."
 
 #: ../../coach.rst:8
 msgid "Click on a class to access the progress-tracking features and create lessons, quizzes and groups."
-msgstr "انقر فوق الصف الدراسي للوصول إلى ميزات متابعة التقدم وإنشاء دروس واختبارات قصيرة ومجموعات."
+msgstr "قم بالنقر على الصف الدراسي للوصول إلى ميزات متابعة التقدم المحرز وإنشاء دروس واختبارات قصيرة ومجموعات."
 
 #: ../../coach.rst:13
 msgid "Choose one of the classes from this view to access the Kolibri coach features."
@@ -39,7 +39,7 @@ msgstr "الصفحة الرئيسية للصف الدراسي"
 
 #: ../../coach.rst:20
 msgid "On the **Class Home** tab (|class-home| icon) you can see the overview of the class activity and track progress of the learners on lessons and quizzes assigned to them."
-msgstr "من خلال تبويب **Class Home** (أيقونة |class-home|) يمكنك الحصول على لمحة عامة لنشاط الصف الدراسي ومتابعة تقدم المتعلمين في الدروس والاختبارات القصيرة المحددة لهم."
+msgstr "من خلال تبويب **الصفحة الرئيسية للصف الدراسي** (أيقونة |class-home|) يمكنك الحصول على لمحة عامة لنشاط الصف الدراسي ومتابعة تقدم المتعلمين في الدروس والاختبارات القصيرة المحددة لهم."
 
 #: ../../coach.rst:25
 msgid "Class Home presents an overview of learner progress and activity."
@@ -51,7 +51,7 @@ msgstr "الاختبارات القصيرة"
 
 #: ../../coach.rst:32
 msgid "You can review the progress of learners on the assigned quizzes in the **Quizzes** |exams| block."
-msgstr "يمكنك مراجعة التقدم المحرز للمتعلمين في الاختبارات القصيرة المحددة لهم من خلال **Quizzes** مجموعة |exams|."
+msgstr "يمكنك مراجعة التقدم المحرز للمتعلمين في الاختبارات القصيرة المحددة لهم من خلال **الاختبارات القصيرة** مجموعة |exams|."
 
 #: ../../coach.rst:34
 msgid "Progress bar will indicate how many learners have started |started| and completed |completed-small| the quiz."
@@ -59,15 +59,15 @@ msgstr "سيشير شريط التقدم المحرز إلى عدد المتعل
 
 #: ../../coach.rst:35
 msgid "You can click on the progress bar to open the complete quiz data in the **Reports** tab."
-msgstr "يمكنك النقر على شريط التقدم المحرز لفتح بيانات الاختبار كاملةً في تبويب **Reports**."
+msgstr "يمكنك النقر على شريط التقدم المحرز لفتح بيانات الاختبار كاملةً في تبويب **التقارير**."
 
 #: ../../coach.rst:36
 msgid "Click :guilabel:`VIEW ALL` to access the full list of notifications about quizzes (only the 3 most recent are displayed in the block)."
-msgstr "انقر على :guilabel:`VIEW ALL` للوصول إلى لائحة الإشعارات الكاملة حول الاختبارات القصيرة (فقط الاختبارات الثلاث الأكثر عرضاً في المجموعة مؤخراً)."
+msgstr "انقر على :guilabel:`عرض الكل` للوصول إلى لائحة الإشعارات الكاملة حول الاختبارات القصيرة (فقط الاختبارات الثلاث الأكثر عرضاً في المجموعة مؤخراً)."
 
 #: ../../coach.rst:39
 msgid "**Quizzes** were known as **Exams** in Kolibri versions prior to 0.12."
-msgstr "**Quizzes** ستكون معروفة باسم **Exams** في إصدارات كوليبري الأقدم من 0.12."
+msgstr "**الاختبارات القصيرة** ستكون معروفة باسم **الاختبارات** في إصدارات كوليبري الأقدم من 0.12."
 
 #: ../../coach.rst:43 ../../manage/_reports.rst:11
 msgid "Lessons"
@@ -75,19 +75,19 @@ msgstr "الدّروس"
 
 #: ../../coach.rst:45
 msgid "You can review the progress of learners on the assigned lessons in the **Lessons** |lessons| block."
-msgstr "يمكنك مراجعة التقدم المحرز للمتعلمين في الدروس المحددة لهم من خلال **Lessons** مجموعة |Lessons|."
+msgstr "يمكنك مراجعة التقدم المحرز للمتعلمين في الدروس المحددة لهم من خلال **الدروس** مجموعة |lessons|."
 
 #: ../../coach.rst:47
 msgid "Progress bar will indicate how many learners have started |started| and completed |completed-small| the lesson, and if they need help |need-help| with  some of the resources in it."
-msgstr "سيشير شريط التقدم المحرز إلى عدد المتعلمين الذين بدأوا |started| وأكملوا |completed-small| الدرس، وفي حال كانوا بحاجة إلى مساعدة |need-help| مع بعض المصادر به."
+msgstr "سيشير شريط التقدم المحرز إلى عدد المتعلمين الذين بدأوا |started| وأكملوا |completed-small| الدرس، وفي حال كانوا بحاجة إلى مساعدة |need-help| مع بعض المصادر."
 
 #: ../../coach.rst:48
 msgid "You can click on the progress bar to open the complete lesson data in the **Reports** tab."
-msgstr "يمكنك النقر على شريط التقدم المحرز لفتح بيانات الدرس كاملةً في تبويب **Reports**."
+msgstr "يمكنك النقر على شريط التقدم المحرز لفتح بيانات الدرس كاملةً في تبويب **التقارير**."
 
 #: ../../coach.rst:49
 msgid "Click :guilabel:`VIEW ALL` to access the full list of notification about lessons (only the 3 most recent are displayed in the block)."
-msgstr "انقر على :guilabel:`VIEW ALL` للوصول إلى لائحة الإشعارات الكاملة حول الدروس (فقط الدروس الثلاث الأكثر عرضاً في المجموعة مؤخراً)."
+msgstr "انقر على `عرض الكل`:guilabel: للوصول إلى لائحة الإشعارات الكاملة حول الدروس (فقط الدروس الثلاث الأكثر عرضاً في المجموعة مؤخراً)."
 
 #: ../../coach.rst:53
 msgid "Class Activity"
@@ -95,654 +95,654 @@ msgstr "نشاط الصف الدراسي"
 
 #: ../../coach.rst:55
 msgid "As learners interact with lessons and quizzes, you can track their progress in the **Class activity** block."
-msgstr "أثناء تفاعل المتعلمين مع الدروس والاختبارات القصيرة، يمكنك تتبع تقدمهم في مجموعة **Class activity**."
+msgstr "أثناء تفاعل المتعلمين مع الدروس والاختبارات القصيرة، يمكنك تتبع تقدمهم في قسم **نشاط الصف الدراسي**."
 
 #: ../../coach.rst:57
 msgid "When learners start or complete lessons, you will see one notification displaying the title of the lesson they started |started| or completed |completed-small|, and another displaying the title of the specific resource in the lesson they interacted with. In case of quizzes, you will see only the quiz title notification."
-msgstr "حالما يبدأ المتعلمون الدروس أو يقومون بإكمالها، ستشاهد إشعاراً واحداً يظهر عنوان الدرس الذي بدأوه |started| أو أو أكملوه |completed-small|، وإشعاراً آخر يعرض عنوان المصدر المحدد في الدرس الذي تفاعلوا معه. في حالة الاختبارات القصيرة، ستشاهد إشعاراً بعنوان الاختبار فقط."
+msgstr "حالما يبدأ المتعلمون الدروس أو يقومون بإكمالها، ستشاهد إشعاراً واحداً يظهر عنوان الدرس الذي بدأوه |started| أو أكملوه |completed-small|، وإشعاراً آخر يعرض عنوان المصدر المحدد في الدرس الذي تفاعلوا معه. في حالة الاختبارات القصيرة، ستشاهد إشعاراً بعنوان الاختبار فقط."
 
 #: ../../coach.rst:58
 msgid "When multiple learners are working on the same lesson or quiz, you will see a notification like *Learner1 and 3 other have started...*"
-msgstr ""
+msgstr "عندما يعمل عدة متعلمين على نفس الدرس أو الاختبار القصير، ستشاهد إشعاراً من قبيل *المتعلم رقم ١ وثلاثة آخرون بدأوا...*"
 
 #: ../../coach.rst:59
 msgid "When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners need help |need-help| with a specific resource."
-msgstr ""
+msgstr "عندما يقوم عدة متعلمين بإدراج أجوبة خاطئة على سؤال في الدرس، فإن الإشعار في قسم **نشاط الصف الدراسي** سيظهر أن أحد المتعلمين أو أكثر بحاجة مساعدة |need-help| في مصدر محدد."
 
 #: ../../coach.rst:60
 msgid "You can click each notification link to review the complete resource data in the **Reports** tab."
-msgstr ""
+msgstr "يمكنك النقر فوق رابط كل إشعار لاستعراض بيانات المصدر بشكل كامل من خلال تبويب **التقارير**."
 
 #: ../../coach.rst:61
 msgid "Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block)."
-msgstr ""
+msgstr "انقر على :guilabel:`عرض الكل` للوصول إلى لائحة إشعارات النشاط كاملةً (فقط الدروس الخمس الأخيرة ستظهر في المجموعة)."
 
 #: ../../coach.rst:65
 msgid "Reports"
-msgstr ""
+msgstr "التقارير"
 
 #: ../../manage/_reports.rst:2
 msgid "**Reports** tab (|reports| icon) allows you to gain insight into detailed real-time progress of the learners for single resources in lessons and quizzes assigned to them."
-msgstr ""
+msgstr "يتيح لك تبويب **التقارير** (أيقونة |reports|) أن تحصل على نظرة شاملة على التقدم المحرز في الوقت الحقيقي للمتعلمين وبشكل مفصل للمصادر الواحدة في الدروس والاختبارات القصيرة المحددة لهم."
 
 #: ../../manage/_reports.rst:4
 msgid "Kolibri presents actionable reports for each lesson and quiz the class learners have been assigned, together with the possibility to observe the progress by groups and individual learners."
-msgstr ""
+msgstr "يقدم كوليبري تقارير فعالة لكل درس واختبار قصير تم تحديده للمتعلمين، بالإضافة إلى إمكانية مراقبة التقدم المحرز من المجموعات والمتعلمين الأفراد."
 
 #: ../../manage/_reports.rst:13
 msgid "Open the **Lessons** sub-tab from the main **Reports** view to access the progress reports on resources included in each lesson."
-msgstr ""
+msgstr "قم بفتح علامة التبويب **الدروس** من عرض **التقارير** الرئيسي للوصول إلى تقارير التقدم المحرز المتعلق بالمصادر المضمنة في كل درس."
 
 #: ../../manage/_reports.rst:15
 msgid "To review past lessons, use the filter to include only the *Inactive* lessons."
-msgstr ""
+msgstr "لمراجعة الدروس السابقة، استخدم خاصية الفلترة لتضمين الدروس *غير المفعّلة* فقط."
 
 #: ../../manage/_reports.rst:16
 msgid "**Progress** column presents the summary of learners who *started* |started| and *completed* |completed-small| the lessons, or *need help* |need-help| with some of the included resources."
-msgstr ""
+msgstr "يقدم عمود **التقدم المحرز** ملخصاً للمتعلمين الذين *بدأوا* |started| و *أكملوا* |completed-small| الدروس، أو *بحاجة مساعدة* |need-help| مع بعض المصادر المضمنة."
 
 #: ../../manage/_reports.rst:21
 msgid "Click on the lesson title to view its list of resources."
-msgstr ""
+msgstr "قم بالنقر على عنوان الدرس لعرض قائمة المصادر."
 
 #: ../../manage/_reports.rst:22
 msgid "In the selected lesson **Report** sub-tab, you can see the clickable list of resources, with their own *progress* and the *average time spent* on."
-msgstr ""
+msgstr "من خلال التبويب الفرعي **تقرير** الدرس المحدد، يمكنك رؤية قائمة المصادر، مع *التقدم المحرز* و *معدل الوقت المستهلك* الخاصين بها."
 
 #: ../../manage/_reports.rst:23
 msgid "When you click to open the single resource, you can see the progress report for each learner (*started* |started|, *completed* |completed-small| or *need help* |need-help|), and the time spent on it."
-msgstr ""
+msgstr "عندما تنقر لفتح مصدر واحد، يمكنك مشاهدة تقرير التقدم المحرز الخاص بكل متعلم (*بدأ* |started|، *أكمل* |completed-small| أو *بحاجة مساعدة* |need-help|)، والوقت الذي استهلكه لإنجاز ذلك."
 
 #: ../../manage/_reports.rst:24
 msgid "If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers."
-msgstr ""
+msgstr "في حال كان المصدر عبارة عن تمرين، بإمكانك الوصول إلى علامة التبويب **الأسئلة الصعبة** ومراجعة كل محاولة ذات إجابات غير صحيحة."
 
 #: ../../manage/_reports.rst:25
 msgid "Open the **Learners** sub-tab to access the progress report per each learner."
-msgstr ""
+msgstr "قم بفتح علامة التبويب الفرعية **المتعلمون** للوصول إلى تقرير التقدم المحرز لكل متعلم."
 
 #: ../../manage/_reports.rst:31
 msgid "Open the **Quizzes** sub-tab from the main **Reports** view to access the progress reports on resources included in each quiz."
-msgstr ""
+msgstr "قم بفتح علامة التبويب الفرعية **الاختبارات القصيرة** من عرض **التقارير** الرئيسي للوصول إلى تقارير التقدم المحرز الخاص بالمصادر المضمنة في كل اختبار قصير."
 
 #: ../../manage/_reports.rst:33
 msgid "To review past quizzes, use the filter to include only the *Inactive* ones."
-msgstr ""
+msgstr "لمراجعة الاختبارات القصيرة السابقة، قم بفلترة جميع الاختبارات لإظهار الاختبارات القصيرة *غير المفعّلة* منها."
 
 #: ../../manage/_reports.rst:34
 msgid "**Progress** column presents the summary of learners that *started* |started| and *completed* |completed-small| each quiz."
-msgstr ""
+msgstr "يقدم عمود **التقدم المحرز** ملخصاً للمتعلمين الذين *بدأوا* |started| و *أكملوا* |completed-small| كل اختبار قصير."
 
 #: ../../manage/_reports.rst:39
 msgid "Click on the quiz title to view its list of resources."
-msgstr ""
+msgstr "قم بالنقر على عنوان الاختبار القصير لعرض قائمة المصادر."
 
 #: ../../manage/_reports.rst:40
 msgid "In the selected quiz **Report** sub-tab, you can see the list of learners, with columns for the *progress* and obtained *score*."
-msgstr ""
+msgstr "من خلال التبويب الفرعي **التقارير** الخاص بالاختبار القصير، بإمكانك رؤية قائمة المتعلمين، بالإضافة إلى أعمدة *التقدم المحرز* و *النقاط* التي تم الحصول عليها."
 
 #: ../../manage/_reports.rst:41
 msgid "Open the **Difficult questions** sub-tab to view the list of questions learners gave incorrect answers to, and gain insight of how many *need help* |need-help| with the concept."
-msgstr ""
+msgstr "قم بفتح التبويب الفرعي **الأسئلة الصعبة** لعرض قائمة الأسئلة التي أجاب عليها المتعلمون بشكل غير صحيح، واحصل على فكرة عن عدد من هم *بحاجة مساعدة* |need-help| ضمن المفهوم."
 
 #: ../../manage/_reports.rst:42
 msgid "Click a *difficult question* in the list to review each of the incorrect answers and attempts."
-msgstr ""
+msgstr "انقر على *الأسئلة الصعبة* في القائمة لمراجعة كل من الإجابات والمحاولات الخاطئة."
 
 #: ../../manage/_reports.rst:44
 msgid "When you click a name of a single learner, you can see the full report for each answer. This can help you understand which questions learners had difficulties answering correctly, and how many attempts they used."
-msgstr ""
+msgstr "عندما تنقر على اسم متعلم واحد، يمكنك رؤية التقرير الكامل الخاص بكل إجابة. سيساعدك ذلك في فهم أية أسئلة يجد المتعلمون صعوبة في الإجابة عليها بشكل صحيح، وعدد المحاولات التي تطلبها ذلك منهم."
 
 #: ../../manage/_reports.rst:46
 msgid "green check mark icon indicates the **correct** answer"
-msgstr ""
+msgstr "علامة ✓ الخضراء تشير إلى إجابة **صحيحة**"
 
 #: ../../manage/_reports.rst:47
 msgid "red X mark icon indicates the **incorrect** answer"
-msgstr ""
+msgstr "علامة X الحمراء تشير إلى إجابة **خاطئة**"
 
 #: ../../manage/_reports.rst:48
 msgid "gray X mark icon indicates an **unanswered** question"
-msgstr ""
+msgstr "علامة X الرمادية تشير إلى سؤال **لم تتم الإجابة عنه**"
 
 #: ../../manage/_reports.rst:54
 msgid "Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect."
-msgstr ""
+msgstr "قم بالنقر على أيقونة المحاولات لرؤية الاجوبة الخاصة بكل منها. المتعلم في الصورة أعلاه **Abby L.** لديه ثلاثة محاولات في *السؤال رقم ٨*: المحاولة الأولى كانت خاطئة، المحاولة الثانية (المحددة) كانت صحيحة، إلا أن المحاولة الثالثة والمقدمة أخيراً كانت خاطئة."
 
 #: ../../manage/_reports.rst:60
 msgid "**Review Exercise Progress**"
-msgstr ""
+msgstr "**معدل التقدم المحرز في التمرين**"
 
 #: ../../manage/_reports.rst:62
 msgid "When a learner answers exercise questions in Kolibri, the progress bar below the exercise is taking into account only the most recent given answers, meaning that the learner must complete the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed."
-msgstr ""
+msgstr "عندما يجيب المتعلم على أسئلة التمارين في كوليبري، فإن شريط التقدم المحرز تحت التمرين سيأخذ بالحسبان الإجابات المعطاة مؤخراً فقط، بما معناه أن المتعلم يجب أن يصل إلى العدد المطلوب من الإجابات الصحيحة (*العلامات الخضراء*) **بشكلٍ متتالٍ** في التمارين كي يتم اعتبارها قد اكتملت."
 
 #: ../../manage/_reports.rst:67
 msgid "The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another."
-msgstr ""
+msgstr "الإجابات الصحيحة (العلامات الخضراء) في الصورة أعلاه ليست متتالية؛ سيتم إكمال هذا التمرين فقط عند إعطاء خمس إجابات صحيحة واحدة تلو الاخرى."
 
 #: ../../manage/_reports.rst:71
 msgid "Groups"
-msgstr ""
+msgstr "المجموعات"
 
 #: ../../manage/_reports.rst:73
 msgid "Open the **Groups** sub-tab from the main **Reports** view to access the reports about the progress in lessons and quizzes **per each group**. In the main view you can see the table with summary of lessons and quizzes assigned to each group, number of learners and the last activity."
-msgstr ""
+msgstr "قم بفتح التبويب الفرعي **المجموعات** من عرض **التقارير** الرئيسي للوصول إلى التقارير الخاصة بالتقدم المحرز في الدروس والاختبارات القصيرة **لكل مجموعة**. يمكنك رؤية جدول مع ملخص بالدروس والاختبارات القصيرة المحددة لكل مجموعة من خلال العرض الرئيسي، إضافة إلى عدد المتعلمين والنشاط الأخير."
 
 #: ../../manage/_reports.rst:75
 msgid "Click on group name to view its detailed progress report."
-msgstr ""
+msgstr "انقر على اسم المجموعة لعرض تقرير التقدم المحرز بشكل مفصل."
 
 #: ../../manage/_reports.rst:76
 msgid "From the group **Reports** sub-tab you can click to access each lesson and quiz."
-msgstr ""
+msgstr "يمكنك النقر على التبويب الفرعي **التقارير** للمجموعة للوصول إلى الدروس والاختبارات القصيرة كل بمفرده."
 
 #: ../../manage/_reports.rst:77
 msgid "In the **Members** sub-tab you can view the summary of completed exercises, scores and viewed resources **for each group learner**, and click to access their full progress report."
-msgstr ""
+msgstr "من خلال التبويب الفرعي **الأعضاء**، يمكنك عرض ملخص للتمارين المكتملة، النقاط المحرزة والمصادر الظاهرة **لكل متعلم ضمن مجموعة**، يمكنك النقر أيضاً للوصول إلى تقرير التقدم المحرز الخاص بهم كاملاً."
 
 #: ../../manage/_reports.rst:84
 msgid "Learners"
-msgstr ""
+msgstr "المتعلّمون"
 
 #: ../../manage/_reports.rst:86
 msgid "Open the **Learners** sub-tab from the main **Reports** view to access the progress report per each learner. In the main view you can see the table with summary of completed exercises, scores and viewed resources **for each learner**, and their last activity."
-msgstr ""
+msgstr "قم بفتح التبويب الفرعي **المجموعات** من عرض **التقارير** الرئيسي للوصول إلى التقارير الخاصة بالتقدم المحرز لكل متعلم. يمكنك رؤية جدول بملخص التمارين المكتملة والنقاط المحرزة والمصادر الظاهرة **لكل متعلم** إضافة إلى نشاطهم الاخير، وذلك من خلال شاشة العرض الرئيسية."
 
 #: ../../manage/_reports.rst:88
 msgid "Click on learner name to view their detailed progress report."
-msgstr ""
+msgstr "انقر على اسم المتعلم لعرض تقرير التقدم المحرز الخاص به بشكل مفصل."
 
 #: ../../manage/_reports.rst:89
 msgid "From the learner **Reports** sub-tab you can click to access each lesson and quiz."
-msgstr ""
+msgstr "من التبويب الفرعي **التقارير** الخاص بالمتعلم، يمكنك النقر للوصول إلى الدروس والاختبارات القصيرة كل بمفرده."
 
 #: ../../manage/_reports.rst:90
 msgid "In the **Activity** sub-tab you can review their activity on resources assigned."
-msgstr ""
+msgstr "من خلال التبويب الفرعي **النشاط**، يمكنك استعراض نشاطهم الأخير على المصادر المحددة."
 
 #: ../../coach.rst:72
 msgid "Plan"
-msgstr ""
+msgstr "التخطيط لصفّك الدراسيّ"
 
 #: ../../coach.rst:74
 msgid "Use the options in the **Plan** tab to create and manage the lessons, quizzes, and groups for the selected class."
-msgstr ""
+msgstr "استخدم الخيارات المتاحة في تبويب **التخطيط لصفّك الدراسي** لإنشاء وإدارة الدروس والاختبارات القصيرة، إضافة لمجموعات الفئة المحددة."
 
 #: ../../manage/_lessons.rst:5
 msgid "Manage Lessons"
-msgstr ""
+msgstr "إدارة الدروس"
 
 #: ../../manage/_lessons.rst:7
 msgid "Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed."
-msgstr ""
+msgstr "تتيح لك **دروس** كوليبري إمكانية تحضير تحديدات أقل من المصادر المتاحة ومن ثم تحدبدها للمتعلمين بأساسيات مؤقتة. يمكنك تحديد المصادر من قنوات متعددة، ومن ثم نسخ وإنشاء الدروس لصفوف دراسية أخرى أو مجموعات حسب الحاجة."
 
 #: ../../manage/_lessons.rst:9
 msgid "To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. You can filter the lessons in order to see all, or just active/inactive ones."
-msgstr ""
+msgstr "لعرض أو إنشاء أو حذف الدروس، أو تحديدها للمتعلمين على حد سواء، قم باستخدام التبويب الفرعي **الدروس** من تبويب **التخطيط لصفّك الدراسي** (أيقونة |edit|) من صفحة **المدرب** الخاصة بك. تظهر لك شاشة العرض الافتراضية كافة الدروس المنشأة للصف الدراسي المحدد، عدد المصادر التي تحتوي عليها، المجموعات المحددة لها، إضافة إلى مؤشر الحالة الخاص بها. يمكنك فرز الدروس بحيث تشاهدها جميعها أو بحيث تشاهد فقط الدروس المفعّلة/غير المفعّلة."
 
 #: ../../manage/_lessons.rst:15
 msgid "To manage |lessons| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**."
-msgstr ""
+msgstr "لإدارة |lessons| **الدروس** في دروس ومجموعات كوليبري، عليك أن تقوم بتسجيل الدخول كـ **مدرب** ،**مشرف** أو **مشرف متميز**."
 
 #: ../../manage/_lessons.rst:19
 msgid "Create New Lesson"
-msgstr ""
+msgstr "إنشاء درس جديد"
 
 #: ../../manage/_lessons.rst:21
 msgid "To create a new lesson |lessons|, follow these steps."
-msgstr ""
+msgstr "قم باتباع الخطوات التالية لإنشاء درس جديد |lessons|."
 
 #: ../../manage/_lessons.rst:23
 msgid "Click the :guilabel:`NEW LESSON` button."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`درس جديد`."
 
 #: ../../manage/_lessons.rst:24
 msgid "Fill in the field for the lesson title, description and choose the group(s) or the entire class as the recipients."
-msgstr ""
+msgstr "قم بتعبئة حقل عنوان الدرس، وصف الدرس، واختر مجموعة/ مجموعات أو الصف بأكمله كمتلقين."
 
 #: ../../manage/_lessons.rst:29
 msgid "Click :guilabel:`CONTINUE`. In this step, the lesson does not have any learning resources yet, but you can see and edit some options."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`متابعة`. في هذه الخطوة، لن يكون هناك أية مصادر تعليمية للدرس، لكن يمكنك رؤية وتحرير بعض الخيارات."
 
 #: ../../manage/_lessons.rst:34
 msgid "Click :guilabel:`MANAGE RESOURCES` and select the content channel from which you wish to select resources for the lesson."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`إدارة المصادر` واختر القناة التعليمية التي ترغب بتحديد المصادر الخاصة بالدرس منها."
 
 #: ../../manage/_lessons.rst:39
 msgid "Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson, and you will see a notification at the bottom of the page that the resource has been added."
-msgstr ""
+msgstr "تابع التنقل في ملفات المواضيع الفرعية للقناة التعليمية المحددة إلى أن تصل إلى المصادر الفردية التي ترغب بها. استخدم مربعات الاختيار لتحديد المصادر التي تريد أن تضمنها في الدرس، وستشاهد إشعاراً في أسفل الصفحة يعلمك بإضافة المصدر."
 
 #: ../../manage/_lessons.rst:44
 msgid "Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| button to display the results. When you finish, press the :guilabel:`EXIT SEARCH` button to return to the list of selected resources."
-msgstr ""
+msgstr "استخدم ميزة **البحث** لرؤية المصادر الخاصة بموضوع معين. قم بكتابة مصطلح البحث في الحقل المخصص ومن ثم اضغط مفتاح :guilabel:`إدخال` أو انقر على زر |search| لعرض النتائج. عند الانتهاء، انقر على زر :guilabel:`إنهاء البحث` للعودة إلى لائحة تحديد المصادر."
 
 #: ../../manage/_lessons.rst:49
 msgid "You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`."
-msgstr ""
+msgstr "يمكنك فرز نتائج البحث حسب *نوع* المصدر (مقطع فيديو، مستند، تمرين...)، قم بتضمين تلك الخاصة بـ *قنوات تعليمية* محددة فقط، أو استبعد :ref:`المصادر الخاصة بالمدربين<coach_resource>`."
 
 #: ../../manage/_lessons.rst:52
 msgid "Press the :guilabel:`FINISH` button to close the **Manage resources** window and return to the main view of the lesson."
-msgstr ""
+msgstr "انقر على زر :guilabel:`إنهاء` لإغلاق نافذة **إدارة المصادر** ومن ثم العودة إلى واجهة العرض الرئيسية الخاصة بالدرس."
 
 #: ../../manage/_lessons.rst:54
 msgid "After you've selected the resources for the lesson, you can:"
-msgstr ""
+msgstr "بعد أن قمت بتحديد المصادر الخاصة بالدرس، بإمكانك:"
 
 #: ../../manage/_lessons.rst:56
 msgid "Grab the |drag| button to reorder lesson resources with the mouse (drag and drop)"
-msgstr ""
+msgstr "الضغط مطولاً على زر |drag| لإعادة ترتيب المصادر الخاصة بالدرس (اسحب ثم أفلت) بالفأرة"
 
 #: ../../manage/_lessons.rst:57
 msgid "Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation"
-msgstr ""
+msgstr "استخدام زرّي |arrow-up| و |arrow-down| لإعادة الترتيب من خلال مفاتيح التنقل بلوحة المفاتيح"
 
 #: ../../manage/_lessons.rst:58
 msgid "Click the :guilabel:`REMOVE` button to delete a resource"
-msgstr ""
+msgstr "النقر على زر :guilabel:`إزالة` لحذف مصدر"
 
 #: ../../manage/_lessons.rst:63
 msgid "You will see a confirmation notification at the bottom every time you change something in the lesson."
-msgstr ""
+msgstr "ستشاهد إشعاراً تأكيدياً في الأسفل في كل مرة تغير بها شيئاً ما في الدرس."
 
 #: ../../manage/_lessons.rst:65
 msgid "To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 9 again."
-msgstr ""
+msgstr "لإضافة المزيد من المصادر إلى نفس الدرس ومتابعة التحرير عند الحاجة، قم مجدداً باتباع الخطوات من 4 إلى 9."
 
 #: ../../manage/_lessons.rst:69
 msgid "Change Lesson Status"
-msgstr ""
+msgstr "تغيير حالة الدرس"
 
 #: ../../manage/_lessons.rst:71
 msgid "A newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps."
-msgstr ""
+msgstr "الدرس الذي تم إنشاؤه حديثاً هو درس *غير مفعّل* بشكل افتراضي بما معناه أن المتعلمين لن يروه في واجهة العرض **تعلم** الخاصة بهم. لتغيير حالة الدرس، قم باتباع الخطوات التالية."
 
 #: ../../manage/_lessons.rst:73
 msgid "Click the **Change** link under the *Status* heading."
-msgstr ""
+msgstr "انقر على رابط **تغيير** تحت العنوان الرئيسي *الحالة*."
 
 #: ../../manage/_lessons.rst:74
 msgid "Select **Active** or **Inactive**."
-msgstr ""
+msgstr "قم بتحديد **مفعّل** أو **غير مفعّل**."
 
 #: ../../manage/_lessons.rst:75 ../../manage/_lessons.rst:88
 #: ../../manage/_lessons.rst:104 ../../manage/_quizzes.rst:66
 #: ../../manage/_quizzes.rst:79
 msgid "Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`حفظ` للتأكيد، أو على :guilabel:`إلغاء` للخروج من دون حفظ التغييرات."
 
 #: ../../manage/_lessons.rst:81
 msgid "Change Lesson Visibility"
-msgstr ""
+msgstr "تغيير إمكانية رؤية الدرس"
 
 #: ../../manage/_lessons.rst:83
 msgid "You can change the visibility of the lesson that you set when you initially created it. To reassign the lesson to a different group or the entire class, follow these steps."
-msgstr ""
+msgstr "يمكنك تغيير إمكانية رؤية الدرس الذي قمت بتحديده عند إنشائه منذ البداية. لتحديد الدرس لمجموعة مختلفة أو للصف بأكمله، قم باتباع هذه الخطوات."
 
 #: ../../manage/_lessons.rst:85 ../../manage/_lessons.rst:96
 #: ../../manage/_lessons.rst:114 ../../manage/_lessons.rst:125
 msgid "Select the desired lesson from the list in the **Lessons** tab."
-msgstr ""
+msgstr "حدد الدرس المطلوب من القائمة في تبويب **الدروس**."
 
 #: ../../manage/_lessons.rst:86 ../../manage/_lessons.rst:115
 msgid "Click :guilabel:`OPTIONS` and select **Edit details**."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`خيارات` وحدد **تعديل التفاصيل**."
 
 #: ../../manage/_lessons.rst:87
 msgid "Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Visible to* heading."
-msgstr ""
+msgstr "قم بتحديد **الصف بأكمله** أو مجموعة/ مجموعات المتعلمين الذين ترغب بتحديد الدرس لهم تحت العنوان الرئيسي *مرئي من قِبل*."
 
 #: ../../manage/_lessons.rst:92
 msgid "Copy Lesson"
-msgstr ""
+msgstr "نسخ الدّرس"
 
 #: ../../manage/_lessons.rst:94
 msgid "To copy a lesson to a different group or another class of your facility, follow these steps."
-msgstr ""
+msgstr "لنسخ درس إلى مجموعة مختلفة أو صف دراسي آخر في المرفق التعليمي الخاص بك، قم باتباع الخطوات التالية."
 
 #: ../../manage/_lessons.rst:97
 msgid "Click :guilabel:`OPTIONS` and select **Copy lesson**."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`خيارات` ثم حدد **نسخ الدرس**."
 
 #: ../../manage/_lessons.rst:102
 msgid "Select the class to which you wish to copy the lesson to."
-msgstr ""
+msgstr "حدد الصف الدراسي الذي ترغب بنسخ الدرس إليه."
 
 #: ../../manage/_lessons.rst:103 ../../manage/_quizzes.rst:93
 msgid "If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson."
-msgstr ""
+msgstr "إذا كان الصف الدراسي المطلوب يحتوي على أكثر من مجموعة، قم بتحديد **الصف بأكمله** أو مجموعة/ مجموعات المتعلمين االذين ترغب بتحديد الدرس لهم."
 
 #: ../../manage/_lessons.rst:106
 msgid "If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it."
-msgstr ""
+msgstr "في حال تم نسخ الدرس إلى مجموعة أخرى بنفس الصف الدراسي، سيظهر في تبويب **الدرس** على هيئة *نسخ من...*. قم باتباع الخطوات التالية في العنوان الرئيسي التالي لإعادة تسميته."
 
 #: ../../manage/_lessons.rst:110
 msgid "Rename Lesson"
-msgstr ""
+msgstr "إعادة تسمية الدرس"
 
 #: ../../manage/_lessons.rst:112
 msgid "To rename a lesson, follow these steps."
-msgstr ""
+msgstr "لإعادة تسمية درس ما، قم باتباع الخطوات التالية."
 
 #: ../../manage/_lessons.rst:116
 msgid "Change the lesson title in the confirmation window."
-msgstr ""
+msgstr "قم بتغيير عنوان الدرس في نافذة التأكيد."
 
 #: ../../manage/_lessons.rst:117
 msgid "Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without renaming the lesson."
-msgstr ""
+msgstr "انقر على :guilabel:`حفظ` للتأكيد، أو على :guilabel:`إلغاء` للخروج من دون إعادة تسمية الدرس."
 
 #: ../../manage/_lessons.rst:121
 msgid "Delete Lesson"
-msgstr ""
+msgstr "حذف الدرس"
 
 #: ../../manage/_lessons.rst:123
 msgid "To delete a lesson, follow these steps."
-msgstr ""
+msgstr "لحذف درس ما، قم باتباع الخطوات التالية."
 
 #: ../../manage/_lessons.rst:126
 msgid "Click :guilabel:`OPTIONS` and select **Delete**."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`خيارات` ثم حدد **حذف**."
 
 #: ../../manage/_lessons.rst:127
 msgid "Click :guilabel:`DELETE` in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the lesson."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`حذف` في نافذة التأكيد للمتابعة، أو على :guilabel:`إلغاء` للخروج بدون حذف الدرس."
 
 #: ../../manage/_quizzes.rst:5
 msgid "Manage Quizzes"
-msgstr ""
+msgstr "إدارة الاختبارات القصيرة"
 
 #: ../../manage/_quizzes.rst:7
 msgid "You can view, create and delete quizzes, as well as assign them to learners, using the **Quizzes** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. The default view displays the list of all quizzes in a selected class, with indicators of their visibility status and groups they are assigned to."
-msgstr ""
+msgstr "يمكنك عرض، إنشاء وحذف اختبارات قصيرة، إضافة إلى تحديدها للمتعلمين، وذلك باستخدام التبويب الفرعي **الاختبارات القصيرة** في تبويب **التخطيط لصفّك الدراسي** و (أيقونة |edit|) من صفحة **المدرب** الرئيسية الخاصة بك. ستعرض لك واجهة العرض الرئيسية قائمة بالاختبارات القصيرة في الصف الدراسي المحدد، مع مؤشرات حالة إمكانية الرؤية والمجموعات التي تم تحديدها لها."
 
 #: ../../manage/_quizzes.rst:13
 msgid "To manage **Quizzes** |exams| in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**."
-msgstr ""
+msgstr "لإدارة **الاختبارات القصيرة** |exams| في صفوف ومجموعات كوليبري، ينبغي أن تقوم بتسجيل الدخول بصفة **مشرف**،**مدرب** أو **مشرف متميز**."
 
 #: ../../manage/_quizzes.rst:17
 msgid "Create New Quiz"
-msgstr ""
+msgstr "إنشاء اختبار قصير جديد"
 
 #: ../../manage/_quizzes.rst:19
 msgid "To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button."
-msgstr ""
+msgstr "لإنشاء اختبار قصير جديد |exams|، قم بالنقر على زر :guilabel:`إختبار قصير جديد`."
 
 #: ../../manage/_quizzes.rst:21
 msgid "Fill in the field for the quiz title in the *Create new quiz* page."
-msgstr ""
+msgstr "قم بتعبئة الحقل الخاص بعنوان الاختبار القصير في صفحة *إنشاء اختبار قصير جديد*."
 
 #: ../../manage/_quizzes.rst:22
 msgid "Adjust the number of questions you want the quiz to contain. You can use the arrow field value modifiers with the mouse, or :guilabel:`-` and :guilabel:`+` buttons if you are using the keyboard."
-msgstr ""
+msgstr "قم بضبط عدد الأسئلة التي تريد تضمينها في الاختبار القصير. يمكنك استخدام معدلات القيمة في خانة السهم من خلال الفأرة، أو زرّي :guilabel:`-` و :guilabel:`+` في حال كنت تستعمل لوحة المفاتيح."
 
 #: ../../manage/_quizzes.rst:23
 msgid "Navigate through the topic tree and activate checkboxes of those exercises you want to include in the quiz."
-msgstr ""
+msgstr "قم بالانتقال عبر ملفات المواضيع الفرعية ومن ثم بتنشيط مربعات الاختيار لتلك التمارين التي تريد تضمينها في الاختبار القصير."
 
 #: ../../manage/_quizzes.rst:28
 msgid "As you keep adding and removing the exercises you will see confirmation messages at the bottom."
-msgstr ""
+msgstr "أثناء متابعتك لإضافة التمارين وإزالتها، سوف تشاهد رسائل تأكيد في الأسفل."
 
 #: ../../manage/_quizzes.rst:30
 msgid "Use the **Search** feature to look for topics and exercises about a specific subject. Write the search term in the field, press the :guilabel:`ENTER` key or click the |search| button to display the results."
-msgstr ""
+msgstr "استخدم ميزة **البحث** للبحث عن مواضيع وتمارين حول موضوع معين. قم بكتابة مصطلح البحث في الحقل المخصص ومن ثم اضغط مفتاح :guilabel:`إدخال` أو انقر على زر |search| لعرض النتائج."
 
 #: ../../manage/_quizzes.rst:35
 msgid "You can filter the search results by *type* of resource (exercise or topic), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`. Click :guilabel:`EXIT SEARCH` button to return to main quiz view."
-msgstr ""
+msgstr "يمكنك فرز نتائج البحث من خلال *نوع* المصدر (موضوع أو تمرين)، قم بتضمين المصادر من *قناة تعليمية* محددة، أو قم باستثناء :ref:`مصادر خاصة بالمدربين <coach_resource>`. قم بالنقر على زر :guilabel:`إنهاء البحث` للعودة إلى واجهة العرض الرئيسية للاختبار القصير."
 
 #: ../../manage/_quizzes.rst:37
 msgid "When you finish selecting resources, click :guilabel:`CONTINUE` button to preview the quiz."
-msgstr ""
+msgstr "عند انتهائك من تحديد المصادر، قم بالنقر على زر :guilabel:`متابعة` لمعاينة الاختبار القصير."
 
 #: ../../manage/_quizzes.rst:39
 msgid "Beware that if you click the :guilabel:`GO BACK` button, you will exit the quiz builder and loose the resource selection."
-msgstr ""
+msgstr "يرجى الانتباه أنه عندما تنقر على زر :guilabel:`العودة`، سيتم الخروج من منشئ الاختبارات القصيرة وفقدان تحديدك للمصادر ."
 
 #: ../../manage/_quizzes.rst:41
 msgid "You can choose between **Randomized** and **Fixed** question order."
-msgstr ""
+msgstr "يمكنك الاختيار ما بين ترتيب الأسئلة بشكل **عشوائي** و **محدد**."
 
 #: ../../manage/_quizzes.rst:43
 msgid "To present the questions in a different (*random*) order to each learner, select :guilabel:`Randomized`."
-msgstr ""
+msgstr "لتقديم الأسئلة بترتيب مختلف (*عشوائي*) لكل متعلم، قم بتحديد خيار :guilabel:`عشوائي`."
 
 #: ../../manage/_quizzes.rst:48
 msgid "To present the same (*fixed*) question order to all learners, select :guilabel:`Fixed`. You can reorder the questions by using the |drag| button with the mouse (drag and drop), or with |arrow-up| and |arrow-down| buttons if you navigate by keyboard."
-msgstr ""
+msgstr "لتقديم الأسئلة بترتيب مماثل (*محدد*) لكل المتعلمين، قم بتحديد :guilabel:`محدد`. يمكنك إعادة ترتيب الاسئلة باستخدام زر |drag| عن طريق الفأرة (سحب وإفلات)، أو من خلال زرّي |arrow-up| و |arrow-down| في حال كنت تقوم بالتنقل عبر لوحة المفاتيح."
 
 #: ../../manage/_quizzes.rst:54
 msgid "Use the option *Choose a different set of questions* to obtain an alternative selection of questions to display."
-msgstr ""
+msgstr "استخدم خيار *اختر مجموعة مختلفة من الأسئلة* للحصول على تحديد بديل للأسئلة المراد عرضها."
 
 #: ../../manage/_quizzes.rst:56
 msgid "When you are satisfied with the question order click the :guilabel:`FINISH` button, and you will see a confirmation notification at the bottom."
-msgstr ""
+msgstr "عندما تكون راضياً عن ترتيب الأسئلة، قم بالنقر على زر :guilabel:`إنهاء`، وستشاهد إشعار التأكيد في الأسفل."
 
 #: ../../manage/_quizzes.rst:60
 msgid "Change Quiz Visibility"
-msgstr ""
+msgstr "تغيير إمكانية رؤية الاختبار القصير"
 
 #: ../../manage/_quizzes.rst:62
 msgid "Newly created quiz is by default visible to entire class. To change quiz *Visibility*, that is select group(s) of learners instead of the whole class, follow these steps."
-msgstr ""
+msgstr "الاختبار القصير الذي تم إنشاؤه حديثا هو اختبار مرئي بشكل افتراضي للصف الدراسي بأكمله. لتغيير *إمكانية الرؤية* الاختبار القصير لمجموعة/ مجموعات من المتعلمين بدلاً من الصف الدراسي بأكمله، قم باتباع الخطوات التالية."
 
 #: ../../manage/_quizzes.rst:64 ../../manage/_quizzes.rst:77
 msgid "Click :guilabel:`OPTIONS` button for the desired quiz and select the **Edit details** option."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`خيارات` للاختبار القصير المطلوب ثم حدد خيار **تعديل التفاصيل**."
 
 #: ../../manage/_quizzes.rst:65
 msgid "Select the group(s) of learners to whom you wish to assign the quiz under the *Visible to* heading."
-msgstr ""
+msgstr "قم بتحديد مجموعة/ مجموعات المتعلمين التي ترغب بتحديد الاختبار القصير لها تحت العنوان الرئيسي *مرئي من قِبل*."
 
 #: ../../manage/_quizzes.rst:73
 msgid "Change Quiz Status"
-msgstr ""
+msgstr "تغيير حالة الاختبار القصير"
 
 #: ../../manage/_quizzes.rst:75
 msgid "Newly created quiz is by default not active. Once you set the visibility of quiz to the chosen group(s) of learners, you need to **Activate** it so it can appear in the **Learn** view of the learners it is assigned to."
-msgstr ""
+msgstr "الاختبار الذي تم إنشاؤه حديثاً هو غير نشط بشكل افتراضي. بمجرد ضبط إمكانية الرؤية لمجموعة/ مجموعات مختارة من المتعلمين، ستحتاج إلى **تفعيل** الاختبار بحيث يمكن أن يظهر في واجهة عرض **التعلم** الرئيسية الخاصة بالمتعلمين الذين تم تحديد الاختبار القصير لهم."
 
 #: ../../manage/_quizzes.rst:78
 msgid "Select **Active** at the start of the quiz period. When the quiz period concludes, select the **Inactive** option."
-msgstr ""
+msgstr "حدد خيار **مفعّل** في بداية فترة الاختبار القصير. عندما تنتهي فترة الاختبار القصير، ثم بتحديد خيار **غير مفعّل**."
 
 #: ../../manage/_quizzes.rst:83
 msgid "Copy Quiz"
-msgstr ""
+msgstr "نسخ الاختبار القصير"
 
 #: ../../manage/_quizzes.rst:85
 msgid "To copy a quiz to a different group or another class, follow these steps."
-msgstr ""
+msgstr "لنسخ اختبار قصير إلى مجموعة مختلفة أو صف دراسي آخر، قم باتباع الخطوات التالية."
 
 #: ../../manage/_quizzes.rst:87
 msgid "Click :guilabel:`OPTIONS` for the desired quiz and select **Copy quiz**."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`خيارات` للاختبار القصير المطلوب ثم حدد **نسخ الاختبار القصير**."
 
 #: ../../manage/_quizzes.rst:92
 msgid "Select the class to which you wish to copy the quiz to and click :guilabel:`CONTINUE`."
-msgstr ""
+msgstr "قم بتحديد الصف الدراسي الذي ترغب بنسخ الاختبار له ومن ثم قم بالنقر على :guilabel:`متابعة`."
 
 #: ../../manage/_quizzes.rst:94
 msgid "Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`نسخ` للتأكيد، أو على :guilabel:`إلغاء` للخروج من دون أية تغييرات."
 
 #: ../../manage/_quizzes.rst:96
 msgid "If the quiz is copied to another group in the same class, it will appear in the **Quizzes** tab as the *Copy of...*. Follow the steps in the next section to rename it."
-msgstr ""
+msgstr "في حال تم نسخ الاختبار القصير إلى مجموعة أخرى بنفس الصف الدراسي، سيظهر في تبويب **الاختبارات القصيرة** بالشكل *نسخ من...*. قم باتباع الخطوات التالية في العنوان الرئيسي التالي لإعادة تسميته."
 
 #: ../../manage/_quizzes.rst:99
 msgid "Rename quiz"
-msgstr ""
+msgstr "إعادة تسمية الاختبار القصير"
 
 #: ../../manage/_quizzes.rst:101
 msgid "To rename quiz, follow these steps."
-msgstr ""
+msgstr "لإعادة تسمية اختبار قصير ما، قم باتباع الخطوات التالية."
 
 #: ../../manage/_quizzes.rst:103
 msgid "Click :guilabel:`OPTIONS` for the desired quiz and select **Edit details** option."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`خيارات` للاختبار القصير المطلوب ثم حدد خيار **تعديل التفاصيل**."
 
 #: ../../manage/_quizzes.rst:104
 msgid "Change the quiz title in the confirmation window."
-msgstr ""
+msgstr "قم بتغيير عنوان الاختبار القصير في نافذة التأكيد."
 
 #: ../../manage/_quizzes.rst:105
 msgid "Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without renaming the quiz."
-msgstr ""
+msgstr "قم بالنقر على على :guilabel:`حفظ` للتأكيد، أو على :guilabel:`إلغاء` للخروج من دون إعادة تسمية الاختبار القصير."
 
 #: ../../manage/_quizzes.rst:108
 msgid "Delete Quiz"
-msgstr ""
+msgstr "حذف اختبار قصير"
 
 #: ../../manage/_quizzes.rst:110
 msgid "To delete quiz, follow these steps."
-msgstr ""
+msgstr "لحذف اختبار قصير ما، قم باتباع الخطوات التالية."
 
 #: ../../manage/_quizzes.rst:112
 msgid "Click :guilabel:`OPTIONS` for the desired quiz and select **Delete** option."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`خيارات` للاختبار القصير المطلوب ثم حدد خيار **حذف**."
 
 #: ../../manage/_quizzes.rst:113
 msgid "Click :guilabel:`DELETE` in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the quiz."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`حذف` في نافذة التأكيد للمتابعة، أو على :guilabel:`إلغاء` للخروج بدون حذف الاختبار القصير."
 
 #: ../../manage/_quizzes.rst:116
 msgid "All data from the quiz you are deleting will be lost."
-msgstr ""
+msgstr "سيتم فقدان كافة بيانات الاختبار القصير الذي تقوم بحذفه."
 
 #: ../../manage/_groups.rst:5
 msgid "Manage Groups"
-msgstr ""
+msgstr "إدارة المجموعات"
 
 #: ../../manage/_groups.rst:7
 msgid "In case you need to further divide learners inside classes, for example to address the different progress needs, you can use the **Groups** feature. Create and delete groups, as well as assign learners to them from the **Groups** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. Default view displays the list of all groups for the selected class, with the number of assigned learners for each group."
-msgstr ""
+msgstr "في حال كنت بحاجة لتوزيع المتعلمين على أقسام داخل الصفوف الدراسية، على سبيل المثال لتلبية احتياجات التقدم المختلفة، يمكنك استخدام ميزة **المجموعات**. قم بإنشاء وحذف مجموعات، إضافة إلى تحديدها لمتعلمين من التبويب الفرعي **المجموعات** في تبويب **التخطيط لصفّك الدراسي** و (أيقونة |edit|) من صفحة **المدرب** الخاصة بك. ستعرض الواجهة الرئيسية لائحة المجموعات للصفوف المحددة، مع عدد المتعلمين المحددين لكل مجموعة."
 
 #: ../../manage/_groups.rst:13
 msgid "To manage Kolibri groups you must sign in as **coach**, **admin** or **super admin**."
-msgstr ""
+msgstr "لإدارة مجموعات كوليبري، ينبغي تسجيل الدخول بصفة **مشرف** ،**مدرب** أو **مشرف متميز**."
 
 #: ../../manage/_groups.rst:17
 msgid "Create a New Group"
-msgstr ""
+msgstr "إنشاء مجموعة جديدة"
 
 #: ../../manage/_groups.rst:19
 msgid "To create a new learner group, follow these steps."
-msgstr ""
+msgstr "قم باتباع الخطوات التالية لإنشاء مجموعة متعلمين جديدة."
 
 #: ../../manage/_groups.rst:21
 msgid "Click the :guilabel:`NEW GROUP` button."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`مجموعة جديدة`."
 
 #: ../../manage/_groups.rst:22
 msgid "Give group a desired name."
-msgstr ""
+msgstr "أطلق الاسم الذي ترغب به على المجموعة."
 
 #: ../../manage/_groups.rst:23
 msgid "Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without creating a group."
-msgstr ""
+msgstr "قم بالنقر على على :guilabel:`حفظ` للتأكيد، أو على :guilabel:`إلغاء` للخروج من دون إنشاء مجموعة."
 
 #: ../../manage/_groups.rst:27
 msgid "Enroll Learners in a Group"
-msgstr ""
+msgstr "إضافة المتعلمين إلى مجموعة"
 
 #: ../../manage/_groups.rst:29
 msgid "Click to open the desired group in the **Groups** sub-tab."
-msgstr ""
+msgstr "قم بالنقر في التبويب الفرعي **المجموعات** من أجل فتح المجموعة المطلوبة."
 
 #: ../../manage/_groups.rst:30
 msgid "Click the :guilabel:`ENROLL LEARNERS` button."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`إضافة متعلمين`."
 
 #: ../../manage/_groups.rst:32
 msgid "List in this view contains all the learners currently **not** enrolled in the selected group."
-msgstr ""
+msgstr "تحتوي القائمة في واجهة العرض هذه على جميع المتعلمين **غير** المسجلين حالياً في المجموعة المحددة."
 
 #: ../../manage/_groups.rst:33
 msgid "You can search for a specific learner by name."
-msgstr ""
+msgstr "يمكنك البحث عن متعلم معين بواسطة الاسم."
 
 #: ../../manage/_groups.rst:39
 msgid "Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll in the group."
-msgstr ""
+msgstr "استخدم مربعات الاختيار لتحديد جميع المتعلمين في القائمة، أو من خلال حقل البحث للمتعلمين المعينين الذين ترغب في إضافتهم إلى المجموعة."
 
 #: ../../manage/_groups.rst:40
 msgid "Click :guilabel:`CONFIRM` to finish enrolling the selected learners and return to the group page."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`تأكيد` لإنهاء إضافة المتعلمين المحددين ومن ثم العودة إلى صفحة المجموعة."
 
 #: ../../manage/_groups.rst:43
 msgid "Remove Learners from Group"
-msgstr ""
+msgstr "إزالة متعلمين من مجموعة"
 
 #: ../../manage/_groups.rst:45
 msgid "Click :guilabel:`REMOVE` for the chosen learner."
-msgstr ""
+msgstr "قم بالنقر على :guilabel:`إزالة` للمتعلم الذي تم اختياره."
 
 #: ../../manage/_groups.rst:46
 msgid "Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the learner."
-msgstr ""
+msgstr "انقر على :guilabel:`إزالة` للتأكيد، أو على :guilabel:`إلغاء` للخروج من دون إزالة المتعلم."
 
 #: ../../manage/_groups.rst:50
 msgid "Rename Group"
-msgstr ""
+msgstr "إعادة تسمية مجموعة"
 
 #: ../../manage/_groups.rst:52
 msgid "To rename group, follow these steps."
-msgstr ""
+msgstr "لإعادة تسمية مجموعة ما، قم باتباع الخطوات التالية."
 
 #: ../../manage/_groups.rst:54 ../../manage/_groups.rst:65
 msgid "Click :guilabel:`OPTIONS` button on the right edge of the desired group."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`خيارات` على الحافة اليمنى للمجموعة المطلوبة."
 
 #: ../../manage/_groups.rst:55
 msgid "Select the **Rename** option."
-msgstr ""
+msgstr "قم بتحديد خيار **إعادة تسمية**."
 
 #: ../../manage/_groups.rst:56
 msgid "Input the new name for the group in the confirmation window."
-msgstr ""
+msgstr "قم بإدخال الاسم الجديد للمجموعة في نافذة التأكيد."
 
 #: ../../manage/_groups.rst:57
 msgid "Click :guilabel:`SAVE` button to proceed, or :guilabel:`CANCEL` to exit without renaming the group."
-msgstr ""
+msgstr "قم بالنقر على زر :guilabel:`حفظ` للمتابعة، أو على زر :guilabel:`إلغاء` للخروج من دون إعادة تسمية المجموعة."
 
 #: ../../manage/_groups.rst:61
 msgid "Delete Group"
-msgstr ""
+msgstr "حذف مجموعة"
 
 #: ../../manage/_groups.rst:63
 msgid "To delete a group, follow these steps."
-msgstr ""
+msgstr "لحذف مجموعة ما، قم باتباع الخطوات التالية."
 
 #: ../../manage/_groups.rst:66
 msgid "Select the **Delete** option."
-msgstr ""
+msgstr "قم بتحديد خيار **حذف**."
 
 #: ../../manage/_groups.rst:67
 msgid "Click :guilabel:`DELETE` button in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the group."
-msgstr ""
+msgstr "انقر فوق :guilabel:`حذف` في نافذة التأكيد للمتابعة، أو على :guilabel:`إلغاء` للخروج بدون حذف المجموعة."
 
 #: ../../coach.rst:88
 msgid "Coach Support Resources"
-msgstr ""
+msgstr "مصادر الدعم الخاصة بالمدرب"
 
 #: ../../coach.rst:90
 msgid "`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. When content curators set the visibility this way, the resource in Kolibri will not be visible to learners, but only to admins, facility coaches, or other users assigned to coach classes. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners."
-msgstr ""
+msgstr "يدعم `استوديو كوليبري <https://studio.learningequality.org/>`_ خيارات ضبط إمكانية الرؤية لأي مصدر مضاف للقنوات التعليمية بشكل **مصدر المدرب**. عندما يقوم منسقو المحتوى بتعيين إمكانية الرؤية بهذه الطريقة، لن يكون المصدر في كوليبري مرئياً للمتعلمين إنما فقط للمسؤولين أو مدربي المرافق التعليمية أو المستخدمين الآخرين المحددين في دروس المدرب. من الممكن أن تكون هذه المواد خططاً للدرس، قراءات للتطوير المهني، مواداً تدريبية، إلخ. ستكون متاحة للرؤية فقط من قبل المدربين وليس من قبل المتعلمين."
 
 #: ../../coach.rst:95
 msgid "Setting the visibility of content in Kolibri Studio."
-msgstr ""
+msgstr "ضبط إمكانية رؤية المحتوى في استوديو كوليبري."
 
 #: ../../coach.rst:97
 msgid "Coach resources and content channels that contain them are marked with the |coach-resource| icon in Kolibri."
-msgstr ""
+msgstr "تتميز مصادر المدرب أو القنوات التعليمية التي تحتويها بأيقونة |coach-resource| في كوليبري."
 
 #: ../../coach.rst:102
 msgid "Content channel with 4 support resources for coaches in Kolibri."
-msgstr ""
+msgstr "قناة محتوى مع أربعة مصادر دعم خاصة بالمدربين في كوليبري."
 
 #~ msgid ""
 #~ "You can track progress of the "

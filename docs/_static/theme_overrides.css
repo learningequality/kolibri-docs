@@ -8,9 +8,15 @@ html[lang=ar] {
 /* Preformatted and code formatted segments LTR */
 html[lang=ar] pre {
     direction: ltr;
+    text-align: left;
 }
 
 html[lang=ar] code {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+html[lang=ar] div.highlight {
     unicode-bidi: bidi-override;
     direction: ltr;
 }
@@ -76,6 +82,10 @@ html[lang=ar] .wy-plain-list-decimal li, .rst-content .section ol li, .rst-conte
     margin-right: 24px;
 }
 
+.rst-content .admonition-title::before {
+    margin-left: 4px;
+}
+
 .rst-content blockquote {
 	margin-left: 5px;
 }
@@ -84,7 +94,7 @@ html[lang=ar] .wy-plain-list-decimal li, .rst-content .section ol li, .rst-conte
     margin-bottom: 8px;
 }
 
-div.figure {
+.figure img {
     padding: 4px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -92,10 +102,15 @@ div.figure {
 }
 
 .rst-content div.figure p.caption {
-    border-top: 1px solid #ddd;
-    margin: auto 5px;
-    padding-top: 5px;
+    padding-right: 5px;
 }
+
+span.caption-text {
+    border-bottom: 1px solid #797979;
+    padding-bottom: 5px;
+    font-size: smaller; 
+}
+
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
        this as on RTD they are loaded after this stylesheet */
@@ -182,13 +197,10 @@ img {
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 #959da5;
     color: #444d56;
-    display: inline-block;
     font-size: 80%;
     font-weight: normal;
-    line-height: 10px;
     padding: 4px 5px 3px;
     margin-top: -2px;
-    vertical-align: middle;
     font-family: Consolas, Menlo, Courier, "Courier New", monospace;
 }
 

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-18 19:52+0100\n"
-"PO-Revision-Date: 2019-04-06 04:33\n"
-"Last-Translator: learningequality <accounts@learningequality.org>\n"
+"PO-Revision-Date: 2019-04-29 06:30\n"
+"Last-Translator: learningequality\n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +23,15 @@ msgstr "دليل مستخدم كوليبري"
 
 #: ../../index.rst:29
 msgid "**Kolibri** is an open-source educational platform specially designed to provide offline access to a wide range of quality, openly licensed educational contents in low-resource contexts like rural schools, refugee camps, orphanages, and also in non-formal school programs."
-msgstr "**Kolibri** هي منصة تعليمية مفتوحة المصدر مصممة خصيصاً لتوفير الوصول دون اتصال إلى مجموعة واسعة من المحتويات التعليمية ذات الجودة والمرخصة للعموم في ظروف حيث المصادر تكون قليلة كما في المدارس الريفية، مخيمات اللاجئين ودور الأيتام، بالإضافة إلى برامج المدارس غير الرسمية."
+msgstr "**كوليبري** هو منصة تعليمية توفر مصادر مفتوحة مصممة خصيصاً للمجتمعات غير القادرة على الاتصال بشبكة الإنترنت، وبالتالي عدم قدرتها على الحصول على مجموعة واسعة من المحتوى التعليمي ذي الجودة العالية والمصادر المرخصة للعموم كما في المناطق الأقل حظاً ومخيمات اللاجئين ودور الأيتام والمجتمعات المستضيفة، بالإضافة إلى برامج المدارس غير الرسمية."
 
 #: ../../index.rst:31
 msgid "Kolibri can serve high quality education content from several publicly available **content channels**, collections of educational resources (exercises, videos, audio or document files) and associated metadata, prepared and organized for their use in Kolibri. It works in conjunction with `Kolibri Studio <https://studio.learningequality.org>`_, the curriculum tool used to organize content and build custom content channels, aligned to the local curricula, or according to specific learning needs."
-msgstr "يمكن أن تقدم كوليبري محتوى تعليمي عالي الجودة من عدة **content channels**، مجموعات من المصادر التعليمية (تمارين ومقاطع فيديو وملفات صوتية أو مستندات) وبيانات تعريف مقترنة، متاحة للعموم ومعدة ومنظمة للاستعمال في كوليبري. تعمل جميع تلك المصادر بالاقتران مع `أستوديو كوليبري <https://studio.learningequality.org>`_، وقد تم استخدام أداة المنهاج لتنظيم المحتوى وبناء قنوات محتوى مخصصة وملائمة للمناهج الدراسية المحلية، أو وفقاً للاحتياجات المحددة للعملية التعليمية."
+msgstr "يمكن أن يقدم كوليبري محتوىً تعليمياً عالي الجودة من خلال **قنوات تعليمية**، ومجموعات من المصادر التعليمية (تمارين ومقاطع فيديو وملفات صوتية أو مستندات) وبيانات تعريف مقترنة، متاحة للعموم ومعدة ومنظمة للاستعمال في كوليبري. تعمل جميع تلك المصادر بالاقتران مع `استوديو كوليبري <https://studio.learningequality.org>`_، وقد تم استخدام أدوات منهجية لتنظيم المحتوى وبناء قنوات تعليمية مخصصة وملائمة للمناهج الدراسية المحلية، أو وفقاً للاحتياجات المحددة للعملية التعليمية."
 
 #: ../../index.rst:36
 msgid "Some of the publicly available learning content that you can use with Kolibri."
-msgstr "بعض المحتوى التعليمي المتاح للعموم والذي يمكنك استخدامه مع كوليبري."
+msgstr "بعض المصادر التعليمية المتاحة للعموم والتي يمكنك استخدامها على كوليبري."
 
 #: ../../index.rst:45
 msgid ":ref:`Learners - start here <learn>`"
@@ -39,7 +39,7 @@ msgstr ":ref:`المتعلمون - إبدأ هنا <learn>`"
 
 #: ../../index.rst:47
 msgid "Whether you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`content and activities <content_types>` can you work with, and how to submit :ref:`quizzes <quizzes>` created by your coaches or tutors."
-msgstr "سواءً أكنت تستخدم كوليبري في مدرستك أو في مركز تدريبي أو في البيت، تعلم كيف :ref:`تقوم بفتحه <access_learner>` على جهازك، وما هو نوع :ref:`المحتوى والنشاطات <content_types>` التي يمكنك العمل بها، وكيف تقوم بتقديم :ref:`إختبارات قصيرة <quizzes>` تم إنشاؤها من قبل مدربيك ومدرسيك."
+msgstr "سواءً أكنت تستخدم كوليبري في مدرستك أو في مركز تدريبي أو في البيت، تعلم كيف :ref:`تقوم بفتحه <access_learner>` على جهازك، بالإضافة إلى أنواع :ref:`المحتوى والنشاطات <content_types>` التي يمكنك العمل بها، وكيف تقوم بتقديم :ref:`اختبارات قصيرة <quizzes>` تم إنشاؤها من قبل مدربيك ومدرسيك."
 
 #: ../../index.rst:53
 msgid "For :ref:`Coaches <coach>` using Kolibri"
@@ -47,15 +47,15 @@ msgstr "لـ :ref:`المدربين <coach>` الذين يستخدمون كول�
 
 #: ../../index.rst:55
 msgid "Read how to :ref:`monitor activity and track the progress <track_progress>` of your learners all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`quizzes <manage_quizzes>` and view reports."
-msgstr "قم بقراءة كيفية :ref:`مراقبة النشاط ومسار التقدم المحرز <track_progress>` للمتعلمين وصولاً إلى إجابات واحدة على أسئلة محددة. قم بإنشاء و :ref:`إدارة مجموعات مختلفة من المتعلمين<manage_groups>`، :ref:`تخصيص الدروس<manage_lessons>`، إداراة :ref:`إختبارات قصيرة<manage_quizzes>` وعرض التقارير."
+msgstr "قم بقراءة كيفية :ref:`مراقبة نشاط الصفوف الدراسية ومسار التقدم المحرز العام <track_progress>` للمتعلمين ابتداء من تصفحهم للقنوات التعليمية وصولاً إلى إجاباتهم الفردية على أسئلة محددة. قم بإنشاء و :ref:`إدارة مجموعات مختلفة من المتعلمين<manage_groups>`، :ref:`تخصيص الدروس<manage_lessons>`، إدارة :ref:`إختبارات قصيرة<manage_quizzes>` وعرض التقارير."
 
 #: ../../index.rst:61
 msgid "For :ref:`Admins and Super admins <manage>` of Kolibri"
-msgstr "لـ :ref:`المسؤولين والمسؤولين المميزين <manage>` عن كوليبري"
+msgstr "لـ :ref:`المشرفين والمشرفين المتميزين <manage>` في كوليبري"
 
 #: ../../index.rst:63
 msgid "Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolibri server on the supported platforms, and :ref:`configure other devices <access_LAN>` in the local network to access its content. Proceed on how to :ref:`import content channels <manage_content_ref>`, create and manage :ref:`users <manage_users_ref>` and :ref:`classes <manage_classes_ref>`. Configure the :ref:`settings for your facility <manage_facility_ref>`, and assign or edit :ref:`permissions <permissions>` for other users. Learn how to work with Kolibri from :ref:`the command line <command_line>`, :ref:`troubleshoot network issues <network>`, and ask for support on our :ref:`Community Forums <support>`."
-msgstr "إبدأ بقراءة كيفية :ref:`تثبيت <install>` و :ref:`بدء <access>` مخدم كوليبري على المنصات المدعومة، و :ref:`تكوين الأجهزة الاخرى<access_LAN>` في الشبكة المحلية للوصول إلى المحتوى. واصل في كيفية :ref:`استيراد القنوات ذات المحتوى <manage_content_ref>`، إنشاء وإدارة :ref:`المستخدمين <manage_users_ref>` و :ref:`الصفوف <manage_classes_ref>`. قم بتكوين :ref:`الإعدادات لمنشأتك التعليمية <manage_facility_ref>`، وعين أو حرر :ref:`الأذونات <permissions>` لمستخدمين آخرين. تعلم كيفية العمل مع كوليبري من :ref:`سطر الأوامر <command_line>`، :ref:`استكشف مشاكل الشبكة <network>`، واطلب الدعم من :ref:`منتدياتنا الاجتماعية <support>`."
+msgstr "بدايةً، قم بقراءة كيفية :ref:`تثبيت <install>` و :ref:`بدء <access>` مخدم كوليبري على المنصات المدعومة، و :ref:`تكوين الأجهزة الاخرى <access_LAN>` في الشبكة المحلية للوصول إلى المحتوى. واصل في كيفية :ref:`استيراد القنوات ذات المحتوى <manage_content_ref>`، إنشاء وإدارة :ref:`المستخدمين <manage_users_ref>` و :ref:`الصفوف <manage_classes_ref>`. قم بتكوين :ref:`الإعدادات لمرفقك التعليمي <manage_facility_ref>`، وعين أو عدل :ref:`الأذونات <permissions>` لمستخدمين آخرين. تعلم كيفية العمل مع كوليبري من :ref:`سطر الأوامر <command_line>`، :ref:`استكشف مشاكل الشبكة <network>`، واطلب الدعم من :ref:`منتدياتنا الاجتماعية <support>`."
 
 #: ../../index.rst:66
 msgid "Happy learning with Kolibri!"
