@@ -1,6 +1,91 @@
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+html[lang=ar] {
+    direction: rtl;
+}
+
+/* Preformatted and code formatted segments LTR */
+html[lang=ar] pre {
+    direction: ltr;
+    text-align: left;
+}
+
+html[lang=ar] code {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+html[lang=ar] div.highlight {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+/* Force floated images float opposite in Arabic */
+html[lang=ar] .rst-content .align-right {
+    float: left;
+}
+
+/* RTD navigation changes for Arabic */
+html[lang=ar] .wy-breadcrumbs select.wy-breadcrumbs-aside {
+    float: left;
+}
+
+html[lang=ar] .wy-nav-side, html[lang=ar] .rst-versions {
+    right:0;
+}
+
+html[lang=ar] .wy-nav-content-wrap {
+    margin-right: 300px;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    html[lang=ar] .wy-nav-side {
+        right:-300px;
+    }
+    html[lang=ar] .wy-nav-side.shift {
+        right:0;
+    }
+    html[lang=ar] .wy-nav-content-wrap {
+        margin-right:0;
+    }
+    html[lang=ar] .wy-nav-content-wrap.shift {
+        right:85%;
+    }
+}
+
+html[lang=ar] .wy-nav-top i {
+    float:right;
+}
+
+html[lang=ar] .wy-menu-vertical li span.toctree-expand {
+    float:none;
+    margin-right: -1.2em;
+    margin-left: 0;
+    padding-left: .4em;
+}
+
+html[lang=ar] .wy-breadcrumbs li.wy-breadcrumbs-aside {
+    float:left;
+}
+
+html[lang=ar] .wy-menu-vertical li.current>a span.toctree-expand {
+    display:inline-block;
+}
+
+html[lang=ar] .wy-plain-list-disc li, .rst-content .section ul li, .rst-content .toctree-wrapper ul li, article ul li {
+    margin-right: 24px;
+}
+
+html[lang=ar] .wy-plain-list-decimal li, .rst-content .section ol li, .rst-content ol.arabic li, article ol li {
+    margin-right: 24px;
+}
+
+.rst-content .admonition-title::before {
+    margin-left: 4px;
+}
+
 .rst-content blockquote {
 	margin-left: 5px;
 }
@@ -9,7 +94,7 @@
     margin-bottom: 8px;
 }
 
-div.figure {
+.figure img {
     padding: 4px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -17,10 +102,15 @@ div.figure {
 }
 
 .rst-content div.figure p.caption {
-    border-top: 1px solid #ddd;
-    margin: auto 5px;
-    padding-top: 5px;
+    padding-right: 5px;
 }
+
+span.caption-text {
+    border-bottom: 1px solid #797979;
+    padding-bottom: 5px;
+    font-size: smaller; 
+}
+
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
        this as on RTD they are loaded after this stylesheet */
@@ -107,13 +197,10 @@ img {
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 #959da5;
     color: #444d56;
-    display: inline-block;
     font-size: 80%;
     font-weight: normal;
-    line-height: 10px;
     padding: 4px 5px 3px;
     margin-top: -2px;
-    vertical-align: middle;
     font-family: Consolas, Menlo, Courier, "Courier New", monospace;
 }
 

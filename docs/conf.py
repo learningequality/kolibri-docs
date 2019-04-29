@@ -42,6 +42,9 @@ linkcheck_ignore = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+# Where to find translated image files
+figure_language_filename = '{path}{language}/{basename}{ext}'
+
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 source_suffix = ['.rst', '.md']
