@@ -10,6 +10,8 @@ install:
 # command to run tests
 script:
   - make docs
+  - make clean
+  - make docs-translated lang=es
 
 notifications:
   slack:
