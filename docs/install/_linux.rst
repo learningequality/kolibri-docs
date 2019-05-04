@@ -23,6 +23,32 @@ Use the following commands in `Terminal <https://help.ubuntu.com/community/Using
     sudo apt-get update
     sudo apt-get install kolibri
 
+kolibri-server (pre-release)
+****************************
+
+We are finalizing the release of an optimized version of Kolibri for Linux systems called **kolibri-server**. This version is recommended for:
+
+* Clear server-client setup for implementations with many client devices
+* When the server device has more than one CPU core
+
+**kolibri-server** has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. Typical use case would be a *Raspberry Pi 3+* device with 4 CPU cores, which will perform much better and faster with **kolibri-server** compared to base Kolibri.
+
+To install **kolibri-server** follow these steps.
+
+#. Run these commands in the Terminal:
+
+	.. code-block:: bash
+
+		sudo apt-get install software-properties-common python-software-properties
+		sudo add-apt-repository ppa:learningequality/kolibri-proposed
+		sudo apt-get update
+		sudo apt-get install kolibri-server
+
+   During the installation you will be offered the option to choose the port (8000, 80 or leave the default 8080).
+
+#. Restart the system.
+
+.. warning:: Keep in mind that the system performance will depend not only on server device features, but on local WiFi access point characteristics.
 
 .. _lin_deb:
 

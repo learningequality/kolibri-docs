@@ -85,10 +85,10 @@ The Raspberry Pi 3 has an internal Wi-Fi adapter which can serve as an access po
 
 We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's ethernet cable connection. In this way, you don't have to disable and enable the Wi-Fi configuration each time.
 
-* The device can be setup such that it automatically uses the ethernet interface as a *gateway* to the internet when a cable is connected.
+* The device can be set up such that it automatically uses the ethernet interface as a *gateway* to the internet when a cable is connected.
 * If you need to connect to the internet through Wi-Fi, you will have to disable the hotspot and connect through the normal network management.
 
-.. note: If you already have a Wi-Fi network at the location where the device will be setup, you should NOT setup an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Capitive Portal step.
+.. note: If you already have a Wi-Fi network at the location where the device will be set up, you should NOT set up an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Capitive Portal step.
 
 Installing hostapd and dnsmasq
 ******************************
@@ -251,11 +251,11 @@ You can use :guilabel:`CTRL` + :guilabel:`SHIFT` + :guilabel:`V` to paste text i
 Installing Kolibri
 ------------------
 
-**Firstly**, follow the main instructions for installing :ref:`Kolibri on Raspberry Pi <rpi>`.
+**First**, follow the main instructions for installing :ref:`Kolibri on Raspberry Pi <rpi>`.
 
-After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type ``kolibri.library`` in the browser location bar, and because of our captive portal, it will display.  
+After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type, for example, a domain ``box.lan`` in the browser location bar, and because of our captive portal, it will display.  
 
-To enable you Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:
+To enable your Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:
 
 .. code-block:: console
 
@@ -269,7 +269,7 @@ Copy and paste the following into the configuration file:
     listen 80;
     listen [::]:80;
 
-    server_name kolibri kolibri.library;
+    server_name kolibri box.lan;
 
     location / {
       proxy_pass http://127.0.0.1:8080;
