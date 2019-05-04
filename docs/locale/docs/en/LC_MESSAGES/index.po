@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"POT-Creation-Date: 2019-05-04 14:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,9 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:36
-msgid "Some publicly available learning content that may be included in Kolibri."
+msgid ""
+"Some of the publicly available learning content that you can use with "
+"Kolibri."
 msgstr ""
 
 #: ../../index.rst:45
@@ -72,7 +74,7 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:61
-msgid "For :ref:`Administrators and Superusers <manage>` of Kolibri"
+msgid "For :ref:`Admins and Super admins <manage>` of Kolibri"
 msgstr ""
 
 #: ../../index.rst:63
@@ -93,4 +95,12 @@ msgstr ""
 #: ../../index.rst:66
 msgid "Happy learning with Kolibri!"
 msgstr ""
+
+#~ msgid ""
+#~ "Some publicly available learning content "
+#~ "that may be included in Kolibri."
+#~ msgstr ""
+
+#~ msgid "For :ref:`Administrators and Superusers <manage>` of Kolibri"
+#~ msgstr ""
 

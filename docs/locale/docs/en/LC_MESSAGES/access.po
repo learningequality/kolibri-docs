@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-22 10:11-0700\n"
+"POT-Creation-Date: 2019-05-04 14:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,9 +98,11 @@ msgstr ""
 
 #: ../../access.rst:40
 msgid ""
-"If you used the :ref:`PEX package <pex>`, Kolibri will be accessible as "
-"long as the process is running in the `Terminal "
-"<https://help.ubuntu.com/community/UsingTheTerminal>`_."
+"If you used the **PEX** package, Kolibri will be accessible as long as "
+"the process is running in the `Terminal "
+"<https://help.ubuntu.com/community/UsingTheTerminal>`_. If you stop the "
+"process, close the Terminal window, or restart your system, you will need"
+" to :ref:`run the PEX again <pex>` to restart Kolibri."
 msgstr ""
 
 #: ../../access.rst:42
@@ -129,8 +131,8 @@ msgstr ""
 
 #: ../../access.rst:54
 msgid ""
-"Open the default browser at ``http://127.0.0.1:8080`` displaying the "
-"**Kolibri** start page."
+"Open the default browser at ``http://127.0.0.1:8080``, and it will "
+"display the **Kolibri** start page."
 msgstr ""
 
 #: ../../access.rst:59
@@ -190,7 +192,7 @@ msgid ""
 msgstr ""
 
 #: ../../access.rst:87
-msgid "Setup Access on Other Devices"
+msgid "Set up Access on Other Devices"
 msgstr ""
 
 #: ../../access.rst:89
@@ -258,7 +260,9 @@ msgid "Choose the desired language."
 msgstr ""
 
 #: ../../access.rst:131
-msgid "Click **Confirm** and Kolibri will be displayed in the selected language!"
+msgid ""
+"Click :guilabel:`CONFIRM` and Kolibri will be displayed in the selected "
+"language!"
 msgstr ""
 
 #: ../../access.rst:134
@@ -269,4 +273,26 @@ msgid ""
 " the browsers of all the devices that will be used to view Kolibri "
 "content."
 msgstr ""
+
+#~ msgid ""
+#~ "If you used the :ref:`PEX package "
+#~ "<pex>`, Kolibri will be accessible as"
+#~ " long as the process is running "
+#~ "in the `Terminal "
+#~ "<https://help.ubuntu.com/community/UsingTheTerminal>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the default browser at "
+#~ "``http://127.0.0.1:8080`` displaying the **Kolibri**"
+#~ " start page."
+#~ msgstr ""
+
+#~ msgid "Setup Access on Other Devices"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Confirm** and Kolibri will be"
+#~ " displayed in the selected language!"
+#~ msgstr ""
 
