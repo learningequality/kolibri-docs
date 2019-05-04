@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 19:52+0100\n"
+"POT-Creation-Date: 2019-05-04 14:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../coach.rst:35
 msgid ""
-"You can click on the progress bar itself to open the complete quiz data "
-"in the **Reports** tab."
+"You can click on the progress bar to open the complete quiz data in the "
+"**Reports** tab."
 msgstr ""
 
 #: ../../coach.rst:36
@@ -85,80 +85,84 @@ msgid ""
 " quizzes (only the 3 most recent are displayed in the block)."
 msgstr ""
 
-#: ../../coach.rst:39 ../../manage/_reports.rst:11
+#: ../../coach.rst:39
+msgid "**Quizzes** were known as **Exams** in Kolibri versions prior to 0.12."
+msgstr ""
+
+#: ../../coach.rst:43 ../../manage/_reports.rst:11
 msgid "Lessons"
 msgstr ""
 
-#: ../../coach.rst:41
+#: ../../coach.rst:45
 msgid ""
 "You can review the progress of learners on the assigned lessons in the "
 "**Lessons** |lessons| block."
 msgstr ""
 
-#: ../../coach.rst:43
+#: ../../coach.rst:47
 msgid ""
 "Progress bar will indicate how many learners have started |started| and "
 "completed |completed-small| the lesson, and if they need help |need-help|"
 " with  some of the resources in it."
 msgstr ""
 
-#: ../../coach.rst:44
+#: ../../coach.rst:48
 msgid ""
-"You can click on the progress bar itself to open the complete lesson data"
-" in the **Reports** tab."
+"You can click on the progress bar to open the complete lesson data in the"
+" **Reports** tab."
 msgstr ""
 
-#: ../../coach.rst:45
+#: ../../coach.rst:49
 msgid ""
 "Click :guilabel:`VIEW ALL` to access the full list of notification about "
 "lessons (only the 3 most recent are displayed in the block)."
 msgstr ""
 
-#: ../../coach.rst:49
+#: ../../coach.rst:53
 msgid "Class Activity"
 msgstr ""
 
-#: ../../coach.rst:51
+#: ../../coach.rst:55
 msgid ""
 "As learners interact with lessons and quizzes, you can track their "
-"progress in the **Class activity** block in real time."
+"progress in the **Class activity** block."
 msgstr ""
 
-#: ../../coach.rst:53
+#: ../../coach.rst:57
 msgid ""
 "When learners start or complete lessons, you will see one notification "
 "displaying the title of the lesson they started |started| or completed "
 "|completed-small|, and another displaying the title of the specific "
-"resource in that lesson they interacted with. In case of quizzes, you "
-"will see only the quiz title notification."
+"resource in the lesson they interacted with. In case of quizzes, you will"
+" see only the quiz title notification."
 msgstr ""
 
-#: ../../coach.rst:54
+#: ../../coach.rst:58
 msgid ""
 "When multiple learners are working on the same lesson or quiz, you will "
 "see a notification like *Learner1 and 3 other have started...*"
 msgstr ""
 
-#: ../../coach.rst:55
+#: ../../coach.rst:59
 msgid ""
-"When learners input an incorrect answer to a question in a quiz or a "
-"lesson, the notification in the **Class activity** block will display "
-"that one or more learners need help |need-help| with a specific resource."
+"When learners input multiple incorrect answers to a question in a lesson,"
+" the notification in the **Class activity** block will display that one "
+"or more learners need help |need-help| with a specific resource."
 msgstr ""
 
-#: ../../coach.rst:56
+#: ../../coach.rst:60
 msgid ""
 "You can click each notification link to review the complete resource data"
 " in the **Reports** tab."
 msgstr ""
 
-#: ../../coach.rst:57
+#: ../../coach.rst:61
 msgid ""
 "Click :guilabel:`VIEW ALL` to access the full list of activity "
 "notifications (only the 5 most recent are displayed in the block)."
 msgstr ""
 
-#: ../../coach.rst:61
+#: ../../coach.rst:65
 msgid "Reports"
 msgstr ""
 
@@ -369,11 +373,11 @@ msgid ""
 "assigned."
 msgstr ""
 
-#: ../../coach.rst:68
+#: ../../coach.rst:72
 msgid "Plan"
 msgstr ""
 
-#: ../../coach.rst:70
+#: ../../coach.rst:74
 msgid ""
 "Use the options in the **Plan** tab to create and manage the lessons, "
 "quizzes, and groups for the selected class."
@@ -519,8 +523,8 @@ msgid "Select **Active** or **Inactive**."
 msgstr ""
 
 #: ../../manage/_lessons.rst:75 ../../manage/_lessons.rst:88
-#: ../../manage/_lessons.rst:104 ../../manage/_quizzes.rst:67
-#: ../../manage/_quizzes.rst:80
+#: ../../manage/_lessons.rst:104 ../../manage/_quizzes.rst:66
+#: ../../manage/_quizzes.rst:79
 msgid ""
 "Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without "
 "change."
@@ -570,7 +574,7 @@ msgstr ""
 msgid "Select the class to which you wish to copy the lesson to."
 msgstr ""
 
-#: ../../manage/_lessons.rst:103 ../../manage/_quizzes.rst:94
+#: ../../manage/_lessons.rst:103 ../../manage/_quizzes.rst:93
 msgid ""
 "If the destination class has more than one group, select **Entire class**"
 " or the group(s) of learners to whom you wish to assign the lesson."
@@ -627,7 +631,7 @@ msgstr ""
 msgid ""
 "You can view, create and delete quizzes, as well as assign them to "
 "learners, using the **Quizzes** sub-tab in the **Plan** tab (|edit| icon)"
-" of your **Coach** dashboard. Default view displays the list of all "
+" of your **Coach** dashboard. The default view displays the list of all "
 "quizzes in a selected class, with indicators of their visibility status "
 "and groups they are assigned to."
 msgstr ""
@@ -643,37 +647,33 @@ msgid "Create New Quiz"
 msgstr ""
 
 #: ../../manage/_quizzes.rst:19
-msgid "To create a new quiz |exams|, follow these steps."
+msgid "To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button."
 msgstr ""
 
 #: ../../manage/_quizzes.rst:21
-msgid "Click the :guilabel:`NEW QUIZ` button."
-msgstr ""
-
-#: ../../manage/_quizzes.rst:22
 msgid "Fill in the field for the quiz title in the *Create new quiz* page."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:23
+#: ../../manage/_quizzes.rst:22
 msgid ""
 "Adjust the number of questions you want the quiz to contain. You can use "
 "the arrow field value modifiers with the mouse, or :guilabel:`-` and "
 ":guilabel:`+` buttons if you are using the keyboard."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:24
+#: ../../manage/_quizzes.rst:23
 msgid ""
 "Navigate through the topic tree and activate checkboxes of those "
 "exercises you want to include in the quiz."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:29
+#: ../../manage/_quizzes.rst:28
 msgid ""
 "As you keep adding and removing the exercises you will see confirmation "
 "messages at the bottom."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:31
+#: ../../manage/_quizzes.rst:30
 msgid ""
 "Use the **Search** feature to look for topics and exercises about a "
 "specific subject. Write the search term in the field, press the "
@@ -681,7 +681,7 @@ msgid ""
 "results."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:36
+#: ../../manage/_quizzes.rst:35
 msgid ""
 "You can filter the search results by *type* of resource (exercise or "
 "topic), include only those from a specific *channel*, or exclude "
@@ -689,31 +689,29 @@ msgid ""
 "SEARCH` button to return to main quiz view."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:38
+#: ../../manage/_quizzes.rst:37
 msgid ""
 "When you finish selecting resources, click :guilabel:`CONTINUE` button to"
 " preview the quiz."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:40
+#: ../../manage/_quizzes.rst:39
 msgid ""
 "Beware that if you click the :guilabel:`GO BACK` button, you will exit "
 "the quiz builder and loose the resource selection."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:42
+#: ../../manage/_quizzes.rst:41
 msgid "You can choose between **Randomized** and **Fixed** question order."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:44
+#: ../../manage/_quizzes.rst:43
 msgid ""
 "To present the questions in a different (*random*) order to each learner,"
-" select :guilabel:`Randomized`. You can not change the order of questions"
-" established by the quiz builder, but you can click the *Choose a "
-"different set of questions* link, to obtain an alternative one."
+" select :guilabel:`Randomized`."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:50
+#: ../../manage/_quizzes.rst:48
 msgid ""
 "To present the same (*fixed*) question order to all learners, select "
 ":guilabel:`Fixed`. You can reorder the questions by using the |drag| "
@@ -721,129 +719,135 @@ msgid ""
 "down| buttons if you navigate by keyboard."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:57
+#: ../../manage/_quizzes.rst:54
+msgid ""
+"Use the option *Choose a different set of questions* to obtain an "
+"alternative selection of questions to display."
+msgstr ""
+
+#: ../../manage/_quizzes.rst:56
 msgid ""
 "When you are satisfied with the question order click the "
 ":guilabel:`FINISH` button, and you will see a confirmation notification "
 "at the bottom."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:61
+#: ../../manage/_quizzes.rst:60
 msgid "Change Quiz Visibility"
 msgstr ""
 
-#: ../../manage/_quizzes.rst:63
+#: ../../manage/_quizzes.rst:62
 msgid ""
-"Newly created quiz will be visible to entire class by default. To change "
-"quiz *Visibility* (select group of learners instead of the whole class), "
-"follow these steps."
+"Newly created quiz is by default visible to entire class. To change quiz "
+"*Visibility*, that is select group(s) of learners instead of the whole "
+"class, follow these steps."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:65 ../../manage/_quizzes.rst:78
+#: ../../manage/_quizzes.rst:64 ../../manage/_quizzes.rst:77
 msgid ""
 "Click :guilabel:`OPTIONS` button for the desired quiz and select the "
 "**Edit details** option."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:66
+#: ../../manage/_quizzes.rst:65
 msgid ""
 "Select the group(s) of learners to whom you wish to assign the quiz under"
 " the *Visible to* heading."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:74
+#: ../../manage/_quizzes.rst:73
 msgid "Change Quiz Status"
 msgstr ""
 
-#: ../../manage/_quizzes.rst:76
+#: ../../manage/_quizzes.rst:75
 msgid ""
-"Once you set the visibility of quiz to the chosen group(s) of learners, "
-"you need to **Activate** it so it can appear in the **Learn** view of the"
-" learners it is assigned to."
+"Newly created quiz is by default not active. Once you set the visibility "
+"of quiz to the chosen group(s) of learners, you need to **Activate** it "
+"so it can appear in the **Learn** view of the learners it is assigned to."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:79
+#: ../../manage/_quizzes.rst:78
 msgid ""
 "Select **Active** at the start of the quiz period. When the quiz period "
 "concludes, select the **Inactive** option."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:84
+#: ../../manage/_quizzes.rst:83
 msgid "Copy Quiz"
 msgstr ""
 
-#: ../../manage/_quizzes.rst:86
+#: ../../manage/_quizzes.rst:85
 msgid "To copy a quiz to a different group or another class, follow these steps."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:88
+#: ../../manage/_quizzes.rst:87
 msgid "Click :guilabel:`OPTIONS` for the desired quiz and select **Copy quiz**."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:93
+#: ../../manage/_quizzes.rst:92
 msgid ""
 "Select the class to which you wish to copy the quiz to and click "
 ":guilabel:`CONTINUE`."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:95
+#: ../../manage/_quizzes.rst:94
 msgid ""
 "Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without "
 "change."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:97
+#: ../../manage/_quizzes.rst:96
 msgid ""
 "If the quiz is copied to another group in the same class, it will appear "
 "in the **Quizzes** tab as the *Copy of...*. Follow the steps in the next "
-"heading to rename it."
+"section to rename it."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:100
+#: ../../manage/_quizzes.rst:99
 msgid "Rename quiz"
 msgstr ""
 
-#: ../../manage/_quizzes.rst:102
+#: ../../manage/_quizzes.rst:101
 msgid "To rename quiz, follow these steps."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:104
+#: ../../manage/_quizzes.rst:103
 msgid ""
 "Click :guilabel:`OPTIONS` for the desired quiz and select **Edit "
 "details** option."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:105
+#: ../../manage/_quizzes.rst:104
 msgid "Change the quiz title in the confirmation window."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:106
+#: ../../manage/_quizzes.rst:105
 msgid ""
 "Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without "
 "renaming the quiz."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:109
+#: ../../manage/_quizzes.rst:108
 msgid "Delete Quiz"
 msgstr ""
 
-#: ../../manage/_quizzes.rst:111
+#: ../../manage/_quizzes.rst:110
 msgid "To delete quiz, follow these steps."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:113
+#: ../../manage/_quizzes.rst:112
 msgid ""
 "Click :guilabel:`OPTIONS` for the desired quiz and select **Delete** "
 "option."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:114
+#: ../../manage/_quizzes.rst:113
 msgid ""
 "Click :guilabel:`DELETE` in the confirmation window to proceed, or "
 ":guilabel:`CANCEL` to exit without deleting the quiz."
 msgstr ""
 
-#: ../../manage/_quizzes.rst:117
+#: ../../manage/_quizzes.rst:116
 msgid "All data from the quiz you are deleting will be lost."
 msgstr ""
 
@@ -890,7 +894,7 @@ msgid ""
 msgstr ""
 
 #: ../../manage/_groups.rst:27
-msgid "Enroll Learners in Group"
+msgid "Enroll Learners in a Group"
 msgstr ""
 
 #: ../../manage/_groups.rst:29
@@ -903,7 +907,7 @@ msgstr ""
 
 #: ../../manage/_groups.rst:32
 msgid ""
-"List in this view contains all the learners currently **NOT** enrolled in"
+"List in this view contains all the learners currently **not** enrolled in"
 " the selected group."
 msgstr ""
 
@@ -981,11 +985,11 @@ msgid ""
 " :guilabel:`CANCEL` to exit without deleting the group."
 msgstr ""
 
-#: ../../coach.rst:84
+#: ../../coach.rst:88
 msgid "Coach Support Resources"
 msgstr ""
 
-#: ../../coach.rst:86
+#: ../../coach.rst:90
 msgid ""
 "`Kolibri Studio <https://studio.learningequality.org/>`_ supports the "
 "option to set visibility for any resource added to content channels as a "
@@ -996,17 +1000,17 @@ msgid ""
 "training materials, etc. only viewable by coaches and not learners."
 msgstr ""
 
-#: ../../coach.rst:91
+#: ../../coach.rst:95
 msgid "Setting the visibility of content in Kolibri Studio."
 msgstr ""
 
-#: ../../coach.rst:93
+#: ../../coach.rst:97
 msgid ""
 "Coach resources and content channels that contain them are marked with "
 "the |coach-resource| icon in Kolibri."
 msgstr ""
 
-#: ../../coach.rst:98
+#: ../../coach.rst:102
 msgid "Content channel with 4 support resources for coaches in Kolibri."
 msgstr ""
 
@@ -1676,5 +1680,111 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Setting the visibiility of content in Kolibri Studio."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can click on the progress bar"
+#~ " itself to open the complete quiz "
+#~ "data in the **Reports** tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can click on the progress bar"
+#~ " itself to open the complete lesson"
+#~ " data in the **Reports** tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As learners interact with lessons and"
+#~ " quizzes, you can track their "
+#~ "progress in the **Class activity** block"
+#~ " in real time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When learners start or complete lessons,"
+#~ " you will see one notification "
+#~ "displaying the title of the lesson "
+#~ "they started |started| or completed "
+#~ "|completed-small|, and another displaying "
+#~ "the title of the specific resource "
+#~ "in that lesson they interacted with. "
+#~ "In case of quizzes, you will see"
+#~ " only the quiz title notification."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When learners input an incorrect answer"
+#~ " to a question in a quiz or "
+#~ "a lesson, the notification in the "
+#~ "**Class activity** block will display "
+#~ "that one or more learners need "
+#~ "help |need-help| with a specific "
+#~ "resource."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can view, create and delete "
+#~ "quizzes, as well as assign them to"
+#~ " learners, using the **Quizzes** sub-"
+#~ "tab in the **Plan** tab (|edit| "
+#~ "icon) of your **Coach** dashboard. "
+#~ "Default view displays the list of "
+#~ "all quizzes in a selected class, "
+#~ "with indicators of their visibility "
+#~ "status and groups they are assigned "
+#~ "to."
+#~ msgstr ""
+
+#~ msgid "To create a new quiz |exams|, follow these steps."
+#~ msgstr ""
+
+#~ msgid "Click the :guilabel:`NEW QUIZ` button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To present the questions in a "
+#~ "different (*random*) order to each "
+#~ "learner, select :guilabel:`Randomized`. You "
+#~ "can not change the order of "
+#~ "questions established by the quiz "
+#~ "builder, but you can click the "
+#~ "*Choose a different set of questions*"
+#~ " link, to obtain an alternative one."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Newly created quiz will be visible "
+#~ "to entire class by default. To "
+#~ "change quiz *Visibility* (select group "
+#~ "of learners instead of the whole "
+#~ "class), follow these steps."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you set the visibility of "
+#~ "quiz to the chosen group(s) of "
+#~ "learners, you need to **Activate** it"
+#~ " so it can appear in the "
+#~ "**Learn** view of the learners it "
+#~ "is assigned to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the quiz is copied to another"
+#~ " group in the same class, it "
+#~ "will appear in the **Quizzes** tab "
+#~ "as the *Copy of...*. Follow the "
+#~ "steps in the next heading to "
+#~ "rename it."
+#~ msgstr ""
+
+#~ msgid "Enroll Learners in Group"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "List in this view contains all the"
+#~ " learners currently **NOT** enrolled in "
+#~ "the selected group."
 #~ msgstr ""
 
