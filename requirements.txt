@@ -1,5 +1,5 @@
 # These are for building the docs
-sphinx
+sphinx<2
 sphinx_rtd_theme
 sphinx-intl
 sphinx-autobuild

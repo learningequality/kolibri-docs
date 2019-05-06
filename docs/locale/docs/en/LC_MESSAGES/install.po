@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 19:52+0100\n"
+"POT-Creation-Date: 2019-05-04 14:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,7 +172,7 @@ msgstr ""
 msgid "Allow the Python process needed to run Kolibri."
 msgstr ""
 
-#: ../../install/_linux.rst:54 ../../install/_osx.rst:42
+#: ../../install/_linux.rst:62 ../../install/_osx.rst:42
 #: ../../install/_rpi.rst:63 ../../install/_windows.rst:34
 msgid "Uninstall"
 msgstr ""
@@ -193,7 +193,7 @@ msgstr ""
 msgid "Click the button :guilabel:`Uninstall/Change` and follow the instructions."
 msgstr ""
 
-#: ../../install/_linux.rst:61 ../../install/_osx.rst:48
+#: ../../install/_linux.rst:69 ../../install/_osx.rst:48
 #: ../../install/_rpi.rst:69 ../../install/_windows.rst:43
 msgid "Upgrade"
 msgstr ""
@@ -227,61 +227,62 @@ msgid "Debian/Ubuntu"
 msgstr ""
 
 #: ../../install/_linux.rst:9
-msgid "Debian/Ubuntu 14.04 and up - anything that's *not* end-of-life"
-msgstr ""
-
-#: ../../install/_linux.rst:11
 msgid ""
-"Django 1.11 used in Kolibri isn't compatible with Python 3.7. You will "
-"need to downgrade to Python 3.4-3.6, set them to run in parallel, or use "
-"Python 2.7. For a workaround and more details `read this thread "
-"<https://github.com/learningequality/kolibri/issues/4182#issuecomment-419408270>`_."
+"Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything "
+"that's *not* end-of-life. Ubuntu-based distributions count a number of "
+"flavours, for instance Xubuntu and Mint."
 msgstr ""
 
-#: ../../install/_linux.rst:16
+#: ../../install/_linux.rst:14
 msgid "Install from PPA repository"
 msgstr ""
 
-#: ../../install/_linux.rst:18
+#: ../../install/_linux.rst:16
 msgid ""
-"Use the following commands in `Terminal "
-"<https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and"
-" install Kolibri:"
+"**In Ubuntu-based distributions**, use the following commands in "
+"`Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add "
+"the PPA and install Kolibri:"
 msgstr ""
 
-#: ../../install/_linux.rst:31
+#: ../../install/_linux.rst:25
+msgid ""
+"**In Debian-based distributions** you need to use these commands to point"
+" to our Launchpad PPA:"
+msgstr ""
+
+#: ../../install/_linux.rst:39
 msgid "Install from a .deb file"
 msgstr ""
 
-#: ../../install/_linux.rst:33
+#: ../../install/_linux.rst:41
 msgid ""
 "The advantages of downloading a ``.deb`` file is the portability: you can"
 " copy the file from device to device and install Kolibri without internet"
 " access."
 msgstr ""
 
-#: ../../install/_linux.rst:35
+#: ../../install/_linux.rst:43
 msgid ""
 "Download the latest `.deb installer "
 "<https://learningequality.org/download/>`_ for Kolibri **version 0.12**, "
 "or have it copied to your local drive."
 msgstr ""
 
-#: ../../install/_linux.rst:36
+#: ../../install/_linux.rst:44
 msgid "Run this command from the location where you downloaded the ``DEB`` file:"
 msgstr ""
 
-#: ../../install/_linux.rst:42
+#: ../../install/_linux.rst:50
 msgid "Wait for the installation to finish and run this command to start Kolibri:"
 msgstr ""
 
-#: ../../install/_linux.rst:48
+#: ../../install/_linux.rst:56
 msgid ""
 "If you choose to install Kolibri as a system service, you will not need "
 "to start it manually."
 msgstr ""
 
-#: ../../install/_linux.rst:50 ../../install/_osx.rst:36
+#: ../../install/_linux.rst:58 ../../install/_osx.rst:36
 #: ../../install/_rpi.rst:37
 msgid ""
 "When the command finishes, open the default browser at "
@@ -289,37 +290,37 @@ msgid ""
 "facility."
 msgstr ""
 
-#: ../../install/_linux.rst:56
+#: ../../install/_linux.rst:64
 msgid "Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**."
 msgstr ""
 
-#: ../../install/_linux.rst:57
+#: ../../install/_linux.rst:65
 msgid "Or from the command line: ``sudo apt-get remove kolibri``."
 msgstr ""
 
-#: ../../install/_linux.rst:63 ../../install/_rpi.rst:71
+#: ../../install/_linux.rst:71 ../../install/_rpi.rst:71
 msgid ""
 "When you use the PPA installation method, upgrades to newer versions will"
 " be automatic, provided there is internet access available."
 msgstr ""
 
-#: ../../install/_linux.rst:65
+#: ../../install/_linux.rst:73
 msgid ""
 "To upgrade Kolibri on a Debian device without internet access, bring the "
 "updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`."
 msgstr ""
 
-#: ../../install/_linux.rst:71
+#: ../../install/_linux.rst:79
 msgid "Changing the owner of Kolibri system service"
 msgstr ""
 
-#: ../../install/_linux.rst:73
+#: ../../install/_linux.rst:81
 msgid ""
 "The *system service* is the script that runs Kolibri in the background "
 "when your system boots on Debian-based distributions."
 msgstr ""
 
-#: ../../install/_linux.rst:75
+#: ../../install/_linux.rst:83
 msgid ""
 "You may need to change the system service to run with the permissions of "
 "a different user account. Prior to v0.10, ``kolibri`` user account was "
@@ -328,7 +329,7 @@ msgid ""
 " storage."
 msgstr ""
 
-#: ../../install/_linux.rst:77
+#: ../../install/_linux.rst:85
 msgid ""
 "To change the system service owner, you need to change the configuration "
 "of the system service: move the ``.kolibri`` data folder (containing "
@@ -336,7 +337,7 @@ msgid ""
 "Follow these steps."
 msgstr ""
 
-#: ../../install/_linux.rst:92
+#: ../../install/_linux.rst:100
 msgid ""
 "Replace the ``$USER`` in commands above with the name of the user you "
 "wish to be the new Kolibri system service owner."
@@ -408,7 +409,7 @@ msgid ""
 " elsewhere."
 msgstr ""
 
-#: ../../install/_rpi.rst:46 ../../install/tutorials/rpi.rst:292
+#: ../../install/_rpi.rst:46 ../../install/tutorials/rpi.rst:293
 msgid "Using the built-in management command:"
 msgstr ""
 
@@ -684,11 +685,7 @@ msgid "Prerequisites"
 msgstr ""
 
 #: ../../install/tutorials/rpi.rst:18
-msgid ""
-"Raspberry Pi 3: An internal MicroSD card is used for the base system, and"
-" an external storage media for contents (for instance a 64 GB USB flash)."
-" We recommend that you have an ethernet cable for online connectivity "
-"while installing and fetching contents for Kolibri."
+msgid "Raspberry Pi 3"
 msgstr ""
 
 #: ../../install/tutorials/rpi.rst:21
@@ -725,7 +722,15 @@ msgstr ""
 msgid "Internet connectivity (for setting up the device)"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:31
+#: ../../install/tutorials/rpi.rst:30
+msgid ""
+"An internal MicroSD card is used for the base system, and an external "
+"storage media for contents (for instance a 64 GB USB flash). We recommend"
+" that you have an ethernet cable for online connectivity while installing"
+" and fetching contents for Kolibri."
+msgstr ""
+
+#: ../../install/tutorials/rpi.rst:32
 msgid ""
 "The standard Raspbian OS has a graphical desktop. You can also install "
 "Raspbian Lite which uses fewer resources, but only has a command line "
@@ -733,11 +738,11 @@ msgid ""
 "both."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:35
+#: ../../install/tutorials/rpi.rst:36
 msgid "Getting started guides"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:37
+#: ../../install/tutorials/rpi.rst:38
 msgid ""
 "This guide provides a step-by-step setup of Kolibri but does not try to "
 "explain basic concepts for your Raspberry Pi. If you are new to the "
@@ -746,7 +751,7 @@ msgid ""
 "started>`__ guide for basic knowledge about setting up your device."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:39
+#: ../../install/tutorials/rpi.rst:40
 msgid ""
 "In doubt about which Raspbian to choose? We recommend using Raspbian Lite"
 " if you are comfortable with an environment that only has a terminal and "
@@ -756,17 +761,17 @@ msgid ""
 "you have finished setting up the device."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:41
+#: ../../install/tutorials/rpi.rst:42
 msgid ""
 "We install Kolibri as one of the very final step. But please read and "
 "complete the prior steps."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:44
+#: ../../install/tutorials/rpi.rst:45
 msgid "Setting up the SD card"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:46
+#: ../../install/tutorials/rpi.rst:47
 msgid ""
 "The following commands work on Linux/macOS for setting up the .img files "
 "provided. You will also need to know the *device node* for the SD Card "
@@ -774,36 +779,36 @@ msgid ""
 "your card reader."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:53
+#: ../../install/tutorials/rpi.rst:54
 msgid ""
 "Read the official guides for setting up your card: `Copying .img files "
 "<https://www.raspberrypi.org/documentation/installation/installing-"
 "images/README.md>`__"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:55
+#: ../../install/tutorials/rpi.rst:56
 msgid ""
 "Select your MicroSD card based on other people's experiences and "
 "technical benchmarks. For more information, read `this Community Forums "
-"thread <http://community.learningequality.org/t/microsd-cards-picking-"
+"thread <https://community.learningequality.org/t/microsd-cards-picking-"
 "the-right-one-experiences-and-benchmarks/935>`__."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:58
+#: ../../install/tutorials/rpi.rst:59
 msgid "Updating the software"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:60
+#: ../../install/tutorials/rpi.rst:61
 msgid ""
 "After installing and starting up your Raspberry Pi, it is recommended "
 "that you upgrade all the software on the device:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:69
+#: ../../install/tutorials/rpi.rst:70
 msgid "Updating the firmware"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:71
+#: ../../install/tutorials/rpi.rst:72
 msgid ""
 "Run ``sudo rpi-update`` to update the firmware. Nothing in this tutorial "
 "necessitates this, but it's always recommended because hardware issues "
@@ -812,27 +817,27 @@ msgid ""
 "every new Raspberry Pi device that you are installing."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:74
+#: ../../install/tutorials/rpi.rst:75
 msgid "General system configuration"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:76
+#: ../../install/tutorials/rpi.rst:77
 msgid ""
 "Run ``sudo raspi-config`` for the general setup options such as keyboard "
 "layout, timezone etc."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:78
+#: ../../install/tutorials/rpi.rst:79
 msgid ""
 "Always change your password after setting up device. The default password"
 " for the user ``pi`` is ``raspberry``."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:81
+#: ../../install/tutorials/rpi.rst:82
 msgid "Setting up a hotspot"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:83
+#: ../../install/tutorials/rpi.rst:84
 msgid ""
 "The Raspberry Pi 3 has an internal Wi-Fi adapter which can serve as an "
 "access point, thus giving other devices the ability to connect to the "
@@ -840,7 +845,7 @@ msgid ""
 "*hotspot*."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:85
+#: ../../install/tutorials/rpi.rst:86
 msgid ""
 "We assume that you will need to connect the Raspberry Pi to the internet "
 "both before and after setting up the hotspot. The easiest way to achieve "
@@ -849,41 +854,41 @@ msgid ""
 "time."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:87
+#: ../../install/tutorials/rpi.rst:88
 msgid ""
 "The device can be setup such that it automatically uses the ethernet "
 "interface as a *gateway* to the internet when a cable is connected."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:88
+#: ../../install/tutorials/rpi.rst:89
 msgid ""
 "If you need to connect to the internet through Wi-Fi, you will have to "
 "disable the hotspot and connect through the normal network management."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:93
+#: ../../install/tutorials/rpi.rst:94
 msgid "Installing hostapd and dnsmasq"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:95
+#: ../../install/tutorials/rpi.rst:96
 msgid ""
 "In order to serve clients on a local Wi-Fi hotspot, you need the "
 "Raspberry Pi to act as:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:97
+#: ../../install/tutorials/rpi.rst:98
 msgid "an access point"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:98
+#: ../../install/tutorials/rpi.rst:99
 msgid "a DHCP server"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:99
+#: ../../install/tutorials/rpi.rst:100
 msgid "a DNS server"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:101
+#: ../../install/tutorials/rpi.rst:102
 msgid ""
 "The access point is handled by the package ``hostapd`` and the DHCP and "
 "DNS server are both available through the ``dnsmasq`` package. We will "
@@ -893,41 +898,41 @@ msgid ""
 "point.md>`__."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:108
+#: ../../install/tutorials/rpi.rst:109
 msgid "Setting a static IP"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:110
+#: ../../install/tutorials/rpi.rst:111
 msgid ""
 "Firstly, the server's Wi-Fi interface ``wlan0`` needs to have a "
 "predictable IP address and not try to obtain it from another server. We "
 "call this a *static IP*."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:112
+#: ../../install/tutorials/rpi.rst:113
 msgid ""
 "It is defined in the configuration file ``/etc/dhcpcd.conf``, which you "
 "can edit through the below command."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:118
+#: ../../install/tutorials/rpi.rst:119
 msgid ""
 "Use the arrow keys to navigate to the end of the file, then copy and "
 "paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to "
 "save and exit."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:126
+#: ../../install/tutorials/rpi.rst:127
 msgid "Then, make your current local DNS available"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:128
+#: ../../install/tutorials/rpi.rst:129
 msgid ""
 "After installing the new ``hostapd`` and ``dnsmasq`` packages and setting"
 " a static IP, you should reboot the system."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:134
+#: ../../install/tutorials/rpi.rst:135
 msgid ""
 "After rebooting, you can ensure that your system is running with the "
 "static IP address by running the command ``ipconfig`` and reviewing that "
@@ -935,23 +940,23 @@ msgid ""
 "(notice the IP address):"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:143
+#: ../../install/tutorials/rpi.rst:144
 msgid "Configure DHCP and DNS"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:145
+#: ../../install/tutorials/rpi.rst:146
 msgid ""
 "We create a new configuration file for ``dnsmasq`` in the appropriate "
 "location and start editing it:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:151
+#: ../../install/tutorials/rpi.rst:152
 msgid ""
 "Copy and paste the following text, then press :guilabel:`CTRL` + "
 ":guilabel:`X` to save and exit."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:164
+#: ../../install/tutorials/rpi.rst:165
 msgid ""
 "These settings override the possibility to connect to an online source "
 "using the Wi-Fi. It is still possible to connect to the internet "
@@ -961,17 +966,17 @@ msgid ""
 "Google's OpenDNS address ``8.8.8.8`` as in this example:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:172
+#: ../../install/tutorials/rpi.rst:173
 msgid "Configure the access point"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:174
+#: ../../install/tutorials/rpi.rst:175
 msgid ""
 "You will need to write a configuration file with information about your "
 "local Wi-Fi network."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:180
+#: ../../install/tutorials/rpi.rst:181
 msgid ""
 "In the file, copy in the following configuration to specify the name of "
 "the network, its Wi-Fi channel (frequency) and bandwidth mode (we "
@@ -979,29 +984,29 @@ msgid ""
 ":guilabel:`CTRL` + :guilabel:`X` to save and exit."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:201
+#: ../../install/tutorials/rpi.rst:202
 msgid ""
 "Next, edit ``/etc/default/hostapd`` to enable the configuration file that"
 " we have just written:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:207
+#: ../../install/tutorials/rpi.rst:208
 msgid ""
 "At the bottom of the file, add the following text and press "
 ":guilabel:`CTRL` + :guilabel:`X` to exit and save."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:213
+#: ../../install/tutorials/rpi.rst:214
 msgid ""
 "Finally, start the access point system service ``hostapd`` and the DHCP "
 "and DNS server ``dnsmasq``:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:222
+#: ../../install/tutorials/rpi.rst:223
 msgid "Setting up a \"Captive portal\""
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:224
+#: ../../install/tutorials/rpi.rst:225
 msgid ""
 "You don't have to set up a \"Captive Portal\", but it's a good idea, "
 "since the behavior will make the user experience better. Users won't have"
@@ -1010,13 +1015,13 @@ msgid ""
 "upon connecting to the Wi-Fi."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:229
+#: ../../install/tutorials/rpi.rst:230
 msgid ""
 "This type of dialogue will appear on many devices when they detect a "
 "successful Wi-Fi connection without an internet connection."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:231
+#: ../../install/tutorials/rpi.rst:232
 msgid ""
 "In the previous step, we have configured the Raspberry Pi to tell devices"
 " on the local offline hotspot that whatever resource they request such as"
@@ -1024,38 +1029,38 @@ msgid ""
 " address ``192.168.4.1``."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:233
+#: ../../install/tutorials/rpi.rst:234
 msgid "Firstly, install the HTTP server nginx:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:239
+#: ../../install/tutorials/rpi.rst:240
 msgid ""
 "Then, you need to edit and adapt your default Captive Portal page. You "
 "can use :download:`this template </data/captive_portal_index.html>`."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:241
+#: ../../install/tutorials/rpi.rst:242
 msgid "Copy the contents of the template by editing ``/var/www/html/index.html``:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:247
+#: ../../install/tutorials/rpi.rst:248
 msgid ""
 "You can use :guilabel:`CTRL` + :guilabel:`SHIFT` + :guilabel:`V` to paste"
 " text in the terminal. Press :guilabel:`CTRL` + :guilabel:`X` to exit and"
 " save."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:251
+#: ../../install/tutorials/rpi.rst:252
 msgid "Installing Kolibri"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:253
+#: ../../install/tutorials/rpi.rst:254
 msgid ""
 "**Firstly**, follow the main instructions for installing :ref:`Kolibri on"
 " Raspberry Pi <rpi>`."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:255
+#: ../../install/tutorials/rpi.rst:256
 msgid ""
 "After completing the installation, you can make kolibri available on port"
 " ``:80`` in addition to ``:8080``. This will make it possible to type "
@@ -1063,28 +1068,28 @@ msgid ""
 "captive portal, it will display."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:257
+#: ../../install/tutorials/rpi.rst:258
 msgid ""
 "To enable you Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-"
 "available/kolibri`` and add a so-called *virtual host*:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:263
+#: ../../install/tutorials/rpi.rst:264
 msgid "Copy and paste the following into the configuration file:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:278
+#: ../../install/tutorials/rpi.rst:279
 msgid ""
 "Press :guilabel:`CTRL` + :guilabel:`X` to exit and save. Then enable the "
 "new configuration by linking it into the directory of enabled virtual "
 "hosts:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:286
+#: ../../install/tutorials/rpi.rst:287
 msgid "Attaching USB storage"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:288
+#: ../../install/tutorials/rpi.rst:289
 msgid ""
 "Many people have a 4 GB or 16 GB MicroSD card that came along with the "
 "Raspberry Pi. In order to have more content, such as the full Khan "
@@ -1092,28 +1097,28 @@ msgid ""
 "a hard drive."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:290
+#: ../../install/tutorials/rpi.rst:291
 msgid ""
 "Moving content: If you have a USB source for additional storage, you can "
 "use the ``kolibri manage movedirectory`` command or create your own "
 "symbolic links to have the data folder located elsewhere."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:304
+#: ../../install/tutorials/rpi.rst:305
 msgid ""
 "**Or** using symbolic links, you need to start and stop Kolibri and to "
 "set the permissions correctly:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:321
+#: ../../install/tutorials/rpi.rst:322
 msgid "Other tips"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:324
+#: ../../install/tutorials/rpi.rst:325
 msgid "Locale warnings"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:326
+#: ../../install/tutorials/rpi.rst:327
 msgid ""
 "You may encounter warnings like ``Can't set locale; make sure $LC_* and "
 "$LANG are correct!`` while installing software about the system locale. "
@@ -1121,11 +1126,11 @@ msgid ""
 " These can be fixed by running this from command line:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:336
+#: ../../install/tutorials/rpi.rst:337
 msgid "Disabling the graphical desktop"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:338
+#: ../../install/tutorials/rpi.rst:339
 msgid ""
 "Once the Pi device is deployed, the desktop environment may no longer "
 "serve a purpose. It can safely be disabled. This saves computer resources"
@@ -1133,17 +1138,17 @@ msgid ""
 "desktop:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:349
+#: ../../install/tutorials/rpi.rst:350
 msgid "Saving your image for replication"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:351
+#: ../../install/tutorials/rpi.rst:352
 msgid ""
 "Once you like the setup and you may want to deploy several Raspberry Pis "
 "to different schools, classrooms etc."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:353
+#: ../../install/tutorials/rpi.rst:354
 msgid ""
 "Using the same Wi-Fi SSID (in this tutorial, we called it ``Offline "
 "Library``) is recommended if you are setting up several Raspberry Pis in "
@@ -1151,13 +1156,13 @@ msgid ""
 " Separate them by a count of 2, this will avoid radio frequency overlaps."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:355
+#: ../../install/tutorials/rpi.rst:356
 msgid ""
 "Replicating the Kolibri device registration will make online "
 "synchronization unpredictable (fail)."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:357
+#: ../../install/tutorials/rpi.rst:358
 msgid ""
 "Kolibri has a sync'ing mechanism whereby user data can synchronize from "
 "device to device through an online service. This happens automatically "
@@ -1166,18 +1171,18 @@ msgid ""
 "storage:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:363
+#: ../../install/tutorials/rpi.rst:364
 msgid ""
 "After replicating your SD card and external storage device, you need re-"
 "register the Kolibri installation on each device. This can be done "
 "without removing the installed data:"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:372
+#: ../../install/tutorials/rpi.rst:373
 msgid "Future steps"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:374
+#: ../../install/tutorials/rpi.rst:375
 msgid ""
 "Kolibri is under development with regards to optimizing performance on "
 "Raspberry Pi. We are adding support for multiple CPU cores, and since the"
@@ -1185,7 +1190,7 @@ msgid ""
 "almost a factor 4."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:376
+#: ../../install/tutorials/rpi.rst:377
 msgid ""
 "This work will be released in a future package targeting a pre-configured"
 " UWSGI and Nginx implementation, which will be possible to add by "
@@ -1193,16 +1198,16 @@ msgid ""
 "a release note and update this tutorial accordingly."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:378
+#: ../../install/tutorials/rpi.rst:379
 msgid ""
 "You may also want to install other services such as `Kiwix "
-"<https://kiwix.org>`__. If you have followed this tutorial, you can "
+"<https://www.kiwix.org>`_. If you have followed this tutorial, you can "
 "install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` "
 "package and adding an Nginx configuration similar to the one we added for"
 " Kolibri."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:380
+#: ../../install/tutorials/rpi.rst:381
 msgid ""
 "The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for "
 "many clients. Thus, you may also want to connect a stronger Access Point."
@@ -1211,7 +1216,7 @@ msgid ""
 "Wi-Fi by removing ``hostapd``."
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:382
+#: ../../install/tutorials/rpi.rst:383
 msgid ""
 "There are several bottle necks in this setup, but we recommend that you "
 "focus on the strong sides of the Raspberry Pi platform: It's low-cost and"
@@ -1220,11 +1225,11 @@ msgid ""
 " and replacement parts?"
 msgstr ""
 
-#: ../../install/tutorials/rpi.rst:384
+#: ../../install/tutorials/rpi.rst:385
 msgid ""
 "Using a Raspberry Pi is subject to many tips and tricks not described "
 "here - please share your performance experiences in the `Community Forums"
-" <http://community.learningequality.org/t/microsd-cards-picking-the-"
+" <https://community.learningequality.org/t/microsd-cards-picking-the-"
 "right-one-experiences-and-benchmarks/935>`__."
 msgstr ""
 
@@ -1420,5 +1425,66 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Make sure to save these superuser credentials in a safe place!"
+#~ msgstr ""
+
+#~ msgid "Debian/Ubuntu 14.04 and up - anything that's *not* end-of-life"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Django 1.11 used in Kolibri isn't "
+#~ "compatible with Python 3.7. You will "
+#~ "need to downgrade to Python 3.4-3.6, "
+#~ "set them to run in parallel, or"
+#~ " use Python 2.7. For a workaround "
+#~ "and more details `read this thread "
+#~ "<https://github.com/learningequality/kolibri/issues/4182#issuecomment-419408270>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the following commands in `Terminal"
+#~ " <https://help.ubuntu.com/community/UsingTheTerminal>`_ to"
+#~ " add the PPA and install Kolibri:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Raspberry Pi 3: An internal MicroSD "
+#~ "card is used for the base system,"
+#~ " and an external storage media for"
+#~ " contents (for instance a 64 GB "
+#~ "USB flash). We recommend that you "
+#~ "have an ethernet cable for online "
+#~ "connectivity while installing and fetching "
+#~ "contents for Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select your MicroSD card based on "
+#~ "other people's experiences and technical "
+#~ "benchmarks. For more information, read "
+#~ "`this Community Forums thread "
+#~ "<http://community.learningequality.org/t/microsd-cards-"
+#~ "picking-the-right-one-experiences-and-"
+#~ "benchmarks/935>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You may also want to install other"
+#~ " services such as `Kiwix "
+#~ "<https://kiwix.org>`__. If you have followed"
+#~ " this tutorial, you can install Kiwix"
+#~ " alongside Kolibri by downloading the "
+#~ "``kiwix-serve`` package and adding an"
+#~ " Nginx configuration similar to the "
+#~ "one we added for Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using a Raspberry Pi is subject to"
+#~ " many tips and tricks not described"
+#~ " here - please share your performance"
+#~ " experiences in the `Community Forums "
+#~ "<http://community.learningequality.org/t/microsd-cards-"
+#~ "picking-the-right-one-experiences-and-"
+#~ "benchmarks/935>`__."
 #~ msgstr ""
 
