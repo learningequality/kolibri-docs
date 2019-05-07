@@ -9,6 +9,7 @@ install:
 
 # command to run tests
 script:
+  - make lint
   - make docs
   - make clean
   - make docs-translated lang=es
