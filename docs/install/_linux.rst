@@ -32,6 +32,14 @@ Install from PPA repository
     sudo apt-get update
     sudo apt-get install kolibri
 
+Uninstall
+*********
+From the command line: ``sudo apt-get remove kolibri``.
+
+Upgrade
+*******
+
+When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
 kolibri-server (pre-release)
 ****************************
@@ -87,14 +95,14 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
 
 
 Uninstall
----------
+*********
 
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 * Or from the command line: ``sudo apt-get remove kolibri``.
 
 
 Upgrade
--------
+*******
 
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
@@ -126,6 +134,7 @@ To change the system service owner, you need to change the configuration of the 
 	sudo systemctl start kolibri
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
+
 
 Raspberry Pi
 ------------
