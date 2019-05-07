@@ -58,7 +58,8 @@ To install **kolibri-server** follow these steps.
 
 #. Restart the system.
 
-.. warning:: Keep in mind that the system performance will depend not only on server device features, but on local WiFi access point characteristics.
+.. warning:: * Be advised that this procedure also switches the setup to use the latest built Kolibri pre-release.
+	* Keep in mind that the **kolibri-server** system performance will depend not only on server device features, but on local WiFi access point characteristics.
 
 .. _lin_deb:
 
@@ -125,3 +126,10 @@ To change the system service owner, you need to change the configuration of the 
 	sudo systemctl start kolibri
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
+
+Raspberry Pi
+------------
+
+To install Kolibri on RPi refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`.
+
+.. warning:: Kolibri is intended for **Raspberry Pi Model 3** and upwards.

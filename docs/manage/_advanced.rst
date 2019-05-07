@@ -251,11 +251,11 @@ This command will create a time-stamped ``.dump`` file in the ``./kolibri/backup
 
   kolibri manage dbrestore --latest
 
-If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file.
+To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to see all that available sorted by date, and select the one you need.
 
 .. code-block:: bash
 
-  kolibri manage dbrestore ~/.kolibri/backups/db-xxxx.dump
+  kolibri manage dbrestore --select
 
 .. warning::
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.
