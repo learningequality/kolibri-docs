@@ -6,19 +6,18 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian/Ubuntu 16.04 and up - anything that's *not* end-of-life
-
+Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavours, for instance Xubuntu and Mint.
 
 .. _ppa:
 
 Install from PPA repository
 ---------------------------
 
-Use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:
+**In Ubuntu-based distributions**, use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:
 
 .. code-block:: bash
 
-    sudo apt-get install software-properties-common python-software-properties
+    sudo apt-get install software-properties-common dirmngr
     sudo add-apt-repository ppa:learningequality/kolibri
     sudo apt-get update
     sudo apt-get install kolibri
