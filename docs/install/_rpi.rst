@@ -3,7 +3,7 @@
 Raspberry Pi
 ============
 
-There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspbian <https://http://raspbian.org//>`__, the most popular choice of OS, based on Debian. To obtain and install Raspbian, refer to the official documentation.
+There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspbian <https://raspbian.org/>`__, the most popular choice of OS, based on Debian. To obtain and install Raspbian, refer to the official documentation.
 
 Kolibri is intended for **Raspberry Pi Model 3** and upwards.
 
