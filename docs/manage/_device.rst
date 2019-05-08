@@ -76,4 +76,4 @@ To view the detailed info of the device where Kolibri is running on, use the **I
 		.. figure:: img/device-info.png
 		  :alt: Open the Device page and navigate to the Info tab to find out the extended device info.
 
-	  	Find out the extended device info in the Device > Info tab.	
+	  	  Find out the extended device info in the Device > Info tab.	
