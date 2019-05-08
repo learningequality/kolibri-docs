@@ -106,9 +106,15 @@ html[lang=ar] .wy-plain-list-decimal li, .rst-content .section ol li, .rst-conte
 }
 
 span.caption-text {
-    border-bottom: 1px solid #797979;
+    overflow:hidden; display:block;
+    margin-left: 6px;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
     font-size: smaller; 
+}
+
+code.docutils.literal.notranslate {
+    padding-top: 4px;
 }
 
  .wy-table-responsive table td {

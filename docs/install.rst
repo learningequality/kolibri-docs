@@ -20,9 +20,6 @@ See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>
 .. include:: install/_linux.rst
 
 
-.. include:: install/_rpi.rst
-
-
 .. include:: install/_osx.rst
 
 

@@ -16,7 +16,7 @@ Working with Kolibri from the Command Line
 
 * If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
 
-* In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
+.. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -35,16 +35,6 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
 .. code-block:: bash
 
   kolibri stop
-
-
-.. Run Kolibri from a Different Port
-
-..  If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command.
-
-.. 
-  .. code-block:: bash
-
-    kolibri start --port <new-port-number>
 
 
 .. _import_command_line:
@@ -85,7 +75,7 @@ To export Kolibri content channels on a local drive in order to share it with an
 .. code-block:: bash
 
   kolibri manage exportchannel -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
-  kolibri manage exportcontent -- <Channel ID> /mount/mydrive/KOLIBRI_DATA 
+  kolibri manage exportcontent -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
@@ -261,11 +251,11 @@ This command will create a time-stamped ``.dump`` file in the ``./kolibri/backup
 
   kolibri manage dbrestore --latest
 
-If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file.
+To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to see all that available sorted by date, and select the one you need.
 
 .. code-block:: bash
 
-  kolibri manage dbrestore ~/.kolibri/backups/db-xxxx.dump
+  kolibri manage dbrestore --select
 
 .. warning::
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.

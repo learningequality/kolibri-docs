@@ -32,6 +32,42 @@ Install from PPA repository
     sudo apt-get update
     sudo apt-get install kolibri
 
+Uninstall
+*********
+From the command line: ``sudo apt-get remove kolibri``.
+
+Upgrade
+*******
+
+When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
+
+kolibri-server (pre-release)
+****************************
+
+We are finalizing the release of an optimized version of Kolibri for Linux systems called **kolibri-server**. This version is recommended for:
+
+* Clear server-client setup for implementations with many client devices
+* When the server device has more than one CPU core
+
+**kolibri-server** has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. Typical use case would be a *Raspberry Pi 3+* device with 4 CPU cores, which will perform much better and faster with **kolibri-server** compared to base Kolibri.
+
+To install **kolibri-server** follow these steps.
+
+#. Run these commands in the Terminal:
+
+	.. code-block:: bash
+
+		sudo apt-get install software-properties-common python-software-properties
+		sudo add-apt-repository ppa:learningequality/kolibri-proposed
+		sudo apt-get update
+		sudo apt-get install kolibri-server
+
+   During the installation you will be offered the option to choose the port (8000, 80 or leave the default 8080).
+
+#. Restart the system.
+
+.. warning:: * Be advised that this procedure also switches the setup to use the latest built Kolibri pre-release.
+	* Keep in mind that the **kolibri-server** system performance will depend not only on server device features, but on local WiFi access point characteristics.
 
 .. _lin_deb:
 
@@ -59,14 +95,14 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
 
 
 Uninstall
----------
+*********
 
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 * Or from the command line: ``sudo apt-get remove kolibri``.
 
 
 Upgrade
--------
+*******
 
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
@@ -98,3 +134,11 @@ To change the system service owner, you need to change the configuration of the 
 	sudo systemctl start kolibri
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
+
+
+Raspberry Pi
+------------
+
+To install Kolibri on RPi refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`.
+
+.. warning:: Kolibri is intended for **Raspberry Pi Model 3** and upwards.
