@@ -77,12 +77,12 @@ Locate Kolibri log files
 
 When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing.
 
-Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate the ``logs`` folder. You will be able to find these two files:
+Open the ``.kolibri/`` folder inside the :ref:`Home <home>` folder of the Kolibri server and locate the ``logs/`` folder. You will be able to find these two files:
 
 * ``kolibri.txt``
 * ``debug.txt``
 
-If the problem happened at a certain date, you can open the ``archive`` folder under the ``logs`` folder to find the specific log file:
+If the problem happened earlier than the dates in the above log, you can open the ``archive/`` folder inside ``logs/`` to find older log files:
 
 * ``kolibri-YYYY-MM-DD.txt``
 
