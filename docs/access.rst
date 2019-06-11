@@ -29,7 +29,7 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
 * Select **Exit** to stop **Kolibri**. You will be prompted to confirm the selection, after which **Kolibri** will stop. You will have to close the browser (or the tab) manually.
 
 .. tip:: 
-  If you just close the browser window, Kolibri will still be running in the background. Use the **Load in browser** option to reopen it in the browser.
+  If you close the browser window, Kolibri will still be running in the background. Use the **Load in browser** menu item to reopen it in the browser.
 
 .. note::
   Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
