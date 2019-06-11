@@ -51,6 +51,13 @@ To import content channels from Internet, run these two commands in sequence. Th
   kolibri manage importcontent -- network <Channel ID>
 
 
+For example (``Channel ID`` without angle brackets ``<...>``): 
+
+.. code-block:: bash
+
+  kolibri manage importchannel -- network a9b25ac9814742c883ce1b0579448337
+  kolibri manage importcontent -- network a9b25ac9814742c883ce1b0579448337
+
 .. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
@@ -178,6 +185,18 @@ To import users into Kolibri with this command, you will need to provide the use
   kolibri manage importusers your-csv-file.csv --facility <your-facility>
 
 
+Change User's Password
+**********************
+
+Run the following command to change the password for a user. 
+
+.. code-block:: bash
+
+  kolibri manage changepassword <username>
+
+You will be prompted twice to input the new password for the user.
+
+
 Delete Users Permanantly
 ************************
 
@@ -232,6 +251,14 @@ Change Language
 | Vietnamese            | ``vi``          | 
 +-----------------------+-----------------+
 | Yoruba                | ``yo``          | 
++-----------------------+-----------------+
+| Fulfulde Mbororoore   | ``ff-cm``       | 
++-----------------------+-----------------+
+| Bengali               | ``bn-bd``       | 
++-----------------------+-----------------+
+| Gujarati              | ``gu-in``       | 
++-----------------------+-----------------+
+| Burmese               | ``my``          | 
 +-----------------------+-----------------+
 
 

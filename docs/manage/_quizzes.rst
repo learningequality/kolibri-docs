@@ -56,14 +56,15 @@ To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button.
 * When you are satisfied with the question order click the :guilabel:`FINISH` button, and you will see a confirmation notification at the bottom.
 
 
-Change Quiz Visibility
+Change Quiz Recipients
 """"""""""""""""""""""
 
-Newly created quiz is by default visible to entire class. To change quiz *Visibility*, that is select group(s) of learners instead of the whole class, follow these steps.
+Newly created quiz is by default visible to entire class. To change quiz *Recipients*, that is select group(s) of learners instead of the whole class, follow these steps.
 
-#. Click :guilabel:`OPTIONS` button for the desired quiz and select the **Edit details** option.
-#. Select the group(s) of learners to whom you wish to assign the quiz under the *Visible to* heading.
-#. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
+#. Select the desired quiz from the list in the **Quizzes** subtab.
+#. Click :guilabel:`OPTIONS` button and select the **Edit details** option.
+#. Select the group(s) of learners to whom you wish to assign the quiz under the *Recipients* heading.
+#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
   .. figure:: img/exam-visibility.png
     :alt: 
@@ -74,9 +75,10 @@ Change Quiz Status
 
 Newly created quiz is by default not active. Once you set the visibility of quiz to the chosen group(s) of learners, you need to **Activate** it so it can appear in the **Learn** view of the learners it is assigned to.
 
-#. Click :guilabel:`OPTIONS` button for the desired quiz and select the **Edit details** option.
+#. Select the desired quiz from the list in the **Quizzes** subtab.
+#. Click :guilabel:`OPTIONS` button and select the **Edit details** option.
 #. Select **Active** at the start of the quiz period. When the quiz period concludes, select the **Inactive** option.
-#. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
+#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
 Copy Quiz
@@ -84,7 +86,8 @@ Copy Quiz
 
 To copy a quiz to a different group or another class, follow these steps.
 
-#. Click :guilabel:`OPTIONS` for the desired quiz and select **Copy quiz**.
+#. Select the desired quiz from the list in the **Quizzes** subtab.
+#. Click :guilabel:`OPTIONS` and select **Copy quiz**.
 
     .. figure:: img/copy-exam.png
       :alt: Use the radio buttons to select the class where you want to copy the quiz to.
@@ -102,7 +105,7 @@ To rename quiz, follow these steps.
 
 #. Click :guilabel:`OPTIONS` for the desired quiz and select **Edit details** option.
 #. Change the quiz title in the confirmation window.
-#. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without renaming the quiz.
+#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without renaming the quiz.
 
 Delete Quiz
 """""""""""
