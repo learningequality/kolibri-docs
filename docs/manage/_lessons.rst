@@ -79,7 +79,7 @@ A newly created lesson is *Inactive* by default, meaning that learners will not 
 Change Lesson Recipients
 """"""""""""""""""""""""
 
-You can change the recipients of the lesson from what you set when you initially created it. To reassign the lesson to a different group or the entire class, follow these steps.
+You can change the recipients of the lesson, reassigning the lesson to a different group or the entire class. Follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click :guilabel:`OPTIONS` button and select **Edit details**.
