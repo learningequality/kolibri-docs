@@ -69,7 +69,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 
             The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
 
-#. Click :guilabel:`OPTIONS` button and select **Preview** or **Edit details** option if you want to view or edit the quiz details directly from its report. Editing the quiz details from here will have the same results as from the **Plan** tab (|edit| icon).
+#. Click the :guilabel:`OPTIONS` button and select **Preview** or **Edit details** option if you want to view or edit the quiz details directly from its report. Editing the quiz details from here will have the same results as from the **Plan** tab (|edit| icon).
 
     .. figure:: img/edit-quiz-from-report.gif
       :alt: 
