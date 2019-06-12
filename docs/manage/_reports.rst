@@ -62,7 +62,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
       
       **Review Exercise Progress**
 
-      When a learner answers exercise questions in Kolibri, the progress bar below the exercise is taking into account only the most recent given answers, meaning that the learner must complete the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed.
+      When a learner completes the questions of an exercises, the progress bar below the exercise will show the most recent and correct answers. In order for the exercise to be considered completed, the learner must complete the required number of correct answers (*check marks*) **in the row**.
 
         .. figure:: img/get-5-correct.png
             :alt: If the exercise requires 5 correct check marks, learner must provide 5 correct answers one after another. Marks for each answer are located behind the button Check
