@@ -23,6 +23,10 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 #. When you click to open the single resource, you can see the progress report for each learner (*started* |started|, *completed* |completed-small| or *need help* |need-help|), and the time spent on it.
 #. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers.
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
+#. Click :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the **Plan** tab (|edit| icon).
+
+    .. figure:: img/edit-lesson-from-report.gif
+      :alt: 
 
 
 Quizzes
@@ -50,21 +54,26 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
       .. figure:: img/exam-report-detail.png
         :alt: 
 
-
 #. Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
 
-.. _exercise_progress:
+    .. _exercise_progress:
 
-.. note:: 
-	
-	**Review Exercise Progress**
+    .. note:: 
+      
+      **Review Exercise Progress**
 
-	When a learner answers exercise questions in Kolibri, the progress bar below the exercise is taking into account only the most recent given answers, meaning that the learner must complete the required number of correct answers (*check marks*) **in the row** for the exercise to be considered completed.
+      When a learner completes the questions of an exercises, the progress bar below the exercise will show the most recent and correct answers. In order for the exercise to be considered completed, the learner must complete the required number of correct answers (*check marks*) **in the row**.
 
-		.. figure:: img/get-5-correct.png
-		    :alt: If the exercise requires 5 correct check marks, learner must provide 5 correct answers one after another. Marks for each answer are located behind the button Check
+        .. figure:: img/get-5-correct.png
+            :alt: If the exercise requires 5 correct check marks, learner must provide 5 correct answers one after another. Marks for each answer are located behind the button Check
 
-		    The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
+            The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
+
+#. Click the :guilabel:`OPTIONS` button and select **Preview** or **Edit details** option if you want to view or edit the quiz details directly from its report. Editing the quiz details from here will have the same results as from the **Plan** tab (|edit| icon).
+
+    .. figure:: img/edit-quiz-from-report.gif
+      :alt: 
+
 
 
 Groups

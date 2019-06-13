@@ -70,22 +70,21 @@ Change Lesson Status
 
 A newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps.
 
-1. Click the **Change** link under the *Status* heading.
-2. Select **Active** or **Inactive**.
-3. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
+#. Select the desired lesson from the list in the **Lessons** tab.
+#. Click :guilabel:`OPTIONS` button and select **Edit details**. 
+#. Select **Active** or **Inactive** under the *Status* heading.
+#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
-  .. figure:: img/change-lesson-status.png
-    :alt: 
 
-Change Lesson Visibility
+Change Lesson Recipients
 """"""""""""""""""""""""
 
-You can change the visibility of the lesson that you set when you initially created it. To reassign the lesson to a different group or the entire class, follow these steps.
+You can change the recipients of the lesson, reassigning the lesson to a different group or the entire class. Follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click :guilabel:`OPTIONS` and select **Edit details**.
-#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Visible to* heading.
-#. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
+#. Click :guilabel:`OPTIONS` button and select **Edit details**.
+#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Recipients* heading.
+#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
 Copy Lesson
@@ -101,7 +100,7 @@ To copy a lesson to a different group or another class of your facility, follow 
 
 3. Select the class to which you wish to copy the lesson to.
 4. If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson.
-5. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without change.
+5. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.
 
