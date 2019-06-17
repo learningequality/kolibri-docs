@@ -68,8 +68,8 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 	  Make sure to save these super admin credentials in a safe place!
 
 
-#. **Data usage and privacy - responsibilities of the adminstrator.** 
-   When you are setting up a Kolibri facility, especially in formal contexts, you need to take into consideration the relevant privacy laws and regulations. You as the **super admin**, or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finihsing the facility setup. 
+#. **Data usage and privacy - responsibilities of the administrator.** 
+   When you are setting up a Kolibri facility, especially in formal contexts, you need to take into consideration the relevant privacy laws and regulations. You as the **super admin**, or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup. 
 
   	.. figure:: img/super-admin-resp.png
 	   :alt: Step 7 of 7 requires you to review the super admin responsibilities regarding the data usage and privacy.
