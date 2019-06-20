@@ -52,6 +52,20 @@ Videos are not playing
 Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using.
 
 
+Antivirus
+---------
+
+Some overzealous antivirus programs on Windows platform may preventively impede Kolibri or some of its components (for example `python.exe`) from running correctly. If that happens you need to add to the antivirus exclusion list. Below steps refer to the program **Avast**, but should be similar in other antivirus applications.
+
+1. Open **Avast**.
+2. Click on **Protection** in the sidebar.
+3. Click on **Virus Chest**.
+4. Find the file `python.exe` in the list.
+5. Right click on the file and select *Scan*.
+6. If the scan is inconclusive the `python.exe` file is not infected with a virus.
+7. Right click on the file and select *Restore and add to exclusions*.
+
+
 Problems with import and export from USB drives
 -----------------------------------------------
 

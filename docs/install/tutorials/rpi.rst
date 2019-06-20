@@ -1,3 +1,4 @@
+:orphan:
 .. _tutorial_rpi:
 
 An offline Raspberry Pi server
