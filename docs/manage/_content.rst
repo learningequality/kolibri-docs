@@ -91,7 +91,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 #. Wait for the content to be downloaded and click :guilabel:`CLOSE` for the new channel to appear under the **Channel** heading.
 
     .. figure:: img/import-CC.png
-  	  :alt: Content import progress bar will display the percentage of the donwload, and the Close button once it's finished 
+  	  :alt: Content import progress bar will display the percentage of the download, and the Close button once it's finished 
 
 #. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
 #. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.

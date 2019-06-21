@@ -1,3 +1,4 @@
+:orphan:
 .. _tutorial_rpi:
 
 An offline Raspberry Pi server
@@ -5,7 +6,7 @@ An offline Raspberry Pi server
 
 This guide shows you how to configure a Raspberry Pi as a local Wi-Fi hotspot serving Kolibri.
 
-There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian.
+There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspbian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian.
 
 .. warning:: These steps require an internet connection during the installation. After completing the installation, it's possible :ref:`to replicate an image <rpi_replication>` for offline installation.
 
@@ -29,7 +30,7 @@ Prerequisites
   * `Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__
   * **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
 * Internet connectivity (for setting up the device)
-* An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an ethernet cable for online connectivity while installing and fetching contents for Kolibri.
+* An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an Ethernet cable for online connectivity while installing and fetching contents for Kolibri.
 
 .. tip:: The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both.
 
@@ -85,12 +86,12 @@ Setting up a hotspot
 
 The Raspberry Pi 3 has an internal Wi-Fi adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through Wi-Fi. In this case, we call the Raspberry Pi a *hotspot*.
 
-We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's ethernet cable connection. In this way, you don't have to disable and enable the Wi-Fi configuration each time.
+We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's Ethernet cable connection. In this way, you don't have to disable and enable the Wi-Fi configuration each time.
 
-* The device can be set up such that it automatically uses the ethernet interface as a *gateway* to the internet when a cable is connected.
+* The device can be set up such that it automatically uses the Ethernet interface as a *gateway* to the internet when a cable is connected.
 * If you need to connect to the internet through Wi-Fi, you will have to disable the hotspot and connect through the normal network management.
 
-.. note: If you already have a Wi-Fi network at the location where the device will be set up, you should NOT set up an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Capitive Portal step.
+.. note: If you already have a Wi-Fi network at the location where the device will be set up, you should NOT set up an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Captive Portal step.
 
 Installing hostapd and dnsmasq
 ******************************
@@ -164,7 +165,7 @@ Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` t
 
 .. warning::
 
-  These settings override the possibility to connect to an online source using the Wi-Fi. It is still possible to connect to the internet **through the cabled ethernet**, however you will need to configure a DNS server manually every time you reboot the device. Put the IP of your DNS provider in ``/etc/resolve.conf``. If you don't know it, you can use Google's OpenDNS address ``8.8.8.8`` as in this example:
+  These settings override the possibility to connect to an online source using the Wi-Fi. It is still possible to connect to the internet **through the cabled network**, however you will need to configure a DNS server manually every time you reboot the device. Put the IP of your DNS provider in ``/etc/resolve.conf``. If you don't know it, you can use Google's OpenDNS address ``8.8.8.8`` as in this example:
 
   .. code-block:: console
 
@@ -227,9 +228,9 @@ Setting up a "Captive portal"
 You don't have to set up a "Captive Portal", but it's a good idea, since the behavior will make the user experience better. Users won't have to guess the location (hostname / domain) of services on the Raspberry Pi, and many devices support displaying your welcome page automatically upon connecting to the Wi-Fi.
 
 .. figure:: /img/captive_portal_screenshot.png
-    :alt: Hotspot login dialogue
+    :alt: Hotspot login dialog
 
-    This type of dialogue will appear on many devices when they detect a successful Wi-Fi connection without an internet connection.
+    This type of dialog will appear on many devices when they detect a successful Wi-Fi connection without an internet connection.
 
 In the previous step, we have configured the Raspberry Pi to tell devices on the local offline hotspot that whatever resource they request such as ``http://domain.com``, it should resolve to the Raspberry Pi's static IP address ``192.168.4.1``.
 

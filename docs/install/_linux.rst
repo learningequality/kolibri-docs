@@ -6,7 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavours, for instance Xubuntu and Mint.
+Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavors, for instance Xubuntu and Mint.
 
 .. _ppa:
 
