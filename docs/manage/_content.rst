@@ -178,6 +178,31 @@ If Kolibri is installed on an older or a low-resource device, you can try the fo
 On Linux and OSX you will need to enable the **Show hidden folders** option in order to view the ``.kolibri`` folder.    
 
 
+Update Content Channels
+-----------------------
+
+Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on you local Kolibri device may have also changed since you first imported them, and have some new content added in the meantime. You can update you local channels from Kolibri if you have internet connection, another device in your local network that has already been updated, or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
+
+.. warning:: It is not recommended to start updating channels used to make lessons and quizzes that are still active and visible to learners. Structure of the channel and location of some resources inside may have changed
+
+To update channel to its latest version and import new content into Kolibri, follow these steps.
+
+#. Click :guilabel:`OPTIONS` for the channel you want to update, and select **Import more**.
+#. Choose the source option: **Kolibri Studio**, **Local network or internet**, or **Attached drive or memory card**.
+#. ñsdkljf
+
+
+  .. figure:: img/update-channel.png
+    :alt: Use the radio buttons to select source for importing content
+
+    Select a source to import Kolibri content channels.
+
+
+
+
+
+.. _export:
+
 Export from Kolibri to Local Drive
 ----------------------------------
 
