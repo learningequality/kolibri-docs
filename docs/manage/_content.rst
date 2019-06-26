@@ -16,7 +16,7 @@ Kolibri **Content Channel** is a collection of educational resources (video, aud
 
 .. _id_token:
 
-Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to import content from **private or unlisted** channels, you will need the **channel token or ID from the content curator who assembled it**.
+Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to :ref:`import content from private or unlisted channels <import_with_token>`, you will need the **channel token or ID from the content curator who assembled it**.
 
 .. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we started using exclusively the term **token** to uniquely designate each channel.
 
@@ -95,16 +95,19 @@ If the computer where Kolibri is running has an Internet connection with the suf
     .. figure:: img/import-CC.png
   	  :alt: Content import progress bar will display the percentage of the download, and the Close button once it's finished 
 
-#. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
-#. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.
+.. _import_with_token:
+
+
+7. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
+8. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.
 
     .. figure:: img/enter-token.png
   	  :alt: Use the text input field to enter channel token in order to import from an unlisted channel
 
-#. Click :guilabel:`CONFIRM` to unlock channel, or :guilabel:`CANCEL` to exit.
-#. Proceed to select and import channel topics and resources as for the public channels.
+9. Click :guilabel:`CONFIRM` to unlock channel, or :guilabel:`CANCEL` to exit.
+10. Proceed to select and import channel topics and resources as for the public channels.
 
-   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+    Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
 
 11. To add more learning resources from a channel that you previously imported content from, click :guilabel:`OPTIONS`, select **Import more**, and repeat the selection procedure from step 3. 
 
