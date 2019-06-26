@@ -64,7 +64,6 @@ Import Content from Kolibri Studio
 
 If the computer where Kolibri is running has an Internet connection with the sufficient bandwidth, follow these steps to import content channels.
 
-.. _central_server:
 
 #. Choose option *Kolibri Studio*, click :guilabel:`CONTINUE` and you will be able to see all the available **public** content channels.
 
@@ -130,11 +129,12 @@ Follow these steps to import content channels.
     :alt: Use the text input fields to add the new address and the name for the local network import
 
 #. Click :guilabel:`ADD` to save this address to your device settings. If you later decide to delete it, use the link *Forget*.
-#. Click :guilabel:`CONTUNUE` and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`.
+#. Click :guilabel:`CONTUNUE` and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <import_studio>`.
 
 .. warning:: This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of content import **must have the Kolibri version 0.11 or later** running.
 
 .. _local_drive:
+
 
 Import Content from a Local Drive
 *********************************
@@ -145,7 +145,7 @@ If the computer where Kolibri server is running does not have access to Internet
 #. Choose option for *Attached drive or memory card*, and click :guilabel:`CONTINUE`.
 #. Kolibri will automatically detect and display the drive(s) with available Kolibri content files.
 #. Select the drive where the desired channel is stored, and click :guilabel:`CONTINUE`.
-#. Click :guilabel:`SELECT` for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`.
+#. Click :guilabel:`SELECT` for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <import_studio>`.
 
   .. figure:: img/import-local-drive2.png
     :alt: Importing content from a local drive presents the same interface options as importing from Kolibri Studio.
@@ -184,9 +184,9 @@ On Linux and OSX you will need to enable the **Show hidden folders** option in o
 Update Content Channels
 -----------------------
 
-Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on you local Kolibri device may have also changed since you first imported them, and have some new content added in the meantime. You can update you local channels from Kolibri Studio if you have internet connection, another device in your local network that has already been updated, or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
+Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on you local Kolibri device may have also changed since you first imported them, and have some new content added in the meantime. You can update your local channels from Kolibri Studio if you have internet connection, from another device in your local network where the content has already been updated, or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
 
-.. warning:: Don't update channels used to make :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>` while those are **still active and visible to learners**. Structure of the channel and location of some resources inside may change in the updated version, and therefore become unavailable and create loading issues. It is recommended to **schedule and perform channel updates only during periods when learners are not actively working on lessons and quizzes**.
+.. warning:: Don't update channels used to make :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>` while those are **still active and visible to learners**. The structure and location of some resources inside the channel may have changed in the updated version, which can render them unavailable and create loading issues. It is recommended to **schedule and perform channel updates only during periods when learners are not actively working on lessons and quizzes**.
 
 To update channel to its latest version and import new content into Kolibri, follow these steps.
 
