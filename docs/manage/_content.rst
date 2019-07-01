@@ -191,7 +191,7 @@ Public channels on Kolibri Studio are periodically updated from their original s
 
 .. warning:: Don't update channels used to make :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>` while those are **still active and visible to learners**. The structure and location of some resources inside the channel may have changed in the updated version, which can render them unavailable and create loading issues. It is recommended to **schedule and perform channel updates only during periods when learners are not actively working on lessons and quizzes**.
 
-To update channel to its latest version and import new content into Kolibri, follow these steps.
+To update a channel to its latest version and import new content into Kolibri, follow these steps.
 
 #. Click :guilabel:`OPTIONS` for the channel you want to update, and select **Import more**.
 #. Choose the source option: **Kolibri Studio**, **Local network or internet** or **Attached drive or memory card**.
