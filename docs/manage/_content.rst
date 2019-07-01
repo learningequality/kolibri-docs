@@ -202,7 +202,7 @@ To update channel to its latest version and import new content into Kolibri, fol
 
       Notification for the new version of the content channel.
 
-4. Click the :guilabel:`UPDATE` button, and wait for the updated topic tree to load.
+4. Click the :guilabel:`UPDATE` button and wait for the updated topic tree to load.
 5. You will see empty checkboxes for any new content added to the channel since you last imported. Select and import content by following the steps for import from :ref:`Kolibri Studio <import_studio>`, :ref:`local network <local_network>`, or :ref:`attached drive <local_drive>`.
 
 
