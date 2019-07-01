@@ -194,7 +194,7 @@ Public channels on Kolibri Studio are periodically updated from their original s
 To update channel to its latest version and import new content into Kolibri, follow these steps.
 
 #. Click :guilabel:`OPTIONS` for the channel you want to update, and select **Import more**.
-#. Choose the source option: **Kolibri Studio**, **Local network or internet**, or **Attached drive or memory card**.
+#. Choose the source option: **Kolibri Studio**, **Local network or internet** or **Attached drive or memory card**.
 #. If there is a new channel version available, you will see the notification.
 
     .. figure:: img/update-channel.png
