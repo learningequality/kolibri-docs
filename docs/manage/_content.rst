@@ -104,7 +104,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
     .. figure:: img/enter-token.png
   	  :alt: Use the text input field to enter channel token in order to import from an unlisted channel
 
-9. Click :guilabel:`CONFIRM` to unlock channel, or :guilabel:`CANCEL` to exit.
+9. Click :guilabel:`CONFIRM` to unlock the channel, or :guilabel:`CANCEL` to exit.
 10. Proceed to select and import channel topics and resources as for the public channels.
 
     Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
