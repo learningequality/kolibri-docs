@@ -187,7 +187,7 @@ On Linux and OSX you will need to enable the **Show hidden folders** option in o
 Update Content Channels
 -----------------------
 
-Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on you local Kolibri device may have also changed since you first imported them, and have some new content added in the meantime. You can update your local channels from Kolibri Studio if you have internet connection, from another device in your local network where the content has already been updated, or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
+Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
 
 .. warning:: Don't update channels used to make :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>` while those are **still active and visible to learners**. The structure and location of some resources inside the channel may have changed in the updated version, which can render them unavailable and create loading issues. It is recommended to **schedule and perform channel updates only during periods when learners are not actively working on lessons and quizzes**.
 
