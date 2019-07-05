@@ -169,6 +169,7 @@ You may see different types of content available in Kolibri channels, and you ca
 * Documents - |doc-icon|
 * Interactive HTML Apps - |html-icon|
 * Topics - |topic-icon|
+* Slideshow - |slideshow-icon|
 
 When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish viewing a video or complete the exercise, they will be marked with the |completed| icon.
 
@@ -259,6 +260,15 @@ To read digital books in Kolibri you have several available controls inside the 
 
 
 .. _lessons:
+
+Slideshow Viewer options
+""""""""""""""""""""""""
+
+To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
+
+* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* With the :guilabel:`Left Arrow` or :guilabel:`Right Arrow` keys or the buttons on the side of the slideshow.
+* You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
 Lessons
 ^^^^^^^
