@@ -57,7 +57,7 @@ To install **kolibri-server** follow these steps.
 
 	.. code-block:: bash
 
-		sudo apt-get install software-properties-common python-software-properties
+                sudo apt-get install software-properties-common dirmngr
 		sudo add-apt-repository ppa:learningequality/kolibri-proposed
 		sudo apt-get update
 		sudo apt-get install kolibri-server
