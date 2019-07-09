@@ -54,7 +54,7 @@ The following commands work on Linux/macOS for setting up the .img files provide
   # Unpack the .zip into memory and write it to <device node>
   unzip -p /path/to/raspbian-stretch-lite.zip | sudo dd of=/dev/mmcblk123 bs=4M conv=fsync
 
-.. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`__
+.. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/>`__
 
 .. tip:: Select your MicroSD card based on other people's experiences and technical benchmarks. For more information, read `this Community Forums thread <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
 
