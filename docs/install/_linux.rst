@@ -42,7 +42,7 @@ Upgrade
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
 kolibri-server (pre-release)
-****************************
+----------------------------
 
 We are finalizing the release of an optimized version of Kolibri for Linux systems called **kolibri-server**. This version is recommended for:
 
