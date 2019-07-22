@@ -258,17 +258,16 @@ To read digital books in Kolibri you have several available controls inside the 
 	.. figure:: img/epub.*
 		:alt: 
 
-
-.. _lessons:
-
 Slideshow Viewer options
 """"""""""""""""""""""""
 
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
 
 * Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
-* With the :guilabel:`Left Arrow` or :guilabel:`Right Arrow` keys or the buttons on the side of the slideshow.
+* With the Left Arrow (←) or Right Arrow (→) keys or the buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
+
+.. _lessons:
 
 Lessons
 ^^^^^^^
