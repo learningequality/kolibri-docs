@@ -263,7 +263,7 @@ Slideshow Viewer options
 
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
 
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Use the :guilabel:`|fullscreen|` button in the upper right corner to open the ebook in fullscreen view.
 * With the Left Arrow (←) or Right Arrow (→) keys or the buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
