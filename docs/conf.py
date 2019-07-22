@@ -212,6 +212,8 @@ rst_prolog = """
    :alt: Exercise
 .. |html-icon| image:: /img/html-icon.png
    :alt: App
+.. |slideshow-icon| image:: /img/slideshow-icon.png
+   :alt: Slideshow
 
 """
 
