@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.12.2"
+DISPLAY_VERSION = "0.12.5"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -65,6 +65,7 @@ copyright = u'{year:d}, Learning Equality'.format(year=datetime.now().year)
 version = DISPLAY_VERSION
 # The full version, including alpha/beta/rc tags.
 release = DISPLAY_VERSION
+
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

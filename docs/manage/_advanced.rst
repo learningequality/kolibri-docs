@@ -16,7 +16,7 @@ Working with Kolibri from the Command Line
 
 * If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
 
-* In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
+.. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -37,16 +37,6 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
   kolibri stop
 
 
-.. Run Kolibri from a Different Port
-
-..  If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command.
-
-.. 
-  .. code-block:: bash
-
-    kolibri start --port <new-port-number>
-
-
 .. _import_command_line:
 
 
@@ -60,6 +50,13 @@ To import content channels from Internet, run these two commands in sequence. Th
   kolibri manage importchannel -- network <Channel ID>
   kolibri manage importcontent -- network <Channel ID>
 
+
+For example (``Channel ID`` without angle brackets ``<...>``): 
+
+.. code-block:: bash
+
+  kolibri manage importchannel -- network a9b25ac9814742c883ce1b0579448337
+  kolibri manage importcontent -- network a9b25ac9814742c883ce1b0579448337
 
 .. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
@@ -85,7 +82,7 @@ To export Kolibri content channels on a local drive in order to share it with an
 .. code-block:: bash
 
   kolibri manage exportchannel -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
-  kolibri manage exportcontent -- <Channel ID> /mount/mydrive/KOLIBRI_DATA 
+  kolibri manage exportcontent -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
@@ -188,6 +185,18 @@ To import users into Kolibri with this command, you will need to provide the use
   kolibri manage importusers your-csv-file.csv --facility <your-facility>
 
 
+Change User's Password
+**********************
+
+Run the following command to change the password for a user. 
+
+.. code-block:: bash
+
+  kolibri manage changepassword <username>
+
+You will be prompted twice to input the new password for the user.
+
+
 Delete Users Permanantly
 ************************
 
@@ -243,6 +252,14 @@ Change Language
 +-----------------------+-----------------+
 | Yoruba                | ``yo``          | 
 +-----------------------+-----------------+
+| Fulfulde Mbororoore   | ``ff-cm``       | 
++-----------------------+-----------------+
+| Bengali               | ``bn-bd``       | 
++-----------------------+-----------------+
+| Gujarati              | ``gu-in``       | 
++-----------------------+-----------------+
+| Burmese               | ``my``          | 
++-----------------------+-----------------+
 
 
 
@@ -261,11 +278,11 @@ This command will create a time-stamped ``.dump`` file in the ``./kolibri/backup
 
   kolibri manage dbrestore --latest
 
-If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file.
+To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to see all that available sorted by date, and select the one you need.
 
 .. code-block:: bash
 
-  kolibri manage dbrestore ~/.kolibri/backups/db-xxxx.dump
+  kolibri manage dbrestore --select
 
 .. warning::
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.

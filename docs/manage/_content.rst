@@ -16,7 +16,7 @@ Kolibri **Content Channel** is a collection of educational resources (video, aud
 
 .. _id_token:
 
-Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to import content from **private or unlisted** channels, you will need the **channel token or ID from the content curator who assembled it**.
+Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to :ref:`import content from private or unlisted channels <import_with_token>`, you will need the **channel token or ID from the content curator who assembled it**.
 
 .. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we started using exclusively the term **token** to uniquely designate each channel.
 
@@ -56,12 +56,14 @@ To import content into Kolibri, follow these steps.
     Select a source to import Kolibri content channels.
 
 
+.. _import_studio:
+
+
 Import Content from Kolibri Studio
 **********************************
 
 If the computer where Kolibri is running has an Internet connection with the sufficient bandwidth, follow these steps to import content channels.
 
-.. _central_server:
 
 #. Choose option *Kolibri Studio*, click :guilabel:`CONTINUE` and you will be able to see all the available **public** content channels.
 
@@ -91,18 +93,21 @@ If the computer where Kolibri is running has an Internet connection with the suf
 #. Wait for the content to be downloaded and click :guilabel:`CLOSE` for the new channel to appear under the **Channel** heading.
 
     .. figure:: img/import-CC.png
-  	  :alt: Content import progress bar will display the percentage of the donwload, and the Close button once it's finished 
+  	  :alt: Content import progress bar will display the percentage of the download, and the Close button once it's finished 
 
-#. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
-#. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.
+.. _import_with_token:
+
+
+7. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
+8. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.
 
     .. figure:: img/enter-token.png
   	  :alt: Use the text input field to enter channel token in order to import from an unlisted channel
 
-#. Click :guilabel:`CONFIRM` to unlock channel, or :guilabel:`CANCEL` to exit.
-#. Proceed to select and import channel topics and resources as for the public channels.
+9. Click :guilabel:`CONFIRM` to unlock the channel, or :guilabel:`CANCEL` to exit.
+10. Proceed to select and import channel topics and resources as for the public channels.
 
-   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+    Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
 
 11. To add more learning resources from a channel that you previously imported content from, click :guilabel:`OPTIONS`, select **Import more**, and repeat the selection procedure from step 3. 
 
@@ -127,11 +132,12 @@ Follow these steps to import content channels.
     :alt: Use the text input fields to add the new address and the name for the local network import
 
 #. Click :guilabel:`ADD` to save this address to your device settings. If you later decide to delete it, use the link *Forget*.
-#. Click :guilabel:`CONTUNUE` and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`.
+#. Click :guilabel:`CONTINUE` and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <import_studio>`.
 
 .. warning:: This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of content import **must have the Kolibri version 0.11 or later** running.
 
 .. _local_drive:
+
 
 Import Content from a Local Drive
 *********************************
@@ -142,7 +148,7 @@ If the computer where Kolibri server is running does not have access to Internet
 #. Choose option for *Attached drive or memory card*, and click :guilabel:`CONTINUE`.
 #. Kolibri will automatically detect and display the drive(s) with available Kolibri content files.
 #. Select the drive where the desired channel is stored, and click :guilabel:`CONTINUE`.
-#. Click :guilabel:`SELECT` for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <central_server>`.
+#. Click :guilabel:`SELECT` for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <import_studio>`.
 
   .. figure:: img/import-local-drive2.png
     :alt: Importing content from a local drive presents the same interface options as importing from Kolibri Studio.
@@ -177,6 +183,30 @@ If Kolibri is installed on an older or a low-resource device, you can try the fo
 
 On Linux and OSX you will need to enable the **Show hidden folders** option in order to view the ``.kolibri`` folder.    
 
+
+Update Content Channels
+-----------------------
+
+Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
+
+.. warning:: Don't update channels used to make :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>` while those are **still active and visible to learners**. The structure and location of some resources inside the channel may have changed in the updated version, which can render them unavailable and create loading issues. It is recommended to **schedule and perform channel updates only during periods when learners are not actively working on lessons and quizzes**.
+
+To update a channel to its latest version and import new content into Kolibri, follow these steps.
+
+#. Click :guilabel:`OPTIONS` for the channel you want to update, and select **Import more**.
+#. Choose the source option: **Kolibri Studio**, **Local network or internet** or **Attached drive or memory card**.
+#. If there is a new channel version available, you will see the notification.
+
+    .. figure:: img/update-channel.png
+      :alt: 
+
+      Notification for the new version of the content channel.
+
+4. Click the :guilabel:`UPDATE` button and wait for the updated topic tree to load.
+5. You will see empty check boxes for any new content added to the channel since your last import. Select and import content by following the steps from :ref:`Kolibri Studio <import_studio>`, :ref:`local network <local_network>`, or :ref:`attached drive <local_drive>`.
+
+
+.. _export:
 
 Export from Kolibri to Local Drive
 ----------------------------------
