@@ -1,3 +1,4 @@
+:orphan:
 .. _provision:
 
 Hard drive provisioning for multiple Kolibri servers
@@ -71,7 +72,7 @@ Before you proceed to copy the ``.kolibri`` folder from the master server hard d
 
 .. warning:: This is a critical step, to ensure that each destination server has a unique **Facility ID** (and name) associated with it.
 
-#. Open the Terminal on Linux or the :ref:`command prompt on Windows <command_line>.
+#. Open the Terminal on Linux or the :ref:`command prompt on Windows <command_line>`.
 
 #. Stop Kolibri server with the following command
 
