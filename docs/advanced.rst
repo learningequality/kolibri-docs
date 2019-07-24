@@ -418,6 +418,10 @@ If you need Kolibri to start and run from a port different than the default ``80
      # Substitute 1234 with your desired port number
 
 
+.. tip::
+  If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary.  
+
+
 .. _profile_requests_ini:
 
 
