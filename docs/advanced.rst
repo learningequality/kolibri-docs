@@ -513,3 +513,9 @@ Each log line contains this information:
 
 .. warning::
   Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``options.ini`` file. Without the ``PROFILE = 1`` key, command will not profile server requests (but just the current server state), and it will not create the second CSV file. 
+
+
+Hard drive provisioning for multiple Kolibri servers
+----------------------------------------------------
+
+For the recommended procedure to install and provision several Kolibri server devices, refer to our :ref:`hard drive provisioning tutorial <provision>`.
