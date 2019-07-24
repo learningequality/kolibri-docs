@@ -91,6 +91,13 @@ Happy learning with Kolibri!
    :maxdepth: 3
    :hidden:
 
+   advanced
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+
+
    coach
 
 .. toctree::

@@ -17,6 +17,7 @@ In a nutshell, Kolibri can run independently of internet availability, but you n
 
 One possibility is to have Kolibri installed in one location with internet connection, where you can import content channels from `Kolibri Studio <https://studio.learningequality.org/>`_ (curriculum tool and content curation server), and then export them to removable USB drives that you bring or send to offline locations (rural schools, refugee camps, etc.) to import locally.
 
+.. _languages:
 
 What languages is Kolibri available in?
 ---------------------------------------
@@ -52,7 +53,7 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 +---------------------------+-----------------+-----------------+
 | Portuguese (Brazil)       | ✓               |                 |
 +---------------------------+-----------------+-----------------+
-| Spanish (Mexico)          |                 | ✓               |
+| Spanish (Latin America)   | ✓               |                 |
 +---------------------------+-----------------+-----------------+ 
 | Spanish (Spain)           | ✓               | ✓               |
 +---------------------------+-----------------+-----------------+
