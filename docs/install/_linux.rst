@@ -109,10 +109,10 @@ To change the system service owner, you need to change the configuration of the 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
 
 
-Optimized Performance with ``kolibri-server`` package
------------------------------------------------------
+Higher Performance with the ``kolibri-server`` package
+------------------------------------------------------
 
-We finalized the release of an optimized version of Kolibri for Linux systems called ``kolibri-server``. This version is recommended for:
+We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. This version is recommended for:
 
 * Clear server-client setup for implementations with many client devices
 * When the server device has more than one CPU core
