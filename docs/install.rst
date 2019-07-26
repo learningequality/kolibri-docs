@@ -7,11 +7,11 @@ See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>
 
 .. putting back tutorials in the TOC
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
    install/tutorials/index
-   
+
 
 .. include:: install/_system_requirements.rst
 

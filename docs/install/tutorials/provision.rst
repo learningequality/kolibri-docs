@@ -93,8 +93,8 @@ Before you proceed to copy the ``.kolibri`` folder from the master server hard d
 	You will have to confirm twice by typing ``yes`` and pressing the :guilabel:`Enter` key.
 
 
-Copy the ``.kolibri`` folder to other server devices
-****************************************************
+Copy the content to other server devices
+----------------------------------------
 
 .. warning:: 
 	#. Independent from the copying procedure you decide to use, you should first proceed to :ref:`install Kolibri <install>` on each of the destination devices, following the same steps as for the master server, **but you don’t need to go through the Initial Setup**.
@@ -113,7 +113,7 @@ Copy the ``.kolibri`` folder to other server devices
 
 
 Use the external USB drive to copy content
-""""""""""""""""""""""""""""""""""""""""""
+******************************************
 
 #. Copy the ``.kolibri`` folder from the master server hard drive, and paste it on the external USB drive.
 #. Copy the ``.kolibri`` folder from the USB drive, and paste it inside the destination device hard drive. 
@@ -124,7 +124,7 @@ Use the external USB drive to copy content
 
 
 Use the cabled LAN connection to copy content
-"""""""""""""""""""""""""""""""""""""""""""""
+*********************************************
 
 #. Connect all the devices, master server and the others where you need to copy the content on, to the same local area network (LAN).
 	
