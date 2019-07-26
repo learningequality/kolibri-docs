@@ -112,12 +112,9 @@ To change the system service owner, you need to change the configuration of the 
 Higher Performance with the ``kolibri-server`` package
 ------------------------------------------------------
 
-We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. This version is recommended for:
+We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. 
 
-* Clear server-client setup for implementations with many client devices
-* When the server device has more than one CPU core
-
-``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. Typical use case would be a *Raspberry Pi 3+* device with 4 CPU cores, which will perform much better and faster with ``kolibri-server`` compared to base Kolibri.
+``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and with ``kolibri-server`` it will likely be able to serve 2-3 times more client devices compared to base Kolibri.
 
 To install ``kolibri-server`` follow these steps.
 

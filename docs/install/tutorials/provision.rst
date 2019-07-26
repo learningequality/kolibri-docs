@@ -13,7 +13,10 @@ You will need an **active Internet connection only to preload content channels o
 Required hardware
 -----------------
 
-#. Laptops and/or other devices to host Kolibri servers.
+#. Laptops and/or other devices to host Kolibri servers. 
+
+	.. tip:: If you are planning to use Raspberry Pi as your server device, read our comprehensive tutorial about setting up :ref:`tutorial_rpi`.
+
 #. For provisioning you have the option to use:
 
 	* Fast USB 3 external drive(s). USB 2 can work too, but we recommend using more than one USB 3 drives for fastest results.
