@@ -15,7 +15,8 @@ Required hardware
 
 #. Laptops and/or other devices to host Kolibri servers. 
 
-	.. tip:: If you are planning to use Raspberry Pi as your server device, read our comprehensive tutorial about setting up :ref:`tutorial_rpi`.
+	.. commenting out for now until the tutorial is updated.
+		.. tip:: If you are planning to use Raspberry Pi as your server device, read our comprehensive tutorial about setting up :ref:`tutorial_rpi`.
 
 #. For provisioning you have the option to use:
 
