@@ -16,7 +16,7 @@ Kolibri **Content Channel** is a collection of educational resources (video, aud
 
 .. _id_token:
 
-Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to :ref:`import content from private or unlisted channels <import_with_token>`, you will need the **channel token or ID from the content curator who assembled it**.
+Each Kolibri content channel has its own **token/ID** in `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__. You can freely view and browse content to import from the **public** channels in Kolibri, but in order to :ref:`import content from private or unlisted channels <import_with_token>`, you will need the **channel token from the content curator who assembled it**.
 
 .. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we started using exclusively the term **token** to uniquely designate each channel.
 
@@ -99,7 +99,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 
 7. If you need to import content from a **private/unlisted** channel, click on **Try adding the token** link above the channel list.  
-8. Enter the **channel token/ID** received from the channel curator on Kolibri Studio.
+8. Enter the **channel token** received from the channel curator on Kolibri Studio.
 
     .. figure:: img/enter-token.png
   	  :alt: Use the text input field to enter channel token in order to import from an unlisted channel
@@ -189,7 +189,10 @@ Update Content Channels
 
 Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
 
-.. warning:: Don't update channels used to make :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>` while those are **still active and visible to learners**. The structure and location of some resources inside the channel may have changed in the updated version, which can render them unavailable and create loading issues. It is recommended to **schedule and perform channel updates only during periods when learners are not actively working on lessons and quizzes**.
+.. warning:: Use caution when updating channels that have been used to make **currently-active** :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>`. The structure and location of some resources inside the channel may have changed in the updated version, which can cause lessons and quizzes to not load correctly. 
+
+
+.. warning:: It is recommended to schedule and perform channel updates only during periods of low activity on the server. Updating content while people are using the server may cause errors or performance issues..
 
 To update a channel to its latest version and import new content into Kolibri, follow these steps.
 

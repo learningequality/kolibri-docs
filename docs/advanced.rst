@@ -1,13 +1,14 @@
+.. _manage_advanced:
+
+Advanced Management
+~~~~~~~~~~~~~~~~~~~
+
 .. _command_line:
-
-Advanced Manage Options
-~~~~~~~~~~~~~~~~~~~~~~~
-
 
 Working with Kolibri from the Command Line
 ------------------------------------------
 
-* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located. When Python is installed on drive ``C:`` the correct path will most probably be ``C:/Python27/Scripts`` in Kolibri up to version 0.9, and ``C:/Python34/Scripts`` in version 0.10 or above.
+* In Windows you need to open the command prompt, for example by using the :guilabel:`WIN` + :guilabel:`R` shortcut, and then typing ``cmd``.
 
       .. figure:: img/cmd.exe.png
         :alt: 
@@ -217,49 +218,49 @@ Change Language
 
   kolibri language setdefault <langcode>
 
-+-----------------------+-----------------+ 
-| Language              | <langcode>      |
-+=======================+=================+ 
-| English               | ``en``          |
-+-----------------------+-----------------+
-| Spanish (Spain)       | ``es-es``       | 
-+-----------------------+-----------------+ 
-| Spanish (Mexico)      | ``es-mx``       | 
-+-----------------------+-----------------+ 
-| French                | ``fr``          | 
-+-----------------------+-----------------+
-| Swahili (Tanzania)    | ``sw-tz``       | 
-+-----------------------+-----------------+
-| Arabic                | ``ar``          | 
-+-----------------------+-----------------+
-| Bulgarian             | ``bg``          | 
-+-----------------------+-----------------+
-| Farsi                 | ``fa``          | 
-+-----------------------+-----------------+
-| Hindi (India)         | ``hi-in``       | 
-+-----------------------+-----------------+
-| Urdu (Pakistan)       | ``ur-pk``       | 
-+-----------------------+-----------------+
-| Marathi               | ``mr``          | 
-+-----------------------+-----------------+
-| Chinyanja             | ``nyn``         | 
-+-----------------------+-----------------+
-| Portuguese (Brasil)   | ``pt-br``       | 
-+-----------------------+-----------------+
-| Telugu                | ``te``          | 
-+-----------------------+-----------------+
-| Vietnamese            | ``vi``          | 
-+-----------------------+-----------------+
-| Yoruba                | ``yo``          | 
-+-----------------------+-----------------+
-| Fulfulde Mbororoore   | ``ff-cm``       | 
-+-----------------------+-----------------+
-| Bengali               | ``bn-bd``       | 
-+-----------------------+-----------------+
-| Gujarati              | ``gu-in``       | 
-+-----------------------+-----------------+
-| Burmese               | ``my``          | 
-+-----------------------+-----------------+
++--------------------------+-----------------+ 
+| Language                 | <langcode>      |
++==========================+=================+ 
+| English                  | ``en``          |
++--------------------------+-----------------+
+| Spanish (Spain)          | ``es-es``       | 
++--------------------------+-----------------+ 
+| Spanish (Latin America)  | ``es-419``      | 
++--------------------------+-----------------+ 
+| French                   | ``fr``          | 
++--------------------------+-----------------+
+| Swahili (Tanzania)       | ``sw-tz``       | 
++--------------------------+-----------------+
+| Arabic                   | ``ar``          | 
++--------------------------+-----------------+
+| Bulgarian                | ``bg``          | 
++--------------------------+-----------------+
+| Farsi                    | ``fa``          | 
++--------------------------+-----------------+
+| Hindi (India)            | ``hi-in``       | 
++--------------------------+-----------------+
+| Urdu (Pakistan)          | ``ur-pk``       | 
++--------------------------+-----------------+
+| Marathi                  | ``mr``          | 
++--------------------------+-----------------+
+| Chinyanja                | ``nyn``         | 
++--------------------------+-----------------+
+| Portuguese (Brasil)      | ``pt-br``       | 
++--------------------------+-----------------+
+| Telugu                   | ``te``          | 
++--------------------------+-----------------+
+| Vietnamese               | ``vi``          | 
++--------------------------+-----------------+
+| Yoruba                   | ``yo``          | 
++--------------------------+-----------------+
+| Fulfulde Mbororoore      | ``ff-cm``       | 
++--------------------------+-----------------+
+| Bengali                  | ``bn-bd``       | 
++--------------------------+-----------------+
+| Gujarati                 | ``gu-in``       | 
++--------------------------+-----------------+
+| Burmese                  | ``my``          | 
++--------------------------+-----------------+
 
 
 
@@ -417,6 +418,10 @@ If you need Kolibri to start and run from a port different than the default ``80
      # Substitute 1234 with your desired port number
 
 
+.. tip::
+  If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary.  
+
+
 .. _profile_requests_ini:
 
 
@@ -508,3 +513,9 @@ Each log line contains this information:
 
 .. warning::
   Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``options.ini`` file. Without the ``PROFILE = 1`` key, command will not profile server requests (but just the current server state), and it will not create the second CSV file. 
+
+
+Hard drive provisioning for multiple Kolibri servers
+----------------------------------------------------
+
+For the recommended procedure to install and provision several Kolibri server devices, refer to our :ref:`hard drive provisioning tutorial <provision>`.
