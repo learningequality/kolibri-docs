@@ -437,7 +437,7 @@ After replicating your SD card and external storage device, you need re-register
 How many clients are supported?
 -------------------------------
 
-.. tip:: We recommend that you do your own benchmarking and share results in our `Community Forums <https://community.learningequality.org/>`_.
+.. tip:: We recommend that you do your own benchmarking and share experiences in our `Community Forums <https://community.learningequality.org/>`_. See especially this thread about `choosing a MicroSD card <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`_.
 
 One of the bigger questions that may be hard to answer is how many students that can use Kolibri on a Raspberry Pi at the same time. One of the biggest bottle necks will be the Raspberry Pi's built-in Wi-Fi. Maybe it will support 5-10 devices that are located in a close perimeter.
 
@@ -451,5 +451,3 @@ Future steps
 You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to :ref:`the one we added for Kolibri <nginx_custom_domain>`.
 
 Lower capacity hardware like a Raspberry Pi poses a bottle neck, but we recommend that you focus on the strong sides of the platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
-
-.. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
