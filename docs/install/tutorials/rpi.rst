@@ -437,13 +437,14 @@ After replicating your SD card and external storage device, you need re-register
 How many clients are supported?
 -------------------------------
 
+.. tip:: We recommend that you do your own benchmarking and share results in our `Community Forums <https://community.learningequality.org/>`_.
+
 One of the bigger questions that may be hard to answer is how many students that can use Kolibri on a Raspberry Pi at the same time. One of the biggest bottle necks will be the Raspberry Pi's built-in Wi-Fi. Maybe it will support 5-10 devices that are located in a close perimeter.
 
 The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``.
 
-If you are running behind an access point, a Raspberry Pi with 1 GB can easily support 10 clients, but your need to consider newer Raspberry Pi 4 devices if you want to support more than 10 clients.
+If you are running behind an access point, a Raspberry Pi with 1 GB may support 10 clients, but your need to consider newer Raspberry Pi 4 devices if you want to support more than 10 clients.
 
-  
 Future steps
 ------------
 
