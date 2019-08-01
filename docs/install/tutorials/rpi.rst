@@ -269,9 +269,14 @@ Installing Kolibri
       sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
       sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
       sudo apt update
-      sudo apt install kolibri
 
-   When asked questions during the installation, it is recommended that you use the default ``pi`` user for running Kolibri because it will have access to USB devices.
+#. Install ``kolibri`` and ``kolibri-server``:
+
+   .. code-block:: bash
+
+      sudo apt install kolibri kolibri-server
+
+   When asked questions during the installation, use the default TCP port ``8080`` for Kolibri (port 80 will be activated :ref:`later in this tutorial <nginx_custom_domain>`). The default ``pi`` user for running Kolibri because it will have access to USB devices.
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
@@ -296,6 +301,8 @@ Installing Kolibri
   * **I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial contents of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards.
 
     When replicating installations, you can save time if you connect the SD card of USB storage to another device with faster transfer speeds. Replication will be described in future guides.
+
+.. _nginx_custom_domain:
 
 Set up Kolibri local domain
 ***************************
@@ -329,7 +336,7 @@ Press :guilabel:`CTRL` + :guilabel:`X` to exit and save. Then enable the new con
 
 .. code-block:: console
 
-  ln -s /etc/nginx/sites-available/kolibri /etc/nginx/sites-enabled/
+  sudo ln -s /etc/nginx/sites-available/kolibri /etc/nginx/sites-enabled/
 
 Uninstall
 *********
@@ -426,18 +433,22 @@ After replicating your SD card and external storage device, you need re-register
   # This will ask you questions
   kolibri manage provisiondevice
 
+
+How many clients are supported?
+-------------------------------
+
+One of the bigger questions that may be hard to answer is how many students that can use Kolibri on a Raspberry Pi at the same time. One of the biggest bottle necks will be the Raspberry Pi's built-in Wi-Fi. Maybe it will support 5-10 devices that are located in a close perimeter.
+
+The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``.
+
+If you are running behind an access point, a Raspberry Pi with 1 GB can easily support 10 clients, but your need to consider newer Raspberry Pi 4 devices if you want to support more than 10 clients.
+
   
 Future steps
 ------------
 
-Kolibri is under development with regards to optimizing performance on Raspberry Pi. We are adding support for multiple CPU cores, and since the Raspberry Pi has 4 of these, it will benefit greatly. Tests indicate almost a factor 4.
-
-This work will be released in a future package targeting a pre-configured UWSGI and Nginx implementation, which will be possible to add by replacing the package of this tutorial with the new package. We will add a release note and update this tutorial accordingly.
-
 You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to the one we added for Kolibri.
 
-The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``.
-
-There are several bottle necks in this setup, but we recommend that you focus on the strong sides of the Raspberry Pi platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
+Lower capacity hardware like a Raspberry Pi poses a bottle neck, but we recommend that you focus on the strong sides of the platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
 
 .. tip:: Using a Raspberry Pi is subject to many tips and tricks not described here - please share your performance experiences in the `Community Forums <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__.
