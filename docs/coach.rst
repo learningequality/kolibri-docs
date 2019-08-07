@@ -85,9 +85,11 @@ Use the options in the **Plan** tab to create and manage the lessons, quizzes, a
 .. _coach_resource:
 
 Coach Support Resources
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
-`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. When content curators set the visibility this way, the resource in Kolibri will not be visible to learners, but only to admins, facility coaches, or other users assigned to coach classes. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. 
+`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. When content curators set the visibility this way, the resource will not be visible by learners while browsing Kolibri **Channels**, but only to admins, facility coaches, or other users assigned to coach classes. 
+
+However, coach can decide to include any of these resources in :ref:`lessons <manage_lessons>` or :ref:`quizzes <manage_quizzes>`, in which case they will be visible to learners in the context of that lesson or a quiz.
 
 	.. figure:: img/coach-resource-studio.png
 	  :alt: In Kolibri Studio content curators can set the visibility for a single resource, or for the entire topic.

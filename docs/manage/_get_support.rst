@@ -1,4 +1,4 @@
-.. _troubleshooting:
+.. _support:
 
 Troubleshooting
 ~~~~~~~~~~~~~~~
@@ -13,10 +13,8 @@ Troubleshoot Network Issues
 #. Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:
 
 	.. code-block:: bash
-	   
-	   ping 192.168.0.104
 
-#. Kolibri may change address every time you reboot your network equipment. Read about :ref:`static IP addresses <ips_static>`
+	   ping 192.168.0.104
 
 
 .. _firewalls:
@@ -42,7 +40,7 @@ In case you receive the ``database disk image is malformed`` error in Terminal, 
 	cp -b db.sqlite3* malformed
 	sqlite3 ~/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db
 	cp fixed.db ~/.kolibri/db.sqlite3
-	rm -f db.sqlite3-wal db.sqlite3-shm			
+	rm -f db.sqlite3-wal db.sqlite3-shm
 
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
@@ -52,6 +50,20 @@ Videos are not playing
 ----------------------
 
 Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using.
+
+
+Antivirus
+---------
+
+Some overzealous antivirus programs on Windows platform may preventively impede Kolibri or some of its components (for example ``python.exe``) from running correctly. If that happens you need to add them to the antivirus exclusion list. Below steps refer to the program **Avast**, but should be similar in other antivirus applications.
+
+1. Open **Avast**.
+2. Click on **Protection** in the sidebar.
+3. Click on **Virus Chest**.
+4. Find the file `python.exe` in the list.
+5. Right click on the file and select *Scan*.
+6. If the scan is inconclusive the ``python.exe`` file is not infected with a virus.
+7. Right click on the file and select *Restore and add to exclusions*.
 
 
 Problems with import and export from USB drives
@@ -75,12 +87,16 @@ Kolibri needs read and write access to USB drives in order to import and export 
 Locate Kolibri log files
 ------------------------
 
-When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing. 
+When you report a problem with Kolibri, we may ask you to send us Kolibri **log** files to help us find out why is it not working or crashing.
 
-Open the ``.kolibri`` folder inside the :ref:`Home <home>` folder of the device where Kolibri is running and locate these two files:
+Open the ``.kolibri/`` folder inside the :ref:`Home <home>` folder of the Kolibri server and locate the ``logs/`` folder. You will be able to find these two files:
 
-* ``kolibri.log``
-* ``debug.log``
+* ``kolibri.txt``
+* ``debug.txt``
+
+If the problem happened earlier than the dates in the above log, you can open the ``archive/`` folder inside ``logs/`` to find older log files:
+
+* ``kolibri-YYYY-MM-DD.txt``
 
 .. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
 
@@ -92,34 +108,7 @@ About IP addresses
 
 .. ``0.0.0.0`` = A special IP address on the **server** (your device running Kolibri and "serving" its content to others in the local network), which actually means "all available IP addresses". It's a kind of alias. But accessing ``0.0.0.0`` from another computer doesn't make sense and doesn't work. By default, Kolibri will serve on ``0.0.0.0``, which essentially means all IP addresses that are available on the device will render Kolibri accessible.
 
-* The ``127.0.0.1`` IP address, or ``localhost``, is a device's own IP address where it can access *itself*. You can use it in the browser on the device where Kolibri is running to make sure it is working correctly. 
-* Aside from its own `localhost <https://en.wikipedia.org/wiki/Localhost>`_ address, a device running Kolibri also has an external IP address like ``192.*.*.*`` or ``10.*.*.*``, under which other devices in the same local network can connect with. That is the IP address that you need to use in the :ref:`browsers on client devices <access_LAN>` (learner tablets or computers), to connect with Kolibri server.
+* ``127.0.0.1`` IP address, or ``localhost``, is device's own IP address. You can use it in the browser on the device where Kolibri is running to make sure it is working correctly.
+* Aside from its own `localhost <https://en.wikipedia.org/wiki/Localhost>`_ address, a device running Kolibri also has an external IP address like ``192.*.*.*`` or ``10.*.*.*``, under which it is recognized by other devices in the same local network. That is the IP address that you need to use in the :ref:`browsers on client devices <access_LAN>` (learner tablets or computers), to connect with Kolibri server.
 * Kolibri by default runs on the port number ``8080``, but you can :ref:`change this setting <port>` to meet your particular needs.
 * So when you type the full IP address like ``http://192.168.1.1:8080`` in the browser of a client device, you are telling it to: "Connect to IP address ``192.168.1.1`` on port ``8080`` with the HTTP protocol, and display its content".
-
-.. _ips_static:
-
-Static IP addresses
--------------------
-
-In order for other clients on your network to find Kolibri on a consistent IP address, this address shouldn't change.
-
-The default behavior of an operating system, no matter if it's Linux/Windows/Mac, will be to receive an IP address from a network authority, i.e. a *DHCP server*. DHCP is a service that's typically run on the local access point or router.
-
-Therefore, you should be cautious that when such a router or access point restarts (for instance during a power cut), it may forget the IP address assigned to your Kolibri device, and thus the IP changes.
-
-To fix this, you have two general options:
-
-#. Find out how to log in and configure your access point or router, such that it assigns the same IP address consistently to your Kolibri device.
-
-   .. tip:: Any network interface, both a WIFI and a cabled ethernet, has a *MAC* address that's consistent. You can use this *MAC* address by configuring your router or access point to assign the same IP address every time.
-
-#. Configure your Kolibri device to use a static IP address: Instead of asking a DHCP server for an IP address, your device can choose one itself.
-
-   .. warning:: If you choose an IP address that's already in use on the network, you can have an IP conflict on your network where traffic doesn't get routed correctly. You need to choose an IP address on the same *subnet* as your automatically assigned DHCP address, but also an address that won't be used by the DHCP server, i.e. outside of the *DHCP range*. For instance, a DHCP server could hand out IP address from `192.168.1.10` to 192.168.1.255` and the router would be located on `192.168.1.1`. Thus, `192.168.1.2` would be free to assign.
-
-
-Still not working?
-------------------
-
-Read about :ref:`getting support from online community <support>`.

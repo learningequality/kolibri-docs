@@ -1,13 +1,14 @@
+.. _manage_advanced:
+
+Advanced Management
+~~~~~~~~~~~~~~~~~~~
+
 .. _command_line:
-
-Advanced Manage Options
-~~~~~~~~~~~~~~~~~~~~~~~
-
 
 Working with Kolibri from the Command Line
 ------------------------------------------
 
-* In Windows you need to open the command prompt (for example with the :guilabel:`WIN` + :guilabel:`R` shortcut, and typing ``cmd``) in the folder where Kolibri executable is located. When Python is installed on drive ``C:`` the correct path will most probably be ``C:/Python27/Scripts`` in Kolibri up to version 0.9, and ``C:/Python34/Scripts`` in version 0.10 or above.
+* In Windows you need to open the command prompt, for example by using the :guilabel:`WIN` + :guilabel:`R` shortcut, and then typing ``cmd``.
 
       .. figure:: img/cmd.exe.png
         :alt: 
@@ -16,7 +17,7 @@ Working with Kolibri from the Command Line
 
 * If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
 
-* In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
+.. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
 
 If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
@@ -37,16 +38,6 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
   kolibri stop
 
 
-.. Run Kolibri from a Different Port
-
-..  If you need to change the default port ``8080`` from which Kolibri is serving content, add the following flag to the previous command.
-
-.. 
-  .. code-block:: bash
-
-    kolibri start --port <new-port-number>
-
-
 .. _import_command_line:
 
 
@@ -60,6 +51,13 @@ To import content channels from Internet, run these two commands in sequence. Th
   kolibri manage importchannel -- network <Channel ID>
   kolibri manage importcontent -- network <Channel ID>
 
+
+For example (``Channel ID`` without angle brackets ``<...>``): 
+
+.. code-block:: bash
+
+  kolibri manage importchannel -- network a9b25ac9814742c883ce1b0579448337
+  kolibri manage importcontent -- network a9b25ac9814742c883ce1b0579448337
 
 .. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
@@ -85,7 +83,7 @@ To export Kolibri content channels on a local drive in order to share it with an
 .. code-block:: bash
 
   kolibri manage exportchannel -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
-  kolibri manage exportcontent -- <Channel ID> /mount/mydrive/KOLIBRI_DATA 
+  kolibri manage exportcontent -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
@@ -188,6 +186,18 @@ To import users into Kolibri with this command, you will need to provide the use
   kolibri manage importusers your-csv-file.csv --facility <your-facility>
 
 
+Change User's Password
+**********************
+
+Run the following command to change the password for a user. 
+
+.. code-block:: bash
+
+  kolibri manage changepassword <username>
+
+You will be prompted twice to input the new password for the user.
+
+
 Delete Users Permanantly
 ************************
 
@@ -208,41 +218,49 @@ Change Language
 
   kolibri language setdefault <langcode>
 
-+-----------------------+-----------------+ 
-| Language              | <langcode>      |
-+=======================+=================+ 
-| English               | ``en``          |
-+-----------------------+-----------------+
-| Spanish (Spain)       | ``es-es``       | 
-+-----------------------+-----------------+ 
-| Spanish (Mexico)      | ``es-mx``       | 
-+-----------------------+-----------------+ 
-| French                | ``fr``          | 
-+-----------------------+-----------------+
-| Swahili (Tanzania)    | ``sw-tz``       | 
-+-----------------------+-----------------+
-| Arabic                | ``ar``          | 
-+-----------------------+-----------------+
-| Bulgarian             | ``bg``          | 
-+-----------------------+-----------------+
-| Farsi                 | ``fa``          | 
-+-----------------------+-----------------+
-| Hindi (India)         | ``hi-in``       | 
-+-----------------------+-----------------+
-| Urdu (Pakistan)       | ``ur-pk``       | 
-+-----------------------+-----------------+
-| Marathi               | ``mr``          | 
-+-----------------------+-----------------+
-| Chinyanja             | ``nyn``         | 
-+-----------------------+-----------------+
-| Portuguese (Brasil)   | ``pt-br``       | 
-+-----------------------+-----------------+
-| Telugu                | ``te``          | 
-+-----------------------+-----------------+
-| Vietnamese            | ``vi``          | 
-+-----------------------+-----------------+
-| Yoruba                | ``yo``          | 
-+-----------------------+-----------------+
++--------------------------+-----------------+ 
+| Language                 | <langcode>      |
++==========================+=================+ 
+| English                  | ``en``          |
++--------------------------+-----------------+
+| Spanish (Spain)          | ``es-es``       | 
++--------------------------+-----------------+ 
+| Spanish (Latin America)  | ``es-419``      | 
++--------------------------+-----------------+ 
+| French                   | ``fr``          | 
++--------------------------+-----------------+
+| Swahili (Tanzania)       | ``sw-tz``       | 
++--------------------------+-----------------+
+| Arabic                   | ``ar``          | 
++--------------------------+-----------------+
+| Bulgarian                | ``bg``          | 
++--------------------------+-----------------+
+| Farsi                    | ``fa``          | 
++--------------------------+-----------------+
+| Hindi (India)            | ``hi-in``       | 
++--------------------------+-----------------+
+| Urdu (Pakistan)          | ``ur-pk``       | 
++--------------------------+-----------------+
+| Marathi                  | ``mr``          | 
++--------------------------+-----------------+
+| Chinyanja                | ``nyn``         | 
++--------------------------+-----------------+
+| Portuguese (Brasil)      | ``pt-br``       | 
++--------------------------+-----------------+
+| Telugu                   | ``te``          | 
++--------------------------+-----------------+
+| Vietnamese               | ``vi``          | 
++--------------------------+-----------------+
+| Yoruba                   | ``yo``          | 
++--------------------------+-----------------+
+| Fulfulde Mbororoore      | ``ff-cm``       | 
++--------------------------+-----------------+
+| Bengali                  | ``bn-bd``       | 
++--------------------------+-----------------+
+| Gujarati                 | ``gu-in``       | 
++--------------------------+-----------------+
+| Burmese                  | ``my``          | 
++--------------------------+-----------------+
 
 
 
@@ -261,11 +279,11 @@ This command will create a time-stamped ``.dump`` file in the ``./kolibri/backup
 
   kolibri manage dbrestore --latest
 
-If you need to restore a backup version prior to the latest one, you must specify the full path to a specific ``*.dump`` file.
+To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to see all that available sorted by date, and select the one you need.
 
 .. code-block:: bash
 
-  kolibri manage dbrestore ~/.kolibri/backups/db-xxxx.dump
+  kolibri manage dbrestore --select
 
 .. warning::
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.
@@ -400,6 +418,10 @@ If you need Kolibri to start and run from a port different than the default ``80
      # Substitute 1234 with your desired port number
 
 
+.. tip::
+  If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary.  
+
+
 .. _profile_requests_ini:
 
 
@@ -491,3 +513,9 @@ Each log line contains this information:
 
 .. warning::
   Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``options.ini`` file. Without the ``PROFILE = 1`` key, command will not profile server requests (but just the current server state), and it will not create the second CSV file. 
+
+
+Hard drive provisioning for multiple Kolibri servers
+----------------------------------------------------
+
+For the recommended procedure to install and provision several Kolibri server devices, refer to our :ref:`hard drive provisioning tutorial <provision>`.

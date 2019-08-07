@@ -5,11 +5,13 @@ Install Kolibri
 
 See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>`_ to review specific changes in each version of Kolibri. Documentation for `previous Kolibri versions are available here <https://readthedocs.org/projects/kolibri/>`_.
 
+.. putting back tutorials in the TOC
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
    install/tutorials/index
+
 
 .. include:: install/_system_requirements.rst
 
@@ -18,9 +20,6 @@ See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>
 
 
 .. include:: install/_linux.rst
-
-
-.. include:: install/_rpi.rst
 
 
 .. include:: install/_osx.rst
