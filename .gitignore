@@ -38,7 +38,6 @@ kolibri/locale/en/
 .project
 .vscode
 .pydevproject
-.venv
 .idea
 *.sublime-project
 *.sublime-workspace
@@ -59,3 +58,7 @@ Icon
 
 # Ignore downloaded crowdin client
 crowdin-cli.jar
+
+# pipenv
+.venv
+Pipfile
