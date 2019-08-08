@@ -276,7 +276,7 @@ Installing Kolibri
 
       sudo apt install kolibri kolibri-server
 
-   When asked questions during the installation, use the default TCP port ``8080`` for Kolibri (port 80 will be activated :ref:`later in this tutorial <nginx_custom_domain>`). The default ``pi`` user for running Kolibri because it will have access to USB devices.
+   When prompted, use the default TCP port ``8080`` for Kolibri because port ``80`` will be used by Nginx :ref:`later in this tutorial <nginx_custom_domain>`. Use the default ``pi`` user so that it will have access to USB devices.
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
@@ -439,15 +439,15 @@ How many clients are supported?
 
 .. tip:: We recommend that you do your own benchmarking and share experiences in our `Community Forums <https://community.learningequality.org/>`_. See especially this thread about `choosing a MicroSD card <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`_.
 
-One of the bigger questions that may be hard to answer is how many students that can use Kolibri on a Raspberry Pi at the same time. One of the biggest bottle necks will be the Raspberry Pi's built-in Wi-Fi. Maybe it will support 5-10 devices that are located in a close perimeter.
+It can be hard to predict how many students will be able to use Kolibri on a Raspberry Pi at the same time. A major bottleneck will be the Raspberry Pi's built-in Wi-Fi, which might support 5-10 devices in a radius confined by the limited broadcasting power of said Wi-Fi.
 
 The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``.
 
-If you are running behind an access point, a Raspberry Pi with 1 GB may support 10 clients, but your need to consider newer Raspberry Pi 4 devices if you want to support more than 10 clients.
+A Raspberry Pi with 1 GB of RAM may support 10 clients when run behind an access point, but you will likely need a newer Raspberry Pi 4 device if you want to support more than 10 clients.
 
-Future steps
-------------
+Next steps
+----------
 
 You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to :ref:`the one we added for Kolibri <nginx_custom_domain>`.
 
-Lower capacity hardware like a Raspberry Pi poses a bottle neck, but we recommend that you focus on the strong sides of the platform: It's low-cost and uses little electricity. Perhaps you can connect it to solar power? Perhaps you can implement a good system for distributing software updates and replacement parts?
+The Raspberry Pi has the advantages of being low-cost and energy efficient: You can connect it to solar power; you can also implement a good system for distributing software updates and replacement parts through SD Cards and external USB media. Not least, you can make the Raspberry Pi itself a hot-swap element in a setup, such that the whole device is collected and replaced during upgrades. We leave these steps up to you, but please feel free to share your ideas in the `Community Forum <https://community.learningequality.org/>`__.
