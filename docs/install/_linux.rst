@@ -6,7 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavours, for instance Xubuntu and Mint.
+Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavors, for instance Xubuntu and Mint.
 
 .. _ppa:
 
@@ -31,6 +31,15 @@ Install from PPA repository
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
     sudo apt-get update
     sudo apt-get install kolibri
+
+Uninstall
+*********
+From the command line: ``sudo apt-get remove kolibri``.
+
+Upgrade
+*******
+
+When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
 
 .. _lin_deb:
@@ -59,14 +68,14 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
 
 
 Uninstall
----------
+*********
 
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 * Or from the command line: ``sudo apt-get remove kolibri``.
 
 
 Upgrade
--------
+*******
 
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
@@ -98,3 +107,37 @@ To change the system service owner, you need to change the configuration of the 
 	sudo systemctl start kolibri
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
+
+
+Higher Performance with the ``kolibri-server`` package
+------------------------------------------------------
+
+We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. 
+
+``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and with ``kolibri-server`` it will likely be able to serve 2-3 times more client devices compared to base Kolibri.
+
+To install ``kolibri-server`` follow these steps.
+
+#. Run these commands in the Terminal:
+
+  .. code-block:: bash
+
+    sudo apt-get install software-properties-common dirmngr
+    sudo add-apt-repository ppa:learningequality/kolibri-proposed
+    sudo apt-get update
+    sudo apt-get install kolibri-server
+
+  During the installation you will be offered the option to choose the port (8000, 80 or leave the default 8080).
+
+2. Restart the system.
+
+.. warning:: * Be advised that this procedure also switches the setup to use the latest built Kolibri pre-release.
+  * Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local WiFi access point characteristics.
+
+
+Raspberry Pi
+------------
+
+To install Kolibri on RPi refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`.
+
+.. warning:: Kolibri is intended for **Raspberry Pi Model 3** and upwards.

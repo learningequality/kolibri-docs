@@ -61,6 +61,13 @@ Kolibri can serve high quality education content from several publicly available
    :maxdepth: 3
    :hidden:
 
+   advanced
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+
+
    coach
 
 .. toctree::

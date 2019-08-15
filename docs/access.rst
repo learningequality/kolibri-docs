@@ -28,6 +28,9 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
 * When installed, **Kolibri** will open in the browser every time it is started. Uncheck the option **Open browser when Kolibri starts** if you prefer to have it running in the background, and to open it manually in the browser by typing the URL http://127.0.0.1:8080 in the address bar.
 * Select **Exit** to stop **Kolibri**. You will be prompted to confirm the selection, after which **Kolibri** will stop. You will have to close the browser (or the tab) manually.
 
+.. tip:: 
+  If you close the browser window, Kolibri will still be running in the background. Use the **Load in browser** menu item to reopen it in the browser.
+
 .. note::
   Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
 
@@ -78,7 +81,7 @@ Kolibri currently supports the following combinations of operating systems and b
 * Windows 7, 8.1 and 10: IE 11+, Chrome and Firefox
 * MacOS 10.6+: Safari, Chrome and Firefox
 * Linux: any browser
-* Android 4.2+: Chrome and Firefox
+* Android 4.4+: Chrome and Firefox
 * iOS 10+: Safari, Chrome and Firefox
 
 .. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.

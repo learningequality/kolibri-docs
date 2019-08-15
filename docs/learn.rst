@@ -190,7 +190,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. When you are ready to submit, click the :guilabel:`CHECK` button.
 
    * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
-   * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` button, read the suggestions, and try to answer again.
+   * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
@@ -198,7 +198,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the :guilabel:`NEXT RESOURCE` below to continue learning with the rest of the material in that topic.
+#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the card under the **Next resource** heading below to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 
@@ -293,7 +293,7 @@ If your teacher or coach scheduled an *quiz* (|exams| icon) for you or your clas
 If the quiz is listed as *Not started*, follow these steps.
 
 #. Click on the quiz when you are ready to start taking it.
-#. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT QUESTION` buttons, or click on the question number in the column on the left side.
+#. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT` buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
 		:alt: 

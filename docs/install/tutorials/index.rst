@@ -1,3 +1,4 @@
+:orphan:
 Tutorials
 #########
 
@@ -8,3 +9,7 @@ Step-by-step guides with more details.
 
    rpi
 
+.. toctree::
+   :maxdepth: 1
+
+   provision

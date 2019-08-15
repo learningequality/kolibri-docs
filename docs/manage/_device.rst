@@ -76,4 +76,22 @@ To view the detailed info of the device where Kolibri is running on, use the **I
 		.. figure:: img/device-info.png
 		  :alt: Open the Device page and navigate to the Info tab to find out the extended device info.
 
-	  	  Find out the extended device info in the Device > Info tab.	
+	  	  Find out the extended device info in the Device > Info tab.
+
+Set Default Language
+--------------------
+
+The language you have chosen during the :ref:`setup_initial` will be set as the **default language** for all users who access Kolibri on the server device. You can change the default language for Kolibri from the **Settings** tab in your **Device** dashboard (|lock| icon).
+
+#. Select the desired default language from the drop-down menu. You can set Kolibri to display in the language defined by the browser content settings, or in any of the :ref:`currently supported languages <languages>`.
+
+	.. figure:: img/default-language.png
+		:alt: Open the Device page and navigate to Settings tab to set the default language.
+
+		Manage device language settings.
+
+
+#. Click :guilabel:`SAVE` to apply and finish.
+
+.. note::
+  All users will still be able to :ref:`change to their own language of preference <change_language>` from the user menu options.
