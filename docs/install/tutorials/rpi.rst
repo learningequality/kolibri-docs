@@ -127,21 +127,11 @@ Use the arrow keys to navigate to the end of the file, then copy and paste the f
       static ip_address=192.168.4.1/24
       nohook resolv.conf, wpa_supplicant
 
-Then, make your current local DNS available
-
 After installing the new ``hostapd`` and ``dnsmasq`` packages and setting a static IP, you should reboot the system.
 
 .. code-block:: console
 
   sudo reboot
-
-After rebooting, you can ensure that your system is running with the static IP address by running the command ``ipconfig`` and reviewing that ``wlan0`` has the new IP address printed. It should contain this output (notice the IP address):
-
-.. code-block:: text
-
-  wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-          inet 192.168.4.1  netmask 255.255.255.0  broadcast 192.168.4.255
-          inet6 fe80::e02e:4991:29ac:f076  prefixlen 64  scopeid 0x20<link>
 
 Configure DHCP and DNS
 **********************
@@ -163,14 +153,34 @@ Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` t
   # Let the Raspberry Pi resolve to all DNS queries
   address=/#/192.168.4.1
 
+  interface=wlan0
+
+    # Gateway + DNS server
+    dhcp-option=3,192.168.4.1
+    dhcp-option=6,192.168.4.1
+
+    # specify the range of IPs that will be handed out
+    dhcp-range=192.168.4.2,192.168.4.200,255.255.255.0,24h
+
+    # Let the Raspberry Pi resolve to all DNS queries
+    address=/#/192.168.4.1
+
+Next, we need to make sure dnsmasq doesn't interfere with local DNS requests made from the Pi:
+
+.. code-block:: console
+
+  sudo nano /etc/default/dnsmasq
+
+Copy and paste the following text at the end of the file, then press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
+
+.. code-block:: text
+
+  # do not overwrite /etc/resolv.conf so that local DNS still goes through
+  DNSMASQ_EXCEPT=lo
+
 .. warning::
 
-  These settings override the possibility to connect to an online source using the Wi-Fi. It is still possible to connect to the internet **through the cabled network**, however you will need to configure a DNS server manually every time you reboot the device. Put the IP of your DNS provider in ``/etc/resolve.conf``. If you don't know it, you can use Google's OpenDNS address ``8.8.8.8`` as in this example:
-
-  .. code-block:: console
-
-    echo "nameserver 8.8.8.8" > /etc/resolv.conf
-
+  These settings override the possibility to connect to an online source using the Wi-Fi. It is still possible to connect to the internet **through the cabled network**.
 
 Configure the access point
 **************************
@@ -179,7 +189,7 @@ You will need to write a configuration file with information about your local Wi
 
 .. code-block:: console
 
-  sudo nano /etc/default/hostapd
+  sudo nano /etc/hostapd/hostapd.conf
 
 In the file, copy in the following configuration to specify the name of the network, its Wi-Fi channel (frequency) and bandwidth mode (we recommend 2.4 GHz 'g' mode). Set ``hw_mode=a`` to use 5 GHz. Press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
 
@@ -218,6 +228,8 @@ Finally, start the access point system service ``hostapd`` and the DHCP and DNS 
 
 .. code-block:: console
 
+  sudo systemctl unmask hostapd
+  sudo systemctl enable hostapd
   sudo systemctl start hostapd
   sudo systemctl start dnsmasq
 
@@ -307,9 +319,9 @@ Installing Kolibri
 Set up Kolibri local domain
 ***************************
 
-After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type, for example, a domain ``kolibri.lan`` in the browser location bar, and because of our captive portal, it will display.
+After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type, for example, a domain ``kolibri.library`` in the browser location bar, and because of our captive portal, it will display.
 
-.. tip:: You can use another domain name instead of ``kolibri.lan``.
+.. tip:: You can use another domain name instead of ``kolibri.library``.
 
 To enable your Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:
 
@@ -325,7 +337,7 @@ Copy and paste the following into the configuration file:
     listen 80;
     listen [::]:80;
 
-    server_name kolibri kolibri.lan;
+    server_name kolibri kolibri.library;
 
     location / {
       proxy_pass http://127.0.0.1:8080;
