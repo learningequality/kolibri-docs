@@ -224,7 +224,7 @@ Finally, start the access point system service ``hostapd`` and the DHCP and DNS 
   sudo systemctl unmask hostapd
   sudo systemctl enable hostapd
   sudo systemctl start hostapd
-  sudo systemctl start dnsmasq
+  sudo systemctl restart dnsmasq
 
 
 .. _captive_portal:
