@@ -77,7 +77,7 @@ Run ``sudo rpi-update`` to update the firmware. Nothing in this tutorial necessi
 General system configuration
 ----------------------------
 
-Run ``sudo raspi-config`` for the general setup options such as keyboard layout, timezone etc.
+Run ``sudo raspi-config`` for the general setup options such as password change, keyboard layout, timezone etc.
 
 .. warning:: Always change your password after setting up device. The default password for the user ``pi`` is ``raspberry``.
 
@@ -146,24 +146,17 @@ Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` t
 
 .. code-block:: text
 
+  interface=wlan0
+
   # Gateway + DNS server
   dhcp-option=3,192.168.4.1
   dhcp-option=6,192.168.4.1
 
+  # specify the range of IPs that will be handed out
+  dhcp-range=192.168.4.2,192.168.4.200,255.255.255.0,24h
+
   # Let the Raspberry Pi resolve to all DNS queries
   address=/#/192.168.4.1
-
-  interface=wlan0
-
-    # Gateway + DNS server
-    dhcp-option=3,192.168.4.1
-    dhcp-option=6,192.168.4.1
-
-    # specify the range of IPs that will be handed out
-    dhcp-range=192.168.4.2,192.168.4.200,255.255.255.0,24h
-
-    # Let the Raspberry Pi resolve to all DNS queries
-    address=/#/192.168.4.1
 
 Next, we need to make sure dnsmasq doesn't interfere with local DNS requests made from the Pi:
 
@@ -234,6 +227,8 @@ Finally, start the access point system service ``hostapd`` and the DHCP and DNS 
   sudo systemctl start dnsmasq
 
 
+.. _captive_portal:
+
 Setting up a "Captive portal"
 -----------------------------
 
@@ -252,9 +247,7 @@ Firstly, install the HTTP server nginx:
 
   sudo apt install nginx
 
-Then, you need to edit and adapt your default Captive Portal page. You can use :download:`this template </data/captive_portal_index.html>`.
-
-Copy the contents of the template by editing ``/var/www/html/index.html``:
+Then, you need to edit and adapt your default Captive Portal page. You can use :download:`this template </data/captive_portal_index.html>` (displayed in the previous screenshot). Copy-paste the contents of the template by editing ``/var/www/html/index.html``:
 
 .. code-block:: console
 
