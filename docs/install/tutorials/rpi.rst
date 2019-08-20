@@ -281,10 +281,11 @@ Installing Kolibri
 
       sudo apt install kolibri kolibri-server
 
-   When prompted, use the default TCP port ``8080`` for Kolibri because port ``80`` will be used by Nginx :ref:`later in this tutorial <nginx_custom_domain>`. Use the default ``pi`` user so that it will have access to USB devices.
+   During the installation, make the following choices if prompted: Use the default TCP port ``8080`` for Kolibri because port ``80`` will be used by Nginx :ref:`later in this tutorial <nginx_custom_domain>`. Enable the Kolibri system service by selecting ``Yes`` when prompted to run Kolibri on start-up. Use the default ``pi`` user so that it will have access to USB devices.
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
+.. note:: The regular Kolibri system service will run background tasks, but its HTTP server is disabled, as all this is handled by the Nginx and UWSGI configuration.
 
 .. note:: The following issues are quite common on a Raspberry Pi:
 
@@ -342,6 +343,14 @@ Press :guilabel:`CTRL` + :guilabel:`X` to exit and save. Then enable the new con
 .. code-block:: console
 
   sudo ln -s /etc/nginx/sites-available/kolibri /etc/nginx/sites-enabled/
+
+
+Finally, reload Nginx for the new site to be available:
+
+.. code-block:: console
+
+  sudo systemctl reload nginx
+
 
 Uninstall
 *********
@@ -414,6 +423,12 @@ Once the Pi device is deployed, the desktop environment may no longer serve a pu
   sudo raspi-config
 
 
+Remote access
+*************
+
+For remote access, you should consider adding SSH (Secure Shell). Once installed and enabled, you can manage the Raspberry Pi without connecting a screen and keyboard and instead logging in from a computer connected to the device through LAN or Wi-Fi. You can use ``sudo raspi-config`` to enable the SSH system service. Read more in the `official Raspberry Pi docs <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_.
+
+
 .. _rpi_replication:
 
 Saving your image for replication
@@ -452,8 +467,6 @@ A Raspberry Pi with 1 GB of RAM may support 10 clients when run behind an access
 
 Next steps
 ----------
-
-For remote access, you should consider adding SSH (Secure Shell). You can use ``sudo raspi-config`` to enable the SSH system service. Read more in the `official Raspberry Pi docs <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_.
 
 You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to :ref:`the one we added for Kolibri <nginx_custom_domain>`.
 
