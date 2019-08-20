@@ -460,6 +460,8 @@ A Raspberry Pi with 1 GB of RAM may support 10 clients when run behind an access
 Next steps
 ----------
 
+For remote access, you should consider adding SSH (Secure Shell). You can use ``sudo raspi-config`` to enable the SSH system service. Read more in the `official Raspberry Pi docs <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_.
+
 You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to :ref:`the one we added for Kolibri <nginx_custom_domain>`.
 
 The Raspberry Pi has the advantages of being low-cost and energy efficient: You can connect it to solar power; you can also implement a good system for distributing software updates and replacement parts through SD Cards and external USB media. Not least, you can make the Raspberry Pi itself a hot-swap element in a setup, such that the whole device is collected and replaced during upgrades. We leave these steps up to you, but please feel free to share your ideas in the `Community Forum <https://community.learningequality.org/>`__.
