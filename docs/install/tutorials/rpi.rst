@@ -119,7 +119,7 @@ It is defined in the configuration file ``/etc/dhcpcd.conf``, which you can edit
 
   sudo nano /etc/dhcpcd.conf
 
-Use the arrow keys to navigate to the end of the file, then copy and paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
+Use the arrow keys to navigate to the end of the file, then copy and paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to save and exit. This configuration sets ``192.168.4.1`` as the IP address of the server on the configured Wi-Fi network. If you want to change this, you will have to be aware of other consequential changes necessary in the remaining part of this tutorial.
 
 .. code-block:: text
 
