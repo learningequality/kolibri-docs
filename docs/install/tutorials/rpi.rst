@@ -272,9 +272,11 @@ Installing Kolibri
 
 #. Add our Ubuntu PPA with these special instructions:
 
+   .. warning:: The package ``kolibri-server`` is currently undergoing final testing. We are distributing ``kolibri-server`` through a development repository (PPA) called ``kolibri-proposed``. This will change in September 2019, replacing ``kolibri-proposed`` below with ``kolibri``. Please stay tuned for the change.
+
    .. code-block:: bash
 
-      sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
+      sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri-proposed/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
       sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
       sudo apt update
 
