@@ -19,7 +19,7 @@ Prerequisites
     :figwidth: 50%
 
     Raspberry Pi 3
-    
+
 
 * Raspberry Pi Model 3+
 * Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)
@@ -62,7 +62,7 @@ Updating the software
 ---------------------
 
 After installing and starting up your Raspberry Pi, it is recommended that you upgrade all the software on the device:
-  
+
 .. code-block:: console
 
   sudo apt update
@@ -179,7 +179,7 @@ You will need to write a configuration file with information about your local Wi
 
 .. code-block:: console
 
-  sudo nano /etc/default/hostapd
+  sudo nano /etc/hostapd/hostapd.conf
 
 In the file, copy in the following configuration to specify the name of the network, its Wi-Fi channel (frequency) and bandwidth mode (we recommend 2.4 GHz 'g' mode). Set ``hw_mode=a`` to use 5 GHz. Press :guilabel:`CTRL` + :guilabel:`X` to save and exit.
 
@@ -187,7 +187,7 @@ In the file, copy in the following configuration to specify the name of the netw
 
   interface=wlan0
   driver=nl80211
-  ssid=Offline Library 
+  ssid=Offline Library
   hw_mode=g
   channel=7
   wmm_enabled=0
@@ -197,7 +197,7 @@ In the file, copy in the following configuration to specify the name of the netw
 
   # Remove the '#' in front of below lines to set a password 'Password'
   # wpa=2
-  # wpa_passphrase=Password            
+  # wpa_passphrase=Password
   # wpa_key_mgmt=WPA-PSK
   # wpa_pairwise=TKIP
   # rsn_pairwise=CCMP
@@ -273,7 +273,7 @@ Installing Kolibri
 
    When asked questions during the installation, it is recommended that you use the default ``pi`` user for running Kolibri because it will have access to USB devices.
 
-#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility.
 
 
 .. note:: The following issues are quite common on a Raspberry Pi:
@@ -281,7 +281,7 @@ Installing Kolibri
   * **System time** isn't set properly or resets during power-off. This causes errors while downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
 
   * **Storage space** is often scarce. If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
-  
+
     Using the built-in management command:
 
     .. code-block:: bash
@@ -347,7 +347,7 @@ Attaching USB storage
 Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry Pi. In order to have more content, such as the full Khan Academy, you may want to attach a USB storage media -- a flash device or a hard drive.
 
 .. tip:: Moving content: If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
-  
+
     Using the built-in management command:
 
     .. code-block:: console
@@ -426,7 +426,7 @@ After replicating your SD card and external storage device, you need re-register
   # This will ask you questions
   kolibri manage provisiondevice
 
-  
+
 Future steps
 ------------
 
