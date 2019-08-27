@@ -171,12 +171,15 @@ Copy and paste the following text at the end of the file, then press :guilabel:`
   # do not overwrite /etc/resolv.conf so that local DNS still goes through
   DNSMASQ_EXCEPT=lo
 
-.. warning::
-
-  These settings override the possibility to connect to an online source using the Wi-Fi. It is still possible to connect to the internet **through the cabled network**.
 
 Configure the access point
 **************************
+
+.. warning::
+
+  This will activate a new network configuration and override the possibility to connect to an online source using the Wi-Fi. Connecting to the internet remains possible **through the cabled network**. The tutorial has a few steps left that require connectivity for downloading and setting up Nginx and Kolibri. If the Pi is online through the Wi-Fi, do not reboot the device or execute the ``systemctl`` commands found at the end of this section until at the very end of the tutorial. You should also download and install all necessary software and Kolibri channels.
+
+.. tip:: We recommend connecting the device to an internet connection through cable (ethernet), such that you have a reliable way of downloading content and software at all times.
 
 You will need to write a configuration file with information about your local Wi-Fi network.
 
@@ -315,13 +318,13 @@ Set up Kolibri local domain
 
 After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type, for example, a domain ``kolibri.library`` in the browser location bar, and because of our captive portal, it will display.
 
-.. tip:: You can use another domain name instead of ``kolibri.library``.
-
 To enable your Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:
 
 .. code-block:: console
 
   sudo nano /etc/nginx/sites-available/kolibri
+
+.. tip:: You can use another domain name instead of ``kolibri.library``. This is configured in the below configuration.
 
 Copy and paste the following into the configuration file:
 
@@ -339,6 +342,7 @@ Copy and paste the following into the configuration file:
   }
 
 Press :guilabel:`CTRL` + :guilabel:`X` to exit and save. Then enable the new configuration by linking it into the directory of enabled virtual hosts:
+
 
 .. code-block:: console
 
