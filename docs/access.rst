@@ -31,6 +31,19 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
 .. tip:: 
   If you close the browser window, Kolibri will still be running in the background. Use the **Load in browser** menu item to reopen it in the browser.
 
+
+.. _ncomputing 
+
+.. warning::
+  If you install Kolibri in settings with various virtual desktops running on the same single hardware device (for example with NComputing), you need to make sure that Kolibri is running **only from the admin account (terminal)**. Confirm that the **Run Kolibri at system startup** option is checked when the admin logs in, and unchecked with all the other user accounts.
+
+  It is also recommended that you remove the Kolibri desktop laucher icon from all non admin accounts in this type of setup, and substitute it with a regular shortcut that opens the Kolibri server IP. To add the desktop shortcut follow these steps.
+
+  #. Right click anywhere on the desktop.
+  #. Select *New > Shortcut*.
+  #. Type in the Kolibri server IP (most probably ``http://127.0.0.1``), save and exit.
+  #. Double-click the shortcut to test if it opens the browser and loads Kolibri.
+
 .. note::
   Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
 
