@@ -272,13 +272,9 @@ Installing Kolibri
 
 #. Add our Ubuntu PPA with these special instructions:
 
-   .. warning:: The package ``kolibri-server`` is currently undergoing final testing. We are distributing ``kolibri-server`` through a development repository (PPA) called ``kolibri-proposed``, which is a temporary addition to the below commands. This will change in September 2019, removing one of the lines below and the specification of the Kolibri version number in the next step. Please stay tuned for the change.
-
    .. code-block:: bash
 
-      sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" >> /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
-      # The below command will be removed in September 2019, see above warning
-      sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri-proposed/ubuntu xenial main" >> /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
+      sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu xenial main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-xenial.list'
       sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
       sudo apt update
 
@@ -286,8 +282,7 @@ Installing Kolibri
 
    .. code-block:: bash
 
-      # Notice that the version of Kolibri is pinned, this will change once we have removed the 'kolibri-proposed' PPA.
-      sudo apt install kolibri=0.12.8-0ubuntu1 kolibri-server
+      sudo apt install kolibri kolibri-server
 
    During the installation, make the following choices if prompted: Use the default TCP port ``8080`` for Kolibri because port ``80`` will be used by Nginx :ref:`later in this tutorial <nginx_custom_domain>`. Enable the Kolibri system service by selecting ``Yes`` when prompted to run Kolibri on start-up. Use the default ``pi`` user so that it will have access to USB devices.
 
