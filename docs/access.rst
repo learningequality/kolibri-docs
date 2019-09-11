@@ -35,7 +35,7 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
 .. _ncomputing: 
 
 .. warning::
-  If you install Kolibri in settings with various virtual desktops running on the same single hardware device (for example with NComputing), you need to make sure that Kolibri is running **only from the admin account**. Confirm that the **Run Kolibri at system startup** taskbar option is checked only when the admin logs in, but unchecked when any other user of virtual desktops is logged in.
+  In some Windows multi-user environments (for example NComputing), you need to make sure that Kolibri is running **only from the admin account** to avoid having Kolibri started for each login/session. Confirm that the **Run Kolibri at system startup** taskbar option is checked only when the admin logs in, but unchecked when any other user of virtual desktops is logged in.
 
   It is also recommended that you remove the Kolibri desktop laucher icon from all non admin accounts in this type of setup, and substitute it with a regular shortcut that opens the Kolibri server IP. To add the desktop shortcut follow these steps.
 
