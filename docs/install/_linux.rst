@@ -138,6 +138,6 @@ To install ``kolibri-server`` follow these steps.
 Raspberry Pi
 ------------
 
-To install Kolibri on RPi refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`. Kolibri is tested and designed to work on **3, 3+, 4 and Zero W**.
+Kolibri is designed to work and tested on **3, 3+, 4 and Zero W**. To install Kolibri on RPi refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`. 
 
-Kolibri may also run on Raspberry Pi Model 2, but the tutorial does not fit exactly for this model, as it does not have onboard Wi-Fi.
+Kolibri may also run on Raspberry Pi Model 2, but the above tutorial was not fully intended for that model, since it has no onboard Wi-Fi.
