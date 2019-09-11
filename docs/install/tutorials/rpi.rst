@@ -21,7 +21,7 @@ Prerequisites
     Kolibri runs on both Raspberry Pi 3 and 4
     
 
-* Raspberry Pi Model 3 or 4
+* Raspberry Pi Model 3, 3+, 4 and Zero W - or: Raspberry Pi versions that support Raspbian Stretch or Buster and has onboard Wi-Fi
 * Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)
 * Card reader for a laptop or computer to write to the MicroSD card
 * Latest Raspbian Stretch OS .img file
