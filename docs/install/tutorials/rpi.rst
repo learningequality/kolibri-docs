@@ -18,10 +18,10 @@ Prerequisites
     :align: right
     :figwidth: 50%
 
-    Raspberry Pi 3
+    Kolibri runs on both Raspberry Pi 3 and 4
     
 
-* Raspberry Pi Model 3+
+* Raspberry Pi Model 3, 3+, 4 and Zero W - or: Raspberry Pi versions that support Raspbian Stretch or Buster and has onboard Wi-Fi
 * Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)
 * Card reader for a laptop or computer to write to the MicroSD card
 * Latest Raspbian Stretch OS .img file
@@ -84,7 +84,7 @@ Run ``sudo raspi-config`` for the general setup options such as password change,
 Setting up a hotspot
 --------------------
 
-The Raspberry Pi 3 has an internal Wi-Fi adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through Wi-Fi. In this case, we call the Raspberry Pi a *hotspot*.
+Raspberry Pi 3 and 4 have an internal Wi-Fi adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through Wi-Fi. In this case, we call the Raspberry Pi a *hotspot*.
 
 We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's Ethernet cable connection. In this way, you don't have to disable and enable the Wi-Fi configuration each time.
 
