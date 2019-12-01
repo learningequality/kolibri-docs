@@ -32,16 +32,26 @@ You can try temporarily disable your firewall to see if it helps with connecting
 Troubleshoot Database Issues
 ----------------------------
 
-In case you receive the ``database disk image is malformed`` error in Terminal, try running these commands (note that **you must have the** ``sqlite3`` **command available on your system**).
+In case you receive the ``database disk image is malformed`` error in Terminal, try running these commands.
+
+The ``sqlite3`` command is necessary. This can be installed with ``sudo apt install sqlite3`` on a Debian-based system.
 
 .. code-block:: bash
 
+        # Go to where your Kolibri data is stored
+        cd ~/.kolibri
+        # Create a directory to save the old DB in
 	mkdir -p malformed
-	cp -b db.sqlite3* malformed
-	sqlite3 ~/.kolibri/db.sqlite3 .dump | sqlite3 fixed.db
-	cp fixed.db ~/.kolibri/db.sqlite3
+        # Copy the old malformed DB
+	cp -b db.sqlite3* malformed/
+        # Create a new database
+	sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
+        # Move to the active location
+	mv fixed.db db.sqlite3
+        # Remove so-called "write-ahead log"
 	rm -f db.sqlite3-wal db.sqlite3-shm
 
+After this, you should be able to start Kolibri again.
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
