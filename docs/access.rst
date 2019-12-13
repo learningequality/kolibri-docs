@@ -118,6 +118,12 @@ For example, if Kolibri is installed and started on a computer with the address 
   * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri.
 
 
+.. warning::
+  * When entering the URL in the browser, it may be required to explicitly include `http://`, for example `http://1.2.3.4:8080` or `http://1.2.3.4:80`. Many browsers will incorrectly interpret an IP address or local network hostname as a search term. In other cases, browsers may incorrectly add `https://` instead of `http://`.
+  
+  * In case you decide to make Kolibri available on the port 80, instead of the default 8080, you **must always include** ``http://`` in front of the server's IP.
+    
+
 .. note::
   * In case of network problems, see :ref:`troubleshooting tips <network>`.
   * Examples and comparison of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`__ (PDF document).
