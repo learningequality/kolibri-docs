@@ -123,7 +123,7 @@ To install ``kolibri-server`` follow these steps.
   .. code-block:: bash
 
     sudo apt-get install software-properties-common dirmngr
-    sudo add-apt-repository ppa:learningequality/kolibri-proposed
+    sudo add-apt-repository ppa:learningequality/kolibri
     sudo apt-get update
     sudo apt-get install kolibri-server
 
@@ -131,13 +131,12 @@ To install ``kolibri-server`` follow these steps.
 
 2. Restart the system.
 
-.. warning:: * Be advised that this procedure also switches the setup to use the latest built Kolibri pre-release.
-  * Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local WiFi access point characteristics.
+.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local Wi-Fi access point characteristics.
 
 
 Raspberry Pi
 ------------
 
-To install Kolibri on RPi refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`.
+Kolibri is tested to work on Raspberry Pi Models **3, 3+, 4 and Zero W**. For installation instructions, please refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`. 
 
-.. warning:: Kolibri is intended for **Raspberry Pi Model 3** and upwards.
+Kolibri may also run on Raspberry Pi Model 2, but the above tutorial was not fully intended for that model, since it does not have onboard Wi-Fi.

@@ -31,6 +31,19 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
 .. tip:: 
   If you close the browser window, Kolibri will still be running in the background. Use the **Load in browser** menu item to reopen it in the browser.
 
+
+.. _ncomputing: 
+
+.. warning::
+  In some Windows multi-user environments (for example NComputing), you need to make sure that Kolibri is running **only from the admin account** to avoid having Kolibri started for each login/session. Confirm that the **Run Kolibri at system startup** taskbar option is checked only when the admin logs in, but unchecked when any other user of virtual desktops is logged in.
+
+  It is also recommended that you remove the Kolibri desktop laucher icon from all non admin accounts in this type of setup, and substitute it with a regular shortcut that opens the Kolibri server IP. To add the desktop shortcut follow these steps.
+
+  #. Right click anywhere on the desktop.
+  #. Select *New > Shortcut*.
+  #. Type in the Kolibri server IP (most probably ``http://127.0.0.1``), save and exit.
+  #. Double-click the shortcut to test if it opens the browser and loads Kolibri.
+
 .. note::
   Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
 
@@ -91,7 +104,7 @@ Set up Access on Other Devices
 
 To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. The default port is **8080**, and you must add it after the IP address.
 
-For example, if Kolibri is installed and started on a computer with the IP address **192.168.8.134:8080**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.8.134:8080``.
+For example, if Kolibri is installed and started on a computer with the address **192.168.8.134:8080**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.8.134:8080``.
 
 
 .. tip::
@@ -104,6 +117,12 @@ For example, if Kolibri is installed and started on a computer with the IP addre
   
   * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri.
 
+
+.. warning::
+  * When entering the URL in the browser, it may be required to explicitly include `http://`, for example `http://1.2.3.4:8080` or `http://1.2.3.4:80`. Many browsers will incorrectly interpret an IP address or local network hostname as a search term. In other cases, browsers may incorrectly add `https://` instead of `http://`.
+  
+  * In case you decide to make Kolibri available on the port 80, instead of the default 8080, you **must always include** ``http://`` in front of the server's IP.
+    
 
 .. note::
   * In case of network problems, see :ref:`troubleshooting tips <network>`.
