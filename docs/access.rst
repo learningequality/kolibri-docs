@@ -119,7 +119,7 @@ For example, if Kolibri is installed and started on a computer with the address 
 
 
 .. warning::
-  * When limited to using older browsers it may be necessary to **explicitly include** the ``http://`` in front of the IP in the address bar, for example ``http://192.168.8.134:8080``. Many modern browsers may also take the IP address or the local network hostname as a search term and redirect you to Google. In other cases, browsers may try to use the secure **HTTPS** protocol by default and add an **S**  automatically (``httpS://``), which may also cause issues while running Kolibri.
+  * When entering the URL in the browser, it may be required to explicitly include `http://`, for example `http://1.2.3.4:8080` or `http://1.2.3.4:80`. Many browsers will incorrectly interpret an IP address or local network hostname as a search term. In other cases, browsers may incorrectly add `https://` instead of `http://`.
   
   * In case you decide to make Kolibri available on the port 80, instead of the default 8080, you **must always include** ``http://`` in front of the server's IP.
     
