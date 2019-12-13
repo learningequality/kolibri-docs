@@ -133,10 +133,3 @@ To install ``kolibri-server`` follow these steps.
 
 .. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local Wi-Fi access point characteristics.
 
-
-Raspberry Pi
-------------
-
-Kolibri is tested to work on Raspberry Pi Models **3, 3+, 4 and Zero W**. For installation instructions, please refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`. 
-
-Kolibri may also run on Raspberry Pi Model 2, but the above tutorial was not fully intended for that model, since it does not have onboard Wi-Fi.

@@ -1,8 +1,8 @@
-:orphan:
+
 .. _provision:
 
-Hard drive provisioning of multiple Kolibri servers
-===================================================
+Provisioning many servers
+=========================
 
 This tutorial will help you to prepare for the Kolibri implementation where you need to install and provision several Kolibri server devices with the same content channels.
 
@@ -104,7 +104,7 @@ Copy the content to other server devices
 
 		* On Windows you need to right-click the Kolibri icon in the Windows taskbar (usually at bottom right, near the clock), and select ``Exit``. You will be prompted to confirm the selection, after which Kolibri will stop. 
 
-		.. figure:: ../../img/taskbar-options.png
+		.. figure:: /img/taskbar-options.png
 			:alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
 
 			Stop Kolibri from the taskbar options.
