@@ -6,19 +6,17 @@ Install Kolibri
 See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>`_ to review specific changes in each version of Kolibri. Documentation for `previous Kolibri versions are available here <https://readthedocs.org/projects/kolibri/>`_.
 
 
-Learn about whether Kolibri will run on your system, and how to get the server set up:
+Learn about whether Kolibri will run on your server and client devices:
 
 .. toctree::
   :maxdepth: 1
 
   system_requirements
-  initial_setup
 
 Choose your preferred method of installation:
 
 .. toctree::
   :maxdepth: 1
-
 
   windows
   ubuntu-debian
@@ -26,8 +24,14 @@ Choose your preferred method of installation:
   macos
   python
 
+After the installation, proceed to set up your facility:
 
-Learn about some advanced setup options:
+.. toctree::
+  :maxdepth: 1
+
+  initial_setup
+
+Read our tutorials to learn about some advanced options:
 
 .. toctree::
   :maxdepth: 1
