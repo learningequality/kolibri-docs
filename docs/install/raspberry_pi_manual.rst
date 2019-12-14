@@ -1,10 +1,10 @@
-:orphan:
-.. _tutorial_rpi:
 
-An offline Raspberry Pi server
+.. _rpi_manual:
+
+Manual setup of a Raspberry Pi
 ==============================
 
-This guide shows you how to configure a Raspberry Pi as a local Wi-Fi hotspot serving Kolibri.
+This guide shows you how to manually configure a Raspberry Pi as a local Wi-Fi hotspot serving Kolibri.
 
 There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspbian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian.
 

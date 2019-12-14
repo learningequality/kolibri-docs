@@ -11,7 +11,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
 #. **Select the default language for Kolibri.**
 
-  	.. figure:: img/select-language.png
+  	.. figure:: /img/select-language.png
 	   :alt: Step 1 of 7 with language options.
 
 	   Select the default Kolibri language.
@@ -27,7 +27,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
    Formal and non-formal facilities require a name, while personal ones do not.
 
-	  	.. figure:: img/facility-setup.png
+	  	.. figure:: /img/facility-setup.png
 		   :alt: Step 2 of 7 where you need to choose a type of facility.
 
 		   Choose the type of facility.
@@ -35,7 +35,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
 #. **Guest access.** 
 
-  	.. figure:: img/guest-access.png
+  	.. figure:: /img/guest-access.png
 	   :alt: Step 3 of 7 where you can allow guests to access Kolibri content without the need to create an account.
 
 	   Select if guests can access Kolibri content without the need to create an account.
@@ -43,7 +43,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
 #. **User account creation.** 
 
-  	.. figure:: img/sign-up.png
+  	.. figure:: /img/sign-up.png
 	   :alt: Step 4 of 7 where you can permit anyone to create a user account for themselves, or if user accounts must be created by Kolibri admins.
 
 	   Select if anyone can create a user account for themselves, or if user accounts must be created by Kolibri admins.
@@ -51,7 +51,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
 #. **Enable passwords for learners.** Simplified sign-in, without the password requirement, allows easier access for younger learners.
 
-  	.. figure:: img/enable-passwords.png
+  	.. figure:: /img/enable-passwords.png
 	   :alt: Step 5 of 7 where you can select if learners must type in their passwords to sign-in to Kolibri, or use just their username.
 
 	   Select if learners must type in their passwords to sign-in to Kolibri.
@@ -59,7 +59,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 
 #. **Create super admin account.** This admin user will be a **super admin**, able to manage all the device content, and all the rest of the facility users and their permissions.
 
-  	.. figure:: img/super-admin.png
+  	.. figure:: /img/super-admin.png
 	   :alt: Step 6 of 7 is where you select the username and password for the facility super admin.
 
 	   Select the username and password for the facility super admin.
@@ -71,7 +71,7 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 #. **Data usage and privacy - responsibilities of the administrator.** 
    When you are setting up a Kolibri facility, especially in formal contexts, you need to take into consideration the relevant privacy laws and regulations. You as the **super admin**, or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup. 
 
-  	.. figure:: img/super-admin-resp.png
+  	.. figure:: /img/super-admin-resp.png
 	   :alt: Step 7 of 7 requires you to review the super admin responsibilities regarding the data usage and privacy.
 
 	   Review the super admin responsibilities regarding the data usage and privacy.

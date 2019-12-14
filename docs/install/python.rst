@@ -1,20 +1,26 @@
-.. _osx:
+.. _python:
 
-Other Linux & MacOS
-===================
+Python
+======
 
-Compatibility
--------------
+.. _pip-installation:
 
-* MacOS: 10.6+, all browsers supported
-* Linux: Any system with Python 2.7, all browsers supported
+Python package
+--------------
+
+You can install Kolibri as a standard package from PyPi (works on Mac, Windows, and Linux) using this command:
+
+.. code-block:: bash
+
+  pip install kolibri
+
 
 .. _pex:
 
-Install
--------
+Python EXecutable
+-----------------
 
-To install Kolibri on Linux distributions other than Debian, as well as on MacOS, you can use :ref:`generic installation <pip-installation>` with ``pip install`` command, or follow these steps to run Kolibri with the ``PEX`` package. 
+On MacOS and Linux, follow these steps to run Kolibri with the ``PEX`` package. 
 
 #. Download the `PEX installer <https://learningequality.org/download/>`_ for Kolibri **version 0.12**. 
 #. Make sure to **open the Terminal where you downloaded** the ``PEX`` file. For example, if you saved it in the *Downloads* folder, type this when you open the Terminal, and press Enter:
@@ -38,14 +44,14 @@ To install Kolibri on Linux distributions other than Debian, as well as on MacOS
 .. warning:: Remember that **PEX** package allows you to run Kolibri on your system **only while the process is active in the Terminal window**. If that process is stopped (by either pressing :guilabel:`Ctrl` + :guilabel:`C`, closing the Terminal, or restarting your system), you will need to repeat the above steps to start Kolibri again. User accounts, classes and groups you create, as well as the content channels you download, will be available every time you restart Kolibri. 
 
 
-Uninstall
----------
+Uninstall PEX
+-------------
 
 #. Delete the ``PEX`` file.
 #. Delete the ``./kolibri`` folder in your user's Home directory if you want to completely remove all the Kolibri files and content channels you imported.
 
-Upgrade
--------
+Upgrade PEX
+-----------
 
 To upgrade Kolibri, follow these steps.
 
