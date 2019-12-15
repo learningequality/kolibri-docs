@@ -215,6 +215,10 @@ rst_prolog = """
    :alt: App
 .. |slideshow-icon| image:: /img/slideshow-icon.png
    :alt: Slideshow
+.. |print| image:: /img/print.png
+   :alt: Print
+.. |export| image:: /img/export.png
+   :alt: Export
 
 """
 

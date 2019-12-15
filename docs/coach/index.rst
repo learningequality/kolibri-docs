@@ -61,13 +61,38 @@ As learners interact with lessons and quizzes, you can track their progress in t
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
 
 
+.. _reports:
+
 Reports
 ~~~~~~~
+
+**Reports** tab (|reports| icon) allows you to gain insight into detailed real-time progress of the learners for single resources in lessons and quizzes assigned to them.
+
+Kolibri presents actionable reports for each lesson and quiz the class learners have been assigned, together with the possibility to observe the progress by groups and individual learners.
 
 .. toctree::
   :maxdepth: 1
 
-  reports
+  reports_lessons
+  reports_quizzes
+  reports_groups
+  reports_learners
+
+
+.. figure:: /img/class-reports.*
+  :alt: Open the Reports tab to track detailed learner progress
+
+.. TO-DO (image)
+
+Print and Export Coach Reports
+------------------------------
+
+On any coach report where you see the |print| and |export| icons, you will be able to print on paper, save in a PDF format, or export as a CSV file, for further analysis or to share with others. Follow these steps.
+
+#. Click the |print| icon for the report you want to print or save as PDF file on your local drive.
+   You will either have to select your paper printer device, or the *Save as PDF* option in the print dialog.
+    
+#. Click the |export| icon for the report you want to export as CSV file on your local drive. 
 
 
 
