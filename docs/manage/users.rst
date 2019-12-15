@@ -8,6 +8,8 @@ You can search for, filter, add, and edit user accounts in Kolibri from the **Us
 	.. figure:: /img/manage-users.png
 	  :alt: Open Facility page and navigate to Users tab to see the the list of all the users, and access the options to manage them.
 
+.. TO-DO (image)
+
 .. note::
   To manage Kolibri users you must sign in as **admin** or **super admin**.
 
@@ -24,6 +26,9 @@ To create a new user account, follow these steps.
 
 		.. figure:: /img/add-new-account.png
 		  :alt: 
+
+.. TO-DO (image)
+
 
 Coach Type
 **********
@@ -46,6 +51,7 @@ Select Users by Type
 	.. figure:: /img/select-users.png
 	  :alt: 
 
+.. TO-DO (image)
 
 Edit User’s Account
 -------------------
@@ -53,12 +59,13 @@ Edit User’s Account
 To edit username, full name or account type, follow these steps.
 
 #. Click on the :guilabel:`OPTIONS` button for the desired user and select the **Edit details** option.
-#. Edit **Full name**, **Username** or **User type** in the **Edit user details** window.
+#. Edit **Full name**, **Username**, **User type**, **Identifier**, **Birth year** and **Gender** in the **Edit user details** window.
 #. Click :guilabel:`SAVE` to update the edited information, or :guilabel:`CANCEL` to exit without saving.
 
 	.. figure:: /img/edit-account-info.png
 	  :alt: 
 
+.. TO-DO (image)
 
 Reset User’s Password
 *********************

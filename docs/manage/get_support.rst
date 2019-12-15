@@ -116,7 +116,7 @@ If the problem happened earlier than the dates in the above log, you can open th
 +===========================+=========================================+
 | Windows                   | ``C:/Users/<your_username>/.kolibri/``  |
 +---------------------------+-----------------------------------------+
-| OSX                       | ``HD/Users/<your_username>/.kolibri/``  |
+| macOS                     | ``HD/Users/<your_username>/.kolibri/``  |
 +---------------------------+-----------------------------------------+
 | Linux                     | ``/home/<your_username>/.kolibri/``     |
 +---------------------------+-----------------------------------------+

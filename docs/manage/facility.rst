@@ -10,8 +10,8 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
 	* edit their full names and usernames
 	* sign in without password (except Admin users)
 	* download content items (videos, documents, etc.) on their own devices 
-	* browse content without signing in
 	* create accounts on your facility 
+	
 #. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
     .. figure:: /img/manage-facility.png

@@ -1,16 +1,11 @@
-.. _manage_advanced:
-
-Advanced Management
-~~~~~~~~~~~~~~~~~~~
-
 .. _command_line:
 
 Working with Kolibri from the Command Line
-------------------------------------------
+##########################################
 
 * In Windows you need to open the command prompt, for example by using the :guilabel:`WIN` + :guilabel:`R` shortcut, and then typing ``cmd``.
 
-      .. figure:: img/cmd.exe.png
+      .. figure:: /img/cmd.exe.png
         :alt: 
 
 * On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
@@ -157,7 +152,7 @@ CSV File Structure
 
 To import users into Kolibri with this command, you will need to provide the user data in a CSV (comma separated values) file format. You can export a CSV file from a tabular data in any spreadsheet program (Excel, Google Sheets, LibreOffice Calc, etc.).
 
-  .. figure:: img/csv.png
+  .. figure:: /img/csv.png
       :alt: User data in a spreadsheet table
 
       User data in a spreadsheet table.
@@ -377,145 +372,7 @@ Alternatively, you can follow these steps in the GUI.
 #. Under **User Variables for...** press the :guilabel:`New...` button.
 #. Input ``KOLIBRI_HOME`` in the **Variable name** field, and your new path in the **Variable value** field, and press :guilabel:`OK` on both open windows.
 
-    .. figure:: img/env-vars.png
+    .. figure:: /img/env-vars.png
       :alt: 
 
 #. Restart Kolibri.
-
-
-
-Customize Kolibri Settings with the OPTIONS.INI File
-----------------------------------------------------
-
-For certain configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
-
-#. Open the preferred text editor on your computer (eg. Notepad on Windows).
-#. Write the required *sections* and *keys* (see details for available settings below) in the following format:
-   
-    .. code-block:: ini
-
-      [section]
-      key1 = a
-      key2 = b
-
-3. Save the resulting ``options.ini`` file in the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
-   
-.. note::
-  ``options.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation.   
-   
-.. _port:
-
-
-Run Kolibri from a Different Port
-*********************************
-
-If you need Kolibri to start and run from a port different than the default ``8080``, add the section ``[Deployment]``, and the key ``HTTP_PORT`` with the value of your desired port, to the ``options.ini`` file.
-
-  .. code-block:: ini
-    
-     [Deployment]
-     HTTP_PORT = 1234 
-     # Substitute 1234 with your desired port number
-
-
-.. tip::
-  If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary.  
-
-
-.. _profile_requests_ini:
-
-
-Allow Profiling of Requests
-***************************
-
-If you need to :ref:`profile server requests <profile_requests>` to get a more detailed information about the Kolibri performance, add the following to the ``options.ini`` file.
-
-
-  .. code-block:: ini
-    
-     [Server]
-     PROFILE = 1
-
-
-
-
-Test Kolibri Server Performance
--------------------------------
-
-Benchmark
-*********
-
-You can use the following command to collect information about the device where Kolibri server is running, and details about how much of its resources it is using. This command displays a snapshot of the server state at the time the command is executed, and its output will vary depending on the current server load. In case you suspect performance problems, type this in the Terminal or Command prompt.
-
-  .. code-block:: bash
-     
-     kolibri manage benchmark
-
-The command will have an output similar to this:
-
-  .. figure:: img/benchmark.png
-      :alt: Command line output of the 'kolibri manage benchmark' command
-
-      Command line output of the 'kolibri manage benchmark' command
-
-Take a screenshot of the Terminal or Command prompt, or copy and paste the output in the community forum post.
-
-Profile
-*******
-
-In order to collect more than a current snapshot of Kolibri server performance, you can use the profiling command. When executed, the command will collect a series of performance indicators every 10 seconds and save them in a CSV file. Type this in the Terminal or Command prompt.
-
-  .. code-block:: bash
-     
-     kolibri manage profile
-
-.. tip:: Command collects and saves the information 60 times by default. If you want to change this value, add the ``--num-samples`` flag with the desired number at the end.
-
-  .. code-block:: bash
-     
-     kolibri manage profile --num-samples=100
-
-
-Each log line contains this information:
-
-* Date and time of each command execution
-* Number of Kolibri active sessions (including guest sessions)
-* Number of Kolibri logged users
-* Number of Kolibri user interactions during the last minute
-* Total percentage of CPU use
-* Total memory use
-* Total available memory
-* Number of processes executed in the server
-* Percentage of CPU used by Kolibri
-* Percentage of memory used by Kolibri
-
-To help us troubleshoot potential problems on your Kolibri server, locate and send us the ``KOLIBRI_HOME/performance/date_time_performance.csv`` file.
-
-
-.. _profile_requests:
-
-
-Profile Server Requests
-"""""""""""""""""""""""
-
-If you have the ``[Server]`` section of the :ref:`OPTIONS.INI <profile_requests_ini>` file  configured with ``PROFILE = 1``, the above command will additionally perform a profiling of every request made by Kolibri server, and save the results in a second log file as ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``
-
-Each log line contains this information:
-
-* Timestamp
-* Request path
-* Time spent processing the request
-* Memory (in KB) used by the Kolibri process when the request came in
-* Memory (in KB) used by the Kolibri process when the response was sent
-* CPU percentage used by the Kolibri process when the request came in
-* CPU percentage used by the Kolibri process when the request was sent
-* Flag indicating if the request is the slowest one since the analysis started
-
-.. warning::
-  Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``options.ini`` file. Without the ``PROFILE = 1`` key, command will not profile server requests (but just the current server state), and it will not create the second CSV file. 
-
-
-Hard drive provisioning for multiple Kolibri servers
-----------------------------------------------------
-
-For the recommended procedure to install and provision several Kolibri server devices, refer to our :ref:`hard drive provisioning tutorial <provision>`.
