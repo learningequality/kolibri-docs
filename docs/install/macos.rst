@@ -31,4 +31,4 @@ Upgrade
 #. Double-click the downloaded ``.dmg`` file.
 #. Drag the Kolibri logo inside the **Applications** folder, and wait for the upgrade to finish.
 #. Start the Kolibri app from the **Launchpad**.
-#. #. Go explore the new and improved Kolibri features!
+#. Go explore the new and improved Kolibri features.

@@ -49,7 +49,7 @@ Kolibri can serve high quality education content from several publicly available
    :maxdepth: 3
    :hidden:
 
-   access
+   access/index
 
 .. toctree::
    :maxdepth: 3
