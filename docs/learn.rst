@@ -50,6 +50,15 @@ Once you have signed in to Kolibri, you can see and edit your user data from the
 	.. figure:: img/update-profile.png
 	  :alt: 
 
+.. note::
+   If your account has been created prior to version 0.13 of Kolibri, you will see a notification that you can update your profile to provide your birth year and gender. This information is optional, and you can choose not to provide it. 
+
+   * Click the *Usage and privacy* link to read more information about who will have access to your personal information.
+   * Click the :guilabel:`UPDATE` button if you choose to provide it.
+
+   .. figure:: img/update-profile2.png
+	  :alt: 
+
 To sign out from Kolibri you can either:
 	* Click the user icon in the upper right corner and select **Sign out** option, **OR**
 	* Select **Sign out** option in the main sidebar menu.
@@ -64,6 +73,9 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 
 #. Click :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
+#. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
+#. Click the :guilabel:`CONTINUE` button.
+#. Select your birth year and gender. This information is optional, and you can choose not to provide it.
 #. Click the :guilabel:`FINISH` button.
 
 When page reloads you will see the Learn page with Kolibri channels.
@@ -106,6 +118,7 @@ Recommended
 In this tab (|recommended| icon) you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
+* **Next steps** indicate the recommended materials based on those that you already viewed and interacted with.
 * **Resume** displays activities that you started but haven't finished yet.
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
@@ -226,6 +239,20 @@ To play videos and listen to audio files in Kolibri you have several available c
 
 Use the :guilabel:`DOWNLOAD CONTENT` button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
 
+Interactive Video Transcript
+****************************
+
+When a video has captions available, you can choose to view them at the bottom of the player, or open them as an interactive transcript. 
+
+#. Click the :guilabel:`CC` button at the bottom of the player and select **Transcript**.
+#. Scroll up and down the transcript and click on the chosen timestamp to navigate more easily between various video sections. 
+   
+.. figure:: img/video-transcript.png
+	:alt: 
+
+	Kolibri allows you to navigate videos using the captions inside the transcript.	
+
+
 
 PDF Viewer options
 """"""""""""""""""
@@ -263,8 +290,8 @@ Slideshow Viewer options
 
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
 
-* Use the :guilabel:`|fullscreen|` button in the upper right corner to open the ebook in fullscreen view.
-* With the Left Arrow (←) or Right Arrow (→) keys or the buttons on the side of the slideshow.
+* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |previous-page| and |next-page| buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
 .. _lessons:
