@@ -108,6 +108,19 @@ If the problem happened earlier than the dates in the above log, you can open th
 
 * ``kolibri-YYYY-MM-DD.txt``
 
+
+.. _home:
+
++---------------------------+-----------------------------------------+
+| **Operating system**      | **Location**                            |
++===========================+=========================================+
+| Windows                   | ``C:/Users/<your_username>/.kolibri/``  |
++---------------------------+-----------------------------------------+
+| OSX                       | ``HD/Users/<your_username>/.kolibri/``  |
++---------------------------+-----------------------------------------+
+| Linux                     | ``/home/<your_username>/.kolibri/``     |
++---------------------------+-----------------------------------------+
+
 .. warning:: On Linux and MacOS systems you will need to activate the *Show Hidden Files* option in your file browser, in order to view the ``.kolibri`` folder.
 
 

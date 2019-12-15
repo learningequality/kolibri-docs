@@ -1,7 +1,7 @@
 .. _manage_device_ref:
 
-Manage Device
-~~~~~~~~~~~~~
+Device
+~~~~~~
 
 You can manage content and permissions, and view the detailed info of the device where Kolibri is running from the **Device** dashboard.
 
@@ -16,8 +16,10 @@ Assign Permissions
 
 You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the **Permission** tab in the  **Device** dashboard (|permissions| icon).
 
-	.. figure:: img/manage-permissions.png
+	.. figure:: ../img/manage-permissions.png
 	  :alt: Open the Device page and navigate to Permissions tab to see permissions for every user  
+
+.. TO-DO (image)
 
 Permission to Manage Content
 ****************************
@@ -28,7 +30,7 @@ To grant permission to another user to manage content channels in Kolibri, that 
 #. Under **Device permissions** activate the option *Can import and export content channels*.
 #. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
-	.. figure:: img/manage-content-permissions.png
+	.. figure:: ../img/manage-content-permissions.png
 	  :alt: Use the checkbox to grant the chosen user permissions to manage content
 
 The users who have been granted the permissions to manage content channels will have a black key indicator in front of their name, and will be able to see the **Device** dashboard with the **Channels** tab.
@@ -43,14 +45,15 @@ To grant **super admin** permissions to another user, follow these steps.
 #. Activate the option *Make super admin*.
 #. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
-	.. figure:: img/coach-superuser.png
+	.. figure:: ../img/coach-superuser.png
 	  :alt: Use the checkbox to grant the chosen user super admin permissions
 
 The users who have been granted the **super admin** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs.
 
-	.. figure:: img/permissions-keys.png
+	.. figure:: ../img/permissions-keys.png
 	  :alt: Users with additional permissions will have icon indicators in front of their username 
 
+.. TO-DO (image)
 
 .. _device_info:
 
@@ -73,7 +76,7 @@ To view the detailed info of the device where Kolibri is running on, use the **I
 	* Server time
 	* Server timezone
 
-		.. figure:: img/device-info.png
+		.. figure:: ../img/device-info.png
 		  :alt: Open the Device page and navigate to the Info tab to find out the extended device info.
 
 	  	  Find out the extended device info in the Device > Info tab.
@@ -85,7 +88,7 @@ The language you have chosen during the :ref:`setup_initial` will be set as the 
 
 #. Select the desired default language from the drop-down menu. You can set Kolibri to display in the language defined by the browser content settings, or in any of the :ref:`currently supported languages <languages>`.
 
-	.. figure:: img/default-language.png
+	.. figure:: ../img/default-language.png
 		:alt: Open the Device page and navigate to Settings tab to set the default language.
 
 		Manage device language settings.

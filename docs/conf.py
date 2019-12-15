@@ -199,7 +199,7 @@ rst_prolog = """
 .. |class-home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">dashboard</span><span class="visuallyhidden">Class home</span>`
 .. |reports| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assessment</span><span class="visuallyhidden">Reports</span>`
 .. |drag| replace:: :raw-html:`<span class="material-icons drag" aria-hidden="true">drag_indicator</span>`
-.. |on-device| image:: img/on-device.png
+.. |on-device| image:: ../img/on-device.png
    :alt: On your device
 .. |green-check| image:: /img/on-device.png
    :alt: Correct answer

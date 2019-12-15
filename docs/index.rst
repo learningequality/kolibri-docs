@@ -55,7 +55,7 @@ Kolibri can serve high quality education content from several publicly available
    :maxdepth: 3
    :hidden:
 
-   manage
+   manage/index
 
 .. toctree::
    :maxdepth: 3
@@ -66,7 +66,6 @@ Kolibri can serve high quality education content from several publicly available
 .. toctree::
    :maxdepth: 3
    :hidden:
-
 
    coach
 

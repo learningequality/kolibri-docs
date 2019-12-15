@@ -1,8 +1,8 @@
 
 .. _manage_classes_ref:
 
-Manage Classes
-~~~~~~~~~~~~~~
+Classes
+~~~~~~~
 
 You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard (|classes| icon). Default view displays the list of all classes in your facility, with the number of enrolled users for each class.
 

@@ -1,7 +1,7 @@
 .. _manage_facility_ref:
 
-Manage Facility
-~~~~~~~~~~~~~~~~
+Facility
+~~~~~~~~
 
 You can edit facility configuration settings in Kolibri from the **Settings** tab in your **Facility** dashboard (|settings| icon).
 

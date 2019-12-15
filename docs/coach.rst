@@ -64,7 +64,7 @@ As learners interact with lessons and quizzes, you can track their progress in t
 Reports
 ~~~~~~~
 
-.. include:: manage/_reports.rst
+..manage/_reports.rst
 
 
 
@@ -74,11 +74,11 @@ Plan
 Use the options in the **Plan** tab to create and manage the lessons, quizzes, and groups for the selected class.
 
 
-.. include:: manage/_lessons.rst
+..manage/_lessons.rst
 
-.. include:: manage/_quizzes.rst
+..manage/_quizzes.rst
 
-.. include:: manage/_groups.rst
+..manage/_groups.rst
 
 
 
