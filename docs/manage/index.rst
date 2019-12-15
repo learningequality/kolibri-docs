@@ -1,3 +1,4 @@
+.. _manage:
 
 Manage Kolibri
 ##############

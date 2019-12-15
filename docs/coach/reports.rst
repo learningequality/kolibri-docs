@@ -3,7 +3,7 @@
 
 Kolibri presents actionable reports for each lesson and quiz the class learners have been assigned, together with the possibility to observe the progress by groups and individual learners.
 
-	.. figure:: img/class-reports.*
+	.. figure:: /img/class-reports.*
 	  :alt: Open the Reports tab to track detailed learner progress
 
 
@@ -15,7 +15,7 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 * To review past lessons, use the filter to include only the *Inactive* lessons.
 * **Progress** column presents the summary of learners who *started* |started| and *completed* |completed-small| the lessons, or *need help* |need-help| with some of the included resources.
   
-.. figure:: img/lessons.*
+.. figure:: /img/lessons.*
   :alt: 
 
 #. Click on the lesson title to view its list of resources.
@@ -25,7 +25,7 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
 #. Click :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the **Plan** tab (|edit| icon).
 
-    .. figure:: img/edit-lesson-from-report.gif
+    .. figure:: /img/edit-lesson-from-report.gif
       :alt: 
 
 
@@ -37,7 +37,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 * To review past quizzes, use the filter to include only the *Inactive* ones.
 * **Progress** column presents the summary of learners that *started* |started| and *completed* |completed-small| each quiz.
 
-.. figure:: img/quizzes.*
+.. figure:: /img/quizzes.*
   :alt: 
 
 #. Click on the quiz title to view its list of resources.
@@ -51,7 +51,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
     * red X mark icon indicates the **incorrect** answer
     * gray X mark icon indicates an **unanswered** question
 
-      .. figure:: img/exam-report-detail.png
+      .. figure:: /img/exam-report-detail.png
         :alt: 
 
 #. Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
@@ -64,14 +64,14 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 
       When a learner completes the questions of an exercises, the progress bar below the exercise will show the most recent and correct answers. In order for the exercise to be considered completed, the learner must complete the required number of correct answers (*check marks*) **in the row**.
 
-        .. figure:: img/get-5-correct.png
+        .. figure:: /img/get-5-correct.png
             :alt: If the exercise requires 5 correct check marks, learner must provide 5 correct answers one after another. Marks for each answer are located behind the button Check
 
             The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
 
 #. Click the :guilabel:`OPTIONS` button and select **Preview** or **Edit details** option if you want to view or edit the quiz details directly from its report. Editing the quiz details from here will have the same results as from the **Plan** tab (|edit| icon).
 
-    .. figure:: img/edit-quiz-from-report.gif
+    .. figure:: /img/edit-quiz-from-report.gif
       :alt: 
 
 
@@ -85,7 +85,7 @@ Open the **Groups** sub-tab from the main **Reports** view to access the reports
 #. From the group **Reports** sub-tab you can click to access each lesson and quiz.
 #. In the **Members** sub-tab you can view the summary of completed exercises, scores and viewed resources **for each group learner**, and click to access their full progress report.   
 
-.. figure:: img/groups.*
+.. figure:: /img/groups.*
   :alt: 
 
 
@@ -98,5 +98,5 @@ Open the **Learners** sub-tab from the main **Reports** view to access the progr
 #. From the learner **Reports** sub-tab you can click to access each lesson and quiz.
 #. In the **Activity** sub-tab you can review their activity on resources assigned.   
 
-.. figure:: img/learners.*
+.. figure:: /img/learners.*
   :alt: 

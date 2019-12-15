@@ -8,7 +8,7 @@ Channels and Resources
 
 Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the resources curator for their use in Kolibri. You can import and export channels in Kolibri from the **Channels** tab of the **Device** dashboard (|channels| icon).
 
-  .. figure:: ../img/manage-resources.png
+  .. figure:: /img/manage-resources.png
     :alt: Open the Device page and Channels tab to see the list of available channels on your device
 
     Kolibri resources channels in the Device > Channels tab.
@@ -20,7 +20,7 @@ Each Kolibri channel has its own **token** in `Kolibri Studio <https://studio.le
 
 .. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we started using exclusively the term **token** to uniquely designate each channel.
 
-.. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-resources-channels-available-for-import-into-kolibri>`__ how to find it in Studio user interface, if you have channel editor access.
+.. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html>`__ how to find it in Studio user interface, if you have channel editor access.
 
 
 
@@ -50,7 +50,7 @@ To import resources into Kolibri, follow these steps.
 #. Click :guilabel:`IMPORT` in the **Channels** tab on the **Device** page.
 #. Choose the source option: **Kolibri Studio**, **Local network or internet**, or **Attached drive or memory card**.
 
-  .. figure:: ../img/import-choose-source.png
+  .. figure:: /img/import-choose-source.png
     :alt: Use the radio buttons to select source for importing resources
 
     Select a source to import Kolibri channels.
@@ -67,7 +67,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 #. Choose option *Kolibri Studio*, click :guilabel:`CONTINUE` and you will be able to see all the available **public** resources channels.
 
-    .. figure:: ../img/kolibri-studio.png
+    .. figure:: /img/kolibri-studio.png
       :alt: Available channels on Kolibri Studio page where you can select which public channel you want to import resources from.
 
       Select which public channel on Kolibri Studio you want to import resources from.
@@ -83,7 +83,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 #. In the following page you will see all the details for the selected channel: description, version, total size and number of learning resources, with the information weather you have some of the resources from that channel already imported on the local device.
 
-    .. figure:: ../img/select-content.png
+    .. figure:: /img/select-content.png
 	    :alt: 
 
 #. Click the topics links to browse through the channel resources. Use the *Select all* checkbox to import all the resources in the channel, or select only certain topics or resources. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
@@ -92,7 +92,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 #. You will see the import progress in the **Task manager** page. Once the import concludes, the newly imported channel and resources display on the **Channels** page.
 
-    .. figure:: ../img/import-CC.png
+    .. figure:: /img/import-CC.png
   	  :alt: resources import progress bar will display the percentage of the download
 
 
@@ -105,7 +105,7 @@ To import entire channels instead of a selected resources, follow these steps.
 #. Use the checkboxes to select the channels you want to import in full. As you keep selecting, you will see the total number and size of *channels selected* at the bottom of the page.
 #. Click :guilabel:`IMPORT` button once you finish selecting all the desired channels.
 
-.. warning:: You can also use the *Select all on page* option, but beware that it will require several hundreds of gigabytes on your hard drive, and likely a prolonged import times.
+.. warning:: You can also use the *Select all on page* option, but beware that it will require several hundreds of gigabytes on your hard drive, and likely prolonged import times.
 
 .. _import_with_token:
 
@@ -115,7 +115,7 @@ Import with Token
 #. If you need to import resources from a **private/unlisted** channel, click on **Import with token** button above the channel list.  
 #. Enter the **channel token** received from the channel curator on Kolibri Studio.
 
-    .. figure:: ../img/enter-token.png
+    .. figure:: /img/enter-token.png
   	  :alt: Use the text input field to enter channel token in order to import from an unlisted channel
 
 #. Click :guilabel:`CONTINUE` to unlock the channel, or :guilabel:`CANCEL` to exit.
@@ -129,7 +129,7 @@ Import More Resources
 To add more learning resources from a channel that you previously imported resources from, follow these steps.
 
 #. Click :guilabel:`MANAGE` button for the desired channel.
-#. Click :guilabel:`Import more` button
+#. Click :guilabel:`IMPORT MORE` button.
 #. Repeat the selection procedure from above. 
 
 
@@ -151,7 +151,7 @@ Follow these steps to import from local network.
 #. Click *Add new address* link to add a new network address.
 #. Input the full network address, and assign a name for this network. Don't forget to add the correct port if different from the default one ``8080``. You can use either the IP address or the domain name.
   
-  .. figure:: ../img/new-network-address.png
+  .. figure:: /img/new-network-address.png
     :alt: Use the text input fields to add the new address and the name for the local network import
 
 
@@ -174,11 +174,10 @@ If the computer where Kolibri server is running does not have access to Internet
 #. Select the drive where the desired channel is stored, and click :guilabel:`CONTINUE`.
 #. Click :guilabel:`SELECT` for the desired channel, and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <import_studio>`.
 
-  .. figure:: ../img/import-local-drive2.png
+  .. figure:: /img/import-local-drive2.png
     :alt: Importing resources from a local drive presents the same interface options as importing from Kolibri Studio.
 
 .. TO-DO (image)
-
 
 
 Update Channels
@@ -186,64 +185,94 @@ Update Channels
 
 Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
 
-.. warning:: Use caution when updating channels that have been used to make **currently-active** :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>`. The structure and location of some resources inside the channel may have changed in the updated version, which can cause lessons and quizzes to not load correctly. 
-
-
 .. warning:: It is recommended to schedule and perform channel updates only during periods of low activity on the server. Updating resources while people are using the server may cause errors or performance issues.
 
 To update a channel to its latest version and import new resources into Kolibri, follow these steps.
 
-#. Click :guilabel:`OPTIONS` for the channel you want to update, and select **Import more**.
-#. Choose the source option: **Kolibri Studio**, **Local network or internet** or **Attached drive or memory card**.
-#. If there is a new channel version available, you will see the notification.
+#. Click :guilabel:`MANAGE` button for the channel you want to update.
+#. When a new channel version is available, you will see the notification. Click :guilabel:`VIEW CHANGES`.
+#. On the following page you can see the summary of the changes: how many resources will be added, deleted or updated if you decide to proceed. 
 
-    .. figure:: ../img/update-channel.png
+    .. figure:: /img/update-channel.png
       :alt: 
 
       Notification for the new version of the resources channel.
 
-4. Click the :guilabel:`UPDATE` button and wait for the updated topic tree to load.
-5. You will see empty check boxes for any new resources added to the channel since your last import. Select and import resources by following the steps from :ref:`Kolibri Studio <import_studio>`, :ref:`local network <local_network>`, or :ref:`attached drive <local_drive>`.
+    .. warning:: Use caution when updating channels that have been used to make **currently-active** :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>`. The structure and location of some resources inside the channel may have changed in the updated version, which can cause lessons and quizzes to not load correctly. 
 
+4. Click the :guilabel:`UPDATE CHANNEL` button.
+5. You will see the update progress in the **Task manager** page. Once the update concludes, the newly imported and updated resources will be available to use in Kolibri.
+   
 
 .. _export:
 
 Export from Kolibri to Local Drive
 ----------------------------------
 
-If you have imported resources on one Kolibri device, and want to make it available on another computer where Kolibri is installed, follow these steps to export your resources channels.
+If you have imported resources on one Kolibri device, and want to make it available on another computer where Kolibri is installed, you can export it either in full, or make a selection of the resources to be exported
 
 .. note::
   You must have an external drive (SD card, USB stick or hard disk) attached to your device.
 
-#. Click :guilabel:`EXPORT` in the **Channels** tab on the **Device** page.
+
+Export Complete Channels
+************************
+
+To export one or more full channels with all of its resources on a local drive, follow these steps.
+
+
+#. Click :guilabel:`OPTIONS` button and select the **Export channels** option.
+#. Use the checkboxes to select single channels you want to export, or the *Select all on page* to export all of them in bulk. As you keep selecting, you will see the total number and size of *channels selected* at the bottom of the page.
+#. Click :guilabel:`EXPORT` button once you finish selecting, or :guilabel:`CANCEL` to exit.
 #. Select the local drive (destination for the export) where you wish to export Kolibri resources, and click :guilabel:`CONTINUE`.
-#. In the *Export to <name-of-your-drive>* page you will be able to see all the available resources channels on your device.
+#. You will see the export progress in the **Task manager** page. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
+   
+.. warning::
+  Beware that exporting complete channels might require a lot of available space on your local drive.
+   
 
-    .. figure:: ../img/export-to.png
-  	  :alt: Select from which channel you want to export to local drive.
+Export Selected Resources from a Channel
+****************************************
 
-#. Click :guilabel:`SELECT` for the desired channel, and wait for Kolibri to display the channel information and the topic tree.
-#. In the **Select resources from...** page you will see all the details of the selected channel: description, version, total size and number of learning resources.
-#. Under **Choose resources to export** you can browse the channel topics and individual resources. Use the *Select all* checkbox to import the resources channel in full, or select only certain topics or resources. As you keep selecting, you will see the total number and size on disk under *Resources selected:*, and the remaining space on the destination drive.
-#. Click :guilabel:`EXPORT` once you finish selecting all the desired resources.
-#. Wait for Kolibri to export the selected resources and click :guilabel:`CLOSE`.
-#. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
+To export only a selection of channel resources on a local drive, follow these steps.
 
-    .. note:: This procedure makes a copy of the ``resources`` folder located inside the ``.kolibri`` folder on your hard disk, and places it in the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command.
+#. Click :guilabel:`MANAGE` button for the channel from which you want to export resources, and wait for Kolibri to display the channel information and the topic tree.
+#. Follow the same steps for selecting topics and resources in the topic tree as for the import procedure. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
+#. Click :guilabel:`EXPORT` button once you finish selecting, or :guilabel:`CANCEL` to exit.
+#. Select the local drive (destination for the export) where you wish to export Kolibri resources, and click :guilabel:`CONTINUE`.
+#. You will see the export progress in the **Task manager** page. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
 
-        .. figure:: ../img/kolibri-data-osx.png
+.. note:: The above procedures copy the channel databases and resources from the ``content`` folder located inside the ``.kolibri`` folder on your device's hard disk, and place them in the ``KOLIBRI_DATA`` folder on the selected local drive. This structure is recognized by the **Import from local drive** command.
+
+        .. figure:: /img/kolibri-data-osx.png
           :alt: structure of the local drive folders with exported resources channels
+
 
 Delete Channel
 --------------
 
-To delete a resources channel from your device, follow these steps.
+Delete Complete Channels
+************************
 
-#. Click :guilabel:`OPTIONS` for the channel you want to delete.
-#. Select **Delete** option.
+To delete one or more full channels with all of its resources from your device, follow these steps.
 
-    .. figure:: ../img/delete-channel.png
-      :alt: 
-    
-#. Click :guilabel:`DELETE` to proceed, or :guilabel:`CANCEL` to exit without deleting the channel.
+
+#. Click :guilabel:`OPTIONS` button and select the **Delete channels** option.
+#. Use the checkboxes to select single channels you want to delete, or the *Select all on page* to delete all of them in bulk. As you keep selecting, you will see the total number and size of *channels selected* at the bottom of the page.
+#. Click :guilabel:`DELETE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
+
+#. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
+#. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the **Channels** tab on the **Device** page.
+
+
+Delete Selected Resources from a Channel
+****************************************
+
+To delete only a selection of channel resources from your device, follow these steps.
+
+#. Click :guilabel:`MANAGE` button for the channel from which you want to delete resources, and wait for Kolibri to display the channel information and the topic tree.
+#. Follow the same steps for selecting topics and resources in the topic tree as for the import procedure. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
+#. Click :guilabel:`DELTE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
+
+#. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
+#. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the selected resources will not be present in the topic tree of the channel.

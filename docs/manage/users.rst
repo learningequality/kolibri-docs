@@ -5,7 +5,7 @@ Users
 
 You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard (|users| icon).
 
-	.. figure:: img/manage-users.png
+	.. figure:: /img/manage-users.png
 	  :alt: Open Facility page and navigate to Users tab to see the the list of all the users, and access the options to manage them.
 
 .. note::
@@ -22,7 +22,7 @@ To create a new user account, follow these steps.
 #. Select the user type (*Admin*, *Coach* or *Learner*).
 #. Click :guilabel:`SAVE` to add the new user.
 
-		.. figure:: img/add-new-account.png
+		.. figure:: /img/add-new-account.png
 		  :alt: 
 
 Coach Type
@@ -33,7 +33,7 @@ When you create a new *Coach* user account, or change the type (role) to *Coach*
 * **Class coach**, that will have access to the coach dashboard and permissions to instruct ONLY the learners in the classes they are assigned to.
 * **Facility coach**, that will have access to the coach dashboard and permissions to instruct ALL the classes and the learners in the facility.
 
-		.. figure:: img/coach-type.png
+		.. figure:: /img/coach-type.png
 		  :alt: Use the radio buttons to choose between class coach and facility coach.
 
 
@@ -43,7 +43,7 @@ Select Users by Type
 #. Click to open the selector under **User type** to see filtering options. **All** users are displayed by default.
 #. Toggle between options (learners, coaches, admins) to display the users according to type.
 
-	.. figure:: img/select-users.png
+	.. figure:: /img/select-users.png
 	  :alt: 
 
 
@@ -56,7 +56,7 @@ To edit username, full name or account type, follow these steps.
 #. Edit **Full name**, **Username** or **User type** in the **Edit user details** window.
 #. Click :guilabel:`SAVE` to update the edited information, or :guilabel:`CANCEL` to exit without saving.
 
-	.. figure:: img/edit-account-info.png
+	.. figure:: /img/edit-account-info.png
 	  :alt: 
 
 
@@ -67,7 +67,7 @@ Reset User’s Password
 #. Enter the new password in both fields in the **Reset user password** window.
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without changing the password.
 
-	.. figure:: img/edit-password.png
+	.. figure:: /img/edit-password.png
 	  :alt: 
 
 
@@ -77,7 +77,7 @@ Delete User’s Account
 #. Click on the :guilabel:`OPTIONS` for the desired user and select the **Delete** option.
 #. Click :guilabel:`DELETE` to confirm, or :guilabel:`CANCEL` to exit without deleting the account.
 
-	.. figure:: img/delete-account-confirm.png
+	.. figure:: /img/delete-account-confirm.png
 	  :alt: 
 
 .. warning::

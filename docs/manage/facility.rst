@@ -14,7 +14,7 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
 	* create accounts on your facility 
 #. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
-    .. figure:: img/manage-facility.png
+    .. figure:: /img/manage-facility.png
       :alt: Open Facility page, navigate to Settings tab, and use the checkboxes to activate or deactivate the available options.
 
       Manage facility configuration settings.

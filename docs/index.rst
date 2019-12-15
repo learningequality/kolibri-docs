@@ -67,7 +67,7 @@ Kolibri can serve high quality education content from several publicly available
    :maxdepth: 3
    :hidden:
 
-   coach
+   coach/index
 
 .. toctree::
    :maxdepth: 2
@@ -103,7 +103,7 @@ Read how to :ref:`monitor activity and track the progress <track_progress>` of y
 For :ref:`Admins and Super admins <manage>` of Kolibri 
 ******************************************************
 
-Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolibri server on the supported platforms, and :ref:`configure other devices <access_LAN>` in the local network to access its content. Proceed on how to :ref:`import content channels <manage_content_ref>`, create and manage :ref:`users <manage_users_ref>` and :ref:`classes <manage_classes_ref>`. Configure the :ref:`settings for your facility <manage_facility_ref>`, and assign or edit :ref:`permissions <permissions>` for other users. Learn how to work with Kolibri from :ref:`the command line <command_line>`, 
+Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolibri server on the supported platforms, and :ref:`configure other devices <access_LAN>` in the local network to access its content. Proceed on how to :ref:`import content channels <manage_resources_ref>`, create and manage :ref:`users <manage_users_ref>` and :ref:`classes <manage_classes_ref>`. Configure the :ref:`settings for your facility <manage_facility_ref>`, and assign or edit :ref:`permissions <permissions>` for other users. Learn how to work with Kolibri from :ref:`the command line <command_line>`, 
 :ref:`troubleshoot network issues <network>`, and ask for support on our :ref:`Community Forums <support>`.
 
 Happy learning with Kolibri!

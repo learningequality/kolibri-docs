@@ -10,7 +10,7 @@ Access Kolibri
 
 .. note::
   	* If you are using Kolibri in your school, education center or facility, your coach or administrator will provide the instructions how to open the sign-in page, and username and password if necessary.
-  	* If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access` according to your operating system.
+  	* If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access/index` according to your operating system.
   	* If you don't have an account, but Kolibri at your facility or home is set up to allow learners to create their own, follow the steps to :ref:`create one for yourself <create_account>`. 
 
 

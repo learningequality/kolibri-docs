@@ -7,7 +7,7 @@ You can track progress of the **Learners**, create and assign **Lessons** and **
 
 Click on a class to access the progress-tracking features and create lessons, quizzes and groups.
 
-	.. figure:: img/coach-home.png
+	.. figure:: /img/coach-home.png
 	  :alt: Open the Coach page to view the list of classes
 
 	  Choose one of the classes from this view to access the Kolibri coach features.
@@ -19,7 +19,7 @@ Class Home
 
 On the **Class Home** tab (|class-home| icon) you can see the overview of the class activity and track progress of the learners on lessons and quizzes assigned to them.
 
-	.. figure:: img/class-home.png
+	.. figure:: /img/class-home.png
 	  :alt: Open the Coach page to view the list of classes
 
 	  Class Home presents an overview of learner progress and activity.
@@ -64,7 +64,10 @@ As learners interact with lessons and quizzes, you can track their progress in t
 Reports
 ~~~~~~~
 
-..manage/_reports.rst
+.. toctree::
+  :maxdepth: 1
+
+  reports
 
 
 
@@ -73,12 +76,12 @@ Plan
 
 Use the options in the **Plan** tab to create and manage the lessons, quizzes, and groups for the selected class.
 
+.. toctree::
+  :maxdepth: 1
 
-..manage/_lessons.rst
-
-..manage/_quizzes.rst
-
-..manage/_groups.rst
+  lessons
+  quizzes
+  groups
 
 
 
@@ -91,14 +94,14 @@ Coach Support Resources
 
 However, coach can decide to include any of these resources in :ref:`lessons <manage_lessons>` or :ref:`quizzes <manage_quizzes>`, in which case they will be visible to learners in the context of that lesson or a quiz.
 
-	.. figure:: img/coach-resource-studio.png
+	.. figure:: /img/coach-resource-studio.png
 	  :alt: In Kolibri Studio content curators can set the visibility for a single resource, or for the entire topic.
 
 	  Setting the visibility of content in Kolibri Studio.
 
 Coach resources and content channels that contain them are marked with the |coach-resource| icon in Kolibri.
 
-	.. figure:: img/coach-resource.png
+	.. figure:: /img/coach-resource.png
 	  :alt: Indicators of the number of available coach support resources for all the channels are visible on the Kolibri Learn page, inside each channel card.
 
 	  Content channel with 4 support resources for coaches in Kolibri.

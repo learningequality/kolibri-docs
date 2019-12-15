@@ -6,7 +6,7 @@ Manage Quizzes
 
 You can view, create and delete quizzes, as well as assign them to learners, using the **Quizzes** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. The default view displays the list of all quizzes in a selected class, with indicators of their visibility status and groups they are assigned to.
 
-  .. figure:: img/manage-quizzes.png
+  .. figure:: /img/manage-quizzes.png
     :alt: 
 
 .. note::
@@ -22,14 +22,14 @@ To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button.
 * Adjust the number of questions you want the quiz to contain. You can use the arrow field value modifiers with the mouse, or :guilabel:`-` and :guilabel:`+` buttons if you are using the keyboard.  
 * Navigate through the topic tree and activate checkboxes of those exercises you want to include in the quiz.
 
-    .. figure:: img/add-content-exam.png
+    .. figure:: /img/add-content-exam.png
       :alt: 
 
   As you keep adding and removing the exercises you will see confirmation messages at the bottom.
 
 * Use the **Search** feature to look for topics and exercises about a specific subject. Write the search term in the field, press the :guilabel:`ENTER` key or click the |search| button to display the results. 
    
-    .. figure:: img/search-exam-resources.png
+    .. figure:: /img/search-exam-resources.png
       :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
 
   You can filter the search results by *type* of resource (exercise or topic), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`. Click :guilabel:`EXIT SEARCH` button to return to main quiz view.
@@ -42,13 +42,13 @@ To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button.
    
    * To present the questions in a different (*random*) order to each learner, select :guilabel:`Randomized`.
 
-    .. figure:: img/questions-random.png
+    .. figure:: /img/questions-random.png
         :alt:    
 
    * To present the same (*fixed*) question order to all learners, select :guilabel:`Fixed`. You can reorder the questions by using the |drag| button with the mouse (drag and drop), or with |arrow-up| and |arrow-down| buttons if you navigate by keyboard.
 
 
-    .. figure:: img/questions-fixed.png
+    .. figure:: /img/questions-fixed.png
         :alt:  
 
 * Use the option *Choose a different set of questions* to obtain an alternative selection of questions to display.
@@ -66,7 +66,7 @@ Newly created quiz is by default visible to entire class. To change quiz *Recipi
 #. Select the group(s) of learners to whom you wish to assign the quiz under the *Recipients* heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
-  .. figure:: img/exam-visibility.png
+  .. figure:: /img/exam-visibility.png
     :alt: 
 
 
@@ -89,7 +89,7 @@ To copy a quiz to a different group or another class, follow these steps.
 #. Select the desired quiz from the list in the **Quizzes** subtab.
 #. Click :guilabel:`OPTIONS` and select **Copy quiz**.
 
-    .. figure:: img/copy-exam.png
+    .. figure:: /img/copy-exam.png
       :alt: Use the radio buttons to select the class where you want to copy the quiz to.
 
 #. Select the class to which you wish to copy the quiz to and click :guilabel:`CONTINUE`.

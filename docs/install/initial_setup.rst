@@ -77,4 +77,4 @@ To do the initial setup of your Kolibri facility after the installation, follow 
 	   Review the super admin responsibilities regarding the data usage and privacy.
 
 
-Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_content_ref>`, and :ref:`create users <manage_users_ref>` (if you chose the Admin-managed facility setup). Make sure to check how to :ref:`configure other computers <access_LAN>` in the network to access Kolibri.
+Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` (if you chose the Admin-managed facility setup). Make sure to check how to :ref:`configure other computers <access_LAN>` in the network to access Kolibri.

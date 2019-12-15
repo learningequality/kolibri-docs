@@ -6,7 +6,7 @@ Manage Groups
 
 In case you need to further divide learners inside classes, for example to address the different progress needs, you can use the **Groups** feature. Create and delete groups, as well as assign learners to them from the **Groups** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. Default view displays the list of all groups for the selected class, with the number of assigned learners for each group.
 
-	.. figure:: img/groups.png
+	.. figure:: /img/groups.png
 	  :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.
 
 .. note::
@@ -32,7 +32,7 @@ Enroll Learners in a Group
     * List in this view contains all the learners currently **not** enrolled in the selected group.
     * You can search for a specific learner by name.
       
-      .. figure:: img/learner-groups.png
+      .. figure:: /img/learner-groups.png
 	    :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.		
 
 

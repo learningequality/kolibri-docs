@@ -6,7 +6,7 @@ Classes
 
 You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard (|classes| icon). Default view displays the list of all classes in your facility, with the number of enrolled users for each class.
 
-  .. figure:: img/classes.png
+  .. figure:: /img/classes.png
     :alt: Open Facility page and navigate to Classes tab to see the the list of all the classes, and access the options to manage them.
 
 .. note::
@@ -40,7 +40,7 @@ Edit Class, Learners and Coaches
 
 A newly created class does not have any learners or coaches. To edit a class select it from the default view in the **Classes** tab. In this view, you can change class name, add or remove currently enrolled learners and assign or remove coaches from the class.
 
-  .. figure:: img/new-class.png
+  .. figure:: /img/new-class.png
     :alt: New class will have no enrolled learners and no assigned coaches.
 
 
@@ -54,7 +54,7 @@ Enroll Learners in Class
     * List in this view contains all the learners currently **NOT** enrolled for the selected class.
     * You can search for a specific learner by name.
 
-    .. figure:: img/add-users-to-class.png
+    .. figure:: /img/add-users-to-class.png
       :alt: Class details window in this step displays a list of learners you can add to the class.
 
 
@@ -67,7 +67,7 @@ Remove Learners from Class
 #. Click :guilabel:`REMOVE` for the chosen learner.
 #. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the learner.
 
-    .. figure:: img/remove-user-from-class.png
+    .. figure:: /img/remove-user-from-class.png
       :alt: 
 
   .. note::
@@ -83,7 +83,7 @@ Assign Coaches to Class
   * List in this view contains all the users with *Coach*, *Facility coach* or *Admin* roles.
   * You can search for a specific user by name.
   
-  .. figure:: img/assign-coach.png
+  .. figure:: /img/assign-coach.png
     :alt: Class details window in this step displays a list of coaches you can assign to the class.
 
 
@@ -96,7 +96,7 @@ Remove Coaches from a Class
 #. Click :guilabel:`REMOVE` for the chosen coach.
 #. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the coach.
 
-  .. figure:: img/remove-coach-from-class.png
+  .. figure:: /img/remove-coach-from-class.png
     :alt: 
 
 .. note::
