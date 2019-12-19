@@ -12,7 +12,13 @@ You can install Kolibri as a standard package from PyPi (works on Mac, Windows, 
 
 .. code-block:: bash
 
-  pip install kolibri
+  # Install for your current user
+  pip install --user kolibri
+
+  # Install system-wide (all users)
+  sudo pip install kolibri
+
+After Kolibri has been installed from PyPi, a new ``kolibri`` command should be available in your Terminal application.
 
 
 .. _pex:
