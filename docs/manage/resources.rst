@@ -6,12 +6,12 @@ Channels and Resources
 .. note::
   To manage Kolibri channels and resources you must have the appropriate permissions.
 
-Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the resources curator for their use in Kolibri. You can import and export channels in Kolibri from the **Channels** tab of the **Device** dashboard (|channels| icon).
+Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri. You can import and export channels in Kolibri from the **Channels** tab of the **Device** dashboard (|channels| icon).
 
   .. figure:: /img/manage-resources.png
     :alt: Open the Device page and Channels tab to see the list of available channels on your device
 
-    Kolibri resources channels in the Device > Channels tab.
+    Kolibri channels in the Device > Channels tab.
 
 
 .. _id_token:
@@ -22,7 +22,20 @@ Each Kolibri channel has its own **token** in `Kolibri Studio <https://studio.le
 
 .. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html>`__ how to find it in Studio user interface, if you have channel editor access.
 
+Kolibri Task Manager
+--------------------
 
+You can start various resource management tasks (import, export, deletion, update, etc.) in Kolibri and observe their progress in the *task manager* page. Each time you start a task, Kolibri will display the **Tasks** page, and depending on your workflow, you may have some *Finished*, *In-progress*, *Canceled** or tasks *Waiting* in the queue.
+
+  .. figure:: /img/task-queue.png
+    :alt: 
+
+    Kolibri task manager. 
+
+*  Use the :guilabel:`CLEAR` button to clear single tasks.
+*  Use :guilabel:`CLEAR COMPLETED` to delete all the tasks from the list.
+*  Click the **Back to channels** link to navigate away from the **Tasks** page to the **Device > Channels** tab.
+*  On top of the **Device > Channels** page you will see a summary of the current tasks. Click the **View task manager** link to return to the **Tasks** page with the detailed information.
 
 Import Channels and Resources into Kolibri
 ------------------------------------------
@@ -311,7 +324,7 @@ To delete only a selection of channel resources from your device, follow these s
 
 #. Click the :guilabel:`MANAGE` button for the channel from which you want to delete resources, and wait for Kolibri to display the channel information and the topic tree.
 #. Follow the same steps for selecting topics and resources in the topic tree as for the import procedure. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
-#. Click the :guilabel:`DELTE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
+#. Click the :guilabel:`DELETE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
 
 #. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
 #. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the selected resources will not be present in the topic tree of the channel.
