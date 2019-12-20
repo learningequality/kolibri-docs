@@ -10,7 +10,7 @@ Working with Kolibri from the Command Line
 
 * On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
 
-* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``.
+* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.13.pex``, type ``./kolibri-v0.13.pex start``.
 
 .. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
@@ -185,6 +185,24 @@ To import users into Kolibri with this command, you will need to provide the use
   kolibri manage importusers your-csv-file.csv --facility <your-facility>
 
 
+Export Users to a CSV File
+**************************
+
+To export users from Kolibri in a CSV file, run the below command. It does not export demographic data by default, but has an optional ``-d/--demographic-data`` flag to include them in the exported CSV file. 
+
+.. code-block:: bash
+
+  kolibri manage exportusers your-csv-file.csv
+
+  kolibri manage exportusers your-csv-file.csv --demographic-data
+
+
+.. figure:: /img/exportusers.png
+  :alt: CSV file with the user data.
+
+  CSV file with the exported users including the demographic data.
+
+
 Change User's Password
 **********************
 
@@ -197,7 +215,7 @@ Run the following command to change the password for a user.
 You will be prompted twice to input the new password for the user.
 
 
-Delete Users Permanantly
+Delete Users Permanently
 ************************
 
 If you need to permanently delete a Kolibri user and all the data associated with their account, for example to ensure privacy rights according to GDPR, use the following command.
