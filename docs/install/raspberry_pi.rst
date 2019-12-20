@@ -6,7 +6,7 @@ Raspberry Pi
 
 Kolibri is tested to work on Raspberry Pi Models **3, 3+, 4 and Zero W**.
 
-Kolibri may also run on Raspberry Pi Model 2, but the above tutorial was not fully intended for that model, since it does not have on-board WiFi.
+Kolibri may also run on Raspberry Pi Model 2, but the platform has not tested on that model, and it does not have on-board WiFi.
 
 
 Quick start
