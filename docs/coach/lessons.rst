@@ -53,9 +53,9 @@ To create a new lesson |lessons|, follow these steps.
 
 8. After you've selected the resources for the lesson, you can:
 
-    * Grab the |drag| button to reorder lesson resources with the mouse (drag and drop)
-    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation
-    * Click the :guilabel:`REMOVE` button to delete a resource
+    * Grab the |drag| button to reorder lesson resources with the mouse (drag and drop).
+    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.
+    * Click the :guilabel:`REMOVE` button to delete a resource.
 
       .. figure:: /img/reorder-lesson-resources.png
         :alt:     

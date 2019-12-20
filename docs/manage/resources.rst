@@ -225,6 +225,23 @@ To update a channel to its latest version and import new resources into Kolibri,
   All import tasks can be cancelled before they are labeled as *Completed* in the **Task manager** page. However, beware that resources from canceled imports might not be fully available. If you plan to use the resources in lessons or quizzes, please check the state of their channel before you do, and use the :guilabel:`IMPORT MORE` button if necessary.
 
 
+Edit Channel Order 
+------------------
+
+To change the order in which channels are presented to learners on the **Learn > Channels** page, follow these steps.
+
+
+#. Click :guilabel:`OPTIONS` button and select the **Edit channel order** option.
+#. In the *Edit channel order* page you can either:
+
+    * Grab the |drag| button to reorder channels with the mouse (drag and drop).
+    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.  
+
+  You will see a confirmation notification at the bottom every time you change the order of the channels.
+
+3. Close the *Edit channel order* to return to **Device > Channels**, and review their order on the **Learn > Channels** page.
+
+
 
 .. _export:
 
@@ -270,8 +287,8 @@ To export only a selection of channel resources on a local drive, follow these s
           :alt: structure of the local drive folders with exported resources channels
 
 
-Delete Channel
---------------
+Delete Channels
+---------------
 
 Delete Complete Channels
 ************************
