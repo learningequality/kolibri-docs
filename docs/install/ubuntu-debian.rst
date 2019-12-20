@@ -6,7 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavors, for instance Xubuntu and Mint.
+Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
 
 .. _ppa:
 
@@ -49,7 +49,7 @@ Install from a .deb file
 
 The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
 
-#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.12**, or have it copied to your local drive.
+#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**, or have it copied to your local drive.
 #. Run this command from the location where you downloaded the ``DEB`` file:
 
    .. code-block:: bash
@@ -114,7 +114,7 @@ Higher Performance with the ``kolibri-server`` package
 
 We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. 
 
-``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and with ``kolibri-server`` it will likely be able to serve 2-3 times more client devices compared to base Kolibri.
+``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and with ``kolibri-server`` it will likely be able to serve 2-3 times more client devices compared to base Kolibri. Find out more details in the `package repository <https://github.com/learningequality/kolibri-server>`_. 
 
 To install ``kolibri-server`` follow these steps.
 

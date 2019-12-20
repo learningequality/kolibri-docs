@@ -13,7 +13,7 @@ There are several varieties of operating systems for Raspberry Pi. This guide is
 Prerequisites
 -------------
 
-.. figure:: /img/rpi_kit.jpeg
+.. figure:: /img/rpi_kit.jpg
     :alt: Raspberry Pi and accessories
     :align: right
     :figwidth: 50%

@@ -1,9 +1,8 @@
-.. _manage_advanced:
+:orphan:
 
 Advanced Management
 ~~~~~~~~~~~~~~~~~~~
 
-.. _command_line:
 
 Working with Kolibri from the Command Line
 ------------------------------------------
@@ -37,8 +36,6 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
 
   kolibri stop
 
-
-.. _import_command_line:
 
 
 Import Content Channels from Internet
@@ -87,7 +84,6 @@ To export Kolibri content channels on a local drive in order to share it with an
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
-.. _reorder_channels:
 
 Reorder Content Channels
 ************************
@@ -130,7 +126,6 @@ You can set the specific order for content channels in the **Learn** page accord
     2         95a52b386f2c485cb97dd60901674a98        CK-12 Testing
 
 
-.. _create_superuser:
 
 Create a New Super Admin
 ************************
@@ -350,7 +345,6 @@ For certain configuration settings you need to use the ``options.ini`` file. Ins
 .. note::
   ``options.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation.   
    
-.. _port:
 
 
 Run Kolibri from a Different Port
@@ -368,8 +362,6 @@ If you need Kolibri to start and run from a port different than the default ``80
 .. tip::
   If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary.  
 
-
-.. _profile_requests_ini:
 
 
 Allow Profiling of Requests
@@ -438,8 +430,6 @@ Each log line contains this information:
 
 To help us troubleshoot potential problems on your Kolibri server, locate and send us the ``KOLIBRI_HOME/performance/date_time_performance.csv`` file.
 
-
-.. _profile_requests:
 
 
 Profile Server Requests
