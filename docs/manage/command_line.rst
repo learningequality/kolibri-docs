@@ -43,16 +43,16 @@ To import content channels from Internet, run these two commands in sequence. Th
 
 .. code-block:: bash
 
-  kolibri manage importchannel -- network <Channel ID>
-  kolibri manage importcontent -- network <Channel ID>
+  kolibri manage importchannel network <Channel ID>
+  kolibri manage importcontent network <Channel ID>
 
 
 For example (``Channel ID`` without angle brackets ``<...>``): 
 
 .. code-block:: bash
 
-  kolibri manage importchannel -- network a9b25ac9814742c883ce1b0579448337
-  kolibri manage importcontent -- network a9b25ac9814742c883ce1b0579448337
+  kolibri manage importchannel network a9b25ac9814742c883ce1b0579448337
+  kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337
 
 .. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
@@ -77,8 +77,8 @@ To export Kolibri content channels on a local drive in order to share it with an
 
 .. code-block:: bash
 
-  kolibri manage exportchannel -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
-  kolibri manage exportcontent -- <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
+  kolibri manage exportchannel <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
+  kolibri manage exportcontent <Channel ID> /path/to/local/drive/KOLIBRI_DATA 
 
 The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI.
 
