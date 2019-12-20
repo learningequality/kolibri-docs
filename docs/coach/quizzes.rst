@@ -82,7 +82,7 @@ Newly created quizzes are by default *not started*, meaning that learners will n
 .. TO-DO (image)
 
 .. note::
-  You can also start and end the quiz from its own **Report**, and the list in the **Reports > Quizzes** subtab.
+  You can also start and end the quiz from its **Report** page, and the list in the **Reports > Quizzes** subtab.
 
 
 

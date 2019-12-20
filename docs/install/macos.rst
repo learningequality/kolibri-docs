@@ -18,8 +18,11 @@ Install
    .. figure:: /img/copy-app.png
      :alt: 
 
-4. Start the Kolibri app from the **Launchpad**.
+4. Start the Kolibri app from the **Launchpad**, the **Applications** folder, or **Spotlight**.
 #. Proceed with the :ref:`setup_initial` of your facility. 
+
+.. warning::
+  * Kolibri macOS app is not yet signed, `follow these instructions to enable it to start <https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac>`_.
 
 
 Uninstall

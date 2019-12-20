@@ -8,7 +8,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 .. To review past quizzes, use the filter to include only the *Inactive* ones.
 
 * **Progress** column presents the summary of learners that *started* |started| and *completed* |completed-small| each quiz.
-* **Status** column indicates if the quiz is *opened* for learners and they can still answer the questions, or the quiz has *ended* and it is not visible anymore in the **Learn > Classes** view. 
+* The **Status** column indicates whether the quiz is *opened* for learners (whether they can still answer the questions), or whether the quiz has *ended*. It also indicates whether the quiz is still visible to learners in the **Learn > Classes** view.
 
 .. figure:: /img/quizzes.*
   :alt: 

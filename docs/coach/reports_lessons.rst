@@ -8,7 +8,7 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 .. To review past lessons, use the filter to include only the *Inactive* lessons.
 
 * **Progress** column presents the summary of learners who *started* |started| and *completed* |completed-small| the lessons, or *need help* |need-help| with some of the included resources.
-* The switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. You can change the lesson visiblity from here, the same as in the **Plan > Lessons** subtab.
+* The switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. You can change the lesson visiblity from here, as well as in the **Plan > Lessons** subtab.
   
 .. figure:: /img/lessons.*
   :alt: 
