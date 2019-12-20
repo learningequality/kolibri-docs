@@ -19,7 +19,7 @@ Create a New User Account
 
 To create a new user account, follow these steps.
 
-#. Click :guilabel:`NEW USER` button.
+#. Click the :guilabel:`NEW USER` button.
 #. Fill in the required information (name, username, password).
 #. Select the user type (*Admin*, *Coach* or *Learner*).
 #. Click :guilabel:`SAVE` to add the new user.
@@ -58,7 +58,7 @@ Edit User’s Account
 
 To edit username, full name or account type, follow these steps.
 
-#. Click on the :guilabel:`OPTIONS` button for the desired user and select the **Edit details** option.
+#. Click the :guilabel:`OPTIONS` button for the desired user and select the **Edit details** option.
 #. Edit **Full name**, **Username**, **User type**, **Identifier**, **Birth year** and **Gender** in the **Edit user details** window.
 #. Click :guilabel:`SAVE` to update the edited information, or :guilabel:`CANCEL` to exit without saving.
 
@@ -81,7 +81,7 @@ Reset User’s Password
 Delete User’s Account
 *********************
 
-#. Click on the :guilabel:`OPTIONS` for the desired user and select the **Delete** option.
+#. Click the :guilabel:`OPTIONS` for the desired user and select the **Delete** option.
 #. Click :guilabel:`DELETE` to confirm, or :guilabel:`CANCEL` to exit without deleting the account.
 
 	.. figure:: /img/delete-account-confirm.png

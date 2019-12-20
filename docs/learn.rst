@@ -71,7 +71,7 @@ Create an account
 
 To create your own account on a **Kolibri** facility and start learning, follow these steps:
 
-#. Click :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
+#. Click the :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
 #. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
 #. Click the :guilabel:`CONTINUE` button.

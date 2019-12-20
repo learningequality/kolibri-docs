@@ -51,10 +51,10 @@ Rename Group
 
 To rename group, follow these steps.
 
-#. Click :guilabel:`OPTIONS` button on the right edge of the desired group.
+#. Click the :guilabel:`OPTIONS` button on the right edge of the desired group.
 #. Select the **Rename** option.
 #. Input the new name for the group in the confirmation window.
-#. Click :guilabel:`SAVE` button to proceed, or :guilabel:`CANCEL` to exit without renaming the group.
+#. Click the :guilabel:`SAVE` button to proceed, or :guilabel:`CANCEL` to exit without renaming the group.
 
 
 Delete Group
@@ -62,6 +62,6 @@ Delete Group
 
 To delete a group, follow these steps.
 
-#. Click :guilabel:`OPTIONS` button on the right edge of the desired group.
+#. Click the :guilabel:`OPTIONS` button on the right edge of the desired group.
 #. Select the **Delete** option.
-#. Click :guilabel:`DELETE` button in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the group.
+#. Click the :guilabel:`DELETE` button in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the group.

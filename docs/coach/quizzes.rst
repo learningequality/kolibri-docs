@@ -59,10 +59,10 @@ To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button.
 Change Quiz Recipients
 """"""""""""""""""""""
 
-Newly created quiz is by default visible to entire class. To change quiz *Recipients*, that is select group(s) of learners instead of the whole class, follow these steps.
+Newly created quizzes are by default visible to entire class. To change quiz *Recipients*, that is select group(s) of learners instead of the whole class, follow these steps.
 
 #. Select the desired quiz from the list in the **Quizzes** subtab.
-#. Click :guilabel:`OPTIONS` button and select the **Edit details** option.
+#. Click the :guilabel:`OPTIONS` button and select the **Edit details** option.
 #. Select the group(s) of learners to whom you wish to assign the quiz under the *Recipients* heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
@@ -73,11 +73,11 @@ Newly created quiz is by default visible to entire class. To change quiz *Recipi
 Start and End Quiz
 """"""""""""""""""
 
-Newly created quiz is by default *not started*, meaning that learners will not see it in the **Learn > Classes** view. 
+Newly created quizzes are by default *not started*, meaning that learners will not see it in the **Learn > Classes** view. 
 
-* Click :guilabel:`START QUIZ` button to enable learners to see the quiz and start answering the questions. Button will change color and label to indicate that the quiz is now opened for learners, and can be *ended*.
+* Click the the :guilabel:`START QUIZ` button to enable learners to see the quiz and start answering the questions. Button will change color and label to indicate that the quiz is now opened for learners, and can be *ended*.
 
-* Click :guilabel:`END QUIZ` button once the designated time had passed, and you want to stop learners from interacting with it.
+* Click the :guilabel:`END QUIZ` button once the designated time had passed, and you want to stop learners from interacting with it.
   
 .. TO-DO (image)
 

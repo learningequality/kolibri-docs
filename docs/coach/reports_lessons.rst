@@ -20,7 +20,7 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 #. When you click to open the single resource, you can see the progress report for each learner (*started* |started|, *completed* |completed-small| or *need help* |need-help|), and the time spent on it.
 #. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers.
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
-#. Click :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the **Plan** tab (|edit| icon).
+#. Click the :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the **Plan** tab (|edit| icon).
 #. Use the |print| and |export| icons to print the lesson report on paper, save it in a PDF format, or export as a CSV file.
    
    .. note:: 

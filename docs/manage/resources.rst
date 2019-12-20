@@ -88,7 +88,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 #. Click the topics links to browse through the channel resources. Use the *Select all* checkbox to import all the resources in the channel, or select only certain topics or resources. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
 
-#. Click :guilabel:`IMPORT` button once you finish selecting all the desired resources.
+#. Click the :guilabel:`IMPORT` button once you finish selecting all the desired resources.
 
 #. You will see the import progress in the **Task manager** page. Once the import concludes, the newly imported channel and resources display on the **Channels** page.
 
@@ -103,7 +103,7 @@ To import entire channels instead of a selected resources, follow these steps.
 
 #. Click the **Select entire channels instead** link above the list of public channels in Kolibri.
 #. Use the checkboxes to select the channels you want to import in full. As you keep selecting, you will see the total number and size of *channels selected* at the bottom of the page.
-#. Click :guilabel:`IMPORT` button once you finish selecting all the desired channels.
+#. Click the :guilabel:`IMPORT` button once you finish selecting all the desired channels.
 
 .. warning:: You can also use the *Select all on page* option, but beware that it will require several hundreds of gigabytes on your hard drive, and likely prolonged import times.
 
@@ -128,8 +128,8 @@ Import More Resources
 
 To add more learning resources from a channel that you previously imported resources from, follow these steps.
 
-#. Click :guilabel:`MANAGE` button for the desired channel.
-#. Click :guilabel:`IMPORT MORE` button.
+#. Click the :guilabel:`MANAGE` button for the desired channel.
+#. Click :guilabel:`IMPORT MORE`.
 #. Repeat the selection procedure from above. 
 
 
@@ -202,8 +202,8 @@ Public channels on Kolibri Studio are periodically updated from their original s
 
 To update a channel to its latest version and import new resources into Kolibri, follow these steps.
 
-#. Click :guilabel:`MANAGE` button for the channel you want to update.
-#. When a new channel version is available, you will see the notification. Click :guilabel:`VIEW CHANGES` button.
+#. Click the :guilabel:`MANAGE` button for the channel you want to update.
+#. When a new channel version is available, you will see the notification. Click the :guilabel:`VIEW CHANGES` button.
    
     .. figure:: /img/view-changes.png
       :alt: 
@@ -231,7 +231,7 @@ Edit Channel Order
 To change the order in which channels are presented to learners on the **Learn > Channels** page, follow these steps.
 
 
-#. Click :guilabel:`OPTIONS` button and select the **Edit channel order** option.
+#. Click the :guilabel:`OPTIONS` button and select the **Edit channel order** option.
 #. In the *Edit channel order* page you can either:
 
     * Grab the |drag| button to reorder channels with the mouse (drag and drop).
@@ -260,9 +260,9 @@ Export Complete Channels
 To export one or more full channels with all of its resources on a local drive, follow these steps.
 
 
-#. Click :guilabel:`OPTIONS` button and select the **Export channels** option.
+#. Click the :guilabel:`OPTIONS` button and select the **Export channels** option.
 #. Use the checkboxes to select single channels you want to export, or the *Select all on page* to export all of them in bulk. As you keep selecting, you will see the total number and size of *channels selected* at the bottom of the page.
-#. Click :guilabel:`EXPORT` button once you finish selecting, or :guilabel:`CANCEL` to exit.
+#. Click the :guilabel:`EXPORT` button once you finish selecting, or :guilabel:`CANCEL` to exit.
 #. Select the local drive (destination for the export) where you wish to export Kolibri resources, and click :guilabel:`CONTINUE`.
 #. You will see the export progress in the **Task manager** page. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
    
@@ -275,9 +275,9 @@ Export Selected Resources from a Channel
 
 To export only a selection of channel resources on a local drive, follow these steps.
 
-#. Click :guilabel:`MANAGE` button for the channel from which you want to export resources, and wait for Kolibri to display the channel information and the topic tree.
+#. Click the :guilabel:`MANAGE` button for the channel from which you want to export resources, and wait for Kolibri to display the channel information and the topic tree.
 #. Follow the same steps for selecting topics and resources in the topic tree as for the import procedure. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
-#. Click :guilabel:`EXPORT` button once you finish selecting, or :guilabel:`CANCEL` to exit.
+#. Click the :guilabel:`EXPORT` button once you finish selecting, or :guilabel:`CANCEL` to exit.
 #. Select the local drive (destination for the export) where you wish to export Kolibri resources, and click :guilabel:`CONTINUE`.
 #. You will see the export progress in the **Task manager** page. Once the export is finished, safely disconnect the drive according to the recommended procedure for your operating system, and proceed to import channels on other devices.
 
@@ -296,9 +296,9 @@ Delete Complete Channels
 To delete one or more full channels with all of its resources from your device, follow these steps.
 
 
-#. Click :guilabel:`OPTIONS` button and select the **Delete channels** option.
+#. Click the :guilabel:`OPTIONS` button and select the **Delete channels** option.
 #. Use the checkboxes to select single channels you want to delete, or the *Select all on page* to delete all of them in bulk. As you keep selecting, you will see the total number and size of *channels selected* at the bottom of the page.
-#. Click :guilabel:`DELETE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
+#. Click the :guilabel:`DELETE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
 
 #. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
 #. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the **Channels** tab on the **Device** page.
@@ -309,9 +309,9 @@ Delete Selected Resources from a Channel
 
 To delete only a selection of channel resources from your device, follow these steps.
 
-#. Click :guilabel:`MANAGE` button for the channel from which you want to delete resources, and wait for Kolibri to display the channel information and the topic tree.
+#. Click the :guilabel:`MANAGE` button for the channel from which you want to delete resources, and wait for Kolibri to display the channel information and the topic tree.
 #. Follow the same steps for selecting topics and resources in the topic tree as for the import procedure. As you keep selecting, you will see the total number and size of *resources selected* at the bottom of the page.
-#. Click :guilabel:`DELTE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
+#. Click the :guilabel:`DELTE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
 
 #. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
 #. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the selected resources will not be present in the topic tree of the channel.
