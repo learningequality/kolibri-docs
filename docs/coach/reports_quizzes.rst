@@ -8,14 +8,14 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 .. To review past quizzes, use the filter to include only the *Inactive* ones.
 
 * **Progress** column presents the summary of learners that *started* |started| and *completed* |completed-small| each quiz.
-* :guilabel:`END QUIZ` button in the **Status** column indicates that the learners can still access the quiz and answer the questions, or the quiz has ended. 
+* **Status** column indicates if the quiz is *opened* for learners and they can still answer the questions, or the quiz has *ended* and it is not visible anymore in the **Learn > Classes** view. 
 
 .. figure:: /img/quizzes.*
   :alt: 
 
 .. TO-DO (image)
 
-#. Use the :guilabel:`END QUIZ` button when you decide that the learners have had enough time to access the quiz and answer the questions.
+#. You can start and end the quiz from here, the same as in the **Plan > Quizzes** subtab. Use the :guilabel:`START QUIZ` to open it for learners, or the :guilabel:`END QUIZ` when you decide that the learners have had enough time to access the quiz and answer the questions.
 #. Click on the quiz title to view its list of resources.
 #. In the selected quiz **Report** sub-tab, you can see the list of learners, with columns for the *progress* and obtained *score*.
 #. Open the **Difficult questions** sub-tab to view the list of questions learners gave incorrect answers to, and gain insight of how many *need help* |need-help| with the concept.
@@ -48,7 +48,20 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 #. Click the :guilabel:`OPTIONS` button and select **Preview** or **Edit details** option if you want to view or edit the quiz details directly from its report. Editing the quiz details from here will have the same results as from the **Plan** tab (|edit| icon).
 #. Use the |print| and |export| icons to print the quiz report on paper, save it in a PDF format, or export as a CSV file.
 
-    .. figure:: /img/edit-quiz-from-report.gif
+   .. note:: 
+      The columns *Progress* and *Recipients* in the **Reports > Quizzes** sub-tab display a summary, but when you export the report as a CSV file and open it in a spreadsheet application, you will see separate columns for each progress status, compared to the summary representation in Kolibri. *Recipients (1)* column indicates if the quiz was assigned to the entire class or to group(s), in which case they will be listed in the *Recipients (2)* column. 
+
+      .. figure:: /img/quizzes-csv-header.png
+        :alt:
+
+        Quizzes' report exported as CSV and opened in a spreadsheet. 
+
+
+      For the rest of the reports the column headings will be the same in an exported CSV file as you can see them in Kolibri.
+
+
+
+.. figure /img/edit-quiz-from-report.gif
       :alt: 
 
 .. TO-DO (image)

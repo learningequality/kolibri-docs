@@ -5,9 +5,10 @@ Lessons
 
 Open the **Lessons** sub-tab from the main **Reports** view to access the progress reports on resources included in each lesson. 
 
-..* To review past lessons, use the filter to include only the *Inactive* lessons.
+.. To review past lessons, use the filter to include only the *Inactive* lessons.
+
 * **Progress** column presents the summary of learners who *started* |started| and *completed* |completed-small| the lessons, or *need help* |need-help| with some of the included resources.
-* Switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. 
+* The switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. You can change the lesson visiblity from here, the same as in the **Plan > Lessons** subtab.
   
 .. figure:: /img/lessons.*
   :alt: 
@@ -21,6 +22,22 @@ Open the **Lessons** sub-tab from the main **Reports** view to access the progre
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
 #. Click :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the **Plan** tab (|edit| icon).
 #. Use the |print| and |export| icons to print the lesson report on paper, save it in a PDF format, or export as a CSV file.
+   
+   .. note:: 
+      The columns *Progress* and *Recipients* in the **Reports > Lessons** sub-tab display a summary, but when you export the report as a CSV file and open it in a spreadsheet application, you will see separate columns for each progress status, compared to the summary representation in Kolibri. *Recipients (1)* column indicates if the lesson was assigned to the entire class or to group(s), in which case they will be listed in the *Recipients (2)* column. 
 
-    .. figure:: /img/edit-lesson-from-report.gif
+      .. figure:: /img/lessons-csv-header.png
+        :alt:
+
+        Lesson's report exported as CSV and opened in a spreadsheet. 
+
+
+      For the rest of the reports the column headings will be the same in an exported CSV file as you can see them in Kolibri.
+
+
+
+
+
+.. TO-DO (image)
+.. figure /img/edit-lesson-from-report.gif
       :alt: 

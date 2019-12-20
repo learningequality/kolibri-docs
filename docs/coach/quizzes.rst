@@ -70,15 +70,20 @@ Newly created quiz is by default visible to entire class. To change quiz *Recipi
     :alt: 
 
 
-Change Quiz Status
+Start and End Quiz
 """"""""""""""""""
 
-Newly created quiz is by default not active. Once you set the visibility of quiz to the chosen group(s) of learners, you need to **Activate** it so it can appear in the **Learn** view of the learners it is assigned to.
+Newly created quiz is by default *not started*, meaning that learners will not see it in the **Learn > Classes** view. 
 
-#. Select the desired quiz from the list in the **Quizzes** subtab.
-#. Click :guilabel:`OPTIONS` button and select the **Edit details** option.
-#. Select **Active** at the start of the quiz period. When the quiz period concludes, select the **Inactive** option.
-#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
+* Click :guilabel:`START QUIZ` button to enable learners to see the quiz and start answering the questions. Button will change color and label to indicate that the quiz is now opened for learners, and can be *ended*.
+
+* Click :guilabel:`END QUIZ` button once the designated time had passed, and you want to stop learners from interacting with it.
+  
+.. TO-DO (image)
+
+.. note::
+  You can also start and end the quiz from its own **Report**, and the list in the **Reports > Quizzes** subtab.
+
 
 
 Copy Quiz

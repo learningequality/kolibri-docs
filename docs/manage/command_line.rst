@@ -136,7 +136,9 @@ In case you need to create another **super admin** user, either to address addit
 
   kolibri manage createsuperuser
 
-You will be prompted to input the **Username** and **Password** and the new **super admin** user account will be created.
+You will be prompted to input the **Username** and **Password** and the new **super admin** user account will be created. 
+
+The full name for the new super admin user will be the same as the chosen ``username``, and can be edited in the **Facility > Users** page, or the user profile.
 
 
 Import Users from a CSV File
@@ -171,6 +173,8 @@ To import users into Kolibri with this command, you will need to provide the use
 
 * When you do not provide passwords for the imported users, Kolibri will set the default password ``kolibri`` for those usernames.
 
+* If you do not provide full names for the imported users, Kolibri will set them to be the same as the values for ``username``, and you can edit them in the **Facility > Users** page.
+
 * The facility can be either the facility name or the facility ID. If you do not provide the facility, Kolibri will import users in the default facility on the device. You can also specify the facility by adding the ``--facility`` argument in the command line (see below).
 
 
@@ -204,60 +208,6 @@ If you need to permanently delete a Kolibri user and all the data associated wit
 
 
 .. warning:: This will permanently erase all the user data.
-
-
-Change Language
-***************
-
-.. code-block:: bash
-
-  kolibri language setdefault <langcode>
-
-+--------------------------+-----------------+ 
-| Language                 | <langcode>      |
-+==========================+=================+ 
-| English                  | ``en``          |
-+--------------------------+-----------------+
-| Spanish (Spain)          | ``es-es``       | 
-+--------------------------+-----------------+ 
-| Spanish (Latin America)  | ``es-419``      | 
-+--------------------------+-----------------+ 
-| French                   | ``fr``          | 
-+--------------------------+-----------------+
-| Swahili (Tanzania)       | ``sw-tz``       | 
-+--------------------------+-----------------+
-| Arabic                   | ``ar``          | 
-+--------------------------+-----------------+
-| Korean                   | ``ko``          | 
-+--------------------------+-----------------+
-| Farsi                    | ``fa``          | 
-+--------------------------+-----------------+
-| Hindi (India)            | ``hi-in``       | 
-+--------------------------+-----------------+
-| Urdu (Pakistan)          | ``ur-pk``       | 
-+--------------------------+-----------------+
-| Marathi                  | ``mr``          | 
-+--------------------------+-----------------+
-| Chinyanja                | ``nyn``         | 
-+--------------------------+-----------------+
-| Portuguese (Brasil)      | ``pt-br``       | 
-+--------------------------+-----------------+
-| Telugu                   | ``te``          | 
-+--------------------------+-----------------+
-| Vietnamese               | ``vi``          | 
-+--------------------------+-----------------+
-| Yoruba                   | ``yo``          | 
-+--------------------------+-----------------+
-| Fulfulde Mbororoore      | ``ff-cm``       | 
-+--------------------------+-----------------+
-| Bengali                  | ``bn-bd``       | 
-+--------------------------+-----------------+
-| Gujarati                 | ``gu-in``       | 
-+--------------------------+-----------------+
-| Burmese                  | ``my``          | 
-+--------------------------+-----------------+
-| Bulgarian                | ``bg-bg``       | 
-+--------------------------+-----------------+
 
 
 Backup and Restore Kolibri Database

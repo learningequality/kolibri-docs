@@ -1,7 +1,7 @@
 .. _user_roles:
 
 Default User Roles
-~~~~~~~~~~~~~~~~~~
+##################
 
 Kolibri users by default can be divided in 3 different roles with respective access to features. 
 

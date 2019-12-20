@@ -1,7 +1,7 @@
 .. _manage_resources_ref:
 
 Channels and Resources
-~~~~~~~~~~~~~~~~~~~~~~
+######################
 
 .. note::
   To manage Kolibri channels and resources you must have the appropriate permissions.
@@ -140,12 +140,16 @@ Import from a Local Network or Internet
 
 You can also import resources from a different device running Kolibri in your same local network, or even from a Kolibri server hosted outside your LAN, provided you know its exact IP address. This feature is useful for when you have:
 
-* a larger country- or region level Kolibri resources server outside your LAN, but with resources specific to your implementation requirements
+* a larger country- or region-level Kolibri server outside your LAN, but with resources specific to your implementation requirements
 * various instances of Kolibri servers in your local network, in order to support a high number of client (learner) devices 
   
-.. note:: Kolibri will try to automatically detect other instances running in the same LAN, and you will see a periodic *Searching...* notification. When the detection is successful, you will be able to select these Kolibri instances and import resources from them. 
-  
-Follow these steps to import from local network.
+.. note:: Kolibri will try to automatically detect other instances (*peers*) running in the same LAN, and you will see a spinning loader while it is searching. When the detection is successful, you will be able to select these Kolibri instances and import resources from them.
+
+    .. figure:: /img/peer.png
+      :alt: 
+
+
+Follow these steps to import from a local network.
 
 #. Choose option *Local network or internet*, and click :guilabel:`CONTINUE`.
 #. Click *Add new address* link to add a new network address.
@@ -158,7 +162,16 @@ Follow these steps to import from local network.
 #. Click :guilabel:`ADD` to save this address to your device settings. If you later decide to delete it, use the link *Forget*.
 #. Click :guilabel:`CONTINUE` and follow the same steps for selecting topics and resources as for the :ref:`import from Kolibri Studio <import_studio>`.
 
-.. warning:: This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of resources import **must have the Kolibri version 0.11 or later** running.
+.. warning:: 
+  
+  * Beware that active firewalls on your devices could cause:
+
+    - inability to be discovered by peers
+    - inability to discover other peers
+    - ability to be discovered, but not be available for import
+
+
+  * This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of resources import **must have the Kolibri version 0.11 or later** running.
 
 .. _local_drive:
 
@@ -185,12 +198,16 @@ Update Channels
 
 Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
 
-.. warning:: It is recommended to schedule and perform channel updates only during periods of low activity on the server. Updating resources while people are using the server may cause errors or performance issues.
+.. warning:: It is recommended to schedule and perform channel updates only during periods of low activity on the server. Updating resources while server is receiving requests by client devices may cause errors or performance issues.
 
 To update a channel to its latest version and import new resources into Kolibri, follow these steps.
 
 #. Click :guilabel:`MANAGE` button for the channel you want to update.
-#. When a new channel version is available, you will see the notification. Click :guilabel:`VIEW CHANGES`.
+#. When a new channel version is available, you will see the notification. Click :guilabel:`VIEW CHANGES` button.
+   
+    .. figure:: /img/view-changes.png
+      :alt: 
+
 #. On the following page you can see the summary of the changes: how many resources will be added, deleted or updated if you decide to proceed. 
 
     .. figure:: /img/update-channel.png
@@ -202,7 +219,12 @@ To update a channel to its latest version and import new resources into Kolibri,
 
 4. Click the :guilabel:`UPDATE CHANNEL` button.
 5. You will see the update progress in the **Task manager** page. Once the update concludes, the newly imported and updated resources will be available to use in Kolibri.
-   
+
+
+.. warning:: 
+  All import tasks can be cancelled before they are labeled as *Completed* in the **Task manager** page. However, beware that resources from canceled imports might not be fully available. If you plan to use the resources in lessons or quizzes, please check the state of their channel before you do, and use the :guilabel:`IMPORT MORE` button if necessary.
+
+
 
 .. _export:
 

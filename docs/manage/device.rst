@@ -1,100 +1,49 @@
 .. _manage_device_ref:
 
 Device
-~~~~~~
+######
 
-You can manage content and permissions, and view the detailed info of the device where Kolibri is running from the **Device** dashboard.
+You can edit device configuration settings in Kolibri from the **Settings** tab in your **Device** dashboard (|settings| icon). Remember that you can also configure :ref:`manage_facility_ref` settings. 
 
 .. note::
   To manage device settings you must have the appropriate permissions.
 
 
-.. _permissions:
+.. figure:: ../img/device-settings.png
+	:alt: Open the Device page and navigate to Settings tab.
 
-Assign Permissions
-------------------
+	Configure device settings.
 
-You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the **Permission** tab in the  **Device** dashboard (|permissions| icon).
+Whenever you change any of the device options, be sure to click the :guilabel:`SAVE` button to apply the changes.
 
-	.. figure:: ../img/manage-permissions.png
-	  :alt: Open the Device page and navigate to Permissions tab to see permissions for every user  
-
-.. TO-DO (image)
-
-Permission to Manage Content
-****************************
-
-To grant permission to another user to manage content channels in Kolibri, that is to import, export and delete them from the device, follow these steps.
-
-#. Click :guilabel:`EDIT PERMISSIONS` for the chosen user.
-#. Under **Device permissions** activate the option *Can import and export content channels*.
-#. Click :guilabel:`SAVE CHANGES` to apply and finish.
-
-	.. figure:: ../img/manage-content-permissions.png
-	  :alt: Use the checkbox to grant the chosen user permissions to manage content
-
-The users who have been granted the permissions to manage content channels will have a black key indicator in front of their name, and will be able to see the **Device** dashboard with the **Channels** tab.
-
-
-Super Admin Permissions
-***********************
-
-To grant **super admin** permissions to another user, follow these steps.
-
-#. Click :guilabel:`EDIT PERMISSIONS` for the chosen user.
-#. Activate the option *Make super admin*.
-#. Click :guilabel:`SAVE CHANGES` to apply and finish.
-
-	.. figure:: ../img/coach-superuser.png
-	  :alt: Use the checkbox to grant the chosen user super admin permissions
-
-The users who have been granted the **super admin** permissions will have a yellow key indicator in front of their name, and will be able to see the **Device** dashboard with both the **Content** and **Permissions** tabs.
-
-	.. figure:: ../img/permissions-keys.png
-	  :alt: Users with additional permissions will have icon indicators in front of their username 
-
-.. TO-DO (image)
-
-.. _device_info:
-
-
-View Device Info
-----------------
-
-To view the detailed info of the device where Kolibri is running on, use the **Info** tab in the  **Device** dashboard (|info| icon). This information will be useful in case you need to report an issue with Kolibri on the :ref:`Learning Equality Community Forums <forums>`. 
-
-#. Click the **Show** link to open the *Advanced* device info.
-#. Make note or copy the following device details to clipboard.
-
-	* Server IP/URL(s)
-	* Kolibri version
-	* Operating system 
-	* Installer type
-	* Database path
-	* Device name
-	* Free disk space
-	* Server time
-	* Server timezone
-
-		.. figure:: ../img/device-info.png
-		  :alt: Open the Device page and navigate to the Info tab to find out the extended device info.
-
-	  	  Find out the extended device info in the Device > Info tab.
 
 Set Default Language
 --------------------
 
-The language you have chosen during the :ref:`setup_initial` will be set as the **default language** for all users who access Kolibri on the server device. You can change the default language for Kolibri from the **Settings** tab in your **Device** dashboard (|lock| icon).
+The language you have chosen during the :ref:`setup_initial` will be set as the **default language** for all users who access Kolibri on the server device.
 
-#. Select the desired default language from the drop-down menu. You can set Kolibri to display in the language defined by the browser content settings, or in any of the :ref:`currently supported languages <languages>`.
-
-	.. figure:: ../img/default-language.png
-		:alt: Open the Device page and navigate to Settings tab to set the default language.
-
-		Manage device language settings.
-
-
-#. Click :guilabel:`SAVE` to apply and finish.
+If you want to select a different default language, use the drop-down menu. You can set Kolibri to display in the language defined by the browser content settings, or in any of the :ref:`currently supported languages <languages>`.
 
 .. note::
   All users will still be able to :ref:`change to their own language of preference <change_language>` from the user menu options.
+
+
+Allow Peer Import
+-----------------
+
+If you have imported resources from an unlisted channel on Kolibri Studio, but you do want to make them available for :ref:`import to other Kolibri server devices <local_network>` (*peers*) in your local network, you can allow it by checking the **Allow other computers on this network to import my unlisted channels** checkbox.
+
+If you prefer to keep those resources available only from your own device, be sure to keep that option unchecked.
+
+
+Set Default Landing Page
+------------------------
+
+You can configure the default landing page for learners to be the Kolibri **Sign-in page** or the **Learn** page. 
+
+The first option is recommended when you want to encourage the learners to always start the session in Kolibri with their username (and password, if required) in order to retain the learning progress data. In this case you can also:
+
+* Leave unchecked the **Allow users to access resources without signing in** checkbox, if you want to restrict guest browsing and allow learners to access Kolibri only if they sign-in.
+* Check the **Learners should only see resources assigned to them in classes** checkbox if you don't want to allow free browsing of resources available on your device. In this case learners will only see the **Learn > Classes** tab with quizzes and lessons that they have been assigned when they sign-in to Kolibri, and the **Channels** and **Recommended** tabs will not be visible.
+  
+If your device is located in a less formal learning facility setting (like a library or a community center), where you are not tracking individual learning progress, or you want to encourage self-exploration of channels and resources available on Kolibri, use the **Learn** page as the default landing page. 

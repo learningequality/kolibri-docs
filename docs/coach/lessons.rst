@@ -65,15 +65,18 @@ To create a new lesson |lessons|, follow these steps.
 9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 9 again.
 
 
-Change Lesson Status
-""""""""""""""""""""
+Change Lesson Visibility
+""""""""""""""""""""""""
 
-A newly created lesson is *Inactive* by default, meaning that learners will not see it in their **Learn** view. To change the lesson status, follow these steps.
+A newly created lesson is by default *not visible to learners*, and they will not see it in the **Learn > Classes** view. 
 
-#. Select the desired lesson from the list in the **Lessons** tab.
-#. Click :guilabel:`OPTIONS` button and select **Edit details**. 
-#. Select **Active** or **Inactive** under the *Status* heading.
-#. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
+* Click the **Visible to learners** switch in the summary block to enable learners to see the lesson and interact with its resources.
+* Click the switch again to make the lesson invisible to learners once the designated time had passed.
+
+.. TO-DO (image)
+
+.. note::
+  You can also change lesson visiblity from its own **Report**, and the list in the **Reports > Lessons** subtab.
 
 
 Change Lesson Recipients

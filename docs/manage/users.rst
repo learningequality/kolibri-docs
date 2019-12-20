@@ -1,7 +1,7 @@
 .. _manage_users_ref:
 
 Users
-~~~~~
+#####
 
 You can search for, filter, add, and edit user accounts in Kolibri from the **Users** tab in your **Facility** dashboard (|users| icon).
 

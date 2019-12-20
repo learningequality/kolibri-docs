@@ -14,7 +14,11 @@ Install
 #. Download the `.dmg installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**.
 #. Double-click the downloaded ``.dmg`` file.
 #. Drag the Kolibri logo inside the **Applications** folder, and wait for the installation to finish.
-#. Start the Kolibri app from the **Launchpad**.
+   
+   .. figure:: /img/copy-app.png
+     :alt: 
+
+4. Start the Kolibri app from the **Launchpad**.
 #. Proceed with the :ref:`setup_initial` of your facility. 
 
 
