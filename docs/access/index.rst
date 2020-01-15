@@ -14,7 +14,7 @@ Steps to access and start the **Kolibri** server will differ depending on your o
   rpi
   macos
 
-Remember to configure other devices in the the same network to access the the learning resources on the server.
+Remember to configure other devices in the the same network to access the learning resources on the server.
 
 .. toctree::
   :maxdepth: 1
