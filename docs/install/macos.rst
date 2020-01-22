@@ -18,11 +18,16 @@ Install
    .. figure:: /img/copy-app.png
      :alt: 
 
-4. Start the Kolibri app from the **Launchpad**, the **Applications** folder, or **Spotlight**.
-#. Proceed with the :ref:`setup_initial` of your facility. 
+4. a) **The first time you start the Kolibri application, do NOT use Launchpad**. Instead use the **Finder** on your Mac to locate Kolibri in the **Applications** folder. This is because the application is unsigned and needs your permission to run.
 
-.. warning::
-  * Kolibri macOS app is not yet signed, `follow these instructions to enable it to start <https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac>`_.
+   b) Control-click the app icon, then choose **Open** from the shortcut menu.
+
+      After completing these steps, your security settings are updated for this version of Kolibri, and you can launch Kolibri like any other application. You may need to repeat this process when you upgrade Kolibri.
+
+
+      .. note:: Read this for `more details about opening unsigned apps <https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac>`_.
+
+#. Proceed with the :ref:`setup_initial` of Kolibri. 
 
 
 Uninstall
