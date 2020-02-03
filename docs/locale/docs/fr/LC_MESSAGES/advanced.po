@@ -1,0 +1,510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-12 20:31-0800\n"
+"PO-Revision-Date: 2020-02-03 08:20\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /0.12-new/advanced.po\n"
+"Language: fr_FR\n"
+
+#: ../../advanced.rst:4
+msgid "Advanced Management"
+msgstr "Gestion avancée"
+
+#: ../../advanced.rst:9
+msgid "Working with Kolibri from the Command Line"
+msgstr "Faire fonctionner Kolibri à partir de la ligne de commande"
+
+#: ../../advanced.rst:11
+msgid "In Windows you need to open the command prompt, for example by using the :guilabel:`WIN` + :guilabel:`R` shortcut, and then typing ``cmd``."
+msgstr "Sous Windows, il vous faudra ouvrir l'invite de commande, par exemple au moyen du raccourci :guilabel:`WIN` + :guilabel:`R`, puis en tapant ``cmd``."
+
+#: ../../advanced.rst:16
+msgid "On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``."
+msgstr "Sur MacOS, ouvrez Spotlight et saisissez ``Terminal``. Vous pouriez aussi avoir besoin de préfixer les commandes de ``python -m``, par exemple ``python -m kolibri start``."
+
+#: ../../advanced.rst:18
+msgid "If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.12.pex``, type ``./kolibri-v0.12.pex start``."
+msgstr "Si vous utilisez Kolibri avec le fichier ``.pex``, assurez-vous de remplacer ``kolibri`` dans les commandes ci-dessous **par le nom exact du fichier que vous avez téléchargé** précédé de ``./``. Par exemple, pour démarrer Kolibri à partir du fichier téléchargé ``kolibri-v0.12.pex``, saisissez ``./kolibri-v0.12.pex start``."
+
+#: ../../advanced.rst:20
+msgid "In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information."
+msgstr "Dans les commandes ci-dessous, les chevrons et le texte qu'ils contiennent ``<...>`` sont utilisés pour indiquer les paramètres substituables à modifier. Assurez-vous de les remplacer par vos propres informations."
+
+#: ../../advanced.rst:23
+msgid "If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_."
+msgstr "En cas d'erreurs dans l'invite ou dans la sortie du terminal lors de l'exécution des commandes ci-dessous, demandez de l'aide sur nos `Forums communautaires <https://community.learningequality.org/>`_, ou `signalez le problème sur GitHub <https://github.com/learningequality/kolibri/issues/new>`_."
+
+#: ../../advanced.rst:27
+msgid "Start/Stop Kolibri"
+msgstr "Démarrer/Arrêter Kolibri"
+
+#: ../../advanced.rst:29
+msgid "In case you need to troubleshoot potential problems while running Kolibri, you may try to start it manually from the command line."
+msgstr "Dans le cas où vous auriez besoin de résoudre des problèmes potentiels pendant l'exécution de Kolibri, vous pouvez essayer de le démarrer manuellement à partir de la ligne de commande."
+
+#: ../../advanced.rst:45
+msgid "Import Content Channels from Internet"
+msgstr "Importer des chaînes de contenu à partir d'Internet"
+
+#: ../../advanced.rst:47
+msgid "To import content channels from Internet, run these two commands in sequence. The first downloads the channel database, and the second downloads the resources (videos, documents, etc.)."
+msgstr "Pour importer des chaînes de contenu à partir d'Internet, exécutez ces deux commandes en succession. La première télécharge la base de données des chaînes, et la seconde les ressources (vidéos, documents, etc.)."
+
+#: ../../advanced.rst:55
+msgid "For example (``Channel ID`` without angle brackets ``<...>``):"
+msgstr "Par exemple (``Channel ID`` sans chevrons ``<...>``) :"
+
+#: ../../advanced.rst:62
+msgid "When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access."
+msgstr "Lorsque vous importez des chaînes de contenu à partir de la ligne de commande, vous devez toujours utiliser **l'ID de chaîne à 32 chiffres**, car la commande :ref:`ne fonctionnera pas avec le jeton <id_token>`. Assurez-vous d'obtenir le bon ID de chaîne de la part de la personne ayant créé la chaîne non répertoriée que vous devez importer, ou référez-vous au `Guide de l'utilisateur de Kolibri Studio <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ pour découvrir comment le localiser dans l'interface utilisateur de Studio si vous avez accès aux chaînes en tant qu'éditeur."
+
+#: ../../advanced.rst:79
+msgid "Export Content Channels"
+msgstr "Exporter des chaînes de contenu"
+
+#: ../../advanced.rst:81
+msgid "To export Kolibri content channels on a local drive in order to share it with another device, run these two commands in sequence. The first exports the channel database, and the second exports the resources (videos, documents, etc.)."
+msgstr "Pour exporter des chaînes de contenu Kolibri sur un support amovible afin de les partager avec un autre appareil, exécutez ces deux commandes en succession. La première exporte la base de données des chaînes, et la seconde les ressources (vidéos, documents, etc.)."
+
+#: ../../advanced.rst:88
+msgid "The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local drive, so it will get picked up later for importing via the Web UI."
+msgstr "Le chemin doit pointer vers un dossier nommé ``KOLIBRI_DATA`` à la racine du support amovible, afin qu'il soit récupéré plus tard pour l'import via l'interface Web."
+
+#: ../../advanced.rst:93
+msgid "Reorder Content Channels"
+msgstr "Réordonner des chaînes de contenu"
+
+#: ../../advanced.rst:95
+msgid "You can set the specific order for content channels in the **Learn** page according to your preferences. Follow these steps."
+msgstr "Vous pouvez définir l'ordre spécifique des chaînes de contenu dans la page **Apprendre** selon vos préférences. Suivez les étapes suivantes."
+
+#: ../../advanced.rst:97
+msgid "To view the current ordered list of channels, run the command:"
+msgstr "Pour afficher la liste des chaînes dans l'ordre actuel, exécutez la commande :"
+
+#: ../../advanced.rst:104
+msgid "The output will be something like:"
+msgstr "Les résultats ressembleront aux suivants :"
+
+#: ../../advanced.rst:114
+msgid "To set a position for a channel, run the command:"
+msgstr "Pour définir la position d'une chaîne en particulier, exécutez la commande :"
+
+#: ../../advanced.rst:121
+msgid "Example with the above channels:"
+msgstr "Exemple reprenant les chaînes ci-dessus :"
+
+#: ../../advanced.rst:136
+msgid "Create a New Super Admin"
+msgstr "Créer un nouveau super administrateur"
+
+#: ../../advanced.rst:138
+msgid "In case you need to create another **super admin** user, either to address additional need of managing facility, or if you lost the password for the old one, run the following command."
+msgstr "Au cas où vous auriez besoin de créer un autre **super admin**, soit car vous avez besoin d'un utilisateur supplémentaire pour gérer l'établissement, soit parce que vous avez perdu le mot de passe de l'ancien super administrateur, exécutez la commande suivante."
+
+#: ../../advanced.rst:144
+msgid "You will be prompted to input the **Username** and **Password** and the new **super admin** user account will be created."
+msgstr "Vous serez invité à entrer votre **Nom d'utilisateur** et un **Mot de passe** et le nouveau compte **super admin** sera créé."
+
+#: ../../advanced.rst:148
+msgid "Import Users from a CSV File"
+msgstr "Importer des utilisateurs à partir d'un fichier CSV"
+
+#: ../../advanced.rst:151
+msgid "This is currently an experimental feature, so please forward to the development team any details about the issues you may encounter while using it."
+msgstr "Cette fonctionnalité est actuellement en phase expérimentale, merci donc de transmettre à l'équipe de développement tous les détails concernant les problèmes que vous pourriez rencontrer lors de son utilisation."
+
+#: ../../advanced.rst:153
+msgid "Command works on Kolibri version 0.9 and above."
+msgstr "La commande fonctionne sur les versions 0.9 et ultérieures de Kolibri."
+
+#: ../../advanced.rst:156
+msgid "CSV File Structure"
+msgstr "Structure du fichier CSV"
+
+#: ../../advanced.rst:158
+msgid "To import users into Kolibri with this command, you will need to provide the user data in a CSV (comma separated values) file format. You can export a CSV file from a tabular data in any spreadsheet program (Excel, Google Sheets, LibreOffice Calc, etc.)."
+msgstr "Pour importer des utilisateurs dans Kolibri à l'aide de cette commande, vous devrez fournir les données utilisateurs dans un fichier au format CSV (comma separated values). Vous pouvez exporter ce fichier CSV à partir de données tabulaires de n'importe quel tableur (Excel, Google Sheets, LibreOffice Calc, etc.)."
+
+#: ../../advanced.rst:163
+msgid "User data in a spreadsheet table."
+msgstr "Données utilisateurs dans un tableur."
+
+#: ../../advanced.rst:165
+msgid "Header row is optional, but if you do not include it, Kolibri will assume that you are providing the data in the following order:"
+msgstr "La ligne d'en-tête est facultative, mais si vous ne l'incluez pas, Kolibri supposera que les données sont fournies dans l'ordre suivant :"
+
+#: ../../advanced.rst:167
+msgid "``<full_name>,<username>,<password>,<facility>,<class>``"
+msgstr "``<full_name>,<username>,<password>,<facility>,<class>``"
+
+#: ../../advanced.rst:169
+msgid "If you do include a header row, you can provide less data, or put them a different order:"
+msgstr "Si vous incluez une ligne d'en-tête, vous pouvez fournir moins de données ou les placer dans un ordre différent :"
+
+#: ../../advanced.rst:171
+msgid "``<full_name>,<username>,<password>``"
+msgstr "``<full_name>,<username>,<password>``"
+
+#: ../../advanced.rst:173
+msgid "``<username>,<full_name>``"
+msgstr "``<username>,<full_name>``"
+
+#: ../../advanced.rst:175
+msgid "Only the ``username`` is required."
+msgstr "Seul le ``username`` est important."
+
+#: ../../advanced.rst:177
+msgid "When you do not provide passwords for the imported users, Kolibri will set the default password ``kolibri`` for those usernames."
+msgstr "Lorsque vous ne fournissez pas de mots de passe pour les utilisateurs importés, Kolibri leur assignera par défaut le mot de passe ``kolibri``."
+
+#: ../../advanced.rst:179
+msgid "The facility can be either the facility name or the facility ID. If you do not provide the facility, Kolibri will import users in the default facility on the device. You can also specify the facility by adding the ``--facility`` argument in the command line (see below)."
+msgstr "L'établissement peut correspondre soit au nom, soit à l'identifiant de l'établissement. Si vous ne fournissez pas d'établissements, Kolibri importera les utilisateurs dans l'établissement par défaut de l'appareil. Vous pouvez aussi spécifier l'établissement en ajoutant l'argument ``--facility`` dans la ligne de commande (voir ci-dessous)."
+
+#: ../../advanced.rst:190
+msgid "Change User's Password"
+msgstr "Changer le mot de passe d'un utilisateur"
+
+#: ../../advanced.rst:192
+msgid "Run the following command to change the password for a user."
+msgstr "Exécutez la commande suivante pour changer le mot de passe d'un utilisateur."
+
+#: ../../advanced.rst:198
+msgid "You will be prompted twice to input the new password for the user."
+msgstr "On vous demandera deux fois d'entrer le nouveau mot de passe pour l'utilisateur."
+
+#: ../../advanced.rst:202
+msgid "Delete Users Permanantly"
+msgstr "Supprimer définitivement des utilisateurs"
+
+#: ../../advanced.rst:204
+msgid "If you need to permanently delete a Kolibri user and all the data associated with their account, for example to ensure privacy rights according to GDPR, use the following command."
+msgstr "Si vous avez besoin de supprimer définitivement un utilisateur Kolibri et toutes les données associées à son compte, pour par exemple garantir ses droits à la vie privée conformément au RGPD, utilisez la commande suivante."
+
+#: ../../advanced.rst:211
+msgid "This will permanently erase all the user data."
+msgstr "Cela effacera définitivement toutes les données de l'utilisateur."
+
+#: ../../advanced.rst:215
+msgid "Backup and Restore Kolibri Database"
+msgstr "Sauvegarder et restaurer la base de données Kolibri"
+
+#: ../../advanced.rst:217
+msgid "Kolibri automatically creates a backup of the database with every version upgrade. If for some reason you need to make a manual backup, use the following command."
+msgstr "Kolibri sauvegarde automatiquement la base de données à chaque changement de version. Si pour une raison quelconque vous devriez effectuer une sauvegarde manuelle, utilisez la commande suivante."
+
+#: ../../advanced.rst:223
+msgid "This command will create a time-stamped ``.dump`` file in the ``./kolibri/backups`` folder that you can use to restore the database with the following command."
+msgstr "Cette commande créera un fichier ``.dump`` horodaté dans le dossier ``./kolibri/backups`` que vous pourrez utiliser pour restaurer la base de données grâce à la commande suivante."
+
+#: ../../advanced.rst:229
+msgid "To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to see all that available sorted by date, and select the one you need."
+msgstr "Pour restaurer la base de données à partir d'un fichier ``.dump`` spécifique, utilisez l'option ``--select`` pour voir l'ensemble des fichiers disponibles triés par date, et sélectionnez celui dont vous avez besoin."
+
+#: ../../advanced.rst:236
+msgid "This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database."
+msgstr "Cette commande n'est pas destinée à la duplication sur différents appareils, mais **seulement** à la restauration sur un seul appareil à partir d'une sauvegarde locale de la base de données."
+
+#: ../../advanced.rst:240
+msgid "Change the Location of Kolibri Content Files"
+msgstr "Changer l'emplacement des fichiers de contenu Kolibri"
+
+#: ../../advanced.rst:242
+msgid "Kolibri content channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move the Kolibri **content files** to another drive."
+msgstr "Les chaînes de contenu Kolibri peuvent occuper une quantité considérable d'espace sur le disque dur au fil du temps. Si vous craignez de manquer d'espace de stockage sur votre appareil, vous pouvez déplacer les **fichiers de contenu** de Kolibri sur un autre disque."
+
+#: ../../advanced.rst:245
+msgid "If you have both SSD disk and HDD disk available on your device, it is recommended to install Kolibri on the SSD drive to allow faster access to the database, and move just the content file to the HDD drive."
+msgstr "Si vous disposez à la fois d'un disque SSD et d'un disque dur sur votre appareil, il est recommandé d'installer Kolibri sur le disque SSD pour permettre un accès plus rapide à la base de données, et de déplacer uniquement le fichier de contenu vers le disque dur."
+
+#: ../../advanced.rst:247
+msgid "To move the Kolibri content folders to another location, follow these steps."
+msgstr "Pour déplacer les dossiers de contenu Kolibri vers un autre emplacement, suivez les étapes suivantes."
+
+#: ../../advanced.rst:249
+msgid "Stop Kolibri."
+msgstr "Arrêtez Kolibri."
+
+#: ../../advanced.rst:256
+msgid "Create a new folder that will contain all the content files and resources on the destination drive."
+msgstr "Créez un nouveau dossier qui contiendra l'ensemble des fichiers de contenu et des ressources sur le disque de destination."
+
+#: ../../advanced.rst:263
+msgid "For example, if you created a new folder ``KolibriContent`` on an external drive, run this command."
+msgstr "Par exemple, si vous avez créé un nouveau dossier ``KolibriContent`` sur un disque externe, exécutez la commande suivante."
+
+#: ../../advanced.rst:270
+msgid "If you are on Windows, and the new folder ``KolibriContent`` is on the drive ``F:``, run this command."
+msgstr "Si vous travaillez sous Windows, et que le nouveau dossier ``KolibriContent`` se trouve sur le disque ``F:``, lancez la commande suivante."
+
+#: ../../advanced.rst:277 ../../advanced.rst:330
+msgid "Restart Kolibri."
+msgstr "Redémarrez Kolibri."
+
+#: ../../advanced.rst:279
+msgid "This command will move the 2 subfolders ``databases`` and ``storage``, from their default location inside the ``.kolibri/content`` folder in your device's home directory, to a new location you specified in the command."
+msgstr "Cette commande va déplacer les 2 sous-dossiers ``databases`` et ``storage``, de leur emplacement par défaut dans le dossier ``.kolibri/content`` du répertoire d'accueil de votre appareil, vers le nouvel emplacement spécifié dans la commande."
+
+#: ../../advanced.rst:283
+msgid "Change the Location of ALL Kolibri Files"
+msgstr "Changer l'emplacement de TOUS les fichiers Kolibri"
+
+#: ../../advanced.rst:285
+msgid "If you want to change the directory where all of Kolibri's runtime files are located, together with the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice."
+msgstr "Si vous voulez souhaitez déplacer tous les fichiers d'exécution de Kolibri, ainsi que les chaînes de contenu importées, vous devez remplacer la variable d'environnement appelée ``KOLIBRI_HOME`` par le chemin de votre choix."
+
+#: ../../advanced.rst:287
+msgid "If the variable is left unset, by default, Kolibri's runtime files and content will be placed in your user’s home folder, under the ``.kolibri`` subfolder."
+msgstr "Si la variable n'est pas définie, par défaut, les fichiers d'exécution et le contenu de Kolibri seront placés dans le dossier personnel de votre utilisateur, au sein du sous-dossier \" .kolibri \"."
+
+#: ../../advanced.rst:290
+msgid "Adjusting this environment variable behaves differently than the ``movedirectory`` command above:"
+msgstr "L'ajustement de cette variable d'environnement se comporte différemment de la commande ``movedirectory`` ci-dessus :"
+
+#: ../../advanced.rst:292
+msgid "Adjusting the environment variable will not automatically migrate over data. You need to copy the ``.kolibri`` folder manually to the new location."
+msgstr "Ajuster la variable d'environnement ne transfèrera pas automatiquement les données. Vous devrez copier le dossier ``.kolibri`` manuellement vers le nouvel emplacement."
+
+#: ../../advanced.rst:293
+msgid "If you do copy the ``.kolibri`` folder, the content will not be affected **if it had been previously set** using the ``movedirectory`` command."
+msgstr "Si vous copiez le dossier ``.kolibri``, le contenu ne sera pas affecté **s'il avait été précédemment défini** en utilisant la commande ``movedirectory``."
+
+#: ../../advanced.rst:296
+msgid "There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps."
+msgstr "Il existe de nombreuses façons de définir une variable d'environnement de façon temporaire ou permanente. Pour démarrer Kolibri dans **OSX ou Linux** avec un accueil différent, suivez les étapes suivantes."
+
+#: ../../advanced.rst:298 ../../advanced.rst:310
+msgid "Stop the server."
+msgstr "Arrêtez le serveur."
+
+#: ../../advanced.rst:299 ../../advanced.rst:311
+msgid "Move the ``.kolibri`` folder to the new location."
+msgstr "Déplacez le dossier ``.kolibri`` vers le nouvel emplacement."
+
+#: ../../advanced.rst:300
+msgid "Run the following in Terminal:"
+msgstr "Exécutez les opérations suivantes dans le Terminal :"
+
+#: ../../advanced.rst:306
+msgid "When you start the server again, all your files should be seamlessly detected at that location."
+msgstr "Lorsque vous redémarrez le serveur, tous vos fichiers devraient être détectés sans problème à cet endroit."
+
+#: ../../advanced.rst:308
+msgid "To change the environment variable ``KOLIBRI_HOME`` on **Windows**, follow these steps."
+msgstr "Pour changer la variable d'environnement ``KOLIBRI_HOME`` dans **Windows**, suivez les étapes suivantes."
+
+#: ../../advanced.rst:312
+msgid "Run the following in Command Prompt:"
+msgstr "Lancez la commande suivante dans l'invite de commande :"
+
+#: ../../advanced.rst:318
+msgid "Restart the server, and your files should be seamlessly detected at the new location."
+msgstr "Redémarrez le serveur, et vos fichiers devraient être détectés sans problème dans le nouvel emplacement."
+
+#: ../../advanced.rst:321
+msgid "Alternatively, you can follow these steps in the GUI."
+msgstr "Sinon, vous pouvez suivre les étapes suivantes dans l'interface graphique."
+
+#: ../../advanced.rst:323
+msgid "Go to **Computer > Advanced System Settings** and press the :guilabel:`Environment Variables` button."
+msgstr "Allez dans **Ordinateur > Paramètres avancés du système** et appuyez sur le bouton :guilabel:`Variables d'environnement`."
+
+#: ../../advanced.rst:324
+msgid "Under **User Variables for...** press the :guilabel:`New...` button."
+msgstr "Dans la section **Variables utilisateur pour...**, appuyez sur le bouton :guilabel:`Nouveau...`."
+
+#: ../../advanced.rst:325
+msgid "Input ``KOLIBRI_HOME`` in the **Variable name** field, and your new path in the **Variable value** field, and press :guilabel:`OK` on both open windows."
+msgstr "Saisissez ``KOLIBRI_HOME`` dans le champ **Nom de la variable**, et votre nouveau chemin dans le champ **Valeur de la variable**, et appuyez sur :guilabel:`OK` dans les deux fenêtres ouvertes."
+
+#: ../../advanced.rst:335
+msgid "Customize Kolibri Settings with the OPTIONS.INI File"
+msgstr "Personnaliser les paramètres de Kolibri avec le fichier OPTIONS.INI"
+
+#: ../../advanced.rst:337
+msgid "For certain configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps."
+msgstr "Pour certains paramètres de configuration, vous devez utiliser le fichier ``options.ini``. L'installation de Kolibri ne génère pas ce fichier par défaut, mais vous pouvez facilement en ajouter un vous-même. Suivez les étapes suivantes."
+
+#: ../../advanced.rst:339
+msgid "Open the preferred text editor on your computer (eg. Notepad on Windows)."
+msgstr "Ouvrez l'éditeur de texte de votre choix sur votre ordinateur (p. ex. Bloc-notes sur Windows)."
+
+#: ../../advanced.rst:340
+msgid "Write the required *sections* and *keys* (see details for available settings below) in the following format:"
+msgstr "Saisissez les *sections* et *clés* exigées (voir détails pour les paramètres disponibles ci-dessous) dans le format suivant :"
+
+#: ../../advanced.rst:348
+msgid "Save the resulting ``options.ini`` file in the ``.kolibri`` folder inside the :ref:`Home <home>` folder."
+msgstr "Enregistrez le fichier ``options.ini`` obtenu du dossier ``.kolibri`` dans le dossier :ref:`Accueil <home>`."
+
+#: ../../advanced.rst:351
+msgid "``options.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation."
+msgstr "Le fichier ``options.ini`` peut contenir plusieurs sections avec une ou plusieurs clés associées, selon les exigences de votre installation."
+
+#: ../../advanced.rst:357
+msgid "Run Kolibri from a Different Port"
+msgstr "Exécuter Kolibri à partir d'un port différent"
+
+#: ../../advanced.rst:359
+msgid "If you need Kolibri to start and run from a port different than the default ``8080``, add the section ``[Deployment]``, and the key ``HTTP_PORT`` with the value of your desired port, to the ``options.ini`` file."
+msgstr "Si vous avez besoin que Kolibri démarre et fonctionne à partir d'un port autre que le port par défaut ``8080``, ajoutez la section ``[Deployment]``, et la clé ``HTTP_PORT`` avec la valeur du port en question dans le fichier ``options.ini``."
+
+#: ../../advanced.rst:369
+msgid "If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary."
+msgstr "Si après avoir défini le port de votre choix dans le fichier ``options.ini``, Kolibri fonctionne encore à partir d'un autre port, la variable d'environnement ``KOLIBRI_HTTP_PORT`` d'une installation précédente est probablement prioritaire. Vérifiez le fichier ``.bashrc`` sur Linux, ou lancez la commande ``set`` dans l'invite de commande dans Windows, pour le vérifier et le corriger si nécessaire."
+
+#: ../../advanced.rst:376
+msgid "Allow Profiling of Requests"
+msgstr "Autoriser le profilage des requêtes"
+
+#: ../../advanced.rst:378
+msgid "If you need to :ref:`profile server requests <profile_requests>` to get a more detailed information about the Kolibri performance, add the following to the ``options.ini`` file."
+msgstr "Si vous avez besoin de :ref:`profiler les requêtes du serveur <profile_requests>` pour obtenir des informations plus détaillées sur la performance de Kolibri, ajoutez les éléments suivants au fichier ``options.ini``."
+
+#: ../../advanced.rst:390
+msgid "Test Kolibri Server Performance"
+msgstr "Tester la performance du serveur Kolibri"
+
+#: ../../advanced.rst:393
+msgid "Benchmark"
+msgstr "Test d'évaluation de la performance"
+
+#: ../../advanced.rst:395
+msgid "You can use the following command to collect information about the device where Kolibri server is running, and details about how much of its resources it is using. This command displays a snapshot of the server state at the time the command is executed, and its output will vary depending on the current server load. In case you suspect performance problems, type this in the Terminal or Command prompt."
+msgstr "Vous pouvez utiliser la commande suivante pour obtenir des informations relatives à l'appareil sur lequel le serveur Kolibri est exécuté, et des détails sur la quantité de ressources qu'il utilise. Cette commande affiche une vue instantanée de l'état du serveur au moment où la commande est exécutée, et sa sortie variera en fonction de la charge actuelle du serveur. Si vous soupçonnez des problèmes de performances, saisissez cette commande dans le Terminal ou dans l'invite de commande."
+
+#: ../../advanced.rst:401
+msgid "The command will have an output similar to this:"
+msgstr "La commande aura une sortie similaire à celle-ci :"
+
+#: ../../advanced.rst:406
+msgid "Command line output of the 'kolibri manage benchmark' command"
+msgstr "La sortie de la ligne de commande 'kolibri manage benchmark'"
+
+#: ../../advanced.rst:408
+msgid "Take a screenshot of the Terminal or Command prompt, or copy and paste the output in the community forum post."
+msgstr "Faites une capture d'écran du Terminal ou de la ligne de commande, ou copiez et collez la sortie dans le forum communautaire."
+
+#: ../../advanced.rst:411
+msgid "Profile"
+msgstr "Profilage"
+
+#: ../../advanced.rst:413
+msgid "In order to collect more than a current snapshot of Kolibri server performance, you can use the profiling command. When executed, the command will collect a series of performance indicators every 10 seconds and save them in a CSV file. Type this in the Terminal or Command prompt."
+msgstr "Pour obtenir plus qu'un instantané des performances actuelles du serveur Kolibri, vous pouvez utiliser la commande de profilage. Une fois exécutée, la commande collectera une série d'indicateurs de performance toutes les 10 secondes et les enregistrera dans un fichier CSV. Saisissez cette commande dans le Terminal ou l'invite de commande."
+
+#: ../../advanced.rst:419
+msgid "Command collects and saves the information 60 times by default. If you want to change this value, add the ``--num-samples`` flag with the desired number at the end."
+msgstr "La commande recueille et enregistre les informations 60 fois par défaut. Si vous voulez changer cette valeur, ajoutez l'option ``--num-samples`` suivi du nombre souhaité."
+
+#: ../../advanced.rst:426 ../../advanced.rst:450
+msgid "Each log line contains this information:"
+msgstr "Chaque ligne du journal contient les informations suivantes :"
+
+#: ../../advanced.rst:428
+msgid "Date and time of each command execution"
+msgstr "La date et l'heure de l'exécution de chaque commande"
+
+#: ../../advanced.rst:429
+msgid "Number of Kolibri active sessions (including guest sessions)"
+msgstr "Le nombre de sessions actives de Kolibri (y compris les sessions d'invités)"
+
+#: ../../advanced.rst:430
+msgid "Number of Kolibri logged users"
+msgstr "Le nombre d'utilisateurs connectés à Kolibri"
+
+#: ../../advanced.rst:431
+msgid "Number of Kolibri user interactions during the last minute"
+msgstr "Le nombre d'interactions des utilisateurs de Kolibri au cours de la minute écoulée"
+
+#: ../../advanced.rst:432
+msgid "Total percentage of CPU use"
+msgstr "Le pourcentage total d'utilisation du processeur"
+
+#: ../../advanced.rst:433
+msgid "Total memory use"
+msgstr "L'espace total de la mémoire utilisé"
+
+#: ../../advanced.rst:434
+msgid "Total available memory"
+msgstr "Le total de la mémoire disponible"
+
+#: ../../advanced.rst:435
+msgid "Number of processes executed in the server"
+msgstr "Le nombre de traitements en cours d'exécution dans le serveur"
+
+#: ../../advanced.rst:436
+msgid "Percentage of CPU used by Kolibri"
+msgstr "Le pourcentage de processeur utilisé par Kolibri"
+
+#: ../../advanced.rst:437
+msgid "Percentage of memory used by Kolibri"
+msgstr "Le pourcentage de mémoire utilisée par Kolibri"
+
+#: ../../advanced.rst:439
+msgid "To help us troubleshoot potential problems on your Kolibri server, locate and send us the ``KOLIBRI_HOME/performance/date_time_performance.csv`` file."
+msgstr "Afin de nous aider à résoudre les problèmes potentiels sur votre serveur Kolibri, situez et envoyez-nous le fichier ``KOLIBRI_HOME/performance/date_time_performance.csv``."
+
+#: ../../advanced.rst:446
+msgid "Profile Server Requests"
+msgstr "Profilage des requêtes du serveur"
+
+#: ../../advanced.rst:448
+msgid "If you have the ``[Server]`` section of the :ref:`OPTIONS.INI <profile_requests_ini>` file  configured with ``PROFILE = 1``, the above command will additionally perform a profiling of every request made by Kolibri server, and save the results in a second log file as ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``"
+msgstr "Si vous avez configuré la section ``[Server]`` du fichier :ref:`OPTIONS.INI <profile_requests_ini>` avec ``PROFILE = 1``, la commande ci-dessus effectuera également un profilage de chaque requête faite par le serveur Kolibri, et enregistrera les résultats dans un second fichier journal sous le nom ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``"
+
+#: ../../advanced.rst:452
+msgid "Timestamp"
+msgstr "L'horodatage"
+
+#: ../../advanced.rst:453
+msgid "Request path"
+msgstr "Le chemin de la requête"
+
+#: ../../advanced.rst:454
+msgid "Time spent processing the request"
+msgstr "Le temps de traitement de la requête"
+
+#: ../../advanced.rst:455
+msgid "Memory (in KB) used by the Kolibri process when the request came in"
+msgstr "La mémoire (en Ko) utilisée par Kolibri à réception de la requête"
+
+#: ../../advanced.rst:456
+msgid "Memory (in KB) used by the Kolibri process when the response was sent"
+msgstr "La mémoire (en Ko) utilisée par Kolibri lors de l'envoi de la réponse"
+
+#: ../../advanced.rst:457
+msgid "CPU percentage used by the Kolibri process when the request came in"
+msgstr "Le pourcentage de processeur utilisé par Kolibri à réception de la requête"
+
+#: ../../advanced.rst:458
+msgid "CPU percentage used by the Kolibri process when the request was sent"
+msgstr "Le pourcentage de processeur utilisé par Kolibri lors de l'envoi de la requête"
+
+#: ../../advanced.rst:459
+msgid "Flag indicating if the request is the slowest one since the analysis started"
+msgstr "Un indicateur signalant si la requête est la plus lente depuis le début de l'analyse"
+
+#: ../../advanced.rst:462
+msgid "Profiling server requests can consume a lot of computer resources, and potentially slow it down. For this reason you need to explicitly allow it in the ``options.ini`` file. Without the ``PROFILE = 1`` key, command will not profile server requests (but just the current server state), and it will not create the second CSV file."
+msgstr "Le profilage des requêtes du serveur peut consommer beaucoup de ressources de l'appareil, et potentiellement le ralentir. Pour cette raison, vous devez l'autoriser explicitement dans le fichier ``options.ini``. Sans la clé ``PROFILE = 1``, la commande ne profilera pas les requêtes du serveur (mais seulement l'état actuel du serveur), et ne génèrera pas le second fichier CSV."
+
+#: ../../advanced.rst:466
+msgid "Hard drive provisioning for multiple Kolibri servers"
+msgstr "Provisionner les disques durs pour plusieurs serveurs Kolibri"
+
+#: ../../advanced.rst:468
+msgid "For the recommended procedure to install and provision several Kolibri server devices, refer to our :ref:`hard drive provisioning tutorial <provision>`."
+msgstr "Pour la procédure d'installation et de provisionnement recommandée de plusieurs appareils serveur Kolibri, référez-vous à notre didacticiel sur le :ref:`provisionnement de disques durs <provision>`."
+
