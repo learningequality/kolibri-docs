@@ -1,0 +1,1651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-12 20:31-0800\n"
+"PO-Revision-Date: 2020-02-03 08:22\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /0.12-new/install.po\n"
+"Language: fr_FR\n"
+
+#: ../../install.rst:4
+msgid "Install Kolibri"
+msgstr "Installation de Kolibri"
+
+#: ../../install.rst:6
+msgid "See the `Kolibri changelog here <https://learningequality.org/r/kolibri-changes>`_ to review specific changes in each version of Kolibri. Documentation for `previous Kolibri versions are available here <https://readthedocs.org/projects/kolibri/>`_."
+msgstr "Accédez `ici au changelog de Kolibri <https://learningequality.org/r/kolibri-changes>`_ pour visualiser les modifications spécifiques à chaque version de Kolibri. La documentation relative aux `versions précédentes de Kolibri est disponible ici <https://readthedocs.org/projects/kolibri/>`_."
+
+#: ../../install/_system_requirements.rst:4
+msgid "Hardware requirements"
+msgstr "Configuration matérielle requise"
+
+#: ../../install/_system_requirements.rst:6
+msgid "To install **Kolibri** on a device that will act as a server, check the hardware requirements first, and then follow the procedure for the operating system on your device."
+msgstr "Pour installer **Kolibri** sur un appareil qui fera office de serveur, vérifiez d'abord la configuration matérielle requise, puis suivez la procédure relative au système d'exploitation de votre appareil."
+
+#: ../../install/_system_requirements.rst:8
+msgid "Below you will find general recommendations regarding hardware requirements to run Kolibri. To read more detailed information and find out examples of hardware setups that have been implemented by our users, download the full `Kolibri Hardware Guide <https://learningequality.org/r/hardware-guide>`_ and examples of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`_ (PDF documents)."
+msgstr "Vous trouverez ci-dessous des recommandations générales concernant les exigences matérielles nécessaires au fonctionnement de Kolibri. Pour des informations plus détaillées et des exemples de configurations matérielles mises en œuvre par nos utilisateurs, téléchargez le `Guide matériel complet de Kolibri <https://learningequality.org/r/hardware-guide>`_ et des exemples de `Configurations matérielles pour Kolibri <https://learningequality.org/r/hardware>`_ (documents PDF)."
+
+#: ../../install/_system_requirements.rst:11
+msgid "Servers"
+msgstr "Les serveurs"
+
+#: ../../install/_system_requirements.rst:13
+msgid "Minimum hardware requirements to run Kolibri as a server:"
+msgstr "Configuration matérielle minimale des appareils chargés d'exécuter Kolibri en tant que serveurs :"
+
+#: ../../install/_system_requirements.rst:15
+msgid "500 MB RAM (1 GB recommended on Linux, 2GB or more on Windows devices)"
+msgstr "500 Mo de RAM (1 Go recommandé pour Linux ou 2 Go ou plus pour les appareils Windows)"
+
+#: ../../install/_system_requirements.rst:16
+msgid "500 MHz CPU (1 GHz recommended)"
+msgstr "Processeur de 500 MHz (1 GHz recommandé)"
+
+#: ../../install/_system_requirements.rst:17
+msgid "Hard drive space depends on the size of the content channels you intend to import from `Kolibri Studio <https://studio.learningequality.org/>`_ or a local storage device."
+msgstr "L'espace requis sur le disque dur dépend du volume des chaînes de contenu que vous avez l'intention d'importer à partir de `Kolibri Studio <https://studio.learningequality.org/>`_ ou d'un périphérique de stockage local."
+
+#: ../../install/_system_requirements.rst:19
+msgid "If you have a facility with less than 30 computers, a device as simple as a `Raspberry Pi <https://www.raspberrypi.org/>`_ is known to work fine as a server."
+msgstr "Si vous avez une installation de moins de 30 ordinateurs, un appareil aussi simple qu'un `Raspberry Pi <https://www.raspberrypi.org/>`_ est censé fonctionner parfaitement en tant que serveur."
+
+#: ../../install/_system_requirements.rst:25
+msgid "Clients"
+msgstr "Les clients"
+
+#: ../../install/_system_requirements.rst:27
+msgid "Very old desktops and very low-power computers can be used as client devices to access Kolibri. For instance, some implementations are known to use first-gen Raspberry Pi as desktop computers."
+msgstr "De très vieux ordinateurs de bureau et des ordinateurs à très faible consommation d'énergie peuvent être utilisés comme dispositifs clients pour accéder à Kolibri. Nous savons par exemple que la première génération de Raspberry Pi est déployée par certains comme ordinateurs de bureau."
+
+#: ../../install/_system_requirements.rst:29
+msgid "It is always a good idea to do a practical test, but when you want to implement Kolibri, usually it's not necessary to scale your hardware. The main requirement is that your system needs a video card and driver that can play the videos."
+msgstr "C'est toujours une bonne idée de faire un test pratique, mais la mise en place de Kolibri ne nécessite généralement pas le renouvellement de votre matériel. Les principales exigences sont en effet une carte vidéo et un pilote permettant à votre système de lire les vidéos."
+
+#: ../../install/_windows.rst:4
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../install/_linux.rst:7 ../../install/_osx.rst:7
+#: ../../install/_windows.rst:7
+msgid "Compatibility"
+msgstr "Compatibilité"
+
+#: ../../install/_windows.rst:9
+msgid "Supported: Windows 7, 8.1 and 10, with IE 11+, Chrome or Firefox"
+msgstr "Compatible avec : Windows 7, 8.1 et 10, avec Chrome, Firefox ou la version 11+ de IE"
+
+#: ../../install/_windows.rst:10
+msgid "**Not supported:** Windows XP cannot be used to install Kolibri server, but could potentially work as a client device if the browsers are `as up-to-date as possible <https://support.mozilla.org/en-US/questions/1173904>`_."
+msgstr "**Non compatible :** Windows XP ne peut pas être utilisé pour installer le serveur Kolibri, mais pourrait potentiellement fonctionner sur un périphérique client si les navigateurs sont `les plus à jour possible <https://support.mozilla.org/en-US/questions/1173904>`_."
+
+#: ../../install/_osx.rst:15 ../../install/_windows.rst:14
+msgid "Install"
+msgstr "Installation"
+
+#: ../../install/_windows.rst:16
+msgid "Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version 0.12**."
+msgstr "Téléchargez l'`installateur Windows <https://learningequality.org/download/>`_ pour la **version 0.12** de Kolibri."
+
+#: ../../install/_windows.rst:17 ../../install/_windows.rst:48
+msgid "Double-click the downloaded ``.exe`` file."
+msgstr "Double-cliquez sur le fichier ``.exe`` téléchargé."
+
+#: ../../install/_windows.rst:18
+msgid "Select the language for the installation."
+msgstr "Sélectionnez la langue d'installation."
+
+#: ../../install/_windows.rst:19
+msgid "Python 3 installer is included, confirm the installation or the upgrade to proceed."
+msgstr "L'installateur Python 3 y est inclus, confirmez l'installation ou la mise-à-niveau pour continuer."
+
+#: ../../install/_windows.rst:20
+msgid "Follow the rest of the instructions in the Kolibri installation setup wizard."
+msgstr "Suivez le reste des instructions de l'assistant d'installation de Kolibri."
+
+#: ../../install/_windows.rst:21
+msgid "Once the installation finishes, Kolibri will auto-start and open in the default browser on your computer at http://127.0.0.1:8080. This may take a moment, so please be patient."
+msgstr "Une fois l'installation terminée, Kolibri démarre automatiquement et s'ouvre dans le navigateur par défaut de votre ordinateur sur http://127.0.0.1:8080. Cela peut prendre quelques instants, donc soyez patient."
+
+#: ../../install/_windows.rst:22
+msgid "Proceed with the :ref:`setup_initial` of your facility."
+msgstr "Procédez à la :ref:`setup_initial` de votre installation."
+
+#: ../../install/_windows.rst:25
+msgid "Windows firewall will prompt you to allow the Python process needed to run Kolibri. Click **Allow access** to accept and proceed."
+msgstr "Le pare-feu de Windows vous demandera d'autoriser le processus Python indispensable à l'exécution de Kolibri. Cliquez sur **Autoriser l'accès** pour accepter et continuer."
+
+#: ../../install/_windows.rst:30
+msgid "Allow the Python process needed to run Kolibri."
+msgstr "Autorisez le processus Python nécessaire à l'exécution de Kolibri."
+
+#: ../../install/_linux.rst:36 ../../install/_linux.rst:71
+#: ../../install/_osx.rst:42 ../../install/_windows.rst:34
+#: ../../install/tutorials/rpi.rst:360
+msgid "Uninstall"
+msgstr "Désinstallation"
+
+#: ../../install/_windows.rst:36
+msgid "Open the Windows Control Panel."
+msgstr "Ouvrez le panneau de configuration de Windows."
+
+#: ../../install/_windows.rst:37
+msgid "Select **Programs and Features** option."
+msgstr "Sélectionnez l'option **Programmes et fonctionnalités**."
+
+#: ../../install/_windows.rst:38
+msgid "Select Kolibri from the list of programs."
+msgstr "Sélectionnez Kolibri dans la liste des programmes."
+
+#: ../../install/_windows.rst:39
+msgid "Click the button :guilabel:`Uninstall/Change` and follow the instructions."
+msgstr "Cliquez sur le bouton :guilabel:`Désinstaller/Modifier` et suivez les instructions."
+
+#: ../../install/_linux.rst:40 ../../install/_linux.rst:78
+#: ../../install/_osx.rst:48 ../../install/_windows.rst:43
+#: ../../install/tutorials/rpi.rst:365
+msgid "Upgrade"
+msgstr "Mise à jour"
+
+#: ../../install/_osx.rst:50 ../../install/_windows.rst:45
+msgid "To upgrade Kolibri, follow these steps."
+msgstr "Pour mettre Kolibri à niveau, suivez les étapes suivantes."
+
+#: ../../install/_windows.rst:47
+msgid "Download the new version of Kolibri `Windows installer <https://learningequality.org/download/>`_."
+msgstr "Téléchargez la nouvelle version de `l'installateur Windows <https://learningequality.org/download/>`_ pour Kolibri."
+
+#: ../../install/_windows.rst:49
+msgid "Follow the instructions in the installation wizard window."
+msgstr "Suivez les instructions dans la fenêtre de l'assistant d'installation."
+
+#: ../../install/_windows.rst:50
+msgid "Once the installation of the upgrade is finished, Kolibri will auto-start and open in the default browser on your computer."
+msgstr "Une fois la mise à jour terminée, Kolibri démarrera automatiquement et s'ouvrira dans le navigateur par défaut de votre ordinateur."
+
+#: ../../install/_osx.rst:54 ../../install/_windows.rst:51
+msgid "Go explore the new and improved Kolibri features!"
+msgstr "Profitez-en pour découvrir les toutes nouvelles améliorations de Kolibri !"
+
+#: ../../install/_linux.rst:4
+msgid "Debian/Ubuntu"
+msgstr "Debian/Ubuntu"
+
+#: ../../install/_linux.rst:9
+msgid "Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions count a number of flavors, for instance Xubuntu and Mint."
+msgstr "Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ et plus - tout ce qui *n'est pas* en fin de vie. Les distributions basées sur Ubuntu comptent un certain nombre de variantes, par exemple Xubuntu et Mint."
+
+#: ../../install/_linux.rst:14
+msgid "Install from PPA repository"
+msgstr "Installation à partir du dépôt PPA"
+
+#: ../../install/_linux.rst:16
+msgid "**In Ubuntu-based distributions**, use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:"
+msgstr "Pour ajouter le PPA et installer Kolibri **dans les distributions basées sur Ubuntu**, utilisez les commandes suivantes dans le `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ :"
+
+#: ../../install/_linux.rst:25
+msgid "**In Debian-based distributions** you need to use these commands to point to our Launchpad PPA:"
+msgstr "**Dans les distributions basées sur Debian**, il vous faudra utiliser les commandes suivantes pour pointer vers le PPA sur Launchpad :"
+
+#: ../../install/_linux.rst:37 ../../install/tutorials/rpi.rst:361
+msgid "From the command line: ``sudo apt-get remove kolibri``."
+msgstr "Avec la ligne de commande : ``sudo apt-get remove kolibri``."
+
+#: ../../install/_linux.rst:42 ../../install/_linux.rst:80
+#: ../../install/tutorials/rpi.rst:367
+msgid "When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available."
+msgstr "Lorsque vous utilisez la méthode d'installation PPA, les mises à niveau vers des versions plus récentes seront automatiques, à condition qu'un accès Internet soit disponible."
+
+#: ../../install/_linux.rst:48
+msgid "Install from a .deb file"
+msgstr "Installation à partir d'un fichier .deb"
+
+#: ../../install/_linux.rst:50
+msgid "The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access."
+msgstr "L'avantage de télécharger un fichier ``.deb`` est celui de la portabilité : vous pouvez copier le fichier d'un appareil à l'autre et installer Kolibri sans accès à Internet."
+
+#: ../../install/_linux.rst:52
+msgid "Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.12**, or have it copied to your local drive."
+msgstr "Téléchargez l'`installateur .deb <https://learningequality.org/download/>`_ le plus récent pour la **version 0.12** de Kolibri , ou copiez-le sur votre disque local."
+
+#: ../../install/_linux.rst:53
+msgid "Run this command from the location where you downloaded the ``DEB`` file:"
+msgstr "Exécutez la commande suivante à partir de l'endroit où vous avez téléchargé le fichier ``DEB`` :"
+
+#: ../../install/_linux.rst:59
+msgid "Wait for the installation to finish and run this command to start Kolibri:"
+msgstr "Attendez que l'installation soit terminée et lancez la commande ci-dessous pour démarrer Kolibri :"
+
+#: ../../install/_linux.rst:65
+msgid "If you choose to install Kolibri as a system service, you will not need to start it manually."
+msgstr "Si vous choisissez d'installer Kolibri comme un service système, il ne sera pas nécessaire de le démarrer manuellement."
+
+#: ../../install/_linux.rst:67 ../../install/_osx.rst:36
+#: ../../install/tutorials/rpi.rst:289
+msgid "When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility."
+msgstr "Une fois la commande terminée, ouvrez le navigateur par défaut à http://127.0.0.1:8080 et procédez à la :ref:`setup_initial` de votre installation."
+
+#: ../../install/_linux.rst:73
+msgid "Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**."
+msgstr "Ouvrez **Logiciel** sur Ubuntu et localisez Kolibri. Appuyez sur **Supprimer**."
+
+#: ../../install/_linux.rst:74
+msgid "Or from the command line: ``sudo apt-get remove kolibri``."
+msgstr "Ou utilisez la ligne de commande: ``sudo apt-get remove kolibri``."
+
+#: ../../install/_linux.rst:82
+msgid "To upgrade Kolibri on a Debian device without internet access, bring the updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`."
+msgstr "Pour mettre Kolibri à niveau sur un dispositif Debian sans accès à Internet, munissez-vous du dernier fichier ``.deb`` et suivez les mêmes étapes que pour l':ref:`lin_deb`."
+
+#: ../../install/_linux.rst:88
+msgid "Changing the owner of Kolibri system service"
+msgstr "Changement du propriétaire du service système Kolibri"
+
+#: ../../install/_linux.rst:90
+msgid "The *system service* is the script that runs Kolibri in the background when your system boots on Debian-based distributions."
+msgstr "Le *service système* est le script qui lance Kolibri en arrière-plan lorsque votre système démarre sur des distributions basées sur Debian."
+
+#: ../../install/_linux.rst:92
+msgid "You may need to change the system service to run with the permissions of a different user account. Prior to v0.10, ``kolibri`` user account was the owner of the system service, while from v0.10 and later, desktop user's account is preferred, in order for Kolibri to access the local USB storage."
+msgstr "Vous devrez peut-être modifier le service système pour qu'il s'exécute avec les autorisations d'un autre compte utilisateur. Avant la version 0.10, le compte utilisateur ``kolibri`` était le propriétaire du service système. À partir de la version 0.10 en revanche, c'est le compte de l'utilisateur du bureau qui est privilégié, afin que Kolibri puisse accéder au stockage USB local."
+
+#: ../../install/_linux.rst:94
+msgid "To change the system service owner, you need to change the configuration of the system service: move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps."
+msgstr "Pour changer le propriétaire du service système, il est nécessaire de modifier la configuration du service système en déplaçant le dossier de données ``.kolibri`` (contenant les chaînes, les bases de données etc.), et en attribuant au nouvel utilisateur les permissions du propriétaire. Pour ce faire, suivez les étapes suivantes."
+
+#: ../../install/_linux.rst:109
+msgid "Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner."
+msgstr "Remplacez le ``$USER`` des commandes ci-dessus par le nom de l'utilisateur que vous voulez désigner nouveau propriétaire du service système Kolibri."
+
+#: ../../install/_linux.rst:113
+msgid "Higher Performance with the ``kolibri-server`` package"
+msgstr "De meilleures performances avec le paquet ``kolibri-server``"
+
+#: ../../install/_linux.rst:115
+msgid "We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``."
+msgstr "Nous proposons un wrapper plus performant autour du paquet ``kolibri`` pour les systèmes Ubuntu et Debian appelé ``kolibri-server``."
+
+#: ../../install/_linux.rst:117
+msgid "``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and with ``kolibri-server`` it will likely be able to serve 2-3 times more client devices compared to base Kolibri."
+msgstr "Le ``kolibri-server`` présente des caractéristiques spécifiques comme un **cache de contenu statique** et une **utilisation optimisée de la puissance de traitement du processeur** pour les appareils multi-cœurs. Par exemple, un appareil *Raspberry Pi 3+* possède 4 cœurs de processeur, et avec ``kolibri-server`` il pourra probablement servir de 2 à 3 fois plus d'appareils clients par rapport au paquet Kolibri de base."
+
+#: ../../install/_linux.rst:119
+msgid "To install ``kolibri-server`` follow these steps."
+msgstr "Pour installer ``kolibri-server``, suivez les étapes suivantes."
+
+#: ../../install/_linux.rst:121
+msgid "Run these commands in the Terminal:"
+msgstr "Exécutez les commandes suivantes dans le Terminal :"
+
+#: ../../install/_linux.rst:130
+msgid "During the installation you will be offered the option to choose the port (8000, 80 or leave the default 8080)."
+msgstr "Pendant l'installation, vous aurez la possibilité de choisir le port (8000, 80 ou garder 8080 par défaut)."
+
+#: ../../install/_linux.rst:132
+msgid "Restart the system."
+msgstr "Redémarrez le système."
+
+#: ../../install/_linux.rst:134
+msgid "Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local Wi-Fi access point characteristics."
+msgstr "N'oubliez pas que les performances du système ``kolibri-server`` ne dépendent pas seulement des fonctionnalités des appareils serveurs, mais aussi de celles du point d'accès Wi-Fi local."
+
+#: ../../install/_linux.rst:138
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: ../../install/_linux.rst:140
+msgid "Kolibri is tested to work on Raspberry Pi Models **3, 3+, 4 and Zero W**. For installation instructions, please refer to our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`."
+msgstr "Le fonctionnement de Kolibri est éprouvé sur les modèles Raspberry Pi **3, 3+, 4 et Zero W**. Pour les instructions d'installation, veuillez vous référer à notre :ref:`Didacticiel Raspberry Pi pour Kolibri <tutorial_rpi>`."
+
+#: ../../install/_linux.rst:142
+msgid "Kolibri may also run on Raspberry Pi Model 2, but the above tutorial was not fully intended for that model, since it does not have onboard Wi-Fi."
+msgstr "Bien que Kolibri puisse aussi fonctionner avec le modèle 2 de Raspberry Pi, le didacticiel mentionné ci-dessus ne lui est pas entièrement destiné, car il n'a pas de Wi-Fi intégré."
+
+#: ../../install/_osx.rst:4
+msgid "Other Linux & MacOS"
+msgstr "Autres Linux & MacOS"
+
+#: ../../install/_osx.rst:9
+msgid "MacOS: 10.6+, all browsers supported"
+msgstr "MacOS : 10.6+, compatible avec tous les navigateurs"
+
+#: ../../install/_osx.rst:10
+msgid "Linux: Any system with Python 2.7, all browsers supported"
+msgstr "Linux : n'importe quel système avec Python 2.7, compatible avec tous les navigateurs"
+
+#: ../../install/_osx.rst:17
+msgid "To install Kolibri on Linux distributions other than Debian, as well as on MacOS, you can use :ref:`generic installation <pip-installation>` with ``pip install`` command, or follow these steps to run Kolibri with the ``PEX`` package."
+msgstr "Pour installer Kolibri sur des distributions Linux autres que Debian, ainsi que sur MacOS, vous pouvez effectuer une :ref:`installation générique <pip-installation>` à l'aide de la commande ``pip install``, ou suivre les étapes suivantes pour lancer Kolibri avec le paquet ``PEX``."
+
+#: ../../install/_osx.rst:19
+msgid "Download the `PEX installer <https://learningequality.org/download/>`_ for Kolibri **version 0.12**."
+msgstr "Téléchargez l'`installateur PEX <https://learningequality.org/download/>`_ pour la **version 0.12** de Kolibri."
+
+#: ../../install/_osx.rst:20
+msgid "Make sure to **open the Terminal where you downloaded** the ``PEX`` file. For example, if you saved it in the *Downloads* folder, type this when you open the Terminal, and press Enter:"
+msgstr "Assurez-vous d'**ouvrir le Terminal dans lequel vous avez téléchargé** le fichier ``PEX``. Par exemple, si vous l'avez enregistré dans le dossier *Téléchargements*, tapez la commande suivante lorsque vous ouvrez le Terminal, et appuyez sur Entrée :"
+
+#: ../../install/_osx.rst:26
+msgid "Type the following commands next (press Enter after each one)."
+msgstr "Saisissez ensuite les commandes suivantes (appuyez sur la touche Entrée après chacune d'elles)."
+
+#: ../../install/_osx.rst:34
+msgid "Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.12.0.pex``, type that instead of ``kolibri-installer-filename.pex``."
+msgstr "Assurez-vous de **remplacer** ``kolibri-installer-filename.pex`` **avec le nom exact du fichier que vous avez téléchargé** dans les deux commandes. Par exemple, si le fichier téléchargé s'intitule ``kolibri-v0.12.0.pex``, saisissez ce nom au lieu de ``kolibri-installer-filename.pex``."
+
+#: ../../install/_osx.rst:38
+msgid "Remember that **PEX** package allows you to run Kolibri on your system **only while the process is active in the Terminal window**. If that process is stopped (by either pressing :guilabel:`Ctrl` + :guilabel:`C`, closing the Terminal, or restarting your system), you will need to repeat the above steps to start Kolibri again. User accounts, classes and groups you create, as well as the content channels you download, will be available every time you restart Kolibri."
+msgstr "N'oubliez pas que le paquet **PEX** vous permet d'exécuter Kolibri sur votre système **seulement lorsque le processus est actif dans la fenêtre du Terminal**. Si vous arrêtez ce processus (soit en appuyant sur :guilabel:`Ctrl` + :guilabel:`C`, soit en fermant le Terminal, soit en redémarrant votre système), il vous faudra répéter les étapes ci-dessus pour relancer Kolibri. Les comptes utilisateurs, les classes et les groupes que vous créez, ainsi que les chaînes de contenu que vous téléchargez, seront disponibles à chaque fois que vous redémarrerez Kolibri."
+
+#: ../../install/_osx.rst:44
+msgid "Delete the ``PEX`` file."
+msgstr "Supprimez le fichier ``PEX``."
+
+#: ../../install/_osx.rst:45
+msgid "Delete the ``./kolibri`` folder in your user's Home directory if you want to completely remove all the Kolibri files and content channels you imported."
+msgstr "Supprimez le dossier ``./kolibri`` dans le répertoire personnel de votre utilisateur si vous voulez supprimer complètement tous les fichiers Kolibri et les chaines de contenu que vous avez importées."
+
+#: ../../install/_osx.rst:52
+msgid "Download the new version of `Kolibri PEX installer <https://learningequality.org/download/>`_."
+msgstr "Téléchargez la nouvelle version de l'`installateur PEX <https://learningequality.org/download/>`_ pour Kolibri."
+
+#: ../../install/_osx.rst:53
+msgid "Start Kolibri as during the first install."
+msgstr "Démarrez Kolibri comme lors de la première installation."
+
+#: ../../install.rst:35
+msgid "Python pip package"
+msgstr "Paquet Python"
+
+#: ../../install.rst:37
+msgid "You can install Kolibri as a standard package from PyPi (works on Mac, Windows, and Linux) using this command::"
+msgstr "Vous pouvez installer Kolibri comme un paquet standard venant de PyPi (fonctionne sur Mac, Windows, et Linux) avec pip en utilisant cette commande :"
+
+#: ../../install/_initial_setup.rst:5
+msgid "Initial Setup"
+msgstr "Configuration initiale"
+
+#: ../../install/_initial_setup.rst:7
+msgid "To do the initial setup of your Kolibri facility after the installation, follow these steps."
+msgstr "Pour effectuer la configuration initiale de votre système Kolibri après l'installation, suivez les étapes suivantes."
+
+#: ../../install/_initial_setup.rst:10
+msgid "You need to do the initial setup only once, the first time you start Kolibri after the installation. You can change all the settings later, *except the type and the name of the facility*."
+msgstr "Vous ne devez effectuer la configuration initiale qu'une seule fois, la première fois que vous démarrez Kolibri après l'installation. Tous les paramètres, *à l'exception du type et du nom de l'institut*, sont modifiables ultérieurement."
+
+#: ../../install/_initial_setup.rst:12
+msgid "**Select the default language for Kolibri.**"
+msgstr "**Sélection de la langue par défaut de Kolibri.**"
+
+#: ../../install/_initial_setup.rst:17
+msgid "Select the default Kolibri language."
+msgstr "Sélectionnez la langue par défaut de Kolibri."
+
+#: ../../install/_initial_setup.rst:21
+msgid "The default language configured for content in your browser preferences might override the language you choose in this step. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content."
+msgstr "La langue par défaut indiquée dans les préférences de votre navigateur peut l'emporter sur la langue choisie à cette étape. Pour que Kolibri s'affiche bien dans la langue souhaitée, assurez-vous de la sélectionner comme langue par défaut dans les navigateurs de tous les appareils qui seront utilisés pour accéder au contenu de Kolibri."
+
+#: ../../install/_initial_setup.rst:24
+msgid "**Facility name and type.** A \"Facility\" is the location where you are installing Kolibri, such as a school, training center, or even your home."
+msgstr "**Nom et type d'établissement .** Un \"établissement\" est l'endroit où vous installez Kolibri, tels qu'une école, un centre de formation ou même votre maison."
+
+#: ../../install/_initial_setup.rst:26
+msgid "**Non-formal** type can be used in libraries, orphanages, correctional facilities, youth centers, computer labs and similar, **Formal** one in schools and other formal learning contexts, and **Personal** should work best for parent-child or supplementary individual learning."
+msgstr "Le type **Non formel** s'applique aux bibliothèques, orphelinats, établissements pénitentiaires, centres de jeunesse, laboratoires informatiques et similaires, le type **Formel** aux écoles et autres environnements d'apprentissage formel, tandis que le type **Personnel** convient à l'apprentissage parent-enfant ou individuel complémentaire."
+
+#: ../../install/_initial_setup.rst:28
+msgid "Formal and non-formal facilities require a name, while personal ones do not."
+msgstr "Les instituts formels et non formels doivent être obligatoirement nommés, ce qui n'est pas le cas des instituts personnels."
+
+#: ../../install/_initial_setup.rst:33
+msgid "Choose the type of facility."
+msgstr "Choisissez le type d'institut."
+
+#: ../../install/_initial_setup.rst:36
+msgid "**Guest access.**"
+msgstr "**Accès d'invités.**"
+
+#: ../../install/_initial_setup.rst:41
+msgid "Select if guests can access Kolibri content without the need to create an account."
+msgstr "Choisissez d'autoriser ou non l'accès au contenu de Kolibri sans compte utilisateur."
+
+#: ../../install/_initial_setup.rst:44
+msgid "**User account creation.**"
+msgstr "**Création de comptes utilisateurs.**"
+
+#: ../../install/_initial_setup.rst:49
+msgid "Select if anyone can create a user account for themselves, or if user accounts must be created by Kolibri admins."
+msgstr "Choisissez soit de permettre à quiconque de créer son propre compte utilisateur, soit de confier la création des comptes utilisateurs aux administrateurs de Kolibri uniquement."
+
+#: ../../install/_initial_setup.rst:52
+msgid "**Enable passwords for learners.** Simplified sign-in, without the password requirement, allows easier access for younger learners."
+msgstr "**Activation des mots de passe pour les élèves.** Une connexion simplifiée, sans mot de passe, permet un accès plus facile pour les plus jeunes élèves."
+
+#: ../../install/_initial_setup.rst:57
+msgid "Select if learners must type in their passwords to sign-in to Kolibri."
+msgstr "Déterminez si les élèves doivent saisir un mot de passe pour se connecter à Kolibri."
+
+#: ../../install/_initial_setup.rst:60
+msgid "**Create super admin account.** This admin user will be a **super admin**, able to manage all the device content, and all the rest of the facility users and their permissions."
+msgstr "**Création d'un compte super administrateur.** Cet utilisateur admin sera un **super administrateur**, capable de gérer tout le contenu de l'appareil, et tous les autres utilisateurs de l'institut et leurs permissions."
+
+#: ../../install/_initial_setup.rst:65
+msgid "Select the username and password for the facility super admin."
+msgstr "Sélectionnez le nom d'utilisateur et le mot de passe du super administrateur de l'institut."
+
+#: ../../install/_initial_setup.rst:68
+msgid "Make sure to save these super admin credentials in a safe place!"
+msgstr "Assurez-vous de bien enregistrer les identifiants du super administrateur dans un endroit sécurisé !"
+
+#: ../../install/_initial_setup.rst:71
+msgid "**Data usage and privacy - responsibilities of the administrator.** When you are setting up a Kolibri facility, especially in formal contexts, you need to take into consideration the relevant privacy laws and regulations. You as the **super admin**, or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup."
+msgstr "**Utilisation et confidentialité des données - les responsabilités de l'administrateur.** Lors de la mise en place d'un système Kolibri, en particulier dans un contexte formel, il est impératif de prendre en compte les lois et réglementations applicables en matière de confidentialité des données. En tant que **super administrateur**, c'est à vous ou à votre éventuel délégué que revient la responsabilité de protéger et de gérer les comptes utilisateurs et les informations personnelles stockées sur l'appareil. Avant de terminer la configuration du système, passez en revue la déclaration relative à l'utilisation et à la confidentialité des données."
+
+#: ../../install/_initial_setup.rst:77
+msgid "Review the super admin responsibilities regarding the data usage and privacy."
+msgstr "Passez en revue les responsabilités du super administrateur relatives à l'utilisation et à la confidentialité des données."
+
+#: ../../install/_initial_setup.rst:80
+msgid "Once you finish the initial setup, proceed to :ref:`import some content <manage_content_ref>`, and :ref:`create users <manage_users_ref>` (if you chose the Admin-managed facility setup). Make sure to check how to :ref:`configure other computers <access_LAN>` in the network to access Kolibri."
+msgstr "Une fois la configuration initiale terminée, commencez à :ref:`importer du contenu <manage_content_ref>`, et à :ref:`créer des utilisateurs <manage_users_ref>` (si le système est configuré pour que la gestion de l'institut revienne à l'administrateur ). Assurez-vous de vérifier comment :ref:`configurer les autres ordinateurs <access_LAN>` du réseau pour qu'ils puissent accéder à Kolibri."
+
+#: ../../install/tutorials/index.rst:3
+msgid "Tutorials"
+msgstr "Didacticiels"
+
+#: ../../install/tutorials/index.rst:5
+msgid "Step-by-step guides with more details."
+msgstr "Des guides étape par étape avec plus de détails."
+
+#: ../../install/tutorials/provision.rst:5
+msgid "Hard drive provisioning of multiple Kolibri servers"
+msgstr "Provisionnement des disques durs de plusieurs serveurs Kolibri"
+
+#: ../../install/tutorials/provision.rst:7
+msgid "This tutorial will help you to prepare for the Kolibri implementation where you need to install and provision several Kolibri server devices with the same content channels."
+msgstr "Ce didacticiel est conçu pour vous accompagner dans la mise en place de Kolibri impliquant l'installation et le provisionnement de plusieurs appareils serveurs Kolibri avec les mêmes chaînes de contenu."
+
+#: ../../install/tutorials/provision.rst:9
+msgid "Provisioning multiple servers with software and content is **going to take some time** irregardless of the chosen procedure."
+msgstr "Le provisionnement de plusieurs serveurs en logiciels et en contenu va **prendre un certain temps**, quelle que soit la procédure choisie."
+
+#: ../../install/tutorials/provision.rst:11
+msgid "You will need an **active Internet connection only to preload content channels on the first server device**. Provisioning the rest of the servers can be accomplished offline, or just within the working local network."
+msgstr "Vous aurez besoin d'une **connexion Internet active uniquement pour précharger les chaînes de contenu sur le premier appareil serveur**. Le provisionnement des autres serveurs peut être effectué hors ligne ou simplement au sein du réseau local."
+
+#: ../../install/tutorials/provision.rst:14
+msgid "Required hardware"
+msgstr "Matériel requis"
+
+#: ../../install/tutorials/provision.rst:16
+msgid "Laptops and/or other devices to host Kolibri servers."
+msgstr "Des ordinateurs portables et/ou autres appareils pour héberger les serveurs Kolibri."
+
+#: ../../install/tutorials/provision.rst:21
+msgid "For provisioning you have the option to use:"
+msgstr "Pour le provisionnement, il est possible d'utiliser :"
+
+#: ../../install/tutorials/provision.rst:23
+msgid "Fast USB 3 external drive(s). USB 2 can work too, but we recommend using more than one USB 3 drives for fastest results."
+msgstr "De(s) support(s) de stockage externe(s) rapide(s) USB 3.0. L'USB 2.0 peut aussi fonctionner, mais nous recommandons l'usage de plus d'un support USB 3.0 pour obtenir des résultats plus rapides."
+
+#: ../../install/tutorials/provision.rst:25
+msgid "**OR**"
+msgstr "**OU**"
+
+#: ../../install/tutorials/provision.rst:27
+msgid "Working LAN (cabled is preferable to wireless, and ideally via a router that supports Gigabit Ethernet)."
+msgstr "Un réseau local opérationnel (il est préférable d'utiliser un câble plutôt que du sans fil, idéalement via un routeur supportant l'Ethernet Gigabit)."
+
+#: ../../install/tutorials/provision.rst:29
+msgid "Active Internet connection to download the installer and preload content channels on the first (“master”) server."
+msgstr "Une connexion Internet active pour télécharger l'installateur et précharger les chaînes de contenu sur le premier serveur ( dit « maître »)."
+
+#: ../../install/tutorials/provision.rst:31
+msgid "We recommend you install and preload content channels on one server (referring to it as the *master* for the purpose of this procedure), and then copy the required folder structure to the rest of the devices."
+msgstr "Nous vous recommandons d'installer et de précharger les chaînes de contenu sur un serveur (appelé *maître* pour les besoins de cette procédure), puis de copier la structure de dossiers requise sur les autres appareils."
+
+#: ../../install/tutorials/provision.rst:33
+msgid "Copying the folders with content from the master server hard drive to others via the USB 3 external drive might be faster, but copying via the cabled LAN connection may be done in parallel (from master to several others at the same time). You can combine these two options for the fastest results, if you have access to both cabled LAN and the USB external drives."
+msgstr "Bien qu'il soit plus rapide de copier les dossiers de contenu du disque dur du serveur maître vers d'autres dossiers au moyen d'un support USB 3.0, il est possible de copier les dossiers (du maître vers plusieurs autres serveurs en même temps) via le réseau local en parallèle. Si vous avez accès tant à une connexion câblée au réseau local et qu'à des supports externes USB, vous pouvez combiner ces deux options pour accélérer au maximum la procédure."
+
+#: ../../install/tutorials/provision.rst:36
+msgid "Provision the master server"
+msgstr "Provisionner le serveur maître"
+
+#: ../../install/tutorials/provision.rst:38
+msgid "Install Kolibri on the master server by following the steps for your :ref:`chosen platform <install>`."
+msgstr "Installez Kolibri sur le serveur maître en suivant les étapes correspondant à la :ref:`plateforme sélectionnée <install>`."
+
+#: ../../install/tutorials/provision.rst:39
+msgid "Proceed with the :ref:`setup_initial` of the facility on the master server."
+msgstr "Procédez à la :ref:`setup_initial` de l'institut sur le serveur maître."
+
+#: ../../install/tutorials/provision.rst:40
+msgid ":ref:`Import the desired content <import_studio>` to preload it on the master server."
+msgstr ":ref:`Importez le contenu souhaité <import_studio>` pour le précharger sur le serveur maître."
+
+#: ../../install/tutorials/provision.rst:44
+msgid "Kolibri folder structure"
+msgstr "Arborescence des dossiers Kolibri"
+
+#: ../../install/tutorials/provision.rst:46
+msgid "At this point you have the master server set-up and preloaded with content. Before you proceed to copy the content and the database to the rest of the server devices, let’s get familiar with the Kolibri folder structure."
+msgstr "À ce stade de la procédure, le serveur maître est configuré et préchargé avec du contenu. Avant de copier le contenu et la base de données sur les autres appareils serveurs, familiarisez-vous avec l'arborescence des dossiers Kolibri."
+
+#: ../../install/tutorials/provision.rst:48
+msgid "On Windows, the main server database and all the files related to the content are stored in the folder named ``.kolibri``, located in ``C:/Users/<username>/.kolibri/`` (if your main hard drive is ``C:``)."
+msgstr "Sous Windows, la base de données du serveur principal et tous les fichiers liés au contenu sont stockés dans le dossier nommé ``.kolibri``, situé dans ``C:/Users/<username>/.kolibri/`` (si votre disque dur principal est ``C:``)."
+
+#: ../../install/tutorials/provision.rst:50
+msgid "``<username>`` refers to the user you were logged in as when you installed Kolibri as explained above. In the image below for example, you can see that the user who installed Kolibri is called **IEUser**."
+msgstr "``<username>`` correspond au nom d'utilisateur sous lequel vous avez installé Kolibri tel qu'expliqué ci-dessus. Dans l'exemple ci-dessous, l'utilisateur ayant installé Kolibri se nomme **IEUser**."
+
+#: ../../install/tutorials/provision.rst:55
+msgid "Find the `.kolibri` folder on Windows."
+msgstr "Trouvez le dossier `.kolibri` sous Windows."
+
+#: ../../install/tutorials/provision.rst:57
+msgid "On Linux the ``.kolibri`` folder is located inside your user home folder."
+msgstr "Avec Linux, le dossier ``.kolibri`` est situé dans votre répertoire utilisateur personnel."
+
+#: ../../install/tutorials/provision.rst:62
+msgid "Find the `.kolibri` folder on Linux."
+msgstr "Trouvez le dossier `.kolibri` sous Linux."
+
+#: ../../install/tutorials/provision.rst:64
+msgid "The content of the ``.kolibri`` folder is the same for all platforms. Inside you can see the main database file ``db.sqlite3``, and the subfolder named ``content`` which contains 2 subfolders: ``databases`` with the separate database for each of the content channels imported into Kolibri, and the ``storage`` folder with all the content files and resources."
+msgstr "Le contenu du dossier ``.kolibri`` est le même pour toutes les plateformes. Vous y trouverez le fichier de base de données principal ``db.sqlite3``, et le sous-dossier nommé ``content``, qui renferme 2 sous-dossiers : ``databases``, qui contient les bases de données spécifiques à chacune des chaînes de contenu importées dans Kolibri, et ``storage``, qui regroupe tous les fichiers de contenu et les ressources."
+
+#: ../../install/tutorials/provision.rst:69
+msgid "Find the channel's databases and content folder."
+msgstr "Trouvez les bases de données et le dossier de contenu de la chaîne."
+
+#: ../../install/tutorials/provision.rst:73
+msgid "Prepare the ``.kolibri`` folder for copying"
+msgstr "Préparer le dossier ``.kolibri`` afin de le copier"
+
+#: ../../install/tutorials/provision.rst:75
+msgid "Before you proceed to copy the ``.kolibri`` folder from the master server hard drive (which already contains content channels), to the rest of the server devices for your deployment, you need to **deprovision** (that is, empty out) the user database."
+msgstr "Avant de copier le dossier ``.kolibri`` du disque dur du serveur maître (qui contient déjà des chaînes de contenu), vers les autres appareils serveurs pour le déploiement, il est nécessaire de **déprovisionner** (c'est-à-dire vider) la base de données utilisateurs."
+
+#: ../../install/tutorials/provision.rst:77
+msgid "This is a critical step, to ensure that each destination server has a unique **Facility ID** (and name) associated with it."
+msgstr "Ceci est une étape critique afin de s'assurer qu'un **ID d'établissement** (et un nom) unique est associé à chaque serveur de destination."
+
+#: ../../install/tutorials/provision.rst:79
+msgid "Open the Terminal on Linux or the :ref:`command prompt on Windows <command_line>`."
+msgstr "Ouvrez le Terminal sur Linux ou :ref:`l'invite de commande sur Windows <command_line>`."
+
+#: ../../install/tutorials/provision.rst:81
+msgid "Stop Kolibri server with the following command"
+msgstr "Arrêtez le serveur Kolibri avec la commande suivante"
+
+#: ../../install/tutorials/provision.rst:87
+msgid "Follow that with the command to empty the user database."
+msgstr "Exécutez ensuite la commande pour vider la base de données utilisateurs."
+
+#: ../../install/tutorials/provision.rst:94
+msgid "You will have to confirm twice by typing ``yes`` and pressing the :guilabel:`Enter` key."
+msgstr "Vous devrez confirmer deux fois en saisissant ``yes`` et en appuyant sur la touche :guilabel:`Entrée`."
+
+#: ../../install/tutorials/provision.rst:98
+msgid "Copy the content to other server devices"
+msgstr "Copier le contenu sur d'autres appareils serveurs"
+
+#: ../../install/tutorials/provision.rst:101
+msgid "Independent from the copying procedure you decide to use, you should first proceed to :ref:`install Kolibri <install>` on each of the destination devices, following the same steps as for the master server, **but you don’t need to go through the Initial Setup**."
+msgstr "Indépendamment de la procédure de copie que vous décidez d'utiliser, il est essentiel de procéder d'abord à :ref:`l'installation de Kolibri <install>` sur chacun des appareils de destination, en suivant les mêmes étapes que pour le serveur maître, **sans toutefois devoir effectuer la configuration initiale**."
+
+#: ../../install/tutorials/provision.rst:103
+msgid "After the installation you must **stop Kolibri** on the destination device, before you proceed to copy the content."
+msgstr "Après l'installation, il vous faudra **arrêter Kolibri** sur l'appareil de destination, avant de procéder à la copie du contenu."
+
+#: ../../install/tutorials/provision.rst:105
+msgid "On Windows you need to right-click the Kolibri icon in the Windows taskbar (usually at bottom right, near the clock), and select ``Exit``. You will be prompted to confirm the selection, after which Kolibri will stop."
+msgstr "Sous Windows, faites un clic droit sur l'icône de Kolibri dans la barre des tâches (située généralement en bas à droite, près de l'horloge), et sélectionner ``Quitter``. Vous serez invité à confirmer votre choix, suite à quoi Kolibri s'arrêtera."
+
+#: ../../install/tutorials/provision.rst:110
+msgid "Stop Kolibri from the taskbar options."
+msgstr "Arrêtez Kolibri à partir des options de la barre des tâches."
+
+#: ../../install/tutorials/provision.rst:113
+msgid "On Linux you need to run ``kolibri stop`` or ``sudo service kolibri stop`` (if you installed Kolibri to run as the system service)."
+msgstr "Sous Linux, exécutez ``kolibri stop`` ou ``sudo service kolibri stop`` (si vous avez installé Kolibri pour qu'il fonctionne comme service système)."
+
+#: ../../install/tutorials/provision.rst:117
+msgid "Use the external USB drive to copy content"
+msgstr "Copier le contenu à l'aide d'un support externe USB"
+
+#: ../../install/tutorials/provision.rst:119
+msgid "Copy the ``.kolibri`` folder from the master server hard drive, and paste it on the external USB drive."
+msgstr "Copiez-collez le dossier ``.kolibri`` du disque dur du serveur maître au support externe USB."
+
+#: ../../install/tutorials/provision.rst:120
+msgid "Copy the ``.kolibri`` folder from the USB drive, and paste it inside the destination device hard drive."
+msgstr "Copiez-collez le dossier ``.kolibri`` du support externe USB au disque dur de l'appareil de destination."
+
+#: ../../install/tutorials/provision.rst:122
+#: ../../install/tutorials/provision.rst:139
+msgid "On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the master server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service."
+msgstr "Sous Windows, il vous faudra copier le dossier ``.kolibri`` vers le dossier ``C:/Users/<username>/``, où le ``<username>`` correspond au nom du compte sous lequel vous avez installé Kolibri sur l'appareil de destination (il peut être différent du compte sur le serveur maître). Sous Linux, copiez le dossier dans le répertoire personnel de l'utilisateur qui a installé Kolibri, ou qui est le propriétaire du service système Kolibri."
+
+#: ../../install/tutorials/provision.rst:124
+#: ../../install/tutorials/provision.rst:141
+msgid "You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it."
+msgstr "Un message d'alerte devrait apparaître pour indiquer qu'un dossier ``.kolibri`` existe déjà sur l'appareil de destination : sélectionnez l'option pour l'écraser."
+
+#: ../../install/tutorials/provision.rst:128
+msgid "Use the cabled LAN connection to copy content"
+msgstr "Copier le contenu à l'aide d'une connexion câblée à un réseau local"
+
+#: ../../install/tutorials/provision.rst:130
+msgid "Connect all the devices, master server and the others where you need to copy the content on, to the same local area network (LAN)."
+msgstr "Connectez tous les appareils, le serveur maître et les autres sur lesquels vous devez copier le contenu, au même réseau local (LAN)."
+
+#: ../../install/tutorials/provision.rst:132
+msgid "Configure the network access on the master server, so the rest of the devices can:"
+msgstr "Configurez les paramètres réseau du serveur maître pour que les autres appareils puissent :"
+
+#: ../../install/tutorials/provision.rst:134
+msgid "See it among their Network locations in the Windows Explorer"
+msgstr "Le voir dans la liste des emplacements réseau de l'Explorateur Windows"
+
+#: ../../install/tutorials/provision.rst:135
+msgid "Open it and freely browse its shared folders (``.kolibri`` folder should be shared)"
+msgstr "L'ouvrir et parcourir librement ses dossiers partagés (le dossier ``.kolibri`` doit être partagé)"
+
+#: ../../install/tutorials/provision.rst:137
+msgid "Use the Windows or File Explorer on each destination device to copy the ``.kolibri`` folder from the master server hard drive, and paste it inside the destination device hard drive."
+msgstr "Utilisez l'Explorateur Windows ou de fichiers sur chaque appareil de destination pour copier-coller le dossier \" .kolibri \" du disque dur du serveur maître au disque dur de l'appareil de destination."
+
+#: ../../install/tutorials/provision.rst:143
+msgid "You should be able to access the master server from several other destination servers through the LAN, and copy the ``.kolibri`` folder at the same time."
+msgstr "Vous devriez pouvoir accéder au serveur maître à partir de plusieurs autres serveurs de destination via le réseau local, et y copier en même temps le dossier ``.kolibri``."
+
+#: ../../install/tutorials/provision.rst:147
+msgid "Restart Kolibri servers on destination devices"
+msgstr "Redémarrer les serveurs Kolibri sur les appareils de destination"
+
+#: ../../install/tutorials/provision.rst:149
+msgid "On Windows double-click the desktop shortcut to start Kolibri after copying content. You will see the notification message *Kolibri is starting, please wait…*. When you see the next notification that *Kolibri is running…*, Kolibri will open in the browser with the URL ``http://127.0.0.1:8080``."
+msgstr "Sous Windows, double-cliquez sur le raccourci du bureau pour démarrer Kolibri après avoir copié le contenu. Vous verrez s'afficher le message *Kolibri démarre, veuillez patienter...*. Une fois la notification suivante *Kolibri est en cours d'exécution...* apparue, Kolibri s'ouvrira dans le navigateur à l'URL ``http://127.0.0.1:8080``."
+
+#: ../../install/tutorials/provision.rst:150
+msgid "On Linux open the Terminal and run ``kolibri start`` or ``sudo service kolibri start`` (if you installed Kolibri to run as the system service)."
+msgstr "Sous Linux, ouvrez le Terminal et lancez ``kolibri start`` ou ``sudo service kolibri start`` (si vous avez installé Kolibri pour qu'il s'exécute en tant que service système)."
+
+#: ../../install/tutorials/provision.rst:152
+msgid "Since the deprovision command emptied the user database on the master server, you will need to perform  the :ref:`setup_initial` on each destination device to set their **Facility** name and the super admin account. The Facility name could be the name of the learning center or school in which the respective server will be deployed."
+msgstr "Puisque la commande de déprovision a vidé la base de données utilisateurs sur le serveur maître, vous devrez procéder à la :ref:`setup_initial` de chaque appareil de destination pour définir leur nom d'**établissement** et le compte super admin. Le nom d'établissement pourrait être le nom du centre d'apprentissage ou de l'école dans lequel le serveur respectif sera déployé."
+
+#: ../../install/tutorials/rpi.rst:5
+msgid "An offline Raspberry Pi server"
+msgstr "Un serveur Raspberry Pi hors ligne"
+
+#: ../../install/tutorials/rpi.rst:7
+msgid "This guide shows you how to configure a Raspberry Pi as a local Wi-Fi hotspot serving Kolibri."
+msgstr "Ce guide vous indique comment configurer un Raspberry Pi sous forme de hotspot Wi-Fi local au service de Kolibri."
+
+#: ../../install/tutorials/rpi.rst:9
+msgid "There are several varieties of operating systems for Raspberry Pi. This guide is intended for and tested on `Raspbian <https://www.raspberrypi.org/>`__, the most popular choice of OS, based on Debian."
+msgstr "Il existe plusieurs variétés de systèmes d'exploitation pour le Raspberry Pi. Ce guide est conçu pour et testé sur `Raspbian <https://www.raspberrypi.org/>`__, le choix d'OS le plus populaire, basé sur Debian."
+
+#: ../../install/tutorials/rpi.rst:11
+msgid "These steps require an internet connection during the installation. After completing the installation, it's possible :ref:`to replicate an image <rpi_replication>` for offline installation."
+msgstr "Les étapes ci-dessous nécessitent une connexion Internet lors de l'installation. Une fois l'installation terminée, il est possible :ref:`de répliquer une image <rpi_replication>` pour une installation hors ligne."
+
+#: ../../install/tutorials/rpi.rst:14
+msgid "Prerequisites"
+msgstr "Prérequis"
+
+#: ../../install/tutorials/rpi.rst:21
+msgid "Kolibri runs on both Raspberry Pi 3 and 4"
+msgstr "Kolibri fonctionne tant sur Raspberry Pi 3 que 4"
+
+#: ../../install/tutorials/rpi.rst:24
+msgid "Raspberry Pi Model 3, 3+, 4 and Zero W - or: Raspberry Pi versions that support Raspbian Stretch or Buster and has onboard Wi-Fi"
+msgstr "Les modèles 3, 3+, 4 et Zero W de Raspberry Pi - ou : les versions de Raspberry Pi prenant en charge Raspbian Stretch ou Buster et disposant du Wi-Fi intégré"
+
+#: ../../install/tutorials/rpi.rst:25
+msgid "Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)"
+msgstr "Carte MicroSD formatée > 4 Go (64 Go recommandé ou stockage USB connecté)"
+
+#: ../../install/tutorials/rpi.rst:26
+msgid "Card reader for a laptop or computer to write to the MicroSD card"
+msgstr "Un lecteur de carte pour un ordinateur portable ou un ordinateur pour enregistrer sur la carte MicroSD"
+
+#: ../../install/tutorials/rpi.rst:27
+msgid "Latest Raspbian Stretch OS .img file"
+msgstr "Le fichier Raspbian Stretch OS .img le plus récent"
+
+#: ../../install/tutorials/rpi.rst:29
+msgid "`Raspbian Desktop <http://downloads.raspberrypi.org/raspbian/>`__"
+msgstr "`Le bureau Raspbian <http://downloads.raspberrypi.org/raspbian/>`__"
+
+#: ../../install/tutorials/rpi.rst:30
+msgid "`Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__"
+msgstr "`Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__"
+
+#: ../../install/tutorials/rpi.rst:31
+msgid "**Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__"
+msgstr "**Ou** `Installation de Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__"
+
+#: ../../install/tutorials/rpi.rst:32
+msgid "Internet connectivity (for setting up the device)"
+msgstr "Connexion Internet (pour la configuration de l'appareil)"
+
+#: ../../install/tutorials/rpi.rst:33
+msgid "An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an Ethernet cable for online connectivity while installing and fetching contents for Kolibri."
+msgstr "Une carte MicroSD interne est utilisée pour le système de base, et un support de stockage externe pour les contenus (par exemple une clé USB de 64 Go). Nous vous recommandons de disposer d'un câble Ethernet pour la connectivité Internet lors de l'installation et de la récupération de contenus pour Kolibri."
+
+#: ../../install/tutorials/rpi.rst:35
+msgid "The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both."
+msgstr "L'OS standard Raspbian a un bureau graphique. Vous pouvez également installer Raspbian Lite qui utilise moins de ressources, mais qui n'a qu'une interface de ligne de commande. Les instructions de cette documentation fonctionnent aussi bien sur l'un que sur l'autre."
+
+#: ../../install/tutorials/rpi.rst:39
+msgid "Getting started guides"
+msgstr "Guides de démarrage"
+
+#: ../../install/tutorials/rpi.rst:41
+msgid "This guide provides a step-by-step setup of Kolibri but does not try to explain basic concepts for your Raspberry Pi. If you are new to the system, you are encouraged to read the official `Getting Started <https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started>`__ guide for basic knowledge about setting up your device."
+msgstr "Ce guide détaille comment configurer Kolibri étape par étape, mais n'explique pas les concepts de base à propos de votre Raspberry Pi. Si vous débutez sur ce système, nous vous encourageons à lire le guide officiel `Premiers pas avec le Raspberry Pi <https://projects.raspberrypi.org/fr-FR/projects/raspberry-pi-getting-started>`__ pour acquérir les connaissances de base sur la configuration de votre appareil."
+
+#: ../../install/tutorials/rpi.rst:43
+msgid "In doubt about which Raspbian to choose? We recommend using Raspbian Lite if you are comfortable with an environment that only has a terminal and no graphical user interface. Using the desktop version will consume more CPU, memory and electricity. Finally, you do have the option to :ref:`switch off the desktop environment <rpi_tip_desktop_disable>` once you have finished setting up the device."
+msgstr "Vous ne savez pas quel Raspbian choisir ? Nous vous recommandons d'opter pour Raspbian Lite si vous êtes à l'aise avec un environnement qui ne dispose que d'un terminal et d'aucune interface d'utilisateur graphique. La version de bureau sollicite davantage le processeur, et consomme plus de mémoire et d'électricité. Sachez en outre qu'il est possible de :ref:`désactiver l'environnement de bureau <rpi_tip_desktop_disable>` une fois la configuration de l'appareil terminée."
+
+#: ../../install/tutorials/rpi.rst:45
+msgid "We install Kolibri as one of the very final step. But please read and complete the prior steps."
+msgstr "L'installation de Kolibri est l'une des toutes dernières étapes. Assurez-vous de bien lire et compléter les étapes précédentes."
+
+#: ../../install/tutorials/rpi.rst:48
+msgid "Setting up the SD card"
+msgstr "Configuration de la carte SD"
+
+#: ../../install/tutorials/rpi.rst:50
+msgid "The following commands work on Linux/macOS for setting up the .img files provided. You will also need to know the *device node* for the SD Card reader. On Linux, this is typically ``/dev/mmcblk0`` for the 0th card in your card reader."
+msgstr "Les commandes suivantes fonctionnent sous Linux/macOS pour configurer les fichiers .img mis à disposition. Vous devrez également connaître le **nœud de périphérique** pour le lecteur de carte SD. Sous Linux, c'est typiquement ``/dev/mmcblk0`` pour la 0ème carte de votre lecteur de carte."
+
+#: ../../install/tutorials/rpi.rst:57
+msgid "Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/>`__"
+msgstr "Lisez les guides officiels pour la mise en place de votre carte : `Copier des fichiers .img <https://www.raspberrypi.org/documentation/installation/installing-images/>`__"
+
+#: ../../install/tutorials/rpi.rst:59
+msgid "Select your MicroSD card based on other people's experiences and technical benchmarks. For more information, read `this Community Forums thread <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__."
+msgstr "Choisissez votre carte MicroSD en fonction de l'expérience d'autres personnes et des références techniques. Pour plus d'informations, consultez ce `thread sur notre Forum communautaire <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`__."
+
+#: ../../install/tutorials/rpi.rst:62
+msgid "Updating the software"
+msgstr "Mise à jour du logiciel"
+
+#: ../../install/tutorials/rpi.rst:64
+msgid "After installing and starting up your Raspberry Pi, it is recommended that you upgrade all the software on the device:"
+msgstr "Après avoir installé et démarré votre Raspberry Pi, il est recommandé de mettre à jour tous les logiciels de l'appareil :"
+
+#: ../../install/tutorials/rpi.rst:73
+msgid "Updating the firmware"
+msgstr "Mise à jour du micrologiciel"
+
+#: ../../install/tutorials/rpi.rst:75
+msgid "Run ``sudo rpi-update`` to update the firmware. Nothing in this tutorial necessitates this, but it's always recommended because hardware issues may be solved over time and performance improved. You cannot replicate this by copying MicroSD cards, you would have to repeat this step for every new Raspberry Pi device that you are installing."
+msgstr "Exécutez la commande \"sudo rpi-update\" pour mettre à jour le micrologiciel. Cette opération n'est nécessaire à aucune des étapes de ce didacticiel, mais est toujours recommandée car les problèmes matériels peuvent être résolus avec le temps et les performances améliorées. Il est impossible d'y procéder en copiant des cartes MicroSD, il vous faudra donc répéter l'opération pour chaque nouveau périphérique Raspberry Pi que vous installez."
+
+#: ../../install/tutorials/rpi.rst:78
+msgid "General system configuration"
+msgstr "Configuration générale du système"
+
+#: ../../install/tutorials/rpi.rst:80
+msgid "Run ``sudo raspi-config`` for the general setup options such as password change, keyboard layout, timezone etc."
+msgstr "Lancez ``sudo raspi-config`` pour accéder aux options de configuration générales telles que le changement de mot de passe, la disposition du clavier, le fuseau horaire, etc."
+
+#: ../../install/tutorials/rpi.rst:82
+msgid "Always change your password after setting up device. The default password for the user ``pi`` is ``raspberry``."
+msgstr "Changez toujours votre mot de passe après avoir configuré l'appareil. Le mot de passe par défaut pour l'utilisateur ``pi`` est ``raspberry`` ."
+
+#: ../../install/tutorials/rpi.rst:85
+msgid "Setting up a hotspot"
+msgstr "Configuration d'un hotspot"
+
+#: ../../install/tutorials/rpi.rst:87
+msgid "Raspberry Pi 3 and 4 have an internal Wi-Fi adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through Wi-Fi. In this case, we call the Raspberry Pi a *hotspot*."
+msgstr "Les Raspberry Pis 3 et 4 ont un adaptateur Wi-Fi interne qui peut servir de point d'accès, donnant ainsi à d'autres appareils la possibilité de se connecter au Raspberry Pi par Wi-Fi. Dans ce cas, nous appelons le Raspberry Pi un *hotspot*."
+
+#: ../../install/tutorials/rpi.rst:89
+msgid "We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's Ethernet cable connection. In this way, you don't have to disable and enable the Wi-Fi configuration each time."
+msgstr "Nous supposons que vous aurez besoin de connecter le Raspberry Pi à Internet avant et après la configuration du hotspot. La façon la plus simple d'y parvenir est de connecter le Raspberry Pi par câble Ethernet. De cette façon, il ne sera pas nécessaire de désactiver et d'activer la configuration Wi-Fi à chaque fois."
+
+#: ../../install/tutorials/rpi.rst:91
+msgid "The device can be set up such that it automatically uses the Ethernet interface as a *gateway* to the internet when a cable is connected."
+msgstr "L'appareil peut être configuré de telle sorte qu'il utilise automatiquement l'interface Ethernet comme une *passerelle* vers Internet lorsqu'un câble est connecté."
+
+#: ../../install/tutorials/rpi.rst:92
+msgid "If you need to connect to the internet through Wi-Fi, you will have to disable the hotspot and connect through the normal network management."
+msgstr "Si vous avez besoin d'accéder à Internet via le Wi-Fi, vous devrez désactiver le hotspot et vous connecter via les outils standards de gestion du réseau."
+
+#: ../../install/tutorials/rpi.rst:97
+msgid "Installing hostapd and dnsmasq"
+msgstr "Installation de hostapd et dnsmasq"
+
+#: ../../install/tutorials/rpi.rst:99
+msgid "In order to serve clients on a local Wi-Fi hotspot, you need the Raspberry Pi to act as:"
+msgstr "Pour servir des clients sur un hotspot Wi-Fi local, il faut que le Raspberry Pi fonctionne comme :"
+
+#: ../../install/tutorials/rpi.rst:101
+msgid "an access point"
+msgstr "un point d'accès"
+
+#: ../../install/tutorials/rpi.rst:102
+msgid "a DHCP server"
+msgstr "un serveur DHCP"
+
+#: ../../install/tutorials/rpi.rst:103
+msgid "a DNS server"
+msgstr "un serveur DNS"
+
+#: ../../install/tutorials/rpi.rst:105
+msgid "The access point is handled by the package ``hostapd`` and the DHCP and DNS server are both available through the ``dnsmasq`` package. We will install and configure both in this section. For more detailed information, see `the online Raspberry Pi docs <https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md>`__."
+msgstr "Le point d'accès est géré par le paquet ``hostapd``,tandis que les serveurs DHCP et DNS sont inclus dans le paquet ``dnsmasq``. Cette section explique comment les installer et les configurer tous les deux. Pour des informations plus détaillées, référez-vous à `la documentation en ligne sur Raspberry Pi <https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md>`__."
+
+#: ../../install/tutorials/rpi.rst:112
+msgid "Setting a static IP"
+msgstr "Configuration d'une IP statique"
+
+#: ../../install/tutorials/rpi.rst:114
+msgid "Firstly, the server's Wi-Fi interface ``wlan0`` needs to have a predictable IP address and not try to obtain it from another server. We call this a *static IP*."
+msgstr "Tout d'abord, l'interface Wi-Fi du serveur ``wlan0`` doit avoir une adresse IP constante et ne pas essayer de l'obtenir d'un autre serveur. C'est ce que l'on appelle une *IP statique*."
+
+#: ../../install/tutorials/rpi.rst:116
+msgid "It is defined in the configuration file ``/etc/dhcpcd.conf``, which you can edit through the below command."
+msgstr "Elle est définie dans le fichier de configuration ``/etc/dhcpcd.conf``, que vous pouvez éditer avec la commande ci-dessous."
+
+#: ../../install/tutorials/rpi.rst:122
+msgid "Use the arrow keys to navigate to the end of the file, then copy and paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to save and exit. This configuration sets ``192.168.4.1`` as the IP address of the server on the configured Wi-Fi network. If you want to change this, you will have to be aware of other consequential changes necessary in the remaining part of this tutorial."
+msgstr "Utilisez les flèches pour naviguer jusqu'à la fin du fichier, puis copiez et collez le texte suivant et appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour enregistrer et quitter. Dans cette configuration, l'adresse IP du serveur sur le réseai Wi-Fi est ``192.168.4.1``. Si vous voulez la modifier, sachez que d'autres modifications conséquentes détaillées dans la suite de ce didacticiel seront nécessaires."
+
+#: ../../install/tutorials/rpi.rst:130
+msgid "After installing the new ``hostapd`` and ``dnsmasq`` packages and setting a static IP, you should reboot the system."
+msgstr "Après avoir installé les nouveaux paquets ``hostapd`` et ``dnsmasq`` et configuré une IP statique, redémarrez le système."
+
+#: ../../install/tutorials/rpi.rst:137
+msgid "Configure DHCP and DNS"
+msgstr "Configuration des services DHCP et DNS"
+
+#: ../../install/tutorials/rpi.rst:139
+msgid "We create a new configuration file for ``dnsmasq`` in the appropriate location and start editing it:"
+msgstr "Commencez par créer un nouveau fichier de configuration pour ``dnsmasq`` à l'endroit approprié et par l'éditer :"
+
+#: ../../install/tutorials/rpi.rst:145
+msgid "Copy and paste the following text, then press :guilabel:`CTRL` + :guilabel:`X` to save and exit."
+msgstr "Copiez et collez le texte suivant, puis appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour enregistrer et quitter."
+
+#: ../../install/tutorials/rpi.rst:161
+msgid "Next, we need to make sure dnsmasq doesn't interfere with local DNS requests made from the Pi:"
+msgstr "Ensuite, assurez-vous que dnsmasq n'interfère pas avec les requêtes DNS locales faites à partir du Pi :"
+
+#: ../../install/tutorials/rpi.rst:167
+msgid "Copy and paste the following text at the end of the file, then press :guilabel:`CTRL` + :guilabel:`X` to save and exit."
+msgstr "Copiez et collez le texte suivant à la fin du fichier, puis appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour enregistrer et quitter."
+
+#: ../../install/tutorials/rpi.rst:176
+msgid "Configure the access point"
+msgstr "Configuration du point d'accès"
+
+#: ../../install/tutorials/rpi.rst:180
+msgid "This will activate a new network configuration and override the possibility to connect to an online source using the Wi-Fi. Connecting to the internet remains possible **through the cabled network**. The tutorial has a few steps left that require connectivity for downloading and setting up Nginx and Kolibri. If the Pi is online through the Wi-Fi, do not reboot the device or execute the ``systemctl`` commands found at the end of this section until at the very end of the tutorial. You should also download and install all necessary software and Kolibri channels."
+msgstr "Cela activera une nouvelle configuration réseau et annulera la possibilité de se connecter à une source en ligne en utilisant le Wi-Fi. La connexion à internet reste possible **par le réseau câblé**. Ce didacticiel comporte encore quelques étapes qui nécessitent une connectivité pour le téléchargement et la configuration de Nginx et Kolibri. Si le Pi est en ligne via le Wi-Fi, ne redémarrez pas l'appareil et n'exécutez pas les commandes ``systemctl`` qui se trouvent à la fin de cette section avant la toute fin du didacticiel. Vous devriez également télécharger et installer tous les logiciels et toutes les chaînes Kolibri nécessaires."
+
+#: ../../install/tutorials/rpi.rst:182
+msgid "We recommend connecting the device to an internet connection through cable (ethernet), such that you have a reliable way of downloading content and software at all times."
+msgstr "Nous recommandons de connecter l'appareil à Internet par câble (Ethernet), afin que vous puissiez télécharger des contenus et des logiciels de manière fiable à tout moment."
+
+#: ../../install/tutorials/rpi.rst:184
+msgid "You will need to write a configuration file with information about your local Wi-Fi network."
+msgstr "Il vous faudra écrire un fichier de configuration avec des informations concernant votre réseau Wi-Fi local."
+
+#: ../../install/tutorials/rpi.rst:190
+msgid "In the file, copy in the following configuration to specify the name of the network, its Wi-Fi channel (frequency) and bandwidth mode (we recommend 2.4 GHz 'g' mode). Set ``hw_mode=a`` to use 5 GHz. Press :guilabel:`CTRL` + :guilabel:`X` to save and exit."
+msgstr "Dans le fichier, copiez-collez la configuration suivante pour spécifier le nom du réseau, son canal Wi-Fi (fréquence) et le mode de bande passante (nous recommandons le mode 'g' à 2,4 GHz). Pour utiliser 5 GHz, indiquez ``hw_mode=a``. Appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour enregistrer et quitter."
+
+#: ../../install/tutorials/rpi.rst:211
+msgid "Next, edit ``/etc/default/hostapd`` to enable the configuration file that we have just written:"
+msgstr "Ensuite, éditez ``/etc/default/hostapd`` pour activer le fichier de configuration que vous venez d'écrire :"
+
+#: ../../install/tutorials/rpi.rst:217
+msgid "At the bottom of the file, add the following text and press :guilabel:`CTRL` + :guilabel:`X` to exit and save."
+msgstr "En bas du fichier, ajoutez le texte suivant et appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour quitter et enregistrer."
+
+#: ../../install/tutorials/rpi.rst:223
+msgid "Finally, start the access point system service ``hostapd`` and the DHCP and DNS server ``dnsmasq``:"
+msgstr "Enfin, démarrez le système service de points d'accès ``hostapd`` et le serveur DHCP et DNS ``dnsmasq`` :"
+
+#: ../../install/tutorials/rpi.rst:236
+msgid "Setting up a \"Captive portal\""
+msgstr "Établir un « portail captif »"
+
+#: ../../install/tutorials/rpi.rst:238
+msgid "You don't have to set up a \"Captive Portal\", but it's a good idea, since the behavior will make the user experience better. Users won't have to guess the location (hostname / domain) of services on the Raspberry Pi, and many devices support displaying your welcome page automatically upon connecting to the Wi-Fi."
+msgstr "Il n'est pas nécessaire de mettre en place un « portail captif », mais c'est une bonne idée, puisque son fonctionnement améliorera l'expérience des utilisateurs, qui n'auront pas à deviner l'emplacement (nom d'hôte / domaine) des services sur le Raspberry Pi. En outre, de nombreux appareils supportent l'affichage automatique de votre page d'accueil lors de la connexion au Wi-Fi."
+
+#: ../../install/tutorials/rpi.rst:243
+msgid "This type of dialog will appear on many devices when they detect a successful Wi-Fi connection without an internet connection."
+msgstr "Des boîtes de dialogue de ce type apparaîtront sur de nombreux appareils lorsqu'ils détecteront une connexion Wi-Fi efficace sans connexion Internet."
+
+#: ../../install/tutorials/rpi.rst:245
+msgid "In the previous step, we have configured the Raspberry Pi to tell devices on the local offline hotspot that whatever resource they request such as ``http://domain.com``, it should resolve to the Raspberry Pi's static IP address ``192.168.4.1``."
+msgstr "À l'étape précédente, nous avons configuré le Raspberry Pi pour indiquer aux appareils sur le hotspot local hors ligne que toute ressource qu'ils demandent, telle que ``http://domain.com``, doit se résoudre à l'adresse IP statique du Raspberry Pi ``192.168.4.1``."
+
+#: ../../install/tutorials/rpi.rst:247
+msgid "Firstly, install the HTTP server nginx:"
+msgstr "Tout d'abord, installez le serveur HTTP nginx :"
+
+#: ../../install/tutorials/rpi.rst:253
+msgid "Then, you need to edit and adapt your default Captive Portal page. You can use :download:`this template </data/captive_portal_index.html>` (displayed in the previous screenshot). Copy-paste the contents of the template by editing ``/var/www/html/index.html``:"
+msgstr "Ensuite, il vous faudra modifier et adapter votre page de portail captif par défaut. Vous pouvez utiliser :download:`ce modèle </data/captive_portal_index.html>` (affiché dans la capture d'écran précédente). Copiez-collez le contenu du template en éditant ``/var/www/html/index.html``:"
+
+#: ../../install/tutorials/rpi.rst:259
+msgid "You can use :guilabel:`CTRL` + :guilabel:`SHIFT` + :guilabel:`V` to paste text in the terminal. Press :guilabel:`CTRL` + :guilabel:`X` to exit and save."
+msgstr "Vous pouvez utiliser :guilabel:`CTRL` + :guilabel:`MAJ` + :guilabel:`V` pour coller du texte dans le terminal. Appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour quitter et enregistrer."
+
+#: ../../install/tutorials/rpi.rst:263
+msgid "Installing Kolibri"
+msgstr "Installation de Kolibri"
+
+#: ../../install/tutorials/rpi.rst:265
+msgid "First we need to upgrade the ``python3-cffi`` library, which is outdated on Raspbian. Upgrade it like this:"
+msgstr "Tout d'abord, il faut mettre à niveau la bibliothèque ``python3-cffi``, car elle est obsolète sur Raspbian. Mettez-la à jour comme ceci :"
+
+#: ../../install/tutorials/rpi.rst:273
+msgid "Add our Ubuntu PPA with these special instructions:"
+msgstr "Ajoutez notre PPA Ubuntu avec ces instructions spéciales :"
+
+#: ../../install/tutorials/rpi.rst:281
+msgid "Install ``kolibri`` and ``kolibri-server``:"
+msgstr "Installez ``kolibri`` et ``kolibri-server`` :"
+
+#: ../../install/tutorials/rpi.rst:287
+msgid "During the installation, make the following choices if prompted: Use the default TCP port ``8080`` for Kolibri because port ``80`` will be used by Nginx :ref:`later in this tutorial <nginx_custom_domain>`. Enable the Kolibri system service by selecting ``Yes`` when prompted to run Kolibri on start-up. Use the default ``pi`` user so that it will have access to USB devices."
+msgstr "Pendant l'installation, faites les choix suivants si vous y êtes invité : Utilisez le port TCP par défaut ``8080`` pour Kolibri car le port ``80`` sera utilisé par Nginx :ref:`plus tard dans ce didacticiel <nginx_custom_domain>`. Activez le service système Kolibri en sélectionnant ``Yes`` lorsque vous êtes invité à lancer Kolibri au démarrage. Utilisez l'utilisateur par défaut ``pi`` pour qu'il ait accès aux périphériques USB."
+
+#: ../../install/tutorials/rpi.rst:291
+msgid "The regular Kolibri system service will run background tasks, but its HTTP server is disabled, as all this is handled by the Nginx and UWSGI configuration."
+msgstr "Le service normal du système Kolibri exécutera des tâches en arrière-plan, mais son serveur HTTP est désactivé, car tout cela est géré par la configuration Nginx et UWSGI."
+
+#: ../../install/tutorials/rpi.rst:293
+msgid "The following issues are quite common on a Raspberry Pi:"
+msgstr "Les problèmes suivants sont assez courants avec les Raspberry Pi :"
+
+#: ../../install/tutorials/rpi.rst:295
+msgid "**System time** isn't set properly or resets during power-off. This causes errors while downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``."
+msgstr "**L'heure du système** n'est pas réglée correctement ou se réinitialise lors qu'on l'éteint. Cela entraîne des erreurs lors du téléchargement du logiciel. Par exemple, les certificats SSL pour les sources en ligne ne seront pas validés. Assurez-vous que le bon fuseau horaire figure bien dans ``/etc/fuseau horaire`` et que l'horloge est correctement réglée en exécutant ``sudo ntpd -gq``."
+
+#: ../../install/tutorials/rpi.rst:297
+msgid "**Storage space** is often scarce. If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere."
+msgstr "**L'espace de stockage** est souvent limité. Si vous avez une source de stockage USB supplémentaire, vous pouvez utiliser la commande ``kolibri manage movedirectory`` ou créer vos propres liens symboliques pour stocker ailleurs le dossier de données."
+
+#: ../../install/tutorials/rpi.rst:299 ../../install/tutorials/rpi.rst:376
+msgid "Using the built-in management command:"
+msgstr "Avec la fonction de gestion intégrée :"
+
+#: ../../install/tutorials/rpi.rst:310
+msgid "**I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial contents of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards."
+msgstr "**Les opérations d'E/S sont lentes**: Typiquement, le transfert de fichiers de/vers une carte MicroSD ou un périphérique de stockage USB sur un Raspberry Pi forme un goulot d'étrangement. Une fois Kolibri opérationnel, ce ne sera plus le cas, mais vous en ferez l'expérience lorsque vous copierez le contenu initial de plusieurs gigaoctets. Tant le lecteur de carte SD que les ports USB vous limiteront à 50-80Mo/sec. D'après notre expérience, il importe peu que vous utilisiez le lecteur de carte SD principal pour le stockage ou d'autres médias connectés à votre port USB, car en principe, ils atteignent tous deux à peu près la même vitesse maximale. Cependant, vous constaterez peut-être des différences significatives dans la vitesse de chaque carte SD."
+
+#: ../../install/tutorials/rpi.rst:312
+msgid "When replicating installations, you can save time if you connect the SD card of USB storage to another device with faster transfer speeds. Replication will be described in future guides."
+msgstr "Lors de la réplication d'installations, vous pouvez gagner du temps en connectant la carte SD ou le périphérique de stockage USB à un autre appareil à plus grande vitesse de transfert. Le processus de réplication sera décrit dans un guide à venir."
+
+#: ../../install/tutorials/rpi.rst:317
+msgid "Set up Kolibri local domain"
+msgstr "Configuration du domaine local Kolibri"
+
+#: ../../install/tutorials/rpi.rst:319
+msgid "After completing the installation, you can make kolibri available on port ``:80`` in addition to ``:8080``. This will make it possible to type, for example, a domain ``kolibri.library`` in the browser location bar, and because of our captive portal, it will display."
+msgstr "Une fois l'installation terminée, vous pouvez rendre kolibri disponible au port ``:80``, en plus du port ``:8080``. Cela permettra de saisir, par exemple, un domaine ``kolibri.library`` dans la barre de localisation du navigateur, qui s'affichera grâce au portail captif."
+
+#: ../../install/tutorials/rpi.rst:321
+msgid "To enable your Nginx web server to serve Kolibri, edit ``/etc/nginx/sites-available/kolibri`` and add a so-called *virtual host*:"
+msgstr "Pour activer votre serveur web Nginx pour servir Kolibri, éditez ``/etc/nginx/sites-available/kolibri`` et ajoutez un *hôte virtuel*:"
+
+#: ../../install/tutorials/rpi.rst:327
+msgid "You can use another domain name instead of ``kolibri.library``. This is configured in the below configuration."
+msgstr "Vous pouvez utiliser un autre nom de domaine au lieu de ``kolibri.library``. C'est le nom utilisé dans la configuration ci-dessous."
+
+#: ../../install/tutorials/rpi.rst:329
+msgid "Copy and paste the following into the configuration file:"
+msgstr "Copiez et collez les éléments suivants dans le fichier de configuration :"
+
+#: ../../install/tutorials/rpi.rst:344
+msgid "Press :guilabel:`CTRL` + :guilabel:`X` to exit and save. Then enable the new configuration by linking it into the directory of enabled virtual hosts:"
+msgstr "Appuyez sur :guilabel:`CTRL` + :guilabel:`X` pour quitter et enregistrer. Activez ensuite la nouvelle configuration en la reliant au répertoire des hôtes virtuels activés :"
+
+#: ../../install/tutorials/rpi.rst:352
+msgid "Finally, reload Nginx for the new site to be available:"
+msgstr "Enfin, rechargez Nginx pour que le nouveau site soit disponible :"
+
+#: ../../install/tutorials/rpi.rst:370
+msgid "Attaching USB storage"
+msgstr "Rattachement d'un support de stockage USB"
+
+#: ../../install/tutorials/rpi.rst:372
+msgid "Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry Pi. In order to have more content, such as the full Khan Academy, you may want to attach a USB storage media -- a flash device or a hard drive."
+msgstr "Beaucoup de gens conservent la carte MicroSD de 4 Go ou 16 Go fournie avec le Raspberry Pi. Pour accéder à davantage de contenu, tel que l'ensemble de la Khan Academy, vous pouvez utiliser un support de stockage USB -- une clé ou un disque dur."
+
+#: ../../install/tutorials/rpi.rst:374
+msgid "Moving content: If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere."
+msgstr "Déplacer le contenu : Si vous avez une source USB de stockage supplémentaire, vous pouvez utiliser la commande ``kolibri manage movedirectory`` ou créer vos propres liens symboliques pour placer ailleurs le dossier de données."
+
+#: ../../install/tutorials/rpi.rst:388
+msgid "**Or** using symbolic links, you need to start and stop Kolibri and to set the permissions correctly:"
+msgstr "**Ou** en utilisant des liens symboliques, vous devez démarrer et arrêter Kolibri et définir correctement les permissions :"
+
+#: ../../install/tutorials/rpi.rst:405
+msgid "Other tips"
+msgstr "Autres conseils"
+
+#: ../../install/tutorials/rpi.rst:408
+msgid "Locale warnings"
+msgstr "Avertissements relatifs aux locales"
+
+#: ../../install/tutorials/rpi.rst:410
+msgid "You may encounter warnings like ``Can't set locale; make sure $LC_* and $LANG are correct!`` while installing software about the system locale. Typically, these are missing UTF-8 locales for your chosen system locale. These can be fixed by running this from command line:"
+msgstr "Lors de l'installation du logiciel, vous pourriez rencontrer des avertissements relatifs à la locale du système tels que ``Can't set locale; make sure $LC_* and $LANG are correct!``. En général, c'est parce qu'il manque des locales UTF-8 pour la locale système choisie. Vous pouvez y remédier en exécutant ceci à partir de la ligne de commande :"
+
+#: ../../install/tutorials/rpi.rst:420
+msgid "Disabling the graphical desktop"
+msgstr "Désactivation du bureau graphique"
+
+#: ../../install/tutorials/rpi.rst:422
+msgid "Once the Pi device is deployed, the desktop environment may no longer serve a purpose. It can safely be disabled. This saves computer resources and electricity. Use the following steps to disable or enable the desktop:"
+msgstr "Une fois que l'appareil Pi est déployé, l'environnement de bureau peut ne plus avoir d'utilité. Il peut être désactivé en toute sécurité. Cela permet d'économiser les ressources informatiques et l'électricité. Suivez les étapes suivantes pour désactiver ou activer le bureau :"
+
+#: ../../install/tutorials/rpi.rst:431
+msgid "Remote access"
+msgstr "Accès à distance"
+
+#: ../../install/tutorials/rpi.rst:433
+msgid "For remote access, you should consider adding SSH (Secure Shell). Once installed and enabled, you can manage the Raspberry Pi without connecting a screen and keyboard and instead logging in from a computer connected to the device through LAN or Wi-Fi. You can use ``sudo raspi-config`` to enable the SSH system service. Read more in the `official Raspberry Pi docs <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_."
+msgstr "Pour l'accès à distance, nous recommandons le protocole SSH (Secure Shell). Une fois installé et activé, vous pouvez gérer le Raspberry Pi sans y connecter d'écran et de clavier, mais à partir d'un ordinateur connecté à l'appareil par réseau local ou Wi-Fi. Vous pouvez utiliser ``sudo raspi-config`` pour activer le service système SSH. Pour en savoir plus, consultez la `documentation officielle de Raspberry Pi <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_."
+
+#: ../../install/tutorials/rpi.rst:439
+msgid "Saving your image for replication"
+msgstr "Enregistrement de votre image pour la réplication"
+
+#: ../../install/tutorials/rpi.rst:441
+msgid "Once you like the setup and you may want to deploy several Raspberry Pis to different schools, classrooms etc."
+msgstr "Une fois satisfait de votre configuration, vous souhaiterez peut-être déployer plusieurs Raspberry Pis dans différentes écoles, salles de classe, etc."
+
+#: ../../install/tutorials/rpi.rst:443
+msgid "Using the same Wi-Fi SSID (in this tutorial, we called it ``Offline Library``) is recommended if you are setting up several Raspberry Pis in the same area. But you should configure them on different Wi-Fi channels. Separate them by a count of 2, this will avoid radio frequency overlaps."
+msgstr "Il est recommandé d'utiliser le même SSID Wi-Fi (que nous avons appelé ``Offline Library`` dans ce didacticiel) si vous installez plusieurs Raspberry Pis dans la même zone. Il faudra cependant les configurer sur des canaux Wi-Fi différents. Séparez-les par un comptage de 2, cela évitera les chevauchements de fréquences radio."
+
+#: ../../install/tutorials/rpi.rst:445
+msgid "Replicating the Kolibri device registration will make online synchronization unpredictable (fail)."
+msgstr "La réplication de l'enregistrement du dispositif Kolibri rendra la synchronisation en ligne imprévisible (échec)."
+
+#: ../../install/tutorials/rpi.rst:447
+msgid "Kolibri has a sync'ing mechanism whereby user data can synchronize from device to device through an online service. This happens automatically when Kolibri detects an internet connection. You need to unregister (deprovision) your device before copying the SD card and external storage:"
+msgstr "Le mécanisme de synchronisation de Kolibri permet la synchronisation des données utilisateurs d'un appareil à l'autre par le biais d'un service en ligne. Celle-ci s'effectue automatiquement lorsque Kolibri détecte une connexion Internet. Vous devez désenregistrer (déprovisionner) votre appareil avant de copier la carte SD et le périphérique de stockage externe :"
+
+#: ../../install/tutorials/rpi.rst:453
+msgid "After replicating your SD card and external storage device, you need re-register the Kolibri installation on each device. This can be done without removing the installed data:"
+msgstr "Après avoir répliqué votre carte SD et votre périphérique de stockage externe, vous devez réenregistrer l'installation Kolibri sur chaque appareil. Ceci peut être fait sans supprimer les données installées :"
+
+#: ../../install/tutorials/rpi.rst:462
+msgid "How many clients are supported?"
+msgstr "Combien de clients sont supportés ?"
+
+#: ../../install/tutorials/rpi.rst:464
+msgid "We recommend that you do your own benchmarking and share experiences in our `Community Forums <https://community.learningequality.org/>`_. See especially this thread about `choosing a MicroSD card <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`_."
+msgstr "Nous vous recommandons de faire votre propre analyse comparative et de partager vos expériences dans nos `Forums communautaires <https://community.learningequality.org/>`_. Consultez en particulier ce fil de discussion sur le `choix d'une carte MicroSD <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`_."
+
+#: ../../install/tutorials/rpi.rst:466
+msgid "It can be hard to predict how many students will be able to use Kolibri on a Raspberry Pi at the same time. A major bottleneck will be the Raspberry Pi's built-in Wi-Fi, which might support 5-10 devices in a radius confined by the limited broadcasting power of said Wi-Fi."
+msgstr "Il peut être difficile de prédire combien d'élèves pourront utiliser Kolibri sur un Raspberry Pi au même moment. Un obstacle majeur sera le Wi-Fi intégré au Raspberry Pi, qui pourrait supporter entre 5 et 10 appareils dans un rayon limité par la puissance de diffusion restreinte dudit Wi-Fi."
+
+#: ../../install/tutorials/rpi.rst:468
+msgid "The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``."
+msgstr "L'antenne Wi-Fi et la carte du Raspberry Pi n'ont pas la capacité de servir de nombreux clients. Par conséquent, il pourrait vous être utile de connecter un point d'accès plus puissant. Dans ce cas, modifiez le serveur DHCP (dnsmasq) pour qu'il écoute le périphérique ``eth0`` au lieu de ``wlan0``, en désactivant le Wi-Fi par la suppression de ``hostapd``."
+
+#: ../../install/tutorials/rpi.rst:470
+msgid "A Raspberry Pi with 1 GB of RAM may support 10 clients when run behind an access point, but you will likely need a newer Raspberry Pi 4 device if you want to support more than 10 clients."
+msgstr "Un Raspberry Pi avec 1 Go de RAM peut supporter 10 clients lorsqu'il est exécuté derrière un point d'accès, mais vous aurez probablement besoin d'un appareil Raspberry Pi 4 plus récent si vous souhaitez en supporter plus de 10."
+
+#: ../../install/tutorials/rpi.rst:473
+msgid "Next steps"
+msgstr "Étapes suivantes"
+
+#: ../../install/tutorials/rpi.rst:475
+msgid "You may also want to install other services such as `Kiwix <https://www.kiwix.org>`_. If you have followed this tutorial, you can install Kiwix alongside Kolibri by downloading the ``kiwix-serve`` package and adding an Nginx configuration similar to :ref:`the one we added for Kolibri <nginx_custom_domain>`."
+msgstr "Il est possible que vous souhaitiez installer d'autres services comme `Kiwix <https://www.kiwix.org>`_. Si vous avez suivi ce didacticiel, vous pouvez installer Kiwix en même temps que Kolibri en téléchargeant le paquet ``kiwix-serve`` et en ajoutant une configuration Nginx similaire à :ref:`celle que nous avons ajoutée pour Kolibri <nginx_custom_domain>`."
+
+#: ../../install/tutorials/rpi.rst:477
+msgid "The Raspberry Pi has the advantages of being low-cost and energy efficient: You can connect it to solar power; you can also implement a good system for distributing software updates and replacement parts through SD Cards and external USB media. Not least, you can make the Raspberry Pi itself a hot-swap element in a setup, such that the whole device is collected and replaced during upgrades. We leave these steps up to you, but please feel free to share your ideas in the `Community Forum <https://community.learningequality.org/>`__."
+msgstr "Le Raspberry Pi a l'avantage d'être peu coûteux et économe en énergie : Vous pouvez le connecter à l'énergie solaire ; vous pouvez également mettre en place un bon système de distribution de mises à jour de logiciels et de pièces de rechange par le biais de cartes SD et de supports USB externes. Vous pouvez également faire du Raspberry Pi lui-même un élément hot-swap dans un montage, de sorte que l'ensemble de l'appareil soit recueilli et remplacé lors des mises à jour. À vous de définir ces prochaines étapes, mais n'hésitez pas à partager vos idées dans notre `Forum communautaire <https://community.learningequality.org/>`__."
+
+#~ msgid ""
+#~ "Download the Kolibri `Windows installer "
+#~ "<https://learningequality.org/r/kolibri-windows-setup-"
+#~ "latest>`_."
+#~ msgstr ""
+
+#~ msgid "Click the button **Uninstall/Change** and follow the instructions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the new version of Kolibri "
+#~ "`Windows installer <https://learningequality.org/r"
+#~ "/kolibri-windows-setup-latest>`_."
+#~ msgstr ""
+
+#~ msgid "Debian/Ubuntu 14.04, 16.04 and up - anything that's *not* end-of-life"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the latest Kolibri `.deb "
+#~ "installer <https://learningequality.org/r/kolibri-deb-"
+#~ "latest>`_, or have it copied to "
+#~ "your local drive."
+#~ msgstr ""
+
+#~ msgid "Raspbian"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Kolibri works well on Debian-based "
+#~ "distributions for `Raspberry Pi "
+#~ "<https://www.raspberrypi.org/>`_, such as Raspbian,"
+#~ " and has been tested on RPi 3"
+#~ " models."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Running ``add-apt-repository`` as shown"
+#~ " in the PPA instructions does not "
+#~ "work. Instead, run::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Kolibri does not start after "
+#~ "installation. This is because ``python3-cffi``"
+#~ " is outdated on Raspbian. Upgrade it"
+#~ " like this::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The time isn't set properly and "
+#~ "you will have errors downloading "
+#~ "software. For instance, SSL certificates "
+#~ "for online sources will fail to "
+#~ "validate. Ensure that you have the "
+#~ "right timezone in ``/etc/timezone`` and "
+#~ "that the clock is set properly by"
+#~ " running ``sudo ntpd -gq``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You run out of storage space. If"
+#~ " you have a USB source for "
+#~ "additional storage, do something like "
+#~ "this::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Loading channels can take a **long "
+#~ "time** on a Raspberry Pi. When "
+#~ "generating channel contents for Khan "
+#~ "Academy, the step indicated as "
+#~ "\"Generating channel listing. This could "
+#~ "take a few minutes…\" could mean "
+#~ "~30 minutes. The device's computation "
+#~ "power is the bottleneck. You might "
+#~ "get logged out while waiting, but "
+#~ "this is harmless and the process "
+#~ "will continue. Sit tight!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the `Kolibri PEX installer "
+#~ "<https://learningequality.org/r/kolibri-pex-latest>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Make sure to **substitute the** "
+#~ "``kolibri-installer-filename.pex`` **with the "
+#~ "exact name of the file you "
+#~ "downloaded** in both commands. For "
+#~ "example, if the name of the "
+#~ "downloaded file is ``kolibri-v0.10.0.pex``, "
+#~ "type that instead of ``kolibri-"
+#~ "installer-filename.pex``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the new version of `Kolibri "
+#~ "PEX installer <https://learningequality.org/r/kolibri-"
+#~ "pex-latest>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to do the initial setup"
+#~ " only once, the first time you "
+#~ "start Kolibri after the installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Name your Facility.** A \"Facility\" "
+#~ "is the location where you are "
+#~ "installing Kolibri, such as a school "
+#~ "or a training center."
+#~ msgstr ""
+
+#~ msgid "Select the name for the facility where Kolibri is running."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Choose a Facility setup.** Click the"
+#~ " link *More information about these "
+#~ "settings* for more details about user"
+#~ " permissions for each setup type."
+#~ msgstr ""
+
+#~ msgid "Facility type"
+#~ msgstr ""
+
+#~ msgid "Users"
+#~ msgstr ""
+
+#~ msgid "**Self-managed**"
+#~ msgstr ""
+
+#~ msgid "For parent-child learning, homeschooling"
+#~ msgstr ""
+
+#~ msgid "or supplementary individual learning."
+#~ msgstr ""
+
+#~ msgid "Guests can create their own accounts."
+#~ msgstr ""
+
+#~ msgid "Users can edit their account information."
+#~ msgstr ""
+
+#~ msgid "**Admin managed**"
+#~ msgstr ""
+
+#~ msgid "For schools and other formal learning contexts."
+#~ msgstr ""
+
+#~ msgid "Admins must create all user accounts."
+#~ msgstr ""
+
+#~ msgid "Users can sign in without password."
+#~ msgstr ""
+
+#~ msgid "Users cannot edit their account information."
+#~ msgstr ""
+
+#~ msgid "**Informal and personal use**"
+#~ msgstr ""
+
+#~ msgid "For libraries, orphanages, correctional"
+#~ msgstr ""
+
+#~ msgid "facilities, youth centers, computer labs,"
+#~ msgstr ""
+
+#~ msgid "and other non-formal learning contexts."
+#~ msgstr ""
+
+#~ msgid "Choose a Facility setup."
+#~ msgstr ""
+
+#~ msgid "View the Facility setup details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Create your Admin account.** This "
+#~ "Admin user will be a **Superuser** "
+#~ "able to manage all the device "
+#~ "content, and all the rest of the"
+#~ " facility users and their permissions."
+#~ msgstr ""
+
+#~ msgid "Select the username and password for the facility Superuser."
+#~ msgstr ""
+
+#~ msgid "Make sure to save these superuser credentials in a safe place!"
+#~ msgstr ""
+
+#~ msgid "Debian/Ubuntu 14.04 and up - anything that's *not* end-of-life"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Django 1.11 used in Kolibri isn't "
+#~ "compatible with Python 3.7. You will "
+#~ "need to downgrade to Python 3.4-3.6, "
+#~ "set them to run in parallel, or"
+#~ " use Python 2.7. For a workaround "
+#~ "and more details `read this thread "
+#~ "<https://github.com/learningequality/kolibri/issues/4182#issuecomment-419408270>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the following commands in `Terminal"
+#~ " <https://help.ubuntu.com/community/UsingTheTerminal>`_ to"
+#~ " add the PPA and install Kolibri:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Raspberry Pi 3: An internal MicroSD "
+#~ "card is used for the base system,"
+#~ " and an external storage media for"
+#~ " contents (for instance a 64 GB "
+#~ "USB flash). We recommend that you "
+#~ "have an ethernet cable for online "
+#~ "connectivity while installing and fetching "
+#~ "contents for Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select your MicroSD card based on "
+#~ "other people's experiences and technical "
+#~ "benchmarks. For more information, read "
+#~ "`this Community Forums thread "
+#~ "<http://community.learningequality.org/t/microsd-cards-"
+#~ "picking-the-right-one-experiences-and-"
+#~ "benchmarks/935>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You may also want to install other"
+#~ " services such as `Kiwix "
+#~ "<https://kiwix.org>`__. If you have followed"
+#~ " this tutorial, you can install Kiwix"
+#~ " alongside Kolibri by downloading the "
+#~ "``kiwix-serve`` package and adding an"
+#~ " Nginx configuration similar to the "
+#~ "one we added for Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using a Raspberry Pi is subject to"
+#~ " many tips and tricks not described"
+#~ " here - please share your performance"
+#~ " experiences in the `Community Forums "
+#~ "<http://community.learningequality.org/t/microsd-cards-"
+#~ "picking-the-right-one-experiences-and-"
+#~ "benchmarks/935>`__."
+#~ msgstr ""
+
+#~ msgid "500 MB RAM (1 GB recommended)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Debian 8 (Jessie), Debian 9 (Stretch),"
+#~ " Ubuntu 16.04+ and up - anything "
+#~ "that's *not* end-of-life. Ubuntu-"
+#~ "based distributions count a number of"
+#~ " flavours, for instance Xubuntu and "
+#~ "Mint."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are several varieties of operating"
+#~ " systems for Raspberry Pi. This guide"
+#~ " is intended for and tested on "
+#~ "`Raspian <https://www.raspberrypi.org/>`__, the most"
+#~ " popular choice of OS, based on "
+#~ "Debian. To obtain and install Raspbian,"
+#~ " refer to the official documentation."
+#~ msgstr ""
+
+#~ msgid "Kolibri is intended for **Raspberry Pi Model 3** and upwards."
+#~ msgstr ""
+
+#~ msgid "Read our :ref:`Raspberry Pi Tutorial for Kolibri <tutorial_rpi>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We need to upgrade the ``python3-cffi``"
+#~ " library, which is outdated on "
+#~ "Raspbian. Upgrade it like this:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When asked questions during the "
+#~ "installation, it is recommended that you"
+#~ " use the default ``pi`` user for "
+#~ "running Kolibri because it will have "
+#~ "access to USB devices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Data usage and privacy - "
+#~ "responsibilities of the adminstrator.** When"
+#~ " you are setting up a Kolibri "
+#~ "facility, especially in formal contexts, "
+#~ "you need to take into consideration "
+#~ "the relevant privacy laws and "
+#~ "regulations. You as the **super admin**,"
+#~ " or someone you delegate, will be "
+#~ "responsible for protecting and managing "
+#~ "the user accounts and personal "
+#~ "information stored on the device. Review"
+#~ " the data usage and privacy statement"
+#~ " before finihsing the facility setup."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are several varieties of operating"
+#~ " systems for Raspberry Pi. This guide"
+#~ " is intended for and tested on "
+#~ "`Raspian <https://www.raspberrypi.org/>`__, the most"
+#~ " popular choice of OS, based on "
+#~ "Debian."
+#~ msgstr ""
+
+#~ msgid "Raspberry Pi 3"
+#~ msgstr ""
+
+#~ msgid "Raspberry Pi Model 3+"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An internal MicroSD card is used "
+#~ "for the base system, and an "
+#~ "external storage media for contents (for"
+#~ " instance a 64 GB USB flash). "
+#~ "We recommend that you have an "
+#~ "ethernet cable for online connectivity "
+#~ "while installing and fetching contents "
+#~ "for Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Read the official guides for setting "
+#~ "up your card: `Copying .img files "
+#~ "<https://www.raspberrypi.org/documentation/installation/installing-"
+#~ "images/README.md>`__"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Run ``sudo raspi-config`` for the "
+#~ "general setup options such as keyboard"
+#~ " layout, timezone etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Raspberry Pi 3 has an internal"
+#~ " Wi-Fi adapter which can serve "
+#~ "as an access point, thus giving "
+#~ "other devices the ability to connect "
+#~ "to the Raspberry Pi through Wi-Fi."
+#~ " In this case, we call the "
+#~ "Raspberry Pi a *hotspot*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We assume that you will need to"
+#~ " connect the Raspberry Pi to the "
+#~ "internet both before and after setting"
+#~ " up the hotspot. The easiest way "
+#~ "to achieve this is through the "
+#~ "Raspberry Pi's ethernet cable connection. "
+#~ "In this way, you don't have to "
+#~ "disable and enable the Wi-Fi "
+#~ "configuration each time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The device can be setup such that"
+#~ " it automatically uses the ethernet "
+#~ "interface as a *gateway* to the "
+#~ "internet when a cable is connected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the arrow keys to navigate to"
+#~ " the end of the file, then copy"
+#~ " and paste the following text and "
+#~ "press :guilabel:`CTRL` + :guilabel:`X` to "
+#~ "save and exit."
+#~ msgstr ""
+
+#~ msgid "Then, make your current local DNS available"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After rebooting, you can ensure that "
+#~ "your system is running with the "
+#~ "static IP address by running the "
+#~ "command ``ipconfig`` and reviewing that "
+#~ "``wlan0`` has the new IP address "
+#~ "printed. It should contain this output"
+#~ " (notice the IP address):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These settings override the possibility "
+#~ "to connect to an online source "
+#~ "using the Wi-Fi. It is still "
+#~ "possible to connect to the internet "
+#~ "**through the cabled ethernet**, however "
+#~ "you will need to configure a DNS"
+#~ " server manually every time you "
+#~ "reboot the device. Put the IP of"
+#~ " your DNS provider in "
+#~ "``/etc/resolve.conf``. If you don't know "
+#~ "it, you can use Google's OpenDNS "
+#~ "address ``8.8.8.8`` as in this example:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This type of dialogue will appear "
+#~ "on many devices when they detect a"
+#~ " successful Wi-Fi connection without "
+#~ "an internet connection."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Then, you need to edit and adapt"
+#~ " your default Captive Portal page. "
+#~ "You can use :download:`this template "
+#~ "</data/captive_portal_index.html>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy the contents of the template "
+#~ "by editing ``/var/www/html/index.html``:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Firstly**, follow the main instructions "
+#~ "for installing :ref:`Kolibri on Raspberry "
+#~ "Pi <rpi>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After completing the installation, you "
+#~ "can make kolibri available on port "
+#~ "``:80`` in addition to ``:8080``. This"
+#~ " will make it possible to type "
+#~ "``kolibri.library`` in the browser location"
+#~ " bar, and because of our captive "
+#~ "portal, it will display."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To enable you Nginx web server to"
+#~ " serve Kolibri, edit ``/etc/nginx/sites-"
+#~ "available/kolibri`` and add a so-called"
+#~ " *virtual host*:"
+#~ msgstr ""
+
+#~ msgid "Future steps"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Kolibri is under development with "
+#~ "regards to optimizing performance on "
+#~ "Raspberry Pi. We are adding support "
+#~ "for multiple CPU cores, and since "
+#~ "the Raspberry Pi has 4 of these,"
+#~ " it will benefit greatly. Tests "
+#~ "indicate almost a factor 4."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This work will be released in a"
+#~ " future package targeting a pre-"
+#~ "configured UWSGI and Nginx implementation, "
+#~ "which will be possible to add by"
+#~ " replacing the package of this "
+#~ "tutorial with the new package. We "
+#~ "will add a release note and update"
+#~ " this tutorial accordingly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You may also want to install other"
+#~ " services such as `Kiwix "
+#~ "<https://www.kiwix.org>`_. If you have "
+#~ "followed this tutorial, you can install"
+#~ " Kiwix alongside Kolibri by downloading "
+#~ "the ``kiwix-serve`` package and adding"
+#~ " an Nginx configuration similar to "
+#~ "the one we added for Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are several bottle necks in "
+#~ "this setup, but we recommend that "
+#~ "you focus on the strong sides of"
+#~ " the Raspberry Pi platform: It's "
+#~ "low-cost and uses little electricity. "
+#~ "Perhaps you can connect it to "
+#~ "solar power? Perhaps you can implement"
+#~ " a good system for distributing "
+#~ "software updates and replacement parts?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using a Raspberry Pi is subject to"
+#~ " many tips and tricks not described"
+#~ " here - please share your performance"
+#~ " experiences in the `Community Forums "
+#~ "<https://community.learningequality.org/t/microsd-cards-"
+#~ "picking-the-right-one-experiences-and-"
+#~ "benchmarks/935>`__."
+#~ msgstr ""
+

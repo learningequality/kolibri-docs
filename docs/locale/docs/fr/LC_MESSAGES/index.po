@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-18 19:52+0100\n"
+"PO-Revision-Date: 2020-02-03 08:21\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /0.12-new/index.po\n"
+"Language: fr_FR\n"
+
+#: ../../index.rst:27
+msgid "Kolibri User Guide"
+msgstr "Guide de l'utilisateur Kolibri"
+
+#: ../../index.rst:29
+msgid "**Kolibri** is an open-source educational platform specially designed to provide offline access to a wide range of quality, openly licensed educational contents in low-resource contexts like rural schools, refugee camps, orphanages, and also in non-formal school programs."
+msgstr "**Kolibri** est une plateforme éducative open source spécifiquement conçue pour permettre l'accès hors ligne à un large éventail de contenus pédagogiques de qualité libres de tous droits, dans des contextes à faibles ressources comme les écoles rurales, les camps de réfugiés, les orphelinats, ainsi que dans des environnements scolaires non formels."
+
+#: ../../index.rst:31
+msgid "Kolibri can serve high quality education content from several publicly available **content channels**, collections of educational resources (exercises, videos, audio or document files) and associated metadata, prepared and organized for their use in Kolibri. It works in conjunction with `Kolibri Studio <https://studio.learningequality.org>`_, the curriculum tool used to organize content and build custom content channels, aligned to the local curricula, or according to specific learning needs."
+msgstr "Kolibri peut distribuer ces contenus éducatifs de haute qualité à partir de plusieurs **chaînes de contenus**, c'est-à-dire des collections de ressources éducatives (exercices, vidéos, fichiers audio ou documents) et leurs métadonnées accessibles au public, préparées et organisées pour leur utilisation dans Kolibri. Le logiciel fonctionne de pair avec `Kolibri Studio <https://studio.learningequality.org>`_, l'outil de programmation scolaire utilisé pour organiser le contenu et construire des chaînes de contenu sur mesure, conformes aux programmes scolaires locaux, ou à des besoins pédagogiques spécifiques."
+
+#: ../../index.rst:36
+msgid "Some of the publicly available learning content that you can use with Kolibri."
+msgstr "Quelques-uns des contenus pédagogiques accessibles au public que vous pouvez utiliser avec Kolibri."
+
+#: ../../index.rst:45
+msgid ":ref:`Learners - start here <learn>`"
+msgstr ":ref:`Élèves - commencez ici <learn>`"
+
+#: ../../index.rst:47
+msgid "Whether you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`content and activities <content_types>` can you work with, and how to submit :ref:`quizzes <quizzes>` created by your coaches or tutors."
+msgstr "Que vous utilisiez Kolibri dans votre école, dans un centre de formation ou à la maison, apprenez comment l':ref:`ouvrir <access_learner>` sur votre appareil, avec quel type de :ref:`contenu et d'activités <content_types>` vous pouvez travailler, et comment répondre aux :ref:`quiz <quizzes>` créés par vos éducateurs ou tuteurs."
+
+#: ../../index.rst:53
+msgid "For :ref:`Coaches <coach>` using Kolibri"
+msgstr "Pour les :ref:`éducateurs <coach>` utilisant Kolibri"
+
+#: ../../index.rst:55
+msgid "Read how to :ref:`monitor activity and track the progress <track_progress>` of your learners all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`quizzes <manage_quizzes>` and view reports."
+msgstr "Découvrez comment :ref:`suivre l'activité et suivre le progrès <track_progress>` de vos élèves jusqu'aux réponses individuelles à des questions spécifiques. Créez et :ref:`gérez différents groupes d'élèves <manage_groups>`, :ref:`assignez des leçons <manage_lessons>`, administrez des :ref:`quiz <manage_quizzes>` et consultez des rapports."
+
+#: ../../index.rst:61
+msgid "For :ref:`Admins and Super admins <manage>` of Kolibri"
+msgstr "Pour les :ref:`administrateurs et super administrateurs <manage>` de Kolibri"
+
+#: ../../index.rst:63
+msgid "Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolibri server on the supported platforms, and :ref:`configure other devices <access_LAN>` in the local network to access its content. Proceed on how to :ref:`import content channels <manage_content_ref>`, create and manage :ref:`users <manage_users_ref>` and :ref:`classes <manage_classes_ref>`. Configure the :ref:`settings for your facility <manage_facility_ref>`, and assign or edit :ref:`permissions <permissions>` for other users. Learn how to work with Kolibri from :ref:`the command line <command_line>`, :ref:`troubleshoot network issues <network>`, and ask for support on our :ref:`Community Forums <support>`."
+msgstr "Commencez par découvrir comment :ref:`installer <install>` et :ref:`démarrer <access>` le serveur Kolibri sur les plateformes compatibles, et :ref:`configurer d'autres appareils <access_LAN>` du le réseau local pour qu'ils puissent accéder à son contenu. Continuez en lisant comment :ref:`importer des chaînes de contenu <manage_content_ref>`, créer et gérer des :ref:`utilisateurs <manage_users_ref>` et les :ref:`classes <manage_classes_ref>`. Configurez les paramètres de :ref:`votre établissement <manage_facility_ref>`, et assignez ou modifier les :ref:`autorisations <permissions>` des autres utilisateurs. Puis apprenez à travailler avec Kolibri à partir de la :ref:`ligne de commande <command_line>`, à :ref:`résoudre des problèmes de réseau <network>`, et à demander de l'aide sur nos :ref:`Forums communautaires <support>`."
+
+#: ../../index.rst:66
+msgid "Happy learning with Kolibri!"
+msgstr "Bon apprentissage sur Kolibri !"
+
+#~ msgid ""
+#~ "Some publicly available learning content "
+#~ "that may be included in Kolibri."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Whether you are using Kolibri at "
+#~ "your school, in a training center "
+#~ "or at home, learn how to "
+#~ ":ref:`open <access_learner>` it on your "
+#~ "device, what kind of :ref:`content and"
+#~ " activities <content_types>` can you work"
+#~ " with, and how to submit :ref:`exams"
+#~ " <exams>` created by your coaches or"
+#~ " tutors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Read how to :ref:`monitor activity "
+#~ "<recent_view>` and :ref:`track the progress"
+#~ " <track_progress>` of your learners on "
+#~ "whole topics and exercises, all the "
+#~ "way to single answers to particular "
+#~ "questions. Create and :ref:`manage different"
+#~ " learner groups <manage_groups>`, :ref:`assign"
+#~ " lessons <manage_lessons>`, administer "
+#~ ":ref:`exams <manage_exams>` and view reports."
+#~ msgstr ""
+
+#~ msgid "For :ref:`Administrators and Superusers <manage>` of Kolibri"
+#~ msgstr ""
+

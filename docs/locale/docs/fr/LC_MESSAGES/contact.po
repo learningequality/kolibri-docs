@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-18 19:52+0100\n"
+"PO-Revision-Date: 2020-02-03 08:21\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /0.12-new/contact.po\n"
+"Language: fr_FR\n"
+
+#: ../../contact.rst:4
+msgid "Get in touch"
+msgstr "Nous contacter"
+
+#: ../../contact.rst:10
+msgid "Getting support from Learning Equality and our community"
+msgstr "Faire appel au soutien de Learning Equality et de notre communauté"
+
+#: ../../contact.rst:12
+msgid "Due to the open-source nature of our work, we encourage that all inquiries, inputs, contributions and feedback are openly shared in our `Community Forums <https://community.learningequality.org/>`_, so that any user with similar questions to yours can benefit from the answer, and have a centralized place to search for it. *Please consider supporting others whenever you can. Your goals are likely overlapping with other users of Kolibri, so you may consider yourself as part of a community of like-minded practitioners!*"
+msgstr "Compte tenu de la nature open source de notre travail, nous vous encourageons à partager toutes vos demandes, contributions et commentaires ouvertement sur nos `Forums communautaires <https://community.learningequality.org/>`_, de sorte que tout utilisateur ayant des questions similaires aux vôtres puisse bénéficier de la réponse, et d'un espace centralisé sur lequel effectuer des recherches. *Merci d'apporter votre soutien aux autres chaque fois que vous le pouvez. Vos objectifs se recoupent sans doute avec ceux d'autres utilisateurs de Kolibri, vous pouvez donc vous considérer comme faisant partie d'une communauté de praticiens partageant les mêmes idées !*"
+
+#: ../../contact.rst:14
+msgid "The first thing you need to do is register on the forum. Once registered, please read the the first two pinned topics (*Welcome to LE’s Support Community* and *How do I post to this forum?* )"
+msgstr "La première chose à faire est de vous inscrire sur le forum. Une fois inscrit, veuillez lire les deux premiers sujets épinglés (*Bienvenue à la communauté de soutien de LE* et *Comment poster sur ce forum ?* )"
+
+#: ../../contact.rst:16
+msgid "You can add a new topic with the :guilabel:`+ New Topic` button on the right. Make sure to select the appropriate category in the **Create a New Topic** window to facilitate the triage and response processes."
+msgstr "Vous pouvez ajouter un nouveau sujet avec le bouton :guilabel:`+ Nouveau sujet` à droite. Assurez-vous de sélectionner la catégorie appropriée dans la fenêtre **Créer un nouveau sujet** pour faciliter les processus de triage et de réponse."
+
+#: ../../contact.rst:23
+msgid "Feedback"
+msgstr "Vos retours"
+
+#: ../../contact.rst:26
+msgid "New ideas"
+msgstr "Nouvelles idées"
+
+#: ../../contact.rst:28
+msgid "Until we can present a proper feedback platform, we encourage you to post any new ideas to the `Community Forums <https://community.learningequality.org/>`_."
+msgstr "Jusqu'à ce que nous puissions lancer une plateforme de feedback appropriée, nous vous encourageons à poster toute nouvelle idée sur les `Forums communautaires <https://community.learningequality.org/>`_."
+
+#: ../../contact.rst:33
+msgid "Technical issues"
+msgstr "Problèmes techniques"
+
+#: ../../contact.rst:35
+msgid "Try reading the :ref:`Troubleshooting <support>` section of this guide first."
+msgstr "Référez-vous d'abord à la section :ref:`Dépannage <support>` de ce guide."
+
+#: ../../contact.rst:38
+msgid "In order to report  a technical issue, you can either use the *Support* category in our forum, or open up an issue report in our public software repository, following the guidelines:"
+msgstr "Pour signaler un problème technique, vous pouvez soit utiliser la catégorie *Support* de notre forum, soit ouvrir un ticket dans notre dépôt de logiciel public, en suivant les directives suivants :"
+
+#: ../../contact.rst:40
+msgid "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
+msgstr "`github.com/learningequality/kolibri <https://github.com/learningequality/kolibri/>`__"
+
+#: ../../contact.rst:44
+msgid "Contributions and development"
+msgstr "Contributions et développement"
+
+#: ../../contact.rst:46
+msgid "Kolibri is an open-source project, and as such, contributions from the tech community are welcomed, encouraged and appreciated. If you'd like to contribute to Kolibri, please refer to our developer docs:"
+msgstr "Kolibri est un projet open source, et en tant que tel, des contributions de la communauté technologique sont les bienvenues, encouragées et appréciées. Si vous souhaitez contribuer à Kolibri, veuillez vous référer à notre documentation dédiée aux développeurs :"
+
+#: ../../contact.rst:48
+msgid "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+msgstr "`kolibri-dev.readthedocs.io <http://kolibri-dev.readthedocs.io/>`__"
+
+#~ msgid ""
+#~ "You can add a new topic with "
+#~ "the **+ New Topic** button on the"
+#~ " right. Make sure to select the "
+#~ "appropriate category in the **Create a"
+#~ " New Topic** window to facilitate the"
+#~ " triage and response processes."
+#~ msgstr ""
+
