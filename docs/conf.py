@@ -26,6 +26,7 @@ sys.path.insert(0, os.path.abspath(parent))
 
 extensions = [
     'sphinx.ext.todo',
+    'sphinx_rtd_theme',
 ]
 
 builddir = os.path.join(cwd, '_build')
