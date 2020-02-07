@@ -228,6 +228,17 @@ If you need to permanently delete a Kolibri user and all the data associated wit
 .. warning:: This will permanently erase all the user data.
 
 
+Export Data Logs
+****************
+
+Kolibri database may become large after prolonged use, which can cause the data logs export process from **Facility > Data** the to be slow. Use the following command to export logs from the Terminal or command prompt. 
+
+.. code-block:: bash
+
+  kolibri manage exportlogs --log-type summary
+  kolibri manage exportlogs --log-type session
+
+
 Backup and Restore Kolibri Database
 ***********************************
 
