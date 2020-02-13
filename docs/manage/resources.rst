@@ -25,7 +25,7 @@ Each Kolibri channel has its own **token** in `Kolibri Studio <https://studio.le
 Kolibri Task Manager
 --------------------
 
-You can start various resource management tasks (import, export, deletion, update, etc.) in Kolibri and observe their progress in the *task manager* page. Each time you start a task, Kolibri will display the **Tasks** page, and depending on your workflow, you may have some *Finished*, *In-progress*, *Canceled** or tasks *Waiting* in the queue.
+You can start various resource management tasks (import, export, deletion, update, etc.) in Kolibri and observe their progress in the *task manager* page. Each time you start a task, Kolibri will display the **Tasks** page, and depending on your workflow, you may have some *Finished*, *In-progress*, *Canceled* or tasks *Waiting* in the queue.
 
   .. figure:: /img/task-queue.png
     :alt: 
@@ -134,7 +134,9 @@ Import with Token
 #. Click :guilabel:`CONTINUE` to unlock the channel, or :guilabel:`CANCEL` to exit.
 #. Proceed to select and import channel topics and resources as for the public channels.
 
-    Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+
+   .. warning:: Unlisted channel **must be published** on Studio before the token can be used to import it.
 
 Import More Resources
 """""""""""""""""""""
