@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kolibri-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 10:11-0700\n"
-"PO-Revision-Date: 2018-08-27 16:56\n"
+"PO-Revision-Date: 2018-09-13 10:33\n"
 "Last-Translator: learningequality <accounts@learningequality.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -1185,7 +1185,7 @@ msgstr "Para empezar un nuevo tema hay que usar el botón **+ New Topic** a la d
 
 #: ../../manage/_get_support.rst:21
 msgid "Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs."
-msgstr "Our technical users, including software developers, should follow the instructions on our `Developer documentation <http://kolibri-dev.readthedocs.io/>`_ for reporting bugs."
+msgstr "Los usuarios más avanzados, incluidos los desarrolladores de software, deben seguir las instrucciones de nuestra `documentación para desarrolladores <http://kolibri-dev.readthedocs.io/>`_ para informar de fallos."
 
 #: ../../manage/_get_support.rst:25
 msgid "Locate Kolibri log files"

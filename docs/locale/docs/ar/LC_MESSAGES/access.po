@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kolibri-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-18 19:52+0100\n"
+"PO-Revision-Date: 2019-04-29 06:29\n"
+"Last-Translator: learningequality\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kolibri-docs\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-v0.12.x/access.po\n"
+"Language: ar_SA\n"
+
+#: ../../access.rst:4
+msgid "Access Kolibri"
+msgstr "الدخول إلى كوليبري"
+
+#: ../../access.rst:8
+msgid "Starting Kolibri on Windows"
+msgstr "تشغيل كوليبري في نظام ويندوز"
+
+#: ../../access.rst:10
+msgid "To start the **Kolibri** server on Windows, just double-click the desktop shortcut. You will see the notification message *Kolibri is starting, please wait...*."
+msgstr "لبدء خادم **كوليبري** على نظام ويندوز، قم بالنقر المزدوج على اختصار سطح المكتب. ستشاهد الإشعار التالي *يتم الآن تشغيل كوليبري، يرجى الانتظار..*."
+
+#: ../../access.rst:12
+msgid "When you see the notification *Kolibri is running...*, **Kolibri** will open in the browser with the URL http://127.0.0.1:8080."
+msgstr "عند مشاهدتك للإشعار *يتم الآن تشغيل كوليبري...*، سيقوم **كوليبري** بفتح المتصفح باستخدام الرابط http://127.0.0.1:8080."
+
+#: ../../access.rst:16
+msgid "Kolibri Taskbar Options"
+msgstr "خيارات شريط مهام كوليبري"
+
+#: ../../access.rst:18
+msgid "While it is running, **Kolibri** will display an icon in the Windows taskbar (usually at bottom right, near the clock), that allows you to stop it and configure other settings."
+msgstr "أثناء عمله، سيقوم **كوليبري** بعرض أيقونة على شريط مهام ويندوز (عادة ما تكون في الأسفل على اليمين، قرب الساعة)، وهذا سيتيح لك إيقافه وضبط الإعدادات الأخرى."
+
+#: ../../access.rst:23
+msgid "Kolibri taskbar options."
+msgstr "خيارات شريط مهام كوليبري."
+
+#: ../../access.rst:26
+msgid "Use the **Load in browser** option to open Kolibri in the browser."
+msgstr "استخدم خيار **التحميل في المتصفح** لفتح كوليبري بواسطة المتصفح."
+
+#: ../../access.rst:27
+msgid "By default **Kolibri** will start running every time you start the computer where it is installed. Uncheck the **Run Kolibri at system startup** option if you prefer to start it manually from the desktop shortcut."
+msgstr "بشكل افتراضي، سيبدأ **كوليبري** العمل تلقائياً في كل مرة تقوم بها بتشغيل حاسبك المثبت عليه. قم بإلغاء تحديد خيار **تشغيل كوليبري عند إقلاع النظام** في حال كنت تفضل تشغيله بشكل يدوي من اختصار سطح المكتب."
+
+#: ../../access.rst:28
+msgid "When installed, **Kolibri** will open in the browser every time it is started. Uncheck the option **Open browser when Kolibri starts** if you prefer to have it running in the background, and to open it manually in the browser by typing the URL http://127.0.0.1:8080 in the address bar."
+msgstr "عند تثبيته، سيقوم **كوليبري** بفتح المتصفح في كل مرة يتم تشغيله بها. قم بإلغاء تحديد خيار **فتح المتصفح عند تشغيل كوليبري** في حال كنت ترغب بأن يتم تشغيله في الخلفية، وفتحه يدوياً في المتصفح من خلال إدخال الرابط http://127.0.0.1:8080 في شريط العنوان."
+
+#: ../../access.rst:29
+msgid "Select **Exit** to stop **Kolibri**. You will be prompted to confirm the selection, after which **Kolibri** will stop. You will have to close the browser (or the tab) manually."
+msgstr "قم باختيار **خروج** لإيقاف **كوليبري**. سيُطلب منك تأكيد الاختيار، وسيتم إيقاف **كوليبري** بعد ذلك. ينبغي عليك أن تغلق المتصفح (أو علامة التبويب) يدوياً."
+
+#: ../../access.rst:32 ../../access.rst:57
+msgid "Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content."
+msgstr "تذكر أن :ref:`تقوم بتهيئة الحواسيب الأخرى<access_LAN>` على الشبكة للوصول إلى محتوى **كوليبري**."
+
+#: ../../access.rst:36
+msgid "Starting Kolibri on Linux or MacOS"
+msgstr "تشغيل كوليبري على نظام MacOS أو على نظام لينوكس"
+
+#: ../../access.rst:38
+msgid "Starting Kolibri on Linux and MacOS will differ depending on the method you used to install it."
+msgstr "تشغيل كوليبري على نظام MacOS أو على نظام لينوكس سيختلف حسب الطريقة المستخدمة لتثبيته."
+
+#: ../../access.rst:40
+msgid "If you used the **PEX** package, Kolibri will be accessible as long as the process is running in the `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_. If you stop the process, close the Terminal window, or restart your system, you will need to :ref:`run the PEX again <pex>` to restart Kolibri."
+msgstr "في حال استعملتَ حزمة **PEX**، سيكون كوليبري متاحاً للوصول حال تشغيل العملية في `المحطة الطرفية <https://help.ubuntu.com/community/UsingTheTerminal>`_. في حال قمتَ بإيقاف العملية، أو أغلقتَ نافذة المحطة الطرفية، أو قمتَ بإعادة تشغيل النظام، ستحتاج إلى :ref:`تشغيل حزمة بايثون التنفيذية PEX مجدداً <pex>` من أجل إعادة تشغيل كوليبري."
+
+#: ../../access.rst:42
+msgid "If you installed Kolibri as a system service with the :ref:`DEB installer <lin_deb>`, it will run automatically on each system restart, and you do not need to start it manually. Proceed to step 2 below."
+msgstr "في حال قمت بتثبيت كوليبري كخدمة نظام مع :ref:`مثبت DEB <lin_deb>`، فسوف يعمل تلقائياً في كل مرة تتم بها إعادة تشغيل النظام، ولن تكون بحاجة لتشغيله يدوياً. تابع للخطوة 2 أدناه."
+
+#: ../../access.rst:44
+msgid "If you installed Kolibri through the :ref:`PPA <ppa>`, or :ref:`generic installation <pip-installation>` with ``pip install`` command, follow these steps."
+msgstr "في حال قمتَ بتثبيت كوليبري عن طريق :ref:`PPA <ppa>`، أو :ref:`تثبيت عام <pip-installation>` مع أمر ``pip install``، اتبع هذه الخطوات."
+
+#: ../../access.rst:46
+msgid "Run this command in Terminal to start Kolibri:"
+msgstr "قم بتشغيل هذا الأمر في المحطة الطرفية لبدء تشغيل كوليبري:"
+
+#: ../../access.rst:52
+msgid "On macOS you may need to prefix the command with ``python``, and type ``python -m kolibri start`` instead."
+msgstr "من الممكن في نظام macOS أن تكون بحاجة لأن تسبق الأمر بـ ``python``، وتكتب ``python -m kolibri start`` بدلاً من ذلك."
+
+#: ../../access.rst:54
+msgid "Open the default browser at ``http://127.0.0.1:8080``, and it will display the **Kolibri** start page."
+msgstr "قم بفتح المتصفح الافتراضي عبر الرابط ``http://127.0.0.1:8080``، وسيُظهر لك صفحة بدء **كوليبري**."
+
+#: ../../access.rst:59
+msgid "Run this command in Terminal to stop Kolibri:"
+msgstr "قم بتشغيل هذا الأمر في المحطة الطرفية لإيقاف تشغيل كوليبري:"
+
+#: ../../access.rst:69
+msgid "Accessing Kolibri from Other Devices in the Network"
+msgstr "الدخول إلى كوليبري من الأجهزة الأخرى في الشبكة"
+
+#: ../../access.rst:71
+msgid "After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning content on the server."
+msgstr "بعد أن قمتَ بتثبيت وتشغيل كوليبري على الحاسوب الذي سيكون بمثابة خادم، ستحتاج إلى تهيئة الأجهزة الأخرى على نفس `شبكة المنطقة المحلية <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN)، مثل الحواسيب الاخرى، الأجهزة اللوحية أو الهواتف، بحيث يمكنها الوصول إلى القنوات التعليمية على الخادم."
+
+#: ../../access.rst:74
+msgid "Compatibility"
+msgstr "التوافق"
+
+#: ../../access.rst:76
+msgid "Kolibri currently supports the following combinations of operating systems and browsers for client devices:"
+msgstr "يدعم كوليبري حاليا المجموعات التالية من أنظمة التشغيل والمتصفحات لأجهزة العميل:"
+
+#: ../../access.rst:78
+msgid "Windows 7, 8.1 and 10: IE 11+, Chrome and Firefox"
+msgstr "ويندوز ٧، ويندوز ٨.١، وويندوز١٠: إنترنت إكسبلورر ١١ ومابعد، كروم وفايرفوكس"
+
+#: ../../access.rst:79
+msgid "MacOS 10.6+: Safari, Chrome and Firefox"
+msgstr "نظام تشغيل MacOS ١٠,٦ وما بعد: سفاري، كروم وفايرفوكس"
+
+#: ../../access.rst:80
+msgid "Linux: any browser"
+msgstr "نظام لينوكس: أي متصفح"
+
+#: ../../access.rst:81
+msgid "Android 4.2+: Chrome and Firefox"
+msgstr "نظام أندرويد ٤,٢ وما بعد: كروم وفايرفوكس"
+
+#: ../../access.rst:82
+msgid "iOS 10+: Safari, Chrome and Firefox"
+msgstr "نظام iOS ١٠ وما بعد: سفاري، كروم وفايرفوكس"
+
+#: ../../access.rst:84
+msgid "Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__."
+msgstr "مقاطع الفيديو مشفرة بصيغة MP4. وفيما لا تتطلب معظم المتصفحات ملحقات إضافية أو أنظمة ترميز، فإن المنصات مفتوحة المصدر ستتطلب منك تثبيت نظام ترميز MP4 بشكل منفصل: مثلاً، على نظام Ubuntu، قم بتثبيت `حزمة إضافات محدودة <https://help.ubuntu.com/community/RestrictedFormats>`__."
+
+#: ../../access.rst:87
+msgid "Set up Access on Other Devices"
+msgstr "إعداد الوصول على أجهزة أخرى"
+
+#: ../../access.rst:89
+msgid "To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running."
+msgstr "للوصول إلى المحتوى من الأجهزة الأخرى في نفس الشبكة، تحتاج إلى معرفة :ref:`عنوان الأي بي <ips>` الخاص بالحاسوب الذي يتم تشغيل كوليبري عليه."
+
+#: ../../access.rst:91
+msgid "For example, if Kolibri is installed and started on a computer with the IP address **192.168.0.104**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.0.104:8080``."
+msgstr "على سبيل المثال، إن كان كوليبري مثبتاً ويعمل على حاسب عنوان الأي بي الخاص به **192.168.0.104**، يمكنك الدخول إليه من جهاز لوحي بنظام أندرويد متصل بنفس الشبكة من خلال فتح المتصفح على الجهاز اللوحي وكتابة العنوان ``http://192.168.0.104:8080``."
+
+#: ../../access.rst:95
+msgid "You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard."
+msgstr "يمكنك التحقق من عنوان الأي بي (**URL الخادم**) الخاص بالجهاز حيث تم تثبيت وتشغيل كوليبري من خلال الذهاب إلى **معلومات** ومن ثم النقر على صفحة **الجهاز**."
+
+#: ../../access.rst:100
+msgid "Find the IP/Server URL in the Device > Info tab."
+msgstr "قم بالعثور على IP/الخادم من خلال الجهاز > تبويب المعلومات."
+
+#: ../../access.rst:102
+msgid "You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri."
+msgstr "يمكنك أيضاً استعمال أمر ``ipconfig`` في نظام ويندوز أو أمر ``ifconfig`` في أنظمة لينوكس/OSX لإيجاد عنوان الأي بي المرئي خارجياً للجهاز الذي يتم تشغيل كوليبري عليه."
+
+#: ../../access.rst:106
+msgid "In case of network problems, see :ref:`troubleshooting tips <network>`."
+msgstr "في حالة حصول مشاكل في شبكة الاتصال، أنظر إلى :ref:`إرشادات استكشاف الأخطاء وإصلاحها <network>`."
+
+#: ../../access.rst:107
+msgid "Examples and comparison of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`__ (PDF document)."
+msgstr "أمثلة ومقارنة عن `مكونات الاجهزة الخاصة بكوليبري <https://learningequality.org/r/hardware>`__ (ملف pdf)."
+
+#: ../../access.rst:124
+msgid "Change Language"
+msgstr "تغيير اللغة"
+
+#: ../../access.rst:126
+msgid "To change language in which the **Kolibri** user interface is displayed, follow these steps:"
+msgstr "لتغيير اللغة التي يتم بها عرض واجهة مستخدم **كوليبري**، اتبع الخطوات التالية:"
+
+#: ../../access.rst:128
+msgid "Open your user menu in the upper right corner."
+msgstr "قم بفتح قائمة المستخدم من الزاوية اليمينة العليا."
+
+#: ../../access.rst:129
+msgid "Select the **Change language** option."
+msgstr "قم بتحديد خيار **تغيير اللغة**."
+
+#: ../../access.rst:130
+msgid "Choose the desired language."
+msgstr "قم باختيار اللغة المرغوبة."
+
+#: ../../access.rst:131
+msgid "Click :guilabel:`CONFIRM` and Kolibri will be displayed in the selected language!"
+msgstr "قم بالنقر على :guilabel:`تأكيد` وسيتم عرض كوليبري باللغة التي حددتها!"
+
+#: ../../access.rst:134
+msgid "The default language configured in your browser preferences might override the language configured in Kolibri. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content."
+msgstr "قد تتعارض اللغة الافتراضية التي تمت تهيئتها في تفضيلات المتصفح مع اللغة التي تمت تهيئتها في كوليبري. لضمان عرض كوليبري باللغة المطلوبة، تأكد من تهيئتها كلغة إفتراضية على متصفحات جميع الأجهزة التي سيتم استخدامها لعرض محتوى كوليبري."
+
+#~ msgid ""
+#~ "If you used the :ref:`PEX package "
+#~ "<pex>`, Kolibri will be accessible as"
+#~ " long as the process is running "
+#~ "in the `Terminal "
+#~ "<https://help.ubuntu.com/community/UsingTheTerminal>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the default browser at "
+#~ "``http://127.0.0.1:8080`` displaying the **Kolibri**"
+#~ " start page."
+#~ msgstr ""
+
+#~ msgid "Windows 7, 8.1 and 10, with IE 11+, Chrome and Firefox"
+#~ msgstr ""
+
+#~ msgid "MacOS 10.6+ with Safari, Chrome and Firefox"
+#~ msgstr ""
+
+#~ msgid "Linux, any browser"
+#~ msgstr ""
+
+#~ msgid "Android 4.2+, Chrome and Firefox"
+#~ msgstr ""
+
+#~ msgid "iOS, Chrome and Firefox supported, **Safari not supported**"
+#~ msgstr ""
+
+#~ msgid "Setup Access on Other Devices"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click **Confirm** and Kolibri will be"
+#~ " displayed in the selected language!"
+#~ msgstr ""
+

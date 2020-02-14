@@ -10,7 +10,7 @@ Access Kolibri
 
 .. note::
   	* If you are using Kolibri in your school, education center or facility, your coach or administrator will provide the instructions how to open the sign-in page, and username and password if necessary.
-  	* If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access` according to your operating system.
+  	* If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access/index` according to your operating system.
   	* If you don't have an account, but Kolibri at your facility or home is set up to allow learners to create their own, follow the steps to :ref:`create one for yourself <create_account>`. 
 
 
@@ -50,6 +50,15 @@ Once you have signed in to Kolibri, you can see and edit your user data from the
 	.. figure:: img/update-profile.png
 	  :alt: 
 
+.. note::
+   If your account has been created prior to version 0.13 of Kolibri, you will see a notification that you can update your profile to provide your birth year and gender. This information is optional, and you can choose not to provide it. 
+
+   * Click the *Usage and privacy* link to read more information about who will have access to your personal information.
+   * Click the :guilabel:`UPDATE` button if you choose to provide it.
+
+   .. figure:: img/update-profile2.png
+	  :alt: 
+
 To sign out from Kolibri you can either:
 	* Click the user icon in the upper right corner and select **Sign out** option, **OR**
 	* Select **Sign out** option in the main sidebar menu.
@@ -62,8 +71,11 @@ Create an account
 
 To create your own account on a **Kolibri** facility and start learning, follow these steps:
 
-#. Click :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
+#. Click the :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
+#. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
+#. Click the :guilabel:`CONTINUE` button.
+#. Select your birth year and gender. This information is optional, and you can choose not to provide it.
 #. Click the :guilabel:`FINISH` button.
 
 When page reloads you will see the Learn page with Kolibri channels.
@@ -106,6 +118,7 @@ Recommended
 In this tab (|recommended| icon) you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
+* **Next steps** indicate the recommended materials based on those that you already viewed and interacted with.
 * **Resume** displays activities that you started but haven't finished yet.
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
@@ -169,6 +182,7 @@ You may see different types of content available in Kolibri channels, and you ca
 * Documents - |doc-icon|
 * Interactive HTML Apps - |html-icon|
 * Topics - |topic-icon|
+* Slideshow - |slideshow-icon|
 
 When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish viewing a video or complete the exercise, they will be marked with the |completed| icon.
 
@@ -189,7 +203,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. When you are ready to submit, click the :guilabel:`CHECK` button.
 
    * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
-   * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` button, read the suggestions, and try to answer again.
+   * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
@@ -197,7 +211,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
-#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the :guilabel:`NEXT RESOURCE` below to continue learning with the rest of the material in that topic.
+#. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the card under the **Next resource** heading below to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 
@@ -224,6 +238,20 @@ To play videos and listen to audio files in Kolibri you have several available c
 
 
 Use the :guilabel:`DOWNLOAD CONTENT` button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
+
+Interactive Video Transcript
+****************************
+
+When a video has captions available, you can choose to view them at the bottom of the player, or open them as an interactive transcript. 
+
+#. Click the :guilabel:`CC` button at the bottom of the player and select **Transcript**.
+#. Scroll up and down the transcript and click on the chosen timestamp to navigate more easily between various video sections. 
+   
+.. figure:: img/video-transcript.png
+	:alt: 
+
+	Kolibri allows you to navigate videos using the captions inside the transcript.	
+
 
 
 PDF Viewer options
@@ -257,6 +285,14 @@ To read digital books in Kolibri you have several available controls inside the 
 	.. figure:: img/epub.*
 		:alt: 
 
+Slideshow Viewer options
+""""""""""""""""""""""""
+
+To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
+
+* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |previous-page| and |next-page| buttons on the side of the slideshow.
+* You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
 .. _lessons:
 
@@ -284,7 +320,7 @@ If your teacher or coach scheduled an *quiz* (|exams| icon) for you or your clas
 If the quiz is listed as *Not started*, follow these steps.
 
 #. Click on the quiz when you are ready to start taking it.
-#. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT QUESTION` buttons, or click on the question number in the column on the left side.
+#. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT` buttons, or click on the question number in the column on the left side.
 
 	.. figure:: img/exam-detail.png
 		:alt: 

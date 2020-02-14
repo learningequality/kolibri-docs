@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.12.2"
+DISPLAY_VERSION = "0.13.0"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -43,6 +43,9 @@ linkcheck_ignore = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+# Where to find translated image files
+figure_language_filename = '{path}{language}/{basename}{ext}'
+
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 source_suffix = ['.rst', '.md']
@@ -62,6 +65,7 @@ copyright = u'{year:d}, Learning Equality'.format(year=datetime.now().year)
 version = DISPLAY_VERSION
 # The full version, including alpha/beta/rc tags.
 release = DISPLAY_VERSION
+
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -195,7 +199,7 @@ rst_prolog = """
 .. |class-home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">dashboard</span><span class="visuallyhidden">Class home</span>`
 .. |reports| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assessment</span><span class="visuallyhidden">Reports</span>`
 .. |drag| replace:: :raw-html:`<span class="material-icons drag" aria-hidden="true">drag_indicator</span>`
-.. |on-device| image:: img/on-device.png
+.. |on-device| image:: ../img/on-device.png
    :alt: On your device
 .. |green-check| image:: /img/on-device.png
    :alt: Correct answer
@@ -209,6 +213,12 @@ rst_prolog = """
    :alt: Exercise
 .. |html-icon| image:: /img/html-icon.png
    :alt: App
+.. |slideshow-icon| image:: /img/slideshow-icon.png
+   :alt: Slideshow
+.. |print| image:: /img/print.png
+   :alt: Print
+.. |export| image:: /img/export.png
+   :alt: Export
 
 """
 
