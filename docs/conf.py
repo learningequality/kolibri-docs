@@ -344,6 +344,7 @@ latex_elements = {
         \newcommand{\chapterquote}[2]{\epigraphhead[60]{\epigraph{\textit{#1}}{\textbf {\textit{--#2}}}}}
         %%%%%%%%%%% Quote for all places except Chapter
         \newcommand{\sectionquote}[2]{{\quote{\textit{``#1''}}{\textbf {\textit{--#2}}}}}
+
     ''',
 
     'maketitle': r'''
@@ -372,11 +373,11 @@ latex_elements = {
 
         \begin{titlepage}
             \centering
+            \vspace*{20mm} %%% * is used to give space from top
 
-            \vspace*{80mm} %%% * is used to give space from top
             \begin{figure}[!h]
             \centering
-            \includegraphics[scale=0.75]{logo.png}
+            \includegraphics[width=0.95\textwidth]{kolibri-contexts.pdf}
             \end{figure}
             
             \vspace{0mm}
@@ -449,7 +450,7 @@ latex_documents = [
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #latex_logo = None
-latex_logo = 'logo.png'
+latex_logo = 'kolibri-contexts.pdf'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
