@@ -42,7 +42,7 @@ Uninstall
 Upgrade
 -------
 
-.. warning:: Make sure that Kolibri is not running before upgrading.
+.. warning:: We recommend making sure Kolibri is not running before upgrading.
 
 To upgrade Kolibri, follow these steps.
 
