@@ -36,7 +36,7 @@ In case you receive the ``database disk image is malformed`` error in Terminal, 
 
 The ``sqlite3`` command is necessary. This can be installed with ``sudo apt install sqlite3`` on a Debian-based system.
 
-#. Open the Kolibri home folder in the Terminal.
+#. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the next commands.
 
     .. code-block:: bash
 
