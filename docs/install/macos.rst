@@ -39,7 +39,7 @@ Delete the Kolibri app icon from the  **Applications** folder.
 Upgrade
 -------
 
-.. warning:: Make sure that Kolibri is not running before upgrading.
+.. warning:: We recommend making sure Kolibri is not running before upgrading.
 
 #. Download the new version of the `.dmg installer <https://learningequality.org/download/>`_.
 #. Double-click the downloaded ``.dmg`` file.
