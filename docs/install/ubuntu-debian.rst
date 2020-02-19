@@ -39,6 +39,8 @@ From the command line: ``sudo apt-get remove kolibri``.
 Upgrade
 *******
 
+.. warning:: We recommend making sure Kolibri is not running before upgrading.
+
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
 

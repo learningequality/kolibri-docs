@@ -16,7 +16,9 @@ Kolibri currently supports the following combinations of operating systems and b
 * Android 4.4+: Chrome and Firefox
 * iOS 10+: Safari, Chrome and Firefox
 
-.. warning:: Videos are MP4 encoded. While most browsers do not require additional plugins or codecs, open source platforms will often require you to install MP4 codecs separately: For instance on Ubuntu, install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
+.. warning:: 
+  *	Videos in Kolibri are in MP4 file format. While most browsers do not require additional plugins or codecs, open source platforms and browsers will require you to install codecs separately. To be able to view videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
+  *	**If you are still unable to view videos in fully open source browsers like Chromium or Firefox, try using Google Chrome**.
 
 Set up Access on Other Devices
 ******************************

@@ -69,7 +69,7 @@ Each log line contains this information:
 * Memory (in KB) used by the Kolibri process when the request came in
 * Memory (in KB) used by the Kolibri process when the response was sent
 * CPU percentage used by the Kolibri process when the request came in
-* CPU percentage used by the Kolibri process when the request was sent
+* CPU percentage used by the Kolibri process when the response was sent
 * Flag indicating if the request is the slowest one since the analysis started
 
 .. warning::

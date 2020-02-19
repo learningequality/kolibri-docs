@@ -42,6 +42,8 @@ Uninstall
 Upgrade
 -------
 
+.. warning:: We recommend making sure Kolibri is not running before upgrading.  
+
 To upgrade Kolibri, follow these steps.
 
 #. Download the new version of Kolibri `Windows installer <https://learningequality.org/download/>`_.

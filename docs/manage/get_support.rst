@@ -36,22 +36,33 @@ In case you receive the ``database disk image is malformed`` error in Terminal, 
 
 The ``sqlite3`` command is necessary. This can be installed with ``sudo apt install sqlite3`` on a Debian-based system.
 
-.. code-block:: bash
+#. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
 
-        # Go to where your Kolibri data is stored
-        cd ~/.kolibri
-        # Create a directory to save the old DB in
-	mkdir -p malformed
-        # Copy the old malformed DB
-	cp -b db.sqlite3* malformed/
-        # Create a new database
-	sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
-        # Move to the active location
-	mv fixed.db db.sqlite3
-        # Remove so-called "write-ahead log"
-	rm -f db.sqlite3-wal db.sqlite3-shm
+    .. code-block:: bash
 
-After this, you should be able to start Kolibri again.
+      cd ~/.kolibri
+
+#. Create a new directory and save the old database.
+
+    .. code-block:: bash
+
+      mkdir -p malformed
+      cp -b db.sqlite3* malformed/
+
+#. Create a new database and move it to the active location.
+   
+    .. code-block:: bash
+
+      sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
+      mv fixed.db db.sqlite3
+
+#. Remove the following files.
+   
+    .. code-block:: bash
+
+      rm -f db.sqlite3-wal db.sqlite3-shm job_storage.sqlite3 /process_cache/cache.db
+
+#. Restart Kolibri.
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
