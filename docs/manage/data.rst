@@ -19,6 +19,9 @@ To download session or summary logs, follow these steps.
 .. note::
   To manage Kolibri users you must sign in as **admin** or **super admin**.
 
+.. tip::
+  If the log generation is taking a long time, we recommend :ref:`using the command line interface <export_data_logs>`.
+
 
 Sync Facility Data
 ******************
