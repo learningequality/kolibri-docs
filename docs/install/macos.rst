@@ -13,7 +13,7 @@ Install
 
 .. note:: The Kolibri Mac app is not signed, which means that you must tell MacOS to allow it to run. Read `more information about opening unsigned apps <https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac>`_ from Apple.
 
-#. Download the `.dmg installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**.
+#. Download the `.dmg installer <https://learningequality.org/r/kolibri-mac-latest>`__ for Kolibri **version 0.13**.
 #. Double-click the downloaded ``.dmg`` file.
 #. Drag the Kolibri logo inside the **Applications** folder, and wait for the installation to finish.
    
