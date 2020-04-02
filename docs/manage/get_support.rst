@@ -56,16 +56,38 @@ The ``sqlite3`` command is necessary. This can be installed with ``sudo apt inst
       sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
       mv fixed.db db.sqlite3
 
-#. Remove the following files.
+#. Remove temporary database files.
    
     .. code-block:: bash
 
-      rm -f db.sqlite3-wal db.sqlite3-shm job_storage.sqlite3 /process_cache/cache.db
+      rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
 
 #. Restart Kolibri.
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
+.. tip::
+
+  The above instructions work on *malformed* databases, but **if your SQLite3 version is 3.29 or newer**, you can use the `.recover command <https://sqlite.org/cli.html#recover>`__ to restore other types of database corruption as well. This can happen if Kolibri is terminated abruptly or if your storage media fails.
+
+  You can see your SQLite3 version by running ``sqlite3 --version`` from command line. If your database is corrupted but your SQLite3 is too old to run ``.recover``, consider copying your ``db.sqlite3`` file to a different system with a new SQLite3.
+
+  To apply ``.recover`` on a broken database, open up your Terminal and run a set of commands similar to when we applied ``.dump``:
+
+  .. code-block:: bash
+
+        # Go to where your Kolibri data is stored
+        cd ~/.kolibri
+        # Create a directory to save the old DB in
+        mkdir -p corrupted
+        # Copy the old corrupted DB
+        cp -b db.sqlite3* corrupted/
+        # Run .recover (instead of .dump)
+        sqlite3 db.sqlite3 .recover | sqlite3 fixed.db
+        # Move to the active location
+        mv fixed.db db.sqlite3
+        # Remove so-called "write-ahead log"
+        rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
 
 Videos are not playing
 ----------------------
