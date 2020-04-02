@@ -27,7 +27,7 @@ Install from PPA repository
 .. code-block:: bash
 
     sudo apt-get install dirmngr
-    sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu cosmic main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri-cosmic.list'
+    sudo su -c 'echo "deb http://ppa.launchpad.net/learningequality/kolibri/ubuntu bionic main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri.list'
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
     sudo apt-get update
     sudo apt-get install kolibri
@@ -38,6 +38,8 @@ From the command line: ``sudo apt-get remove kolibri``.
 
 Upgrade
 *******
+
+.. warning:: We recommend making sure Kolibri is not running before upgrading.
 
 When you use the PPA installation method, upgrades to newer versions will be automatic, provided there is internet access available.
 
@@ -132,4 +134,3 @@ To install ``kolibri-server`` follow these steps.
 2. Restart the system.
 
 .. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local Wi-Fi access point characteristics.
-

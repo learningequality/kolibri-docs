@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.13.0"
+DISPLAY_VERSION = "0.13"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -27,6 +27,7 @@ sys.path.insert(0, os.path.abspath(parent))
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.autodoc',
+    'sphinx_rtd_theme',
 ]
 
 builddir = os.path.join(cwd, '_build')
@@ -119,6 +120,12 @@ html_logo = 'logo.png'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# Add any extra paths that contain custom files (such as robots.txt or
+# .htaccess) here, relative to this directory. These files are copied
+# directly to the root of the documentation.
+html_extra_path = ['extras']
 
 # This should be commented back in for wide tables
 # See: https://github.com/rtfd/readthedocs.org/issues/2116
