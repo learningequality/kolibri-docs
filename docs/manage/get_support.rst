@@ -72,7 +72,7 @@ For further assistance, please report the issue on our `Community Forums <https:
 
   You can see your SQLite3 version by running ``sqlite3 --version`` from command line. If your database is corrupted but your SQLite3 is too old to run ``.recover``, consider copying your ``db.sqlite3`` file to a different system with a new SQLite3.
 
-  To apply ``.recover`` on a broken database, open up your Terminal and run a set of commands similar to when we applied ``.dump``:
+  To apply ``.recover`` on a broken database, open your Terminal and run the following commands (the sequence is similar to above where you used ``.dump``):
 
   .. code-block:: bash
 
