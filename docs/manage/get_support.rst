@@ -62,7 +62,7 @@ The ``sqlite3`` command is necessary. This can be installed with ``sudo apt inst
 
       rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
 
-#. Restart Kolibri.
+#. Start Kolibri.
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
@@ -74,20 +74,34 @@ For further assistance, please report the issue on our `Community Forums <https:
 
   To apply ``.recover`` on a broken database, open your Terminal and run the following commands (the sequence is similar to above where you used ``.dump``):
 
-  .. code-block:: bash
+  #. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
 
-        # Go to where your Kolibri data is stored
+      .. code-block:: bash
+
         cd ~/.kolibri
-        # Create a directory to save the old DB in
-        mkdir -p corrupted
-        # Copy the old corrupted DB
-        cp -b db.sqlite3* corrupted/
-        # Run .recover (instead of .dump)
-        sqlite3 db.sqlite3 .recover | sqlite3 fixed.db
-        # Move to the active location
+
+  #. Create a new directory and save the old database.
+
+      .. code-block:: bash
+
+        mkdir -p malformed
+        cp -b db.sqlite3* malformed/
+
+  #. Apply the ``.restore`` command to the database and move the restored database to the active location. Check the command line outputs for potential errors.
+     
+      .. code-block:: bash
+
+        sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
         mv fixed.db db.sqlite3
-        # Remove so-called "write-ahead log"
+
+  #. Remove temporary database files.
+     
+      .. code-block:: bash
+
         rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
+
+  #. Start Kolibri.
+
 
 Videos are not playing
 ----------------------
