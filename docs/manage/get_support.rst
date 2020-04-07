@@ -29,12 +29,14 @@ Windows systems often come with firewalls bundled and enabled, and this may inte
 You can try temporarily disable your firewall to see if it helps with connecting to Kolibri. If so, you'll want to turn the firewall back on and then create a exception rule for Kolibri to allow access.
 
 
-Troubleshoot Database Issues
-----------------------------
+.. _malformed_db:
 
-In case you receive the ``database disk image is malformed`` error in Terminal, try running these commands.
+Malformed database
+------------------
 
-The ``sqlite3`` command is necessary. This can be installed with ``sudo apt install sqlite3`` on a Debian-based system.
+In case you receive the ``database disk image is malformed`` error in Terminal, it does not mean that the database cannot be fixed. The error occurs in cases where Kolibri has been shutdown uncleanly, for instance due to a power outage or a software exception.
+
+.. tip:: The ``sqlite3`` command is necessary. This can be installed with ``sudo apt install sqlite3`` on a Debian-based system.
 
 #. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
 
@@ -66,42 +68,46 @@ The ``sqlite3`` command is necessary. This can be installed with ``sudo apt inst
 
 For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
-.. tip::
+Corrupted database
+------------------
 
-  The above instructions work on *malformed* databases, but **if your SQLite3 version is 3.29 or newer**, you can use the `.recover command <https://sqlite.org/cli.html#recover>`__ to restore other types of database corruption as well. This can happen if Kolibri is terminated abruptly or if your storage media fails.
+The instructions in :ref:`malformed_db` apply only to *malformed* databases, which is a simple form of database corruption that has been reported fixable in all cases. If those steps did not work, or you do not see the ``database disk image is malformed`` error, your database is more severely corrupted.
 
-  You can see your SQLite3 version by running ``sqlite3 --version`` from command line. If your database is corrupted but your SQLite3 is too old to run ``.recover``, consider copying your ``db.sqlite3`` file to a different system with a new SQLite3.
+**If your SQLite3 version is 3.29 or newer**, you can use the `.recover command <https://sqlite.org/cli.html#recover>`__ to restore other types of database corruption. This can happen if Kolibri is terminated abruptly or if your storage media fails.
 
-  To apply ``.recover`` on a broken database, open your Terminal and run the following commands (the sequence is similar to above where you used ``.dump``):
+.. tip:: You can see your SQLite3 version by running ``sqlite3 --version`` from command line. If your database is corrupted but your SQLite3 is too old to run ``.recover``, consider copying your ``db.sqlite3`` file to a different system with a new SQLite3.
 
-  #. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
+To apply ``.recover`` on a broken database, open your Terminal and run the following commands (the sequence is similar to above where you used ``.dump``):
 
-      .. code-block:: bash
+#. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
 
-        cd ~/.kolibri
+    .. code-block:: bash
 
-  #. Create a new directory and save the old database.
+      cd ~/.kolibri
 
-      .. code-block:: bash
+#. Create a new directory and save the old database.
 
-        mkdir -p malformed
-        cp -b db.sqlite3* malformed/
+    .. code-block:: bash
 
-  #. Apply the ``.restore`` command to the database and move the restored database to the active location. Check the command line outputs for potential errors.
-     
-      .. code-block:: bash
+      mkdir -p malformed
+      cp -b db.sqlite3* malformed/
 
-        sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
-        mv fixed.db db.sqlite3
+#. Apply the ``.restore`` command to the database and move the restored database to the active location. Check the command line outputs for potential errors.
+   
+    .. code-block:: bash
 
-  #. Remove temporary database files.
-     
-      .. code-block:: bash
+      sqlite3 db.sqlite3 .recover | sqlite3 fixed.db
+      mv fixed.db db.sqlite3
 
-        rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
+#. Remove temporary database files.
+   
+    .. code-block:: bash
 
-  #. Start Kolibri.
+      rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
 
+#. Start Kolibri.
+
+For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
 
 Videos are not playing
 ----------------------
