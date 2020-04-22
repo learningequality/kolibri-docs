@@ -19,7 +19,7 @@ Prerequisites
     :figwidth: 50%
 
     Kolibri runs on both Raspberry Pi 3 and 4
-    
+
 
 * Raspberry Pi Model 3, 3+, 4 and Zero W - or: Raspberry Pi versions that support Raspbian Stretch or Buster and has onboard Wi-Fi
 * Formatted MicroSD Card > 4GB (64 GB recommended or attached USB storage)
@@ -62,7 +62,7 @@ Updating the software
 ---------------------
 
 After installing and starting up your Raspberry Pi, it is recommended that you upgrade all the software on the device:
-  
+
 .. code-block:: console
 
   sudo apt update
@@ -193,7 +193,7 @@ In the file, copy in the following configuration to specify the name of the netw
 
   interface=wlan0
   driver=nl80211
-  ssid=Offline Library 
+  ssid=Offline Library
   hw_mode=g
   channel=7
   wmm_enabled=0
@@ -203,7 +203,7 @@ In the file, copy in the following configuration to specify the name of the netw
 
   # Remove the '#' in front of below lines to set a password 'Password'
   # wpa=2
-  # wpa_passphrase=Password            
+  # wpa_passphrase=Password
   # wpa_key_mgmt=WPA-PSK
   # wpa_pairwise=TKIP
   # rsn_pairwise=CCMP
@@ -286,7 +286,7 @@ Installing Kolibri
 
    During the installation, make the following choices if prompted: Use the default TCP port ``8080`` for Kolibri because port ``80`` will be used by Nginx :ref:`later in this tutorial <nginx_custom_domain>`. Enable the Kolibri system service by selecting ``Yes`` when prompted to run Kolibri on start-up. Use the default ``pi`` user so that it will have access to USB devices.
 
-#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility.
 
 .. note:: The regular Kolibri system service will run background tasks, but its HTTP server is disabled, as all this is handled by the Nginx and UWSGI configuration.
 
@@ -295,7 +295,7 @@ Installing Kolibri
   * **System time** isn't set properly or resets during power-off. This causes errors while downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
 
   * **Storage space** is often scarce. If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
-  
+
     Using the built-in management command:
 
     .. code-block:: bash
@@ -372,7 +372,7 @@ Attaching USB storage
 Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry Pi. In order to have more content, such as the full Khan Academy, you may want to attach a USB storage media -- a flash device or a hard drive.
 
 .. tip:: Moving content: If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
-  
+
     Using the built-in management command:
 
     .. code-block:: console
@@ -419,7 +419,7 @@ You may encounter warnings like ``Can't set locale; make sure $LC_* and $LANG ar
 Disabling the graphical desktop
 *******************************
 
-Once the Pi device is deployed, the desktop environment may no longer serve a purpose. It can safely be disabled. This saves computer resources and electricity. Use the following steps to disable or enable the desktop:
+Once the Pi device is set up, the desktop environment may no longer serve a purpose. It can safely be disabled. This saves computer resources and electricity. Use the following steps to disable or enable the desktop:
 
 .. code-block:: console
 
@@ -438,7 +438,7 @@ For remote access, you should consider adding SSH (Secure Shell). Once installed
 Saving your image for replication
 ---------------------------------
 
-Once you like the setup and you may want to deploy several Raspberry Pis to different schools, classrooms etc.
+Once you like the setup and you may want to set up several Raspberry Pis in different schools, classrooms etc.
 
 .. tip:: Using the same Wi-Fi SSID (in this tutorial, we called it ``Offline Library``) is recommended if you are setting up several Raspberry Pis in the same area. But you should configure them on different Wi-Fi channels. Separate them by a count of 2, this will avoid radio frequency overlaps.
 
