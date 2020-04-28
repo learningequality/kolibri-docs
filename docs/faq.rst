@@ -5,7 +5,7 @@ Frequently Asked Questions
 How much does Kolibri cost to install?
 --------------------------------------
 
-Kolibri is `free and open source <https://www.fsf.org/about/what-is-free-software>`_ software!
+Kolibri is `free and open-source <https://www.fsf.org/about/what-is-free-software>`_ software!
 
 
 Do I need the internet to run Kolibri?
