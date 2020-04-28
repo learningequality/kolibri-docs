@@ -102,7 +102,7 @@ In order to serve clients on a local Wi-Fi hotspot, you need the Raspberry Pi to
 * a DHCP server
 * a DNS server
 
-The access point is handled by the package ``hostapd`` and the DHCP and DNS server are both available through the ``dnsmasq`` package. We will install and configure both in this section. For more detailed information, see `the online Raspberry Pi docs <https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md>`__.
+The access point is handled by the package ``hostapd`` and the DHCP and DNS server are both available through the ``dnsmasq`` package. We will install and configure both in this section. For more detailed information, see `the online Raspberry Pi docs <https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md>`__.
 
 .. code-block:: console
 
