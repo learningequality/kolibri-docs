@@ -6,7 +6,7 @@ Provisioning many servers
 
 This tutorial will help you to prepare for the Kolibri implementation where you need to install and provision several Kolibri server devices with the same content channels.
 
-Provisioning multiple servers with software and content is **going to take some time** irregardless of the chosen procedure.
+Provisioning multiple servers with software and content is **going to take some time** regardless of the chosen procedure.
 
 You will need an **active Internet connection only to preload content channels on the first server device**. Provisioning the rest of the servers can be accomplished offline, or just within the working local network.
 
