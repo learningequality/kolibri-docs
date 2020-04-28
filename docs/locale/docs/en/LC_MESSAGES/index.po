@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kolibri 0.10.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 19:52+0100\n"
+"POT-Creation-Date: 2020-03-29 16:36-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,11 +47,11 @@ msgid ""
 "Kolibri."
 msgstr ""
 
-#: ../../index.rst:45
-msgid ":ref:`Learners - start here <learn>`"
+#: ../../index.rst:58
+msgid ":ref:`Learners and students<learn>`"
 msgstr ""
 
-#: ../../index.rst:47
+#: ../../index.rst:60
 msgid ""
 "Whether you are using Kolibri at your school, in a training center or at "
 "home, learn how to :ref:`open <access_learner>` it on your device, what "
@@ -60,11 +60,11 @@ msgid ""
 "tutors."
 msgstr ""
 
-#: ../../index.rst:53
-msgid "For :ref:`Coaches <coach>` using Kolibri"
+#: ../../index.rst:66
+msgid ":ref:`Coaches and teachers <coach>`"
 msgstr ""
 
-#: ../../index.rst:55
+#: ../../index.rst:68
 msgid ""
 "Read how to :ref:`monitor activity and track the progress "
 "<track_progress>` of your learners all the way to single answers to "
@@ -73,26 +73,26 @@ msgid ""
 ":ref:`quizzes <manage_quizzes>` and view reports."
 msgstr ""
 
-#: ../../index.rst:61
-msgid "For :ref:`Admins and Super admins <manage>` of Kolibri"
+#: ../../index.rst:74
+msgid ":ref:`Administrators <manage>`"
 msgstr ""
 
-#: ../../index.rst:63
+#: ../../index.rst:76
 msgid ""
 "Begin by reading how to :ref:`install <install>` and :ref:`start "
 "<access>` Kolibri server on the supported platforms, and :ref:`configure "
 "other devices <access_LAN>` in the local network to access its content. "
-"Proceed on how to :ref:`import content channels <manage_content_ref>`, "
+"Proceed on how to :ref:`import content channels <manage_resources_ref>`, "
 "create and manage :ref:`users <manage_users_ref>` and :ref:`classes "
 "<manage_classes_ref>`. Configure the :ref:`settings for your facility "
 "<manage_facility_ref>`, and assign or edit :ref:`permissions "
 "<permissions>` for other users. Learn how to work with Kolibri from "
 ":ref:`the command line <command_line>`, :ref:`troubleshoot network issues"
 " <network>`, and ask for support on our :ref:`Community Forums "
-"<support>`."
+"<contact>`."
 msgstr ""
 
-#: ../../index.rst:66
+#: ../../index.rst:79
 msgid "Happy learning with Kolibri!"
 msgstr ""
 
@@ -126,5 +126,35 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "For :ref:`Administrators and Superusers <manage>` of Kolibri"
+#~ msgstr ""
+
+#~ msgid ":ref:`Learners - start here <learn>`"
+#~ msgstr ""
+
+#~ msgid "For :ref:`Coaches <coach>` using Kolibri"
+#~ msgstr ""
+
+#~ msgid "For :ref:`Admins and Super admins <manage>` of Kolibri"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Begin by reading how to :ref:`install"
+#~ " <install>` and :ref:`start <access>` "
+#~ "Kolibri server on the supported "
+#~ "platforms, and :ref:`configure other devices"
+#~ " <access_LAN>` in the local network "
+#~ "to access its content. Proceed on "
+#~ "how to :ref:`import content channels "
+#~ "<manage_content_ref>`, create and manage "
+#~ ":ref:`users <manage_users_ref>` and :ref:`classes"
+#~ " <manage_classes_ref>`. Configure the "
+#~ ":ref:`settings for your facility "
+#~ "<manage_facility_ref>`, and assign or edit "
+#~ ":ref:`permissions <permissions>` for other "
+#~ "users. Learn how to work with "
+#~ "Kolibri from :ref:`the command line "
+#~ "<command_line>`, :ref:`troubleshoot network issues"
+#~ " <network>`, and ask for support on"
+#~ " our :ref:`Community Forums <support>`."
 #~ msgstr ""
 

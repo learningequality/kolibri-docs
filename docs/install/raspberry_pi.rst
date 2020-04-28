@@ -16,14 +16,12 @@ If you are starting from a brand new Raspberry Pi and want to get set up as quic
 
 If you already have a Pi running and don't want to erase it, or if you would like to learn more about how to set up the system from scratch, see our :ref:`Raspberry Pi Tutorial for Kolibri <rpi_manual>`. 
 
-.. warning:: After installing the image, a ssh server is installed with the user ``pi`` and the password ``kolibrifly``. You should immediately change the password to ensure that your server is secure.
-
-
 1. Download the `Raspberry Pi ZIP file <https://learningequality.org/download/>`_ for Kolibri **version 0.13**, or have it copied to your local drive.
 2. Use any of the methods explained in the `official Raspberry Pi user guide <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`_ to write the image to a SD card.
 3. Insert the SD card in the Raspberry Pi.
 4. Power on the Raspberry Pi and wait. The process takes less than 5 minutes in a model 4, but in other models can take longer. You may observe some ``Failure`` messages during this process, which is normal.
 
+.. warning:: After installing the image, a ssh server is installed with the user ``pi`` and the password ``kolibrifly``. You should immediately change the password to ensure that your server is secure.
 
 After following the above steps the Raspberry Pi will provide a WiFi network named under the ssid ``kolibri`` without any password. The Kolibri server will be accessible at the URL ``http://10.10.10.10``.
 
