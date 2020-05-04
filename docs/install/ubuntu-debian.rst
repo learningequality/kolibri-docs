@@ -49,14 +49,14 @@ When you use the PPA installation method, upgrades to newer versions will be aut
 Install from a .deb file
 ------------------------
 
-The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
+The advantages of downloading a ``.deb`` file is the portability: You can copy the file from device to device and install Kolibri without internet access.
 
 #. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**, or have it copied to your local drive.
-#. Run this command from the location where you downloaded the ``DEB`` file:
+#. Run this command from the location where you downloaded the ``.deb`` file:
 
    .. code-block:: bash
 
-       sudo dpkg -i kolibri-installer-filename.deb
+       sudo apt install --fix-missing ./KOLIBRI_FILENAME.deb
 
 #. Wait for the installation to finish and run this command to start Kolibri:
 
@@ -67,6 +67,9 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
    .. note:: If you choose to install Kolibri as a system service, you will not need to start it manually.
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+
+.. tip::
+  The package ``python3-cryptography`` speeds up Kolibri for future peer-to-peer synchronization. It is installed automatically if there is an internet connection. You can download a version of this package in a .deb file **for your current system** with ``apt download python3-cryptography`` and install it using the same technique as shown above.
 
 
 Uninstall
@@ -110,6 +113,8 @@ To change the system service owner, you need to change the configuration of the 
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
 
+
+.. _kolibri-server-install:
 
 Higher Performance with the ``kolibri-server`` package
 ------------------------------------------------------
