@@ -24,7 +24,7 @@ Required hardware
 
 		**OR**
 
-	* Working LAN (cabled is preferable to wireless, and ideally via a router that supports Gigabit Ethernet).
+	* Working LAN (cabled is preferable to wireless, and ideally via a router that supports Gigabit ethernet).
 
 #. Active Internet connection to download the installer and preload content channels on the first (“master”) server.
 
@@ -47,7 +47,7 @@ At this point you have the master server set-up and preloaded with content. Befo
 
 * On Windows, the main server database and all the files related to the content are stored in the folder named ``.kolibri``, located in ``C:/Users/<username>/.kolibri/`` (if your main hard drive is ``C:``).
 
-	``<username>`` refers to the user you were logged in as when you installed Kolibri as explained above. In the image below for example, you can see that the user who installed Kolibri is called **IEUser**.
+	``<username>`` refers to the user on your operating system you started the session with when you installed Kolibri as explained above. In the image below for example, you can see that the user who installed Kolibri is called **IEUser**.
 
 	.. figure:: /img/IEUser.gif
 	    :alt:

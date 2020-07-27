@@ -10,7 +10,7 @@ Working with Kolibri from the Command Line
 
 * On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
 
-* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.13.pex``, type ``./kolibri-v0.13.pex start``.
+* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.14.pex``, type ``./kolibri-v0.14.pex start``.
 
 .. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 

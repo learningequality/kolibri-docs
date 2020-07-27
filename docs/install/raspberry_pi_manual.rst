@@ -84,19 +84,19 @@ Run ``sudo raspi-config`` for the general setup options such as password change,
 Setting up a hotspot
 --------------------
 
-Raspberry Pi 3 and 4 have an internal Wi-Fi adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through Wi-Fi. In this case, we call the Raspberry Pi a *hotspot*.
+Raspberry Pi 3 and 4 have an internal WiFi adapter which can serve as an access point, thus giving other devices the ability to connect to the Raspberry Pi through WiFi. In this case, we call the Raspberry Pi a *hotspot*.
 
-We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's Ethernet cable connection. In this way, you don't have to disable and enable the Wi-Fi configuration each time.
+We assume that you will need to connect the Raspberry Pi to the internet both before and after setting up the hotspot. The easiest way to achieve this is through the Raspberry Pi's Ethernet cable connection. In this way, you don't have to disable and enable the WiFi configuration each time.
 
 * The device can be set up such that it automatically uses the Ethernet interface as a *gateway* to the internet when a cable is connected.
-* If you need to connect to the internet through Wi-Fi, you will have to disable the hotspot and connect through the normal network management.
+* If you need to connect to the internet through WiFi, you will have to disable the hotspot and connect through the normal network management.
 
-.. note: If you already have a Wi-Fi network at the location where the device will be set up, you should NOT set up an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Captive Portal step.
+.. note:: If you already have a WiFi network at the location where the device will be set up, you should NOT set up an additional hotspot. You can connect the Raspberry Pi to an existing network and access it from there. Skip this step and the Captive Portal step.
 
 Installing hostapd and dnsmasq
 ******************************
 
-In order to serve clients on a local Wi-Fi hotspot, you need the Raspberry Pi to act as:
+In order to serve clients on a local WiFi hotspot, you need the Raspberry Pi to act as:
 
 * an access point
 * a DHCP server
@@ -111,7 +111,7 @@ The access point is handled by the package ``hostapd`` and the DHCP and DNS serv
 Setting a static IP
 *******************
 
-Firstly, the server's Wi-Fi interface ``wlan0`` needs to have a predictable IP address and not try to obtain it from another server. We call this a *static IP*.
+Firstly, the server's WiFi interface ``wlan0`` needs to have a predictable IP address and not try to obtain it from another server. We call this a *static IP*.
 
 It is defined in the configuration file ``/etc/dhcpcd.conf``, which you can edit through the below command.
 
@@ -119,7 +119,7 @@ It is defined in the configuration file ``/etc/dhcpcd.conf``, which you can edit
 
   sudo nano /etc/dhcpcd.conf
 
-Use the arrow keys to navigate to the end of the file, then copy and paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to save and exit. This configuration sets ``192.168.4.1`` as the IP address of the server on the configured Wi-Fi network. If you want to change this, you will have to be aware of other consequential changes necessary in the remaining part of this tutorial.
+Use the arrow keys to navigate to the end of the file, then copy and paste the following text and press :guilabel:`CTRL` + :guilabel:`X` to save and exit. This configuration sets ``192.168.4.1`` as the IP address of the server on the configured WiFi network. If you want to change this, you will have to be aware of other consequential changes necessary in the remaining part of this tutorial.
 
 .. code-block:: text
 
@@ -235,12 +235,12 @@ Finally, start the access point system service ``hostapd`` and the DHCP and DNS 
 Setting up a "Captive portal"
 -----------------------------
 
-You don't have to set up a "Captive Portal", but it's a good idea, since the behavior will make the user experience better. Users won't have to guess the location (hostname / domain) of services on the Raspberry Pi, and many devices support displaying your welcome page automatically upon connecting to the Wi-Fi.
+You don't have to set up a "Captive Portal", but it's a good idea, since the behavior will make the user experience better. Users won't have to guess the location (hostname / domain) of services on the Raspberry Pi, and many devices support displaying your welcome page automatically upon connecting to the WiFi.
 
 .. figure:: /img/captive_portal_screenshot.png
     :alt: Hotspot login dialog
 
-    This type of dialog will appear on many devices when they detect a successful Wi-Fi connection without an internet connection.
+    This type of dialog will appear on many devices when they detect a successful WiFi connection without an internet connection.
 
 In the previous step, we have configured the Raspberry Pi to tell devices on the local offline hotspot that whatever resource they request such as ``http://domain.com``, it should resolve to the Raspberry Pi's static IP address ``192.168.4.1``.
 
@@ -430,7 +430,7 @@ Once the Pi device is set up, the desktop environment may no longer serve a purp
 Remote access
 *************
 
-For remote access, you should consider adding SSH (Secure Shell). Once installed and enabled, you can manage the Raspberry Pi without connecting a screen and keyboard and instead logging in from a computer connected to the device through LAN or Wi-Fi. You can use ``sudo raspi-config`` to enable the SSH system service. Read more in the `official Raspberry Pi docs <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_.
+For remote access, you should consider adding SSH (Secure Shell). Once installed and enabled, you can manage the Raspberry Pi without connecting a screen and keyboard and instead logging in from a computer connected to the device through LAN or WiFi. You can use ``sudo raspi-config`` to enable the SSH system service. Read more in the `official Raspberry Pi docs <https://www.raspberrypi.org/documentation/remote-access/ssh/>`_.
 
 
 .. _rpi_replication:
@@ -440,11 +440,11 @@ Saving your image for replication
 
 Once you like the setup and you may want to set up several Raspberry Pis in different schools, classrooms etc.
 
-.. tip:: Using the same Wi-Fi SSID (in this tutorial, we called it ``Offline Library``) is recommended if you are setting up several Raspberry Pis in the same area. But you should configure them on different Wi-Fi channels. Separate them by a count of 2, this will avoid radio frequency overlaps.
+.. tip:: Using the same WiFi SSID (in this tutorial, we called it ``Offline Library``) is recommended if you are setting up several Raspberry Pis in the same area. But you should configure them on different WiFi channels. Separate them by a count of 2, this will avoid radio frequency overlaps.
 
 .. warning:: Replicating the Kolibri device registration will make online synchronization unpredictable (fail).
 
-Kolibri has a sync'ing mechanism whereby user data can synchronize from device to device through an online service. This happens automatically when Kolibri detects an internet connection. You need to unregister (deprovision) your device before copying the SD card and external storage:
+Kolibri has a syncing mechanism whereby user data can synchronize from device to device through an online service. This happens automatically when Kolibri detects an internet connection. You need to unregister (deprovision) your device before copying the SD card and external storage:
 
 .. code-block:: console
 
@@ -463,9 +463,9 @@ How many clients are supported?
 
 .. tip:: We recommend that you do your own benchmarking and share experiences in our `Community Forums <https://community.learningequality.org/>`_. See especially this thread about `choosing a MicroSD card <https://community.learningequality.org/t/microsd-cards-picking-the-right-one-experiences-and-benchmarks/935>`_.
 
-It can be hard to predict how many students will be able to use Kolibri on a Raspberry Pi at the same time. A major bottleneck will be the Raspberry Pi's built-in Wi-Fi, which might support 5-10 devices in a radius confined by the limited broadcasting power of said Wi-Fi.
+It can be hard to predict how many students will be able to use Kolibri on a Raspberry Pi at the same time. A major bottleneck will be the Raspberry Pi's built-in WiFi, which might support 5-10 devices in a radius confined by the limited broadcasting power of said WiFi.
 
-The Wi-Fi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the Wi-Fi by removing ``hostapd``.
+The WiFi antenna and chip in the Raspberry Pi do not have capacity for many clients. Thus, you may also want to connect a stronger Access Point. If you intend to do this, you should modify the DHCP server (dnsmasq) to listen to the ``eth0`` device instead of ``wlan0``, switching off the WiFi by removing ``hostapd``.
 
 A Raspberry Pi with 1 GB of RAM may support 10 clients when run behind an access point, but you will likely need a newer Raspberry Pi 4 device if you want to support more than 10 clients.
 

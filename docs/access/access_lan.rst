@@ -36,7 +36,7 @@ For example, if Kolibri is installed and started on a computer with the address 
 
       Find the IP/Server URL in the Device > Info tab.
   
-  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri.
+  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/macOS to find the externally visible IP address of the device running the Kolibri.
 
 
 .. warning::

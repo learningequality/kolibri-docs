@@ -5,7 +5,7 @@ Customize Kolibri Settings with the OPTIONS.INI File
 
 For certain configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
 
-#. Open the preferred text editor on your computer (eg. Notepad on Windows).
+#. Open the preferred text editor on your computer (for example Notepad on Windows).
 #. Write the required *sections* and *keys* (see details for available settings below) in the following format:
    
     .. code-block:: ini
@@ -51,3 +51,18 @@ If you need to :ref:`profile server requests <profile_requests>` to get a more d
     
      [Server]
      PROFILE = 1
+
+
+.. _content_fallback_ini:
+
+
+Add Content Fallback Directories
+********************************
+
+If you need to specify alternative locations for content to be available to Kolibri after install, you can use the ``CONTENT_FALLBACK_DIRS`` variable in the ``options.ini`` file.
+
+
+  .. code-block:: ini
+    
+     [Paths]
+     CONTENT_FALLBACK_DIRS = /media/user/kolibri-content; /media/user2/kolibri-content-backup

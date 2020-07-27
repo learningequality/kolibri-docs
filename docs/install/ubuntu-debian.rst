@@ -51,7 +51,7 @@ Install from a .deb file
 
 The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
 
-#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**, or have it copied to your local drive.
+#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.14**, or have it copied to your local drive.
 #. Run this command from the location where you downloaded the ``DEB`` file:
 
    .. code-block:: bash
@@ -93,7 +93,7 @@ The *system service* is the script that runs Kolibri in the background when your
 
 You may need to change the system service to run with the permissions of a different user account. Prior to v0.10, ``kolibri`` user account was the owner of the system service, while from v0.10 and later, desktop user's account is preferred, in order for Kolibri to access the local USB storage.
 
-To change the system service owner, you need to change the configuration of the system service: move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
+To change the system service owner, you need to change the configuration of the system service, move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
 
 .. code-block:: bash
 
@@ -133,4 +133,4 @@ To install ``kolibri-server`` follow these steps.
 
 2. Restart the system.
 
-.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local Wi-Fi access point characteristics.
+.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local WiFi access point characteristics.
