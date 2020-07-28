@@ -17,7 +17,7 @@ Kolibri currently supports the following combinations of operating systems and b
 * iOS 10+: Safari, Chrome and Firefox
 
 .. warning:: 
-  *	Videos in Kolibri are in MP4 file format. While most browsers do not require additional plugins or codecs, open source platforms and browsers will require you to install codecs separately. To be able to view videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
+  *	Videos in Kolibri are in MP4 file format. While most browsers do not require additional plugins or codecs, open source platforms and browsers will require you to install codecs separately. If you encounter an *No compatible source was found for this media* error when you try to play videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
   *	**If you are still unable to view videos in fully open source browsers like Chromium or Firefox, try using Google Chrome**.
 
 Set up Access on Other Devices

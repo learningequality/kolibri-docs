@@ -37,6 +37,8 @@ Uninstall
 2. Select **Programs and Features** option.
 3. Select Kolibri from the list of programs.
 4. Click the button :guilabel:`Uninstall/Change` and follow the instructions.
+   
+.. tip:: To remove all the user data and the downloaded channels, delete the ``.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
 
 
 Upgrade

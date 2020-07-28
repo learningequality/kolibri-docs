@@ -49,7 +49,10 @@ For import to be successful, you must have a CSV file with properly formatted da
 #. Import the CSV file in to an external spreadsheet program and make the required changes.
 #. Export *a new CSV file* from the spreadsheet program.
 #. Use that CSV file to **Import** or update users and classes.
-   
+
+.. _csv_format:
+
+
 CSV File Format Reference
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 

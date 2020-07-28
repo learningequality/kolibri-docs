@@ -36,6 +36,8 @@ Uninstall
 *********
 From the command line: ``sudo apt-get remove kolibri``.
 
+.. tip:: To remove all the user data and the downloaded channels, delete the ``~/.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
+
 Upgrade
 *******
 
@@ -74,6 +76,8 @@ Uninstall
 
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 * Or from the command line: ``sudo apt-get remove kolibri``.
+
+.. tip:: To remove all the user data and the downloaded channels, delete the ``~/.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
 
 
 Upgrade

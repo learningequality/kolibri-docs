@@ -141,66 +141,51 @@ You will be prompted to input the **Username** and **Password** and the new **su
 The full name for the new super admin user will be the same as the chosen ``username``, and can be edited in the **Facility > Users** page, or the user profile.
 
 
-Import Users from a CSV File
-****************************
+Import and Export User Data from a CSV File
+*******************************************
 
-.. note:: 
-  This is currently an experimental feature, so please forward to the development team any details about the issues you may encounter while using it.
+This feature is also available from the Kolibri user interface in the **Facility > Data** tab. It is recommended you read the :ref:`section of this guide which documents the feature <csv_import>`, especially the part about the :ref:`CSV format <csv_format>` before you try this command line utility. 
 
-  Command works on Kolibri version 0.9 and above.
+Import from CSV
+^^^^^^^^^^^^^^^
 
-CSV File Structure
-""""""""""""""""""
-
-To import users into Kolibri with this command, you will need to provide the user data in a CSV (comma separated values) file format. You can export a CSV file from a tabular data in any spreadsheet program (Excel, Google Sheets, LibreOffice Calc, etc.).
-
-  .. figure:: /img/csv.png
-      :alt: User data in a spreadsheet table
-
-      User data in a spreadsheet table.
-
-* Header row is optional, but if you do not include it, Kolibri will assume that you are providing the data in the following order:
-
-    ``<full_name>,<username>,<password>,<facility>,<class>``
-
-* If you do include a header row, you can provide less data, or put them a different order:
-
-    ``<full_name>,<username>,<password>``
-
-    ``<username>,<full_name>``
-
-* Only the ``username`` is required.
-
-* When you do not provide passwords for the imported users, Kolibri will set the default password ``kolibri`` for those usernames.
-
-* If you do not provide full names for the imported users, Kolibri will set them to be the same as the values for ``username``, and you can edit them in the **Facility > Users** page.
-
-* The facility can be either the facility name or the facility ID. If you do not provide the facility, Kolibri will import users in the default facility on the device. You can also specify the facility by adding the ``--facility`` argument in the command line (see below).
-
+Execute the *dry-run* of the command to review the report containing the number of users and classes to be created, updated or deleted, and see the list of any potential errors.
 
 .. code-block:: bash
 
-  kolibri manage importusers your-csv-file.csv
-
-  kolibri manage importusers your-csv-file.csv --facility <your-facility>
+  kolibri manage bulkimportusers --dryrun --output-file=my-school-users-2020.csv
 
 
-Export Users to a CSV File
-**************************
-
-To export users from Kolibri in a CSV file, run the below command. It does not export demographic data by default, but has an optional ``-d/--demographic-data`` flag to include them in the exported CSV file. 
+Run the command and review that the changes are visible in the **Facility** dashboard.
 
 .. code-block:: bash
 
-  kolibri manage exportusers your-csv-file.csv
-
-  kolibri manage exportusers your-csv-file.csv --demographic-data
+  kolibri manage bulkimportusers --output-file=my-school-users-2020.csv
 
 
-.. figure:: /img/exportusers.png
-  :alt: CSV file with the user data.
+If the CSV file does not contain all the non admin users or classes currently in the facility, using the ``--delete`` flag will remove them during the import process.
 
-  CSV file with the exported users including the demographic data.
+.. code-block:: bash
+
+  kolibri manage bulkimportusers --delete --output-file=my-school-users-2020.csv
+
+
+Export to CSV
+^^^^^^^^^^^^^
+
+Run the following command to create a ``users_<date>_<time>.csv`` file.
+
+.. code-block:: bash
+
+  kolibri manage bulkexportusers --overwrite --output-file=my-school-users-2020.csv
+
+
+To export a CSV file with localized headers, use the ``--locale`` flag.
+
+.. code-block:: bash
+
+  kolibri manage bulkexportusers --overwrite --output-file=lista-estudiantes-2020.csv --locale=es_ES
+
 
 
 Change User's Password

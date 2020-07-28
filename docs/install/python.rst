@@ -54,7 +54,7 @@ Uninstall PEX
 -------------
 
 #. Delete the ``PEX`` file.
-#. Delete the ``./kolibri`` folder in your user's Home directory if you want to completely remove all the Kolibri files and content channels you imported.
+#. Delete the ``~/.kolibri`` folder in your user's Home directory if you want to completely remove all the Kolibri files and content channels you imported.
 
 Upgrade PEX
 -----------

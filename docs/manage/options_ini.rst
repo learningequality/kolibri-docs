@@ -3,21 +3,9 @@
 Customize Kolibri Settings with the OPTIONS.INI File
 ####################################################
 
-For certain configuration settings you need to use the ``options.ini`` file. Installing Kolibri does not generate this file by default, but you can easily add one yourself. Follow these steps.
+Installing Kolibri generates a default ``options.ini`` file with all the sections and values commented out with the ``#`` character at the beginning of the line. To see the ``options.ini`` file, open the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
 
-#. Open the preferred text editor on your computer (for example Notepad on Windows).
-#. Write the required *sections* and *keys* (see details for available settings below) in the following format:
-   
-    .. code-block:: ini
-
-      [section]
-      key1 = a
-      key2 = b
-
-3. Save the resulting ``options.ini`` file in the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
-   
-.. note::
-  ``options.ini`` file can contain several sections with one or more associated keys, depending on the requirements of your installation.   
+.. warning:: Some of the values in the  ``options.ini`` file, especially in the sections ``[Cache]``, ``[Database]``, and ``[Server]`` can have serious effects on the performance of your Kolibri server. **Do not edit them if you are not sure how they work!** 
    
 .. _port:
 
@@ -65,4 +53,5 @@ If you need to specify alternative locations for content to be available to Koli
   .. code-block:: ini
     
      [Paths]
-     CONTENT_FALLBACK_DIRS = /media/user/kolibri-content; /media/user2/kolibri-content-backup
+     CONTENT_FALLBACK_DIRS = ['/media/user/kolibri-content'; '/media/user2/kolibri-content-backup']
+

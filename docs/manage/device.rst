@@ -27,6 +27,8 @@ If you want to select a different default language, use the drop-down menu. You 
 .. note::
   All users will still be able to :ref:`change to their own language of preference <change_language>` from the user menu options.
 
+.. _allow_peer_import:
+
 
 Allow Peer Import
 -----------------

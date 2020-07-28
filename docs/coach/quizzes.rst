@@ -63,7 +63,7 @@ Newly created quizzes are by default visible to entire class. To change quiz *Re
 
 #. Select the desired quiz from the list in the **Quizzes** subtab.
 #. Click the :guilabel:`OPTIONS` button and select the **Edit details** option.
-#. Select the group(s) of learners to whom you wish to assign the quiz under the *Recipients* heading.
+#. Select the learners and group(s) to whom you wish to assign the quiz under the *Recipients* heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
   .. figure:: /img/exam-visibility.png

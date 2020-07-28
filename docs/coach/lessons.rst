@@ -23,7 +23,7 @@ Create New Lesson
 To create a new lesson |lessons|, follow these steps.
 
 1. Click the :guilabel:`NEW LESSON` button.
-2. Fill in the field for the lesson title, description and choose the group(s) or the entire class as the recipients. 
+2. Fill in the field for the lesson title, description and choose individual learners, group(s) or the entire class as the recipients. 
 
   .. figure:: /img/new-lesson.png
     :alt: 

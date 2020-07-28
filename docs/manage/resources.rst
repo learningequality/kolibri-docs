@@ -43,6 +43,8 @@ Import Channels and Resources into Kolibri
 .. warning:: **Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import resources from:
 
   * already curated **channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
+  
+  * :ref:`another device in the same local network <local_network>` through *peer import*
 
   OR 
 
@@ -184,9 +186,14 @@ Follow these steps to import from a local network.
     - inability to be discovered by peers
     - inability to discover other peers
     - ability to be discovered, but not be available for import
-
+  
+  * On Windows 10 you need to explicitly allow both **Python** and ``kolibri.exe`` processes through the firewall, to be able to add a peer for import. Auto-discovery might still not work, but you will be able to add the peer IP manually and import resources.
 
   * This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of resources import **must have the Kolibri version 0.11 or later** running.
+
+
+.. tip:: If want to :ref:`allow peer import of your private channels <allow_peer_import>`, which means that those channels will be visible and available for import on other peer devices in the same network, make sure to enable that option in the **Device > Settings**. 
+
 
 .. _local_drive:
 
