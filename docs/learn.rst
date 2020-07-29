@@ -19,13 +19,21 @@ Sign in to Kolibri
 
 To sign in to **Kolibri** and start learning, follow these steps:
 
-#. Type your username and password (may be optional).
-#. Click the :guilabel:`SIGN IN` button.
+#. Click the :guilabel:`SIGN IN` button if you already have an account and the username.
 
 	.. figure:: img/login-modal.png
 	  :alt: Input your username and password (if required) on the main sign in page.
 
 	  Main Kolibri sign in page.
+
+	If you have used the same device before, you may see the field to directly type in your username and password (if required) on the main sign in page.
+
+	If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
+
+	.. figure:: img/login-modal-facility.png
+	  :alt: 
+
+	  Select facility on the Kolibri sign in page.
 
 
 .. _sign_in_page:
@@ -33,16 +41,16 @@ To sign in to **Kolibri** and start learning, follow these steps:
 .. warning::
    If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
 
-.. figure:: img/learn-page-signin.png
-  :alt: Open the sidebar to access the sign in link.
+	.. figure:: img/learn-page-signin.png
+	  :alt: Open the sidebar to access the sign in link.
 
-  "Sign in" link in the sidebar.
+	  "Sign in" link in the sidebar.
 
 
-.. figure:: img/learn-page-signin2.png
-  :alt: Open the user menu to access the sign in link.
+	.. figure:: img/learn-page-signin2.png
+	  :alt: Open the user menu to access the sign in link.
 
-  "Sign in" link in the user menu.
+	  "Sign in" link in the user menu.
 
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below **Learn**), or from the user menu.
@@ -73,6 +81,10 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 
 #. Click the :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
+#. If there is more than one facility on the server device, make sure that the one where you want to create an account with is visible under the *Facility* heading. 
+
+	If it is not, use the browser *back* button, and select the correct facility.
+	
 #. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
 #. Click the :guilabel:`CONTINUE` button.
 #. Select your birth year and gender. This information is optional, and you can choose not to provide it.

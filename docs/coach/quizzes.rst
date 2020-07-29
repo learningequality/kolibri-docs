@@ -9,6 +9,9 @@ You can view, create and delete quizzes, as well as assign them to learners, usi
   .. figure:: /img/manage-quizzes.png
     :alt: 
 
+.. TO-DO (image)
+.. TO-DO (icon)
+
 .. note::
   To manage **Quizzes** |exams| in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
 
@@ -59,7 +62,7 @@ To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button.
 Change Quiz Recipients
 """"""""""""""""""""""
 
-Newly created quizzes are by default visible to entire class. To change quiz *Recipients*, that is select group(s) of learners instead of the whole class, follow these steps.
+Newly created quizzes are by default visible to entire class. To change quiz *Recipients*, that is select groups or individual learners instead of the whole class, follow these steps.
 
 #. Select the desired quiz from the list in the **Quizzes** subtab.
 #. Click the :guilabel:`OPTIONS` button and select the **Edit details** option.
@@ -69,6 +72,7 @@ Newly created quizzes are by default visible to entire class. To change quiz *Re
   .. figure:: /img/exam-visibility.png
     :alt: 
 
+.. TO-DO (image)
 
 Start and End Quiz
 """"""""""""""""""
@@ -98,7 +102,7 @@ To copy a quiz to a different group or another class, follow these steps.
       :alt: Use the radio buttons to select the class where you want to copy the quiz to.
 
 #. Select the class to which you wish to copy the quiz to and click :guilabel:`CONTINUE`.
-#. If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson.
+#. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson under the *Recipients* heading.
 #. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 If the quiz is copied to another group in the same class, it will appear in the **Quizzes** tab as the *Copy of...*. Follow the steps in the next section to rename it.

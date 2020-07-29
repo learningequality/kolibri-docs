@@ -14,6 +14,7 @@ Click on a class to access the progress-tracking features and create lessons, qu
 
 .. _track_progress:
 
+
 Class Home
 ~~~~~~~~~~
 
@@ -23,7 +24,6 @@ On the **Class Home** tab (|class-home| icon) you can see the overview of the cl
 	  :alt: Open the Coach page to view the list of classes
 
 	  Class Home presents an overview of learner progress and activity.
-
 
 
 Quizzes
@@ -60,8 +60,8 @@ As learners interact with lessons and quizzes, you can track their progress in t
 * You can click each notification link to review the complete resource data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
 
-
 .. _reports:
+
 
 Reports
 ~~~~~~~
@@ -108,9 +108,8 @@ Use the options in the **Plan** tab to create and manage the lessons, quizzes, a
   quizzes
   groups
 
-
-
 .. _coach_resource:
+
 
 Coach Support Resources
 ~~~~~~~~~~~~~~~~~~~~~~~

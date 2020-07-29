@@ -139,6 +139,8 @@ Create a New Facility
 
 Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` (if you chose the Admin-managed facility setup). Make sure to check how to :ref:`configure other computers <access_LAN>` in the network to access Kolibri.
 
+.. _import_facility:
+
 
 Import Facility
 ***************

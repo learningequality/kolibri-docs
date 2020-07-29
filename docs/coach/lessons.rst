@@ -7,7 +7,6 @@ Manage Lessons
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
 To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. 
-.. You can filter the lessons in order to see all, or just active/inactive ones. 
 
 
 .. figure:: /img/lessons.png
@@ -88,7 +87,7 @@ You can change the recipients of the lesson, reassigning the lesson to a differe
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click the :guilabel:`OPTIONS` button and select **Edit details**.
-#. Select **Entire class** or the group(s) of learners to whom you wish to assign the lesson under the *Recipients* heading.
+#. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson under the *Recipients* heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
@@ -104,7 +103,7 @@ To copy a lesson to a different group or another class of your facility, follow 
       :alt: 
 
 3. Select the class to which you wish to copy the lesson to.
-4. If the destination class has more than one group, select **Entire class** or the group(s) of learners to whom you wish to assign the lesson.
+4. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson.
 5. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.

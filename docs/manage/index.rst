@@ -14,5 +14,6 @@ Manage Kolibri
   resources
   device
   permissions
+  facilities
   device_info
   get_support
