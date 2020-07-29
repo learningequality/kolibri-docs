@@ -18,14 +18,14 @@ Install
    .. figure:: /img/copy-app.png
      :alt: 
 
-#. Open the Kolibri app using the icon in the Launchpad.
+#. Open the Kolibri app using the icon in your **Applications** folder or Launchpad.
 #. Proceed with the :ref:`setup_initial` of Kolibri. 
 
 
 Uninstall
 ---------
 
-Delete the Kolibri app icon from the  **Applications** folder.
+Delete the Kolibri app icon from the **Applications** folder.
  
 .. tip:: To remove all the user data and the downloaded channels, delete the ``.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
 

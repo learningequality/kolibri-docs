@@ -3,10 +3,13 @@
 Initial Setup
 =============
 
-Setting up your Kolibri server will differ depending on your learning environment. If you plan to use Kolibri at home or for supplemental learning outside any facility, use **Quick start**; if you are installing Kolibri to be used by many learners at a formal facilities like schools, or non-formal like libraries or community centers, use **Advanced setup**.
+Setting up Kolibri will be different depending on your learning environment:
+
+* If you plan to use Kolibri at home or for supplemental learning outside any facility, use **Quick start**
+* If you are installing Kolibri to be used by many learners at a formal facilities like schools, or non-formal like libraries or community centers, use **Advanced setup**.
 
 .. note::
-  You need to do the initial setup only once, the first time you start Kolibri after the installation. You can change all the settings later.
+  You will only need to do the initial setup once, when you first start Kolibri after the installation. You can change all the settings later.
 
 Quick Start
 -----------
@@ -34,7 +37,7 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 	   Select Quick start for personal or home use of Kolibri.
 
 
-#. **Create super admin account.** This user will be a **super admin**, able to manage all the content on the device, and all the other Kolibri users at your home.
+#. **Create super admin account.** This user will be a **super admin**, able to manage all the content and all other Kolibri users on this device.
 
   	.. figure:: /img/super-admin.png
 	   :alt:  
@@ -64,7 +67,7 @@ Advanced Setup
 	  The default language configured for content in your browser preferences might override the language you choose in this step. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content.
 
 
-#. **Select the Advanced setup** option, recommended for schools, educational programs, organizations, or other group learning settings that will share the use of Kolibri. 
+#. **Select the Advanced setup** option, recommended for schools, educational programs, organizations, or other group learning settings that will share Kolibri. 
    
 	  .. figure:: /img/advanced-setup.png
 		   :alt:  
@@ -72,14 +75,14 @@ Advanced Setup
 		   Select Advanced setup for use of Kolibri in group learning environments.			
    
 
-#. **Select the name of the device** where Kolibri server will be running from. Choose a meaningful and recognizable name for the device as it will help you for syncing and importing processes later on. 
+#. **Select the name of the device** on which Kolibri server will be running from. Choose a meaningful and recognizable name because it will help you identify it during syncing and importing processes later on. 
 
 	  .. figure:: /img/device-name.png
 		   :alt:  
 
 		   Select a meaningful name for the device.	
 
-#. **Create or import a facility**. In kolibri we use the term "facility" to describe a set of user accounts, classes, and their associated data. Examples of facilities could include physical schools, temporary learning hubs, organizations distributing devices across multiple locations, and other types of learning environments featuring continuity between learners' activities. At this step you can choose to create a new facility or import one from another device.
+#. **Create or import a facility**. In Kolibri we use the term "facility" to describe a set of user accounts, classes, and their associated data. Examples of facilities include schools, temporary learning hubs,  groups of distributed at-home learners, and other situations requiring continuity between learners' activities. At this step you can choose to create a new facility or import one from another device.
    
 Create a New Facility
 *********************

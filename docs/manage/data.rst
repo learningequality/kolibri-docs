@@ -43,14 +43,17 @@ To import and export many users and classes at once you can use an externally ge
 
 .. warning:: Importing from CSV will make many changes to your users and classes, and these changes cannot be easily reverted. Read carefully the requirements below, and make sure to verify that the data in your CSV file is accurate and adheres to the format reference. 
 
-For import to be successful, you must have a CSV file with properly formatted data with some required values. For that reason we recommend the following procedure:
+For the import to be successful, you must have a CSV file with properly formatted data with some required values. We recommend the following procedure:
 
 #. Use the **Export** :ref:`feature first and save the CSV file <csv_export>` which contains all users and classes you already have in the facility.
-#. Import the CSV file in to an external spreadsheet program and make the required changes.
+#. Open the CSV file with an external spreadsheet program and make changes.
 #. Export *a new CSV file* from the spreadsheet program.
 #. Use that CSV file to **Import** or update users and classes.
 
+.. tip:: You can also use this :download:`CSV file template </data/users_example.csv>` to get familiar with the required format. 
+
 .. _csv_format:
+
 
 
 CSV File Format Reference

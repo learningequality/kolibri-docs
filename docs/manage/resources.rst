@@ -218,7 +218,7 @@ If the computer where Kolibri server is running does not have access to Internet
 Update Channels
 ---------------
 
-Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
+Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels have been :ref:`previously exported <export>`.
 
 .. warning:: It is recommended to schedule and perform channel updates only during periods of low activity on the server. Updating resources while server is receiving requests by client devices may cause errors or performance issues.
 
@@ -254,7 +254,7 @@ To change the order in which channels are presented to learners on the **Learn >
 
 
 #. Click the :guilabel:`OPTIONS` button and select the **Edit channel order** option.
-#. In the *Edit channel order* page you can either:
+#. In the **Edit channel order** page you can either:
 
     * Grab the |drag| button to reorder channels with the mouse (drag and drop).
     * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.  
@@ -262,7 +262,6 @@ To change the order in which channels are presented to learners on the **Learn >
   You will see a confirmation notification at the bottom every time you change the order of the channels.
 
 3. Close the *Edit channel order* to return to **Device > Channels**, and review their order on the **Learn > Channels** page.
-
 
 
 .. _export:
