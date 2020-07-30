@@ -22,12 +22,12 @@ Create New Lesson
 To create a new lesson |lessons|, follow these steps.
 
 1. Click the :guilabel:`NEW LESSON` button.
-2. Fill in the field for the lesson title, description and choose individual learners, group(s) or the entire class as the recipients. 
+2. Fill in the field for the lesson title, description and choose individual learners, groups or the entire class as the recipients. 
 
   .. figure:: /img/new-lesson.png
     :alt: 
 
-3. Click :guilabel:`CONTINUE`. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
+3. Click :guilabel:`SAVE CHANGES`. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
 
   .. figure:: /img/lesson-options.png
     :alt: New lesson with no resources added; navigate to Options button and click to open it for more actions.
@@ -50,7 +50,7 @@ To create a new lesson |lessons|, follow these steps.
     You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
 
 
-7. Click the :guilabel:`FINISH` button to close the **Manage resources** window and return to the main view of the lesson.
+7. Click the :guilabel:`CLOSE` button to close the **Manage resources** window and return to the main view of the lesson.
 
 8. After you've selected the resources for the lesson, you can:
 
@@ -74,7 +74,8 @@ A newly created lesson is by default *not visible to learners*, and they will no
 * Click the **Visible to learners** switch in the summary block to enable learners to see the lesson and interact with its resources.
 * Click the switch again to make the lesson invisible to learners once the designated time had passed.
 
-.. TO-DO (image)
+      .. figure:: /img/lesson-visible.png
+        :alt:
 
 .. note::
   You can also change lesson visiblity from its own **Report**, and the list in the **Reports > Lessons** subtab.
@@ -98,10 +99,6 @@ To copy a lesson to a different group or another class of your facility, follow 
 
 1. Select the desired lesson from the list in the **Lessons** tab.
 2. Click :guilabel:`OPTIONS` and select **Copy lesson**.
-
-    .. figure:: /img/copy-lesson.png
-      :alt: 
-
 3. Select the class to which you wish to copy the lesson to.
 4. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson.
 5. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.

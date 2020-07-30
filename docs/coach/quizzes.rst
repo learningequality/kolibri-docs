@@ -9,7 +9,6 @@ You can view, create and delete quizzes, as well as assign them to learners, usi
   .. figure:: /img/manage-quizzes.png
     :alt: 
 
-.. TO-DO (image)
 .. TO-DO (icon)
 
 .. note::
@@ -66,13 +65,11 @@ Newly created quizzes are by default visible to entire class. To change quiz *Re
 
 #. Select the desired quiz from the list in the **Quizzes** subtab.
 #. Click the :guilabel:`OPTIONS` button and select the **Edit details** option.
-#. Select the learners and group(s) to whom you wish to assign the quiz under the *Recipients* heading.
+#. Select the learners and groups to whom you wish to assign the quiz under the *Recipients* heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
   .. figure:: /img/exam-visibility.png
     :alt: 
-
-.. TO-DO (image)
 
 Start and End Quiz
 """"""""""""""""""
@@ -83,11 +80,11 @@ Newly created quizzes are by default *not started*, meaning that learners will n
 
 * Click the :guilabel:`END QUIZ` button once the designated time had passed, and you want to stop learners from interacting with it.
   
-.. TO-DO (image)
+  .. figure:: /img/start-end-quiz.png
+    :alt: 
 
 .. note::
   You can also start and end the quiz from its **Report** page, and the list in the **Reports > Quizzes** subtab.
-
 
 
 Copy Quiz
@@ -97,12 +94,8 @@ To copy a quiz to a different group or another class, follow these steps.
 
 #. Select the desired quiz from the list in the **Quizzes** subtab.
 #. Click :guilabel:`OPTIONS` and select **Copy quiz**.
-
-    .. figure:: /img/copy-exam.png
-      :alt: Use the radio buttons to select the class where you want to copy the quiz to.
-
 #. Select the class to which you wish to copy the quiz to and click :guilabel:`CONTINUE`.
-#. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson under the *Recipients* heading.
+#. Select the entire class, groups or inidividual learners to whom you wish to assign the quiz under the *Assign quiz to* heading.
 #. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 If the quiz is copied to another group in the same class, it will appear in the **Quizzes** tab as the *Copy of...*. Follow the steps in the next section to rename it.

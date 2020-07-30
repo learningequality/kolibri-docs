@@ -13,6 +13,11 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
 
     Select a facility to access the configuration settings.
 
+
+.. note::
+  To manage facility settings in Kolibri you must sign in as **admin** or **super admin**.
+
+
 #. Activate the options you want to make available for the users of your facility. You have the possibility to allow users to:
 
 	* edit their full names and usernames
@@ -27,5 +32,14 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
 
       Manage facility configuration settings.
 
-.. note::
-  To manage facility settings in Kolibri you must sign in as **admin** or **super admin**.
+
+Rename Facility
+***************
+
+To edit facility name, follow these steps.
+
+#. Click on the **Edit** link next to the facility name.
+#. Write the new name in the **Facility name** field.
+#. Click :guilabel:`SAVE` to confirm the edited information, or :guilabel:`CANCEL` to exit without saving.
+
+.. warning:: Only the facility name will be changed, and the new name will be :ref:`synced and updated <sync_facility>` on other devices linked to this facility.

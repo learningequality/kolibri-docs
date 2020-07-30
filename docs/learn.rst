@@ -81,10 +81,11 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 
 #. Click the :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
-#. If there is more than one facility on the server device, make sure that the one where you want to create an account with is visible under the *Facility* heading. 
+#. If there is more than one facility on the server device, make sure that the one where you want to create an account is visible under the *Facility* heading. If it is not, use the browser *back* button, and select the correct facility first.
+		
+		.. figure:: img/create-account.png
+		 :alt: 
 
-	If it is not, use the browser *back* button, and select the correct facility.
-	
 #. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
 #. Click the :guilabel:`CONTINUE` button.
 #. Select your birth year and gender. This information is optional, and you can choose not to provide it.
