@@ -36,6 +36,8 @@ Uninstall
 *********
 From the command line: ``sudo apt-get remove kolibri``.
 
+.. tip:: To remove all the user data and the downloaded channels, delete the ``~/.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
+
 Upgrade
 *******
 
@@ -51,7 +53,7 @@ Install from a .deb file
 
 The advantages of downloading a ``.deb`` file is the portability: you can copy the file from device to device and install Kolibri without internet access.
 
-#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**, or have it copied to your local drive.
+#. Download the latest `.deb installer <https://learningequality.org/download/>`_ for Kolibri **version 0.14**, or have it copied to your local drive.
 #. Run this command from the location where you downloaded the ``DEB`` file:
 
    .. code-block:: bash
@@ -75,6 +77,8 @@ Uninstall
 * Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**.
 * Or from the command line: ``sudo apt-get remove kolibri``.
 
+.. tip:: To remove all the user data and the downloaded channels, delete the ``~/.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
+
 
 Upgrade
 *******
@@ -93,20 +97,42 @@ The *system service* is the script that runs Kolibri in the background when your
 
 You may need to change the system service to run with the permissions of a different user account. Prior to v0.10, ``kolibri`` user account was the owner of the system service, while from v0.10 and later, desktop user's account is preferred, in order for Kolibri to access the local USB storage.
 
-To change the system service owner, you need to change the configuration of the system service: move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
+To change the system service owner, you need to change the configuration of the system service, move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
 
-.. code-block:: bash
 
-	# Stop Kolibri
-	sudo systemctl stop kolibri
-	# Move data to your desktop user:
-	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
-	# Change ownership
-	sudo chown -R $USER /home/$USER/.kolibri
-	# Change the username configuration
-	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
-	# Start Kolibri again
-	sudo systemctl start kolibri
+#. Stop Kolibri.
+
+  .. code-block:: bash
+
+  	sudo systemctl stop kolibri
+
+
+2. Move data to your desktop user.
+
+  .. code-block:: bash
+
+  	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
+
+
+3. Change ownership.
+
+  .. code-block:: bash
+
+  	sudo chown -R $USER /home/$USER/.kolibri
+
+
+4. Change the username configuration.
+
+  .. code-block:: bash
+
+  	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
+
+5. Start Kolibri again.
+
+  .. code-block:: bash
+
+  	sudo systemctl start kolibri
+
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
 
@@ -133,4 +159,4 @@ To install ``kolibri-server`` follow these steps.
 
 2. Restart the system.
 
-.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local Wi-Fi access point characteristics.
+.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local WiFi access point characteristics.

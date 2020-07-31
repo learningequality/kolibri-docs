@@ -8,7 +8,7 @@ Raspberry Pi
 Open the default browser at ``http://10.10.10.10``, and it will display the **Kolibri** start page.
 
 .. note::
-  Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.  
+  Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri**.  
 
 
 .. TO-DO (image)

@@ -112,7 +112,9 @@ For further assistance, please report the issue on our `Community Forums <https:
 Videos are not playing
 ----------------------
 
-Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using.
+Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. If you encounter the error *No compatible source was found for this media* when you try to play videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__. If you are still unable to view videos in open source browsers like Chromium or Firefox, try using Google Chrome.
+
+Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using.
 
 
 Antivirus
@@ -132,7 +134,7 @@ Some overzealous antivirus programs on Windows platform may preventively impede 
 Problems with import and export from USB drives
 -----------------------------------------------
 
-Kolibri needs read and write access to USB drives in order to import and export content. There are several possibilities why you may encounter issues during this procedure.
+Kolibri needs read and write access to USB drives in order to import and export channels. There are several possibilities why you may encounter issues during this procedure.
 
 * **User account does not have access**:
 
@@ -140,11 +142,11 @@ Kolibri needs read and write access to USB drives in order to import and export 
   - you have upgraded Kolibri on Debian from a version prior to v0.10. Follow these instructions to :ref:`change the ownership of Kolibri system service <changing-system-user>` from one user account to another
   - to grant access to USB drives to other accounts, refer to the documentation of your operating system
 
-* **Write access denied**: Some USB drives will experience problems when they are unplugged from the computer in an "unclean" way. If you are denied access to write, look for options to "fix" or "repair" the file system.
+* **Write access denied**: Some USB drives will experience problems when they are unplugged from the computer in an *unclean* way. If you are denied access to write, look for options to *fix* or *repair* the file system.
 
-* **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning content data.
+* **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning data resources.
 
-* **Hardware life expectancy**: SD and flash storage drives can "expire". Reading and writing large quantities of content data, especially on older or models with smaller capacity, may produce data errors over time.
+* **Hardware life expectancy**: SD and flash storage drives have a limited lifespan. Reading and writing large quantities of data, especially on older or models with smaller capacity, may produce data errors over time.
 
 
 Locate Kolibri log files

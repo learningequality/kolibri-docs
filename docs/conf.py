@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.13"
+DISPLAY_VERSION = "0.14"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -28,6 +28,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.autodoc',
     'sphinx_rtd_theme',
+    'notfound.extension',
 ]
 
 builddir = os.path.join(cwd, '_build')
