@@ -3,7 +3,7 @@
 Accessing Kolibri from Other Devices
 ####################################
 
-After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning content on the server.
+After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning resources on the server.
 
 Compatibility
 *************
@@ -23,7 +23,7 @@ Kolibri currently supports the following combinations of operating systems and b
 Set up Access on Other Devices
 ******************************
 
-To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. The default port is **8080**, and you must add it after the IP address.
+To access resources from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. The default port is **8080**, and you must add it after the IP address.
 
 For example, if Kolibri is installed and started on a computer with the address **192.168.8.134:8080**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.8.134:8080``.
 

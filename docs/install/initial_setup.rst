@@ -165,6 +165,11 @@ If you are part of a wider learning environment, or you need to sync the learner
 
 				Add the network address of the device manually.
 
+		.. warning:: **Firewals** may impede your ability to see other devices in your local network, or add them as source. If you are unable to see other devices, make sure to:
+
+			* disable the firewalls on all the devices that you need to sync
+			* restart Kolibri for broadcast to take effect
+
 #. **Select facility**. If there several facilities on the device, select the one you want to import, and provide the administrative credentials. 
 
   	.. figure:: /img/initial-setup-select-facility-to-import.png

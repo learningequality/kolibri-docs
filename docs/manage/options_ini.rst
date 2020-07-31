@@ -41,17 +41,17 @@ If you need to :ref:`profile server requests <profile_requests>` to get a more d
      PROFILE = 1
 
 
-.. _content_fallback_ini:
+..    .. _content_fallback_ini:
 
 
-Add Content Fallback Directories
-********************************
+    Add Content Fallback Directories
+    ********************************
 
-If you need to specify alternative locations for content to be available to Kolibri after install, you can use the ``CONTENT_FALLBACK_DIRS`` variable in the ``options.ini`` file.
+    If you need to specify alternative locations for content to be available to Kolibri after install, you can use the ``CONTENT_FALLBACK_DIRS`` variable in the ``options.ini`` file.
 
 
-  .. code-block:: ini
+      .. code-block:: ini
+        
+         [Paths]
+         CONTENT_FALLBACK_DIRS = ['/media/user/kolibri-content'; '/media/user2/kolibri-content-backup']
     
-     [Paths]
-     CONTENT_FALLBACK_DIRS = ['/media/user/kolibri-content'; '/media/user2/kolibri-content-backup']
-

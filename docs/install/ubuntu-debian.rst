@@ -99,18 +99,40 @@ You may need to change the system service to run with the permissions of a diffe
 
 To change the system service owner, you need to change the configuration of the system service, move the ``.kolibri`` data folder (containing channels, databases etc.), and assign owner permissions to the new user. Follow these steps.
 
-.. code-block:: bash
 
-	# Stop Kolibri
-	sudo systemctl stop kolibri
-	# Move data to your desktop user:
-	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
-	# Change ownership
-	sudo chown -R $USER /home/$USER/.kolibri
-	# Change the username configuration
-	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
-	# Start Kolibri again
-	sudo systemctl start kolibri
+#. Stop Kolibri.
+
+  .. code-block:: bash
+
+  	sudo systemctl stop kolibri
+
+
+2. Move data to your desktop user.
+
+  .. code-block:: bash
+
+  	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
+
+
+3. Change ownership.
+
+  .. code-block:: bash
+
+  	sudo chown -R $USER /home/$USER/.kolibri
+
+
+4. Change the username configuration.
+
+  .. code-block:: bash
+
+  	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
+
+5. Start Kolibri again.
+
+  .. code-block:: bash
+
+  	sudo systemctl start kolibri
+
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
 

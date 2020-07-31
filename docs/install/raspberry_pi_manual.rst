@@ -30,7 +30,7 @@ Prerequisites
   * `Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__
   * **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
 * Internet connectivity (for setting up the device)
-* An internal MicroSD card is used for the base system, and an external storage media for contents (for instance a 64 GB USB flash). We recommend that you have an Ethernet cable for online connectivity while installing and fetching contents for Kolibri.
+* An internal MicroSD card is used for the base system, and an external storage media for channels (for instance a 64 GB USB flash). We recommend that you have an Ethernet cable for online connectivity while installing and downloading Kolibri channels.
 
 .. tip:: The standard Raspbian OS has a graphical desktop. You can also install Raspbian Lite which uses fewer resources, but only has a command line interface. The instructions in this documentation work seamlessly on both.
 
@@ -49,9 +49,10 @@ Setting up the SD card
 
 The following commands work on Linux/macOS for setting up the .img files provided. You will also need to know the *device node* for the SD Card reader. On Linux, this is typically ``/dev/mmcblk0`` for the 0th card in your card reader.
 
+Unpack the .zip into memory and write it to ``<device node>``.
+   
 .. code-block:: console
 
-  # Unpack the .zip into memory and write it to <device node>
   unzip -p /path/to/raspbian-stretch-lite.zip | sudo dd of=/dev/mmcblk123 bs=4M conv=fsync
 
 .. tip:: Read the official guides for setting up your card: `Copying .img files <https://www.raspberrypi.org/documentation/installation/installing-images/>`__
@@ -179,7 +180,7 @@ Configure the access point
 
   This will activate a new network configuration and override the possibility to connect to an online source using the Wi-Fi. Connecting to the internet remains possible **through the cabled network**. The tutorial has a few steps left that require connectivity for downloading and setting up Nginx and Kolibri. If the Pi is online through the Wi-Fi, do not reboot the device or execute the ``systemctl`` commands found at the end of this section until at the very end of the tutorial. You should also download and install all necessary software and Kolibri channels.
 
-.. tip:: We recommend connecting the device to an internet connection through cable (ethernet), such that you have a reliable way of downloading content and software at all times.
+.. tip:: We recommend connecting the device to an internet connection through cable (ethernet), such that you have a reliable way of downloading channels and software at all times.
 
 You will need to write a configuration file with information about your local Wi-Fi network.
 
@@ -298,16 +299,25 @@ Installing Kolibri
 
     Using the built-in management command:
 
-    .. code-block:: bash
+    #. Stop Kolibri.
 
-        # Stop kolibri
+      .. code-block:: bash
+
         sudo systemctl kolibri stop
-        # Move the data
+
+    2. Move the data.
+       
+      .. code-block:: bash
+
         kolibri manage movedirectory /path/to/your/external_drive
-        # Start kolibri
+      
+    3. Start Kolibri.
+       
+      .. code-block:: bash
+
         sudo systemctl kolibri start
 
-  * **I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial contents of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards.
+  * **I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial channels of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards.
 
     When replicating installations, you can save time if you connect the SD card of USB storage to another device with faster transfer speeds. Replication will be described in future guides.
 
@@ -369,9 +379,9 @@ When you use the PPA installation method, upgrades to newer versions will be aut
 Attaching USB storage
 ---------------------
 
-Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry Pi. In order to have more content, such as the full Khan Academy, you may want to attach a USB storage media -- a flash device or a hard drive.
+Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry Pi. In order to download larger channels, such as the full Khan Academy, you may want to attach a USB storage media -- a flash device or a hard drive.
 
-.. tip:: Moving content: If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
+.. tip:: Moving channels: If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
 
     Using the built-in management command:
 

@@ -25,7 +25,7 @@ If you already have a Pi running and don't want to erase it, or if you would lik
 
 After following the above steps the Raspberry Pi will provide a WiFi network named under the ssid ``kolibri`` without any password. The Kolibri server will be accessible at the URL ``http://10.10.10.10``.
 
-By default the server does not have Internet access. To add content to Kolibri, either connect a USB drive with content, or connect the Pi to an internet-connected router using the ethernet cable.
+By default the server does not have Internet access. To import resources to Kolibri, either connect a USB drive with exported channels, or connect the Pi to an internet-connected router using the ethernet cable.
 
 
 .. note:: The installed system contains a full Raspbian image, with all the software included in the ``lite`` version from https://www.raspberrypi.org/downloads/raspbian/. After login use ``sudo raspi-config`` to customize the environment, including localization, timezone, etc. if desired.

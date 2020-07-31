@@ -41,4 +41,4 @@ While it is running, **Kolibri** will display an icon in the Windows taskbar (us
   #. Double-click the shortcut to test if it opens the browser and loads Kolibri.
 
 .. note::
-  Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri** content.
+  Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri**.

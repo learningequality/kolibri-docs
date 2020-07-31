@@ -32,12 +32,12 @@ To create a new lesson |lessons|, follow these steps.
   .. figure:: /img/lesson-options.png
     :alt: New lesson with no resources added; navigate to Options button and click to open it for more actions.
 
-4. Click :guilabel:`MANAGE RESOURCES` and select the content channel from which you wish to select resources for the lesson.
+4. Click :guilabel:`MANAGE RESOURCES` and select the channel from which you wish to select resources for the lesson.
 
   .. figure:: /img/select-lesson-resources.png
     :alt: This window presents a list of channels from which you can choose to add resources to the lesson.
 
-5. Keep navigating the topic tree of the selected content channel until you arrive to single content items. Use the checkboxes to select the resources you want to include in the lesson, and you will see a notification at the bottom of the page that the resource has been added.
+5. Keep navigating the topic tree of the selected channel until you arrive to single resources. Use the checkboxes to select the resources you want to include in the lesson, and you will see a notification at the bottom of the page that the resource has been added.
 
   .. figure:: /img/select-lesson-resources2.png
     :alt: 

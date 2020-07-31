@@ -134,7 +134,7 @@ Some overzealous antivirus programs on Windows platform may preventively impede 
 Problems with import and export from USB drives
 -----------------------------------------------
 
-Kolibri needs read and write access to USB drives in order to import and export content. There are several possibilities why you may encounter issues during this procedure.
+Kolibri needs read and write access to USB drives in order to import and export channels. There are several possibilities why you may encounter issues during this procedure.
 
 * **User account does not have access**:
 
@@ -144,9 +144,9 @@ Kolibri needs read and write access to USB drives in order to import and export 
 
 * **Write access denied**: Some USB drives will experience problems when they are unplugged from the computer in an *unclean* way. If you are denied access to write, look for options to *fix* or *repair* the file system.
 
-* **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning content data.
+* **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning data resources.
 
-* **Hardware life expectancy**: SD and flash storage drives have a limited lifespan. Reading and writing large quantities of content data, especially on older or models with smaller capacity, may produce data errors over time.
+* **Hardware life expectancy**: SD and flash storage drives have a limited lifespan. Reading and writing large quantities of data, especially on older or models with smaller capacity, may produce data errors over time.
 
 
 Locate Kolibri log files

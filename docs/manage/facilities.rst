@@ -16,8 +16,8 @@ You can import, sync and remove the facilities on your Kolibri device from the *
 
 	Manage the facilities on the device.
 
-Import a Facility on Device
-***************************
+Import Facility
+***************
 
 If you are part of a wider learning environment, where your device is used to store the data from other facilities that are offline, you must import those facilities first. Once you have imported the facility on your device, you can periodically connect to their local network and sync the learner progress data.
 
@@ -41,7 +41,7 @@ To import a facility on your device, follow these steps.
 
 				Add the network address of the device manually.
 
-#. **Select facility**. If there several facilities on the source device, select the one you want to import. 
+#. **Select facility**. If there are several facilities on the source device, select the one you want to import. 
 
   	.. figure:: /img/select-facility-to-import.png
 	   :alt: 
@@ -76,11 +76,43 @@ To import a facility on your device, follow these steps.
 Sync Facility
 *************
 
-You can use the syncing feature for a variety of needs in both offline and online settings. To sync the classes, groups, learner progress and all the facility data with the device from where you imported it, follow these steps.
+You can use the **Sync facility** feature for a variety of needs in both offline and online settings. 
+
+.. warning:: When syncing data between devices in the local network **you must make sure that they have the same channels and resources**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
+
+Examples of Syncing Scenarios
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. warning::
+	**TO-DO**
+
+	**Parking lot scenario**
+
+	- A school with 50 students has one device for every learner and coach.
+	- For a few hours every weekday, an admin is set up in a parking lot with a Kolibri server on a laptop and a strong local WiFi hotspot.
+	- On Fridays, coaches come to the parking lot and retrieve their learners' progress data from the previous week and submit new lessons for the next week.
+	- Monday through Thursday, learners or their guardians come to the parking lot to get the next week's lessons. During this time, coaches create lessons for the next week.
+	- Coaches may use out-of-band channels such as WhatsApp to provide guidance to the learners throughout the week.
+
+
+	**Roaming Kolibri server for data collection**
+
+	- Non-profit organization supports 10 rural schools that have no internet connection.
+	- All schools have a Kolibri device and a local WiFi hotspot powered by solar battery.
+	- Each month someone from the supporting organization comes to offline schools with a *roaming* Kolibri server on a laptop with some updated channels and new resources from Kolibri Studio. They proceed to update the channels on the school device with new resources, and sync the school facility with an instance on the laptop to collect the data about learners' progress during the previous month.
+
+
+To sync the classes, groups, learner progress and all the facility data with the device from where you imported it, follow these steps.
 
 #. Click the :guilabel:`SYNC` button for the desired facility.
 #. Any device that has Kolibri running in the local network should appear in the **Select network address** window. Select the network address of the device you want to sync with. 
 #. Syncing process will start immediately and you will see the task progress bar in the **Facilities** page. When the import process is completed you can open the task manager and review the size of the sent and received data.
+   
+.. warning:: **Firewals** may impede your ability to see other devices in your local network, or add them as source. If you are unable to see other devices, make sure to:
+
+	* disable the firewalls on all the devices that you need to sync
+	* restart Kolibri for broadcast to take effect		
+
 
 Sync with Kolibri Data Portal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
