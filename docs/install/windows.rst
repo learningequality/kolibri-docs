@@ -13,7 +13,7 @@ Compatibility
 Install
 -------
 
-#. Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version 0.13**.
+#. Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version 0.14**.
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
 #. Python 3 installer is included, confirm the installation or the upgrade to proceed.
@@ -37,6 +37,8 @@ Uninstall
 2. Select **Programs and Features** option.
 3. Select Kolibri from the list of programs.
 4. Click the button :guilabel:`Uninstall/Change` and follow the instructions.
+   
+.. tip:: To remove all the user data and the downloaded channels, delete the ``.kolibri`` folder (go to **Device > Info** to find the exact location of the folder on your system). If you install Kolibri again, you will have to go through the :ref:`Initial Setup <setup_initial>` steps from the beginning.
 
 
 Upgrade
@@ -51,3 +53,4 @@ To upgrade Kolibri, follow these steps.
 #. Follow the instructions in the installation wizard window.
 #. Once the installation of the upgrade is finished, Kolibri will auto-start and open in the default browser on your computer.
 #. Go explore the new and improved Kolibri features.
+

@@ -3,7 +3,7 @@
 Accessing Kolibri from Other Devices
 ####################################
 
-After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning content on the server.
+After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning resources on the server.
 
 Compatibility
 *************
@@ -17,13 +17,13 @@ Kolibri currently supports the following combinations of operating systems and b
 * iOS 10+: Safari, Chrome and Firefox
 
 .. warning:: 
-  *	Videos in Kolibri are in MP4 file format. While most browsers do not require additional plugins or codecs, open source platforms and browsers will require you to install codecs separately. To be able to view videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
+  *	Videos in Kolibri are in MP4 file format. While most browsers do not require additional plugins or codecs, open source platforms and browsers will require you to install codecs separately. If you encounter the error *No compatible source was found for this media* when you try to play videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
   *	**If you are still unable to view videos in fully open source browsers like Chromium or Firefox, try using Google Chrome**.
 
 Set up Access on Other Devices
 ******************************
 
-To access content from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. The default port is **8080**, and you must add it after the IP address.
+To access resources from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. The default port is **8080**, and you must add it after the IP address.
 
 For example, if Kolibri is installed and started on a computer with the address **192.168.8.134:8080**, you can access it from an Android tablet connected to the same network by opening the browser on the tablet and typing the address ``http://192.168.8.134:8080``.
 
@@ -36,7 +36,7 @@ For example, if Kolibri is installed and started on a computer with the address 
 
       Find the IP/Server URL in the Device > Info tab.
   
-  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux/OSX to find the externally visible IP address of the device running the Kolibri.
+  * You can also use the ``ipconfig`` command on Windows or ``ifconfig`` command on Linux and macOS to find the externally visible IP address of the device running the Kolibri.
 
 
 .. warning::

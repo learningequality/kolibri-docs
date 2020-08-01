@@ -14,12 +14,9 @@ Minimum hardware requirements to run Kolibri as a server:
 
  - RAM: 1 GB recommended on Linux, 2GB or more on Windows devices
  - Intel Core 3 CPU with 1 GHz recommended
- - Hard drive space depends on the size of the content channels you intend to import from `Kolibri Studio <https://studio.learningequality.org/>`_ or a local storage device.
+ - Hard drive space depends on the size of the channels you intend to import from `Kolibri Studio <https://studio.learningequality.org/>`_ or a local storage device.
 
 If you have a facility with less than 30 computers, a device as simple as a `Raspberry Pi <https://www.raspberrypi.org/>`_ is known to work fine as a server.
-
-.. In case you are running Kolibri on Linux and want an efficient setup, use the ``kolibri-raspberry-pi`` package. It doesn't require a specific architecture, but it's required to use if you implement on a system with specs equivalent to or smaller than Raspberry Pi.
-
 
 Clients
 -------

@@ -43,19 +43,14 @@ Import Channels and Resources into Kolibri
 .. warning:: **Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import resources from:
 
   * already curated **channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
+  
+  * :ref:`another device in the same local network <local_network>` through *peer import*
 
   OR 
 
   * an external storage drive (USB or hard drive) where channels have been previously exported to from another Kolibri installation, if the computer running Kolibri is not connected to internet
 
   **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__ site (it's free), and build your own channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/index.html>`__.
-
-
-.. warning
-  Kolibri database and resources may become temporarily unavailable while importing or updating large resources channels. Therefore, as a precaution, we recommend you:
-
-  * avoid other interactions with Kolibri (view learner pages or manage users, for example) while resources import is in progress
-  * perform these maintenance operations outside the periods when system is being used by learners
 
 
 To import resources into Kolibri, follow these steps.
@@ -184,9 +179,14 @@ Follow these steps to import from a local network.
     - inability to be discovered by peers
     - inability to discover other peers
     - ability to be discovered, but not be available for import
-
+  
+  * On Windows 10 you need to explicitly allow both **Python** and ``kolibri.exe`` processes through the firewall, to be able to add a peer for import. Auto-discovery might still not work, but you will be able to add the peer IP manually and import resources.
 
   * This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of resources import **must have the Kolibri version 0.11 or later** running.
+
+
+.. tip:: If want to :ref:`allow peer import of your private channels <allow_peer_import>`, which means that those channels will be visible and available for import on other peer devices in the same network, make sure to enable that option in the **Device > Settings**. 
+
 
 .. _local_drive:
 
@@ -205,20 +205,18 @@ If the computer where Kolibri server is running does not have access to Internet
   .. figure:: /img/import-local-drive2.png
     :alt: Importing resources from a local drive presents the same interface options as importing from Kolibri Studio.
 
-.. TO-DO (image)
-
 
 Update Channels
 ---------------
 
-Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels has been :ref:`previously exported <export>`.
+Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels have been :ref:`previously exported <export>`.
 
 .. warning:: It is recommended to schedule and perform channel updates only during periods of low activity on the server. Updating resources while server is receiving requests by client devices may cause errors or performance issues.
 
 To update a channel to its latest version and import new resources into Kolibri, follow these steps.
 
 #. Click the :guilabel:`MANAGE` button for the channel you want to update.
-#. When a new channel version is available, you will see the notification. Click the :guilabel:`VIEW CHANGES` button.
+#. When a new channel version is available, you will see the notification. Click the *View changes* link.
    
     .. figure:: /img/view-changes.png
       :alt: 
@@ -230,10 +228,26 @@ To update a channel to its latest version and import new resources into Kolibri,
 
       Notification for the new version of the resources channel.
 
+
+#. Click the :guilabel:`UPDATE CHANNEL` button, and then :guilabel:`CONTINUE` to confirm.
+
+    .. figure:: /img/update-channel-confirm.png
+      :alt: 
+
+      Confirm that you want to update channel to the new version.
+
     .. warning:: Use caution when updating channels that have been used to make **currently-active** :ref:`lessons <manage_lessons>` and :ref:`quizzes <manage_quizzes>`. The structure and location of some resources inside the channel may have changed in the updated version, which can cause lessons and quizzes to not load correctly. 
 
-4. Click the :guilabel:`UPDATE CHANNEL` button.
-5. You will see the update progress in the **Task manager** page. Once the update concludes, the newly imported and updated resources will be available to use in Kolibri.
+#. After the channel has been updated to the newest version, you will see the page with the list of all the topics that contain new resources. Proceed to select what you want to import, or check **Select all** to import everything at once.
+
+    Review the number and disk size of selected resources at the bottom and click the :guilabel:`IMPORT` button.
+
+    .. figure:: /img/select-updated-resources.png
+      :alt: 
+
+      Select the resources you want to update.
+
+#. You will see the update progress in the **Tasks** page. Once the update concludes, the newly imported and updated resources will be available to use in Kolibri.
 
 
 .. warning:: 
@@ -247,7 +261,7 @@ To change the order in which channels are presented to learners on the **Learn >
 
 
 #. Click the :guilabel:`OPTIONS` button and select the **Edit channel order** option.
-#. In the *Edit channel order* page you can either:
+#. In the **Edit channel order** page you can either:
 
     * Grab the |drag| button to reorder channels with the mouse (drag and drop).
     * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.  
@@ -255,7 +269,6 @@ To change the order in which channels are presented to learners on the **Learn >
   You will see a confirmation notification at the bottom every time you change the order of the channels.
 
 3. Close the *Edit channel order* to return to **Device > Channels**, and review their order on the **Learn > Channels** page.
-
 
 
 .. _export:

@@ -8,15 +8,15 @@ You can assign additional permissions to Kolibri users which will provide them a
 	.. figure:: ../img/manage-permissions.png
 	  :alt: Open the Device page and navigate to Permissions tab to see permissions for every user  
 
-.. TO-DO (image)
+.. tip:: Use filters to find users more efficiently, you can filter users by current **Permissions**, **User type** or  **Facility**.
 
-Permission to Manage Content
-----------------------------
+Permission to Manage Channels and Resources
+-------------------------------------------
 
-To grant permission to another user to manage content channels in Kolibri, that is to import, export and delete them from the device, follow these steps.
+To grant permission to another user to manage channels and resources in Kolibri, that is to import, export and delete them from the device, follow these steps.
 
 #. Click :guilabel:`EDIT PERMISSIONS` for the chosen user.
-#. Under **Device permissions** activate the option *Can import and export content channels*.
+#. Under **Device permissions** activate the option **Can manage resources on this device**.
 #. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
 	.. figure:: ../img/manage-content-permissions.png
@@ -41,5 +41,3 @@ The users who have been granted the **super admin** permissions will have a yell
 
 	.. figure:: ../img/permissions-keys.png
 	  :alt: Users with additional permissions will have icon indicators in front of their username 
-
-.. TO-DO (image)
