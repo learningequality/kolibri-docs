@@ -227,6 +227,8 @@ rst_prolog = """
    :alt: Print
 .. |export| image:: /img/export.png
    :alt: Export
+.. |facilities| image:: /img/facilities-icon.png
+   :alt: Facilities
 
 """
 
