@@ -102,7 +102,7 @@ You can use the **Sync facility** feature for a variety of needs in both offline
 		    - The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the device, and imports new learning resources if needed.
 
 
-		Read our `Implementation models for distance learning with Kolibri v0.14 <https://learningequality.org/r/implementation-guide>`_ for more details to consider around the facility syncing strategies.
+		Read our `Implementation models for distance learning with Kolibri v0.14 <http://le.fyi/014-models>`_ for more details to consider around the facility syncing strategies.
 
 		.. TO-DO
 
@@ -112,7 +112,7 @@ To sync  classes, groups, learner progress, and all  facility data with a device
 
 #. Click the :guilabel:`SYNC` button for the desired facility.
 #. Any device that has Kolibri running in the local network should appear in the **Select network address** window. Select the network address of the device you want to sync with. 
-#. Syncing process will start immediately and you will see the task progress bar in the **Facilities** page. When the import process is completed you can open the task manager and review the size of the sent and received data.
+#. Syncing process will start immediately and you will see the task progress bar in the **Facilities** page. When the sync process is completed you can open the task manager and review the size of the sent and received data.
    
 .. warning:: **Firewals** may impede your ability to see other devices in your local network, or add them as source. If you are unable to see other devices, make sure to:
 
