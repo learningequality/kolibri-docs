@@ -107,6 +107,7 @@ You can use the **Sync facility** feature for a variety of needs in both offline
 		.. TO-DO
 
 
+
 To sync  classes, groups, learner progress, and all  facility data with a device from which you previously imported it from, follow these steps.
 
 #. Click the :guilabel:`SYNC` button for the desired facility.
