@@ -6,7 +6,7 @@ Initial Setup
 Setting up Kolibri will be different depending on your learning environment:
 
 * If you plan to use Kolibri at home or for supplemental learning outside any facility, use **Quick start**
-* If you are installing Kolibri to be used by many learners at formal facilities like schools, or non-formal like libraries or community centers, use **Advanced setup**.
+* If you are installing Kolibri to be used by many learners at a formal facilities like schools, or non-formal like libraries or community centers, use **Advanced setup**.
 
 .. note::
   You will only need to do the initial setup once, when you first start Kolibri after the installation. You can change all the settings later.
@@ -37,7 +37,7 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 	   Select Quick start for personal or home use of Kolibri.
 
 
-#. **Create a super admin account.** This user will be a **super admin**, able to manage all the content and all other Kolibri users on this device.
+#. **Create super admin account.** This user will be a **super admin**, able to manage all the content and all other Kolibri users on this device.
 
   	.. figure:: /img/super-admin.png
 	   :alt:  
@@ -45,7 +45,7 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 	   Select the username and password for the super admin.
 
 	.. tip::
-	  Make sure to save these super admin credentials in a safe place! Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
+	  Make sure to save these super admin credentials in a safe place!
 
 
 Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` if more people at your home are going to be using Kolibri. Make sure to check how to :ref:`configure other devices <access_LAN>` (computers, tablets or smartphones) in the home network to access Kolibri.
@@ -75,14 +75,14 @@ Advanced Setup
 		   Select Advanced setup for use of Kolibri in group learning environments.			
    
 
-#. **Select the name of the device** on which Kolibri server will be running from. Choose a meaningful and recognizable name because it will help you identify it during syncing and importing processes later on. If many devices are connected to your local network at the same time, the device where the Kolibri server is running must be easily recognizable for users on other devices who need to sync with it.
+#. **Select the name of the device** on which Kolibri server will be running from. Choose a meaningful and recognizable name because it will help you identify it during syncing and importing processes later on. 
 
 	  .. figure:: /img/device-name.png
 		   :alt:  
 
 		   Select a meaningful name for the device.	
 
-#. **Create or import a facility**. In Kolibri we use the term “facility” to describe a set of user accounts, classes, and their associated data. Examples of facilities include schools, temporary learning hubs, groups of distributed at-home learners, and other situations requiring continuity between learners’ activities. At this step, you can choose to create a new facility or import one from another device.
+#. **Create or import a facility**. In Kolibri we use the term "facility" to describe a set of user accounts, classes, and their associated data. Examples of facilities include schools, temporary learning hubs,  groups of distributed at-home learners, and other situations requiring continuity between learners' activities. At this step you can choose to create a new facility or import one from another device.
    
 Create a New Facility
 *********************
@@ -115,10 +115,10 @@ Create a New Facility
   	.. figure:: /img/enable-passwords.png
 	   :alt: Step 4 of 6.
 
-	   Select if learners must type in their passwords to sign in on Kolibri.
+	   Select if learners must type in their passwords to sign-in to Kolibri.
 
 
-#. **Create super admin account**. This admin user will be a **super admin**, able to manage not only the content, but also all users and  permissions in this facility.
+#. **Create super admin account**. This admin user will be a **super admin**, able to manage all the device content, and all the rest of the facility users and their permissions.
 
   	.. figure:: /img/super-admin.png
 	   :alt: Step 5 of 6.
@@ -126,10 +126,10 @@ Create a New Facility
 	   Select the username and password for the facility super admin.
 
 	.. tip::
-	  Make sure to save these super admin credentials in a safe place! Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
+	  Make sure to save these super admin credentials in a safe place!
 
 
-#. **Responsibilities of the administrator**. When you are setting up a Kolibri facility you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
+#. **Responsibilities of the administrator**. When you are setting up a Kolibri facility you need to take into consideration the relevant privacy laws and regulations. You as the **super admin**, or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup. 
 
   	.. figure:: /img/super-admin-resp.png
 	   :alt: Step 6 of 6.
@@ -145,11 +145,11 @@ Once you finish the initial setup, proceed to :ref:`import some learning resourc
 Import Facility
 ***************
 
-If you are part of a wider learning environment, where several learning facilities like schools or community centers are managed by one central organization, or you need to sync the learner progress data from your facility with another device where Kolibri is running, you can choose to import a facility that is already set up on that device.
+If you are part of a wider learning environment, or you need to sync the learner progress data from your facility with another device where Kolibri is running, you can choose to import a facility that is already set up on that device.
 
 #. Click :guilabel:`Import facility` button in the **Create or import facility** setup step. 
 
-#. Any device that has Kolibri running in the local network should appear in the **Select network address** window. Read more on how set up a local network in the `Kolibri Hardware Guide <https://learningequality.org/r/hardware-guide>`_.
+#. Any device that has Kolibri running in the local network should appear in the **Select network address** window.
 
 	Select the device and click the :guilabel:`Continue` button.
 
@@ -163,14 +163,14 @@ If you are part of a wider learning environment, where several learning faciliti
 			.. figure:: /img/initial-setup-add-device.png
 				:alt: Add the network address of the device manually.
 
-				Manually add the network address of the device.
+				Add the network address of the device manually.
 
-		.. warning:: **Firewals** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
+		.. warning:: **Firewals** may impede your ability to see other devices in your local network, or add them as source. If you are unable to see other devices, make sure to:
 
 			* disable the firewalls on all the devices that you need to sync
 			* restart Kolibri for broadcast to take effect
 
-#. **Select facility**. If there are several facilities on the device, select the one you want to import and provide the administrative credentials. 
+#. **Select facility**. If there several facilities on the device, select the one you want to import, and provide the administrative credentials. 
 
   	.. figure:: /img/initial-setup-select-facility-to-import.png
 	   :alt: Step 1 of 4.
@@ -184,11 +184,11 @@ If you are part of a wider learning environment, where several learning faciliti
   	.. figure:: /img/initial-setup-loading-facility.png
 	   :alt: Step 2 of 4.
 
-	   Facility successfully imported onto your device.
+	   Facility is imported on your device.
 
-#. **Create a super admin account**. The account you create in this step will be a **super admin for your device**, and be able to manage all the device content, all the facility users, and their permissions.
+#. **Create super admin account**. The account you create in this step will be a **super admin for your device**, and be able to manage all the device content, all the facility users, and their permissions.
 
- 	You can choose to create a new super admin account or to use the credentials of the super admin of the device from where you imported the facility.
+ 	You can choose to create a new super admin account, or to use the credentials of the super admin of the device from where you imported the facility.
 
   	.. figure:: /img/device-super-admin.png
 	   :alt: Step 3 of 4.
@@ -196,9 +196,9 @@ If you are part of a wider learning environment, where several learning faciliti
 	   Select the super admin account.
 
 	.. tip::
-	  Make sure to save the super admin credentials in a safe place! Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
+	  Make sure to save the super admin credentials in a safe place!
 
-#. **Responsibilities of the administrator**. When you are setting up a Kolibri facility, especially in formal environments like schools, you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
+#. **Responsibilities of the administrator**. When you are setting up a Kolibri facility, especially in formal environments like schools, you need to take into consideration the relevant privacy laws and regulations. You as the **super admin**, or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup. 
 
   	.. figure:: /img/super-admin-resp.png
 	   :alt: Step 4 of 4.

@@ -1,13 +1,8 @@
 :orphan:
 
-Page not found
-==============
+404
+===
 
-It seems you are searching for a topic that has been moved elsewhere in our documentation. Please try the following to find what you were looking for:
+We looked everywhere but we couldn't find that page!
 
-* Browse the table of content in the sidebar (use |menu| to open it if you are on the mobile device)
-* Use the search box
-  
-.. tip:: Make sure you are browsing the user guide for the `latest release of Kolibri <https://kolibri.readthedocs.io/en/latest/>`_.
-  
- We apologize for the inconvenience!
+Try using the links in the sidebar or the search box to find what you are looking for, or go to the homepage.

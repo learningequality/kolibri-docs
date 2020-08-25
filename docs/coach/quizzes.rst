@@ -12,7 +12,7 @@ You can view, create and delete quizzes, as well as assign them to learners, usi
 .. TO-DO (icon)
 
 .. note::
-  To manage **Quizzes** in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
+  To manage **Quizzes** |exams| in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Quiz

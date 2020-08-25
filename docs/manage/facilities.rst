@@ -3,23 +3,23 @@
 Facilities
 ##########
 
-You can import, sync and remove the facilities on your Kolibri device from the **Facilities** tab in your **Device** dashboard (|facilities| icon). 
+You can import, sync and remove the facilities on your Kolibri device from the **Facilities** tab in your **Device** dashboard ( icon). 
 
 .. TO-DO (icon)
 
 .. note::
-  To manage facilities on a given device, you must have the **super admin** permissions.
+  To manage facilities on the device you must have the **super admin** permissions.
 
 
 .. figure:: ../img/facilities.png
 	:alt: Open the Device page and navigate to Facilities tab.
 
-	Manage facilities on a device.
+	Manage the facilities on the device.
 
 Import Facility
 ***************
 
-If you are part of a wider learning environment (for example when several learning facilities like schools or community centers are managed by one central organization), and your device is used to store the data from other facilities that are offline, you must first import those facilities. Once you have imported the facility on your device, you can periodically connect to their local network and sync the learner progress data.
+If you are part of a wider learning environment, where your device is used to store the data from other facilities that are offline, you must import those facilities first. Once you have imported the facility on your device, you can periodically connect to their local network and sync the learner progress data.
 
 To import a facility on your device, follow these steps.
 
@@ -39,7 +39,7 @@ To import a facility on your device, follow these steps.
 			.. figure:: /img/import-facility-add-device.png
 				:alt: Add the network address of the device manually.
 
-				Manually add the network address of the device.
+				Add the network address of the device manually.
 
 #. **Select facility**. If there are several facilities on the source device, select the one you want to import. 
 
@@ -60,7 +60,7 @@ To import a facility on your device, follow these steps.
   	.. figure:: /img/import-facility-task.png
 	   :alt: 
 
-	   Facility is successfully imported on your device.
+	   Facility is imported on your device.
 
 #. When the import process is completed click the *Back to facilities* link and you will see the new facility on the list.
 
@@ -78,41 +78,35 @@ Sync Facility
 
 You can use the **Sync facility** feature for a variety of needs in both offline and online settings. 
 
-.. warning:: When syncing data between devices in the local network **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
+.. warning:: When syncing data between devices in the local network **you must make sure that they have the same channels and resources**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
 
-.. note:: **Examples of Data Syncing Scenarios**
+Examples of Syncing Scenarios
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	#.	**Roving Admin scenario**
+.. warning::
+	**TO-DO**
 
-		* Kolibri is installed on the central server for the Kolibri implementation. 
-		* Kolibri is installed on all learner devices along with the facility and resources from the central server, which are then distributed amongst learners.
-		* Admin travels to the communities along with the central server, updates the resources on learner devices, and syncs learner data with the central server.
-		* Syncing data
-			- At a designated interval, an administrator goes out to communities with the central server device for the Kolibri implementation. This device should be set up to create a WiFi hotspot, or be paired with a portable WiFi router (does not need to be internet enabled), to allow the learner devices to connect to it for peer-to-peer syncing.
-			- The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the X device, and imports new learning resources if needed.
+	**Parking lot scenario**
 
-	#.	**Admin at Kolibri hub**
-
-		* Kolibri is installed on a central server for the Kolibri implementation.
-		* Kolibri is installed on all learner devices and loaded with the facility and resources from the central server, and then distributed amongst learners.
-		* Learners periodically visit the Kolibri hub where an Admin syncs their devices to the central server and imports new resources onto their devices.
-		* Syncing data
-
-		    - The learner brings their device to the Kolibri Hub
-		    - The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the device, and imports new learning resources if needed.
+	- A school with 50 students has one device for every learner and coach.
+	- For a few hours every weekday, an admin is set up in a parking lot with a Kolibri server on a laptop and a strong local WiFi hotspot.
+	- On Fridays, coaches come to the parking lot and retrieve their learners' progress data from the previous week and submit new lessons for the next week.
+	- Monday through Thursday, learners or their guardians come to the parking lot to get the next week's lessons. During this time, coaches create lessons for the next week.
+	- Coaches may use out-of-band channels such as WhatsApp to provide guidance to the learners throughout the week.
 
 
-		Read our `Implementation models for distance learning with Kolibri v0.14 <http://le.fyi/014-models>`_ for more details to consider around the facility syncing strategies.
+	**Roaming Kolibri server for data collection**
 
-		.. TO-DO
+	- Non-profit organization supports 10 rural schools that have no internet connection.
+	- All schools have a Kolibri device and a local WiFi hotspot powered by solar battery.
+	- Each month someone from the supporting organization comes to offline schools with a *roaming* Kolibri server on a laptop with some updated channels and new resources from Kolibri Studio. They proceed to update the channels on the school device with new resources, and sync the school facility with an instance on the laptop to collect the data about learners' progress during the previous month.
 
 
-
-To sync  classes, groups, learner progress, and all  facility data with a device from which you previously imported it from, follow these steps.
+To sync the classes, groups, learner progress and all the facility data with the device from where you imported it, follow these steps.
 
 #. Click the :guilabel:`SYNC` button for the desired facility.
 #. Any device that has Kolibri running in the local network should appear in the **Select network address** window. Select the network address of the device you want to sync with. 
-#. Syncing process will start immediately and you will see the task progress bar in the **Facilities** page. When the sync process is completed you can open the task manager and review the size of the sent and received data.
+#. Syncing process will start immediately and you will see the task progress bar in the **Facilities** page. When the import process is completed you can open the task manager and review the size of the sent and received data.
    
 .. warning:: **Firewals** may impede your ability to see other devices in your local network, or add them as source. If you are unable to see other devices, make sure to:
 
@@ -127,8 +121,6 @@ If your Kolibri facility is part of a larger organization that tracks data on th
 
 #. Click the :guilabel:`OPTIONS` button and select the **Register** option, to :ref:`register your facility with the Kolibri Data Portal <sync_kdp>` (you must provide the project token). 
 #. Click the :guilabel:`SYNC ALL` button to sync all registered facilities to the Kolibri Data Portal.
-
-.. warning:: **Kolibri Data Portal** (KDP) is a new feature that is not yet broadly released. We are currently providing access to KDP to organizations on a contractual basis, and ultimately planning to offer this as a paid service by Learning Equality. 
   
 
 Remove Facility
@@ -143,4 +135,4 @@ To remove a facility from the device, follow these steps.
   	.. figure:: /img/remove-facility.png
 	   :alt: 
 
-.. warning:: When you remove a facility you will loose all its data. However,  if you have previously synced it to another device or to the Kolibri Data Portal, you should be able to recover the removed facility data.
+.. warning:: When you remove a facility you will loose all its data. However, if you previously synced it to another device or the Kolibri Data Portal, you should be able to load it again.

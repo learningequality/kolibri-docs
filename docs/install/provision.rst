@@ -26,24 +26,24 @@ Required hardware
 
 	* Working LAN (cabled is preferable to wireless, and ideally via a router that supports Gigabit ethernet).
 
-#. Active Internet connection to download the installer and preload channels on the first (“main”) server.
+#. Active Internet connection to download the installer and preload channels on the first (“master”) server.
 
-We recommend you install and preload channels on one server (referring to it as the *main* for the purpose of this procedure), and then copy the required folder structure to the rest of the devices.
+We recommend you install and preload channels on one server (referring to it as the *master* for the purpose of this procedure), and then copy the required folder structure to the rest of the devices.
 
-Copying the folders with channels from the main server hard drive to others via the USB 3 external drive might be faster, but copying via the cabled LAN connection may be done in parallel (from main to several others at the same time). You can combine these two options for the fastest results, if you have access to both cabled LAN and the USB external drives.
+Copying the folders with channels from the master server hard drive to others via the USB 3 external drive might be faster, but copying via the cabled LAN connection may be done in parallel (from master to several others at the same time). You can combine these two options for the fastest results, if you have access to both cabled LAN and the USB external drives.
 
-Provision the main server
+Provision the master server
 ---------------------------
 
-#. Install Kolibri on the main server by following the steps for your :ref:`chosen platform <install>`.
-#. Proceed with the :ref:`setup_initial` of the facility on the main server.
-#. :ref:`Import the desired channels <import_studio>` to preload it on the main server.
+#. Install Kolibri on the master server by following the steps for your :ref:`chosen platform <install>`.
+#. Proceed with the :ref:`setup_initial` of the facility on the master server.
+#. :ref:`Import the desired channels <import_studio>` to preload it on the master server.
 
 
 Kolibri folder structure
 ************************
 
-At this point you have the main server set-up and preloaded with channels. Before you proceed to copy the channels and the database to the rest of the server devices, let’s get familiar with the Kolibri folder structure.
+At this point you have the master server set-up and preloaded with channels. Before you proceed to copy the channels and the database to the rest of the server devices, let’s get familiar with the Kolibri folder structure.
 
 * On Windows, the main server database and all the files related to the channels are stored in the folder named ``.kolibri``, located in ``C:/Users/<username>/.kolibri/`` (if your main hard drive is ``C:``).
 
@@ -72,7 +72,7 @@ The contents of the ``.kolibri`` folder is the same for all platforms. Inside yo
 Prepare the ``.kolibri`` folder for copying
 *******************************************
 
-Before you proceed to copy the ``.kolibri`` folder from the main server hard drive (which already contains channels), to the rest of the server devices for your implementation, you need to **deprovision** (that is, empty out) the user database.
+Before you proceed to copy the ``.kolibri`` folder from the master server hard drive (which already contains channels), to the rest of the server devices for your implementation, you need to **deprovision** (that is, empty out) the user database.
 
 .. warning:: This is a critical step, to ensure that each destination server has a unique **Facility ID** (and name) associated with it.
 
@@ -98,7 +98,7 @@ Copy the channels to other server devices
 -----------------------------------------
 
 .. warning::
-	#. Independent from the copying procedure you decide to use, you should first proceed to :ref:`install Kolibri <install>` on each of the destination devices, following the same steps as for the main server, **but you don’t need to go through the Initial Setup**.
+	#. Independent from the copying procedure you decide to use, you should first proceed to :ref:`install Kolibri <install>` on each of the destination devices, following the same steps as for the master server, **but you don’t need to go through the Initial Setup**.
 
 	#. After the installation you must **stop Kolibri** on the destination device, before you proceed to copy the channels.
 
@@ -116,10 +116,10 @@ Copy the channels to other server devices
 Use the external USB drive to copy channels
 *******************************************
 
-#. Copy the ``.kolibri`` folder from the main server hard drive, and paste it on the external USB drive.
+#. Copy the ``.kolibri`` folder from the master server hard drive, and paste it on the external USB drive.
 #. Copy the ``.kolibri`` folder from the USB drive, and paste it inside the destination device hard drive.
 
-	.. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the main server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
+	.. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the master server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
 
 	.. warning:: You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it.
 
@@ -127,20 +127,20 @@ Use the external USB drive to copy channels
 Use the cabled LAN connection to copy channels
 **********************************************
 
-#. Connect all the devices, main server and the others where you need to copy the channels on, to the same local area network (LAN).
+#. Connect all the devices, master server and the others where you need to copy the channels on, to the same local area network (LAN).
 
-	Configure the network access on the main server, so the rest of the devices can:
+	Configure the network access on the master server, so the rest of the devices can:
 
 	* See it among their Network locations in the Windows Explorer
 	* Open it and freely browse its shared folders (``.kolibri`` folder should be shared)
 
-#. Use the Windows or File Explorer on each destination device to copy the ``.kolibri`` folder from the main server hard drive, and paste it inside the destination device hard drive.
+#. Use the Windows or File Explorer on each destination device to copy the ``.kolibri`` folder from the master server hard drive, and paste it inside the destination device hard drive.
 
-	.. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the main server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
+	.. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the master server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
 
 	.. warning:: You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it.
 
-#. You should be able to access the main server from several other destination servers through the LAN, and copy the ``.kolibri`` folder at the same time.
+#. You should be able to access the master server from several other destination servers through the LAN, and copy the ``.kolibri`` folder at the same time.
 
 
 Restart Kolibri servers on destination devices
@@ -149,4 +149,4 @@ Restart Kolibri servers on destination devices
 * On Windows double-click the desktop shortcut to start Kolibri after copying channels. You will see the notification message *Kolibri is starting, please wait…*. When you see the next notification that *Kolibri is running…*, Kolibri will open in the browser with the URL ``http://127.0.0.1:8080``.
 * On Linux open the Terminal and run ``kolibri start`` or ``sudo service kolibri start`` (if you installed Kolibri to run as the system service).
 
-Since the deprovision command emptied the user database on the main server, you will need to perform  the :ref:`setup_initial` on each destination device to set their **Facility** name and the super admin account. The Facility name could be the name of the learning center or school in which the respective server will be implemented.
+Since the deprovision command emptied the user database on the master server, you will need to perform  the :ref:`setup_initial` on each destination device to set their **Facility** name and the super admin account. The Facility name could be the name of the learning center or school in which the respective server will be implemented.

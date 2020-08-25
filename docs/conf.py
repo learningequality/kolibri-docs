@@ -186,6 +186,7 @@ rst_prolog = """
 .. |users| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">people</span><span class="visuallyhidden">Users</span>`
 .. |groups| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">group_work</span><span class="visuallyhidden">Groups</span>`
 .. |recent| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">access_time</span><span class="visuallyhidden">Recent</span>`
+.. |exams| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assignment_late</span><span class="visuallyhidden">Quizzes</span>`
 .. |channels| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">apps</span><span class="visuallyhidden">Channels</span>`
 .. |settings| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">settings</span><span class="visuallyhidden">Settings</span>`
 .. |data| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">save</span><span class="visuallyhidden">Data</span>`
@@ -206,8 +207,6 @@ rst_prolog = """
 .. |class-home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">dashboard</span><span class="visuallyhidden">Class home</span>`
 .. |reports| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assessment</span><span class="visuallyhidden">Reports</span>`
 .. |drag| replace:: :raw-html:`<span class="material-icons drag" aria-hidden="true">drag_indicator</span>`
-.. |facilities| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">domain</span><span class="visuallyhidden">Facilities</span>`
-.. |menu| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">menu</span><span class="visuallyhidden">Menu</span>`
 .. |on-device| image:: ../img/on-device.png
    :alt: On your device
 .. |green-check| image:: /img/on-device.png
@@ -228,8 +227,6 @@ rst_prolog = """
    :alt: Print
 .. |export| image:: /img/export.png
    :alt: Export
-.. |exams| image:: /img/quiz-icon.png
-   :alt: Quizzes
 
 """
 
