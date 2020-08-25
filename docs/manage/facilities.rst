@@ -82,24 +82,29 @@ You can use the **Sync facility** feature for a variety of needs in both offline
 
 .. note:: **Examples of Data Syncing Scenarios**
 
-	**Roving Admin scenario**
+	#.	**Roving Admin scenario**
+
+		* Kolibri is installed on the central server for the Kolibri implementation. 
+		* Kolibri is installed on all learner devices along with the facility and resources from the central server, which are then distributed amongst learners.
+		* Admin travels to the communities along with the central server, updates the resources on learner devices, and syncs learner data with the central server.
+		* Syncing data
+			- At a designated interval, an administrator goes out to communities with the central server device for the Kolibri implementation. This device should be set up to create a WiFi hotspot, or be paired with a portable WiFi router (does not need to be internet enabled), to allow the learner devices to connect to it for peer-to-peer syncing.
+			- The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the X device, and imports new learning resources if needed.
+
+	#.	**Admin at Kolibri hub**
+
+		* Kolibri is installed on a central server for the Kolibri implementation.
+		* Kolibri is installed on all learner devices and loaded with the facility and resources from the central server, and then distributed amongst learners.
+		* Learners periodically visit the Kolibri hub where an Admin syncs their devices to the central server and imports new resources onto their devices.
+		* Syncing data
+
+		    - The learner brings their device to the Kolibri Hub
+		    - The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the device, and imports new learning resources if needed.
 
 
-	* Kolibri is installed on the central server for Kolibri implementation. 
-	* Kolibri is installed on all learner devices along with the facility and content from the central server, which are then distributed. amongst learners 
-	* Admin travels to the communities along with the central server, updates the content on learner devices, and syncs learner data with the central server.
+		Read our `Implementation models for distance learning with Kolibri v0.14 <https://learningequality.org/r/implementation-guide>`_ for more details to consider around the facility syncing strategies.
 
-
-	**Admin at Kolibri hub**
-
-
-	* Kolibri is installed on a central server for Kolibri implementation.
-	* Kolibri is installed on all learner devices along with the facility and content from the central server, which are then distributed amongst learners. 
-	* Learners periodically visit the Kolibri hub where an Admin syncs learner devices to the central server and imports new content on the learner devices.
-
-	Read our `Implementation models for distance learning with Kolibri v0.14 <https://learningequality.org/r/implementation-guide>`_ for more details to consider around the facility syncing strategies.
-
-	.. TO-DO
+		.. TO-DO
 
 
 To sync  classes, groups, learner progress, and all  facility data with a device from which you previously imported it from, follow these steps.
