@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series. 
-DISPLAY_VERSION = "0.4.x"
+DISPLAY_VERSION = "0.4"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -164,7 +164,7 @@ rst_prolog = """
 .. |pencil| replace:: :raw-html:`<span class="fa fa-pencil" aria-hidden="true"></span><span class="visuallyhidden">Edit</span>`
 .. |arrow-right| replace:: :raw-html:`<span class="fa fa-arrow-right" aria-hidden="true"></span><span class="visuallyhidden">See next</span>`
 .. |arrow-left| replace:: :raw-html:`<span class="fa fa-arrow-left" aria-hidden="true"></span><span class="visuallyhidden">See previous</span>`
-.. |menu| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">menu</span><span class="visuallyhidden">Menu</span>`
+.. |menu| replace:: :raw-html:`<span class="fa fa-bars" aria-hidden="true"></span><span class="visuallyhidden">Menu</span>`
 
 """
 
