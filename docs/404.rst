@@ -9,7 +9,7 @@ It seems you are searching for a topic that has been moved elsewhere in our docu
 * Use the search box
 
 
-Use |menu| to open the table of contents if you are on the mobile device.
+*Use |menu| button to open the table of contents if you are on the mobile device.*
 
 .. tip:: Make sure you are browsing the user guide for the `latest release of Kolibri <https://kolibri.readthedocs.io/en/latest/>`_.
 
