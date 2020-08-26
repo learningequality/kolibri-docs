@@ -16,9 +16,9 @@ ContentDB Diagram
 .. image:: ../img/content_distributed_db.png
 .. Source: https://www.draw.io/#G0B5xDzmtBJIQlNlEybldiODJqUHM
 
-**PK = Primary Key
-**FK = Foreign Key
-**M2M = ManyToManyField
+* PK = Primary Key
+* FK = Foreign Key
+* M2M = ManyToManyField
 
 ContentTag
 ----------
