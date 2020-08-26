@@ -44,8 +44,6 @@ References
 .. toctree::
   :maxdepth: 1
 
-  cli
   files
   glossary
   building
-  ../py_modules/modules
