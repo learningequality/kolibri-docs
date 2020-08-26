@@ -24,6 +24,11 @@ cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
 
+extensions = [
+    'sphinx.ext.autodoc',
+    'notfound.extension',
+]
+
 builddir = os.path.join(cwd, '_build')
 
 # -- General configuration -----------------------------------------------------

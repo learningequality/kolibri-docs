@@ -1,3 +1,5 @@
+:orphan:
+
 The ``kolibri`` command
 =======================
 
@@ -21,7 +23,3 @@ In addition to the docs displayed below, there are some special forms of the ``k
 .. note::
 
   The commands above reload the Python code on changes, but they do *not* run python tests.
-
-.. automodule:: kolibri.utils.cli
-  :undoc-members:
-  :show-inheritance:
