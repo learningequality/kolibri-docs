@@ -3,7 +3,7 @@ Manual Testing & QA
 ===================
 
 Accessibility (A11Y) Testing
----------------------
+----------------------------
 
 Inclusive design benefits all users, and we strive to make Kolibri accessible for all. Testing for accessibility can be challenging, but there are a few features you should check for before submitting your PR:
 

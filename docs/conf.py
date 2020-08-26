@@ -26,6 +26,7 @@ sys.path.insert(0, os.path.abspath(parent))
 
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx_rtd_theme',
     'notfound.extension',
 ]
 
@@ -163,7 +164,7 @@ rst_prolog = """
 .. |pencil| replace:: :raw-html:`<span class="fa fa-pencil" aria-hidden="true"></span><span class="visuallyhidden">Edit</span>`
 .. |arrow-right| replace:: :raw-html:`<span class="fa fa-arrow-right" aria-hidden="true"></span><span class="visuallyhidden">See next</span>`
 .. |arrow-left| replace:: :raw-html:`<span class="fa fa-arrow-left" aria-hidden="true"></span><span class="visuallyhidden">See previous</span>`
-.. |menu| replace:: :raw-html:``<span class="fa fa-bars" aria-hidden="true"></span><span class="visuallyhidden">Menu</span>`
+.. |menu| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">menu</span><span class="visuallyhidden">Menu</span>`
 
 """
 
