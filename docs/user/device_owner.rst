@@ -17,7 +17,7 @@ In order to manage Kolibri content channels, data and users, you must first crea
 
 
 Adding a New Device Owner
-----------------------
+-------------------------
 
 In case you need to create another super-user (e.g. you lost the password for the old one), run the following command (open the ``cmd.exe`` command prompt in Windows or terminal in linux):
 

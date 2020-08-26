@@ -264,7 +264,7 @@ We use `pre-commit <http://pre-commit.com/>`_ to help ensure consistent, clean c
 
 
 Development
-----------
+-----------
 
 Linting
 ~~~~~~~
