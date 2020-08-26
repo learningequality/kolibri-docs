@@ -28,6 +28,7 @@ Once you have logged in into Kolibri, you can see and edit your user data from t
 
 To logout from Kolibri you can either:
 	* Click the user icon in the upper right corner and select **Sign out** option.
+	
 	OR
 
 	* Select **Sign out** option in the main menu.

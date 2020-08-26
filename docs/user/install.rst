@@ -58,5 +58,6 @@ While **Kolibri server** is up and running, other devices (computers, tablets, e
 * To access the content on the same device/computer where **Kolibri server** is running, open the browser at the address http://127.0.0.1:8080/.
 
 * To access the content from other devices in the same network, you need to know the IP address of one where where **Kolibri server** is running. For example, if **Kolibri server** is on a device/computer with IP address **192.168.0.104**, you can access it from others in the same network at the address http://192.168.0.104:8080.
+
 .. note::
   Use the ``ipconfig`` command on Windows or ``ipconfig`` command on Linux to find out the IP address of the device running the **Kolibri server**.
