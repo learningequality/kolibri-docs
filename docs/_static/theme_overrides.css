@@ -218,3 +218,8 @@ img {
 .admonition {
   clear: both;
 }
+
+/* push down the RTD banner so it's not confused with menu */
+.keep-us-sustainable {
+  margin-top: 20em !important;
+}
