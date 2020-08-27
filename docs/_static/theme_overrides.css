@@ -36,3 +36,8 @@
 img {
 	height: 1.2em;
 	vertical-align: text-bottom;
+
+/* push down the RTD banner so it's not confused with menu */
+.keep-us-sustainable {
+  margin-top: 20em !important;
+}
