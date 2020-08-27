@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.11.0.dev"
+DISPLAY_VERSION = "0.11"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -23,6 +23,11 @@ DISPLAY_VERSION = "0.11.0.dev"
 cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
+
+extensions = [
+    'sphinx_rtd_theme',
+    'notfound.extension',
+]
 
 builddir = os.path.join(cwd, '_build')
 
@@ -186,6 +191,7 @@ rst_prolog = """
 .. |fullscreen| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">fullscreen</span><span class="visuallyhidden">Enter fullscreen</span>`
 .. |previous-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_left</span><span class="visuallyhidden">Previous page</span>`
 .. |next-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_right</span><span class="visuallyhidden">Next page</span>`
+.. |menu| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">menu</span><span class="visuallyhidden">Menu</span>`
 .. |on-device| image:: img/on-device.png
    :alt: On your device
 .. |green-check| image:: img/on-device.png
