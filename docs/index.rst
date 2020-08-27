@@ -2,25 +2,9 @@ Getting Started
 ---------------
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
 
   user/index
-  dev/index
-  changelog
-  contributing/index
-  authors
-
-Kolibri
-=======
-
-.. image:: https://badge.fury.io/py/kolibri.svg
-   :target: https://pypi.python.org/pypi/kolibri/
-.. image:: https://travis-ci.org/learningequality/kolibri.svg
-  :target: https://travis-ci.org/learningequality/kolibri
-.. image:: http://codecov.io/github/learningequality/kolibri/coverage.svg?branch=master
-  :target: http://codecov.io/github/learningequality/kolibri?branch=master
-.. image:: https://readthedocs.org/projects/kolibri/badge/?version=latest
-  :target: http://kolibri.readthedocs.org/en/latest/
 
 
 What is Kolibri?
@@ -39,21 +23,3 @@ insight (like "next lesson" recommendations), and to allow user data to be synce
 thus a Kolibri learner can use his or her credentials on any linked Kolibri installation, for instance on different
 devices at a school.
 
-See https://learningequality.org/kolibri/ for more info.
-
-
-How can I use it?
------------------
-
-Kolibri is under active development and is not yet ready to be used. In the meantime, take a look at `KA-Lite <https://learningequality.org/ka-lite/>`_, Kolibri's predecessor which is already deployed around the world.
-
-
-How can I contribute?
----------------------
-
-.. warning::
-  We welcome new contributors but since **Kolibri** is still in development, the API is not yet completely ready to integrate external plugins. Please start by:
-
-* Reading our `Developer Documentation <http://kolibri.readthedocs.io/en/develop/dev/getting_started.html>`_ available online, and in the ``docs/`` directory.
-* Contacting us on the Mailing list: `Google groups <https://groups.google.com/a/learningequality.org/forum/#!forum/dev>`_.
-* or via IRC: #kolibri on Freenode.

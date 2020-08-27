@@ -32,74 +32,6 @@ cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
 
-# This import *must* come after the path insertion, otherwise sphinx won't be able to find the kolibri module
-import kolibri  # noqa
-
-builddir = os.path.join(cwd, '_build')
-
-# When we start loading stuff from kolibri, we're gonna need this
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kolibri.deployment.default.settings.base")
-os.environ["KOLIBRI_HOME"] = os.path.join(builddir, 'kolibri_home')
-
-sys.path.append(os.path.join(os.path.dirname(kolibri.__file__), "dist"))
-
-print(sys.path)
-
-import django
-from django.utils.html import strip_tags
-from django.utils.encoding import force_text
-
-if not os.path.exists(os.environ["KOLIBRI_HOME"]):
-    os.mkdir(os.environ["KOLIBRI_HOME"])
-
-django.setup()
-
-# Monkey patch this so we don't have any complaints during Sphinx inspect
-from django.db.models.fields import files  # noqa
-files.FileDescriptor.__get__ = lambda *args: None
-
-
-# Auto list fields from django models - from https://djangosnippets.org/snippets/2533/#c5977
-def process_docstring(app, what, name, obj, options, lines):
-    # This causes import errors if left outside the function
-    from django.db import models
-
-    # Only look at objects that inherit from Django's base model class
-    if inspect.isclass(obj) and issubclass(obj, models.Model):
-        # Grab the field list from the meta class
-        fields = obj._meta.get_fields()
-
-        for field in fields:
-            # Skip ManyToOneRel and ManyToManyRel fields which have no 'verbose_name' or 'help_text'
-            if not hasattr(field, 'verbose_name'):
-                continue
-
-            # Decode and strip any html out of the field's help text
-            help_text = strip_tags(force_text(field.help_text))
-
-            # Decode and capitalize the verbose name, for use if there isn't
-            # any help text
-            verbose_name = force_text(field.verbose_name).capitalize()
-
-            if help_text:
-                # Add the model field to the end of the docstring as a param
-                # using the help text as the description
-                lines.append(u':param %s: %s' % (field.attname, help_text))
-            else:
-                # Add the model field to the end of the docstring as a param
-                # using the verbose name as the description
-                lines.append(u':param %s: %s' % (field.attname, verbose_name))
-
-            # Add the field's type to the docstring
-            if isinstance(field, models.ForeignKey):
-                to = field.rel.to
-                lines.append(u':type %s: %s to :class:`~%s`' % (field.attname, type(field).__name__, to))
-            else:
-                lines.append(u':type %s: %s' % (field.attname, type(field).__name__))
-
-    return lines
-
-
 # -- General configuration -----------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -108,6 +40,8 @@ def process_docstring(app, what, name, obj, options, lines):
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx_rtd_theme', 'notfound.extension',]
+
+builddir = os.path.join(cwd, '_build')
 
 linkcheck_ignore = [
     'https://groups.google.com/a/learningequality.org/forum/#!forum/dev',
@@ -237,8 +171,6 @@ html_static_path = ['_static']
 # and https://github.com/altair-viz/altair/pull/418/files
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
 def setup(app):
-    # Register the docstring processor with sphinx
-    app.connect('autodoc-process-docstring', process_docstring)
     # Add our custom CSS overrides
     app.add_stylesheet('theme_overrides.css')
 

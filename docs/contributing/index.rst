@@ -4,8 +4,6 @@ Contributing
 
 .. _contributing:
 
-.. include:: ../../CONTRIBUTING.rst
-
 
 Code of conduct
 ===============
