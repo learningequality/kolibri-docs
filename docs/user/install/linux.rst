@@ -10,7 +10,7 @@ Linux
 Install
 -------
 
-#. Download the Kolibri :url-deb-installer:`Linux installer <>`.
+#. Download Kolibri.
 #. Run the command:
 
   .. code-block:: bash

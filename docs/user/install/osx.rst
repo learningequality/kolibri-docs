@@ -10,7 +10,7 @@ OSX
 Install
 -------
 
-#. Download the Kolibri :url-osx-installer:`OSX installer <>`.
+#. Download Kolibri.
 #. Double-click the downloaded ``.pkg`` file.
 #. Follow the instructions in the installation wizard window.
 #. Once you have Kolibri installed on your system, proceed with the :ref:`initial_setup` of your facility. 

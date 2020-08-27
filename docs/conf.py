@@ -21,7 +21,7 @@ from datetime import datetime
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.6.x"
+DISPLAY_VERSION = "0.6"
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -107,7 +107,7 @@ def process_docstring(app, what, name, obj, options, lines):
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx_rtd_theme', 'notfound.extension',]
 
 linkcheck_ignore = [
     'https://groups.google.com/a/learningequality.org/forum/#!forum/dev',
