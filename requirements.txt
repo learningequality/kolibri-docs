@@ -4,3 +4,4 @@ sphinx_rtd_theme
 sphinx-intl
 sphinx-autobuild
 sphinx-version-warning
+sphinx-notfound-page
