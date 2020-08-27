@@ -38,7 +38,7 @@ Install from PPA repository
 
     kolibri start
 	
-6. When command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+6. When command finishes, open the default browser at ``http://127.0.0.1:8080`` and proceed with the :ref:`setup_initial` of your facility. 
 
 
 Uninstall

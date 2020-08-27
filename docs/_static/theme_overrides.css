@@ -1,4 +1,9 @@
 
+/* push down the RTD banner so it's not confused with menu */
+.keep-us-sustainable {
+  margin-top: 20em !important;
+}
+
  .wy-table-responsive table td {
     /* !important prevents the common CSS stylesheets from overriding
        this as on RTD they are loaded after this stylesheet */
