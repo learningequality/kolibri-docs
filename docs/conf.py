@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.12.8"
+DISPLAY_VERSION = "0.12"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -27,6 +27,7 @@ sys.path.insert(0, os.path.abspath(parent))
 extensions = [
     'sphinx.ext.todo',
     'sphinx_rtd_theme',
+    'notfound.extension',
 ]
 
 builddir = os.path.join(cwd, '_build')
@@ -38,6 +39,7 @@ linkcheck_ignore = [
     'http://127.0.0.1:8080',
     'http://127.0.0.1:8080/',
     'https://www.kiwix.org',
+    'https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -199,6 +201,7 @@ rst_prolog = """
 .. |class-home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">dashboard</span><span class="visuallyhidden">Class home</span>`
 .. |reports| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assessment</span><span class="visuallyhidden">Reports</span>`
 .. |drag| replace:: :raw-html:`<span class="material-icons drag" aria-hidden="true">drag_indicator</span>`
+.. |menu| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">menu</span><span class="visuallyhidden">Menu</span>`
 .. |on-device| image:: img/on-device.png
    :alt: On your device
 .. |green-check| image:: /img/on-device.png
