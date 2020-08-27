@@ -18,7 +18,7 @@ Install
     chmod +x kolibri-installer-filename.pex
     ./kolibri-installer-filename.pex start
 
-#. Once the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+#. Once the command finishes, open the default browser at ``http://127.0.0.1:8080`` and proceed with the :ref:`setup_initial` of your facility. 
 
 
 Uninstall

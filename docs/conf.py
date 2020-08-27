@@ -14,7 +14,7 @@ import sys
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.7.x"
+DISPLAY_VERSION = "0.7"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -24,12 +24,18 @@ cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
 
+extensions = [
+    'sphinx_rtd_theme',
+    'notfound.extension',
+]
+
 builddir = os.path.join(cwd, '_build')
 
 # -- General configuration -----------------------------------------------------
 
 linkcheck_ignore = [
     'https://groups.google.com/a/learningequality.org/forum/#!forum/dev',
+    'https://blog.learningequality.org/',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -158,6 +164,7 @@ rst_prolog = """
 .. |pencil| replace:: :raw-html:`<span class="fa fa-pencil" aria-hidden="true"></span><span class="visuallyhidden">Edit</span>`
 .. |arrow-right| replace:: :raw-html:`<span class="fa fa-arrow-right" aria-hidden="true"></span><span class="visuallyhidden">See next</span>`
 .. |arrow-left| replace:: :raw-html:`<span class="fa fa-arrow-left" aria-hidden="true"></span><span class="visuallyhidden">See previous</span>`
+.. |menu| replace:: :raw-html:`<span class="fa fa-bars" aria-hidden="true"></span><span class="visuallyhidden">Menu</span>`
 
 """
 
