@@ -2,4 +2,5 @@
 sphinx
 sphinx_rtd_theme
 sphinx-intl
+sphinx-notfound-page
 kolibri>=0.6,<0.7

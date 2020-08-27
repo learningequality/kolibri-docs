@@ -8,7 +8,7 @@ To install or uninstall Kolibri on Windows, follow these steps.
 Install
 -------
 
-#. Download the Kolibri :url-windows-installer:`Windows installer <>`.
+#. Download Kolibri.
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
 #. Follow the instructions in the installation wizard window.

@@ -133,10 +133,6 @@ Collections
 For particular views on a data table (which could range from 'show me everything' to 'show me all content nodes with titles starting with "p"') - Collections are used.
 Collections are a cached view onto the data table, which are populated by Models - so if a Model that has previously been fetched from the server by a Collection is requested from :code:`getModel`, it is already cachced.
 
-.. code-block:: javascript
-  // corresponds to /api/content/<channelId>/contentnode/?popular=1
-  const contentCollection = ContentNodeResource.getCollection({ channel_id: channelId }, { popular: 1 });
-
 The first argument defines any additional required :code:`resourceIdentifiers` that we need to build up the URL, while the second argument defines the GET parameters that are used to define the filters to be applied to the data and hence the subset of the data that the Collection represents.
 
 We now have a reference for a representation of this data on the server. To ensure that it has data from the server, we can call :code:`fetch` on it, this will resolve to an array of the returned data objects

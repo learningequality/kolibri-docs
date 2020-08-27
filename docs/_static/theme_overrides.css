@@ -1,7 +1,13 @@
 
- .wy-table-responsive table td {
-    /* !important prevents the common CSS stylesheets from overriding
-       this as on RTD they are loaded after this stylesheet */
-    white-space: normal !important;
-    vertical-align: top !important;
- }
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* push down the RTD banner so it's not confused with menu */
+.keep-us-sustainable {
+  margin-top: 20em !important;
+}
+
+/* !important prevents the common CSS stylesheets from overriding this as on RTD they are loaded after this stylesheet */
+.wy-table-responsive table td {
+	white-space: normal !important;
+	vertical-align: top !important;
+}

@@ -40,8 +40,6 @@ References
   :maxdepth: 1
 
   upgrade
-  cli
   files
   glossary
-  building
-  ../py_modules/modules
+  
