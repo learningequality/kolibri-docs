@@ -1,0 +1,15 @@
+Database ID (UUID),Username (USERNAME),Password (PASSWORD),Full name (FULL_NAME),User type (USER_TYPE),Identifier (IDENTIFIER),Birth year (BIRTH_YEAR),Gender (GENDER),Learner enrollment (ENROLLED_IN),Coach assignment (ASSIGNED_TO)
+,marcg,*,Marc G.,LEARNER,,2005,MALE,Primera,
+,peterb,*,Peter B.,LEARNER,,2006,MALE,Primera,
+,neelar,*,Neela R.,CLASS_COACH,,,,Primera,"Primera, Segunda"
+,karryw,*,Karry W.,ADMIN,,,,Primera,
+,michaelg,*,Michael G.,LEARNER,,2006,MALE,Primera,
+,susanl,*,Susan L.,LEARNER,,2006,FEMALE,"Primera, Segunda",
+,johnc,*,John C.,LEARNER,,2006,MALE,"Primera, Segunda",
+,carolh,*,Carol H.,LEARNER,,2006,FEMALE,"Primera, Segunda",
+,lizzyc,*,Lizzy C.,LEARNER,,2006,FEMALE,"Primera, Segunda",
+,robertr,*,Robert R.,LEARNER,,2007,MALE,Segunda,
+,lukak,*,Luka K.,LEARNER,,2008,MALE,Segunda,
+,abbyl,*,Abby L.,FACILITY_COACH,,,,Segunda,
+,gregp,*,Greg P.,LEARNER,,2007,MALE,Segunda,
+,rayb,*,Ray B.,LEARNER,,2007,MALE,Segunda,

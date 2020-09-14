@@ -9,10 +9,10 @@ Kolibri users by default can be divided in 3 different roles with respective acc
 | Default user roles                                                                                   |
 +======================================================================================================+
 | **Learners** can:                                                                                    |
-|  * View content and have their progress tracked                                                      | 
+|  * View resources and have their progress tracked                                                    | 
 +------------------------------------------------------------------------------------------------------+
 | **Coaches** can:                                                                                     |
-|  * View content and have their progress tracked                                                      |
+|  * View resources and have their progress tracked                                                    |
 |  * View *Coach* dashboard and track progress of other users and usage stats for individual exercises |
 |  * Create/Edit/Delete *Groups* in *Classes* and add users to them                                    |
 |  * Create/Edit/Delete *Quizzes* and assign them to users                                             |
@@ -21,7 +21,7 @@ Kolibri users by default can be divided in 3 different roles with respective acc
 |  *Facility coaches* have access to all classes, *class coaches* only to ones they are assigned to    |
 +------------------------------------------------------------------------------------------------------+
 | **Admins** can:                                                                                      |
-|  * View content and have their progress tracked                                                      |
+|  * View resources and have their progress tracked                                                    |
 |  * View *Coach* dashboard and track progress of other users and usage stats for individual exercises |
 |  * Create/Edit/Delete other **admins**, **coaches**, and **learners**                                |
 |  * Create/Edit/Delete *Classes* and enroll users in them                                             |
@@ -38,7 +38,7 @@ Kolibri Super Admins
 Kolibri **super admin** users have all device permissions, and are able to :ref:`assign them to other users <permissions>`. Therefore **super admin** users can:
 
 +------------------------------------------------------------------------------------------------------+
-|  * View content and have their progress tracked                                                      |
+|  * View resources and have their progress tracked                                                    |
 |  * View *Coach* dashboard and track progress of other users and usage stats for individual exercises |
 |  * Create/Edit/Delete other **admins**, **coaches**, and **learners**                                |
 |  * Create/Edit/Delete *Classes* and enroll users in them                                             |
@@ -57,4 +57,4 @@ Kolibri **super admin** users have all device permissions, and are able to :ref:
 Assign Additional Permissions
 -----------------------------
 
-By default, only **super admin** users can view the **Device** dashboard, import/export **Content** channels in Kolibri, and modify **Permissions** for other users. However, depending on the needs of the institution, **super admin** users can also :ref:`grant these permissions <permissions>` to other users.
+By default, only **super admin** users can view the **Device** dashboard, import/export channels in Kolibri, and modify **Permissions** for other users. However, depending on the needs of the institution, **super admin** users can also :ref:`grant these permissions <permissions>` to other users.

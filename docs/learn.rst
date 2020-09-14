@@ -19,13 +19,21 @@ Sign in to Kolibri
 
 To sign in to **Kolibri** and start learning, follow these steps:
 
-#. Type your username and password (may be optional).
-#. Click the :guilabel:`SIGN IN` button.
+#. Click the :guilabel:`SIGN IN` button if you already have an account and the username.
 
 	.. figure:: img/login-modal.png
 	  :alt: Input your username and password (if required) on the main sign in page.
 
 	  Main Kolibri sign in page.
+
+	If you have used the same device before, you may see the field to directly type in your username and password (if required) on the main sign in page.
+
+	If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
+
+	.. figure:: img/login-modal-facility.png
+	  :alt: 
+
+	  Select facility on the Kolibri sign in page.
 
 
 .. _sign_in_page:
@@ -33,16 +41,16 @@ To sign in to **Kolibri** and start learning, follow these steps:
 .. warning::
    If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
 
-.. figure:: img/learn-page-signin.png
-  :alt: Open the sidebar to access the sign in link.
+	.. figure:: img/learn-page-signin.png
+	  :alt: Open the sidebar to access the sign in link.
 
-  "Sign in" link in the sidebar.
+	  "Sign in" link in the sidebar.
 
 
-.. figure:: img/learn-page-signin2.png
-  :alt: Open the user menu to access the sign in link.
+	.. figure:: img/learn-page-signin2.png
+	  :alt: Open the user menu to access the sign in link.
 
-  "Sign in" link in the user menu.
+	  "Sign in" link in the user menu.
 
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below **Learn**), or from the user menu.
@@ -73,6 +81,11 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 
 #. Click the :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
+#. If there is more than one facility on the server device, make sure that the one where you want to create an account is visible under the *Facility* heading. If it is not, use the browser *back* button, and select the correct facility first.
+		
+		.. figure:: img/create-account.png
+		 :alt: 
+
 #. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
 #. Click the :guilabel:`CONTINUE` button.
 #. Select your birth year and gender. This information is optional, and you can choose not to provide it.
@@ -106,7 +119,7 @@ Channels
 
 Use this tab (|channels| icon) to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
 
-Depending on how your school and teachers or coaches decided to organize the content, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the content from each available channel.
+Depending on how your school and teachers or coaches decided to organize the materials, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the resources from each available channel.
 
 	.. figure:: img/channels.png
 	  :alt: 
@@ -123,7 +136,7 @@ In this tab (|recommended| icon) you can see various sections:
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
 
-The number of displayed content items in each row will depend on the width of your display, and you can browse with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows.
+The number of displayed resources in each row will depend on the width of your display, and you can browse with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows.
 
 	.. figure:: img/learn.png
 		:alt: 
@@ -152,7 +165,7 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 
 #. Type the word or combination of words you are looking for in the search field located in the top bar.
 #. Press :guilabel:`Enter` or click the |search| button to display the results.
-#. Filter the search results by channel or type of content.
+#. Filter the search results by channel or type of resource.
 
 	.. figure:: img/search.png
 		:alt: Use the select controls to filter the results by channel or type.
@@ -172,10 +185,10 @@ Some Kolibri resources may be duplicated in different topics and/or channels. Se
 
 .. _content_types:
 
-Content types
-^^^^^^^^^^^^^
+Types or resources
+^^^^^^^^^^^^^^^^^^
 
-You may see different types of content available in Kolibri channels, and you can easily distinguish them by their icons:
+You may see different types of resources available in Kolibri channels, and you can easily distinguish them by their icons:
 
 * Videos - |video-icon|
 * Exercises - |exercise-icon|
@@ -237,7 +250,7 @@ To play videos and listen to audio files in Kolibri you have several available c
 * Fullscreen button
 
 
-Use the :guilabel:`DOWNLOAD CONTENT` button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
+Use the :guilabel:`DOWNLOAD RESOURCE` button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
 
 Interactive Video Transcript
 ****************************
@@ -263,7 +276,7 @@ PDF Viewer options
 * Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
 * With the :guilabel:`+` and :guilabel:`-` buttons you can zoom the document in and out.
 * Use the :guilabel:`Esc` key to close the fullscreen view and return.
-* Use the :guilabel:`DOWNLOAD CONTENT` button below the PDF viewer to download the PDF file to your computer.
+* Use the :guilabel:`DOWNLOAD RESOURCE` button below the PDF viewer to download the PDF file to your computer.
 
 	.. figure:: img/pdf.png
 		:alt: 
@@ -280,7 +293,7 @@ To read digital books in Kolibri you have several available controls inside the 
 * Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
 * Close the fullscreen view with the :guilabel:`Esc` key.
 * Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
-* Use the :guilabel:`DOWNLOAD CONTENT` button below the viewer to download the ePub file to your computer.
+* Use the :guilabel:`DOWNLOAD RESOURCE` button below the viewer to download the ePub file to your computer.
 
 	.. figure:: img/epub.*
 		:alt: 
@@ -301,7 +314,7 @@ Lessons
 
 Your teacher or coach may prepare a *lesson* (|lessons| icon), a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the **Classes** tab, below the **Lessons** heading. 
 
-Click on a lesson title to open its content, and follow the indications of your teachers or coaches on how to use it.
+Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 
 	.. figure:: img/learner-lesson-home.png
 		:alt: 

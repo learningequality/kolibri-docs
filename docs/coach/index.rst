@@ -14,6 +14,7 @@ Click on a class to access the progress-tracking features and create lessons, qu
 
 .. _track_progress:
 
+
 Class Home
 ~~~~~~~~~~
 
@@ -23,7 +24,6 @@ On the **Class Home** tab (|class-home| icon) you can see the overview of the cl
 	  :alt: Open the Coach page to view the list of classes
 
 	  Class Home presents an overview of learner progress and activity.
-
 
 
 Quizzes
@@ -60,8 +60,8 @@ As learners interact with lessons and quizzes, you can track their progress in t
 * You can click each notification link to review the complete resource data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
 
-
 .. _reports:
+
 
 Reports
 ~~~~~~~
@@ -108,25 +108,24 @@ Use the options in the **Plan** tab to create and manage the lessons, quizzes, a
   quizzes
   groups
 
-
-
 .. _coach_resource:
+
 
 Coach Support Resources
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to content channels as a **Coach resource**. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. When content curators set the visibility this way, the resource will not be visible by learners while browsing Kolibri **Channels**, but only to admins, facility coaches, or other users assigned to coach classes. 
+`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to channels as a **Coach resource**. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. When content curators set the visibility this way, the resource will not be visible by learners while browsing Kolibri **Channels**, but only to admins, facility coaches, or other users assigned to coach classes. 
 
 However, coach can decide to include any of these resources in :ref:`lessons <manage_lessons>` or :ref:`quizzes <manage_quizzes>`, in which case they will be visible to learners in the context of that lesson or a quiz.
 
 	.. figure:: /img/coach-resource-studio.png
 	  :alt: In Kolibri Studio content curators can set the visibility for a single resource, or for the entire topic.
 
-	  Setting the visibility of content in Kolibri Studio.
+	  Setting the visibility of resources in Kolibri Studio.
 
-Coach resources and content channels that contain them are marked with the |coach-resource| icon in Kolibri.
+Coach resources and channels that contain them are marked with the |coach-resource| icon in Kolibri.
 
 	.. figure:: /img/coach-resource.png
 	  :alt: Indicators of the number of available coach support resources for all the channels are visible on the Kolibri Learn page, inside each channel card.
 
-	  Content channel with 4 support resources for coaches in Kolibri.
+	  Channel with 4 support resources for coaches in Kolibri.

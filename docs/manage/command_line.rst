@@ -10,7 +10,7 @@ Working with Kolibri from the Command Line
 
 * On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
 
-* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.13.pex``, type ``./kolibri-v0.13.pex start``.
+* If you are running Kolibri with the ``.pex`` file, make sure to substitute the ``kolibri`` in below commands **with the exact name of the file you downloaded** preceded by ``./``. For example, to start Kolibri from the downloaded file ``kolibri-v0.14.pex``, type ``./kolibri-v0.14.pex start``.
 
 .. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
@@ -36,10 +36,10 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
 .. _import_command_line:
 
 
-Import Content Channels from Internet
-*************************************
+Import Channels from Internet
+*****************************
 
-To import content channels from Internet, run these two commands in sequence. The first downloads the channel database, and the second downloads the resources (videos, documents, etc.). 
+To import channels from Internet, run these two commands in sequence. The first downloads the channel database, and the second downloads the resources (videos, documents, etc.). 
 
 .. code-block:: bash
 
@@ -54,7 +54,7 @@ For example (``Channel ID`` without angle brackets ``<...>``):
   kolibri manage importchannel network a9b25ac9814742c883ce1b0579448337
   kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337
 
-.. warning:: When you import content channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
+.. warning:: When you import channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
   Commented out because the API is weird and should be fixed
@@ -70,10 +70,10 @@ For example (``Channel ID`` without angle brackets ``<...>``):
     kolibri manage importcontent -- local <Channel ID> /path/to/local/drive
 
 
-Export Content Channels
-***********************
+Export Channels
+***************
 
-To export Kolibri content channels on a local drive in order to share it with another device, run these two commands in sequence. The first exports the channel database, and the second exports the resources (videos, documents, etc.). 
+To export Kolibri channels on a local drive in order to share it with another device, run these two commands in sequence. The first exports the channel database, and the second exports the resources (videos, documents, etc.). 
 
 .. code-block:: bash
 
@@ -84,10 +84,10 @@ The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local d
 
 .. _reorder_channels:
 
-Reorder Content Channels
-************************
+Reorder Channels
+****************
 
-You can set the specific order for content channels in the **Learn** page according to your preferences. Follow these steps.
+You can set the specific order for channels in the **Learn** page according to your preferences. Follow these steps.
 
 * To view the current ordered list of channels, run the command: 
    
@@ -141,66 +141,51 @@ You will be prompted to input the **Username** and **Password** and the new **su
 The full name for the new super admin user will be the same as the chosen ``username``, and can be edited in the **Facility > Users** page, or the user profile.
 
 
-Import Users from a CSV File
-****************************
+Import and Export User Data from a CSV File
+*******************************************
 
-.. note:: 
-  This is currently an experimental feature, so please forward to the development team any details about the issues you may encounter while using it.
+This feature is also available from the Kolibri user interface in the **Facility > Data** tab. It is recommended you read the :ref:`section of this guide which documents the feature <csv_import>`, especially the part about the :ref:`CSV format <csv_format>` before you try this command line utility. 
 
-  Command works on Kolibri version 0.9 and above.
+Import from CSV
+^^^^^^^^^^^^^^^
 
-CSV File Structure
-""""""""""""""""""
-
-To import users into Kolibri with this command, you will need to provide the user data in a CSV (comma separated values) file format. You can export a CSV file from a tabular data in any spreadsheet program (Excel, Google Sheets, LibreOffice Calc, etc.).
-
-  .. figure:: /img/csv.png
-      :alt: User data in a spreadsheet table
-
-      User data in a spreadsheet table.
-
-* Header row is optional, but if you do not include it, Kolibri will assume that you are providing the data in the following order:
-
-    ``<full_name>,<username>,<password>,<facility>,<class>``
-
-* If you do include a header row, you can provide less data, or put them a different order:
-
-    ``<full_name>,<username>,<password>``
-
-    ``<username>,<full_name>``
-
-* Only the ``username`` is required.
-
-* When you do not provide passwords for the imported users, Kolibri will set the default password ``kolibri`` for those usernames.
-
-* If you do not provide full names for the imported users, Kolibri will set them to be the same as the values for ``username``, and you can edit them in the **Facility > Users** page.
-
-* The facility can be either the facility name or the facility ID. If you do not provide the facility, Kolibri will import users in the default facility on the device. You can also specify the facility by adding the ``--facility`` argument in the command line (see below).
-
+Execute the *dry-run* of the command to review the report containing the number of users and classes to be created, updated or deleted, and see the list of any potential errors.
 
 .. code-block:: bash
 
-  kolibri manage importusers your-csv-file.csv
-
-  kolibri manage importusers your-csv-file.csv --facility <your-facility>
+  kolibri manage bulkimportusers --dryrun --output-file=my-school-users-2020.csv
 
 
-Export Users to a CSV File
-**************************
-
-To export users from Kolibri in a CSV file, run the below command. It does not export demographic data by default, but has an optional ``-d/--demographic-data`` flag to include them in the exported CSV file. 
+Run the command and review that the changes are visible in the **Facility** dashboard.
 
 .. code-block:: bash
 
-  kolibri manage exportusers your-csv-file.csv
-
-  kolibri manage exportusers your-csv-file.csv --demographic-data
+  kolibri manage bulkimportusers --output-file=my-school-users-2020.csv
 
 
-.. figure:: /img/exportusers.png
-  :alt: CSV file with the user data.
+If the CSV file does not contain all the non admin users or classes currently in the facility, using the ``--delete`` flag will remove them during the import process.
 
-  CSV file with the exported users including the demographic data.
+.. code-block:: bash
+
+  kolibri manage bulkimportusers --delete --output-file=my-school-users-2020.csv
+
+
+Export to CSV
+^^^^^^^^^^^^^
+
+Run the following command to create a ``users_<date>_<time>.csv`` file.
+
+.. code-block:: bash
+
+  kolibri manage bulkexportusers --overwrite --output-file=my-school-users-2020.csv
+
+
+To export a CSV file with localized headers, use the ``--locale`` flag.
+
+.. code-block:: bash
+
+  kolibri manage bulkexportusers --overwrite --output-file=lista-estudiantes-2020.csv --locale=es_ES
+
 
 
 Change User's Password
@@ -265,15 +250,15 @@ To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to s
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.
 
 
-Change the Location of Kolibri Content Files
-********************************************
+Change the Location of Kolibri Channels Files
+*********************************************
 
-Kolibri content channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move the Kolibri **content files** to another drive.
+Kolibri channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move the Kolibri **channels** to another drive.
 
 .. tip::
-  If you have both SSD disk and HDD disk available on your device, it is recommended to install Kolibri on the SSD drive to allow faster access to the database, and move just the content file to the HDD drive.
+  If you have both SSD disk and HDD disk available on your device, it is recommended to install Kolibri on the SSD drive to allow faster access to the database, and move just the channels to the HDD drive.
 
-To move the Kolibri content folders to another location, follow these steps.
+To move the folders with Kolibri channels to another location, follow these steps.
 
 1. Stop Kolibri.
 
@@ -282,25 +267,25 @@ To move the Kolibri content folders to another location, follow these steps.
     kolibri stop
 
 
-2. Create a new folder that will contain all the content files and resources on the destination drive.
+2. Create a new folder that will contain all the channels' files and resources on the destination drive.
 
   .. code-block:: bash
 
     kolibri manage content movedirectory <destination>
 
 
-  For example, if you created a new folder ``KolibriContent`` on an external drive, run this command.
+  For example, if you created a new folder ``KolibriChannels`` on an external drive, run this command.
 
   .. code-block:: bash
 
-    kolibri manage content movedirectory /mnt/my_external_drive/KolibriContent
+    kolibri manage content movedirectory /mnt/my_external_drive/KolibriChannels
 
 
-  If you are on Windows, and the new folder ``KolibriContent`` is on the drive ``F:``, run this command.
+  If you are on Windows, and the new folder ``KolibriChannels`` is on the drive ``F:``, run this command.
 
   .. code-block:: bash
 
-    kolibri manage content movedirectory F:\KolibriContent
+    kolibri manage content movedirectory F:\KolibriChannels
 
 
 3. Restart Kolibri.
@@ -311,15 +296,15 @@ This command will move the 2 subfolders ``databases`` and ``storage``, from thei
 Change the Location of ALL Kolibri Files
 ****************************************
 
-If you want to change the directory where all of Kolibri's runtime files are located, together with the imported content channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.
+If you want to change the directory where all of Kolibri's runtime files are located, together with the imported channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.
 
-If the variable is left unset, by default, Kolibri's runtime files and content will be placed in your user’s home folder, under the ``.kolibri`` subfolder. 
+If the variable is left unset, by default, Kolibri's runtime files and channels will be placed in your user’s home folder, under the ``.kolibri`` subfolder. 
 
 .. note::
   Adjusting this environment variable behaves differently than the ``movedirectory`` command above:
 
   * Adjusting the environment variable will not automatically migrate over data. You need to copy the ``.kolibri`` folder manually to the new location.
-  * If you do copy the ``.kolibri`` folder, the content will not be affected **if it had been previously set** using the ``movedirectory`` command.
+  * If you do copy the ``.kolibri`` folder, the channels will not be affected **if it had been previously set** using the ``movedirectory`` command.
 
 
 There are many ways to set an environment variable either temporarily or permanently. To start Kolibri on **OSX or Linux** with a different home, follow these steps.

@@ -11,11 +11,11 @@ Kolibri is `free and open-source <https://www.fsf.org/about/what-is-free-softwar
 Do I need the internet to run Kolibri?
 --------------------------------------
 
-**No!** You can bring or send a storage device (USB or HDD unit) with Kolibri installer and content channels downloaded somewhere with available internet connection, and install everything on an completely offline device.
+**No!** You can bring or send a storage device (USB or HDD unit) with Kolibri installer and channels downloaded somewhere with available internet connection, and install everything on an completely offline device.
 
-In a nutshell, Kolibri can run independently of internet availability, but you need to procure the installer and content channels from somewhere for the initial installation and for subsequent upgrades.
+In a nutshell, Kolibri can run independently of internet availability, but you need to procure the installer and channels from somewhere for the initial installation and for subsequent upgrades.
 
-One possibility is to have Kolibri installed in one location with internet connection, where you can import content channels from `Kolibri Studio <https://studio.learningequality.org/>`_ (curriculum tool and content curation server), and then export them to removable USB drives that you bring or send to offline locations (rural schools, refugee camps, etc.) to import locally.
+One possibility is to have Kolibri installed in one location with internet connection, where you can import channels from `Kolibri Studio <https://studio.learningequality.org/>`_ (curriculum tool and content curation server), and then export them to removable USB drives that you bring or send to offline locations (rural schools, refugee camps, etc.) to import locally.
 
 .. _languages:
 
@@ -44,6 +44,8 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 +---------------------------+-----------------+-----------------+
 | Burmese                   | ✓               |                 |
 +---------------------------+-----------------+-----------------+
+| Chinese (simplified)      | ✓               |                 |
++---------------------------+-----------------+-----------------+
 | Chinyanja                 | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 | Farsi                     | ✓               |                 |
@@ -52,11 +54,15 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 +---------------------------+-----------------+-----------------+
 | Fulfulde Mbororoore       | ✓               |                 |
 +---------------------------+-----------------+-----------------+
+| German                    | ✓               |                 |
++---------------------------+-----------------+-----------------+
 | Gujarati                  | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 | Hindi (India)             | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 | Italian                   | ✓               |                 |
++---------------------------+-----------------+-----------------+
+| Khmer                     | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 | Korean                    | ✓               |                 |
 +---------------------------+-----------------+-----------------+
@@ -116,7 +122,7 @@ To read more details, see the full `Kolibri Hardware Guide <https://learningequa
 How can I aligned resources to local curricula?
 -----------------------------------------------
 
-Use `Kolibri Studio <https://studio.learningequality.org/>`_ curriculum tool to curate content channels aligned to your local requirements. Once you finish creating the channels on Studio, you can import them on all your Kolibri implementations for use in learning environments.
+Use `Kolibri Studio <https://studio.learningequality.org/>`_ curriculum tool to curate channels aligned to your local requirements. Once you finish creating the channels on Studio, you can import them on all your Kolibri implementations for use in learning environments.
 
 
 Who maintains Kolibri?
