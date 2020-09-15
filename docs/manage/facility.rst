@@ -3,7 +3,7 @@
 Facility
 ########
 
-You can edit facility configuration settings in Kolibri from the **Settings** tab in your **Facility** dashboard (|settings| icon). Remember that you can also configure :ref:`manage_device_ref` settings. 
+You can edit facility configuration settings in Kolibri from the |settings| **Settings** tab in your |facility| **Facility** dashboard. Remember that you can also configure :ref:`manage_device_ref` settings. 
 
 .. note::
   If you have more than one facility on the device, you must first select a facility. Click on the name of the facility from the list to access its settings.
@@ -31,7 +31,6 @@ You can edit facility configuration settings in Kolibri from the **Settings** ta
       :alt: Open Facility page, navigate to Settings tab, and use the checkboxes to activate or deactivate the available options.
 
       Manage facility configuration settings.
-
 
 Rename Facility
 ***************

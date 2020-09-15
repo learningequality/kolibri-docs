@@ -3,7 +3,7 @@
 Device
 ######
 
-You can edit device configuration settings in Kolibri from the **Settings** tab in your **Device** dashboard (|settings| icon). Remember that you can also configure :ref:`manage_facility_ref` settings. 
+You can edit device configuration settings in Kolibri from the |settings| **Settings** tab in your |device| **Device** dashboard. Remember that you can also configure :ref:`manage_facility_ref` settings. 
 
 .. note::
   To manage device settings you must have the appropriate permissions.
