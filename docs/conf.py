@@ -175,18 +175,6 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |topic-icon| image:: /img/topic-icon.png
-   :alt: Topic
-.. |video-icon| image:: /img/video-icon.png
-   :alt: Video
-.. |doc-icon| image:: /img/doc-icon.png
-   :alt: Document
-.. |exercise-icon| image:: /img/exercise-icon.png
-   :alt: Exercise
-.. |html-icon| image:: /img/html-icon.png
-   :alt: App
-.. |slideshow-icon| image:: /img/slideshow-icon.png
-   :alt: Slideshow
 .. |print| image:: /img/print.png
    :alt: Print
 .. |export| image:: /img/export.png
