@@ -325,7 +325,7 @@ Click on a lesson title to open its materials, and follow the indications of you
 Quizzes 
 ^^^^^^^
 
-If your teacher or coach scheduled an *quiz* (|exams| icon) for you or your class, it will be available in the **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
+If your teacher or coach scheduled an |quiz| *quiz* for you or your class, it will be available in the **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
 	.. figure:: img/exams3.png
 		:alt: 

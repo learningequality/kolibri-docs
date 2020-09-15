@@ -9,16 +9,14 @@ You can view, create and delete quizzes, as well as assign them to learners, usi
   .. figure:: /img/manage-quizzes.png
     :alt: 
 
-.. TO-DO (icon)
-
 .. note::
-  To manage **Quizzes** in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
+  To manage |quiz| **Quizzes** in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Quiz
 """""""""""""""
 
-To create a new quiz |exams|, click the :guilabel:`NEW QUIZ` button.
+To create a new |quiz| quiz, click the :guilabel:`NEW QUIZ` button.
 
 * Fill in the field for the quiz title in the *Create new quiz* page.
 * Adjust the number of questions you want the quiz to contain. You can use the arrow field value modifiers with the mouse, or :guilabel:`-` and :guilabel:`+` buttons if you are using the keyboard.  

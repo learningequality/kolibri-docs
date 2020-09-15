@@ -29,7 +29,7 @@ On the **Class Home** tab (|class-home| icon) you can see the overview of the cl
 Quizzes
 -------
 
-You can review the progress of learners on the assigned quizzes in the **Quizzes** |exams| block.
+You can review the progress of learners on the assigned quizzes in the |quiz| **Quizzes** block.
 
 * Progress bar will indicate how many learners have started |started| and completed |completed-small| the quiz.
 * You can click on the progress bar to open the complete quiz data in the **Reports** tab.
