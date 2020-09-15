@@ -3,7 +3,7 @@
 Quizzes
 -------
 
-Open the **Quizzes** sub-tab from the main **Reports** view to access the progress reports on resources included in each quiz. 
+Open the **Quizzes** sub-tab from the main |reports| **Reports** view to access the progress reports on resources included in each quiz. 
 
 .. To review past quizzes, use the filter to include only the *Inactive* ones.
 

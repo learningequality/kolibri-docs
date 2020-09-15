@@ -3,7 +3,7 @@
 Groups
 ------
 
-Open the **Groups** sub-tab from the main **Reports** view to access the reports about the progress in lessons and quizzes **per each group**. In the main view you can see the table with summary of lessons and quizzes assigned to each group, number of learners and the last activity.
+Open the **Groups** sub-tab from the main |reports| **Reports** view to access the reports about the progress in lessons and quizzes **per each group**. In the main view you can see the table with summary of lessons and quizzes assigned to each group, number of learners and the last activity.
 
 #. Click on group name to view its detailed progress report.
 #. From the group **Reports** sub-tab you can click to access each lesson and quiz.

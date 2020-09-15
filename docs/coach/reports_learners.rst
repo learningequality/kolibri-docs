@@ -3,7 +3,7 @@
 Learners
 --------
 
-Open the **Learners** sub-tab from the main **Reports** view to access the progress report per each learner. In the main view you can see the table with summary of completed exercises, scores and viewed resources **for each learner**, and their last activity.
+Open the **Learners** sub-tab from the main |reports| **Reports** view to access the progress report per each learner. In the main view you can see the table with summary of completed exercises, scores and viewed resources **for each learner**, and their last activity.
 
 #. Click on learner name to view their detailed progress report.
 #. From the learner **Reports** sub-tab you can click to access each lesson and quiz.
