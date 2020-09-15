@@ -273,9 +273,9 @@ PDF Viewer options
 .. note::
   Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri.
 
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
 * With the :guilabel:`+` and :guilabel:`-` buttons you can zoom the document in and out.
-* Use the :guilabel:`Esc` key to close the fullscreen view and return.
+* Use the :guilabel:`Esc` key or the |fullscreen_exit| (fullscreen exit) button to close the fullscreen view and return.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the PDF viewer to download the PDF file to your computer.
 
 	.. figure:: img/pdf.png
@@ -290,8 +290,8 @@ To read digital books in Kolibri you have several available controls inside the 
 * Use the |list| (list) button in the upper left corner to view the table of content with all the book chapters.
 * Click the |tune| (preferences) button to adjust the text size and the background color.
 * If you want to search for a word or a phrase, use the |search| (search) button.
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
-* Close the fullscreen view with the :guilabel:`Esc` key.
+* Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
+* Close the fullscreen view with the :guilabel:`Esc` key or the |fullscreen_exit| (fullscreen exit) button.
 * Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the viewer to download the ePub file to your computer.
 
@@ -303,7 +303,7 @@ Slideshow Viewer options
 
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
 
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
 * Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |previous-page| and |next-page| buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
