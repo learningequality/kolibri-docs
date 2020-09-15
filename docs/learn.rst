@@ -288,7 +288,7 @@ Ebook Viewer options
 To read digital books in Kolibri you have several available controls inside the reader.
 
 * Use the |list| (list) button in the upper left corner to view the table of content with all the book chapters.
-* Click the |epub-settings| button to adjust the text size and the background color. 
+* Click the |tune| (preferences) button to adjust the text size and the background color.
 * If you want to search for a word or a phrase, use the |search| (search) button.
 * Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
 * Close the fullscreen view with the :guilabel:`Esc` key.
