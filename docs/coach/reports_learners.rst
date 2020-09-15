@@ -8,7 +8,7 @@ Open the **Learners** sub-tab from the main **Reports** view to access the progr
 #. Click on learner name to view their detailed progress report.
 #. From the learner **Reports** sub-tab you can click to access each lesson and quiz.
 #. In the **Activity** sub-tab you can review their activity on resources assigned.
-#. Use the |print| and |export| icons to print the report on paper, save it in a PDF format, or export as a CSV file.   
+#. Use the |print| (print) and |download| (download) buttons to print the report on paper, save it in a PDF format, or export as a CSV file.   
 
 .. figure:: /img/learners.*
   :alt: 

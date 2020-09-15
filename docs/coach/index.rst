@@ -87,12 +87,12 @@ Kolibri presents actionable reports for each lesson and quiz the class learners 
 Print and Export Coach Reports
 ------------------------------
 
-On any coach report where you see the |print| and |export| icons, you will be able to print on paper, save in a PDF format, or export as a CSV file, for further analysis or to share with others. Follow these steps.
+On any coach report where you see the |print| (print) and |download| (download) buttons, you will be able to print on paper, save in a PDF format, or export as a CSV file, for further analysis or to share with others. Follow these steps.
 
-#. Click the |print| icon for the report you want to print or save as PDF file on your local drive.
+#. Click the |print| (print) button for the report you want to print or save as PDF file on your local drive.
    You will either have to select your paper printer device, or the *Save as PDF* option in the print dialog.
     
-#. Click the |export| icon for the report you want to export as CSV file on your local drive. 
+#. Click the |download| (download) button for the report you want to export as CSV file on your local drive. 
 
 
 

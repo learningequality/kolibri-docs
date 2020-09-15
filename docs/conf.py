@@ -171,20 +171,11 @@ html_show_copyright = False
 # Output file base name for HTML help builder.
 htmlhelp_basename = "kolibri-user"
 
+# Add replacement codes for Kolibri design system icons
 rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
-
-.. |print| image:: /img/print.png
-   :alt: Print
-.. |export| image:: /img/export.png
-   :alt: Export
-.. |exams| image:: /img/quiz-icon.png
-   :alt: Quizzes
-
 """
-
-# Add replacement codes for Kolibri design system icons
 with open("./rstIconReplacements.txt") as f:
     replacements = f.read()
     rst_prolog += "\n" + replacements

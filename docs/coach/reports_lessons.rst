@@ -21,7 +21,7 @@ Open the **Lessons** sub-tab from the main |reports| **Reports** view to access 
 #. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers.
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
 #. Click the :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the |edit| **Plan** tab.
-#. Use the |print| and |export| icons to print the lesson report on paper, save it in a PDF format, or export as a CSV file.
+#. Use the |print| (print) and |download| (download) buttons to print the lesson report on paper, save it in a PDF format, or export as a CSV file.
    
    .. note:: 
       The columns *Progress* and *Recipients* in the **Reports > Lessons** sub-tab display a summary, but when you export the report as a CSV file and open it in a spreadsheet application, you will see separate columns for each progress status, compared to the summary representation in Kolibri. *Recipients (1)* column indicates if the lesson was assigned to the entire class or to group(s), in which case they will be listed in the *Recipients (2)* column. 
