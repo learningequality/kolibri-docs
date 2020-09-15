@@ -6,7 +6,7 @@ Channels and Resources
 .. note::
   To manage Kolibri channels and resources you must have the appropriate permissions.
 
-Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri. You can import and export channels in Kolibri from the **Channels** tab of the **Device** dashboard (|channels| icon).
+Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri. You can import and export channels in Kolibri from the |channel| **Channels** tab of the |device| **Device** dashboard.
 
   .. figure:: /img/manage-resources.png
     :alt: Open the Device page and Channels tab to see the list of available channels on your device

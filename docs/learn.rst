@@ -117,7 +117,7 @@ Select one of your classes to access :ref:`Lessons` and :ref:`Quizzes` teachers 
 Channels
 ^^^^^^^^
 
-Use this tab (|channels| icon) to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
+Use the |channel| **Channels** tab to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
 
 Depending on how your school and teachers or coaches decided to organize the materials, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the resources from each available channel.
 
