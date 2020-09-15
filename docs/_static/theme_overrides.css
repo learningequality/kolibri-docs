@@ -1,6 +1,4 @@
 
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
 html[lang=ar] {
     direction: rtl;
 }
@@ -138,13 +136,6 @@ code.docutils.literal.notranslate {
     color: rgba(255,255,255,0.9);
 }
 
-.material-icons {
-    display: inline-flex;
-    vertical-align: middle !important;
-    padding-bottom: 8px !important;
-    padding-right: -5px !important;
-}
-
 .local_library {
 	color: #2196f3;
 }
@@ -222,4 +213,55 @@ img {
 /* push down the RTD banner so it's not confused with menu */
 .keep-us-sustainable {
   margin-top: 20em !important;
+}
+
+/*
+    Design system icon replacements default colors
+
+    See pregenerate.css in the design system for usage and for specific color
+    values see https://kolibri-design-system.netlify.app/colors/#tokens
+*/
+
+.design-system-icon svg {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+
+.design-system-icon-color-annotation {
+    fill: #616161;
+}
+
+.design-system-icon-color-coachContent {
+    fill: #0277bd;
+}
+
+.design-system-icon-color-correct {
+    fill: #43a047;
+}
+
+.design-system-icon-color-error {
+    fill: #d32f2f;
+}
+
+.design-system-icon-color-incorrect {
+    fill: #c62828;
+}
+
+.design-system-icon-color-mastered {
+    fill: #ffc107;
+}
+
+.design-system-icon-color-progress {
+    fill: #03a9f4;
+}
+
+.design-system-icon-color-success {
+    fill: #388e3c;
+}
+
+.design-system-icon-color-textDisabled {
+    fill: #e0e0e0;
 }

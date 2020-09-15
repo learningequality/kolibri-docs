@@ -237,6 +237,12 @@ rst_prolog = """
 
 """
 
+# Add replacement codes for Kolibri design system icons
+with open("./rstIconReplacements.txt") as f:
+    replacements = f.read()
+    rst_prolog += "\n" + replacements
+
+
 # Apr 5th: directive to allow .gif use for HTML docs with .png fallback for latexpdf
 StandaloneHTMLBuilder.supported_image_types = [
     "image/svg+xml",
