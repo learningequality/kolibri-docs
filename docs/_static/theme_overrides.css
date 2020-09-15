@@ -110,7 +110,7 @@ span.caption-text {
     margin-left: 6px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
-    font-size: smaller; 
+    font-size: smaller;
 }
 
 code.docutils.literal.notranslate {
@@ -130,7 +130,7 @@ code.docutils.literal.notranslate {
  }
 
 .wy-nav-top {
-    background: #996189 !important;   
+    background: #996189 !important;
 }
 
 /* Improve the contrast for the version number.*/
@@ -164,7 +164,7 @@ code.docutils.literal.notranslate {
 
 .clock {
     padding-bottom: 1px !important;
-    border-radius: 50%;                                                                                            
+    border-radius: 50%;
     color: #2196f3;
 }
 
