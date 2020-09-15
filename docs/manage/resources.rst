@@ -129,7 +129,7 @@ Import with Token
 #. Click :guilabel:`CONTINUE` to unlock the channel, or :guilabel:`CANCEL` to exit.
 #. Proceed to select and import channel topics and resources as for the public channels.
 
-   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+   Unlisted or private channels in the list are indicated with the |unlistedchannel| (unlisted channel) icon.
 
    .. warning:: Unlisted channel **must be published** on Studio before the token can be used to import it.
 
