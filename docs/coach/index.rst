@@ -123,7 +123,7 @@ However, coach can decide to include any of these resources in :ref:`lessons <ma
 
 	  Setting the visibility of resources in Kolibri Studio.
 
-Coach resources and channels that contain them are marked with the |coach-resource| icon in Kolibri.
+Coach resources and channels that contain them are marked with the |coachContent| (coach resource) icon in Kolibri.
 
 	.. figure:: /img/coach-resource.png
 	  :alt: Indicators of the number of available coach support resources for all the channels are visible on the Kolibri Learn page, inside each channel card.
