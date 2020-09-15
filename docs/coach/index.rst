@@ -66,7 +66,7 @@ As learners interact with lessons and quizzes, you can track their progress in t
 Reports
 ~~~~~~~
 
-**Reports** tab (|reports| icon) allows you to gain insight into detailed real-time progress of the learners for single resources in lessons and quizzes assigned to them.
+The |reports| **Reports** tab allows you to gain insight into detailed real-time progress of the learners for single resources in lessons and quizzes assigned to them.
 
 Kolibri presents actionable reports for each lesson and quiz the class learners have been assigned, together with the possibility to observe the progress by groups and individual learners.
 
