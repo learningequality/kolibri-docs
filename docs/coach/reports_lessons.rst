@@ -7,7 +7,7 @@ Open the **Lessons** sub-tab from the main |reports| **Reports** view to access 
 
 .. To review past lessons, use the filter to include only the *Inactive* lessons.
 
-* **Progress** column presents the summary of learners who *started* |started| and *completed* |completed-small| the lessons, or *need help* |need-help| with some of the included resources.
+* **Progress** column presents the summary of learners who |inProgress| *started* and |mastered| *completed* the lessons, or *need help* |need-help| with some of the included resources.
 * The switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. You can change the lesson visiblity from here, as well as in the **Plan > Lessons** subtab.
   
 .. figure:: /img/lessons.*
@@ -17,7 +17,7 @@ Open the **Lessons** sub-tab from the main |reports| **Reports** view to access 
 
 #. Click on the lesson title to view its list of resources.
 #. In the selected lesson **Report** sub-tab, you can see the clickable list of resources, with their own *progress* and the *average time spent* on.
-#. When you click to open the single resource, you can see the progress report for each learner (*started* |started|, *completed* |completed-small| or *need help* |need-help|), and the time spent on it.
+#. When you click to open the single resource, you can see the progress report for each learner (|inProgress| *started*, |mastered| *completed* or *need help* |need-help|), and the time spent on it.
 #. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers.
 #. Open the **Learners** sub-tab to access the progress report per each learner. 
 #. Click the :guilabel:`OPTIONS` button and select **Edit details** or **Manage resources** option if you want to edit the lesson directly from its report. Editing the lesson details from here will have the same results as from the |edit| **Plan** tab.
