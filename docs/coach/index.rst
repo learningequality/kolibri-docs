@@ -18,7 +18,7 @@ Click on a class to access the progress-tracking features and create lessons, qu
 Class Home
 ~~~~~~~~~~
 
-On the |classes| **Class Home** tab you can see the overview of the class activity and track progress of the learners on lessons and quizzes assigned to them.
+On the |dashboard| **Class Home** tab you can see the overview of the class activity and track progress of the learners on lessons and quizzes assigned to them.
 
 	.. figure:: /img/class-home.png
 	  :alt: Open the Coach page to view the list of classes
