@@ -45,7 +45,7 @@ To create a new |quiz| quiz, click the :guilabel:`NEW QUIZ` button.
     .. figure:: /img/questions-random.png
         :alt:    
 
-   * To present the same (*fixed*) question order to all learners, select :guilabel:`Fixed`. You can reorder the questions by using the |dragHorizontal| (drag) button with the mouse (drag and drop), or with |arrow-up| and |arrow-down| buttons if you navigate by keyboard.
+   * To present the same (*fixed*) question order to all learners, select :guilabel:`Fixed`. You can reorder the questions by using the |dragHorizontal| (drag) button with the mouse (drag and drop), or with |chevronUp| (up) and |chevronDown| (down) buttons if you navigate by keyboard.
 
 
     .. figure:: /img/questions-fixed.png
