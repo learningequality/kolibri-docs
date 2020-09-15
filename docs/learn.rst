@@ -312,7 +312,7 @@ To navigate the slides of a slideshow, you may use the on-screen navigation cont
 Lessons
 ^^^^^^^
 
-Your teacher or coach may prepare a |lesson| *lesson*, a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the **Classes** tab, below the **Lessons** heading. 
+Your teacher or coach may prepare a |lesson| *lesson*, a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the |classes| **Classes** tab, below the **Lessons** heading. 
 
 Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 
@@ -325,7 +325,7 @@ Click on a lesson title to open its materials, and follow the indications of you
 Quizzes 
 ^^^^^^^
 
-If your teacher or coach scheduled an |quiz| *quiz* for you or your class, it will be available in the **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
+If your teacher or coach scheduled an |quiz| *quiz* for you or your class, it will be available in the |classes| **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
 	.. figure:: img/exams3.png
 		:alt: 

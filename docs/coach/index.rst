@@ -3,7 +3,7 @@
 Coach your Learners in Kolibri
 ##############################
  
-You can track progress of the **Learners**, create and assign **Lessons** and **Quizzes** to classes or learner groups from the |coach| **Coach** dashboard. The default view presents the list of **Classes** with their assigned coaches, and the number of learners enrolled in each class.
+You can track progress of the **Learners**, create and assign **Lessons** and **Quizzes** to classes or learner groups from the |coach| **Coach** dashboard. The default view presents the list of |classes| **Classes** with their assigned coaches, and the number of learners enrolled in each class.
 
 Click on a class to access the progress-tracking features and create lessons, quizzes and groups.
 
