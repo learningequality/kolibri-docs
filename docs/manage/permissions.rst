@@ -3,7 +3,7 @@
 Permissions
 ###########
 
-You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the **Permission** tab in the  **Device** dashboard (|permissions| icon).
+You can assign additional permissions to Kolibri users which will provide them access to more features compared to their :ref:`user roles <user_roles>`. To manage permissions for Kolibri users, use the |permissions| **Permissions** tab in the  **Device** dashboard.
 
 	.. figure:: ../img/manage-permissions.png
 	  :alt: Open the Device page and navigate to Permissions tab to see permissions for every user  
