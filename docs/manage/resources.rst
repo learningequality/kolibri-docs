@@ -42,7 +42,7 @@ Import Channels and Resources into Kolibri
 
 .. warning:: **Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import resources from:
 
-  * already curated **channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
+  * already curated channels on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
   
   * :ref:`another device in the same local network <local_network>` through *peer import*
 
@@ -98,7 +98,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 #. Click the :guilabel:`IMPORT` button once you finish selecting all the desired resources.
 
-#. You will see the import progress in the **Task manager** page. Once the import concludes, the newly imported channel and resources display on the **Channels** page.
+#. You will see the import progress in the **Task manager** page. Once the import concludes, the newly imported channel and resources display on the |channel| **Channels** page.
 
     .. figure:: /img/import-CC.png
   	  :alt: resources import progress bar will display the percentage of the download
