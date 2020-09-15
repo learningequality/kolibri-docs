@@ -264,7 +264,7 @@ To change the order in which channels are presented to learners on the **Learn >
 #. In the **Edit channel order** page you can either:
 
     * Grab the |drag| button to reorder channels with the mouse (drag and drop).
-    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.  
+    * Use the |chevronUp| (up) and |chevronDown| (down) buttons to reorder by keyboard navigation.  
 
   You will see a confirmation notification at the bottom every time you change the order of the channels.
 
