@@ -81,7 +81,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
       Select which public channel on Kolibri Studio you want to import resources from.
 
     
-    Channels from which you have already imported some or all resources onto your device will have the |on-device| icon. 
+    Channels from which you have already imported some or all resources onto your device will have the |onDevice| (on device) icon. 
 
 
 2. Click :guilabel:`SELECT RESOURCES` for the desired channel, and wait for Kolibri to load the channel information and the topic tree.

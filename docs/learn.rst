@@ -215,9 +215,9 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. Write the answer or choose one of the provided options.
 #. When you are ready to submit, click the :guilabel:`CHECK` button.
 
-   * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
+   * When the answer is correct and a |correct| (correct) icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
    * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
-   * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
+   * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |correct| (correct) icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
 	    :alt: If the exercise requires 5 green check marks, you must provide 5 correct answers one after another.
