@@ -136,7 +136,7 @@ In the |recommended| Recommended tab you can see various sections:
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
 
-The number of displayed resources in each row will depend on the width of your display, and you can browse with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows.
+The number of displayed resources in each row will depend on the width of your display, and you can browse with the |back| (back) and |forward| (forward) buttons at the beginning and the end of the section rows.
 
 	.. figure:: img/learn.png
 		:alt: 

@@ -175,10 +175,6 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |lock| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">https</span><span class="visuallyhidden">Permissions</span>`
-.. |pencil| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">create</span><span class="visuallyhidden">Edit</span>`
-.. |arrow-right| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_forward</span><span class="visuallyhidden">See next</span>`
-.. |arrow-left| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">arrow_back</span><span class="visuallyhidden">See previous</span>`
 .. |arrow-up| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_up</span><span class="visuallyhidden">Arrow up</span>`
 .. |arrow-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Arrow down</span>`
 .. |unlisted-channel| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">lock_open</span><span class="visuallyhidden">Unlisted channel</span>`
