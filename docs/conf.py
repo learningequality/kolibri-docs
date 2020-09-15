@@ -5,10 +5,11 @@
 # This file is execfile()d with the current directory set to its containing dir.
 
 
-from datetime import datetime
 import os
 import sys
+from datetime import datetime
 
+from sphinx.builders.html import StandaloneHTMLBuilder
 
 # IMPORTANT! KEEP THIS UPDATED TO REFLECT WHICH VERSION THESE DOCS ARE WRITTEN
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
@@ -25,39 +26,39 @@ parent = os.path.dirname(cwd)
 sys.path.insert(0, os.path.abspath(parent))
 
 extensions = [
-    'sphinx.ext.todo',
-    'sphinx.ext.autodoc',
-    'sphinx_rtd_theme',
-    'notfound.extension',
+    "sphinx.ext.todo",
+    "sphinx.ext.autodoc",
+    "sphinx_rtd_theme",
+    "notfound.extension",
 ]
 
-builddir = os.path.join(cwd, '_build')
+builddir = os.path.join(cwd, "_build")
 
 # -- General configuration -----------------------------------------------------
 
 linkcheck_ignore = [
-    'https://groups.google.com/a/learningequality.org/forum/#!forum/dev',
-    'http://127.0.0.1:8080',
-    'http://127.0.0.1:8080/',
-    'https://www.kiwix.org',
+    "https://groups.google.com/a/learningequality.org/forum/#!forum/dev",
+    "http://127.0.0.1:8080",
+    "http://127.0.0.1:8080/",
+    "https://www.kiwix.org",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # Where to find translated image files
-figure_language_filename = '{path}{language}/{basename}{ext}'
+figure_language_filename = "{path}{language}/{basename}{ext}"
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
-source_suffix = ['.rst', '.md']
+source_suffix = [".rst", ".md"]
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = "index"
 
 # General information about the project.
-project = u'Kolibri'
-copyright = u'{year:d}, Learning Equality'.format(year=datetime.now().year)
+project = u"Kolibri"
+copyright = u"{year:d}, Learning Equality".format(year=datetime.now().year)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -71,27 +72,30 @@ release = DISPLAY_VERSION
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build', '**/_*.rst']
+exclude_patterns = ["_build", "**/_*.rst"]
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = "sphinx"
 
 
 # -- Options for HTML output ---------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+html_theme = "default"
+on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 
 if on_rtd:
-    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
+    os.system(
+        "sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/"
+    )
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
+
+    html_theme = "sphinx_rtd_theme"
+    html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -110,7 +114,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'logo.png'
+html_logo = "logo.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -120,13 +124,13 @@ html_logo = 'logo.png'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ['extras']
+html_extra_path = ["extras"]
 
 # This should be commented back in for wide tables
 # See: https://github.com/rtfd/readthedocs.org/issues/2116
@@ -144,12 +148,12 @@ html_extra_path = ['extras']
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
 def setup(app):
     # Add our custom CSS overrides
-   app.add_stylesheet('theme_overrides.css')
+    app.add_stylesheet("theme_overrides.css")
 
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = "%b %d, %Y"
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -165,7 +169,7 @@ html_show_sphinx = False
 html_show_copyright = False
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'kolibri-user'
+htmlhelp_basename = "kolibri-user"
 
 rst_prolog = """
 .. role:: raw-html(raw)
@@ -234,24 +238,19 @@ rst_prolog = """
 """
 
 # Apr 5th: directive to allow .gif use for HTML docs with .png fallback for latexpdf
-from sphinx.builders.html import StandaloneHTMLBuilder
 StandaloneHTMLBuilder.supported_image_types = [
-    'image/svg+xml',
-    'image/gif',
-    'image/png',
-    'image/jpeg'
+    "image/svg+xml",
+    "image/gif",
+    "image/png",
+    "image/jpeg",
 ]
-
 
 
 # -- Options for manual page output --------------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    ('index', 'kolibri', u'Kolibri Documentation',
-     [u'Learning Equality'], 1)
-]
+man_pages = [("index", "kolibri", u"Kolibri Documentation", [u"Learning Equality"], 1)]
 
 # If true, show URL addresses after external links.
 # man_show_urls = False
@@ -272,18 +271,18 @@ locale_dirs = [
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'a4paper',
-    'fncychap': '\\usepackage{fncychap}',
-    'fontpkg': '\\usepackage[default]{lato}\\usepackage[T1]{fontenc}',
-    'figure_align':'htbp',
+    "papersize": "a4paper",
+    "fncychap": "\\usepackage{fncychap}",
+    "fontpkg": "\\usepackage[default]{lato}\\usepackage[T1]{fontenc}",
+    "figure_align": "htbp",
     # The font size ('10pt', '11pt' or '12pt').
     #
-    'pointsize': '12pt',
-    'extraclassoptions': 'oneside',
+    "pointsize": "12pt",
+    "extraclassoptions": "oneside",
     # The font size ('10pt', '11pt' or '12pt').
     #'pointsize': '10pt',
     # Additional stuff for the LaTeX preamble.
-    'preamble': r'''
+    "preamble": r"""
         %%% FRONTMATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         %
         %%%add number to subsubsection 2=subsection, 3=subsubsection
@@ -356,9 +355,8 @@ latex_elements = {
         %%%%%%%%%%% Quote for all places except Chapter
         \newcommand{\sectionquote}[2]{{\quote{\textit{``#1''}}{\textbf {\textit{--#2}}}}}
 
-    ''',
-
-    'maketitle': r'''
+    """,
+    "maketitle": r"""
 
         %%% SET PDF INFO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Note: this has to be after preamble where \title and \author are defined
@@ -390,7 +388,7 @@ latex_elements = {
             \centering
             \includegraphics[width=0.95\textwidth]{kolibri-contexts.pdf}
             \end{figure}
-            
+
             \vspace{0mm}
             \textbf{\Huge {Kolibri User Guide}}
 
@@ -409,75 +407,55 @@ latex_elements = {
         % \listoftables
         \clearpage
         \pagenumbering{arabic}
-        ''',
+        """,
     # Latex figure (float) alignment
     # 'figure_align': 'htbp',
     #
     # GLOBAL OPTIONS FOR THE sphynx.sty STYLE CLASS ############################
-    'sphinxsetup': \
-        'hmargin={1in,1in}, vmargin={1.2in,0.7in}, \
+    "sphinxsetup": r"""
+        hmargin={1in,1in}, vmargin={1.2in,0.7in}, \
         TitleColor={rgb}{0,0,0}, \
         InnerLinkColor={rgb}{0,0,1}, \
         OuterLinkColor={rgb}{0,0,1}, \
         verbatimwithframe=false, \
         VerbatimColor={rgb}{0.95,0.95,0.95}, \
         verbatimvisiblespace={}, \
-        verbatimcontinued={}', 
-        'tableofcontents':' ',
-    }
-    # other sphinxsetup options:
-    #       verbatimwithframe=true, \
-    #       VerbatimColor={named}{OldLace}, \
-    #       verbatimsep=3pt
-    #       hintBorderColor={named}{LightCoral},
-    #
-    #       attentionborder=3pt,
-    #       attentionBorderColor={named}{Crimson},
-    #       attentionBgColor={named}{FloralWhite},
-    #
-    #       noteborder=2pt,
-    #       noteBorderColor={named}{Olive},
-    #
-    #       cautionborder=3pt,
-    #       cautionBorderColor={named}{Cyan},
-    #       cautionBgColor={named}{LightCyan}}
-    ############################################################################
-
+        verbatimcontinued={}""",
+    "tableofcontents": " ",
+}
 
 
 # Show URLs in footnote
-latex_show_urls = 'footnote'
+latex_show_urls = "footnote"
 
 # Grouping the document tree into LaTeX files. List of tuples:
 latex_documents = [
-    ( 'index',                              # source start file,
-      'kolibri.tex',                        # target name,
-     u'Kolibri User Guide',                 # title,
-     u'Published by learningequality.org',  # author,
-      'manual'                              # documentclass [howto, manual, or own class])
-     ),
+    (
+        "index",  # source start file,
+        "kolibri.tex",  # target name,
+        u"Kolibri User Guide",  # title,
+        u"Published by learningequality.org",  # author,
+        "manual",  # documentclass [howto, manual, or own class])
+    ),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
-latex_logo = 'kolibri-contexts.pdf'
+# latex_logo = None
+latex_logo = "kolibri-contexts.pdf"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-#latex_use_parts = False
+# latex_use_parts = False
 
 # If true, show page references after internal links.
-#latex_show_pagerefs = False
+# latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+# latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
-#latex_appendices = []
+# latex_appendices = []
 
 # If false, no module index is generated.
-#latex_domain_indices = True
-
-
-
+# latex_domain_indices = True
