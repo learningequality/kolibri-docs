@@ -197,7 +197,7 @@ You may see different types of resources available in Kolibri channels, and you 
 * Topics - |topic-icon|
 * Slideshow - |slideshow-icon|
 
-When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish viewing a video or complete the exercise, they will be marked with the |completed| icon.
+When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |inProgress| (in-progress) icon. Once you finish viewing a video or complete the exercise, they will be marked with the |mastered| (completed) icon.
 
 	.. figure:: img/progress-icons.png
 		:alt: Progress status for each learning material will be indicated together with their title.
@@ -343,9 +343,9 @@ If the quiz is listed as *Not started*, follow these steps.
 #. Press the *Back to quiz list* if you want to pause the quiz and come back later. 
 #. Press the button :guilabel:`SUBMIT QUIZ` when you want to submit it for grading. 
 
-A quiz that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
+A quiz that you did not yet submit will be marked with the |inProgress| (in-progress) icon, so you can easily recognize it, and click to resume when you are ready.
 
-Once you complete and submit a quiz, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
+Once you complete and submit a quiz, it will be marked with the |mastered| (completed) icon, but you can still click on it to see the score and review your answers.
 
 	.. figure:: img/exam-result.png
 		:alt:  
