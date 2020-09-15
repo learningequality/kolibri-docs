@@ -18,7 +18,7 @@ Open the **Quizzes** sub-tab from the main **Reports** view to access the progre
 #. You can start and end the quiz from here, the same as in the **Plan > Quizzes** subtab. Use the :guilabel:`START QUIZ` to open it for learners, or the :guilabel:`END QUIZ` when you decide that the learners have had enough time to access the quiz and answer the questions.
 #. Click on the quiz title to view its list of resources.
 #. In the selected quiz **Report** sub-tab, you can see the list of learners, with columns for the *progress* and obtained *score*.
-#. Open the **Difficult questions** sub-tab to view the list of questions learners gave incorrect answers to, and gain insight of how many *need help* |need-help| with the concept.
+#. Open the **Difficult questions** sub-tab to view the list of questions learners gave incorrect answers to, and gain insight of how many |helpNeeded| *need help* with the concept.
 #. Click a *difficult question* in the list to review each of the incorrect answers and attempts.
    
 #. When you click a name of a single learner, you can see the full report for each answer. This can help you understand which questions learners had difficulties answering correctly, and how many attempts they used.

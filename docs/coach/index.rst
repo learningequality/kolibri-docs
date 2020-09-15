@@ -44,7 +44,7 @@ Lessons
 
 You can review the progress of learners on the assigned lessons in the |lesson| **Lessons** block.
 
-* Progress bar will indicate how many learners have |inProgress| started and |mastered| completed the lesson, and if they need help |need-help| with  some of the resources in it.
+* Progress bar will indicate how many learners have |inProgress| started and |mastered| completed the lesson, and if they |helpNeeded| need help with some of the resources in it.
 * You can click on the progress bar to open the complete lesson data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of notification about lessons (only the 3 most recent are displayed in the block).
 
@@ -56,7 +56,7 @@ As learners interact with lessons and quizzes, you can track their progress in t
 
 * When learners start or complete lessons, you will see one notification displaying the title of the lesson they |inProgress| started or |mastered| completed, and another displaying the title of the specific resource in the lesson they interacted with. In case of quizzes, you will see only the quiz title notification.
 * When multiple learners are working on the same lesson or quiz, you will see a notification like *Learner1 and 3 other have started...*
-* When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners need help |need-help| with a specific resource.
+* When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners |helpNeeded| need help with a specific resource.
 * You can click each notification link to review the complete resource data in the **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
 
