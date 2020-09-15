@@ -3,7 +3,7 @@
 Classes
 #######
 
-You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the **Classes** tab in your **Facility** dashboard (|classes| icon). Default view displays the list of all classes in your facility, with the number of enrolled users for each class, and the coaches assigned.
+You can view, create and delete classes, as well as search, filter and enroll Kolibri users in them, using the |classes| **Classes** tab in your |facility| **Facility** dashboard. Default view displays the list of all classes in your facility, with the number of enrolled users for each class, and the coaches assigned.
 
   .. figure:: /img/classes.png
     :alt: Open Facility page and navigate to Classes tab to see the the list of all the classes, and access the options to manage them.
