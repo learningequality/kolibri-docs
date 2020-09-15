@@ -214,7 +214,7 @@ img {
     background: #feffe9 !important;
 }
 
-// Reported upstream: https://github.com/rtfd/sphinx_rtd_theme/issues/722
+/* Reported upstream: https://github.com/rtfd/sphinx_rtd_theme/issues/722 */
 .admonition {
   clear: both;
 }
