@@ -225,9 +225,7 @@ img {
 .design-system-icon svg {
     width: 24px;
     height: 24px;
-    display: inline-block;
-    position: relative;
-    top: 8px;
+    vertical-align: top;
 }
 
 .design-system-icon-color-annotation {
