@@ -55,7 +55,7 @@ Import Channels and Resources into Kolibri
 
 To import resources into Kolibri, follow these steps.
 
-#. Click :guilabel:`IMPORT` in the **Channels** tab on the **Device** page.
+#. Click :guilabel:`IMPORT` in the |channel| **Channels** tab on the |device| **Device** page.
 #. Choose the source option: **Kolibri Studio**, **Local network or internet**, or **Attached drive or memory card**.
 
   .. figure:: /img/import-choose-source.png
@@ -329,7 +329,7 @@ To delete one or more full channels with all of its resources from your device, 
 #. Click the :guilabel:`DELETE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
 
 #. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
-#. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the **Channels** tab on the **Device** page.
+#. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the |channel| **Channels** tab on the |device| **Device** page.
 
 
 Delete Selected Resources from a Channel

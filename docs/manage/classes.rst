@@ -77,7 +77,7 @@ Remove Learners from Class
       :alt: 
 
   .. note::
-    Learners removed from the class will not be deleted from the database, and you can still access their accounts from the **Users** tab in the **Facility** dashboard.
+    Learners removed from the class will not be deleted from the database, and you can still access their accounts from the |people| **Users** tab in the |facility| **Facility** dashboard.
 
 .. _assign_coaches:
 
@@ -106,7 +106,7 @@ Remove Coaches from a Class
     :alt: 
 
 .. note::
-  Coaches removed from the class will not be deleted from the database, and you can still access their accounts from the **Users** tab in the **Facility** dashboard.
+  Coaches removed from the class will not be deleted from the database, and you can still access their accounts from the |people| **Users** tab in the |facility| **Facility** dashboard.
 
 
 Rename Class

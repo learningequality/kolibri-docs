@@ -3,7 +3,7 @@
 Device Info
 ###########
 
-To view detailed info about the device where Kolibri is running, use the |deviceInfo| **Info** tab in the  **Device** dashboard . This information will be useful in case you need to report an issue with Kolibri on the :ref:`Learning Equality Community Forums <forums>`. 
+To view detailed info about the device where Kolibri is running, use the |deviceInfo| **Info** tab in the |device| **Device** dashboard . This information will be useful in case you need to report an issue with Kolibri on the :ref:`Learning Equality Community Forums <forums>`. 
 
 #. Click the **Show** link to open the *Advanced* device info.
 #. Make note or copy the following device details to clipboard.

@@ -53,7 +53,7 @@ To sign in to **Kolibri** and start learning, follow these steps:
 	  "Sign in" link in the user menu.
 
 
-Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below **Learn**), or from the user menu.
+Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
 	.. figure:: img/update-profile.png
 	  :alt: 
@@ -103,7 +103,7 @@ Learn with Kolibri
 Classes
 ^^^^^^^
 
-Each time you login into **Kolibri**, the first thing you will see is the **Learn** page with the list of all the classes you are enrolled to. 
+Each time you login into **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
