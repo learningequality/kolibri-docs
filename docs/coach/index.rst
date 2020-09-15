@@ -99,7 +99,7 @@ On any coach report where you see the |print| (print) and |download| (download) 
 Plan
 ~~~~
 
-Use the options in the **Plan** tab to create and manage the lessons, quizzes, and groups for the selected class.
+Use the options in the |edit| **Plan** tab to create and manage the lessons, quizzes, and groups for the selected class.
 
 .. toctree::
   :maxdepth: 1
