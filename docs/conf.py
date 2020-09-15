@@ -175,8 +175,6 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |previous-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_left</span><span class="visuallyhidden">Previous page</span>`
-.. |next-page| replace:: :raw-html:`<span class="material-icons outline" aria-hidden="true">keyboard_arrow_right</span><span class="visuallyhidden">Next page</span>`
 .. |class-home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">dashboard</span><span class="visuallyhidden">Class home</span>`
 .. |reports| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">assessment</span><span class="visuallyhidden">Reports</span>`
 .. |drag| replace:: :raw-html:`<span class="material-icons drag" aria-hidden="true">drag_indicator</span>`

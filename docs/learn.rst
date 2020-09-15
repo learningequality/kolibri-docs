@@ -292,7 +292,7 @@ To read digital books in Kolibri you have several available controls inside the 
 * If you want to search for a word or a phrase, use the |search| (search) button.
 * Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
 * Close the fullscreen view with the :guilabel:`Esc` key or the |fullscreen_exit| (fullscreen exit) button.
-* Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
+* Navigate through the book pages with |back| (previous page) and |forward| (next page) buttons, or with the slider control at the bottom.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the viewer to download the ePub file to your computer.
 
 	.. figure:: img/epub.*
@@ -304,7 +304,7 @@ Slideshow Viewer options
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
 
 * Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
-* Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |previous-page| and |next-page| buttons on the side of the slideshow.
+* Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |back| (previous page) and |forward| (next page) buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
 .. _lessons:
