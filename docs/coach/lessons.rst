@@ -41,7 +41,7 @@ To create a new |lesson| *lesson*, follow these steps.
   .. figure:: /img/select-lesson-resources2.png
     :alt: 
 
-6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| button to display the results. When you finish, click the :guilabel:`EXIT SEARCH` button to return to the list of selected resources.
+6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| (search) button to display the results. When you finish, click the :guilabel:`EXIT SEARCH` button to return to the list of selected resources.
    
   .. figure:: /img/search-lesson-resources.png
     :alt: There are 3 filters available to refine the search; click to open each and select one of the options.

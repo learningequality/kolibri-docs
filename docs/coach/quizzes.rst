@@ -27,7 +27,7 @@ To create a new |quiz| quiz, click the :guilabel:`NEW QUIZ` button.
 
   As you keep adding and removing the exercises you will see confirmation messages at the bottom.
 
-* Use the **Search** feature to look for topics and exercises about a specific subject. Write the search term in the field, press the :guilabel:`ENTER` key or click the |search| button to display the results. 
+* Use the **Search** feature to look for topics and exercises about a specific subject. Write the search term in the field, press the :guilabel:`ENTER` key or click the |search| (search) button to display the results. 
    
     .. figure:: /img/search-exam-resources.png
       :alt: There are 3 filters available to refine the search; click to open each and select one of the options.

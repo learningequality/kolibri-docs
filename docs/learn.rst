@@ -164,7 +164,7 @@ Search
 If you are looking for a specific subject, topic, or term, use the **Search** feature:
 
 #. Type the word or combination of words you are looking for in the search field located in the top bar.
-#. Press :guilabel:`Enter` or click the |search| button to display the results.
+#. Press :guilabel:`Enter` or click the |search| (search) button to display the results.
 #. Filter the search results by channel or type of resource.
 
 	.. figure:: img/search.png
@@ -289,7 +289,7 @@ To read digital books in Kolibri you have several available controls inside the 
 
 * Use the |toc| button in the upper left corner to view the table of content with all the book chapters.
 * Click the |epub-settings| button to adjust the text size and the background color. 
-* If you want to search for a word or a phrase, use the |search| button.
+* If you want to search for a word or a phrase, use the |search| (search) button.
 * Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
 * Close the fullscreen view with the :guilabel:`Esc` key.
 * Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
