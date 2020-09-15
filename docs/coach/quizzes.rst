@@ -4,7 +4,7 @@
 Manage Quizzes
 --------------
 
-You can view, create and delete quizzes, as well as assign them to learners, using the **Quizzes** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. The default view displays the list of all quizzes in a selected class, with indicators of their visibility status and groups they are assigned to.
+You can view, create and delete quizzes, as well as assign them to learners, using the **Quizzes** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. The default view displays the list of all quizzes in a selected class, with indicators of their visibility status and groups they are assigned to.
 
   .. figure:: /img/manage-quizzes.png
     :alt: 
