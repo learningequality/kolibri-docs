@@ -128,7 +128,7 @@ Depending on how your school and teachers or coaches decided to organize the mat
 Recommended
 ^^^^^^^^^^^
 
-In this tab (|recommended| icon) you can see various sections:
+In the |recommended| Recommended tab you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
 * **Next steps** indicate the recommended materials based on those that you already viewed and interacted with.
