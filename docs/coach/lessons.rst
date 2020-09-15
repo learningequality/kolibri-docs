@@ -12,13 +12,13 @@ To view, create or delete lessons, as well as assign them to learners, use the *
     :alt: 
 
 .. note::
-  To manage |lessons| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
+  To manage |lesson| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Lesson
 """""""""""""""""
 
-To create a new lesson |lessons|, follow these steps.
+To create a new |lesson| *lesson*, follow these steps.
 
 1. Click the :guilabel:`NEW LESSON` button.
 2. Fill in the field for the lesson title, description and choose individual learners, groups or the entire class as the recipients. 

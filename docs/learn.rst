@@ -312,7 +312,7 @@ To navigate the slides of a slideshow, you may use the on-screen navigation cont
 Lessons
 ^^^^^^^
 
-Your teacher or coach may prepare a *lesson* (|lessons| icon), a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the **Classes** tab, below the **Lessons** heading. 
+Your teacher or coach may prepare a |lesson| *lesson*, a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the **Classes** tab, below the **Lessons** heading. 
 
 Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 

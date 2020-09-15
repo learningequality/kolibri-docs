@@ -42,7 +42,7 @@ You can review the progress of learners on the assigned quizzes in the **Quizzes
 Lessons
 -------
 
-You can review the progress of learners on the assigned lessons in the **Lessons** |lessons| block.
+You can review the progress of learners on the assigned lessons in the |lesson| **Lessons** block.
 
 * Progress bar will indicate how many learners have started |started| and completed |completed-small| the lesson, and if they need help |need-help| with  some of the resources in it.
 * You can click on the progress bar to open the complete lesson data in the **Reports** tab.
