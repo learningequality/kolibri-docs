@@ -31,16 +31,36 @@ You will need an environment with `make <https://en.wikipedia.org/wiki/Make_(sof
 
   # Create a Python 3 virtual environment using Virtualenvwrapper
   # See: https://virtualenvwrapper.readthedocs.io/
-  $ mkvirtualenv -p python3 kolibri-docs
+  mkvirtualenv -p python3 kolibri-docs
 
   # Install Python requirements
-  $ pip install -r requirements.txt
+  pip install -r requirements.txt
 
-  # Build docs with Sphinx
-  $ make docs  
 
-  # Open the docs with Firefox
-  $ firefox docs/_build/html/index.html
+Build and run:
+
+.. code-block:: bash
+
+  make docs
+
+You should now be able open the built docs with a web browser at ``docs/_build/html/index.html``.
+
+You can also have the docs automatically build and reload:
+
+.. code-block:: bash
+
+  sphinx-autobuild docs docs/_build/html
+
+
+You should now be able open the automatically-rebuilding docs with a web browser at ``http://127.0.0.1:8000``.
+
+
+Internationalization
+--------------------
+
+Some commands related to i18n:
+
+.. code-block:: bash
 
   # Build a translated (Spanish) version
   $ make docs-translated lang=es
@@ -52,8 +72,10 @@ You will need an environment with `make <https://en.wikipedia.org/wiki/Make_(sof
   $ CROWDIN_API_KEY="your-secret-key" make crowdin-download crowdin-branch=release-v0.7.x
 
 
-Workflow
---------
+
+
+Release process
+---------------
 
 When a new release of Kolibri happens, we track that release in a branch here with the
 exact same name. We build this branch on Read The Docs.

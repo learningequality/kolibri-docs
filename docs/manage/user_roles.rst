@@ -57,4 +57,4 @@ Kolibri **super admin** users have all device permissions, and are able to :ref:
 Assign Additional Permissions
 -----------------------------
 
-By default, only **super admin** users can view the **Device** dashboard, import/export channels in Kolibri, and modify **Permissions** for other users. However, depending on the needs of the institution, **super admin** users can also :ref:`grant these permissions <permissions>` to other users.
+By default, only **super admin** users can view the |device| **Device** dashboard, import/export channels in Kolibri, and modify |permissions| **Permissions** for other users. However, depending on the needs of the institution, **super admin** users can also :ref:`grant these permissions <permissions>` to other users.

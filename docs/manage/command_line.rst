@@ -87,7 +87,7 @@ The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local d
 Reorder Channels
 ****************
 
-You can set the specific order for channels in the **Learn** page according to your preferences. Follow these steps.
+You can set the specific order for channels in the |learn| **Learn** page according to your preferences. Follow these steps.
 
 * To view the current ordered list of channels, run the command: 
    

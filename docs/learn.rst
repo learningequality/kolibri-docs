@@ -53,7 +53,7 @@ To sign in to **Kolibri** and start learning, follow these steps:
 	  "Sign in" link in the user menu.
 
 
-Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below **Learn**), or from the user menu.
+Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
 	.. figure:: img/update-profile.png
 	  :alt: 
@@ -103,7 +103,7 @@ Learn with Kolibri
 Classes
 ^^^^^^^
 
-Each time you login into **Kolibri**, the first thing you will see is the **Learn** page with the list of all the classes you are enrolled to. 
+Each time you login into **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
@@ -117,7 +117,7 @@ Select one of your classes to access :ref:`Lessons` and :ref:`Quizzes` teachers 
 Channels
 ^^^^^^^^
 
-Use this tab (|channels| icon) to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
+Use the |channel| **Channels** tab to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
 
 Depending on how your school and teachers or coaches decided to organize the materials, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the resources from each available channel.
 
@@ -128,7 +128,7 @@ Depending on how your school and teachers or coaches decided to organize the mat
 Recommended
 ^^^^^^^^^^^
 
-In this tab (|recommended| icon) you can see various sections:
+In the |recommended| Recommended tab you can see various sections:
 
 * **Most popular** displays the most frequently used materials in your school or facility.
 * **Next steps** indicate the recommended materials based on those that you already viewed and interacted with.
@@ -136,7 +136,7 @@ In this tab (|recommended| icon) you can see various sections:
 
 These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
 
-The number of displayed resources in each row will depend on the width of your display, and you can browse with the |arrow-left| and |arrow-right| icons at the beginning and the end of the section rows.
+The number of displayed resources in each row will depend on the width of your display, and you can browse with the |back| (back) and |forward| (forward) buttons at the beginning and the end of the section rows.
 
 	.. figure:: img/learn.png
 		:alt: 
@@ -164,7 +164,7 @@ Search
 If you are looking for a specific subject, topic, or term, use the **Search** feature:
 
 #. Type the word or combination of words you are looking for in the search field located in the top bar.
-#. Press :guilabel:`Enter` or click the |search| button to display the results.
+#. Press :guilabel:`Enter` or click the |search| (search) button to display the results.
 #. Filter the search results by channel or type of resource.
 
 	.. figure:: img/search.png
@@ -190,14 +190,14 @@ Types or resources
 
 You may see different types of resources available in Kolibri channels, and you can easily distinguish them by their icons:
 
-* Videos - |video-icon|
-* Exercises - |exercise-icon|
-* Documents - |doc-icon|
-* Interactive HTML Apps - |html-icon|
-* Topics - |topic-icon|
-* Slideshow - |slideshow-icon|
+* |video| Videos
+* |exercise| Exercises
+* |document| Documents
+* |app| Interactive apps
+* |topic| Topics
+* |slideshow| Slideshow
 
-When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |in-progress| icon. Once you finish viewing a video or complete the exercise, they will be marked with the |completed| icon.
+When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |inProgress| (in-progress) icon. Once you finish viewing a video or complete the exercise, they will be marked with the |mastered| (completed) icon.
 
 	.. figure:: img/progress-icons.png
 		:alt: Progress status for each learning material will be indicated together with their title.
@@ -215,9 +215,9 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. Write the answer or choose one of the provided options.
 #. When you are ready to submit, click the :guilabel:`CHECK` button.
 
-   * When the answer is correct and a |green-check| icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
+   * When the answer is correct and a |correct| (correct) icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
    * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
-   * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |green-check| icons **in the row** for the exercise to be considered completed.
+   * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |correct| (correct) icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
 	    :alt: If the exercise requires 5 green check marks, you must provide 5 correct answers one after another.
@@ -273,9 +273,9 @@ PDF Viewer options
 .. note::
   Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri.
 
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
+* Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
 * With the :guilabel:`+` and :guilabel:`-` buttons you can zoom the document in and out.
-* Use the :guilabel:`Esc` key to close the fullscreen view and return.
+* Use the :guilabel:`Esc` key or the |fullscreen_exit| (fullscreen exit) button to close the fullscreen view and return.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the PDF viewer to download the PDF file to your computer.
 
 	.. figure:: img/pdf.png
@@ -287,12 +287,12 @@ Ebook Viewer options
 
 To read digital books in Kolibri you have several available controls inside the reader.
 
-* Use the |toc| button in the upper left corner to view the table of content with all the book chapters.
-* Click the |epub-settings| button to adjust the text size and the background color. 
-* If you want to search for a word or a phrase, use the |search| button.
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
-* Close the fullscreen view with the :guilabel:`Esc` key.
-* Navigate through the book pages with |previous-page| and |next-page| buttons, or with the slider control at the bottom.
+* Use the |list| (list) button in the upper left corner to view the table of content with all the book chapters.
+* Click the |tune| (preferences) button to adjust the text size and the background color.
+* If you want to search for a word or a phrase, use the |search| (search) button.
+* Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
+* Close the fullscreen view with the :guilabel:`Esc` key or the |fullscreen_exit| (fullscreen exit) button.
+* Navigate through the book pages with |back| (previous page) and |forward| (next page) buttons, or with the slider control at the bottom.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the viewer to download the ePub file to your computer.
 
 	.. figure:: img/epub.*
@@ -303,8 +303,8 @@ Slideshow Viewer options
 
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
 
-* Use the |fullscreen| button in the upper right corner to open the ebook in fullscreen view.
-* Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |previous-page| and |next-page| buttons on the side of the slideshow.
+* Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
+* Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |back| (previous page) and |forward| (next page) buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
 
 .. _lessons:
@@ -312,7 +312,7 @@ To navigate the slides of a slideshow, you may use the on-screen navigation cont
 Lessons
 ^^^^^^^
 
-Your teacher or coach may prepare a *lesson* (|lessons| icon), a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the **Classes** tab, below the **Lessons** heading. 
+Your teacher or coach may prepare a |lesson| *lesson*, a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the |classes| **Classes** tab, below the **Lessons** heading. 
 
 Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 
@@ -325,7 +325,7 @@ Click on a lesson title to open its materials, and follow the indications of you
 Quizzes 
 ^^^^^^^
 
-If your teacher or coach scheduled an *quiz* (|exams| icon) for you or your class, it will be available in the **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
+If your teacher or coach scheduled an |quiz| *quiz* for you or your class, it will be available in the |classes| **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
 	.. figure:: img/exams3.png
 		:alt: 
@@ -343,9 +343,9 @@ If the quiz is listed as *Not started*, follow these steps.
 #. Press the *Back to quiz list* if you want to pause the quiz and come back later. 
 #. Press the button :guilabel:`SUBMIT QUIZ` when you want to submit it for grading. 
 
-A quiz that you did not yet submit will be marked with the |in-progress| icon, so you can easily recognize it, and click to resume when you are ready.
+A quiz that you did not yet submit will be marked with the |inProgress| (in-progress) icon, so you can easily recognize it, and click to resume when you are ready.
 
-Once you complete and submit a quiz, it will be marked with the |completed| icon, but you can still click on it to see the score and review your answers.
+Once you complete and submit a quiz, it will be marked with the |mastered| (completed) icon, but you can still click on it to see the score and review your answers.
 
 	.. figure:: img/exam-result.png
 		:alt:  

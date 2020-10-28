@@ -3,7 +3,7 @@
 Facilities
 ##########
 
-You can import, sync and remove the facilities on your Kolibri device from the **Facilities** tab in your **Device** dashboard (|facilities| icon). 
+You can import, sync and remove the facilities on your Kolibri device from the |facility| **Facilities** tab in your |device| **Device** dashboard. 
 
 .. TO-DO (icon)
 
