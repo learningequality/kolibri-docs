@@ -29,7 +29,7 @@ For example, if Kolibri is installed and started on a computer with the address 
 
 
 .. tip::
-  * You can check the IP (**Server URL**) of the device where Kolibri is running by going to **Info** tab in the **Device** dashboard.
+  * You can check the IP (**Server URL**) of the device where Kolibri is running by going to |deviceInfo| **Info** tab in the |device| **Device** dashboard.
 
     .. figure:: ../img/device-info.png
       :alt: Open the Device page and navigate to the Info tab to find the IP (Server URL) for your device.

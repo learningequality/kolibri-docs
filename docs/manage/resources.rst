@@ -6,7 +6,7 @@ Channels and Resources
 .. note::
   To manage Kolibri channels and resources you must have the appropriate permissions.
 
-Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri. You can import and export channels in Kolibri from the **Channels** tab of the **Device** dashboard (|channels| icon).
+Kolibri **Channel** is a collection of educational resources (video, audio, document files or interactive apps) prepared and organized by the channel curator for their use in Kolibri. You can import and export channels in Kolibri from the |channel| **Channels** tab of the |device| **Device** dashboard.
 
   .. figure:: /img/manage-resources.png
     :alt: Open the Device page and Channels tab to see the list of available channels on your device
@@ -42,7 +42,7 @@ Import Channels and Resources into Kolibri
 
 .. warning:: **Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import resources from:
 
-  * already curated **channels** on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
+  * already curated channels on `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__, if the computer running Kolibri is connected to internet
   
   * :ref:`another device in the same local network <local_network>` through *peer import*
 
@@ -55,7 +55,7 @@ Import Channels and Resources into Kolibri
 
 To import resources into Kolibri, follow these steps.
 
-#. Click :guilabel:`IMPORT` in the **Channels** tab on the **Device** page.
+#. Click :guilabel:`IMPORT` in the |channel| **Channels** tab on the |device| **Device** page.
 #. Choose the source option: **Kolibri Studio**, **Local network or internet**, or **Attached drive or memory card**.
 
   .. figure:: /img/import-choose-source.png
@@ -81,7 +81,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
       Select which public channel on Kolibri Studio you want to import resources from.
 
     
-    Channels from which you have already imported some or all resources onto your device will have the |on-device| icon. 
+    Channels from which you have already imported some or all resources onto your device will have the |onDevice| (on device) icon. 
 
 
 2. Click :guilabel:`SELECT RESOURCES` for the desired channel, and wait for Kolibri to load the channel information and the topic tree.
@@ -98,7 +98,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
 
 #. Click the :guilabel:`IMPORT` button once you finish selecting all the desired resources.
 
-#. You will see the import progress in the **Task manager** page. Once the import concludes, the newly imported channel and resources display on the **Channels** page.
+#. You will see the import progress in the **Task manager** page. Once the import concludes, the newly imported channel and resources display on the |channel| **Channels** page.
 
     .. figure:: /img/import-CC.png
   	  :alt: resources import progress bar will display the percentage of the download
@@ -129,7 +129,7 @@ Import with Token
 #. Click :guilabel:`CONTINUE` to unlock the channel, or :guilabel:`CANCEL` to exit.
 #. Proceed to select and import channel topics and resources as for the public channels.
 
-   Unlisted or private channels in the list are indicated with the |unlisted-channel| icon.
+   Unlisted or private channels in the list are indicated with the |unlistedchannel| (unlisted channel) icon.
 
    .. warning:: Unlisted channel **must be published** on Studio before the token can be used to import it.
 
@@ -263,8 +263,8 @@ To change the order in which channels are presented to learners on the **Learn >
 #. Click the :guilabel:`OPTIONS` button and select the **Edit channel order** option.
 #. In the **Edit channel order** page you can either:
 
-    * Grab the |drag| button to reorder channels with the mouse (drag and drop).
-    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.  
+    * Grab the |dragHorizontal| (drag) button to reorder channels with the mouse (drag and drop).
+    * Use the |chevronUp| (up) and |chevronDown| (down) buttons to reorder by keyboard navigation.  
 
   You will see a confirmation notification at the bottom every time you change the order of the channels.
 
@@ -329,7 +329,7 @@ To delete one or more full channels with all of its resources from your device, 
 #. Click the :guilabel:`DELETE` button once you finish selecting, or :guilabel:`CANCEL` to exit without deleting the channel.
 
 #. If you are certain you want to proceed, click the :guilabel:`DELETE` button again in the **Delete channel** confirmation window.
-#. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the **Channels** tab on the **Device** page.
+#. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the |channel| **Channels** tab on the |device| **Device** page.
 
 
 Delete Selected Resources from a Channel

@@ -149,4 +149,4 @@ Restart Kolibri servers on destination devices
 * On Windows double-click the desktop shortcut to start Kolibri after copying channels. You will see the notification message *Kolibri is starting, please wait…*. When you see the next notification that *Kolibri is running…*, Kolibri will open in the browser with the URL ``http://127.0.0.1:8080``.
 * On Linux open the Terminal and run ``kolibri start`` or ``sudo service kolibri start`` (if you installed Kolibri to run as the system service).
 
-Since the deprovision command emptied the user database on the main server, you will need to perform  the :ref:`setup_initial` on each destination device to set their **Facility** name and the super admin account. The Facility name could be the name of the learning center or school in which the respective server will be implemented.
+Since the deprovision command emptied the user database on the main server, you will need to perform  the :ref:`setup_initial` on each destination device to set their Facility name and the super admin account. The Facility name could be the name of the learning center or school in which the respective server will be implemented.

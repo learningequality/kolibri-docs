@@ -6,20 +6,19 @@ Manage Lessons
 
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
-To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the **Plan** tab (|edit| icon) of your **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator. 
-
+To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the |edit| **Plan** tab (|edit| icon) of your |coach| **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator.
 
 .. figure:: /img/lessons.png
     :alt: 
 
 .. note::
-  To manage |lessons| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
+  To manage |lesson| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
 
 
 Create New Lesson
 """""""""""""""""
 
-To create a new lesson |lessons|, follow these steps.
+To create a new |lesson| *lesson*, follow these steps.
 
 1. Click the :guilabel:`NEW LESSON` button.
 2. Fill in the field for the lesson title, description and choose individual learners, groups or the entire class as the recipients. 
@@ -42,7 +41,7 @@ To create a new lesson |lessons|, follow these steps.
   .. figure:: /img/select-lesson-resources2.png
     :alt: 
 
-6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| button to display the results. When you finish, click the :guilabel:`EXIT SEARCH` button to return to the list of selected resources.
+6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| (search) button to display the results. When you finish, click the :guilabel:`EXIT SEARCH` button to return to the list of selected resources.
    
   .. figure:: /img/search-lesson-resources.png
     :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
@@ -54,8 +53,8 @@ To create a new lesson |lessons|, follow these steps.
 
 8. After you've selected the resources for the lesson, you can:
 
-    * Grab the |drag| button to reorder lesson resources with the mouse (drag and drop).
-    * Use the |arrow-up| and |arrow-down| buttons to reorder by keyboard navigation.
+    * Grab the |dragHorizontal| (drag) button to reorder lesson resources with the mouse (drag and drop).
+    * Use the |chevronUp| (up) and |chevronDown| (down) buttons to reorder by keyboard navigation.
     * Click the :guilabel:`REMOVE` button to delete a resource.
 
       .. figure:: /img/reorder-lesson-resources.png

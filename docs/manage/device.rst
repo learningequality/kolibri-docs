@@ -3,7 +3,7 @@
 Device
 ######
 
-You can edit device configuration settings in Kolibri from the **Settings** tab in your **Device** dashboard (|settings| icon). Remember that you can also configure :ref:`manage_facility_ref` settings. 
+You can edit device configuration settings in Kolibri from the |settings| **Settings** tab in your |device| **Device** dashboard. Remember that you can also configure :ref:`manage_facility_ref` settings. 
 
 .. note::
   To manage device settings you must have the appropriate permissions.
@@ -46,6 +46,6 @@ You can configure the default landing page for learners to be the Kolibri **Sign
 The first option is recommended when you want to encourage the learners to always start the session in Kolibri with their username (and password, if required) in order to retain the learning progress data. In this case you can also:
 
 * Leave unchecked the **Allow users to access resources without signing in** checkbox, if you want to restrict guest browsing and allow learners to access Kolibri only if they sign-in.
-* Check the **Learners should only see resources assigned to them in classes** checkbox if you don't want to allow free browsing of resources available on your device. In this case learners will only see the **Learn > Classes** tab with quizzes and lessons that they have been assigned when they sign-in to Kolibri, and the **Channels** and **Recommended** tabs will not be visible.
+* Check the **Learners should only see resources assigned to them in classes** checkbox if you don't want to allow free browsing of resources available on your device. In this case learners will only see the **Learn > Classes** tab with quizzes and lessons that they have been assigned when they sign-in to Kolibri, and the |channel| **Channels** and |recommended| **Recommended** tabs will not be visible.
   
-If your device is located in a less formal learning facility setting (like a library or a community center), where you are not tracking individual learning progress, or you want to encourage self-exploration of channels and resources available on Kolibri, use the **Learn** page as the default landing page. 
+If your device is located in a less formal learning facility setting (like a library or a community center), where you are not tracking individual learning progress, or you want to encourage self-exploration of channels and resources available on Kolibri, use the |learn| **Learn** page as the default landing page. 
