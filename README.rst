@@ -17,9 +17,9 @@ Kolibri Docs
 What is this?
 -------------
 
-This is the Documentation repository of Kolibri, where documentation is built.
+This is the user documentation repository of Kolibri, where documentation is maintained. The docs themselves are hosted at [kolibri.readthedocs.io](https://kolibri.readthedocs.io/).
 
-To translate the documentation, please visit our `CrowdIn project kolibri-docs <http://crowdin.com/project/kolibri-docs/>`__
+To help translate the documentation, please visit our `'kolibri-docs' CrowdIn project <http://crowdin.com/project/kolibri-docs/>`__
 
 
 Building the docs locally
