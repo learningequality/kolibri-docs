@@ -381,7 +381,7 @@ Attaching USB storage
 
 Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry Pi. In order to download larger channels, such as the full Khan Academy, you may want to attach a USB storage media -- a flash device or a hard drive.
 
-.. tip:: Moving channels: If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
+.. tip:: Moving channels: If you have a USB source for additional storage, you can use the ``kolibri manage content movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
 
     Using the built-in management command:
 
@@ -390,7 +390,7 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
         # Stop kolibri
         sudo systemctl kolibri stop
         # Move the data
-        kolibri manage movedirectory /path/to/your/external_drive
+        kolibri manage content movedirectory /path/to/your/external_drive
         # Start kolibri
         sudo systemctl kolibri start
 
