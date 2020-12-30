@@ -3,72 +3,98 @@
 Default User Roles
 ##################
 
-Kolibri users by default can be divided in 3 different roles with respective access to features. 
+By default Kolibri users can have one of 3 roles with respective permissions to access different features. 
 
-+------------------------------------------------------------------------------------+
-| **Learners** have access to:                                                       |
-+====================================================================================+
-|.. figure:: /img/navbar-learner.png                                                 |
-|  :alt: Tabs that learners can access are, "Classes," "Channels", and "Recommended" |
-+------------------------------------------------------------------------------------+
-| **Learners can**                                                                   |
-+------------------------------------------------------------------------------------+
-| * View resources and have their progress tracked                                   |
-+------------------------------------------------------------------------------------+
+Learner
+=======
 
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
-| **Coaches** have access to:                                                                                                            |
-+==================================+=====================================================================================================+
-|.. figure:: /img/navbar-coach.png                                                                                                       |
-|  :alt: Tabs that coaches can access in addition to those for "Learners" are "Class Home," "Reports," and "Plan"                        |
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
-| **Coaches can**                                                                                                                        |
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
-| * View resources and have their progress tracked                                                                                       |
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
-| Access *Reports*                 | * View *Coach* dashboard and track progress of other users and usage stats for individual exercises |
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
-| Access *Plan*                    | * Create/Edit/Delete *Groups* in *Classes* and add users to them                                    |
-|                                  | * Create/Edit/Delete *Quizzes* and assign them to users                                             |
-|                                  | * Create/Edit/Delete *Lessons* and assign them to users                                             |
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
-| Note: *Facility coaches* have access to all classes, *class coaches* only to ones they are assigned to                                 |
-+----------------------------------+-----------------------------------------------------------------------------------------------------+
+**Learners** have access to the |learn| **Learn** dashboard with the tabs |classes| **Classes**, |channel| **Channels**, and |recommended| **Recommended**.
 
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| **Admins** have access to:                                                                                                                           |
-+==================================+===================================================================================================================+
-|.. figure:: /img/navbar-admin.png                                                                                                                     |
-|  :alt: Tabs that admins can access in addition to those for "Learners" and "Coaches" in each Facility are "Classes," "Users," "Settings," and "Data" |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| **Admins can**                                                                                                                                       |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| * View resources and have their progress tracked                                                                                                     |
-| * View *Coach* dashboard and track progress of other users and usage stats for individual exercises                                                  |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| Access *Classes*                 | * Create/Edit/Delete *Groups* in *Classes* and add users to them                                                  |
-|                                  | * Create/Edit/Delete *Quizzes* and assign them to users                                                           |
-|                                  | * Create/Edit/Delete *Lessons* and assign them to users                                                           |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| Access *Users*                   | * Create/Edit/Delete *Classes* and enroll users in them                                                           |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| Access *Settings*                | * View/Edit *Facility configuration* settings                                                                     |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| Access *Data*                    | * Export *Detail* and *Summary* logs usage data                                                                   |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------+
+	.. figure:: /img/navbar-learner.png
+	   :alt:
 
-Kolibri Super Admins
---------------------
+Learners can:
 
-Kolibri **super admin** users have all device permissions, and are able to :ref:`assign them to other users <permissions>`. In addition to **admin** user access, **super admin** users can:
+* View resources and have their progress tracked
 
-+-------------------------------------------+
-|  * Import/Export *Content* channels       |
-|  * View/Edit *Permissions* of other users |
-+-------------------------------------------+
+Coach
+=====
 
-.. tip::
-   If you are unable to retrieve the username and password for a super admin account in your facility, you can :ref:`create a new super admin account using the command line <create_superuser>`.
+**Coaches** have access to the same tabs as learners, but they also have permissions to access the |coach| **Coach** dashboard with the tabs |dashboard| **Class Home**, |reports| **Reports**, and |edit| **Plan**.
+
+	.. figure:: /img/navbar-coach.png
+	   :alt:
+
+Coaches can:
+
+* View resources and have their progress tracked
+* Access the *Coach* dashboard
+
+    - Track progress of other users and usage stats for individual exercises (in the *Reports* tab)
+    - (in the *Plan* tab)
+
+    	- Create/Edit/Delete *Groups* in *Classes* and add users to them
+    	- Create/Edit/Delete *Quizzes* and assign them to users
+    	- Create/Edit/Delete *Lessons* and assign them to users
+
+.. note:: *Facility coaches* have access to all classes, *class coaches* only to ones they are assigned to		
+
+Facility Admin
+==============
+
+**Facility admins** have access to the same tabs as learners and coaches, but they also have permissions to access the |facility| **Facility** dashboard with tabs |classes| **Classes**, |people| **Users**, |settings| **Settings**, and |data| **Data**.
+
+	.. figure:: /img/navbar-admin.png
+	  :alt: 
+
+Admins can:
+
+* View resources and have their progress tracked
+* Access the *Coach* dashboard to:
+
+ 	- Track progress of other users and usage stats for individual exercises
+ 	- Create/Edit/Delete *Groups* in *Classes* and add users to them
+ 	- Create/Edit/Delete *Quizzes* and assign them to users
+ 	- Create/Edit/Delete *Lessons* and assign them to users
+
+* Access the *Facility* dashboard to:
+
+    - Create/Edit/Delete *Classes* and enroll users in them (in the *Classes* tab)
+    - Create/Edit/Delete other **admins**, **coaches**, and **learners** (in the *Users* tab)
+    - View/Edit facility configuration settings (in the *Settings* tab)
+    - Export *Detail* and *Summary* logs usage data (in the *Data* tab)
+
+Super Admin
+===========
+
+Kolibri **super admin** users have access to the same tabs as learners, coaches, and facility admins, but they also have permissions to access the |device| **Device** dashboard with tabs |channel| **Channels**, |permissions| **Permissions**, |facility| **Facilities**, |deviceInfo| **Info**, and |settings| **Settings**. Super admins have all device permissions, and are able to :ref:`assign them to other users <permissions>`. 
+
+Super admin users can:
+
+* View resources and have their progress tracked
+* Access the *Coach* dashboard to:
+
+ 	- Track progress of other users and usage stats for individual exercises
+ 	- Create/Edit/Delete *Groups* in *Classes* and add users to them
+ 	- Create/Edit/Delete *Quizzes* and assign them to users
+ 	- Create/Edit/Delete *Lessons* and assign them to users
+
+* Access the *Facility* dashboard to:
+
+    - Create/Edit/Delete *Classes* and enroll users in them (in the *Classes* tab)
+    - Create/Edit/Delete other **admins**, **coaches**, and **learners** (in the *Users* tab)
+    - View/Edit *Facility configuration* settings (in the *Settings* tab)
+    - Export *Detail* and *Summary* logs usage data (in the *Data* tab)
+
+* Access the *Device* dashboard to
+
+    - Import/Export channels (in the *Channels* tab)
+    - View/Edit permissions of other users (in the *Permissions* tab)
+    - View/Import/Sync/Delete facilities (in the *Facilities* tab)
+    - View device hardware and system details (in the *Info* tab)
+    - View/Edit device configuration settings (in the *Settings* tab)
+
+.. tip:: If you are unable to retrieve the username and password for the super admin account in your facility, you can :ref:`create a new super admin account using the command line <create_superuser>`.
 
 Assign Additional Permissions
 -----------------------------
