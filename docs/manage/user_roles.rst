@@ -69,6 +69,9 @@ Super Admin
 
 Kolibri **super admin** users have access to the same tabs as learners, coaches, and facility admins, but they also have permissions to access the |device| **Device** dashboard with tabs |channel| **Channels**, |permissions| **Permissions**, |facility| **Facilities**, |deviceInfo| **Info**, and |settings| **Settings**. Super admins have all device permissions, and are able to :ref:`assign them to other users <permissions>`. 
 
+	.. figure:: /img/navbar-superadmin.png
+	  :alt: 
+
 Super admin users can:
 
 * View resources and have their progress tracked
