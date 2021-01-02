@@ -142,6 +142,19 @@ To add more learning resources from a channel that you previously imported resou
 #. Click :guilabel:`IMPORT MORE`.
 #. Repeat the selection procedure from above. 
 
+Import Channel Collection
+"""""""""""""""""""""""""
+
+Channel collection is a package of multiple Studio channels all associated with its unique **collection token**. You can use a collection token to import multiple channels at once in Kolibri, instead of importing channels with their individual tokens. To import channel collection, follow these steps.
+
+#. Click the **Select entire channels instead** link above the list of public channels in Kolibri.
+#. Enter the **collection token** received from the colection curator on Kolibri Studio.
+#. Click :guilabel:`CONTINUE` to unlock the collection, or :guilabel:`CANCEL` to exit.
+#. Proceed to select and import channels.
+
+   .. note:: Once import has finished, you will not see the *collection*, but just the channels it unclocked, listed among the others imported on the device.
+
+
 
 .. _local_network:
 
