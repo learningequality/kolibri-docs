@@ -153,21 +153,21 @@ Execute the *dry-run* of the command to review the report containing the number 
 
 .. code-block:: bash
 
-  kolibri manage bulkimportusers --dryrun --output-file=my-school-users-2020.csv
+  kolibri manage bulkimportusers --dryrun my-school-users-2020.csv
 
 
 Run the command and review that the changes are visible in the **Facility** dashboard.
 
 .. code-block:: bash
 
-  kolibri manage bulkimportusers --output-file=my-school-users-2020.csv
+  kolibri manage bulkimportusers my-school-users-2020.csv
 
 
 If the CSV file does not contain all the non admin users or classes currently in the facility, using the ``--delete`` flag will remove them during the import process.
 
 .. code-block:: bash
 
-  kolibri manage bulkimportusers --delete --output-file=my-school-users-2020.csv
+  kolibri manage bulkimportusers --delete my-school-users-2020.csv
 
 
 Export to CSV
