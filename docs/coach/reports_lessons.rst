@@ -7,6 +7,12 @@ Open the **Lessons** sub-tab from the main |reports| **Reports** view to access 
 
 .. To review past lessons, use the filter to include only the *Inactive* lessons.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube.com/embed/-WGVMd_aPyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
 * **Progress** column presents the summary of learners who |inProgress| *started* and |mastered| *completed* the lessons, or |helpNeeded| *need help* with some of the included resources.
 * The switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. You can change the lesson visiblity from here, as well as in the **Plan > Lessons** subtab.
   

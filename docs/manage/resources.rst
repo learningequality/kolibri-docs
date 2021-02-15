@@ -52,6 +52,11 @@ Import Channels and Resources into Kolibri
 
   **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__ site (it's free), and build your own channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/index.html>`__.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube.com/embed/qLbSaAGs-CA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 To import resources into Kolibri, follow these steps.
 

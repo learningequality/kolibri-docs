@@ -8,15 +8,22 @@ You can view, create and delete classes, as well as search, filter and enroll Ko
   .. figure:: /img/classes.png
     :alt: Open Facility page and navigate to Classes tab to see the the list of all the classes, and access the options to manage them.
 
-.. note::
-  If you have more than one facility on the device, you must first select a facility. Click on the name of the facility from the list to access its classes.
+  .. note::
+    If you have more than one facility on the device, you must first select a facility. Click on the name of the facility from the list to access its classes.
 
-  .. figure:: /img/select-facility.png
-    :alt: After clicking the Facility option in the sidebar, select which one you want to work on.
+    .. figure:: /img/select-facility.png
+      :alt: After clicking the Facility option in the sidebar, select which one you want to work on.
 
-    Select a facility to access its classes.
+      Select a facility to access its classes.
 
-  To manage Kolibri classes you must sign in as **admin** or **super admin**.
+To manage Kolibri classes you must sign in as **admin** or **super admin**.
+
+
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube.com/embed/_tFyRB2lgEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.      
 
 
 Add New Class

@@ -5,8 +5,6 @@ Facilities
 
 You can import, sync and remove the facilities on your Kolibri device from the |facility| **Facilities** tab in your |device| **Device** dashboard. 
 
-.. TO-DO (icon)
-
 .. note::
   To manage facilities on a given device, you must have the **super admin** permissions.
 
@@ -15,6 +13,13 @@ You can import, sync and remove the facilities on your Kolibri device from the |
 	:alt: Open the Device page and navigate to Facilities tab.
 
 	Manage facilities on a device.
+
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube.com/embed/RTJC7T20R34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
 
 Import Facility
 ***************

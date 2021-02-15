@@ -12,6 +12,11 @@ You can view, create and delete quizzes, as well as assign them to learners, usi
 .. note::
   To manage |quiz| **Quizzes** in Kolibri classes and groups you must sign in as **coach**, **admin** or **super admin**.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube.com/embed/9r58yCOqjYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Create New Quiz
 """""""""""""""
