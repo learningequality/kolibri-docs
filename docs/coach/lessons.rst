@@ -14,6 +14,11 @@ To view, create or delete lessons, as well as assign them to learners, use the *
 .. note::
   To manage |lesson| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/0tM3jX_Ofyw?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Create New Lesson
 """""""""""""""""

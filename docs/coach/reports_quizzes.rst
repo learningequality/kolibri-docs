@@ -7,6 +7,12 @@ Open the **Quizzes** sub-tab from the main |reports| **Reports** view to access 
 
 .. To review past quizzes, use the filter to include only the *Inactive* ones.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/-WGVMd_aPyo?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
 * **Progress** column presents the summary of learners that |inProgress| *started* and |mastered| *completed* each quiz.
 * The **Status** column indicates whether the quiz is *opened* for learners (whether they can still answer the questions), or whether the quiz has *ended*. It also indicates whether the quiz is still visible to learners in the **Learn > Classes** view.
 

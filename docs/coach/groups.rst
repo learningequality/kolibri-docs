@@ -12,6 +12,11 @@ In case you need to further divide learners inside classes, for example to addre
 .. note::
   To manage Kolibri groups you must sign in as **coach**, **admin** or **super admin**.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/sjxJ8JxwD-Y?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Create a New Group
 """"""""""""""""""
