@@ -11,6 +11,11 @@ Setting up Kolibri will be different depending on your learning environment:
 .. note::
   You will only need to do the initial setup once, when you first start Kolibri after the installation. You can change all the settings later.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/knrGjxejHUM?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+
 Quick Start
 -----------
 

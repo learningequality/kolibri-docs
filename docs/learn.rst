@@ -15,7 +15,7 @@ Access Kolibri
 
 ..  raw:: html
 
-    <iframe width="670" height="380" src="https://www.youtube.com/embed/K8j04ddOASg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/K8j04ddOASg?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
@@ -177,7 +177,7 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 
 ..  raw:: html
 
-    <iframe width="670" height="380" src="https://www.youtube.com/embed/wc92hqr-i-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/wc92hqr-i-U?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 

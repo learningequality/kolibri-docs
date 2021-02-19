@@ -18,10 +18,9 @@ You can view, create and delete classes, as well as search, filter and enroll Ko
 
 To manage Kolibri classes you must sign in as **admin** or **super admin**.
 
-
 ..  raw:: html
 
-    <iframe width="670" height="380" src="https://www.youtube.com/embed/_tFyRB2lgEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/_tFyRB2lgEA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.      
 

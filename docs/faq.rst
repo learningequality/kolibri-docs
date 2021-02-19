@@ -17,6 +17,10 @@ In a nutshell, Kolibri can run independently of internet availability, but you n
 
 One possibility is to have Kolibri installed in one location with internet connection, where you can import channels from `Kolibri Studio <https://studio.learningequality.org/>`_ (curriculum tool and content curation server), and then export them to removable USB drives that you bring or send to offline locations (rural schools, refugee camps, etc.) to import locally.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/FbILqL7fwwI?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
 .. _languages:
 
 
