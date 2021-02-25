@@ -54,7 +54,7 @@ For example (``Channel ID`` without angle brackets ``<...>``):
   kolibri manage importchannel network a9b25ac9814742c883ce1b0579448337
   kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337
 
-.. warning:: When you import channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
+.. warning:: When you import channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
   Commented out because the API is weird and should be fixed

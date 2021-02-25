@@ -28,7 +28,7 @@ After following the above steps the Raspberry Pi will provide a WiFi network nam
 By default the server does not have Internet access. To import resources to Kolibri, either connect a USB drive with exported channels, or connect the Pi to an internet-connected router using the ethernet cable.
 
 
-.. note:: The installed system contains a full Raspbian image, with all the software included in the ``lite`` version from https://www.raspberrypi.org/downloads/raspbian/. After login use ``sudo raspi-config`` to customize the environment, including localization, timezone, etc. if desired.
+.. note:: The installed system contains a full RPi image, with all the software included in the ``Lite`` version from https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit. After login use ``sudo raspi-config`` to customize the environment, including localization, timezone, etc. if desired.
 
 
 .. note:: When an ethernet cable with Internet access is connected to the Raspberry, it will have internet connectivity but won't provide this connectivity to the devices that are connected to its ``kolibri`` ssid. These devices will only be able to use the browser with the Kolibri application at the URL ``http://10.10.10.10``.
