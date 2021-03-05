@@ -52,6 +52,11 @@ Import Channels and Resources into Kolibri
 
   **To import your own files for use in Kolibri**, you need to register at `Kolibri Studio <https://studio.learningequality.org/accounts/login/>`__ site (it's free), and build your own channel that you can subsequently import into Kolibri. Read more about how to do this in our `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/index.html>`__.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/qLbSaAGs-CA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 To import resources into Kolibri, follow these steps.
 
@@ -141,6 +146,19 @@ To add more learning resources from a channel that you previously imported resou
 #. Click the :guilabel:`MANAGE` button for the desired channel.
 #. Click :guilabel:`IMPORT MORE`.
 #. Repeat the selection procedure from above. 
+
+Import Channel Collection
+"""""""""""""""""""""""""
+
+Channel collection is a package of multiple Studio channels all associated with its unique **collection token**. You can use a collection token to import multiple channels at once in Kolibri, instead of importing channels with their individual tokens. To import channel collection, follow these steps.
+
+#. Click the **Select entire channels instead** link above the list of public channels in Kolibri.
+#. Enter the **collection token** received from the colection curator on Kolibri Studio.
+#. Click :guilabel:`CONTINUE` to unlock the collection, or :guilabel:`CANCEL` to exit.
+#. Proceed to select and import channels.
+
+   .. note:: Once import has finished, you will not see the *collection*, but just the channels it unclocked, listed among the others imported on the device.
+
 
 
 .. _local_network:

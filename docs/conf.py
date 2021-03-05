@@ -174,7 +174,11 @@ htmlhelp_basename = "kolibri-user"
 # Add replacement codes for Kolibri design system icons
 rst_prolog = """
 .. role:: raw-html(raw)
-      :format: html
+     :format: html
+
+.. |br| replace:: :raw-html:`<br /><br />`
+
+
 """
 with open("./rstIconReplacements.txt") as f:
     replacements = f.read()

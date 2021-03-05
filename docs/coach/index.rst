@@ -12,6 +12,13 @@ Click on a class to access the progress-tracking features and create lessons, qu
 
 	  Choose one of the classes from this view to access the Kolibri coach features.
 
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/xERcrV2UgzA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
+
 .. _track_progress:
 
 
@@ -129,3 +136,9 @@ Coach resources and channels that contain them are marked with the |coachContent
 	  :alt: Indicators of the number of available coach support resources for all the channels are visible on the Kolibri Learn page, inside each channel card.
 
 	  Channel with 4 support resources for coaches in Kolibri.
+
+..  raw:: html
+
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/jXoMLViGI3I?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.

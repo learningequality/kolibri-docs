@@ -54,7 +54,7 @@ For example (``Channel ID`` without angle brackets ``<...>``):
   kolibri manage importchannel network a9b25ac9814742c883ce1b0579448337
   kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337
 
-.. warning:: When you import channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-content-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
+.. warning:: When you import channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
 ..
   Commented out because the API is weird and should be fixed
@@ -153,21 +153,21 @@ Execute the *dry-run* of the command to review the report containing the number 
 
 .. code-block:: bash
 
-  kolibri manage bulkimportusers --dryrun --output-file=my-school-users-2020.csv
+  kolibri manage bulkimportusers --dryrun my-school-users-2021.csv
 
 
 Run the command and review that the changes are visible in the **Facility** dashboard.
 
 .. code-block:: bash
 
-  kolibri manage bulkimportusers --output-file=my-school-users-2020.csv
+  kolibri manage bulkimportusers my-school-users-2021.csv
 
 
 If the CSV file does not contain all the non admin users or classes currently in the facility, using the ``--delete`` flag will remove them during the import process.
 
 .. code-block:: bash
 
-  kolibri manage bulkimportusers --delete --output-file=my-school-users-2020.csv
+  kolibri manage bulkimportusers --delete my-school-users-2021.csv
 
 
 Export to CSV
@@ -177,14 +177,14 @@ Run the following command to create a ``users_<date>_<time>.csv`` file.
 
 .. code-block:: bash
 
-  kolibri manage bulkexportusers --overwrite --output-file=my-school-users-2020.csv
+  kolibri manage bulkexportusers --overwrite --output-file=my-school-users-2021.csv
 
 
 To export a CSV file with localized headers, use the ``--locale`` flag.
 
 .. code-block:: bash
 
-  kolibri manage bulkexportusers --overwrite --output-file=lista-estudiantes-2020.csv --locale=es_ES
+  kolibri manage bulkexportusers --overwrite --output-file=lista-estudiantes-2021.csv --locale=es_ES
 
 
 
