@@ -159,4 +159,4 @@ To install ``kolibri-server`` follow these steps.
 
 2. Restart the system.
 
-.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but on local WiFi access point characteristics.
+.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but also on local WiFi access point characteristics.
