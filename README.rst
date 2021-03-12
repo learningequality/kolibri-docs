@@ -90,3 +90,11 @@ The languages (you're always welcome to request a new one!) are then worked out 
 and approved. Once a language is improved sufficiently, we can fetch the latest strings from
 CrowdIn and open up a new Pull Request here for the appropriate branch.
 
+License
+-------
+
+.. image:: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+   :alt: Creative Commons License
+
+
+This work is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`__
