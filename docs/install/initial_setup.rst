@@ -170,7 +170,7 @@ If you are part of a wider learning environment, where several learning faciliti
 
 				Manually add the network address of the device.
 
-		.. warning:: **Firewals** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
+		.. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
 
 			* disable the firewalls on all the devices that you need to sync
 			* restart Kolibri for broadcast to take effect

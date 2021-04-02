@@ -41,6 +41,75 @@ If you need to :ref:`profile server requests <profile_requests>` to get a more d
      PROFILE = 1
 
 
+Configure Supported Languages
+*****************************
+
+You can configure Kolibri to display just a specific set of languages that your implementation supports, as opposed to the full list of languages Kolibri has been localized into. Edit the ``options.ini`` file to include the key ``LANGUAGES`` under the section ``[Deployment]``, with a comma separated list of ``intl_code`` language codes. 
+
+Below example will display only English, Gujarati, Hindi, Marathi and Telugu languages in the :ref:`language selector <change_language>` window.
+
+  .. code-block:: ini
+    
+     [Deployment]
+     LANGUAGES = 'en', 'gu-in', 'hi-in', 'mr', 'te'
+
+Kolibri currently supports the following locales:
+
++---------------------------+-----------------+
+| Language                  | ``intl_code``   |
++===========================+=================+
+| English                   | ``en``          |
++---------------------------+-----------------+
+| Arabic                    | ``ar``          |                
++---------------------------+-----------------+
+| Bengali                   | ``bn-bd``       | 
++---------------------------+-----------------+
+| Bulgarian                 | ``bg-bg``       | 
++---------------------------+-----------------+
+| Burmese                   | ``my``          | 
++---------------------------+-----------------+
+| Chinese (simplified)      | ``zh-hans``     | 
++---------------------------+-----------------+
+| Chinyanja                 | ``nyn``         | 
++---------------------------+-----------------+
+| Farsi                     | ``fa``          | 
++---------------------------+-----------------+
+| French                    | ``fr``          | 
++---------------------------+-----------------+
+| Fulfulde Mbororoore       | ``ff-cm``       | 
++---------------------------+-----------------+
+| German                    | ``de``          | 
++---------------------------+-----------------+
+| Gujarati                  | ``gu-in``       | 
++---------------------------+-----------------+
+| Hindi (India)             | ``hi-in``       | 
++---------------------------+-----------------+
+| Italian                   | ``it``          | 
++---------------------------+-----------------+
+| Khmer                     | ``km``          | 
++---------------------------+-----------------+
+| Korean                    | ``ko``          | 
++---------------------------+-----------------+
+| Marathi                   | ``mr``          | 
++---------------------------+-----------------+
+| Portuguese (Brazil)       | ``pt-br``       | 
++---------------------------+-----------------+
+| Spanish (Latin America)   | ``es-419``      | 
++---------------------------+-----------------+
+| Spanish (Spain)           | ``es-es``       | 
++---------------------------+-----------------+
+| Swahili (Tanzania)        | ``sw-tz``       | 
++---------------------------+-----------------+
+| Telugu                    | ``te``          | 
++---------------------------+-----------------+
+| Urdu (Pakistan)           | ``ur-pk``       | 
++---------------------------+-----------------+
+| Yoruba                    | ``yo``          | 
++---------------------------+-----------------+
+| Vietnamese                | ``vi``          | 
++---------------------------+-----------------+
+
+
 ..    .. _content_fallback_ini:
 
 

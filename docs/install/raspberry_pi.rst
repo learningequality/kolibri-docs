@@ -21,7 +21,7 @@ If you already have a Pi running and don't want to erase it, or if you would lik
 3. Insert the SD card in the Raspberry Pi.
 4. Power on the Raspberry Pi and wait. The process takes less than 5 minutes in a model 4, but in other models can take longer. You may observe some ``Failure`` messages during this process, which is normal.
 
-.. warning:: After installing the image, a ssh server is installed with the user ``pi`` and the password ``kolibrifly``. You should immediately change the password to ensure that your server is secure.
+.. warning:: After installing the image, an ssh server is installed with the user ``pi`` and the password ``kolibrifly``. You should immediately change the password to ensure that your server is secure.
 
 After following the above steps the Raspberry Pi will provide a WiFi network named under the ssid ``kolibri`` without any password. The Kolibri server will be accessible at the URL ``http://10.10.10.10``.
 
