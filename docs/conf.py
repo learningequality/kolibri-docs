@@ -21,10 +21,13 @@ DISPLAY_VERSION = "0.14"
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
+# cwd = os.getcwd()
+# parent = os.path.dirname(cwd)
+# sys.path.insert(0, os.path.abspath(parent))
 
 extensions = [
     "sphinx.ext.todo",
-    "sphinx.ext.autodoc",
+#    "sphinx.ext.autodoc",
     "sphinx_rtd_theme",
     "notfound.extension",
 ]
@@ -78,7 +81,7 @@ pygments_style = "sphinx"
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "default"
+# html_theme = "default"
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 
@@ -103,7 +106,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-# html_title = None
+html_title = "Kolibri User Guide"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
