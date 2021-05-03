@@ -220,6 +220,9 @@ img {
 
     See pregenerate.css in the design system for usage and for specific color
     values see https://kolibri-design-system.netlify.app/colors/#tokens
+
+    This is not automatically generated anywhere so you must add colors if they aren't
+    already defined on a theme token name derived class
 */
 
 .design-system-icon svg {
@@ -252,11 +255,19 @@ img {
     fill: #ffc107;
 }
 
+.design-system-icon-color-primary {
+    fill: #996189;
+}
+
 .design-system-icon-color-progress {
     fill: #03a9f4;
 }
 
 .design-system-icon-color-success {
+    fill: #388e3c;
+}
+
+.design-system-icon-color-focusOutline {
     fill: #388e3c;
 }
 
