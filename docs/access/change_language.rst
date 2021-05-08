@@ -5,8 +5,8 @@ Change Language
 
 To change language in which the **Kolibri** user interface is displayed, follow these steps:
 
-#. Open your user menu in the upper right corner.
-#. Select the **Change language** option.
+#. Open your |person| user menu in the upper right corner.
+#. Select the |language| **Change language** option.
 #. Choose the desired language.
 #. Click :guilabel:`CONFIRM` and Kolibri will be displayed in the selected language.
    
