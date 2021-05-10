@@ -57,6 +57,7 @@ To sign in to **Kolibri** and start learning, follow these steps:
 
 	  "Sign in" link in the user menu.
 
+.. _profile:
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
@@ -73,10 +74,8 @@ Once you have signed in to Kolibri, you can see and edit your user data from the
 	  :alt: 
 
 To sign out from Kolibri you can either:
-	* Open the |person| user menu in the upper right corner and select |logout| **Sign out** option. 
-	**OR**
-	
-	* Select |logout| **Sign out** option in the main sidebar menu.
+	* Click the to open the |person| user menu in the upper right corner, and select the |logout| **Sign out** option.
+	* Click the |menu| (menu) button in the upper left corner to open the sidebar, and select the |logout| **Sign out** option.
 
 
 .. _create_account:
@@ -228,7 +227,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. When you are ready to submit, click the :guilabel:`CHECK` button.
 
    * When the answer is correct and a |correct| (correct) icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
-   * If the answer is |rectified| incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
+   * If the answer is |incorrect| incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |correct| (correct) icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
@@ -364,3 +363,15 @@ Once you complete and submit a quiz, it will be marked with the |mastered| (comp
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.
+
+Points
+^^^^^^
+
+Every time you complete a resource (finish viewing a video, reading a document, or when you achieve the required number of correct answers in an exercise), you will be rewarded points |pointsActive|. 
+
+You can keep track of the total points you have in the upper right corner, near the |person| user menu.
+
+	.. figure:: img/points.png
+		:alt: 
+
+Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.

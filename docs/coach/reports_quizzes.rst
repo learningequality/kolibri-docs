@@ -30,7 +30,7 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
 #. When you click a name of a single learner, you can see the full report for each answer. This can help you understand which questions learners had difficulties answering correctly, and how many attempts they used.
   
     * |correct| green check mark icon indicates the **correct** answer
-    * |incorrectanswer| red X mark icon indicates the **incorrect** answer
+    * |incorrecReport| red X mark icon indicates the **incorrect** answer
     * |delete| gray X mark icon indicates an **unanswered** question
 
       .. figure:: /img/exam-report-detail.png
