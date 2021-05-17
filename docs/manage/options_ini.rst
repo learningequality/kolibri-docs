@@ -9,9 +9,11 @@ Installing Kolibri generates a default ``options.ini`` file with all the section
    
 .. _port:
 
+Manage Server Ports
+*******************
 
-Run Kolibri from a Different Port
-*********************************
+Run Kolibri from a different port
+---------------------------------
 
 If you need Kolibri to start and run from a port different than the default ``8080``, add the section ``[Deployment]``, and the key ``HTTP_PORT`` with the value of your desired port, to the ``options.ini`` file.
 
@@ -24,6 +26,28 @@ If you need Kolibri to start and run from a port different than the default ``80
 
 .. tip::
   If after setting the desired port in the ``options.ini`` file you still see Kolibri running from a different one, you probably have the environment variable ``KOLIBRI_HTTP_PORT`` from a previous installation, which takes precedence. Check the ``.bashrc`` file on Linux, or run the ``set`` command in Windows command prompt, to verify and correct if necessary.  
+
+Use different port to serve content
+-----------------------------------
+
+If you need Kolibri to serve content resources from a different port than the one server itself is running, add the section ``[Deployment]``, and the key ``ZIP_HTTP_PORT`` with the value of your desired port.
+
+  .. code-block:: ini
+    
+     [Deployment]
+     ZIP_HTTP_PORT = 1234 
+     # Substitute 1234 with your desired port number
+
+
+Enable port autodiscovery
+-------------------------
+
+To enable the autodiscovery of the port where Kolibri is running, set the key ``HTTP_PORT`` with the value ``None`` in the section ``[Deployment]``.
+
+  .. code-block:: ini
+    
+     [Deployment]
+     HTTP_PORT = None 
 
 
 .. _profile_requests_ini:

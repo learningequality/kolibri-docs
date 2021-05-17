@@ -124,6 +124,19 @@ You can set the specific order for channels in the |learn| **Learn** page accord
     1         a9b25ac9814742c883ce1b0579448337        TESSA - Teacher Resources
     2         95a52b386f2c485cb97dd60901674a98        CK-12 Testing
 
+.. _delete_channels:
+
+
+Delete Channels
+***************
+
+To delete Kolibri channels on your local drive in order to free hard drive space on the device, follow these steps.
+
+.. code-block:: bash
+
+  kolibri manage deletechannel <Channel ID>
+  
+
 
 .. _create_superuser:
 
