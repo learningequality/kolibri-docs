@@ -6,7 +6,7 @@ Manage Lessons
 
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
-To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the |edit| **Plan** tab (|edit| icon) of your |coach| **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator.
+To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator.
 
 .. figure:: /img/lessons.png
     :alt: 
@@ -23,7 +23,7 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
 Create New Lesson
 """""""""""""""""
 
-To create a new |lesson| *lesson*, follow these steps.
+To create a new |lesson| lesson, follow these steps.
 
 1. Click the :guilabel:`NEW LESSON` button.
 2. Fill in the field for the lesson title, description and choose individual learners, groups or the entire class as the recipients. 
