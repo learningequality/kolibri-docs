@@ -79,7 +79,7 @@ Start and End Quiz
 
 Newly created quizzes are by default *not started*, meaning that learners will not see it in the **Learn > Classes** view. 
 
-* Click the the :guilabel:`START QUIZ` button to enable learners to see the quiz and start answering the questions. Button will change color and label to indicate that the quiz is now opened for learners, and can be *ended*.
+* Click the :guilabel:`START QUIZ` button to enable learners to see the quiz and start answering the questions. Button will change color and label to indicate that the quiz is now opened for learners, and can be *ended*.
 
 * Click the :guilabel:`END QUIZ` button once the designated time had passed, and you want to stop learners from interacting with it.
   
