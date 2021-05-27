@@ -109,7 +109,7 @@ Learn with Kolibri
 Classes
 ^^^^^^^
 
-Each time you login into **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
+Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
