@@ -92,7 +92,7 @@ You can change the recipients of the lesson, reassigning the lesson to a differe
 
 #. Select the desired lesson from the list in the **Lessons** tab.
 #. Click the :guilabel:`OPTIONS` button and select **Edit details**.
-#. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson under the *Recipients* heading.
+#. Select the entire class, groups or individual learners to whom you wish to assign the lesson under the *Recipients* heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
@@ -104,7 +104,7 @@ To copy a lesson to a different group or another class of your facility, follow 
 1. Select the desired lesson from the list in the **Lessons** tab.
 2. Click :guilabel:`OPTIONS` and select **Copy lesson**.
 3. Select the class to which you wish to copy the lesson to.
-4. Select the entire class, groups or inidividual learners to whom you wish to assign the lesson.
+4. Select the entire class, groups or individual learners to whom you wish to assign the lesson.
 5. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.
