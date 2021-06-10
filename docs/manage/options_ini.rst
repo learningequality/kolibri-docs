@@ -38,6 +38,7 @@ If you need Kolibri to serve content resources from a different port than the on
      ZIP_HTTP_PORT = 1234 
      # Substitute 1234 with your desired port number
 
+.. warning:: If you experience problems on 
 
 Enable port autodiscovery
 -------------------------
