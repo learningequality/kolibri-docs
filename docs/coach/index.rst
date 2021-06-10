@@ -12,6 +12,9 @@ Click on a class to access the progress-tracking features and create lessons, qu
 
 	  Choose one of the classes from this view to access the Kolibri coach features.
 
+.. note:: Kolibri progress tracking features are available by default in the *classroom model*, when learner devices are in the same local network as those used by coaches. However, in case of the at-home usage on personal devices, it is necessary to :ref:`sync facility data between devices <sync_facility>` for coaches to be able to track learner interactions with resources that happen while they are outside of the local network.
+
+
 ..  raw:: html
 
     <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/xERcrV2UgzA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />

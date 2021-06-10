@@ -28,7 +28,7 @@ Prerequisites
 
   * `Raspbian Desktop <http://downloads.raspberrypi.org/raspbian/>`__
   * `Raspbian Lite <http://downloads.raspberrypi.org/raspbian_lite/>`__
-  * **Or** `Installation of Raspbian via NOOBS <https://www.raspberrypi.org/documentation/installation/noobs.md>`__
+
 * Internet connectivity (for setting up the device)
 * An internal MicroSD card is used for the base system, and an external storage media for channels (for instance a 64 GB USB flash). We recommend that you have an Ethernet cable for online connectivity while installing and downloading Kolibri channels.
 

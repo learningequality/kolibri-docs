@@ -69,6 +69,24 @@ For example (``Channel ID`` without angle brackets ``<...>``):
     kolibri manage importchannel -- local <Channel ID> /path/to/local/drive
     kolibri manage importcontent -- local <Channel ID> /path/to/local/drive
 
+Import Channels from Local Network
+**********************************
+
+To import channels from another device on your LAN, run these two commands in sequence.
+
+.. code-block:: bash
+
+  kolibri manage importchannel network <Channel ID> --baseurl <fullPrefixIP>
+  kolibri manage importcontent network <Channel ID> --baseurl <fullPrefixIP>
+
+
+For example: 
+
+.. code-block:: bash
+
+  kolibri manage importchannel network a9b25ac9814742c883ce1b0579448337 --baseurl http://192.168.2.25:9090/
+  kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337 --baseurl http://192.168.2.25:9090/
+
 
 Export Channels
 ***************
@@ -124,8 +142,21 @@ You can set the specific order for channels in the |learn| **Learn** page accord
     1         a9b25ac9814742c883ce1b0579448337        TESSA - Teacher Resources
     2         95a52b386f2c485cb97dd60901674a98        CK-12 Testing
 
+.. _delete_channels:
+
+
+Delete Channels
+***************
+
+To delete Kolibri channels on your local drive in order to free hard drive space on the device, run the following command.
+
+.. code-block:: bash
+
+  kolibri manage deletechannel <Channel ID>
+  
 
 .. _create_superuser:
+
 
 Create a New Super Admin
 ************************
