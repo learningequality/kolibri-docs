@@ -57,6 +57,7 @@ To sign in to **Kolibri** and start learning, follow these steps:
 
 	  "Sign in" link in the user menu.
 
+.. _profile:
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
@@ -73,8 +74,8 @@ Once you have signed in to Kolibri, you can see and edit your user data from the
 	  :alt: 
 
 To sign out from Kolibri you can either:
-	* Click the user icon in the upper right corner and select **Sign out** option, **OR**
-	* Select **Sign out** option in the main sidebar menu.
+	* Click the to open the |person| user menu in the upper right corner, and select the |logout| **Sign out** option.
+	* Click the |menu| (menu) button in the upper left corner to open the sidebar, and select the |logout| **Sign out** option.
 
 
 .. _create_account:
@@ -108,12 +109,12 @@ Learn with Kolibri
 Classes
 ^^^^^^^
 
-Each time you login into **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
+Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
 
-Select one of your classes to access :ref:`Lessons` and :ref:`Quizzes` teachers or coaches prepared for your class.
+Select one of your classes to access :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>` teachers or coaches prepared for your class.
 
 	.. figure:: img/exams-lessons.png
 	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
@@ -226,7 +227,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. When you are ready to submit, click the :guilabel:`CHECK` button.
 
    * When the answer is correct and a |correct| (correct) icon appears in the progress bar below the exercise, click the :guilabel:`NEXT` button to proceed.
-   * If the answer is incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
+   * If the answer is |incorrect| incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |correct| (correct) icons **in the row** for the exercise to be considered completed.
 
     .. figure:: img/get-5-correct.png
@@ -322,7 +323,7 @@ To navigate the slides of a slideshow, you may use the on-screen navigation cont
 Lessons
 ^^^^^^^
 
-Your teacher or coach may prepare a |lesson| *lesson*, a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the |classes| **Classes** tab, below the **Lessons** heading. 
+Your teacher or coach may prepare a |lesson| lesson, a recommended set of learning materials for you or your class to view. You may have more than one lesson available at the time in the |classes| **Classes** tab, below the **Lessons** heading. 
 
 Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 
@@ -335,7 +336,7 @@ Click on a lesson title to open its materials, and follow the indications of you
 Quizzes 
 ^^^^^^^
 
-If your teacher or coach scheduled an |quiz| *quiz* for you or your class, it will be available in the |classes| **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
+If your teacher or coach scheduled an |quiz| quiz for you or your class, it will be available in the |classes| **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
 	.. figure:: img/exams3.png
 		:alt: 
@@ -355,10 +356,22 @@ If the quiz is listed as *Not started*, follow these steps.
 
 A quiz that you did not yet submit will be marked with the |inProgress| (in-progress) icon, so you can easily recognize it, and click to resume when you are ready.
 
-Once you complete and submit a quiz, it will be marked with the |mastered| (completed) icon, but you can still click on it to see the score and review your answers.
+Once you complete and submit a quiz, it will be marked with the |mastered| (completed) icon, but you can still click on it to see the score and review the report with your answers.
 
 	.. figure:: img/exam-result.png
 		:alt:  
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.
+
+Points
+^^^^^^
+
+Every time you complete a resource (finish viewing a video, reading a document, or when you achieve the required number of correct answers in an exercise), you will be rewarded points |pointsActive|. 
+
+You can keep track of the total points you have in the upper right corner, near the |person| user menu.
+
+	.. figure:: img/points.png
+		:alt: 
+
+Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.

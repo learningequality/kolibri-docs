@@ -12,6 +12,9 @@ Click on a class to access the progress-tracking features and create lessons, qu
 
 	  Choose one of the classes from this view to access the Kolibri coach features.
 
+.. note:: Kolibri progress tracking features are available by default in the *classroom model*, when learner devices are in the same local network as those used by coaches. However, in case of the at-home usage on personal devices, it is necessary to :ref:`sync facility data between devices <sync_facility>` for coaches to be able to track learner interactions with resources that happen while they are outside of the local network.
+
+
 ..  raw:: html
 
     <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/xERcrV2UgzA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
@@ -121,7 +124,7 @@ Use the options in the |edit| **Plan** tab to create and manage the lessons, qui
 Coach Support Resources
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to channels as a **Coach resource**. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. When content curators set the visibility this way, the resource will not be visible by learners while browsing Kolibri |channel| **Channels**, but only to admins, facility coaches, or other users assigned to coach classes. 
+`Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to channels as a |coachContent| **Coach resource**. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. When content curators set the visibility this way, the resource will not be visible by learners while browsing Kolibri |channel| **Channels**, but only to admins, facility coaches, or other users assigned to coach classes. 
 
 However, coach can decide to include any of these resources in :ref:`lessons <manage_lessons>` or :ref:`quizzes <manage_quizzes>`, in which case they will be visible to learners in the context of that lesson or a quiz.
 

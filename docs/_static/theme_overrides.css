@@ -188,17 +188,17 @@ img {
 }
 
 .rst-content span.guilabel {
-    background-color: #fafbfc;
+    background-color: #f7f7f7;
     border: 1px solid #c6cbd1;
     border-bottom-color: #959da5;
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 #959da5;
     color: #444d56;
     font-size: 80%;
-    font-weight: normal;
+    font-weight: 500;
     padding: 4px 5px 3px;
     margin-top: -2px;
-    font-family: Consolas, Menlo, Courier, "Courier New", monospace;
+    font-family: Noto, sans-serif;
 }
 
 .rst-content div.highlight {
@@ -220,6 +220,9 @@ img {
 
     See pregenerate.css in the design system for usage and for specific color
     values see https://kolibri-design-system.netlify.app/colors/#tokens
+
+    This is not automatically generated anywhere so you must add colors if they aren't
+    already defined on a theme token name derived class
 */
 
 .design-system-icon svg {
@@ -252,11 +255,19 @@ img {
     fill: #ffc107;
 }
 
+.design-system-icon-color-primary {
+    fill: #996189;
+}
+
 .design-system-icon-color-progress {
     fill: #03a9f4;
 }
 
 .design-system-icon-color-success {
+    fill: #388e3c;
+}
+
+.design-system-icon-color-focusOutline {
     fill: #388e3c;
 }
 

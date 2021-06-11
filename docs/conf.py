@@ -22,17 +22,21 @@ DISPLAY_VERSION = "0.14"
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 cwd = os.getcwd()
-parent = os.path.dirname(cwd)
-sys.path.insert(0, os.path.abspath(parent))
+# parent = os.path.dirname(cwd)
+# sys.path.insert(0, os.path.abspath(parent))
 
 extensions = [
     "sphinx.ext.todo",
-    "sphinx.ext.autodoc",
+#    "sphinx.ext.autodoc",
     "sphinx_rtd_theme",
     "notfound.extension",
 ]
 
 builddir = os.path.join(cwd, "_build")
+
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ["_templates"]
+
 
 # -- General configuration -----------------------------------------------------
 
@@ -42,9 +46,6 @@ linkcheck_ignore = [
     "http://127.0.0.1:8080/",
     "https://www.kiwix.org",
 ]
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
 
 # Where to find translated image files
 figure_language_filename = "{path}{language}/{basename}{ext}"
@@ -82,7 +83,7 @@ pygments_style = "sphinx"
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "default"
+# html_theme = "default"
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 
@@ -107,7 +108,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-# html_title = None
+html_title = "Kolibri User Guide"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
@@ -119,13 +120,12 @@ html_logo = "logo.png"
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-# html_favicon = None
+html_favicon = "logo.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
