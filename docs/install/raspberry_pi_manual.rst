@@ -50,7 +50,7 @@ Setting up the SD card
 The following commands work on Linux/macOS for setting up the .img files provided. You will also need to know the *device node* for the SD Card reader. On Linux, this is typically ``/dev/mmcblk0`` for the 0th card in your card reader.
 
 Unpack the .zip into memory and write it to ``<device node>``.
-   
+
 .. code-block:: console
 
   unzip -p /path/to/raspbian-stretch-lite.zip | sudo dd of=/dev/mmcblk123 bs=4M conv=fsync
@@ -303,19 +303,19 @@ Installing Kolibri
 
       .. code-block:: bash
 
-        sudo systemctl kolibri stop
+        sudo systemctl stop kolibri
 
     2. Move the data.
-       
+
       .. code-block:: bash
 
         kolibri manage movedirectory /path/to/your/external_drive
-      
+
     3. Start Kolibri.
-       
+
       .. code-block:: bash
 
-        sudo systemctl kolibri start
+        sudo systemctl stop kolibri
 
   * **I/O operations are slow**: This means that a typical bottleneck on a Raspberry Pi is file transfer to/from MicroSD card or USB attached storage. Once Kolibri is up and running, this will not be a bottleneck, but while copying initial channels of several gigabytes, you will experience this. Both the SD card reader and the USB ports will limit you at 50-80MB/sec. From our experience, it doesn't matter much whether you are using the main SD card reader for storage or some media connected to your USB, as in principle they both reach about the same maximum speeds. However, you may find significant differences in the speeds of individual SD Cards.
 
@@ -388,11 +388,11 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
     .. code-block:: console
 
         # Stop kolibri
-        sudo systemctl kolibri stop
+        sudo systemctl stop kolibri
         # Move the data
         kolibri manage content movedirectory /path/to/your/external_drive
         # Start kolibri
-        sudo systemctl kolibri start
+        sudo systemctl start kolibri
 
 
     **Or** using symbolic links, you need to start and stop Kolibri and to set the permissions correctly:
@@ -400,7 +400,7 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
     .. code-block:: console
 
         # Stop kolibri
-        sudo systemctl kolibri stop
+        sudo systemctl stop kolibri
         # Relocate the full Kolibri data and configuration user folder
         sudo mv /home/pi/.kolibri /your/external/media/kolibri_data
         # Ensure that the kolibri system service user owns the folder
@@ -408,7 +408,7 @@ Many people have a 4 GB or 16 GB MicroSD card that came along with the Raspberry
         # Restore the original location with a symbolic link
         sudo ln -s /your/external/media/kolibri_data /home/pi/.kolibri
         # Start kolibri
-        sudo systemctl kolibri start
+        sudo systemctl start kolibri
 
 
 Other tips
