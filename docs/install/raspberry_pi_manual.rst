@@ -295,7 +295,7 @@ Installing Kolibri
 
   * **System time** isn't set properly or resets during power-off. This causes errors while downloading software. For instance, SSL certificates for online sources will fail to validate. Ensure that you have the right timezone in ``/etc/timezone`` and that the clock is set properly by running ``sudo ntpd -gq``.
 
-  * **Storage space** is often scarce. If you have a USB source for additional storage, you can use the ``kolibri manage movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
+  * **Storage space** is often scarce. If you have a USB source for additional storage, you can use the ``kolibri manage content movedirectory`` command or create your own symbolic links to have the data folder located elsewhere.
 
     Using the built-in management command:
 
@@ -309,7 +309,7 @@ Installing Kolibri
 
       .. code-block:: bash
 
-        kolibri manage movedirectory /path/to/your/external_drive
+        kolibri manage content movedirectory /path/to/your/external_drive
 
     3. Start Kolibri.
 
