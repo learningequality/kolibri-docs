@@ -2,24 +2,14 @@
 Kolibri Docs
 ============
 
-.. image:: https://api.travis-ci.org/learningequality/kolibri-docs.svg?branch=develop
-  :target: https://travis-ci.org/learningequality/kolibri-docs
-.. image:: https://img.shields.io/badge/docs-user-ff69b4.svg
-  :target: http://kolibri.readthedocs.org/en/latest/
-.. image:: https://img.shields.io/badge/translate-crowdin-69ffb4.svg
-  :target: http://crowdin.com/project/kolibri-docs/
-.. image:: https://img.shields.io/badge/support-on%20discourse-blue.svg
-  :target: https://community.learningequality.org/
-.. image:: https://img.shields.io/badge/demo-online-green.svg
-  :target: http://kolibridemo.learningequality.org/
-
 
 What is this?
 -------------
 
-This is the user documentation repository of Kolibri, where documentation is maintained. The docs themselves are hosted at `kolibri.readthedocs.io <https://kolibri.readthedocs.io/>`__.
 
-To help translate the documentation, please visit our `'kolibri-docs' CrowdIn project <http://crowdin.com/project/kolibri-docs/>`__
+This is the repository where user documentation for `Kolibri <https://learningequality.org/kolibri/>`__ is maintained. To read the documentation visit `kolibri.readthedocs.io <https://kolibri.readthedocs.io/>`__.
+
+To help translate the documentation, please contact our i18n team at i18nteam@learningequality.org.
 
 
 Building the docs locally
