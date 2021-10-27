@@ -59,6 +59,27 @@ Once you finish the initial setup, proceed to :ref:`import some learning resourc
 Advanced Setup
 --------------
 
+Here are definitions of concepts necessary to fully understand the available options in the *Advanced setup* of Kolibri.
+
+.. glossary::
+
+    Facility
+      A facility in Kolibri connects a set of user accounts, classes, and associated data such as assignments and learner progress. The same facility can be shared across multiple devices, and there can also be multiple facilities on a single device. A facility could represent physical schools, temporary learning hubs, organizations distributing devices across multiple locations, parent or family programs, and other types of learning environments featuring continuity between learners' activities.
+
+    Device
+      The physical or virtual machine that has the Kolibri server installed on it. Kolibri server device will minimally include a processor, storage, and memory. It may also include a screen, a network connection, a battery, etc. Common examples of server devices are: a desktop or laptop computer; a rack-mounted server; a Raspberry Pi; a virtual machine running in the cloud.
+
+		    * **Full device**
+
+		      A device that is a fully-featured Kolibri server and can be used by admins, coaches and learners. A full device enables access to all learner, coach and admin features.
+
+		    * **Learn-only device**
+
+		      Unlike a 'full device', on a learn-only device only the features for learners are. Coaches and admins can sign in but will only see the *Learn* page. Learn-only devices also include automated data syncing functionality.
+
+	  Sync
+		  Syncing is the process of synchronizing facility data (classes, groups, learner progress, assignments) between devices that have the same facility. The facility is created once on a full device, and subsequently imported to other devices. Facility data can afterwards subsequently synced between devices as long as they are on the same local network.		 
+
 
 #. **Select the default language for Kolibri.**
 
@@ -87,10 +108,13 @@ Advanced Setup
 
 		   Select a meaningful name for the device.	
 
-#. **Create or import a facility**. In Kolibri we use the term “facility” to describe a set of user accounts, classes, and their associated data. Examples of facilities include schools, temporary learning hubs, groups of distributed at-home learners, and other situations requiring continuity between learners’ activities. At this step, you can choose to create a new facility or import one from another device.
+#. **Select a facility setup for this device**. 
    
+Full device
+***********
+
 Create a New Facility
-*********************
+"""""""""""""""""""""
 
 #. **Type of facility**. When you create a new facility you can choose between **Non-formal** (libraries, orphanages, correctional facilities, youth centers, computer labs and similar), or a **Formal** type of facility (schools and other formal learning contexts).
 
@@ -148,7 +172,7 @@ Once you finish the initial setup, proceed to :ref:`import some learning resourc
 
 
 Import Facility
-***************
+"""""""""""""""
 
 If you are part of a wider learning environment, where several learning facilities like schools or community centers are managed by one central organization, or you need to sync the learner progress data from your facility with another device where Kolibri is running, you can choose to import a facility that is already set up on that device.
 
@@ -209,6 +233,12 @@ If you are part of a wider learning environment, where several learning faciliti
 	   :alt: Step 4 of 4.
 
 	   Review the super admin responsibilities regarding the data usage and privacy.
+
+Learn-only device
+*****************
+
+
+
 
 Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`. 
 
