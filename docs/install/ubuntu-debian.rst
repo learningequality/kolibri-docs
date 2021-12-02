@@ -141,6 +141,7 @@ To change the system service owner, you need to change the configuration of the 
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
 
+.. _kolibri_server_package:
 
 Higher Performance with the ``kolibri-server`` package
 ------------------------------------------------------

@@ -14,10 +14,8 @@ Quick start
 
 If you are starting from a brand new Raspberry Pi and want to get set up as quickly as possible, you can download our custom OS image and flash it to your SD card. Once flashed, you can configure your Pi as usual.
 
-If you already have a Pi running and don't want to erase it, or if you would like to learn more about how to set up the system from scratch, see our :ref:`Raspberry Pi Tutorial for Kolibri <rpi_manual>`. 
-
-1. Download the `Raspberry Pi ZIP file <https://learningequality.org/download/>`_ for Kolibri **version 0.14**, or have it copied to your local drive.
-2. Use any of the methods explained in the `official Raspberry Pi user guide <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`_ to write the image to a SD card.
+1. Download the `Raspberry Pi ZIP file <https://learningequality.org/download/>`_ for Kolibri **version 0.15**, or have it copied to your local drive.
+2. Use any of the methods explained in the `official Raspberry Pi user guide <https://www.raspberrypi.com/documentation/computers/getting-started.html>`_ to write the image to a SD card.
 3. Insert the SD card in the Raspberry Pi.
 4. Power on the Raspberry Pi and wait. The process takes less than 5 minutes in a model 4, but in other models can take longer. You may observe some ``Failure`` messages during this process, which is normal.
 
@@ -37,4 +35,4 @@ By default the server does not have Internet access. To import resources to Koli
 Manual setup
 ============
 
-It is not necessary to use the custom OS image. If you already have a running Raspberry Pi set up and want to install Kolibri, or if you prefer to set up manually from an official Pi image, please refer to our :ref:`Raspberry Pi Tutorial for Kolibri <rpi_manual>`. 
+It is not necessary to use the custom OS image. If you already have a running Raspberry Pi set up and want to install Kolibri, or if you prefer to set up manually from an official Pi image, the installation of the ``kolibri-server`` package is recommended. The documentation of the :ref:`configuration is described here <kolibri_server_package>`. More complex configurations will require of Linux Sysop skills.
