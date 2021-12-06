@@ -9,15 +9,17 @@ Kolibri is tested to work on Raspberry Pi Models **3, 3+, 4 and Zero W**.
 Kolibri may also run on Raspberry Pi Model 2, but the platform has not been tested on that model, and it does not have on-board WiFi.
 
 
-Quick start
-===========
+Disk image
+==========
 
-If you are starting from a brand new Raspberry Pi and want to get set up as quickly as possible, you can download our custom OS image and flash it to your SD card. Once flashed, you can configure your Pi as usual.
+If you are starting a new Raspberry Pi installation and want to get set up as quickly as possible, you can download our custom OS image and flash it to your SD card. Once flashed, you can configure your Pi as usual.
 
-If you already have a Pi running and don't want to erase it, or if you would like to learn more about how to set up the system from scratch, see our :ref:`Raspberry Pi Tutorial for Kolibri <rpi_manual>`. 
+Our image provides an out-of-the-box Kolibri experience pre-configurated with a WiFi hotspot and networking. No additional installation steps are needed once the SD card is inserted and the Pi is booted.
 
-1. Download the `Raspberry Pi ZIP file <https://learningequality.org/download/>`_ for Kolibri **version 0.14**, or have it copied to your local drive.
-2. Use any of the methods explained in the `official Raspberry Pi user guide <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`_ to write the image to a SD card.
+To use:
+
+1. Download the `Raspberry Pi ZIP file <https://learningequality.org/download/>`_ for Kolibri **version 0.15**, or have it copied to your local drive.
+2. Use any of the methods explained in the `official Raspberry Pi user guide <https://www.raspberrypi.com/documentation/computers/getting-started.html>`_ to write the image to a SD card.
 3. Insert the SD card in the Raspberry Pi.
 4. Power on the Raspberry Pi and wait. The process takes less than 5 minutes in a model 4, but in other models can take longer. You may observe some ``Failure`` messages during this process, which is normal.
 
@@ -34,7 +36,9 @@ By default the server does not have Internet access. To import resources to Koli
 .. note:: When an ethernet cable with Internet access is connected to the Raspberry, it will have internet connectivity but won't provide this connectivity to the devices that are connected to its ``kolibri`` ssid. These devices will only be able to use the browser with the Kolibri application at the URL ``http://10.10.10.10``.
 
 
-Manual setup
-============
+Debian package
+==============
 
-It is not necessary to use the custom OS image. If you already have a running Raspberry Pi set up and want to install Kolibri, or if you prefer to set up manually from an official Pi image, please refer to our :ref:`Raspberry Pi Tutorial for Kolibri <rpi_manual>`. 
+If you already have a running Raspberry Pi set up or if you prefer to set up manually from an official Pi image, we recommend installing the :ref:`Kolibri Server Debian package <kolibri_server_package>`, which includes important optimizations such as static content caching and optimized CPU usage.
+
+Manual configuration of networking and WiFi on the Pi are outside the scope of these instructions.
