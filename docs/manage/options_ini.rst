@@ -1,6 +1,6 @@
 .. _options_ini:
 
-Customize Kolibri Settings with the OPTIONS.INI File
+Customize Kolibri settings with the OPTIONS.INI file
 ####################################################
 
 Installing Kolibri generates a default ``options.ini`` file with all the sections and values commented out with the ``#`` character at the beginning of the line. To see the ``options.ini`` file, open the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
@@ -9,7 +9,7 @@ Installing Kolibri generates a default ``options.ini`` file with all the section
    
 .. _port:
 
-Manage Server Ports
+Manage server ports
 *******************
 
 Run Kolibri from a different port
@@ -54,7 +54,7 @@ To enable the autodiscovery of the port where Kolibri is running, set the key ``
 .. _profile_requests_ini:
 
 
-Allow Profiling of Requests
+Allow profiling of requests
 ***************************
 
 If you need to :ref:`profile server requests <profile_requests>` to get a more detailed information about the Kolibri performance, add the following to the ``options.ini`` file.
@@ -66,7 +66,7 @@ If you need to :ref:`profile server requests <profile_requests>` to get a more d
      PROFILE = 1
 
 
-Configure Supported Languages
+Configure supported languages
 *****************************
 
 You can configure Kolibri to display just a specific set of languages that your implementation supports, as opposed to the full list of languages Kolibri has been localized into. Edit the ``options.ini`` file to include the key ``LANGUAGES`` under the section ``[Deployment]``, with a comma separated list of ``intl_code`` language codes. 
@@ -103,11 +103,17 @@ Kolibri currently supports the following locales:
 +---------------------------+-----------------+
 | Fulfulde Mbororoore       | ``ff-cm``       | 
 +---------------------------+-----------------+
+| Georgian                  | ``ka``          | 
++---------------------------+-----------------+
 | German                    | ``de``          | 
 +---------------------------+-----------------+
 | Gujarati                  | ``gu-in``       | 
 +---------------------------+-----------------+
+| Hausa                     | ``ha``          | 
++---------------------------+-----------------+
 | Hindi (India)             | ``hi-in``       | 
++---------------------------+-----------------+
+| Indonesian                | ``id``          | 
 +---------------------------+-----------------+
 | Italian                   | ``it``          | 
 +---------------------------+-----------------+
@@ -118,6 +124,8 @@ Kolibri currently supports the following locales:
 | Marathi                   | ``mr``          | 
 +---------------------------+-----------------+
 | Portuguese (Brazil)       | ``pt-br``       | 
++---------------------------+-----------------+
+| Portuguese (Mozmbique)    | ``pt-mz``       | 
 +---------------------------+-----------------+
 | Spanish (Latin America)   | ``es-419``      | 
 +---------------------------+-----------------+
@@ -138,7 +146,7 @@ Kolibri currently supports the following locales:
 ..    .. _content_fallback_ini:
 
 
-    Add Content Fallback Directories
+    Add content fallback directories
     ********************************
 
     If you need to specify alternative locations for content to be available to Kolibri after install, you can use the ``CONTENT_FALLBACK_DIRS`` variable in the ``options.ini`` file.

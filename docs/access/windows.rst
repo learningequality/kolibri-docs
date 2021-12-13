@@ -8,7 +8,7 @@ To start the **Kolibri** server on Windows, just double-click the desktop shortc
 When you see the notification *Kolibri is running...*, **Kolibri** will open in the browser with the URL http://127.0.0.1:8080.
 
 
-Kolibri Taskbar Options
+Kolibri taskbar options
 ***********************
 
 While it is running, **Kolibri** will display an icon in the Windows taskbar (usually at bottom right, near the clock), that allows you to stop it and configure other settings.  

@@ -21,7 +21,7 @@ You can import, sync and remove the facilities on your Kolibri device from the |
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 
-Import Facility
+Import facility
 ***************
 
 If you are part of a wider learning environment (for example when several learning facilities like schools or community centers are managed by one central organization), and your device is used to store the data from other facilities that are offline, you must first import those facilities. Once you have imported the facility on your device, you can periodically connect to their local network and sync the learner progress data.
@@ -78,16 +78,16 @@ To import a facility on your device, follow these steps.
 
 
 
-Sync Facility
+Sync facility
 *************
 
 You can use the **Sync facility** feature for a variety of needs in both offline and online settings. 
 
 .. warning:: When syncing data between devices in the local network **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
 
-.. note:: **Examples of Data Syncing Scenarios**
+.. note:: **Examples of data syncing ccenarios**
 
-	#.	**Roving Admin scenario**
+	#.	**Roving admin scenario**
 
 		* Kolibri is installed on the central server for the Kolibri implementation. 
 		* Kolibri is installed on all learner devices along with the facility and resources from the central server, which are then distributed amongst learners.
@@ -131,7 +131,7 @@ If your Kolibri facility is part of a larger organization that tracks data on th
 .. warning:: **Kolibri Data Portal** (KDP) is a new feature that is not yet broadly released. We are currently providing access to KDP to organizations on a contractual basis, and ultimately planning to offer this as a paid service by Learning Equality. 
   
 
-Remove Facility
+Remove facility
 ***************
 
 To remove a facility from the device, follow these steps.

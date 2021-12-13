@@ -1,6 +1,6 @@
 .. _command_line:
 
-Working with Kolibri from the Command Line
+Working with Kolibri from the command line
 ##########################################
 
 * In Windows you need to open the command prompt, for example by using the :guilabel:`WIN` + :guilabel:`R` shortcut, and then typing ``cmd``.
@@ -36,7 +36,7 @@ In case you need to troubleshoot potential problems while running Kolibri, you m
 .. _import_command_line:
 
 
-Import Channels from Internet
+Import channels from Internet
 *****************************
 
 To import channels from Internet, run these two commands in sequence. The first downloads the channel database, and the second downloads the resources (videos, documents, etc.). 
@@ -69,7 +69,7 @@ For example (``Channel ID`` without angle brackets ``<...>``):
     kolibri manage importchannel -- local <Channel ID> /path/to/local/drive
     kolibri manage importcontent -- local <Channel ID> /path/to/local/drive
 
-Import Channels from Local Network
+Import channels from local network
 **********************************
 
 To import channels from another device on your LAN, run these two commands in sequence.
@@ -88,7 +88,7 @@ For example:
   kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337 --baseurl http://192.168.2.25:9090/
 
 
-Export Channels
+Export channels
 ***************
 
 To export Kolibri channels on a local drive in order to share it with another device, run these two commands in sequence. The first exports the channel database, and the second exports the resources (videos, documents, etc.). 
@@ -102,7 +102,7 @@ The path should be to a folder named ``KOLIBRI_DATA`` at the root of the local d
 
 .. _reorder_channels:
 
-Reorder Channels
+Reorder channels
 ****************
 
 You can set the specific order for channels in the |learn| **Learn** page according to your preferences. Follow these steps.
@@ -145,7 +145,7 @@ You can set the specific order for channels in the |learn| **Learn** page accord
 .. _delete_channels:
 
 
-Delete Channels
+Delete channels
 ***************
 
 To delete Kolibri channels on your local drive in order to free hard drive space on the device, run the following command.
@@ -158,7 +158,7 @@ To delete Kolibri channels on your local drive in order to free hard drive space
 .. _create_superuser:
 
 
-Create a New Super Admin
+Create a new super admin
 ************************
 
 In case you need to create another **super admin** user, either to address additional need of managing facility, or if you lost the password for the old one, run the following command.
@@ -172,7 +172,7 @@ You will be prompted to input the **Username** and **Password** and the new **su
 The full name for the new super admin user will be the same as the chosen ``username``, and can be edited in the **Facility > Users** page, or the user profile.
 
 
-Import and Export User Data from a CSV File
+Import and export user data from a CSV File
 *******************************************
 
 This feature is also available from the Kolibri user interface in the **Facility > Data** tab. It is recommended you read the :ref:`section of this guide which documents the feature <csv_import>`, especially the part about the :ref:`CSV format <csv_format>` before you try this command line utility. 
@@ -219,7 +219,7 @@ To export a CSV file with localized headers, use the ``--locale`` flag.
 
 
 
-Change User's Password
+Change user's password
 **********************
 
 Run the following command to change the password for a user. 
@@ -231,7 +231,7 @@ Run the following command to change the password for a user.
 You will be prompted twice to input the new password for the user.
 
 
-Delete Users Permanently
+Delete users permanently
 ************************
 
 If you need to permanently delete a Kolibri user and all the data associated with their account, for example to ensure privacy rights according to GDPR, use the following command.
@@ -245,7 +245,7 @@ If you need to permanently delete a Kolibri user and all the data associated wit
 
 .. _export_data_logs:
 
-Export Data Logs
+Export data logs
 ****************
 
 If the data logs export process from **Facility > Data** is taking a long time, use the following command to export logs from the terminal or command prompt. 
@@ -256,7 +256,7 @@ If the data logs export process from **Facility > Data** is taking a long time, 
   kolibri manage exportlogs --log-type session
 
 
-Backup and Restore Kolibri Database
+Backup and restore Kolibri database
 ***********************************
 
 Kolibri automatically creates a backup of the database with every version upgrade. If for some reason you need to make a manual backup, use the following command.
@@ -281,7 +281,7 @@ To restore the DB from a specific ``.dump`` file, use the flag ``--select`` to s
   This command is not intended for replication across different devices, but **only** for restoring on a single device from a local backup of the database.
 
 
-Change the Location of Kolibri Channels Files
+Change the location of Kolibri channels files
 *********************************************
 
 Kolibri channels may occupy a considerable amount of hard disk space over time. If you have concerns about running out of storage on your device, you can move the Kolibri **channels** to another drive.
@@ -324,7 +324,7 @@ To move the folders with Kolibri channels to another location, follow these step
 This command will move the 2 subfolders ``databases`` and ``storage``, from their default location inside the ``.kolibri/content`` folder in your device's home directory, to a new location you specified in the command.
 
 
-Change the Location of ALL Kolibri Files
+Change the location of ALL Kolibri files
 ****************************************
 
 If you want to change the directory where all of Kolibri's runtime files are located, together with the imported channels, you need to change the environment variable called ``KOLIBRI_HOME`` to the path of your choice.

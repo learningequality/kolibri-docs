@@ -32,7 +32,7 @@ You can edit facility configuration settings in Kolibri from the |settings| **Se
 
       Manage facility configuration settings.
 
-Rename Facility
+Rename facility
 ***************
 
 To edit facility name, follow these steps.

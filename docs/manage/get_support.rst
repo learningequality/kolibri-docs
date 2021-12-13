@@ -5,7 +5,7 @@ Troubleshooting
 
 .. _network:
 
-Troubleshoot Network Issues
+Troubleshoot network issues
 ---------------------------
 
 #. Can you access Kolibri when you type ``http://127.0.0.1:8080`` in the address bar of the browser?

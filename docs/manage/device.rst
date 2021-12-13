@@ -17,7 +17,7 @@ You can edit device configuration settings in Kolibri from the |settings| **Sett
 Whenever you change any of the device options, be sure to click the :guilabel:`SAVE` button to apply the changes.
 
 
-Set Default Language
+Set default language
 --------------------
 
 The language you have chosen during the :ref:`setup_initial` will be set as the **default language** for all users who access Kolibri on the server device.
@@ -30,7 +30,7 @@ If you want to select a different default language, use the drop-down menu. You 
 .. _allow_peer_import:
 
 
-Allow Peer Import
+Allow peer import
 -----------------
 
 If you have imported resources from an unlisted channel on Kolibri Studio, but you do want to make them available for :ref:`import to other Kolibri server devices <local_network>` (*peers*) in your local network, you can allow it by checking the **Allow other computers on this network to import my unlisted channels** checkbox.
@@ -38,7 +38,7 @@ If you have imported resources from an unlisted channel on Kolibri Studio, but y
 If you prefer to keep those resources available only from your own device, be sure to keep that option unchecked.
 
 
-Set Default Landing Page
+Set default landing page
 ------------------------
 
 You can configure the default landing page for learners to be the Kolibri **Sign-in page** or the **Learn** page. 

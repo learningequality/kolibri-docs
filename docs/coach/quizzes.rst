@@ -1,7 +1,7 @@
 
 .. _manage_quizzes:
 
-Manage Quizzes
+Manage quizzes
 --------------
 
 You can view, create and delete quizzes, as well as assign them to learners, using the **Quizzes** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. The default view displays the list of all quizzes in a selected class, with indicators of their visibility status and groups they are assigned to.
@@ -18,7 +18,7 @@ You can view, create and delete quizzes, as well as assign them to learners, usi
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
-Create New Quiz
+Create new quiz
 """""""""""""""
 
 To create a new |quiz| quiz, click the :guilabel:`NEW QUIZ` button.
@@ -61,7 +61,7 @@ To create a new |quiz| quiz, click the :guilabel:`NEW QUIZ` button.
 * When you are satisfied with the question order click the :guilabel:`FINISH` button, and you will see a confirmation notification at the bottom.
 
 
-Change Quiz Recipients
+Change quiz recipients
 """"""""""""""""""""""
 
 Newly created quizzes are by default visible to entire class. To change quiz *Recipients*, that is select groups or individual learners instead of the whole class, follow these steps.
@@ -74,7 +74,7 @@ Newly created quizzes are by default visible to entire class. To change quiz *Re
   .. figure:: /img/exam-visibility.png
     :alt: 
 
-Start and End Quiz
+Start and end quiz
 """"""""""""""""""
 
 Newly created quizzes are by default *not started*, meaning that learners will not see it in the **Learn > Classes** view. 
@@ -90,7 +90,7 @@ Newly created quizzes are by default *not started*, meaning that learners will n
   You can also start and end the quiz from its **Report** page, and the list in the **Reports > Quizzes** subtab.
 
 
-Copy Quiz
+Copy quiz
 """""""""
 
 To copy a quiz to a different group or another class, follow these steps.
@@ -112,7 +112,7 @@ To rename quiz, follow these steps.
 #. Change the quiz title in the confirmation window.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without renaming the quiz.
 
-Delete Quiz
+Delete quiz
 """""""""""
 
 To delete quiz, follow these steps.

@@ -1,7 +1,7 @@
 
 .. _manage_lessons:
 
-Manage Lessons
+Manage lessons
 --------------
 
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
@@ -20,7 +20,7 @@ To view, create or delete lessons, as well as assign them to learners, use the *
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
-Create New Lesson
+Create new lesson
 """""""""""""""""
 
 To create a new |lesson| lesson, follow these steps.
@@ -70,7 +70,7 @@ To create a new |lesson| lesson, follow these steps.
 9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 9 again.
 
 
-Change Lesson Visibility
+Change lesson visibility
 """"""""""""""""""""""""
 
 A newly created lesson is by default *not visible to learners*, and they will not see it in the **Learn > Classes** view. 
@@ -85,7 +85,7 @@ A newly created lesson is by default *not visible to learners*, and they will no
   You can also change lesson visiblity from its own **Report**, and the list in the **Reports > Lessons** subtab.
 
 
-Change Lesson Recipients
+Change lesson recipients
 """"""""""""""""""""""""
 
 You can change the recipients of the lesson, reassigning the lesson to a different group or the entire class. Follow these steps.
@@ -96,7 +96,7 @@ You can change the recipients of the lesson, reassigning the lesson to a differe
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
-Copy Lesson
+Copy lesson
 """""""""""
 
 To copy a lesson to a different group or another class of your facility, follow these steps.
@@ -110,7 +110,7 @@ To copy a lesson to a different group or another class of your facility, follow 
 If the lesson is copied to another group in the same class, it will appear in the **Lessons** tab as the *Copy of...*. Follow the steps in the next heading to rename it.
 
 
-Rename Lesson
+Rename lesson
 """""""""""""
 
 To rename a lesson, follow these steps.
@@ -121,7 +121,7 @@ To rename a lesson, follow these steps.
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without renaming the lesson.
 
 
-Delete Lesson
+Delete lesson
 """""""""""""
 
 To delete a lesson, follow these steps.

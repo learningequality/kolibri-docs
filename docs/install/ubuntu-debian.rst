@@ -6,7 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 8 (Jessie), Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
+Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
 
 ..  raw:: html
 
@@ -22,7 +22,6 @@ Install from PPA repository
 
 .. code-block:: bash
 
-    sudo apt-get install software-properties-common dirmngr
     sudo add-apt-repository ppa:learningequality/kolibri
     sudo apt-get update
     sudo apt-get install kolibri
@@ -143,7 +142,7 @@ To change the system service owner, you need to change the configuration of the 
 
 .. _kolibri_server_package:
 
-Higher Performance with the ``kolibri-server`` package
+Higher performance with the ``kolibri-server`` package
 ------------------------------------------------------
 
 We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. 
@@ -156,7 +155,6 @@ To install ``kolibri-server`` follow these steps.
 
   .. code-block:: bash
 
-    sudo apt-get install software-properties-common dirmngr
     sudo add-apt-repository ppa:learningequality/kolibri
     sudo apt-get update
     sudo apt-get install kolibri-server
