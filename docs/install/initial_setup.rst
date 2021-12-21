@@ -75,7 +75,7 @@ Here are definitions of concepts necessary to understand the available options i
 
 		    * **Learn-only device**
 
-		      Unlike a 'full device', on a learn-only device only the features for learners are available. Coaches and admins can sign in but will only see the *Learn* page. Learn-only devices also include automated data syncing functionality.
+		      Unlike a 'full device', a learn-only device will have available only the features for learners. Coaches and admins can sign in but will only see the *Learn* page. Learn-only devices also include automated data syncing functionality.
 
 	  Sync
 		  Syncing is the process of synchronizing facility data (learners, groups, classes, learner progress, assignments) between devices that have the same facility. The facility is created once on a full device, and subsequently imported to other devices. Facility data can afterwards be synced between devices as long as they are on the same local network.		 

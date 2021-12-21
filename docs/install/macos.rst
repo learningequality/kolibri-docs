@@ -6,7 +6,7 @@ MacOS
 Compatibility
 -------------
 
-Kolibri macOS app has been tested on High Sierra (10.13), Mojave (10.14), and Catalina (10.15) macOS releases.
+Kolibri macOS app has been tested on Catalina (10.15) macOS release.
 
 ..  raw:: html
 
@@ -16,7 +16,7 @@ Kolibri macOS app has been tested on High Sierra (10.13), Mojave (10.14), and Ca
 Install
 -------
 
-#. Download the `.dmg installer <https://learningequality.org/r/kolibri-mac-latest>`__ for Kolibri **version 0.14**.
+#. Download the `.dmg installer <https://learningequality.org/r/kolibri-mac-latest>`__ for Kolibri **version** |version-b|.
 #. Double-click the downloaded ``.dmg`` file.
 #. Drag the Kolibri logo inside the **Applications** folder, and wait for the installation to finish.
    
