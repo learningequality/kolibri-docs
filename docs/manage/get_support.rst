@@ -143,6 +143,9 @@ Kolibri needs read and write access to USB drives in order to import and export 
   - to grant access to USB drives to other accounts, refer to the documentation of your operating system
 
 * **Write access denied**: Some USB drives will experience problems when they are unplugged from the computer in an *unclean* way. If you are denied access to write, look for options to *fix* or *repair* the file system.
+  
+  .. warning:: If you are trying to export on an attached USB drive, and Kolibri displays the message *Could not find a writable drive connected to the server*, it is most likely a permission problem. Make sure that you can see, open and copy something on the drive yourself.
+
 
 * **Data failures**: Copying the data can take a long time. If you do not see the final success confirmation message after the copy apparently finishes, do not assume that the data has been imported or exported correctly. Restart the process instead, otherwise you risk inconsistent and malfunctioning data resources.
 
