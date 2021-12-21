@@ -206,6 +206,8 @@ Follow these steps to import from a local network.
 
 .. tip:: If want to :ref:`allow peer import of your private channels <allow_peer_import>`, which means that those channels will be visible and available for import on other peer devices in the same network, make sure to enable that option in the **Device > Settings**. 
 
+  Similarly, if you want to import private channels from a peer in your local network, make sure that the peer device has the same option enabled in the **Device > Settings**, otherwise you will not be able to see or select those channels for import.
+
 
 .. _local_drive:
 
