@@ -11,7 +11,7 @@ Starting Kolibri on Linux will differ depending on the method you used to instal
 
 * If you installed Kolibri through the :ref:`PPA <ppa>`, or :ref:`generic installation <pip-installation>` with ``pip install`` command, follow these steps.
 
-  1. Run this command in Terminal to start Kolibri:
+  1. Run this command in Terminal to **start Kolibri**:
 
     .. code-block:: bash
 
@@ -23,7 +23,7 @@ Starting Kolibri on Linux will differ depending on the method you used to instal
     .. note::
       Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri**.
 
-  3. Run this command in Terminal to stop Kolibri:
+  3. Run this command in Terminal to **stop Kolibri**:
 
     .. code-block:: bash
 

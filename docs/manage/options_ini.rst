@@ -1,7 +1,7 @@
 .. _options_ini:
 
-Customize Kolibri settings with the OPTIONS.INI file
-####################################################
+Customize Kolibri settings with the ``options.ini`` file
+########################################################
 
 Installing Kolibri generates a default ``options.ini`` file with all the sections and values commented out with the ``#`` character at the beginning of the line. To see the ``options.ini`` file, open the ``.kolibri`` folder inside the :ref:`Home <home>` folder. 
 
@@ -106,6 +106,8 @@ Kolibri currently supports the following locales:
 | Georgian                  | ``ka``          | 
 +---------------------------+-----------------+
 | German                    | ``de``          | 
++---------------------------+-----------------+
+| Greek                     | ``el``          | 
 +---------------------------+-----------------+
 | Gujarati                  | ``gu-in``       | 
 +---------------------------+-----------------+

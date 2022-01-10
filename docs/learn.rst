@@ -144,15 +144,15 @@ If the full length of the breadcrumbs becomes too wide for the width of your dis
 	.. figure:: img/breadcrumbs-folded.png
 		:alt: Click the expand more button to reveal folded breadcrumb links.
 
-When you open any resource or activity in Kolibri, you will see a series of icons in the uppor part of the page.
+When you open any resource or activity in Kolibri, you will see a series of icons in the upper part of the page.
 
 .. figure:: img/resource-topbar.png
 	:alt: Buttons and icons in the resource top bar.
 
 * |back| (back) button allows you to return to the library
-* type (video, document, app, etc.)
+* type of the resource (video, document, app, etc.)
 * title of the resource
-* progress indicates if you |mastered| completed the resource or it is still |inProgress| in progress
+* progress icon indicates if you |mastered| completed the resource, or it is still |inProgress| in progress
 * |resourceList| **View resources** button allows you to see other resources in the same folder or a lesson
 * |bookmarkEmpty| **Bookmark** button allows you to save the location of the resource so you can access it easily from the |bookmark| **Bookmark** page.
 * |info| **View information** allows you to open a sidebar with additional information about the resource. Use the :guilabel:`DOWNLOAD RESOURCE` button at the bottom to download the resource files to your computer.
@@ -163,7 +163,7 @@ When you open any resource or activity in Kolibri, you will see a series of icon
 Types or activities
 ^^^^^^^^^^^^^^^^^^^
 
-You may see different types resources for activities available in Kolibri channels, and you can easily distinguish them by their icons:
+You may see different types of icons for activities available in Kolibri channels, and you can easily distinguish them by their icons:
 
 * |watchSolid| **Watch** for videos
 * |listenShaded| **Listen** for audio
@@ -180,8 +180,8 @@ When you start doing an exercise, viewing a video, or reading a document, it wil
 		Progress indicator icons for learning resources.
 
 
-Exercises
-"""""""""
+|practiceShaded| Exercises
+""""""""""""""""""""""""""
 
 Kolibri **Exercises** can require you to do different things: fill in a missing number, write a formula, choose one of the available options, etc. Each correct answer gets you a check mark, and majority of exercises require 5 correct answers in a row to be completed. Some exercises can offer one or more hints, to help you solve the problem.
 
@@ -204,8 +204,8 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 
-Points
-------
+|pointsActive| Points
+---------------------
 
 Every time you complete a resource (finish viewing a video, reading a document, or when you achieve the required number of correct answers in an exercise), you will be rewarded points |pointsActive|. 
 
@@ -217,8 +217,8 @@ You can keep track of the total points you have in the upper right corner, near 
 Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
 
 
-Video and audio player options
-""""""""""""""""""""""""""""""
+|watchSolid| Video and |listenShaded| audio player options
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 To play videos and listen to audio files in Kolibri you have several available control buttons at the bottom of the player screen. Move the cursor or tap on the player screen to make appear the control buttons while playing.
 
@@ -254,8 +254,8 @@ When a video has captions available, you can choose to view them at the bottom o
 
 
 
-PDF viewer options
-""""""""""""""""""
+|readShaded| PDF viewer options
+"""""""""""""""""""""""""""""""
 
 .. note::
   Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri.
@@ -269,8 +269,8 @@ PDF viewer options
 		:alt: 
 
 
-Ebook viewer options
-""""""""""""""""""""
+|readShaded| Ebook viewer options
+"""""""""""""""""""""""""""""""""
 
 To read digital books in Kolibri you have several available controls inside the reader.
 
@@ -362,40 +362,3 @@ Once you complete and submit a quiz, it will be marked with the |mastered| (comp
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.
-
-
-Recommended
-^^^^^^^^^^^
-
-In the |recommended| Recommended tab you can see various sections:
-
-* **Most popular** displays the most frequently used materials in your school or facility.
-* **Next steps** indicate the recommended materials based on those that you already viewed and interacted with.
-* **Resume** displays activities that you started but haven't finished yet.
-
-These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
-
-The number of displayed resources in each row will depend on the width of your display, and you can browse with the |back| (back) and |forward| (forward) buttons at the beginning and the end of the section rows.
-
-	.. figure:: img/learn.png
-		:alt: 
-
-.. note::
-   **Next steps** and **Resume** are not visible if you are browsing as a guest.
-
-
-
------
-
-Some Kolibri resources may be duplicated in different topics and/or channels. Search results will indicate when a resource is duplicated, and you can click on the ``...locations`` link to discover the details for each location.
-
-	.. figure:: img/search-duplicates.png
-		:alt: 
-
-
-	.. figure:: img/search-duplicates2.png
-		:alt: Details for the duplicated resources in the search results will open in a new dialog window; use the links to explore or close the dialog to return to the search results.
-
-		Details for the duplicated resources in the search results.
-
-

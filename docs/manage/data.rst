@@ -3,7 +3,7 @@
 Data
 ####
 
-You can download Kolibri *Detail* and *Summary* logs usage data and export in the CSV format from the |data| **Data** tab in your |facility| **Facility** dashboard.
+You can download Kolibri *Detail* and *Summary* logs usage data and export in the CSV format from the |save| **Data** tab in your |facility| **Facility** dashboard.
 
 	.. figure:: /img/export-usage-data.png
 	  :alt: Open Facility page, navigate to Data tab, and use the Download buttons to save the logs on your local drive. 

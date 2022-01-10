@@ -16,7 +16,9 @@ Kolibri macOS app has been tested on Catalina (10.15) macOS release.
 Install
 -------
 
-#. Download the `.dmg installer <https://learningequality.org/r/kolibri-mac-latest>`__ for Kolibri **version** |version-b|.
+.. #. Download the `.dmg installer <https://learningequality.org/r/kolibri-mac-latest>`__ for Kolibri **version** |version-b|.
+
+#. Download the .dmg installer for Kolibri **version** |version-b|.
 #. Double-click the downloaded ``.dmg`` file.
 #. Drag the Kolibri logo inside the **Applications** folder, and wait for the installation to finish.
    

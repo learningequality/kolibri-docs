@@ -44,13 +44,15 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 
 #. **Create a super admin account.** This user will be a **super admin**, able to manage all the content and all other Kolibri users on this device.
 
+	.. warning::
+	  **Make sure to save these super admin credentials in a safe place!** 
+
+	  Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
+
   	.. figure:: /img/super-admin.png
 	   :alt:  
 
 	   Select the username and password for the super admin.
-
-	.. tip::
-	  Make sure to save these super admin credentials in a safe place! Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
 
 
 Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` if more people at your home are going to be using Kolibri. Make sure to check how to :ref:`configure other devices <access_LAN>` (computers, tablets or smartphones) in the home network to access Kolibri.
@@ -75,7 +77,7 @@ Here are definitions of concepts necessary to understand the available options i
 
 		    * **Learn-only device**
 
-		      Unlike a 'full device', a learn-only device will have available only the features for learners. Coaches and admins can sign in but will only see the *Learn* page. Learn-only devices also include automated data syncing functionality.
+		      Unlike a 'full device', a 'learn-only device' will have available only the features for learners. Coaches and admins can sign in but will only see the *Learn* page. Learn-only devices also include automated data syncing functionality.
 
 	  Sync
 		  Syncing is the process of synchronizing facility data (learners, groups, classes, learner progress, assignments) between devices that have the same facility. The facility is created once on a full device, and subsequently imported to other devices. Facility data can afterwards be synced between devices as long as they are on the same local network.		 
@@ -153,14 +155,16 @@ Create a new facility
 
 
 #. **Create super admin account**. This admin user will be a **super admin**, able to manage not only the content, but also all users and  permissions in this facility.
+   
+	.. warning::
+	  **Make sure to save these super admin credentials in a safe place!** 
+
+	  Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
 
   	.. figure:: /img/super-admin.png
 	   :alt: Step 5 of 6.
 
 	   Select the username and password for the facility super admin.
-
-	.. tip::
-	  Make sure to save these super admin credentials in a safe place! Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
 
 
 #. **Responsibilities of the administrator**. When you are setting up a Kolibri facility you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
@@ -224,13 +228,15 @@ If you are part of a wider learning environment, where several learning faciliti
 
  	You can choose to create a new super admin account or to use the credentials of the super admin of the device from where you imported the facility.
 
+ 	.. warning::
+		**Make sure to save the super admin credentials in a safe place!** 
+
+		Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.			
+
   	.. figure:: /img/device-super-admin.png
 	   :alt: Step 3 of 4.
 
 	   Select the super admin account.
-
-	.. tip::
-	  Make sure to save the super admin credentials in a safe place! Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
 
 #. **Responsibilities of the administrator**. When you are setting up a Kolibri facility, especially in formal environments like schools, you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
 

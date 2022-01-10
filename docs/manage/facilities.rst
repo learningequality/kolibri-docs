@@ -83,14 +83,20 @@ Sync facility
 
 You can use the **Sync facility** feature for a variety of needs in both offline and online settings. 
 
-.. warning:: When syncing data between devices in the local network **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
+.. warning:: It is very important to remember that **syncing does not import channels and resources**. 
 
-.. note:: **Examples of data syncing ccenarios**
+	When syncing facility data between devices in a local network, **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
+
+	After you finish We recommend 
+	
+
+
+.. note:: **Examples of data syncing scenarios**:
 
 	#.	**Roving admin scenario**
 
 		* Kolibri is installed on the central server for the Kolibri implementation. 
-		* Kolibri is installed on all learner devices along with the facility and resources from the central server, which are then distributed amongst learners.
+		* Kolibri is installed on all learner devices along with the facility and resources from the central server, which are then distributed among learners.
 		* Admin travels to the communities along with the central server, updates the resources on learner devices, and syncs learner data with the central server.
 		* Syncing data
 			* At a designated interval, an administrator goes out to communities with the central server device for the Kolibri implementation. This device should be set up to create a WiFi hotspot, or be paired with a portable WiFi router (does not need to be internet enabled), to allow the learner devices to connect to it for peer-to-peer syncing.
@@ -99,7 +105,7 @@ You can use the **Sync facility** feature for a variety of needs in both offline
 	#.	**Admin at Kolibri hub**
 
 		* Kolibri is installed on a central server for the Kolibri implementation.
-		* Kolibri is installed on all learner devices and loaded with the facility and resources from the central server, and then distributed amongst learners.
+		* Kolibri is installed on all learner devices and loaded with the facility and resources from the central server, and then distributed among learners.
 		* Learners periodically visit the Kolibri hub where an Admin syncs their devices to the central server and imports new resources onto their devices.
 		* Syncing data
 		    * The learner brings their device to the Kolibri Hub.

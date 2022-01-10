@@ -169,6 +169,9 @@ If the problem happened earlier than the dates in the above log, you can open th
 
 .. _home:
 
+
+Location of the Kolibri **Home** folder on different operating systems:
+
 +---------------------------+-----------------------------------------+
 | **Operating system**      | **Location**                            |
 +===========================+=========================================+
