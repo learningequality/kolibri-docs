@@ -1,6 +1,6 @@
 .. _manage_resources_ref:
 
-Channels and Resources
+Channels and resources
 ######################
 
 .. note::
@@ -22,7 +22,7 @@ Each Kolibri channel has its own **token** in `Kolibri Studio <https://studio.le
 
 .. warning:: When you :ref:`use the Terminal or command prompt <import_command_line>` to import channels in Kolibri from the command line, you still must use the **32 digit channel ID**, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html>`__ how to find it in Studio user interface, if you have channel editor access.
 
-Kolibri Task Manager
+Kolibri task manager
 --------------------
 
 You can start various resource management tasks (import, export, deletion, update, etc.) in Kolibri and observe their progress in the *task manager* page. Each time you start a task, Kolibri will display the **Tasks** page, and depending on your workflow, you may have some *Finished*, *In-progress*, *Canceled* or tasks *Waiting* in the queue.
@@ -37,7 +37,7 @@ You can start various resource management tasks (import, export, deletion, updat
 *  Click the **Back to channels** link to navigate away from the **Tasks** page to the **Device > Channels** tab.
 *  On top of the **Device > Channels** page you will see a summary of the current tasks. Click the **View task manager** link to return to the **Tasks** page with the detailed information.
 
-Import Channels and Resources into Kolibri
+Import channels and resources into Kolibri
 ------------------------------------------
 
 .. warning:: **Important**: You **cannot** import your own files (videos, documents, etc.) as learning resources directly into Kolibri from your computer. Kolibri can **only** import resources from:
@@ -110,7 +110,7 @@ If the computer where Kolibri is running has an Internet connection with the suf
   	  :alt: resources import progress bar will display the percentage of the download
 
 
-Import Entire Channels
+Import entire channels
 """"""""""""""""""""""
 
 To import entire channels instead of a selected resources, follow these steps.
@@ -123,7 +123,7 @@ To import entire channels instead of a selected resources, follow these steps.
 
 .. _import_with_token:
 
-Import with Token
+Import with token
 """""""""""""""""
 
 #. If you need to import resources from a **private/unlisted** channel, click on **Import with token** button above the channel list.  
@@ -139,7 +139,7 @@ Import with Token
 
    .. warning:: Unlisted channel **must be published** on Studio before the token can be used to import it.
 
-Import More Resources
+Import more resources
 """""""""""""""""""""
 
 To add more learning resources from a channel that you previously imported resources from, follow these steps.
@@ -148,7 +148,7 @@ To add more learning resources from a channel that you previously imported resou
 #. Click :guilabel:`IMPORT MORE`.
 #. Repeat the selection procedure from above. 
 
-Import Channel Collection
+Import channel collection
 """""""""""""""""""""""""
 
 Channel collection is a package of multiple Studio channels all associated with its unique **collection token**. You can use a collection token to import multiple channels at once in Kolibri, instead of importing channels with their individual tokens. To import channel collection, follow these steps.
@@ -164,7 +164,7 @@ Channel collection is a package of multiple Studio channels all associated with 
 
 .. _local_network:
 
-Import from a Local Network or Internet
+Import from a local network or internet
 ***************************************
 
 You can also import resources from a different device running Kolibri in your same local network, or even from a Kolibri server hosted outside your LAN, provided you know its exact IP address. This feature is useful for when you have:
@@ -206,11 +206,13 @@ Follow these steps to import from a local network.
 
 .. tip:: If want to :ref:`allow peer import of your private channels <allow_peer_import>`, which means that those channels will be visible and available for import on other peer devices in the same network, make sure to enable that option in the **Device > Settings**. 
 
+  Similarly, if you want to import private channels from a peer in your local network, make sure that the peer device has the same option enabled in the **Device > Settings**, otherwise you will not be able to see or select those channels for import.
+
 
 .. _local_drive:
 
 
-Import from a Local Drive
+Import from a local drive
 *************************
 
 If the computer where Kolibri server is running does not have access to Internet or has insufficient bandwidth, you have the option to receive resources channels stored on an external drive (USB stick or hard disk). Follow these steps to import resources channels.
@@ -225,7 +227,7 @@ If the computer where Kolibri server is running does not have access to Internet
     :alt: Importing resources from a local drive presents the same interface options as importing from Kolibri Studio.
 
 
-Update Channels
+Update channels
 ---------------
 
 Public channels on Kolibri Studio are periodically updated from their original sources. Private and unlisted channels that you have on your local Kolibri device may also have changed since you first imported them. You can update your local channels from Kolibri Studio from online sources, from another updated device in your local network or from an external drive where the latest version of the channels have been :ref:`previously exported <export>`.
@@ -273,7 +275,7 @@ To update a channel to its latest version and import new resources into Kolibri,
   All import tasks can be cancelled before they are labeled as *Completed* in the **Task manager** page. However, beware that resources from canceled imports might not be fully available. If you plan to use the resources in lessons or quizzes, please check the state of their channel before you do, and use the :guilabel:`IMPORT MORE` button if necessary.
 
 
-Edit Channel Order 
+Edit channel order 
 ------------------
 
 To change the order in which channels are presented to learners on the **Learn > Channels** page, follow these steps.
@@ -292,7 +294,7 @@ To change the order in which channels are presented to learners on the **Learn >
 
 .. _export:
 
-Export from Kolibri to Local Drive
+Export from Kolibri to local drive
 ----------------------------------
 
 If you have imported resources on one Kolibri device, and want to make it available on another computer where Kolibri is installed, you can export it either in full, or make a selection of the resources to be exported
@@ -301,7 +303,7 @@ If you have imported resources on one Kolibri device, and want to make it availa
   You must have an external drive (SD card, USB stick or hard disk) attached to your device.
 
 
-Export Complete Channels
+Export complete channels
 ************************
 
 To export one or more full channels with all of its resources on a local drive, follow these steps.
@@ -317,7 +319,7 @@ To export one or more full channels with all of its resources on a local drive, 
   Beware that exporting complete channels might require a lot of available space on your local drive.
    
 
-Export Selected Resources from a Channel
+Export selected resources from a channel
 ****************************************
 
 To export only a selection of channel resources on a local drive, follow these steps.
@@ -334,10 +336,10 @@ To export only a selection of channel resources on a local drive, follow these s
           :alt: structure of the local drive folders with exported resources channels
 
 
-Delete Channels
+Delete channels
 ---------------
 
-Delete Complete Channels
+Delete complete channels
 ************************
 
 To delete one or more full channels with all of its resources from your device, follow these steps.
@@ -351,7 +353,7 @@ To delete one or more full channels with all of its resources from your device, 
 #. You will see the delete progress in the **Task manager** page. Once the delete task is completed, the channel(s) will not be listed in the |channel| **Channels** tab on the |device| **Device** page.
 
 
-Delete Selected Resources from a Channel
+Delete selected resources from a channel
 ****************************************
 
 To delete only a selection of channel resources from your device, follow these steps.

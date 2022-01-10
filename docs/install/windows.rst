@@ -17,7 +17,7 @@ Compatibility
 Install
 -------
 
-#. Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version 0.14**.
+#. Download the `Windows installer <https://learningequality.org/download/>`_ for Kolibri **version** |version-b|.
 #. Double-click the downloaded ``.exe`` file.
 #. Select the language for the installation.
 #. Python 3 installer is included, confirm the installation or the upgrade to proceed.

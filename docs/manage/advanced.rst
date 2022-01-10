@@ -1,6 +1,6 @@
 .. _manage_advanced:
 
-Advanced Management
+Advanced management
 ~~~~~~~~~~~~~~~~~~~
 
 Access additional configuration options and ways to manage Kolibri from the command line.

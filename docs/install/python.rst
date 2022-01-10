@@ -32,7 +32,7 @@ Python EXecutable
 
 On MacOS and Linux, follow these steps to run Kolibri with the ``PEX`` package. 
 
-#. Download the `PEX installer <https://learningequality.org/download/>`_ for Kolibri **version 0.14**. 
+#. Download the `PEX installer <https://learningequality.org/download/>`_ for Kolibri **version** |version-b|. 
 #. Make sure to **open the Terminal where you downloaded** the ``PEX`` file. For example, if you saved it in the *Downloads* folder, type this when you open the Terminal, and press Enter:
 
 	.. code-block:: bash

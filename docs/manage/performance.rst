@@ -1,6 +1,6 @@
 .. _performance:
 
-Test Kolibri Server Performance
+Test Kolibri server performance
 ###############################
 
 Benchmark
@@ -56,7 +56,7 @@ To help us troubleshoot potential problems on your Kolibri server, locate and se
 .. _profile_requests:
 
 
-Profile Server Requests
+Profile server requests
 """""""""""""""""""""""
 
 If you have the ``[Server]`` section of the :ref:`OPTIONS.INI <profile_requests_ini>` file  configured with ``PROFILE = 1``, the above command will additionally perform a profiling of every request made by Kolibri server, and save the results in a second log file as ``KOLIBRI_HOME/performance/date_time_requests_performance.csv``

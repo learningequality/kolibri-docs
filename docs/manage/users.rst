@@ -25,7 +25,7 @@ Remember that to manage Kolibri users you must sign in as **admin** or **super a
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 
-Create a New User Account
+Create a new user account
 -------------------------
 
 To create a new user account, follow these steps.
@@ -42,7 +42,7 @@ To create a new user account, follow these steps.
 		  Add new user account.
 
 
-Coach Type
+Coach type
 **********
 
 When you create a new *Coach* user account, or change the type (role) to *Coach* for an existing user, you can choose between:
@@ -54,7 +54,7 @@ When you create a new *Coach* user account, or change the type (role) to *Coach*
 		  :alt: Use the radio buttons to choose between class coach and facility coach.
 
 
-Select Users by Type
+Select users by type
 --------------------
 
 #. Click to open the selector under **User type** to see filtering options. **All** users are displayed by default.
@@ -64,7 +64,7 @@ Select Users by Type
 	  :alt: 
 
 
-Edit User’s Account
+Edit user’s account
 -------------------
 
 To edit username, full name or account type, follow these steps.
@@ -77,7 +77,7 @@ To edit username, full name or account type, follow these steps.
 	  :alt: 
 
 
-Reset User’s Password
+Reset user’s password
 *********************
 
 #. Click on the :guilabel:`OPTIONS` for the desired user and select the **Reset password** option.
@@ -88,7 +88,7 @@ Reset User’s Password
 	  :alt: 
 
 
-Delete User’s Account
+Delete user’s account
 *********************
 
 #. Click the :guilabel:`OPTIONS` for the desired user and select the **Delete** option.

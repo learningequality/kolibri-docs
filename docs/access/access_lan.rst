@@ -1,9 +1,19 @@
 .. _access_lan:
 
-Accessing Kolibri from Other Devices
-####################################
+Accessing Kolibri device from other client devices
+##################################################
 
-After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access the the learning resources on the server.
+Here are definitions of concepts necessary to understand how Kolibri works in your local network.
+
+.. glossary::
+
+    Server
+      Any device that can make digital data (videos, files, etc.) available for browsing, either to other clients and peers on the local network, or publicly on the Internet. When Kolibri is installed and run on a device, it effectively turns that device into a ‘Kolibri server’, which means that device is capable of transmitting (‘serving’) educational resources. 
+
+    Client
+      TO-DO
+
+After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access as clients the learning resources on the server.
 
 Compatibility
 *************
@@ -20,7 +30,7 @@ Kolibri currently supports the following combinations of operating systems and b
   *	Videos in Kolibri are in MP4 file format. While most browsers do not require additional plugins or codecs, open source platforms and browsers will require you to install codecs separately. If you encounter the error *No compatible source was found for this media* when you try to play videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__.
   *	**If you are still unable to view videos in fully open source browsers like Chromium or Firefox, try using Google Chrome**.
 
-Set up Access on Other Devices
+Set up access on other devices
 ******************************
 
 To access resources from other devices in the same network, you need to know the :ref:`IP address <ips>` of the computer where Kolibri is running. The default port is **8080**, and you must add it after the IP address.
