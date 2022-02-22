@@ -11,10 +11,6 @@ Setting up Kolibri will be different depending on your learning environment:
 .. note::
   You will only need to do the initial setup once, when you first start Kolibri after the installation. You can change all the settings later.
 
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/knrGjxejHUM?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
 
 Quick start
 -----------
@@ -247,6 +243,12 @@ If you are part of a wider learning environment, where several learning faciliti
 
 Learn-only device
 *****************
+
+..  raw:: html
+
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/LCCQI1Ew0i0?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 #. Select the **Import one or more user accounts from an existing facility** option in the **Select a facility setup for this device** step. 
 
