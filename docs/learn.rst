@@ -15,7 +15,7 @@ Access Kolibri
 
 ..  raw:: html
 
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/K8j04ddOASg?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/SBQBFjLqDVg?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
@@ -217,6 +217,13 @@ You can keep track of the total points you have in the upper right corner, near 
 Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
 
 
+..  raw:: html
+
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/uDZgcEb6WMs?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
+
 |watchSolid| Video and |listenShaded| audio player options
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -308,6 +315,11 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 	.. figure:: img/search.png
 		:alt: Use the select controls to filter the results by channel or type.
 
+..  raw:: html
+
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/Xt39o2Rz5Ko?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Bookmarks
 ^^^^^^^^^

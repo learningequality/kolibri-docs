@@ -69,6 +69,17 @@ As learners interact with lessons and quizzes, you can track their progress in t
 * When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners |helpNeeded| need help with a specific resource.
 * You can click each notification link to review the complete resource data in the |reports| **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
+* Click the *View learners* link under the class name to review which learner devices are connected to the central Kolibri server, and when did they last synced the progress activity.
+  
+  .. figure:: /img/sync-learners.png
+  	:alt: 
+
+
+.. tip:: Click the *Information about sync statuses* link for more details.
+	
+	  .. figure:: /img/sync-statuses.png
+  		:alt: 
+
 
 .. _reports:
 
