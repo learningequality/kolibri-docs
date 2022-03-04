@@ -18,7 +18,7 @@ Starting Kolibri on Linux will differ depending on the method you used to instal
       kolibri start
 
     .. note::
-      By default **Kolibri** starts on 8080 port. If the default port is in use, then refer to `this <https://kolibri.readthedocs.io/en/latest/manage/options_ini.html#run-kolibri-from-a-different-port>`_ doc for running it from a different port.
+      By default **Kolibri** starts on 8080 port. If the default port is in use, then refer to :ref:`this <different_port>` doc for running it from a different port.
 
   2. Open the default browser at ``http://127.0.0.1:8080``, and it will display the **Kolibri** start page.
 
