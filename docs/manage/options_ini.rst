@@ -12,6 +12,8 @@ Installing Kolibri generates a default ``options.ini`` file with all the section
 Manage Server Ports
 *******************
 
+.. _different_port:
+
 Run Kolibri from a different port
 ---------------------------------
 
