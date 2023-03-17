@@ -1,6 +1,6 @@
 .. _user_roles:
 
-Default User Roles
+Default user roles
 ##################
 
 By default Kolibri users can have one of 3 roles with respective permissions to access different features. 
@@ -8,7 +8,7 @@ By default Kolibri users can have one of 3 roles with respective permissions to 
 Learner
 =======
 
-**Learners** have access to the |learn| **Learn** dashboard with the tabs |classes| **Classes**, |channel| **Channels**, and |recommended| **Recommended**.
+**Learners** have access to the |learn| **Learn** dashboard with the tabs |dashboard| **Home**, |library| **Library**, and |bookmark| **Bookmark**.
 
 	.. figure:: /img/navbar-learner.png
 	   :alt:
@@ -39,7 +39,7 @@ Coaches can:
 
 .. note:: *Facility coaches* have access to all classes, *class coaches* only to ones they are assigned to		
 
-Facility Admin
+Facility admin
 ==============
 
 **Facility admins** have access to the same tabs as learners and coaches, but they also have permissions to access the |facility| **Facility** dashboard with tabs |classes| **Classes**, |people| **Users**, |settings| **Settings**, and |data| **Data**.
@@ -64,7 +64,7 @@ Admins can:
     - View/Edit facility configuration settings (in the *Settings* tab)
     - Export *Detail* and *Summary* logs usage data (in the *Data* tab)
 
-Super Admin
+Super admin
 ===========
 
 Kolibri **super admin** users have access to the same tabs as learners, coaches, and facility admins, but they also have permissions to access the |device| **Device** dashboard with tabs |channel| **Channels**, |permissions| **Permissions**, |facility| **Facilities**, |deviceInfo| **Info**, and |settings| **Settings**. Super admins have all device permissions, and are able to :ref:`assign them to other users <permissions>`. 
@@ -99,7 +99,7 @@ Super admin users can:
 
 .. tip:: If you are unable to retrieve the username and password for the super admin account in your facility, you can :ref:`create a new super admin account using the command line <create_superuser>`.
 
-Assign Additional Permissions
+Assign additional permissions
 -----------------------------
 
 By default, only **super admin** users can view the |device| **Device** dashboard, import/export channels in Kolibri, and modify |permissions| **Permissions** for other users. However, depending on the needs of the institution, **super admin** users can also :ref:`grant these permissions <permissions>` to other users.

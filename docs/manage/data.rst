@@ -3,7 +3,7 @@
 Data
 ####
 
-You can download Kolibri *Detail* and *Summary* logs usage data and export in the CSV format from the |data| **Data** tab in your |facility| **Facility** dashboard.
+You can download Kolibri *Detail* and *Summary* logs usage data and export in the CSV format from the |save| **Data** tab in your |facility| **Facility** dashboard.
 
 	.. figure:: /img/export-usage-data.png
 	  :alt: Open Facility page, navigate to Data tab, and use the Download buttons to save the logs on your local drive. 
@@ -31,7 +31,7 @@ To download session or summary logs, follow these steps.
 .. _csv_import:
 
 
-Import and Export Users from a CSV file
+Import and export users from a CSV file
 ***************************************
 
 To import and export many users and classes at once you can use an externally generated CSV (comma separated values) file. 
@@ -56,7 +56,7 @@ For the import to be successful, you must have a CSV file with properly formatte
 
 
 
-CSV File Format Reference
+CSV file format reference
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The first row must be a header row, and contain the columns:
@@ -118,7 +118,7 @@ The first row must be a header row, and contain the columns:
   * Write the class names separated by commas.
   * If the class name in the field does not match exactly with any of the existing classes in the facility, the command will create a new class with that name.
 
-Import Users
+Import users
 ^^^^^^^^^^^^
 
 Importing users from a CSV file will make the following changes to your facility:
@@ -154,7 +154,7 @@ To import users from a CSV file, follow these steps.
 .. _csv_export:
 
 
-Export Users
+Export users
 ^^^^^^^^^^^^
 
 #. Click the :guilabel:`EXPORT` button and wait for the CSV file to generate.
@@ -164,7 +164,7 @@ Export Users
 
 
 
-Sync Facility Data
+Sync facility data
 ******************
 
 If your Kolibri facility is part of a larger organization that tracks data on the **Kolibri Data Portal**, you may have received the project token to sync the facility data with the organization in the cloud. Follow these steps to register your facility and sync.

@@ -25,7 +25,7 @@ To manage Kolibri classes you must sign in as **admin** or **super admin**.
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.      
 
 
-Add New Class
+Add new class
 -------------
 
 To add a new class, follow these steps.
@@ -35,7 +35,7 @@ To add a new class, follow these steps.
 #. Click :guilabel:`SAVE` to add the new class, or :guilabel:`CANCEL` to exit.
 
 
-Delete Class
+Delete class
 ------------
 
 To delete class, follow these steps.
@@ -47,7 +47,7 @@ To delete class, follow these steps.
   Users enrolled in the class you are deleting will not be removed from the database.
 
 
-Edit Class, Learners and Coaches
+Edit class, learners and coaches
 --------------------------------
 
 A newly created class does not have any learners or coaches. To edit a class select it from the default view in the |classes| **Classes** tab. In this view, you can change class name, add or remove currently enrolled learners and assign or remove coaches from the class.
@@ -58,7 +58,7 @@ A newly created class does not have any learners or coaches. To edit a class sel
 
 .. _enroll_learners:
 
-Enroll Learners in Class
+Enroll learners in class
 ************************
 
 #. Click the :guilabel:`ENROLL LEARNERS` button on the class details page.
@@ -73,7 +73,7 @@ Enroll Learners in Class
 #. Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll to class.
 #. Click :guilabel:`CONFIRM` to finish enrolling the selected learners and return to the main class page.
 
-Remove Learners from Class
+Remove learners from class
 **************************
 
 #. Click :guilabel:`REMOVE` for the chosen learner.
@@ -87,7 +87,7 @@ Remove Learners from Class
 
 .. _assign_coaches:
 
-Assign Coaches to Class
+Assign coaches to class
 ***********************
 
 1. Click the :guilabel:`ASSIGN COACHES` on the class details page.
@@ -102,7 +102,7 @@ Assign Coaches to Class
 2. Use checkboxes to select all the users in the list, or the search field for specific users you want to assign as a coach to class.
 3. Click :guilabel:`CONFIRM` to finish.
 
-Remove Coaches from a Class
+Remove coaches from a class
 ***************************
 
 #. Click :guilabel:`REMOVE` for the chosen coach.
@@ -115,7 +115,7 @@ Remove Coaches from a Class
   Coaches removed from the class will not be deleted from the database, and you can still access their accounts from the |people| **Users** tab in the |facility| **Facility** dashboard.
 
 
-Rename Class
+Rename class
 ************
 
 To edit class name, follow these steps.

@@ -1,6 +1,6 @@
 .. _coach:
 
-Coach your Learners in Kolibri
+Coach your learners in Kolibri
 ##############################
  
 You can track progress of the **Learners**, create and assign **Lessons** and **Quizzes** to classes or learner groups from the |coach| **Coach** dashboard. The default view presents the list of |classes| **Classes** with their assigned coaches, and the number of learners enrolled in each class.
@@ -25,7 +25,7 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
 .. _track_progress:
 
 
-Class Home
+Class home
 ~~~~~~~~~~
 
 On the |dashboard| **Class Home** tab you can see the overview of the class activity and track progress of the learners on lessons and quizzes assigned to them.
@@ -59,7 +59,7 @@ You can review the progress of learners on the assigned lessons in the |lesson| 
 * Click :guilabel:`VIEW ALL` to access the full list of notification about lessons (only the 3 most recent are displayed in the block).
 
 
-Class Activity
+Class activity
 --------------
 
 As learners interact with lessons and quizzes, you can track their progress in the **Class activity** block. 
@@ -69,6 +69,17 @@ As learners interact with lessons and quizzes, you can track their progress in t
 * When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners |helpNeeded| need help with a specific resource.
 * You can click each notification link to review the complete resource data in the |reports| **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
+* Click the *View learners* link under the class name to review which learner devices are connected to the central Kolibri server, and when did they last synced the progress activity.
+  
+  .. figure:: /img/sync-learners.png
+  	:alt: 
+
+
+.. tip:: Click the *Information about sync statuses* link for more details.
+	
+	  .. figure:: /img/sync-statuses.png
+  		:alt: 
+
 
 .. _reports:
 
@@ -94,7 +105,7 @@ Kolibri presents actionable reports for each lesson and quiz the class learners 
 
 .. TO-DO (image)
 
-Print and Export Coach Reports
+Print and export coach reports
 ------------------------------
 
 On any coach report where you see the |print| (print) and |download| (download) buttons, you will be able to print on paper, save in a PDF format, or export as a CSV file, for further analysis or to share with others. Follow these steps.
@@ -121,7 +132,7 @@ Use the options in the |edit| **Plan** tab to create and manage the lessons, qui
 .. _coach_resource:
 
 
-Coach Support Resources
+Coach support resources
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 `Kolibri Studio <https://studio.learningequality.org/>`_ supports the option to set visibility for any resource added to channels as a |coachContent| **Coach resource**. These materials can be lesson plans, professional development readings, training materials, etc. only viewable by coaches and not learners. When content curators set the visibility this way, the resource will not be visible by learners while browsing Kolibri |channel| **Channels**, but only to admins, facility coaches, or other users assigned to coach classes. 

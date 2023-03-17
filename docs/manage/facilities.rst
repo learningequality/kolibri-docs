@@ -14,14 +14,8 @@ You can import, sync and remove the facilities on your Kolibri device from the |
 
 	Manage facilities on a device.
 
-..  raw:: html
 
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/RTJC7T20R34?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
-
-
-Import Facility
+Import facility
 ***************
 
 If you are part of a wider learning environment (for example when several learning facilities like schools or community centers are managed by one central organization), and your device is used to store the data from other facilities that are offline, you must first import those facilities. Once you have imported the facility on your device, you can periodically connect to their local network and sync the learner progress data.
@@ -78,35 +72,42 @@ To import a facility on your device, follow these steps.
 
 
 
-Sync Facility
+Sync facility
 *************
 
 You can use the **Sync facility** feature for a variety of needs in both offline and online settings. 
 
-.. warning:: When syncing data between devices in the local network **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
+..  raw:: html
 
-.. note:: **Examples of Data Syncing Scenarios**
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/AT7uO9vRGoo?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
-	#.	**Roving Admin scenario**
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
+
+.. warning:: It is very important to remember that **syncing does not import channels and resources**. 
+
+	When syncing facility data between devices in a local network, **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
+
+
+.. note:: **Examples of data syncing scenarios**:
+
+	#.	**Roving admin scenario**
 
 		* Kolibri is installed on the central server for the Kolibri implementation. 
-		* Kolibri is installed on all learner devices along with the facility and resources from the central server, which are then distributed amongst learners.
-		* Admin travels to the communities along with the central server, updates the resources on learner devices, and syncs learner data with the central server.
-		* Syncing data
-			* At a designated interval, an administrator goes out to communities with the central server device for the Kolibri implementation. This device should be set up to create a WiFi hotspot, or be paired with a portable WiFi router (does not need to be internet enabled), to allow the learner devices to connect to it for peer-to-peer syncing.
-			* The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the X device, and imports new learning resources if needed.
+		* Kolibri is installed on all learner devices along with the facility and resources from the school server, which are then distributed amongst learners for at home use.
+		* The admin travels periodically to the communities along with the school server. Learner data syncs automatically from their devices when it comes into the network range of the school server. Simultaneously, the learner also receives any new assignments from the school server onto their device.
+
 
 	#.	**Admin at Kolibri hub**
 
 		* Kolibri is installed on a central server for the Kolibri implementation.
-		* Kolibri is installed on all learner devices and loaded with the facility and resources from the central server, and then distributed amongst learners.
-		* Learners periodically visit the Kolibri hub where an Admin syncs their devices to the central server and imports new resources onto their devices.
-		* Syncing data
-		    * The learner brings their device to the Kolibri Hub.
-		    * The admin physically accesses the learner devices and connects them to the WiFi network, syncs data to the device, and imports new learning resources if needed.
+		* Kolibri is installed on all learner devices along with the facility and resources from the school server, which are then distributed amongst learners for at home use.
+		* Learners periodically visit the Kolibri hub where the devices automatically start syncing when it comes into the network range of the school server
 
 
-		Read our `Implementation models for distance learning with Kolibri v0.14 <http://le.fyi/014-models>`_ for more details to consider around the facility syncing strategies.
+		Syncing will be automated as long as the devices and the server are using the same Kolibri facility and both are actively connected to the same network.
+
+		Read our `Implementation Guide for Learner Data Syncing in Kolibri v0.15 <http://le.fyi/015-data-syncing-guide>`__ for more details to consider around the facility syncing strategies.
 
 To sync  classes, groups, learner progress, and all  facility data with a device from which you previously imported it from, follow these steps.
 
@@ -131,7 +132,7 @@ If your Kolibri facility is part of a larger organization that tracks data on th
 .. warning:: **Kolibri Data Portal** (KDP) is a new feature that is not yet broadly released. We are currently providing access to KDP to organizations on a contractual basis, and ultimately planning to offer this as a paid service by Learning Equality. 
   
 
-Remove Facility
+Remove facility
 ***************
 
 To remove a facility from the device, follow these steps.

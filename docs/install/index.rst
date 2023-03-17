@@ -37,6 +37,5 @@ Read our tutorials to learn about some advanced options:
   :maxdepth: 1
 
   provision
-  raspberry_pi_manual
 
 

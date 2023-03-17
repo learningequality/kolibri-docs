@@ -1,7 +1,7 @@
 
 .. _manage_groups:
 
-Manage Groups
+Manage groups
 -------------
 
 In case you need to further divide learners inside classes, for example to address the different progress needs, you can use the **groups** feature. Create and delete groups, as well as assign learners to them from the |group| **Groups** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. Default view displays the list of all groups for the selected class, with the number of assigned learners for each group.
@@ -18,7 +18,7 @@ In case you need to further divide learners inside classes, for example to addre
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
-Create a New Group
+Create a new group
 """"""""""""""""""
 
 To create a new learner group, follow these steps.
@@ -28,7 +28,7 @@ To create a new learner group, follow these steps.
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without creating a group.
    
 
-Enroll Learners in a Group
+Enroll learners in a group
 """"""""""""""""""""""""""
 
 #. Click to open the desired group in the **Groups** sub-tab.
@@ -44,14 +44,14 @@ Enroll Learners in a Group
 #. Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll in the group.
 #. Click :guilabel:`CONFIRM` to finish enrolling the selected learners and return to the group page.
 
-Remove Learners from Group
+Remove learners from group
 """"""""""""""""""""""""""
 
 #. Click :guilabel:`REMOVE` for the chosen learner.
 #. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the learner.
 
 
-Rename Group
+Rename group
 """"""""""""
 
 To rename group, follow these steps.
@@ -62,7 +62,7 @@ To rename group, follow these steps.
 #. Click the :guilabel:`SAVE` button to proceed, or :guilabel:`CANCEL` to exit without renaming the group.
 
 
-Delete Group
+Delete group
 """"""""""""
 
 To delete a group, follow these steps.

@@ -15,12 +15,12 @@ Access Kolibri
 
 ..  raw:: html
 
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/K8j04ddOASg?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/SBQBFjLqDVg?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Sign in to Kolibri
-^^^^^^^^^^^^^^^^^^
+******************
 
 To sign in to **Kolibri** and start learning, follow these steps:
 
@@ -81,7 +81,7 @@ To sign out from Kolibri you can either:
 .. _create_account:
 
 Create an account
-^^^^^^^^^^^^^^^^^
+*****************
 
 To create your own account on a **Kolibri** facility and start learning, follow these steps:
 
@@ -107,23 +107,23 @@ Learn with Kolibri
 ==================
 
 Classes
-^^^^^^^
+*******
 
-Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the classes you are enrolled to. 
+Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the |classes| classes you are enrolled to. 
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
 
-Select one of your classes to access :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>` teachers or coaches prepared for your class.
+Below the list of classes you will see some recommended resources from your classes to continue learning, as well as recent lessons and quizzes assigned in your classes. Select one of your classes to access the full list of :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>`, that teachers or coaches prepared for your class.
 
 	.. figure:: img/exams-lessons.png
 	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
 
 
-Channels
-^^^^^^^^
+Library
+*******
 
-Use the |channel| **Channels** tab to navigate through the complete set of learning topics and materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
+Use the |library| **Library** tab to navigate through the channels with learning materials available in Kolibri. You can browse it as you wish, or according to indications from your teachers and coaches.
 
 Depending on how your school and teachers or coaches decided to organize the materials, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the resources from each available channel.
 
@@ -131,30 +131,10 @@ Depending on how your school and teachers or coaches decided to organize the mat
 	  :alt: 
 
 
-Recommended
-^^^^^^^^^^^
+Navigate Kolibri folders with breadcrumb links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In the |recommended| Recommended tab you can see various sections:
-
-* **Most popular** displays the most frequently used materials in your school or facility.
-* **Next steps** indicate the recommended materials based on those that you already viewed and interacted with.
-* **Resume** displays activities that you started but haven't finished yet.
-
-These learning topics and materials are either related to what you were doing the last time you used Kolibri. or recommended by your teachers and coaches.
-
-The number of displayed resources in each row will depend on the width of your display, and you can browse with the |back| (back) and |forward| (forward) buttons at the beginning and the end of the section rows.
-
-	.. figure:: img/learn.png
-		:alt: 
-
-.. note::
-   **Next steps** and **Resume** are not visible if you are browsing as a guest.
-
-
-Navigate Kolibri topics with breadcrumb links
-"""""""""""""""""""""""""""""""""""""""""""""
-
-When you are browsing a topic in Kolibri, the **Breadcrumb** links indicate previously visited, more general topics. Current topic is at the last position, and you can click any of the previous links in the breadcrumb to go back to a specific broader topic.
+When you are browsing through folders in a Kolibri channel, **breadcrumb** links indicate previously visited, more general topics. Current folder is at the last position, and you can click any of the previous links in the breadcrumb to go back to a specific broader topic.
 
 	.. figure:: img/breadcrumbs.png
 		:alt: 
@@ -164,49 +144,33 @@ If the full length of the breadcrumbs becomes too wide for the width of your dis
 	.. figure:: img/breadcrumbs-folded.png
 		:alt: Click the expand more button to reveal folded breadcrumb links.
 
-Search
-^^^^^^
+When you open any resource or activity in Kolibri, you will see a series of icons in the upper part of the page.
 
-If you are looking for a specific subject, topic, or term, use the **Search** feature:
+.. figure:: img/resource-topbar.png
+	:alt: Buttons and icons in the resource top bar.
 
-#. Type the word or combination of words you are looking for in the search field located in the top bar.
-#. Press :guilabel:`Enter` or click the |search| (search) button to display the results.
-#. Filter the search results by channel or type of resource.
-
-	.. figure:: img/search.png
-		:alt: Use the select controls to filter the results by channel or type.
-
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/wc92hqr-i-U?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
-
-Some Kolibri resources may be duplicated in different topics and/or channels. Search results will indicate when a resource is duplicated, and you can click on the ``...locations`` link to discover the details for each location.
-
-	.. figure:: img/search-duplicates.png
-		:alt: 
-
-
-	.. figure:: img/search-duplicates2.png
-		:alt: Details for the duplicated resources in the search results will open in a new dialog window; use the links to explore or close the dialog to return to the search results.
-
-		Details for the duplicated resources in the search results.
+* |back| (back) button allows you to return to the library
+* type of the resource (video, document, app, etc.)
+* title of the resource
+* progress icon indicates if you |mastered| completed the resource, or it is still |inProgress| in progress
+* |resourceList| **View resources** button allows you to see other resources in the same folder or a lesson
+* |bookmarkEmpty| **Bookmark** button allows you to save the location of the resource so you can access it easily from the |bookmark| **Bookmark** page.
+* |info| **View information** allows you to open a sidebar with additional information about the resource. Use the :guilabel:`DOWNLOAD RESOURCE` button at the bottom to download the resource files to your computer.
 
 
 .. _content_types:
 
-Types or resources
-^^^^^^^^^^^^^^^^^^
+Types or activities
+^^^^^^^^^^^^^^^^^^^
 
-You may see different types of resources available in Kolibri channels, and you can easily distinguish them by their icons:
+You may see different types of icons for activities available in Kolibri channels, and you can easily distinguish them by their icons:
 
-* |video| Videos
-* |exercise| Exercises
-* |document| Documents
-* |app| Interactive apps
-* |topic| Topics
-* |slideshow| Slideshow
+* |watchSolid| **Watch** for videos
+* |listenShaded| **Listen** for audio
+* |practiceShaded| **Practice** for exercises
+* |readShaded| **Read** for PDF and ePUB documents
+* |interactShaded| **Explore** for interactive apps
+
 
 When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |inProgress| (in-progress) icon. Once you finish viewing a video or complete the exercise, they will be marked with the |mastered| (completed) icon.
 
@@ -215,8 +179,9 @@ When you start doing an exercise, viewing a video, or reading a document, it wil
 
 		Progress indicator icons for learning resources.
 
-Exercises
-"""""""""
+
+|practiceShaded| Exercises
+""""""""""""""""""""""""""
 
 Kolibri **Exercises** can require you to do different things: fill in a missing number, write a formula, choose one of the available options, etc. Each correct answer gets you a check mark, and majority of exercises require 5 correct answers in a row to be completed. Some exercises can offer one or more hints, to help you solve the problem.
 
@@ -239,8 +204,28 @@ Independent of the required action (writing an answer yourself or choosing one o
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
 
 
-Video and Audio Player options
-""""""""""""""""""""""""""""""
+|pointsActive| Points
+---------------------
+
+Every time you complete a resource (finish viewing a video, reading a document, or when you achieve the required number of correct answers in an exercise), you will be rewarded points |pointsActive|. 
+
+You can keep track of the total points you have in the upper right corner, near the |person| user menu.
+
+	.. figure:: img/points.png
+		:alt: 
+
+Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
+
+
+..  raw:: html
+
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/uDZgcEb6WMs?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
+
+|watchSolid| Video and |listenShaded| audio player options
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 To play videos and listen to audio files in Kolibri you have several available control buttons at the bottom of the player screen. Move the cursor or tap on the player screen to make appear the control buttons while playing.
 
@@ -257,14 +242,12 @@ To play videos and listen to audio files in Kolibri you have several available c
 * Video duration indicator
 * Volume scrollbar
 * Playback speed selector
-* Display **closed captions** (subtitles) 
+* Display **closed captions** (subtitles) and interactive transcript
 * Fullscreen button
 
 
-Use the :guilabel:`DOWNLOAD RESOURCE` button below the player to download the video, audio and thumbnail files to your computer. Some videos will provide multiple resolution options.
-
-Interactive Video Transcript
-****************************
+Interactive video transcript
+----------------------------
 
 When a video has captions available, you can choose to view them at the bottom of the player, or open them as an interactive transcript. 
 
@@ -278,8 +261,8 @@ When a video has captions available, you can choose to view them at the bottom o
 
 
 
-PDF Viewer options
-""""""""""""""""""
+|readShaded| PDF viewer options
+"""""""""""""""""""""""""""""""
 
 .. note::
   Options for viewing PDF files will depend on the browser and operating system you are using to view Kolibri.
@@ -293,8 +276,8 @@ PDF Viewer options
 		:alt: 
 
 
-Ebook Viewer options
-""""""""""""""""""""
+|readShaded| Ebook viewer options
+"""""""""""""""""""""""""""""""""
 
 To read digital books in Kolibri you have several available controls inside the reader.
 
@@ -309,7 +292,7 @@ To read digital books in Kolibri you have several available controls inside the 
 	.. figure:: img/epub.*
 		:alt: 
 
-Slideshow Viewer options
+Slideshow viewer options
 """"""""""""""""""""""""
 
 To navigate the slides of a slideshow, you may use the on-screen navigation controls or your keyboard's arrow keys.
@@ -317,6 +300,34 @@ To navigate the slides of a slideshow, you may use the on-screen navigation cont
 * Use the |fullscreen| (fullscreen) button in the upper right corner to open the ebook in fullscreen view.
 * Navigate the slides with the left arrow (←) or the right arrow (→) keys on your keyboard, or the |back| (previous page) and |forward| (next page) buttons on the side of the slideshow.
 * You can choose a specific slide by clicking the round icons at the bottom of the slideshow view. 
+  
+
+Search
+^^^^^^
+
+If you are looking for a specific subject, topic, or term, use the **Search** feature:
+
+#. Type a word or combination of words you are looking for in the **Keyword**  search field located in the sidebar. If you are using Kolibri on a smaller screen, click the |filter| :guilabel:`CHECK` button to open the sidebar.
+#. Press :guilabel:`Enter` or click the |search| (search) button to display the results.
+#. Filter the search results by type of activity, language or channel.
+#. Clear the filters by closing the 
+
+	.. figure:: img/search.png
+		:alt: Use the select controls to filter the results by channel or type.
+
+..  raw:: html
+
+	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/Xt39o2Rz5Ko?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+
+Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+
+Bookmarks
+^^^^^^^^^
+
+
+
+
+
 
 .. _lessons:
 
@@ -363,15 +374,3 @@ Once you complete and submit a quiz, it will be marked with the |mastered| (comp
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.
-
-Points
-^^^^^^
-
-Every time you complete a resource (finish viewing a video, reading a document, or when you achieve the required number of correct answers in an exercise), you will be rewarded points |pointsActive|. 
-
-You can keep track of the total points you have in the upper right corner, near the |person| user menu.
-
-	.. figure:: img/points.png
-		:alt: 
-
-Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.

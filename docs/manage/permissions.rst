@@ -16,7 +16,7 @@ You can assign additional permissions to Kolibri users which will provide them a
 
 Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
-Permission to Manage Channels and Resources
+Permission to manage channels and resources
 -------------------------------------------
 
 To grant permission to another user to manage channels and resources in Kolibri, that is to import, export and delete them from the device, follow these steps.
@@ -31,7 +31,7 @@ To grant permission to another user to manage channels and resources in Kolibri,
 The users who have been granted the permissions to manage content channels will have a |permission| black key indicator in front of their name, and will be able to see the |device| **Device** dashboard with the |channel| **Channels** tab.
 
 
-Super Admin Permissions
+Super admin permissions
 -----------------------
 
 To grant **super admin** permissions to another user, follow these steps.
