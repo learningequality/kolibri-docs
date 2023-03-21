@@ -6,7 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
+Debian 10 ("buster"), Ubuntu 18.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
 
 ..  raw:: html
 
