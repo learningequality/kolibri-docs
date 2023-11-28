@@ -1,7 +1,8 @@
 # These are for building the docs
-sphinx<2
-sphinx_rtd_theme==0.5.2
-sphinx-intl
-sphinx-autobuild
-sphinx-version-warning
-sphinx-notfound-page
+Sphinx==1.8.6
+sphinx-rtd-theme==0.5.2
+sphinx-intl==2.1.0
+sphinx-autobuild==2021.3.14
+sphinx-version-warning==1.1.2
+sphinx-notfound-page==0.8.3
+Jinja2==3.0.3
