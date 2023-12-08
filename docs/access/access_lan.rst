@@ -8,10 +8,10 @@ Here are definitions of concepts necessary to understand how Kolibri works in yo
 .. glossary::
 
     Server
-      Any device that can make digital data (videos, files, etc.) available for browsing, either to other clients and peers on the local network, or publicly on the Internet. When Kolibri is installed and run on a device, it effectively turns that device into a ‘Kolibri server’, which means that device is capable of transmitting (‘serving’) educational resources. 
+      Any device that can make digital data (videos, files, etc.) available for browsing, either to other clients and peers on the local network, or publicly on the Internet. When Kolibri is installed and run on a device, it effectively turns that device into a ‘Kolibri server’, which means that device is capable of transmitting (‘serving’) educational resources in the local network. 
 
     Client
-      TO-DO
+      Any device in a local network that uses a browser to access the educational resources available on the Kolibri server device running in that same network.
 
 After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access as clients the learning resources on the server.
 
