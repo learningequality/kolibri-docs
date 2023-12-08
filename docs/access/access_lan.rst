@@ -1,17 +1,17 @@
 .. _access_lan:
 
-Accessing Kolibri device from other client devices
-##################################################
+Accessing Kolibri server from client devices
+############################################
 
 Here are definitions of concepts necessary to understand how Kolibri works in your local network.
 
 .. glossary::
 
     Server
-      Any device that can make digital data (videos, files, etc.) available for browsing, either to other clients and peers on the local network, or publicly on the Internet. When Kolibri is installed and run on a device, it effectively turns that device into a ‘Kolibri server’, which means that device is capable of transmitting (‘serving’) educational resources. 
+      Any device that can make digital data (videos, files, etc.) available for browsing, either to other clients and peers on the local network, or publicly on the Internet. When Kolibri is installed and run on a device, it effectively turns that device into a ‘Kolibri server’, which means that device is capable of transmitting (‘serving’) educational resources in that local network. 
 
     Client
-      TO-DO
+      Any device in a local network that uses a browser to access the educational resources on the Kolibri server.
 
 After you have installed and started Kolibri on the computer that will act as a server, you need to configure other devices in the same `Local Area Network <https://en.wikipedia.org/wiki/Local_area_network>`_ (LAN), such as other computers, tablets or phones, so they can access as clients the learning resources on the server.
 
@@ -20,7 +20,7 @@ Compatibility
 
 Kolibri currently supports the following combinations of operating systems and browsers for client devices:
 
-* Windows 7, 8.1 and 10: IE 11+, Chrome and Firefox
+* Windows 7, 8.1 and 10: Edge, Chrome and Firefox
 * MacOS 10.6+: Safari, Chrome and Firefox
 * Linux: any browser
 * Android 4.4+: Chrome and Firefox

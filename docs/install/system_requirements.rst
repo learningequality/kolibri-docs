@@ -24,3 +24,10 @@ Clients
 Very old desktops and very low-power computers can be used as client devices to access Kolibri. For instance, some implementations are known to use first-gen Raspberry Pi as desktop computers.
 
 It is always a good idea to do a practical test, but when you want to implement Kolibri, usually it's not necessary to scale your hardware. The main requirement is that your system needs a video card and driver that can play the videos.
+
+Android app
+-----------
+
+Kolibri Android app has been tested on devices with the Android version 8 and higher.
+
+If you are using the app in the **On my own** modality, keep in mind that the storage occupied by Kolibri channels will depend on the amount and type of resources you decide to import.

@@ -7,6 +7,7 @@ Manage Kolibri
   :maxdepth: 1
 
   user_roles
+  change_language
   facility
   users
   classes
