@@ -43,8 +43,10 @@ templates_path = ["_templates"]
 linkcheck_ignore = [
     "https://groups.google.com/a/learningequality.org/forum/#!forum/dev",
     "http://127.0.0.1:8080",
-    "http://127.0.0.1:8080/",
     "https://www.kiwix.org",
+    "https://twitter.com/LearnEQ/",
+    "https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit",
+    "https://www.raspberrypi.com/documentation/computers/getting-started.html",
 ]
 
 # Where to find translated image files
@@ -148,7 +150,7 @@ html_extra_path = ["extras"]
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
 def setup(app):
     # Add our custom CSS overrides
-    app.add_stylesheet("theme_overrides.css")
+    app.add_css_file("theme_overrides.css")
 
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,

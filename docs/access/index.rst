@@ -21,6 +21,7 @@ If you are using the **server-client** setup (where learners are accessing their
 
   access_lan
 
+
 Kolibri Android app
 *******************
 

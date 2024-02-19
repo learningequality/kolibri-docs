@@ -155,7 +155,7 @@ If all the learners in your facility have their own :term:`learn-only devices <L
 
 
 
-.. _import_facility:
+.. _import_existing_facility:
 
 
 Import facility
