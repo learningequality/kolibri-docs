@@ -3,10 +3,12 @@
 Initial setup
 =============
 
+.. tip:: We recommend you review the :doc:`/glossary` that will help you understand the terminology used in this guide, and make it easier for you to set up Kolibri for your implementation.
+
 Setting up Kolibri will be different depending on your learning environment:
 
-* If you plan to use Kolibri at home or for supplemental learning outside any facility, use the **On my own** option.       
-* If you are installing Kolibri to be used in a formal facility like school, or in non-formal ones like libraries or community centers, use the **Group learning** option.
+* If you plan to use Kolibri independently at home, or for supplemental learning outside any large facility like a school, use the :term:`On my own` option.       
+* If you are installing Kolibri to be used within a formal facility like school, or in non-formal ones like libraries or community centers, use the :ref:`group_learning` option. In the steps that follow you will have the possibility to configure a :term:`full device <Device>` for a new Kolibri server, or to set up a :term:`learn-only device <Learn-only device>`. 
 
 .. note::
   You will only need to do the initial setup once, when you first start Kolibri after the installation. You can change all the settings later.
@@ -54,33 +56,12 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 
 Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` if more people at your home are going to be using Kolibri. Make sure to check how to :ref:`configure other devices <access_LAN>` (computers, tablets or smartphones) in the home network to access Kolibri.
 
+.. _group_learning:
 
 Group learning
 --------------
 
-Here are definitions of concepts necessary to understand the available options in the *Advanced setup* of Kolibri.
-
-.. glossary::
-
-    Facility
-      A facility in Kolibri connects a set of user accounts, classes, and associated data such as assignments and learner progress. The same facility can be shared across multiple devices, and there can also be multiple facilities on a single device. A facility could represent physical schools, temporary learning hubs, organizations distributing devices across multiple locations, parent or family programs, and other types of learning environments featuring continuity between learners' activities.
-
-    Device
-      The physical or virtual machine that has the Kolibri server installed on it. Kolibri server device will minimally include a processor, storage, and memory. It may also include a screen, a network connection, a battery, etc. Common examples of server devices are: a desktop or laptop computer; a rack-mounted server; a Raspberry Pi; a virtual machine running in the cloud.
-
-		    * **Full device**
-
-		      A device that is a fully-featured Kolibri server and can be used by admins, coaches and learners. A full device enables access to all learner, coach and admin features.
-
-		    * **Learn-only device**
-
-		      Unlike a 'full device', a 'learn-only device' will have available only the features for learners. Coaches and admins can sign in but will only see the *Learn* page. Learn-only devices also include automated data syncing functionality.
-
-	  Sync
-		  Syncing is the process of synchronizing facility data (learners, groups, classes, learner progress, assignments) between devices that have the same facility. The facility is created once on a full device, and can subsequently be imported to other devices. Facility data can afterwards be synced between devices as long as they are on the same local network.		 
-
-
-#. **Select the Group learning** option, recommended for schools, educational programs, organizations, or other group learning settings that will share Kolibri. 
+#. **Select the Group learning** option, recommended for schools, educational programs and organizations, or other group learning settings. 
    
 	  .. figure:: /img/group-learning.png
 		   :alt:  
@@ -88,7 +69,7 @@ Here are definitions of concepts necessary to understand the available options i
 		   Select Group learning for use of Kolibri in group learning environments.		
 	
 
-#. **Select the name of the device** on which Kolibri server will be running from. Choose a meaningful and recognizable name because it will help you identify it during syncing and importing processes later on. If many devices are connected to your local network at the same time, the device where the Kolibri server is running must be easily recognizable for users on other devices who need to sync with it.
+#. **Select the name for the device**. Choose a meaningful and recognizable name because it will help you identify it during syncing and importing processes later on. If many devices are connected to your local network at the same time, the device where the Kolibri server is running must be easily recognizable for users on other devices who need to sync with it.
 
 	  .. figure:: /img/device-name.png
 		   :alt:  
@@ -96,7 +77,7 @@ Here are definitions of concepts necessary to understand the available options i
 		   Select a meaningful name for the device.	
 
 
-#. **Select device type**. If you want to set up a **full device** (keep reading the following section), you can create a new facility, or import it from another device in your local network. To import only one or more learner accounts, :ref:`select the learn-only device <learn_only_device>`. 
+#. **Select device type**. If you want to set up a :term:`full device <Device>` you can create a new facility, or import one from another device in your local network. To import only one or more learner accounts, select the :ref:`learn-only device <learn_only_device>`. 
 
 	  .. figure:: /img/select-device-type.png
 		   :alt:  
@@ -145,7 +126,7 @@ Create a new learning facility
 	   Select if learners must type in their passwords to sign in on Kolibri.
 
 
-#. **Responsibilities of the administrator**. When you are setting up a Kolibri facility you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
+#. **Responsibilities of the administrator**. When you are setting up a Kolibri facility you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
 
   	.. figure:: /img/super-admin-resp.png
 	   :alt: Step 5 of 5.
@@ -166,7 +147,13 @@ Create a new learning facility
 	   Select the username and password for the facility super admin.
 
 
-Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` (if you chose the Admin-managed facility setup). Make sure to check how to :ref:`configure other computers <access_LAN>` in the network to access Kolibri.
+Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`, and :ref:`create users <manage_users_ref>` (if you chose the Admin-managed facility setup). 
+
+If you are using the **server-client** setup (where learners are accessing their accounts on Kolibri server through a browser), remember to :ref:`configure learner devices <access_LAN>` to access Kolibri in the local network.
+
+If all the learners in your facility have their own :term:`learn-only devices <Learn-only device>`, they will have the **device auto-discovery** and **automated syncing** configured by default.
+
+
 
 .. _import_facility:
 
@@ -185,19 +172,15 @@ If you are part of a wider learning environment, where several learning faciliti
 
 	Select the device and click the :guilabel:`Continue` button.
 
-	**TODO-screenshot**
-
-  	.. figure:: /img/initial-setup-select-deviceZ.png
-	   :alt: 
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: initial-setup-select-device
 
 	   Select the device from which you want to import a facility.
 
 		.. note:: If you do not see the address of the device listed, but you know the IP address, you can add it manually. Click the *Add new address* link, and fill in the required information.
 
-		**TODO-screenshot**
-
-			.. figure:: /img/initial-setup-add-deviceZ.png
-				:alt: Add the network address of the device manually.
+			.. figure:: /img/to-do-screenshot.png
+				:alt: Add the network address of the device manually. **TODO-screenshot**: initial-setup-add-device
 
 				Manually add the network address of the device.
 
@@ -257,9 +240,12 @@ If you are part of a wider learning environment, where several learning faciliti
 Learn-only device
 *****************
 
-The user accounts on learn-only devices are always part of a learning facility on another Kolibri device (usually managed by their coaches or facility admins), and have the automated syncing configured by default so all learner  interactions with the resources are synced with the main facility where coaches can oversee their progress. 
+The user accounts on learn-only devices are always part of a learning facility on another Kolibri device (usually managed by their coaches or facility admins), and have the automated syncing configured by default so all learner interactions with the resources are synced with the facility on server device where coaches can oversee their progress. 
 
-When setting up a learn-only device, you can choose to create a completely new account that will be associated with the main facility, or if you previously had an account on the main facility (when you used Kolibri at school or a community center) but now you have a personal device (tablet or a phone), you can import your original account from the main facility to this new personal device.
+When setting up a :term:`learn-only device <Learn-only device>`, you can:
+
+* Create a completely new account on the facility on server device.
+* If you previously had an account on the server's facility (when you used Kolibri at school or a community center) but now you have a personal device (tablet or a phone), you can import your original account from the facility on server device to this new personal device.
 
 	.. warning::
 	  **Learn-only devices only have enabled the features for learners (classes, lessons, quizzes, library, and bookmarks)**. 
@@ -279,16 +265,14 @@ Create a new account for an existing facility
   	.. figure:: /img/create-account-learn-only-device.png
 	   :alt:  
 
-#. Any device that has Kolibri running in the local network should appear in the **Select device** window. Read more on how set up a local network in the `Kolibri Hardware Guide <https://learningequality.org/r/hardware-guide>`_.
+#. Any device that has Kolibri running in the local network should appear in the **Select device** window. 
 
 	Select the device and click the :guilabel:`Continue` button.
 
-	**TODO-screenshot**
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: learn-only-select-device
 
-  	.. figure:: /img/learn-only-select-device7.png
-	   :alt:  
-
-	   Select the network address of the device from which you want to import a facility.
+	   Select the device where you want to create the new account.
 
 		.. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
 
@@ -297,24 +281,20 @@ Create a new account for an existing facility
 
 #. **Select facility**. If there are several facilities on the device, select the one you want to associate the learner account with. 
 
-	**TODO-screenshot**
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: select-facility-import-individual-user-accounts
 
-  	.. figure:: /img/select-facility-import-individual-user-accounts7.png
-	   :alt:  
+	   Select the facility where you want to create the new account.
 
-	   Select the facility you want to import and provide credentials.
+#. **Create learner accounts**. Enter the username and password for the learner account you want to create.
 
-#. **Create learner accounts**. Enter the username and password of the learner you want to import to your device.
-
-	**TODO-screenshot**
-
-  	.. figure:: /img/import-individual-user-accounts7.png
-	   :alt:  
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: create-individual-user-accounts
 
 
-#. When you see the confirmation that the process is completed, you can choose to create another learner account on the same device. Otherwise, click the :guilabel:`Continue` button.
+#. When you see the confirmation that the process is completed, you can choose to create another learner account on the same device. Otherwise, click the :guilabel:`Finish` button.
    
-Once you finish the initial setup, proceed to :ref:`import some learning resources <manage_resources_ref>`. 
+Once you finish the initial setup, you will see the :ref:`library` page, where you can navigate the libraries of other Kolibris in the local network, and even download some resources form them to keep in the library of your own device. 
 
 
 Import one or more accounts from an existing facility
@@ -322,16 +302,14 @@ Import one or more accounts from an existing facility
 
 #. Select the **Import one or more user accounts from an existing facility** option in the **Select a facility setup for this learn-only device** step. 
 
-#. Any device that has Kolibri running in the local network should appear in the **Select device** window. Read more on how set up a local network in the `Kolibri Hardware Guide <https://learningequality.org/r/hardware-guide>`_.
+#. Any device that has Kolibri running in the local network should appear in the **Select device** window. 
 
 	Select the device and click the :guilabel:`Continue` button.
 
-	**TODO-screenshot**
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: learn-only-select-device
 
-  	.. figure:: /img/learn-only-select-device7.png
-	   :alt:  
-
-	   Select the network address of the device from which you want to import a facility.
+	   Select the network address of the device from which you want to import the account.
 
 		.. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
 
@@ -340,20 +318,18 @@ Import one or more accounts from an existing facility
 
 #. **Select facility**. If there are several facilities on the device, select the one you want to import the learner account from. 
 
-	**TODO-screenshot**
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: select-facility-import-individual-user-accounts
 
-  	.. figure:: /img/select-facility-import-individual-user-accounts7.png
-	   :alt:  
-
-	   Select the facility you want to import and provide credentials.
+	   Select the facility from which you want to import the account.
 
 #. **Import individual learner accounts**. Enter the username and password of the learner you want to import to your device.
-   
-	**TODO-screenshot**
   
-  	.. figure:: /img/import-individual-user-accounts7.png
-	   :alt:  
+  	.. figure:: /img/to-do-screenshot.png
+	   :alt: **TODO-screenshot**: import-individual-user-accounts
 
 	   Provide credentials to import learner account.
 
-#. Wait for the learner data to load on your device. It may take some time, so please be patient. When you see the confirmation that the process is completed, you can choose to import another learner account on the same device. Otherwise, click the :guilabel:`Finish` button.
+#. Wait for the learner data to load on your device. It may take some time, so please be patient. When you see the confirmation that the process is completed, you can choose to create another learner account on the same device. Otherwise, click the :guilabel:`Finish` button.
+   
+Once you finish the initial setup, you will see the :ref:`learn_home` page with the classes you have been enrolled in the main facility, and their respective assignements. If the account you just imported to your learn-only device was not enrolled in any classes on the main facility, you will see the :ref:`library` page, where you can navigate the libraries of other Kolibris in the local network, and even download some resources from them to keep in the library of your own device. 

@@ -5,9 +5,6 @@ Data
 
 You can download Kolibri *Detail* and *Summary* logs usage data and export in the CSV format from the |save| **Data** tab in your |facility| **Facility** dashboard.
 
-	.. figure:: /img/export-usage-data.png
-	  :alt: Open Facility page, navigate to Data tab, and use the Download buttons to save the logs on your local drive. 
-
 .. note::
   If you have more than one facility on the device, you must first select a facility. Click on the name of the facility from the list to access its data.
 
@@ -16,14 +13,17 @@ You can download Kolibri *Detail* and *Summary* logs usage data and export in th
 
     Select a facility to access its data.
 
-  Remember that to manage Kolibri data you must sign in as **admin** or **super admin**.
+Remember that to manage Kolibri data you must sign in as **admin** or **super admin**.
+
+.. figure:: /img/export-usage-data.png
+  :alt: Open Facility page, navigate to Data tab, and use the Download buttons to save the logs on your local drive.  
 
 To download session or summary logs, follow these steps.
 
-#. Click the *Generate log file* link for the file you require.
-#. Click the :guilabel:`DOWNLOAD` button.
+#. Click the :guilabel:`Generate log` button for the file you require.
+#. Select the desired data range.
+#. Wait for the logs to be ready and click the :guilabel:`DOWNLOAD` button.
 #. Save the generated CSV file on your local drive.
-#. To download again after more interactions click the *Generate a new log file* link.
 
 .. tip::
   If the log generation is taking a long time, we recommend :ref:`using the command line interface <export_data_logs>`.
@@ -45,10 +45,11 @@ To import and export many users and classes at once you can use an externally ge
 
 For the import to be successful, you must have a CSV file with properly formatted data with some required values. We recommend the following procedure:
 
-#. Use the **Export** :ref:`feature first and save the CSV file <csv_export>` which contains all users and classes you already have in the facility.
-#. Open the CSV file with an external spreadsheet program and make changes.
-#. Export *a new CSV file* from the spreadsheet program.
-#. Use that CSV file to **Import** or update users and classes.
+#. Click the :guilabel:`Generate user CSV file` link.
+#. Wait for the file to be ready and click the :guilabel:`DOWNLOAD` button to save the CSV file which contains all users and classes you already have in the facility.
+#. Open the CSV file with an external spreadsheet program and make the required changes.
+#. Export the edited records as *a new CSV file* from the spreadsheet program.
+#. Click the :guilabel:`IMPORT` button and select that CSV file exported from the spreadsheet  to import and update users and classes.
 
 .. tip:: You can also use this :download:`CSV file template </data/users_example.csv>` to get familiar with the required format. 
 
@@ -104,7 +105,7 @@ The first row must be a header row, and contain the columns:
 
 * **Learner enrollment** (``ENROLLED_IN``) - Optional
   
-  List of classes to enroll the user in as a learner:
+  List of classes to enroll the user in as a learner.
 
   * Any type of user can be enrolled as a learner in a class.
   * Write the class names separated by commas.
@@ -112,7 +113,7 @@ The first row must be a header row, and contain the columns:
 
 * **Coach assignment** (``ASSIGNED_TO``) - Optional
   
-  List of classes to which the user will be assigned as a coach:
+  List of classes to which the user will be assigned as a coach.
 
   * Do not use for learner users.
   * Write the class names separated by commas.
@@ -133,7 +134,7 @@ Importing users from a CSV file will make the following changes to your facility
 To import users from a CSV file, follow these steps.
 
 #. Click the :guilabel:`IMPORT` button to open the **Import users** page.
-#. Click the :guilabel:`BROWSE` button to select the CSV file with the new user and classes data.
+#. Click the :guilabel:`Browse` button to select the CSV file with the new user and classes data.
    
 	  .. figure:: /img/import-users-browse-csv.png
 	    :alt:
@@ -147,7 +148,7 @@ To import users from a CSV file, follow these steps.
 
 	    Review the changes in users and classes.
 
-#. Click the :guilabel:`IMPORT` button finish importing.
+#. Click the :guilabel:`IMPORT` button to finish importing.
 #. When you see the notification that the import was successful, click the :guilabel:`CLOSE` button.
 #. Open the **Users** or **Classes** tab to verify the changes.
 
@@ -157,7 +158,8 @@ To import users from a CSV file, follow these steps.
 Export users
 ^^^^^^^^^^^^
 
-#. Click the :guilabel:`EXPORT` button and wait for the CSV file to generate.
+#. Click the :guilabel:`Generate user CSV file` link.
+#. Wait for the file to be ready and click the :guilabel:`DOWNLOAD` button.
 #. Save the generated CSV file on your local drive.
 
 .. _sync_kdp:
@@ -167,21 +169,44 @@ Export users
 Sync facility data
 ******************
 
-If your Kolibri facility is part of a larger organization that tracks data on the **Kolibri Data Portal**, you may have received the project token to sync the facility data with the organization in the cloud. Follow these steps to register your facility and sync.
+You can use the :term:`facility sync <Sync>` feature for multiple purposes.
+
+* If your implementation is in a completely offline setting, you can bring another device like a laptop, :ref:`import the facility <import_facility>` of the offline device on it, and periodically perform the sync for backup purposes or further learning progress monitoring that needs to be performed in a different location with online access. 
+
+* If your Kolibri facility is part of a larger organization that tracks data on the **Kolibri Data Portal** (**KDP**), you may have received the project token to sync the facility data with the organization in the cloud. 
+
+Follow these steps to register your facility on **KDP** and perform the sync.
 
 .. figure:: /img/sync-facility-data.png
   :alt:  
 
-#. Click the :guilabel:`REGISTER` button.
+#. Open the options menu and select **Register**.
 #. Enter the **project token** and click the :guilabel:`CONTINUE` button.
 
-.. figure:: /img/register-facility.png
- 	:alt:  
+   .. figure:: /img/register-facility.png
+ 	   :alt:  
 
 3. Click the :guilabel:`SYNC` button to synchronize the data from your facility with the project on **Kolibri Data Portal**.
 
 .. figure:: /img/syncing-facility-data.png
   :alt:  
 
-
 Be sure to follow the guidance of your **Kolibri Data Portal** project administrator on the frequency of sync-ups that you need to perform.
+
+Schedule sync
+^^^^^^^^^^^^^
+
+To set up a regular syncing schedule, follow these steps.
+
+#. Open the options menu and select **Manage sync schedule**.
+#. Choose to sync with **KDP** or another device in the local network.
+#. Set the preferred frequency and time to perform the sync.
+#. Click the :guilabel:`SAVE` button to confirm.
+
+   .. figure:: /img/edit-device-sync-schedule.png
+     :alt:
+
+You can configure your device to sync regularly with more than one device. To add a scheduled sync with another device, click the :guilabel:`ADD DEVICE` button and repeat the above steps.
+
+If you need to edit the frequency or the time of previously configured sync, click the :guilabel:`EDIT` button and adjust the values. 
+

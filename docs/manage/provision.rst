@@ -1,8 +1,8 @@
 
 .. _provision:
 
-Provisioning many servers
-=========================
+Hard drive provisioning for multiple Kolibri servers
+====================================================
 
 This tutorial will help you to prepare for the Kolibri implementation where you need to install and provision several Kolibri server devices with the same channels.
 

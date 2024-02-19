@@ -4,14 +4,10 @@
 Android
 =======
 
-Kolibri Android App runs as a standalone app on phone and tablet mobile devices. It has the same features and functionalities as Kolibri installed on desktop and laptop devices, but their availability will depend on how you set up the app after installation: 
+Kolibri Android App runs as a standalone (it does not require a browser) on phone and tablet mobile devices. Keep the following in mind:
 
-* **On my own**: Choose this modality if you are using Kolibri at home or for supplemental learning outside any facility. You will need Internet access or a data plan on your mobile device to download Kolibri Android App and import learning resources, but no Internet or data is required thereafter to use the app. In this setup Kolibri will have full admin, coach and learner features.
-* **Learn-only** device for *Group learning*. Choose this modality if you are installing Kolibri on a device to be used by learners in a formal facility like school, or in non-formal ones like libraries or community centers.
-
-  In this setup Kolibri will have the **automated syncing** configured by default, so when learner device is in the same local network as the Kolibri server, all the resources assigned by coaches in lessons and quizzes are automatically downloaded. In the same way, all the progress learners make by interacting with assigned resources is equally synced back to the Kolibri server, in order for coaches to oversee their progress.
-
-  .. warning:: Keep in mind that 'learn-only device' will have available only the features for learners. If you set up a device in this modality but with a coach or admin account, you will only see the *Learn* page when you sign in.
+* When installed and set up in :term:`On my own` modality, Kolibri will have the same coach and admin features as Kolibri installed on desktop and laptop devices.
+* When installed and set up as :term:`Learn-only device`, Kolibri will only have the features for learners.
 
 Compatibility
 -------------
@@ -22,9 +18,14 @@ Android version 8.0 and higher.
 Storage requirements
 --------------------
 
-App: approximately 200MB
+App only: approximately 200MB
 
-Storage occupied by Kolibri channels will depend on the amount and type of resources you decide to import. Video resources will in general occupy much more storage space and take longer to import compared to exercises and resources in HTML format. Check the **Settings > Storage** on your Android device to see how much internal space you have available for download globally, and configure the :ref:`maximum storage space you want to set aside for Kolibri resources <storage>`. 
+Content: 
+
+* Kolibri app will most probably occupy more storage when set up in the :term:`On my own` modality that allows :ref:`direct import of channels and resources from Kolibri Studio <import_studio>`. Video resources will in general occupy much more storage space and take longer to import compared to exercises and resources in HTML format. 
+* Kolibri app on a :term:`Learn-only device` cannot import resources from Studio, but learners can browse and download single resources from libraries on other Kolibris in the local network. 
+
+Check the **Settings > Storage** on your Android device to see how much internal space you have available for download globally, and configure the :ref:`maximum storage space you want to set aside for Kolibri resources <storage>`. 
 
 
 Install

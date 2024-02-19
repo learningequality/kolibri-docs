@@ -3,14 +3,14 @@
 Hardware requirements
 =====================
 
-To install **Kolibri** on a device that will act as a server, check the hardware requirements first, and then follow the procedure for the operating system on your device.
+To install Kolibri on a device that will act as a :term:`server <Server>`, check the hardware requirements first, and then follow the procedure for the operating system on your device.
 
 .. tip:: Below you will find general recommendations regarding hardware requirements to run Kolibri. To read more detailed information and find out examples of hardware setups that have been implemented by our users, download the full `Kolibri Hardware Guide <https://learningequality.org/r/hardware-guide>`_ and examples of `Hardware Configurations for Kolibri <https://learningequality.org/r/hardware>`_ (PDF documents).
 
 Servers
 -------
 
-Minimum hardware requirements to run Kolibri as a server:
+Minimum hardware requirements to run Kolibri as a :term:`server <Server>`:
 
  - RAM: 1 GB recommended on Linux, 2GB or more on Windows devices
  - Intel Core 3 CPU with 1 GHz recommended
@@ -21,7 +21,7 @@ If you have a facility with less than 30 computers, a device as simple as a `Ras
 Clients
 -------
 
-Very old desktops and very low-power computers can be used as client devices to access Kolibri. For instance, some implementations are known to use first-gen Raspberry Pi as desktop computers.
+Very old desktops and very low-power computers can be used as :term:`client <Client>` devices to access Kolibri. For instance, some implementations are known to use first-gen Raspberry Pi as desktop computers.
 
 It is always a good idea to do a practical test, but when you want to implement Kolibri, usually it's not necessary to scale your hardware. The main requirement is that your system needs a video card and driver that can play the videos.
 
@@ -30,4 +30,4 @@ Android app
 
 Kolibri Android app has been tested on devices with the Android version 8 and higher.
 
-If you are using the app in the **On my own** modality, keep in mind that the storage occupied by Kolibri channels will depend on the amount and type of resources you decide to import.
+If you are using the app in the :term:`On my own` modality, keep in mind that the storage occupied by Kolibri channels will depend on the amount and type of resources you decide to import.

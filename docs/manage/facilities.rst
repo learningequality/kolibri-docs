@@ -14,6 +14,8 @@ You can import, sync and remove the facilities on your Kolibri device from the |
 
 	Manage facilities on a device.
 
+.. _import_facility:
+
 
 Import facility
 ***************

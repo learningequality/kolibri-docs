@@ -13,7 +13,7 @@ To change language in which the **Kolibri** user interface is displayed, follow 
 .. figure:: /img/change-language.png
     :alt: 
 
-    Kolibri flies in 34 languages!
+    Kolibri flies in 32 languages!
 
 .. warning::
   The default language configured in your browser preferences might override the language configured in Kolibri. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri.

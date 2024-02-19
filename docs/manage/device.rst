@@ -14,7 +14,7 @@ You can edit device configuration settings in Kolibri from the |settings| **Sett
 
 	Configure device settings.
 
-Whenever you change any of the device options, be sure to click the :guilabel:`SAVE` button to apply the changes.
+.. warning:: Whenever you change any of the device options, be sure to click the :guilabel:`SAVE CHANGES` button to apply the changes.
 
 
 Set default language
@@ -53,6 +53,6 @@ If your device is located in a less formal learning facility setting (like a lib
 .. _storage:
 
 
-Storage
--------
+Primary storage location
+------------------------
 

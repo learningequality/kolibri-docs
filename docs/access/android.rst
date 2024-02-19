@@ -1,5 +1,5 @@
 .. _access_android:
-:orphan:
+
 
 Android
 =======
@@ -8,12 +8,6 @@ To start the Kolibri app on Android phone or a tablet, go to **Apps** on your de
 
 .. figure:: /img/android-apps.png
    :alt: Tap the Kolibri icon among your device apps to start.
-
-
-Kolibri Android App runs as a standalone app on phone and tablet mobile devices. It has the same features and functionalities for learners as Kolibri installed on desktop and laptop devices, but you must keep in mind its limitations, especially regarding the storage capacity and the amount of channels and resources you will be able to import in your Android device.
-
-If you are using the app in the **On my own** modality, you will need Internet access or a data plan on your mobile device to download Kolibri Android App and import learning resources, but no Internet or data is required thereafter to use the app. If you are using the app
-
 
 
 .. WhatsApp Integration
