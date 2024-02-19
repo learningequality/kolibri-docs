@@ -24,7 +24,9 @@ Other options that can be configured through the  ``options.ini`` file.
   performance
 
 
-Hard drive provisioning for multiple Kolibri servers
-----------------------------------------------------
+For the recommended procedure to install and provision several Kolibri server devices, refer to this tutorial.
 
-For the recommended procedure to install and provision several Kolibri server devices, refer to our :ref:`hard drive provisioning tutorial <provision>`.
+.. toctree::
+  :maxdepth: 1
+
+  provision

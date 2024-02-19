@@ -106,10 +106,13 @@ When page reloads you will see the Learn page with Kolibri channels.
 Learn with Kolibri
 ==================
 
-Classes
-*******
+.. _learn_home:
 
-Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn** page with the list of all the |classes| classes you are enrolled to. 
+
+Learn home
+**********
+
+Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn home** page with the list of all the |classes| classes you are enrolled to. 
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
@@ -118,6 +121,8 @@ Below the list of classes you will see some recommended resources from your clas
 
 	.. figure:: img/exams-lessons.png
 	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
+
+.. _library:
 
 
 Library

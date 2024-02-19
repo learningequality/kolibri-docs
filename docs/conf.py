@@ -9,14 +9,13 @@ import os
 import sys
 from datetime import datetime
 
-import sphinx_rtd_theme
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # IMPORTANT! KEEP THIS UPDATED TO REFLECT WHICH VERSION THESE DOCS ARE WRITTEN
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.15"
+DISPLAY_VERSION = "0.16"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -44,8 +43,10 @@ templates_path = ["_templates"]
 linkcheck_ignore = [
     "https://groups.google.com/a/learningequality.org/forum/#!forum/dev",
     "http://127.0.0.1:8080",
-    "http://127.0.0.1:8080/",
     "https://www.kiwix.org",
+    "https://twitter.com/LearnEQ/",
+    "https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit",
+    "https://www.raspberrypi.com/documentation/computers/getting-started.html",
 ]
 
 # Where to find translated image files
@@ -93,8 +94,11 @@ if on_rtd:
         "sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/"
     )
 
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+
+    html_theme = "sphinx_rtd_theme"
+    html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -146,7 +150,7 @@ html_extra_path = ["extras"]
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
 def setup(app):
     # Add our custom CSS overrides
-    app.add_stylesheet("theme_overrides.css")
+    app.add_css_file("theme_overrides.css")
 
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
@@ -175,8 +179,8 @@ rst_prolog = """
      :format: html
 
 .. |br| replace:: :raw-html:`<br /><br />`
-.. |version| replace:: 0.15
-.. |version-b| replace:: :raw-html:`<strong>0.15</strong>`
+.. |version| replace:: 0.16
+.. |version-b| replace:: :raw-html:`<strong>0.16</strong>`
 
 
 """

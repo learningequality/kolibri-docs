@@ -1,0 +1,406 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Learning Equality
+# This file is distributed under the same license as the Kolibri package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kolibri 0.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-25 15:56-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../faq.rst:2
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../faq.rst:6
+msgid "How much does Kolibri cost to install?"
+msgstr ""
+
+#: ../../faq.rst:8
+msgid ""
+"Kolibri is `free and open-source <https://www.fsf.org/about/what-is-free-"
+"software>`_ software!"
+msgstr ""
+
+#: ../../faq.rst:12
+msgid "Do I need the internet to run Kolibri?"
+msgstr ""
+
+#: ../../faq.rst:14
+msgid ""
+"**No!** You can bring or send a storage device (USB or HDD unit) with "
+"Kolibri installer and channels downloaded somewhere with available "
+"internet connection, and install everything on an completely offline "
+"device."
+msgstr ""
+
+#: ../../faq.rst:16
+msgid ""
+"In a nutshell, Kolibri can run independently of internet availability, "
+"but you need to procure the installer and channels from somewhere for the"
+" initial installation and for subsequent upgrades."
+msgstr ""
+
+#: ../../faq.rst:18
+msgid ""
+"One possibility is to have Kolibri installed in one location with "
+"internet connection, where you can import channels from `Kolibri Studio "
+"<https://studio.learningequality.org/>`_ (curriculum tool and content "
+"curation server), and then export them to removable USB drives that you "
+"bring or send to offline locations (rural schools, refugee camps, etc.) "
+"to import locally."
+msgstr ""
+
+#: ../../faq.rst:28
+msgid "How do I get help if something isn't working?"
+msgstr ""
+
+#: ../../faq.rst:30
+msgid ""
+"Please refer to the :ref:`Troubleshoot and Support <support>` section of "
+"this guide."
+msgstr ""
+
+#: ../../faq.rst:34
+msgid "What languages is Kolibri available in?"
+msgstr ""
+
+#: ../../faq.rst:36
+msgid ""
+"Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_"
+" are translation-ready and currently available in these languages:"
+msgstr ""
+
+#: ../../faq.rst:39
+msgid "Language"
+msgstr ""
+
+#: ../../faq.rst:39
+msgid "Kolibri"
+msgstr ""
+
+#: ../../faq.rst:39
+msgid "Kolibri Studio"
+msgstr ""
+
+#: ../../faq.rst:41
+msgid "English"
+msgstr ""
+
+#: ../../faq.rst:41 ../../faq.rst:43 ../../faq.rst:45 ../../faq.rst:47
+#: ../../faq.rst:49 ../../faq.rst:51 ../../faq.rst:53 ../../faq.rst:55
+#: ../../faq.rst:57 ../../faq.rst:59 ../../faq.rst:61 ../../faq.rst:63
+#: ../../faq.rst:65 ../../faq.rst:67 ../../faq.rst:69 ../../faq.rst:71
+#: ../../faq.rst:73 ../../faq.rst:75 ../../faq.rst:77 ../../faq.rst:79
+#: ../../faq.rst:81 ../../faq.rst:83 ../../faq.rst:85 ../../faq.rst:87
+#: ../../faq.rst:89 ../../faq.rst:91 ../../faq.rst:93 ../../faq.rst:95
+#: ../../faq.rst:97 ../../faq.rst:99
+msgid "✓"
+msgstr ""
+
+#: ../../faq.rst:43
+msgid "Arabic"
+msgstr ""
+
+#: ../../faq.rst:45
+msgid "Bengali"
+msgstr ""
+
+#: ../../faq.rst:47
+msgid "Bulgarian"
+msgstr ""
+
+#: ../../faq.rst:49
+msgid "Burmese"
+msgstr ""
+
+#: ../../faq.rst:51
+msgid "Chinese (simplified)"
+msgstr ""
+
+#: ../../faq.rst:53
+msgid "Chinyanja"
+msgstr ""
+
+#: ../../faq.rst:55
+msgid "Farsi"
+msgstr ""
+
+#: ../../faq.rst:57
+msgid "French"
+msgstr ""
+
+#: ../../faq.rst:59
+msgid "Fulfulde Mbororoore"
+msgstr ""
+
+#: ../../faq.rst:61
+msgid "Georgian"
+msgstr ""
+
+#: ../../faq.rst:63
+msgid "German"
+msgstr ""
+
+#: ../../faq.rst:65
+msgid "Gujarati"
+msgstr ""
+
+#: ../../faq.rst:67
+msgid "Greek"
+msgstr ""
+
+#: ../../faq.rst:69
+msgid "Hausa"
+msgstr ""
+
+#: ../../faq.rst:71
+msgid "Hindi (India)"
+msgstr ""
+
+#: ../../faq.rst:73
+msgid "Indonesian"
+msgstr ""
+
+#: ../../faq.rst:75
+msgid "Italian"
+msgstr ""
+
+#: ../../faq.rst:77
+msgid "Khmer"
+msgstr ""
+
+#: ../../faq.rst:79
+msgid "Korean"
+msgstr ""
+
+#: ../../faq.rst:81
+msgid "Marathi"
+msgstr ""
+
+#: ../../faq.rst:83
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: ../../faq.rst:85
+msgid "Portuguese (Mozambique)"
+msgstr ""
+
+#: ../../faq.rst:87
+msgid "Spanish (Latin America)"
+msgstr ""
+
+#: ../../faq.rst:89
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: ../../faq.rst:91
+msgid "Swahili (Tanzania)"
+msgstr ""
+
+#: ../../faq.rst:93
+msgid "Telugu"
+msgstr ""
+
+#: ../../faq.rst:95
+msgid "Urdu (Pakistan)"
+msgstr ""
+
+#: ../../faq.rst:97
+msgid "Yoruba"
+msgstr ""
+
+#: ../../faq.rst:99
+msgid "Vietnamese"
+msgstr ""
+
+#: ../../faq.rst:102
+msgid ""
+"To contribute to Kolibri and Kolibri Studio as a translator, you can get "
+"started over on our `translations and internationalization page "
+"<https://learningequality.org/translate/>`_."
+msgstr ""
+
+#: ../../faq.rst:105
+msgid "What are some typical implementation scenarios?"
+msgstr ""
+
+#: ../../faq.rst:107
+msgid ""
+"There is no typical implementation setting. However, we can share with "
+"you what we’ve learned from our community of KA Lite and Kolibri users. "
+"Some example implementation settings are provided below based on the "
+"presence of a coach and whether the settings allows for formal, non-"
+"formal, and informal learning."
+msgstr ""
+
+#: ../../faq.rst:110
+msgid "Coach"
+msgstr ""
+
+#: ../../faq.rst:110
+msgid "No Coach"
+msgstr ""
+
+#: ../../faq.rst:112
+msgid "Formal and Non-Formal"
+msgstr ""
+
+#: ../../faq.rst:112
+msgid "School classroom"
+msgstr ""
+
+#: ../../faq.rst:113
+msgid "Home schooling"
+msgstr ""
+
+#: ../../faq.rst:114
+msgid "Supplementary education setting"
+msgstr ""
+
+#: ../../faq.rst:112
+msgid "After school program"
+msgstr ""
+
+#: ../../faq.rst:113
+msgid "Supplementary education setting (computer labs model)"
+msgstr ""
+
+#: ../../faq.rst:114
+msgid ""
+"Use in classroom that has teacher, but without coach engagement or "
+"monitoring"
+msgstr ""
+
+#: ../../faq.rst:117
+msgid "Informal"
+msgstr ""
+
+#: ../../faq.rst:117
+msgid "Tutoring session"
+msgstr ""
+
+#: ../../faq.rst:117
+msgid "Mobile school vans"
+msgstr ""
+
+#: ../../faq.rst:118
+msgid "Use for homework only"
+msgstr ""
+
+#: ../../faq.rst:123
+msgid "What are some possible hardware configurations?"
+msgstr ""
+
+#: ../../faq.rst:125
+msgid "To implement Kolibri for multiple users you will need:"
+msgstr ""
+
+#: ../../faq.rst:127
+msgid ""
+"**Server device**: a computer that is running the Kolibri software (e.g. "
+"a desktop computer, laptop, or Raspberry Pi)."
+msgstr ""
+
+#: ../../faq.rst:128
+msgid ""
+"One or more **client devices** that have web browsers (laptops, tablets, "
+"desktop computers, etc)"
+msgstr ""
+
+#: ../../faq.rst:131
+msgid ""
+"For a single-device implementation (1) and (2) can be the same computer, "
+"with the browser connecting to the locally running Kolibri server. To "
+"make the software accessible to multiple client devices, you will need to"
+" put them on the same local network as the Kolibri server device (1), "
+"e.g. through a WIFI access point."
+msgstr ""
+
+#: ../../faq.rst:133
+msgid ""
+"To read more details, see the full `Kolibri Hardware Guide "
+"<https://learningequality.org/r/hardware-guide>`_ and examples of "
+"`Hardware Configurations for Kolibri "
+"<https://learningequality.org/r/hardware>`_ (PDF documents)."
+msgstr ""
+
+#: ../../faq.rst:137
+msgid "How can I aligned resources to local curricula?"
+msgstr ""
+
+#: ../../faq.rst:139
+msgid ""
+"Use `Kolibri Studio <https://studio.learningequality.org/>`_ curriculum "
+"tool to curate channels aligned to your local requirements. Once you "
+"finish creating the channels on Studio, you can import them on all your "
+"Kolibri implementations for use in learning environments."
+msgstr ""
+
+#: ../../faq.rst:143
+msgid "Who maintains Kolibri?"
+msgstr ""
+
+#: ../../faq.rst:145
+msgid ""
+"Kolibri is created, maintained, and operated by `Learning Equality "
+"<https://learningequality.org/>`_."
+msgstr ""
+
+#: ../../faq.rst:147
+msgid ""
+"To stay up-to-date on all our activities, follow our `blog "
+"<https://blog.learningequality.org/>`_, `Twitter "
+"<https://twitter.com/LearnEQ/>`_, and `Facebook "
+"<https://www.facebook.com/learningequality>`_!"
+msgstr ""
+
+#: ../../faq.rst:151
+msgid "How are Kolibri implementations operated?"
+msgstr ""
+
+#: ../../faq.rst:153
+msgid ""
+"The Learning Equality team primarily works in our San Diego offices, "
+"building software and shaping our road map based on our interactions with"
+" our partners around the world. We work with individual humanitarians and"
+" NGOs of all sizes to help them distribute Kolibri to offline communities"
+" around the world, and will work on site for research and training "
+"purposes."
+msgstr ""
+
+#: ../../faq.rst:157
+msgid "What is Kolibri’s affiliation with Khan Academy?"
+msgstr ""
+
+#: ../../faq.rst:159
+msgid ""
+"Kolibri is an independent, open-source project maintained by `Learning "
+"Equality <https://learningequality.org/>`_, and is not officially "
+"affiliated with Khan Academy, although they are very supportive of the "
+"Kolibri project."
+msgstr ""
+
+#: ../../faq.rst:163
+msgid "Can I contribute to Kolibri?"
+msgstr ""
+
+#: ../../faq.rst:165
+msgid ""
+"Yes, `contributions are welcome <https://kolibri-"
+"dev.readthedocs.io/en/develop/contributing/ways_to_contribute.html>`_! We"
+" can use help with feedback, bug reports, software development, and "
+"translations."
+msgstr ""
+
