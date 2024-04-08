@@ -56,3 +56,11 @@ If your device is located in a less formal learning facility setting (like a lib
 Primary storage location
 ------------------------
 
+In this section you can see the location where channels and resource databases and files are stored. You can add more storage locations, remove them, and change which one is the primary.
+
+Auto-download
+-------------
+
+This version of Kolibri introduces the **automatic download and syncing of resources** in lessons and quizzes on :term:`learn-only devices <Learn-only device>`, and in this section you can enable or disable this feature.
+
+You can also decide if the users on learn-only devices can mark for download the resources from other Kolibri peer devices in the local network (that are not part of lessons and quizzes assigned in their classes), and set the storage limit for download of those resources.

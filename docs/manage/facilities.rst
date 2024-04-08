@@ -79,39 +79,7 @@ Sync facility
 
 You can use the **Sync facility** feature for a variety of needs in both offline and online settings. 
 
-..  raw:: html
-
-	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/AT7uO9vRGoo?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
-
-
-.. warning:: It is very important to remember that **syncing does not import channels and resources**. 
-
-	When syncing facility data between devices in a local network, **you must make sure that the same channels and resources are present on all the devices**. If they do not have the same learning resources, coaches and learners will not be able to interact with lessons and quizzes correctly.
-
-
-.. note:: **Examples of data syncing scenarios**:
-
-	#.	**Roving admin scenario**
-
-		* Kolibri is installed on the central server for the Kolibri implementation. 
-		* Kolibri is installed on all learner devices along with the facility and resources from the school server, which are then distributed amongst learners for at home use.
-		* The admin travels periodically to the communities along with the school server. Learner data syncs automatically from their devices when it comes into the network range of the school server. Simultaneously, the learner also receives any new assignments from the school server onto their device.
-
-
-	#.	**Admin at Kolibri hub**
-
-		* Kolibri is installed on a central server for the Kolibri implementation.
-		* Kolibri is installed on all learner devices along with the facility and resources from the school server, which are then distributed amongst learners for at home use.
-		* Learners periodically visit the Kolibri hub where the devices automatically start syncing when it comes into the network range of the school server
-
-
-		Syncing will be automated as long as the devices and the server are using the same Kolibri facility and both are actively connected to the same network.
-
-		Read our `Implementation Guide for Learner Data Syncing in Kolibri v0.15 <http://le.fyi/015-data-syncing-guide>`__ for more details to consider around the facility syncing strategies.
-
-To sync  classes, groups, learner progress, and all  facility data with a device from which you previously imported it from, follow these steps.
+To sync all facility data with a device from which you previously imported it from, follow these steps.
 
 #. Click the :guilabel:`SYNC` button for the desired facility.
 #. Any device that has Kolibri running in the local network should appear in the **Select network address** window. Select the network address of the device you want to sync with. 

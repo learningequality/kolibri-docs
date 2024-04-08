@@ -41,7 +41,7 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 	.. warning::
 	  The default language configured for content in your browser preferences might override the language you choose in this step. To ensure that Kolibri displays in the desired language, make sure to configure it as default in the browsers of all the devices that will be used to view Kolibri content.
 
-#. **Create a super admin account.** This user will be a **super admin**, able to manage all the content and all other Kolibri users on this device.
+#. **Create a super admin account.** This user will be a **super admin**, able to manage all the content and all other Kolibri users on this device. 
 
 	.. warning::
 	  **Make sure to save these super admin credentials in a safe place!** 
@@ -172,17 +172,7 @@ If you are part of a wider learning environment, where several learning faciliti
 
 	Select the device and click the :guilabel:`Continue` button.
 
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: initial-setup-select-device
-
-	   Select the device from which you want to import a facility.
-
 		.. note:: If you do not see the address of the device listed, but you know the IP address, you can add it manually. Click the *Add new address* link, and fill in the required information.
-
-			.. figure:: /img/to-do-screenshot.png
-				:alt: Add the network address of the device manually. **TODO-screenshot**: initial-setup-add-device
-
-				Manually add the network address of the device.
 
 		.. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
 
@@ -269,11 +259,6 @@ Create a new account for an existing facility
 
 	Select the device and click the :guilabel:`Continue` button.
 
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: learn-only-select-device
-
-	   Select the device where you want to create the new account.
-
 		.. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
 
 			* disable the firewalls on all the devices that you need to sync
@@ -281,16 +266,7 @@ Create a new account for an existing facility
 
 #. **Select facility**. If there are several facilities on the device, select the one you want to associate the learner account with. 
 
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: select-facility-import-individual-user-accounts
-
-	   Select the facility where you want to create the new account.
-
 #. **Create learner accounts**. Enter the username and password for the learner account you want to create.
-
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: create-individual-user-accounts
-
 
 #. When you see the confirmation that the process is completed, you can choose to create another learner account on the same device. Otherwise, click the :guilabel:`Finish` button.
    
@@ -306,11 +282,6 @@ Import one or more accounts from an existing facility
 
 	Select the device and click the :guilabel:`Continue` button.
 
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: learn-only-select-device
-
-	   Select the network address of the device from which you want to import the account.
-
 		.. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
 
 			* disable the firewalls on all the devices that you need to sync
@@ -318,17 +289,7 @@ Import one or more accounts from an existing facility
 
 #. **Select facility**. If there are several facilities on the device, select the one you want to import the learner account from. 
 
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: select-facility-import-individual-user-accounts
-
-	   Select the facility from which you want to import the account.
-
 #. **Import individual learner accounts**. Enter the username and password of the learner you want to import to your device.
-  
-  	.. figure:: /img/to-do-screenshot.png
-	   :alt: **TODO-screenshot**: import-individual-user-accounts
-
-	   Provide credentials to import learner account.
 
 #. Wait for the learner data to load on your device. It may take some time, so please be patient. When you see the confirmation that the process is completed, you can choose to create another learner account on the same device. Otherwise, click the :guilabel:`Finish` button.
    

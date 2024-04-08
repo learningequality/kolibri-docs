@@ -11,10 +11,10 @@ Compatibility
 
 Kolibri currently supports the following combinations of operating systems and browsers for client devices:
 
-* Windows 7, 8.1 and 10: Edge, Chrome and Firefox
+* Windows 7, 8.1, 10 and 11: Edge, Chrome and Firefox
 * MacOS 10.6+: Safari, Chrome and Firefox
 * Linux: any browser
-* Android 4.4+: Chrome and Firefox
+* Android 8+: Chrome and Firefox
 * iOS 10+: Safari, Chrome and Firefox
 
 .. warning:: 

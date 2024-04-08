@@ -12,14 +12,6 @@ Click on a class to access the progress-tracking features and create lessons, qu
 
 	  Choose one of the classes from this view to access the Kolibri coach features.
 
-.. note:: Kolibri progress tracking features are available by default in the *classroom model*, when learner devices are in the same local network as those used by coaches. However, in case of the at-home usage on personal devices, it is necessary to :ref:`sync facility data between devices <sync_facility>` for coaches to be able to track learner interactions with resources that happen while they are outside of the local network.
-
-
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/xERcrV2UgzA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 
 .. _track_progress:
@@ -34,6 +26,26 @@ On the |dashboard| **Class Home** tab you can see the overview of the class acti
 	  :alt: Open the Coach page to view the list of classes
 
 	  Class Home presents an overview of learner progress and activity.
+
+.. _view_learners:
+
+
+To view the currently connected learner devices and check how recently they have synced with the classroom server, follow these steps
+
+#. Click the *View learners* link under the class name.
+#. Review which learner devices are connected to the central Kolibri server, and when did they last synced the progress activity.
+
+		.. figure:: /img/view-learners.png
+		  :alt: 
+
+		  Review the sync status of the learner devices.
+
+
+	.. tip:: Click the *Information about sync statuses* link for more details.
+		
+		  .. figure:: /img/sync-statuses.png
+	  		:alt: 
+
 
 
 Quizzes
@@ -69,16 +81,7 @@ As learners interact with lessons and quizzes, you can track their progress in t
 * When learners input multiple incorrect answers to a question in a lesson, the notification in the **Class activity** block will display that one or more learners |helpNeeded| need help with a specific resource.
 * You can click each notification link to review the complete resource data in the |reports| **Reports** tab.
 * Click :guilabel:`VIEW ALL` to access the full list of activity notifications (only the 5 most recent are displayed in the block).
-* Click the *View learners* link under the class name to review which learner devices are connected to the central Kolibri server, and when did they last synced the progress activity.
-  
-  .. figure:: /img/sync-learners.png
-  	:alt: 
 
-
-.. tip:: Click the *Information about sync statuses* link for more details.
-	
-	  .. figure:: /img/sync-statuses.png
-  		:alt: 
 
 
 .. _reports:

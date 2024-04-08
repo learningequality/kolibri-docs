@@ -19,5 +19,11 @@ Storage
 *******
 
 When selecting resources to import to your Android device, keep in mind 2 things:
-* Available storage space. Do frequent checks in Settings > Storage on your device to see how much internal space is available to import.
-* Data consumption. If you need to restrict the usage of your mobile data plan, find an Internet access point or a WiFi network that you can use while importing channels.
+
+* Available storage space. 
+  
+  Do frequent checks in **Settings > Storage** on your device to see how much internal space is available to import.
+
+* Mobile data consumption. 
+  
+  If you need to restrict the usage of your mobile data plan, find an Internet access point or a WiFi network that you can use while importing channels.

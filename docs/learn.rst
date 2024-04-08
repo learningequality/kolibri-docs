@@ -119,6 +119,10 @@ Each time you sign in to **Kolibri**, the first thing you will see is the |learn
 
 Below the list of classes you will see some recommended resources from your classes to continue learning, as well as recent lessons and quizzes assigned in your classes. Select one of your classes to access the full list of :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>`, that teachers or coaches prepared for your class.
 
+	.. note::
+	  When you arrive to your school or the learning center, new lessons and quizzes assigned to your class may take some time to sync with your own device, in order for you to start interacting with them. Please be patient and wait for the sync to finish. 
+
+
 	.. figure:: img/exams-lessons.png
 	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
 
