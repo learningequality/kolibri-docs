@@ -9,6 +9,7 @@ import os
 import sys
 from datetime import datetime
 
+import sphinx_rtd_theme
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # IMPORTANT! KEEP THIS UPDATED TO REFLECT WHICH VERSION THESE DOCS ARE WRITTEN
@@ -89,16 +90,8 @@ pygments_style = "sphinx"
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 
-if on_rtd:
-    os.system(
-        "sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/"
-    )
-
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-
-    html_theme = "sphinx_rtd_theme"
-    html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
