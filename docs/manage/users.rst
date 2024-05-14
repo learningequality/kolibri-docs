@@ -98,4 +98,4 @@ Delete user’s account
 	  :alt: 
 
 .. warning::
-  When you delete a user, all their learning records will be erased from the database.
+  When you delete a user, all the records of their progress and interactions with the resources will be erased from the database.

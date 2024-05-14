@@ -14,7 +14,7 @@ You can edit device configuration settings in Kolibri from the |settings| **Sett
 
 	Configure device settings.
 
-Whenever you change any of the device options, be sure to click the :guilabel:`SAVE` button to apply the changes.
+.. warning:: Whenever you change any of the device options, be sure to click the :guilabel:`SAVE CHANGES` button to apply the changes.
 
 
 Set default language
@@ -49,3 +49,18 @@ The first option is recommended when you want to encourage the learners to alway
 * Check the **Learners should only see resources assigned to them in classes** checkbox if you don't want to allow free browsing of resources available on your device. In this case learners will only see the **Learn > Classes** tab with quizzes and lessons that they have been assigned when they sign-in to Kolibri, and the |channel| **Channels** and |recommended| **Recommended** tabs will not be visible.
   
 If your device is located in a less formal learning facility setting (like a library or a community center), where you are not tracking individual learning progress, or you want to encourage self-exploration of channels and resources available on Kolibri, use the |learn| **Learn** page as the default landing page. 
+
+.. _storage:
+
+
+Primary storage location
+------------------------
+
+In this section you can see the location where channels and resource databases and files are stored. You can add more storage locations, remove them, and change which one is the primary.
+
+Auto-download
+-------------
+
+This version of Kolibri introduces the **automatic download and syncing of resources** in lessons and quizzes on :term:`learn-only devices <Learn-only device>`, and in this section you can enable or disable this feature.
+
+You can also decide if the users on learn-only devices can mark for download the resources from other Kolibri peer devices in the local network (that are not part of lessons and quizzes assigned in their classes), and set the storage limit for download of those resources.

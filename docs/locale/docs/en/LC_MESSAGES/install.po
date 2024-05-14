@@ -1,0 +1,1687 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Learning Equality
+# This file is distributed under the same license as the Kolibri package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kolibri 0.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-25 15:56-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../install/android.rst:6
+msgid "Android"
+msgstr ""
+
+#: ../../install/android.rst:8
+msgid ""
+"Kolibri Android App runs as a standalone app on phone and tablet mobile "
+"devices. It has similar features and functionalities as Kolibri installed"
+" on desktop and laptop devices, but you must keep in mind its "
+"limitations, especially regarding the storage capacity and the amount of "
+"channels and resources you will be able to import in your Android device."
+msgstr ""
+
+#: ../../install/android.rst:10
+msgid ""
+"You will need Internet access or a data plan on your mobile device to "
+"download Kolibri Android App and import learning resources, but no "
+"Internet or data is required thereafter to use the Kolibri Android App."
+msgstr ""
+
+#: ../../install/android.rst:13 ../../install/macos.rst:7
+#: ../../install/ubuntu-debian.rst:7 ../../install/windows.rst:7
+msgid "Compatibility"
+msgstr ""
+
+#: ../../install/android.rst:15
+msgid "Android version 5.0 and higher."
+msgstr ""
+
+#: ../../install/android.rst:19
+msgid "Storage requirements"
+msgstr ""
+
+#: ../../install/android.rst:21
+msgid "App: 60MB"
+msgstr ""
+
+#: ../../install/android.rst:23
+msgid ""
+"Storage occupied by Kolibri channels will depend on the amount and type "
+"of resources you decide to import. Video resources will in general occupy"
+" much more storage space and take longer to import compared to exercises "
+"and resources in HTML format. Check the **Settings > Storage** on your "
+"device to see how much internal space you have available to import on "
+"your device."
+msgstr ""
+
+#: ../../install/android.rst:27 ../../install/macos.rst:17
+#: ../../install/windows.rst:18
+msgid "Install"
+msgstr ""
+
+#: ../../install/android.rst:29
+msgid "Download Kolibri Android App from Google Play Store."
+msgstr ""
+
+#: ../../install/android.rst:30
+msgid "Follow the installation steps on your Android device."
+msgstr ""
+
+#: ../../install/android.rst:31
+msgid ""
+"Open Kolibri. **The first time you start Kolibri it may take some time to"
+" set up, so please be patient**."
+msgstr ""
+
+#: ../../install/android.rst:32
+msgid "Proceed with the :ref:`setting up your Kolibri app <setup_initial>`."
+msgstr ""
+
+#: ../../install/android.rst:36 ../../install/macos.rst:33
+#: ../../install/ubuntu-debian.rst:40 ../../install/ubuntu-debian.rst:79
+#: ../../install/windows.rst:38
+msgid "Uninstall"
+msgstr ""
+
+#: ../../install/android.rst:38
+msgid "Go to **Settings > Apps** on your Android device."
+msgstr ""
+
+#: ../../install/android.rst:39
+msgid "Tap the Kolibri app icon from the list."
+msgstr ""
+
+#: ../../install/android.rst:40
+msgid "Tap the **Uninstall** button."
+msgstr ""
+
+#: ../../install/android.rst:44 ../../install/macos.rst:41
+#: ../../install/ubuntu-debian.rst:46 ../../install/ubuntu-debian.rst:88
+#: ../../install/windows.rst:49
+msgid "Upgrade"
+msgstr ""
+
+#: ../../install/android.rst:46 ../../install/macos.rst:43
+#: ../../install/ubuntu-debian.rst:48 ../../install/windows.rst:51
+msgid "We recommend making sure Kolibri is not running before upgrading."
+msgstr ""
+
+#: ../../install/android.rst:48
+msgid ""
+"If you have the automatic updates enabled on your Android device, you "
+"will get the standard notification that the new version is available as "
+"for all other apps you have installed."
+msgstr ""
+
+#: ../../install/android.rst:53
+msgid "Access Kolibri on Android"
+msgstr ""
+
+#: ../../install/android.rst:55 ../../install/android.rst:64
+#: ../../install/android.rst:73 ../../install/android.rst:85
+msgid "**TO-DO**"
+msgstr ""
+
+#: ../../install/android.rst:62
+msgid "WhatsApp Integration"
+msgstr ""
+
+#: ../../install/android.rst:68
+msgid "Challenges and limitations"
+msgstr ""
+
+#: ../../install/android.rst:71
+msgid "Battery usage"
+msgstr ""
+
+#: ../../install/android.rst:76
+msgid "Storage"
+msgstr ""
+
+#: ../../install/android.rst:78
+msgid ""
+"When selecting resources to import to your Android device keep in mind 2 "
+"things: * Available storage space. Do frequent checks in Settings > "
+"Storage on your device to see how much internal space is available to "
+"import. * Data consumption. If you need to restrict the usage of your "
+"mobile data plan, find an Internet access point or a WiFi network that "
+"you can use while importing channels."
+msgstr ""
+
+#: ../../install/android.rst:83
+msgid "App as a server"
+msgstr ""
+
+#: ../../install/android.rst:88
+msgid "Limited support for background activity"
+msgstr ""
+
+#: ../../install/android.rst:90
+msgid ""
+"You cannot rely on Kolibri to stay \"awake\" if you do not see it on the "
+"screen.The safest way to make sure that long running tasks complete is to"
+" ensure that the application stays open and the screen stays on during "
+"use. For example, you may have to disable **sleep** settings when "
+"downloading large channels, and keep the device connected to power "
+"outlet."
+msgstr ""
+
+#: ../../install/android.rst:93
+msgid "Access to SD card"
+msgstr ""
+
+#: ../../install/android.rst:95
+msgid "Not available:"
+msgstr ""
+
+#: ../../install/android.rst:97
+msgid "Downloading single resources"
+msgstr ""
+
+#: ../../install/android.rst:98
+msgid "CSV import/export (users and data)"
+msgstr ""
+
+#: ../../install/index.rst:4
+msgid "Install Kolibri"
+msgstr ""
+
+#: ../../install/index.rst:6
+msgid ""
+"See the `Kolibri changelog here <https://learningequality.org/r/kolibri-"
+"changes>`_ to review specific changes in each version of Kolibri. "
+"Documentation for `previous Kolibri versions are available here "
+"<https://readthedocs.org/projects/kolibri/>`_."
+msgstr ""
+
+#: ../../install/index.rst:9
+msgid "Learn about whether Kolibri will run on your server and client devices:"
+msgstr ""
+
+#: ../../install/index.rst:16
+msgid "Choose your preferred method of installation:"
+msgstr ""
+
+#: ../../install/index.rst:27
+msgid "After the installation, proceed to set up your facility:"
+msgstr ""
+
+#: ../../install/index.rst:34
+msgid "Read our tutorials to learn about some advanced options:"
+msgstr ""
+
+#: ../../install/initial_setup.rst:4
+msgid "Initial setup"
+msgstr ""
+
+#: ../../install/initial_setup.rst:6
+msgid ""
+"Setting up Kolibri will be different depending on your learning "
+"environment:"
+msgstr ""
+
+#: ../../install/initial_setup.rst:8
+msgid ""
+"If you plan to use Kolibri at home or for supplemental learning outside "
+"any facility, use **Quick start**"
+msgstr ""
+
+#: ../../install/initial_setup.rst:9
+msgid ""
+"If you are installing Kolibri to be used by many learners at formal "
+"facilities like schools, or non-formal like libraries or community "
+"centers, use **Advanced setup**."
+msgstr ""
+
+#: ../../install/initial_setup.rst:12
+msgid ""
+"You will only need to do the initial setup once, when you first start "
+"Kolibri after the installation. You can change all the settings later."
+msgstr ""
+
+#: ../../install/initial_setup.rst:16
+msgid "Quick start"
+msgstr ""
+
+#: ../../install/initial_setup.rst:18
+msgid "To do the initial setup of Kolibri for use at home, follow these steps."
+msgstr ""
+
+#: ../../install/initial_setup.rst:21
+msgid "**Select the default language** for Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:26 ../../install/initial_setup.rst:87
+msgid "Select the default Kolibri language."
+msgstr ""
+
+#: ../../install/initial_setup.rst:30 ../../install/initial_setup.rst:91
+msgid ""
+"The default language configured for content in your browser preferences "
+"might override the language you choose in this step. To ensure that "
+"Kolibri displays in the desired language, make sure to configure it as "
+"default in the browsers of all the devices that will be used to view "
+"Kolibri content."
+msgstr ""
+
+#: ../../install/initial_setup.rst:33
+msgid "**Select the Quick start** setup option."
+msgstr ""
+
+#: ../../install/initial_setup.rst:38
+msgid "Select Quick start for personal or home use of Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:41
+msgid ""
+"**Create a super admin account.** This user will be a **super admin**, "
+"able to manage all the content and all other Kolibri users on this "
+"device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:44 ../../install/initial_setup.rst:156
+msgid "**Make sure to save these super admin credentials in a safe place!**"
+msgstr ""
+
+#: ../../install/initial_setup.rst:46 ../../install/initial_setup.rst:158
+#: ../../install/initial_setup.rst:230
+msgid ""
+"Device super admin credentials cannot be retrieved when lost, and you "
+"will have to manually create another super admin account to manage your "
+"device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:51
+msgid "Select the username and password for the super admin."
+msgstr ""
+
+#: ../../install/initial_setup.rst:54
+msgid ""
+"Once you finish the initial setup, proceed to :ref:`import some learning "
+"resources <manage_resources_ref>`, and :ref:`create users "
+"<manage_users_ref>` if more people at your home are going to be using "
+"Kolibri. Make sure to check how to :ref:`configure other devices "
+"<access_LAN>` (computers, tablets or smartphones) in the home network to "
+"access Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:58
+msgid "Advanced setup"
+msgstr ""
+
+#: ../../install/initial_setup.rst:60
+msgid ""
+"Here are definitions of concepts necessary to understand the available "
+"options in the *Advanced setup* of Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:63
+msgid "Facility"
+msgstr ""
+
+#: ../../install/initial_setup.rst:65
+msgid ""
+"A facility in Kolibri connects a set of user accounts, classes, and "
+"associated data such as assignments and learner progress. The same "
+"facility can be shared across multiple devices, and there can also be "
+"multiple facilities on a single device. A facility could represent "
+"physical schools, temporary learning hubs, organizations distributing "
+"devices across multiple locations, parent or family programs, and other "
+"types of learning environments featuring continuity between learners' "
+"activities."
+msgstr ""
+
+#: ../../install/initial_setup.rst:66
+msgid "Device"
+msgstr ""
+
+#: ../../install/initial_setup.rst:68
+msgid ""
+"The physical or virtual machine that has the Kolibri server installed on "
+"it. Kolibri server device will minimally include a processor, storage, "
+"and memory. It may also include a screen, a network connection, a "
+"battery, etc. Common examples of server devices are: a desktop or laptop "
+"computer; a rack-mounted server; a Raspberry Pi; a virtual machine "
+"running in the cloud."
+msgstr ""
+
+#: ../../install/initial_setup.rst:70
+msgid "**Full device**"
+msgstr ""
+
+#: ../../install/initial_setup.rst:72
+msgid ""
+"A device that is a fully-featured Kolibri server and can be used by "
+"admins, coaches and learners. A full device enables access to all "
+"learner, coach and admin features."
+msgstr ""
+
+#: ../../install/initial_setup.rst:74
+msgid "**Learn-only device**"
+msgstr ""
+
+#: ../../install/initial_setup.rst:76
+msgid ""
+"Unlike a 'full device', a 'learn-only device' will have available only "
+"the features for learners. Coaches and admins can sign in but will only "
+"see the *Learn* page. Learn-only devices also include automated data "
+"syncing functionality."
+msgstr ""
+
+#: ../../install/initial_setup.rst:78
+msgid "Sync"
+msgstr ""
+
+#: ../../install/initial_setup.rst:79
+msgid ""
+"Syncing is the process of synchronizing facility data (learners, groups, "
+"classes, learner progress, assignments) between devices that have the "
+"same facility. The facility is created once on a full device, and "
+"subsequently imported to other devices. Facility data can afterwards be "
+"synced between devices as long as they are on the same local network."
+msgstr ""
+
+#: ../../install/initial_setup.rst:82
+msgid "**Select the default language for Kolibri.**"
+msgstr ""
+
+#: ../../install/initial_setup.rst:94
+msgid ""
+"**Select the Advanced setup** option, recommended for schools, "
+"educational programs, organizations, or other group learning settings "
+"that will share Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:99
+msgid "Select Advanced setup for use of Kolibri in group learning environments."
+msgstr ""
+
+#: ../../install/initial_setup.rst:102
+msgid ""
+"**Select the name of the device** on which Kolibri server will be running"
+" from. Choose a meaningful and recognizable name because it will help you"
+" identify it during syncing and importing processes later on. If many "
+"devices are connected to your local network at the same time, the device "
+"where the Kolibri server is running must be easily recognizable for users"
+" on other devices who need to sync with it."
+msgstr ""
+
+#: ../../install/initial_setup.rst:107
+msgid "Select a meaningful name for the device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:109
+msgid ""
+"**Select a facility setup for this device**. If you want to set up a full"
+" device, you can create a new facility, or import it from another device "
+"in your local network. To import only one or more learner accounts, "
+"select the learn-only device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:114
+msgid "Select the how do you want to set up a facility for the device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:117
+msgid "Full device"
+msgstr ""
+
+#: ../../install/initial_setup.rst:120
+msgid "Create a new facility"
+msgstr ""
+
+#: ../../install/initial_setup.rst:122
+msgid ""
+"**Type of facility**. When you create a new facility you can choose "
+"between **Non-formal** (libraries, orphanages, correctional facilities, "
+"youth centers, computer labs and similar), or a **Formal** type of "
+"facility (schools and other formal learning contexts)."
+msgstr ""
+
+#: ../../install/initial_setup.rst:127
+msgid ""
+"Select what type of learning environment is your facility and give it a "
+"name."
+msgstr ""
+
+#: ../../install/initial_setup.rst:129
+msgid "**Guest access**."
+msgstr ""
+
+#: ../../install/initial_setup.rst:134
+msgid ""
+"Select if guests can access Kolibri content without the need to create an"
+" account."
+msgstr ""
+
+#: ../../install/initial_setup.rst:137
+msgid "**User account creation**."
+msgstr ""
+
+#: ../../install/initial_setup.rst:142
+msgid ""
+"Select if anyone can create a user account for themselves, or if user "
+"accounts must be created by Kolibri admins."
+msgstr ""
+
+#: ../../install/initial_setup.rst:145
+msgid ""
+"**Enable passwords for learners**. Simplified sign-in, without the "
+"password requirement, allows easier access for younger learners."
+msgstr ""
+
+#: ../../install/initial_setup.rst:150
+msgid "Select if learners must type in their passwords to sign in on Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:153
+msgid ""
+"**Create super admin account**. This admin user will be a **super "
+"admin**, able to manage not only the content, but also all users and  "
+"permissions in this facility."
+msgstr ""
+
+#: ../../install/initial_setup.rst:163
+msgid "Select the username and password for the facility super admin."
+msgstr ""
+
+#: ../../install/initial_setup.rst:166
+msgid ""
+"**Responsibilities of the administrator**. When you are setting up a "
+"Kolibri facility you need to take into consideration the relevant privacy"
+" laws and regulations. As **super admin**, you or someone you delegate, "
+"will be responsible for protecting and managing the user accounts and "
+"personal information stored on the device. Review the data usage and "
+"privacy statement before finishing the facility setup."
+msgstr ""
+
+#: ../../install/initial_setup.rst:171 ../../install/initial_setup.rst:242
+msgid ""
+"Review the super admin responsibilities regarding the data usage and "
+"privacy."
+msgstr ""
+
+#: ../../install/initial_setup.rst:174
+msgid ""
+"Once you finish the initial setup, proceed to :ref:`import some learning "
+"resources <manage_resources_ref>`, and :ref:`create users "
+"<manage_users_ref>` (if you chose the Admin-managed facility setup). Make"
+" sure to check how to :ref:`configure other computers <access_LAN>` in "
+"the network to access Kolibri."
+msgstr ""
+
+#: ../../install/initial_setup.rst:180
+msgid "Import facility"
+msgstr ""
+
+#: ../../install/initial_setup.rst:182
+msgid ""
+"If you are part of a wider learning environment, where several learning "
+"facilities like schools or community centers are managed by one central "
+"organization, or you need to sync the learner progress data from your "
+"facility with another device where Kolibri is running, you can choose to "
+"import a facility that is already set up on that device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:184
+msgid ""
+"Select the **Import all data from an existing facility** option in the "
+"**Select a facility setup for this device** step."
+msgstr ""
+
+#: ../../install/initial_setup.rst:186 ../../install/initial_setup.rst:255
+msgid ""
+"Any device that has Kolibri running in the local network should appear in"
+" the **Select network address** window. Read more on how set up a local "
+"network in the `Kolibri Hardware Guide <https://learningequality.org/r"
+"/hardware-guide>`_."
+msgstr ""
+
+#: ../../install/initial_setup.rst:188 ../../install/initial_setup.rst:257
+msgid "Select the device and click the :guilabel:`Continue` button."
+msgstr ""
+
+#: ../../install/initial_setup.rst:193 ../../install/initial_setup.rst:262
+msgid ""
+"Select the network address of the device from which you want to import a "
+"facility."
+msgstr ""
+
+#: ../../install/initial_setup.rst:195
+msgid ""
+"If you do not see the address of the device listed, but you know the IP "
+"address, you can add it manually. Click the *Add new address* link, and "
+"fill in the required information."
+msgstr ""
+
+#: ../../install/initial_setup.rst:200
+msgid "Manually add the network address of the device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:202 ../../install/initial_setup.rst:264
+msgid ""
+"**Firewalls** may impede your ability to see other devices in your local "
+"network or add them as source. If you are unable to see other devices, "
+"make sure to:"
+msgstr ""
+
+#: ../../install/initial_setup.rst:204 ../../install/initial_setup.rst:266
+msgid "disable the firewalls on all the devices that you need to sync"
+msgstr ""
+
+#: ../../install/initial_setup.rst:205 ../../install/initial_setup.rst:267
+msgid "restart Kolibri for broadcast to take effect"
+msgstr ""
+
+#: ../../install/initial_setup.rst:207
+msgid ""
+"**Select facility**. If there are several facilities on the device, "
+"select the one you want to import and provide the administrative "
+"credentials."
+msgstr ""
+
+#: ../../install/initial_setup.rst:212 ../../install/initial_setup.rst:274
+msgid "Select the facility you want to import and provide credentials."
+msgstr ""
+
+#: ../../install/initial_setup.rst:214
+msgid ""
+"You must have the credentials (username and password) for either the "
+"**facility admin** of the facility you want to import, or for the **super"
+" admin** of the device you are importing from."
+msgstr ""
+
+#: ../../install/initial_setup.rst:216
+msgid ""
+"Wait for the facility data to load on your device. It may take some time,"
+" so please be patient. When you see the confirmation that the process is "
+"completed click the :guilabel:`Continue` button."
+msgstr ""
+
+#: ../../install/initial_setup.rst:221
+msgid "Facility successfully imported onto your device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:223
+msgid ""
+"**Create a super admin account**. The account you create in this step "
+"will be a **super admin for your device**, and be able to manage all the "
+"device content, all the facility users, and their permissions."
+msgstr ""
+
+#: ../../install/initial_setup.rst:225
+msgid ""
+"You can choose to create a new super admin account or to use the "
+"credentials of the super admin of the device from where you imported the "
+"facility."
+msgstr ""
+
+#: ../../install/initial_setup.rst:228
+msgid "**Make sure to save the super admin credentials in a safe place!**"
+msgstr ""
+
+#: ../../install/initial_setup.rst:235
+msgid "Select the super admin account."
+msgstr ""
+
+#: ../../install/initial_setup.rst:237
+msgid ""
+"**Responsibilities of the administrator**. When you are setting up a "
+"Kolibri facility, especially in formal environments like schools, you "
+"need to take into consideration the relevant privacy laws and "
+"regulations. As **super admin**, you or someone you delegate, will be "
+"responsible for protecting and managing the user accounts and personal "
+"information stored on the device. Review the data usage and privacy "
+"statement before finishing the facility setup."
+msgstr ""
+
+#: ../../install/initial_setup.rst:245
+msgid "Learn-only device"
+msgstr ""
+
+#: ../../install/initial_setup.rst:251
+msgid ""
+"Captions for the video are available in English, French, Swahili, Arabic,"
+" Hindi, Marathi and Brazilian Portuguese."
+msgstr ""
+
+#: ../../install/initial_setup.rst:253
+msgid ""
+"Select the **Import one or more user accounts from an existing facility**"
+" option in the **Select a facility setup for this device** step."
+msgstr ""
+
+#: ../../install/initial_setup.rst:269
+msgid ""
+"**Select facility**. If there are several facilities on the device, "
+"select the one you want to import the learner account from."
+msgstr ""
+
+#: ../../install/initial_setup.rst:276
+msgid ""
+"**Import individual learner accounts**. Enter the username and password "
+"of the learner you want to import to your device."
+msgstr ""
+
+#: ../../install/initial_setup.rst:281
+msgid "Provide credentials to import learner account."
+msgstr ""
+
+#: ../../install/initial_setup.rst:283
+msgid ""
+"Wait for the learner data to load on your device. It may take some time, "
+"so please be patient. When you see the confirmation that the process is "
+"completed, you can choose to import another learner account on the same "
+"device. Otherwise, click the :guilabel:`Continue` button."
+msgstr ""
+
+#: ../../install/initial_setup.rst:285
+msgid ""
+"Once you finish the initial setup, proceed to :ref:`import some learning "
+"resources <manage_resources_ref>`."
+msgstr ""
+
+#: ../../install/initial_setup.rst:287
+msgid ""
+"After you close the welcoming message, you will be able to import content"
+" from the same device from which you just imported the facility."
+msgstr ""
+
+#: ../../install/initial_setup.rst:292
+msgid ""
+"You can use the same device from which you imported the facility also to "
+"import content."
+msgstr ""
+
+#: ../../install/macos.rst:4
+msgid "MacOS"
+msgstr ""
+
+#: ../../install/macos.rst:9
+msgid "Kolibri macOS app has been tested on Catalina (10.15) macOS release."
+msgstr ""
+
+#: ../../install/macos.rst:21
+msgid "Download the .dmg installer for Kolibri **version** |version-b|."
+msgstr ""
+
+#: ../../install/macos.rst:22 ../../install/macos.rst:46
+msgid "Double-click the downloaded ``.dmg`` file."
+msgstr ""
+
+#: ../../install/macos.rst:23
+msgid ""
+"Drag the Kolibri logo inside the **Applications** folder, and wait for "
+"the installation to finish."
+msgstr ""
+
+#: ../../install/macos.rst:28
+msgid ""
+"Open the Kolibri app using the icon in your **Applications** folder or "
+"Launchpad."
+msgstr ""
+
+#: ../../install/macos.rst:29
+msgid "Proceed with the :ref:`setup_initial` of Kolibri."
+msgstr ""
+
+#: ../../install/macos.rst:35
+msgid "Delete the Kolibri app icon from the **Applications** folder."
+msgstr ""
+
+#: ../../install/macos.rst:37 ../../install/windows.rst:45
+msgid ""
+"To remove all the user data and the downloaded channels, delete the "
+"``.kolibri`` folder (go to **Device > Info** to find the exact location "
+"of the folder on your system). If you install Kolibri again, you will "
+"have to go through the :ref:`Initial Setup <setup_initial>` steps from "
+"the beginning."
+msgstr ""
+
+#: ../../install/macos.rst:45
+msgid ""
+"Download the new version of the `.dmg installer "
+"<https://learningequality.org/download/>`_."
+msgstr ""
+
+#: ../../install/macos.rst:47
+msgid ""
+"Drag the Kolibri logo inside the **Applications** folder, and wait for "
+"the upgrade to finish."
+msgstr ""
+
+#: ../../install/macos.rst:48
+msgid "Start the Kolibri app from the **Launchpad**."
+msgstr ""
+
+#: ../../install/macos.rst:49 ../../install/windows.rst:59
+msgid "Go explore the new and improved Kolibri features."
+msgstr ""
+
+#: ../../install/provision.rst:5
+msgid "Provisioning many servers"
+msgstr ""
+
+#: ../../install/provision.rst:7
+msgid ""
+"This tutorial will help you to prepare for the Kolibri implementation "
+"where you need to install and provision several Kolibri server devices "
+"with the same channels."
+msgstr ""
+
+#: ../../install/provision.rst:9
+msgid ""
+"Provisioning multiple servers with software and channels is **going to "
+"take some time** regardless of the chosen procedure."
+msgstr ""
+
+#: ../../install/provision.rst:11
+msgid ""
+"You will need an **active Internet connection only to preload channels on"
+" the first server device**. Provisioning the rest of the servers can be "
+"accomplished offline, or just within the working local network."
+msgstr ""
+
+#: ../../install/provision.rst:14
+msgid "Required hardware"
+msgstr ""
+
+#: ../../install/provision.rst:16
+msgid "Laptops and/or other devices to host Kolibri servers."
+msgstr ""
+
+#: ../../install/provision.rst:21
+msgid "For provisioning you have the option to use:"
+msgstr ""
+
+#: ../../install/provision.rst:23
+msgid ""
+"Fast USB 3 external drive(s). USB 2 can work too, but we recommend using "
+"more than one USB 3 drives for fastest results."
+msgstr ""
+
+#: ../../install/provision.rst:25
+msgid "**OR**"
+msgstr ""
+
+#: ../../install/provision.rst:27
+msgid ""
+"Working LAN (cabled is preferable to wireless, and ideally via a router "
+"that supports Gigabit ethernet)."
+msgstr ""
+
+#: ../../install/provision.rst:29
+msgid ""
+"Active Internet connection to download the installer and preload channels"
+" on the first (“main”) server."
+msgstr ""
+
+#: ../../install/provision.rst:31
+msgid ""
+"We recommend you install and preload channels on one server (referring to"
+" it as the *main* for the purpose of this procedure), and then copy the "
+"required folder structure to the rest of the devices."
+msgstr ""
+
+#: ../../install/provision.rst:33
+msgid ""
+"Copying the folders with channels from the main server hard drive to "
+"others via the USB 3 external drive might be faster, but copying via the "
+"cabled LAN connection may be done in parallel (from main to several "
+"others at the same time). You can combine these two options for the "
+"fastest results, if you have access to both cabled LAN and the USB "
+"external drives."
+msgstr ""
+
+#: ../../install/provision.rst:36
+msgid "Provision the main server"
+msgstr ""
+
+#: ../../install/provision.rst:38
+msgid ""
+"Install Kolibri on the main server by following the steps for your "
+":ref:`chosen platform <install>`."
+msgstr ""
+
+#: ../../install/provision.rst:39
+msgid "Proceed with the :ref:`setup_initial` of the facility on the main server."
+msgstr ""
+
+#: ../../install/provision.rst:40
+msgid ""
+":ref:`Import the desired channels <import_studio>` to preload it on the "
+"main server."
+msgstr ""
+
+#: ../../install/provision.rst:44
+msgid "Kolibri folder structure"
+msgstr ""
+
+#: ../../install/provision.rst:46
+msgid ""
+"At this point you have the main server set-up and preloaded with "
+"channels. Before you proceed to copy the channels and the database to the"
+" rest of the server devices, let’s get familiar with the Kolibri folder "
+"structure."
+msgstr ""
+
+#: ../../install/provision.rst:48
+msgid ""
+"On Windows, the main server database and all the files related to the "
+"channels are stored in the folder named ``.kolibri``, located in "
+"``C:/Users/<username>/.kolibri/`` (if your main hard drive is ``C:``)."
+msgstr ""
+
+#: ../../install/provision.rst:50
+msgid ""
+"``<username>`` refers to the user on your operating system that installed"
+" Kolibri as explained above. In the image below for example, you can see "
+"that the user who installed Kolibri is called **IEUser**."
+msgstr ""
+
+#: ../../install/provision.rst:55
+msgid "Find the `.kolibri` folder on Windows."
+msgstr ""
+
+#: ../../install/provision.rst:57
+msgid "On Linux the ``.kolibri`` folder is located inside your user home folder."
+msgstr ""
+
+#: ../../install/provision.rst:62
+msgid "Find the `.kolibri` folder on Linux."
+msgstr ""
+
+#: ../../install/provision.rst:64
+msgid ""
+"The contents of the ``.kolibri`` folder is the same for all platforms. "
+"Inside you can see the main database file ``db.sqlite3``, and the "
+"subfolder named ``content`` which contains 2 subfolders: ``databases`` "
+"with the separate database for each of the channels imported into "
+"Kolibri, and the ``storage`` folder with all the resources files."
+msgstr ""
+
+#: ../../install/provision.rst:69
+msgid "Find the folder with channel's databases and resources."
+msgstr ""
+
+#: ../../install/provision.rst:73
+msgid "Prepare the ``.kolibri`` folder for copying"
+msgstr ""
+
+#: ../../install/provision.rst:75
+msgid ""
+"Before you proceed to copy the ``.kolibri`` folder from the main server "
+"hard drive (which already contains channels), to the rest of the server "
+"devices for your implementation, you need to **deprovision** (that is, "
+"empty out) the user database."
+msgstr ""
+
+#: ../../install/provision.rst:77
+msgid ""
+"This is a critical step, to ensure that each destination server has a "
+"unique **Facility ID** (and name) associated with it."
+msgstr ""
+
+#: ../../install/provision.rst:79
+msgid ""
+"Open the Terminal on Linux or the :ref:`command prompt on Windows "
+"<command_line>`."
+msgstr ""
+
+#: ../../install/provision.rst:81
+msgid "Stop Kolibri server with the following command"
+msgstr ""
+
+#: ../../install/provision.rst:87
+msgid "Follow that with the command to empty the user database."
+msgstr ""
+
+#: ../../install/provision.rst:94
+msgid ""
+"You will have to confirm twice by typing ``yes`` and pressing the "
+":guilabel:`Enter` key."
+msgstr ""
+
+#: ../../install/provision.rst:98
+msgid "Copy the channels to other server devices"
+msgstr ""
+
+#: ../../install/provision.rst:101
+msgid ""
+"Independent from the copying procedure you decide to use, you should "
+"first proceed to :ref:`install Kolibri <install>` on each of the "
+"destination devices, following the same steps as for the main server, "
+"**but you don’t need to go through the Initial Setup**."
+msgstr ""
+
+#: ../../install/provision.rst:103
+msgid ""
+"After the installation you must **stop Kolibri** on the destination "
+"device, before you proceed to copy the channels."
+msgstr ""
+
+#: ../../install/provision.rst:105
+msgid ""
+"On Windows you need to right-click the Kolibri icon in the Windows "
+"taskbar (usually at bottom right, near the clock), and select ``Exit``. "
+"You will be prompted to confirm the selection, after which Kolibri will "
+"stop."
+msgstr ""
+
+#: ../../install/provision.rst:110
+msgid "Stop Kolibri from the taskbar options."
+msgstr ""
+
+#: ../../install/provision.rst:113
+msgid ""
+"On Linux you need to run ``kolibri stop`` or ``sudo service kolibri "
+"stop`` (if you installed Kolibri to run as the system service)."
+msgstr ""
+
+#: ../../install/provision.rst:117
+msgid "Use the external USB drive to copy channels"
+msgstr ""
+
+#: ../../install/provision.rst:119
+msgid ""
+"Copy the ``.kolibri`` folder from the main server hard drive, and paste "
+"it on the external USB drive."
+msgstr ""
+
+#: ../../install/provision.rst:120
+msgid ""
+"Copy the ``.kolibri`` folder from the USB drive, and paste it inside the "
+"destination device hard drive."
+msgstr ""
+
+#: ../../install/provision.rst:122 ../../install/provision.rst:139
+msgid ""
+"On Windows you need to copy the ``.kolibri`` folder into the "
+"``C:/Users/<username>/`` folder, where the ``<username>`` is the account "
+"you were logged in as when you installed Kolibri on that destination "
+"device (it may be different from the account on the main server). On "
+"Linux you need to copy inside the home folder of the user who installed "
+"Kolibri, or is the owner of the Kolibri system service."
+msgstr ""
+
+#: ../../install/provision.rst:124 ../../install/provision.rst:141
+msgid ""
+"You should see an alert message that there is already a  ``.kolibri`` "
+"folder on the destination device: choose the option to overwrite it."
+msgstr ""
+
+#: ../../install/provision.rst:128
+msgid "Use the cabled LAN connection to copy channels"
+msgstr ""
+
+#: ../../install/provision.rst:130
+msgid ""
+"Connect all the devices, main server and the others where you need to "
+"copy the channels on, to the same local area network (LAN)."
+msgstr ""
+
+#: ../../install/provision.rst:132
+msgid ""
+"Configure the network access on the main server, so the rest of the "
+"devices can:"
+msgstr ""
+
+#: ../../install/provision.rst:134
+msgid "See it among their Network locations in the Windows Explorer"
+msgstr ""
+
+#: ../../install/provision.rst:135
+msgid ""
+"Open it and freely browse its shared folders (``.kolibri`` folder should "
+"be shared)"
+msgstr ""
+
+#: ../../install/provision.rst:137
+msgid ""
+"Use the Windows or File Explorer on each destination device to copy the "
+"``.kolibri`` folder from the main server hard drive, and paste it inside "
+"the destination device hard drive."
+msgstr ""
+
+#: ../../install/provision.rst:143
+msgid ""
+"You should be able to access the main server from several other "
+"destination servers through the LAN, and copy the ``.kolibri`` folder at "
+"the same time."
+msgstr ""
+
+#: ../../install/provision.rst:147
+msgid "Restart Kolibri servers on destination devices"
+msgstr ""
+
+#: ../../install/provision.rst:149
+msgid ""
+"On Windows double-click the desktop shortcut to start Kolibri after "
+"copying channels. You will see the notification message *Kolibri is "
+"starting, please wait…*. When you see the next notification that *Kolibri"
+" is running…*, Kolibri will open in the browser with the URL "
+"``http://127.0.0.1:8080``."
+msgstr ""
+
+#: ../../install/provision.rst:150
+msgid ""
+"On Linux open the Terminal and run ``kolibri start`` or ``sudo service "
+"kolibri start`` (if you installed Kolibri to run as the system service)."
+msgstr ""
+
+#: ../../install/provision.rst:152
+msgid ""
+"Since the deprovision command emptied the user database on the main "
+"server, you will need to perform  the :ref:`setup_initial` on each "
+"destination device to set their Facility name and the super admin "
+"account. The Facility name could be the name of the learning center or "
+"school in which the respective server will be implemented."
+msgstr ""
+
+#: ../../install/python.rst:4
+msgid "Python"
+msgstr ""
+
+#: ../../install/python.rst:9
+msgid "Python package"
+msgstr ""
+
+#: ../../install/python.rst:11
+msgid ""
+"You can install Kolibri as a standard package from PyPi (works on Mac, "
+"Windows, and Linux) using this command:"
+msgstr ""
+
+#: ../../install/python.rst:13
+msgid "Install for your current user."
+msgstr ""
+
+#: ../../install/python.rst:19
+msgid "Install system-wide (for all users)."
+msgstr ""
+
+#: ../../install/python.rst:25
+msgid ""
+"After Kolibri has been installed from PyPi, a new ``kolibri`` command "
+"should be available in your Terminal application."
+msgstr ""
+
+#: ../../install/python.rst:31
+msgid "Python EXecutable"
+msgstr ""
+
+#: ../../install/python.rst:33
+msgid ""
+"On MacOS and Linux, follow these steps to run Kolibri with the ``PEX`` "
+"package."
+msgstr ""
+
+#: ../../install/python.rst:35
+msgid ""
+"Download the `PEX installer <https://learningequality.org/download/>`_ "
+"for Kolibri **version** |version-b|."
+msgstr ""
+
+#: ../../install/python.rst:36
+msgid ""
+"Make sure to **open the Terminal where you downloaded** the ``PEX`` file."
+" For example, if you saved it in the *Downloads* folder, type this when "
+"you open the Terminal, and press Enter:"
+msgstr ""
+
+#: ../../install/python.rst:42
+msgid "Type the following commands next (press Enter after each one)."
+msgstr ""
+
+#: ../../install/python.rst:50
+msgid ""
+"Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with"
+" the exact name of the file you downloaded** in both commands. For "
+"example, if the name of the downloaded file is ``kolibri-v0.14.0.pex``, "
+"type that instead of ``kolibri-installer-filename.pex``."
+msgstr ""
+
+#: ../../install/python.rst:52 ../../install/ubuntu-debian.rst:75
+msgid ""
+"When the command finishes, open the default browser at "
+"http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your "
+"facility."
+msgstr ""
+
+#: ../../install/python.rst:54
+msgid ""
+"Remember that **PEX** package allows you to run Kolibri on your system "
+"**only while the process is active in the Terminal window**. If that "
+"process is stopped (by either pressing :guilabel:`Ctrl` + :guilabel:`C`, "
+"closing the Terminal, or restarting your system), you will need to repeat"
+" the above steps to start Kolibri again. User accounts, classes and "
+"groups you create, as well as the channels you download, will be "
+"available every time you restart Kolibri."
+msgstr ""
+
+#: ../../install/python.rst:58
+msgid "Uninstall PEX"
+msgstr ""
+
+#: ../../install/python.rst:60
+msgid "Delete the ``PEX`` file."
+msgstr ""
+
+#: ../../install/python.rst:61
+msgid ""
+"Delete the ``~/.kolibri`` folder in your user's Home directory if you "
+"want to completely remove all the Kolibri files and channels you "
+"imported."
+msgstr ""
+
+#: ../../install/python.rst:64
+msgid "Upgrade PEX"
+msgstr ""
+
+#: ../../install/python.rst:66 ../../install/windows.rst:53
+msgid "To upgrade Kolibri, follow these steps."
+msgstr ""
+
+#: ../../install/python.rst:68
+msgid ""
+"Download the new version of `Kolibri PEX installer "
+"<https://learningequality.org/download/>`_."
+msgstr ""
+
+#: ../../install/python.rst:69
+msgid "Start Kolibri as during the first install."
+msgstr ""
+
+#: ../../install/python.rst:70
+msgid "Go explore the new and improved Kolibri features!"
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:5
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:7
+msgid "Kolibri is tested to work on Raspberry Pi Models **3, 3+, 4 and Zero W**."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:9
+msgid ""
+"Kolibri may also run on Raspberry Pi Model 2, but the platform has not "
+"been tested on that model, and it does not have on-board WiFi."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:13
+msgid "Disk image"
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:15
+msgid ""
+"If you are starting a new Raspberry Pi installation and want to get set "
+"up as quickly as possible, you can download our custom OS image and flash"
+" it to your SD card. Once flashed, you can configure your Pi as usual."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:17
+msgid ""
+"Our image provides an out-of-the-box Kolibri experience pre-configurated "
+"with a WiFi hotspot and networking. No additional installation steps are "
+"needed once the SD card is inserted and the Pi is booted."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:19
+msgid "To use:"
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:21
+msgid ""
+"Download the `Raspberry Pi ZIP file "
+"<https://learningequality.org/download/>`_ for Kolibri **version** "
+"|version-b|, or have it copied to your local drive."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:22
+msgid ""
+"Use any of the methods explained in the `official Raspberry Pi user guide"
+" <https://www.raspberrypi.com/documentation/computers/getting-"
+"started.html>`_ to write the image to a SD card."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:23
+msgid "Insert the SD card in the Raspberry Pi."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:24
+msgid ""
+"Power on the Raspberry Pi and wait. The process takes less than 5 minutes"
+" in a model 4, but in other models can take longer. You may observe some "
+"``Failure`` messages during this process, which is normal."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:26
+msgid ""
+"After installing the image, an ssh server is installed with the user "
+"``pi`` and the password ``kolibrifly``. You should immediately change the"
+" password to ensure that your server is secure."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:28
+msgid ""
+"After following the above steps the Raspberry Pi will provide a WiFi "
+"network named under the ssid ``kolibri`` without any password. The "
+"Kolibri server will be accessible at the URL ``http://10.10.10.10``."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:30
+msgid ""
+"By default the server does not have Internet access. To import resources "
+"to Kolibri, either connect a USB drive with exported channels, or connect"
+" the Pi to an internet-connected router using the ethernet cable."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:33
+msgid ""
+"The installed system contains a full RPi image, with all the software "
+"included in the ``Lite`` version from "
+"https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-"
+"os-32-bit. After login use ``sudo raspi-config`` to customize the "
+"environment, including localization, timezone, etc. if desired."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:36
+msgid ""
+"When an ethernet cable with Internet access is connected to the "
+"Raspberry, it will have internet connectivity but won't provide this "
+"connectivity to the devices that are connected to its ``kolibri`` ssid. "
+"These devices will only be able to use the browser with the Kolibri "
+"application at the URL ``http://10.10.10.10``."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:40
+msgid "Debian package"
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:42
+msgid ""
+"If you already have a running Raspberry Pi set up or if you prefer to set"
+" up manually from an official Pi image, we recommend installing the "
+":ref:`Kolibri Server Debian package <kolibri_server_package>`, which "
+"includes important optimizations such as static content caching and "
+"optimized CPU usage."
+msgstr ""
+
+#: ../../install/raspberry_pi.rst:44
+msgid ""
+"Manual configuration of networking and WiFi on the Pi are outside the "
+"scope of these instructions."
+msgstr ""
+
+#: ../../install/system_requirements.rst:4
+msgid "Hardware requirements"
+msgstr ""
+
+#: ../../install/system_requirements.rst:6
+msgid ""
+"To install **Kolibri** on a device that will act as a server, check the "
+"hardware requirements first, and then follow the procedure for the "
+"operating system on your device."
+msgstr ""
+
+#: ../../install/system_requirements.rst:8
+msgid ""
+"Below you will find general recommendations regarding hardware "
+"requirements to run Kolibri. To read more detailed information and find "
+"out examples of hardware setups that have been implemented by our users, "
+"download the full `Kolibri Hardware Guide <https://learningequality.org/r"
+"/hardware-guide>`_ and examples of `Hardware Configurations for Kolibri "
+"<https://learningequality.org/r/hardware>`_ (PDF documents)."
+msgstr ""
+
+#: ../../install/system_requirements.rst:11
+msgid "Servers"
+msgstr ""
+
+#: ../../install/system_requirements.rst:13
+msgid "Minimum hardware requirements to run Kolibri as a server:"
+msgstr ""
+
+#: ../../install/system_requirements.rst:15
+msgid "RAM: 1 GB recommended on Linux, 2GB or more on Windows devices"
+msgstr ""
+
+#: ../../install/system_requirements.rst:16
+msgid "Intel Core 3 CPU with 1 GHz recommended"
+msgstr ""
+
+#: ../../install/system_requirements.rst:17
+msgid ""
+"Hard drive space depends on the size of the channels you intend to import"
+" from `Kolibri Studio <https://studio.learningequality.org/>`_ or a local"
+" storage device."
+msgstr ""
+
+#: ../../install/system_requirements.rst:19
+msgid ""
+"If you have a facility with less than 30 computers, a device as simple as"
+" a `Raspberry Pi <https://www.raspberrypi.org/>`_ is known to work fine "
+"as a server."
+msgstr ""
+
+#: ../../install/system_requirements.rst:22
+msgid "Clients"
+msgstr ""
+
+#: ../../install/system_requirements.rst:24
+msgid ""
+"Very old desktops and very low-power computers can be used as client "
+"devices to access Kolibri. For instance, some implementations are known "
+"to use first-gen Raspberry Pi as desktop computers."
+msgstr ""
+
+#: ../../install/system_requirements.rst:26
+msgid ""
+"It is always a good idea to do a practical test, but when you want to "
+"implement Kolibri, usually it's not necessary to scale your hardware. The"
+" main requirement is that your system needs a video card and driver that "
+"can play the videos."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:4
+msgid "Debian/Ubuntu"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:9
+msgid ""
+"Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-"
+"life. Ubuntu-based distributions have a number of flavors, for instance "
+"Xubuntu and Mint."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:19
+msgid "Install from PPA repository"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:21
+msgid ""
+"**In Ubuntu-based distributions**, use the following commands in "
+"`Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add "
+"the PPA and install Kolibri:"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:29
+msgid ""
+"**In Debian-based distributions** you need to use these commands to point"
+" to our Launchpad PPA:"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:41
+msgid "From the command line: ``sudo apt-get remove kolibri``."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:43 ../../install/ubuntu-debian.rst:84
+msgid ""
+"To remove all the user data and the downloaded channels, delete the "
+"``~/.kolibri`` folder (go to **Device > Info** to find the exact location"
+" of the folder on your system). If you install Kolibri again, you will "
+"have to go through the :ref:`Initial Setup <setup_initial>` steps from "
+"the beginning."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:50 ../../install/ubuntu-debian.rst:90
+msgid ""
+"When you use the PPA installation method, upgrades to newer versions will"
+" be automatic, provided there is internet access available."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:56
+msgid "Install from a .deb file"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:58
+msgid ""
+"The advantages of downloading a ``.deb`` file is the portability: you can"
+" copy the file from device to device and install Kolibri without internet"
+" access."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:60
+msgid ""
+"Download the latest `.deb installer "
+"<https://learningequality.org/download/>`_ for Kolibri **version** "
+"|version-b|, or have it copied to your local drive."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:61
+msgid "Run this command from the location where you downloaded the ``DEB`` file:"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:67
+msgid "Wait for the installation to finish and run this command to start Kolibri:"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:73
+msgid ""
+"If you choose to install Kolibri as a system service, you will not need "
+"to start it manually."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:81
+msgid "Open **Software** on Ubuntu and locate the Kolibri. Press **Remove**."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:82
+msgid "Or from the command line: ``sudo apt-get remove kolibri``."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:92
+msgid ""
+"To upgrade Kolibri on a Debian device without internet access, bring the "
+"updated ``.deb`` file and follow the same steps as in :ref:`lin_deb`."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:98
+msgid "Changing the owner of Kolibri system service"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:100
+msgid ""
+"The *system service* is the script that runs Kolibri in the background "
+"when your system boots on Debian-based distributions."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:102
+msgid ""
+"You may need to change the system service to run with the permissions of "
+"a different user account. Prior to v0.10, ``kolibri`` user account was "
+"the owner of the system service, while from v0.10 and later, desktop "
+"user's account is preferred, in order for Kolibri to access the local USB"
+" storage."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:104
+msgid ""
+"To change the system service owner, you need to change the configuration "
+"of the system service, move the ``.kolibri`` data folder (containing "
+"channels, databases etc.), and assign owner permissions to the new user. "
+"Follow these steps."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:107
+msgid "Stop Kolibri."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:114
+msgid "Move data to your desktop user."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:121
+msgid "Change ownership."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:128
+msgid "Change the username configuration."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:134
+msgid "Start Kolibri again."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:141
+msgid ""
+"Replace the ``$USER`` in commands above with the name of the user you "
+"wish to be the new Kolibri system service owner."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:146
+msgid "Higher performance with the ``kolibri-server`` package"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:148
+msgid ""
+"We have of a higher-performance wrapper around the ``kolibri`` package "
+"for Ubuntu and Debian systems called ``kolibri-server``."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:150
+msgid ""
+"``kolibri-server`` has some specific features like **static content "
+"cache** and **optimized usage of the CPU processing power** in multi core"
+" devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and "
+"with ``kolibri-server`` it will likely be able to serve 2-3 times more "
+"client devices compared to base Kolibri. Find out more details in the "
+"`package repository <https://github.com/learningequality/kolibri-"
+"server>`_."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:152
+msgid "To install ``kolibri-server`` follow these steps."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:154
+msgid "Run these commands in the Terminal:"
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:162
+msgid ""
+"During the installation you will be offered the option to choose the port"
+" (8000, 80 or leave the default 8080)."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:164
+msgid "Restart the system."
+msgstr ""
+
+#: ../../install/ubuntu-debian.rst:166
+msgid ""
+"Keep in mind that the ``kolibri-server`` system performance will depend "
+"not only on server device features, but also on local WiFi access point "
+"characteristics."
+msgstr ""
+
+#: ../../install/windows.rst:4
+msgid "Windows"
+msgstr ""
+
+#: ../../install/windows.rst:9
+msgid "Supported: Windows 7, 8.1 and 10, with IE 11+, Chrome or Firefox"
+msgstr ""
+
+#: ../../install/windows.rst:10
+msgid ""
+"**Not supported:** Windows XP cannot be used to install Kolibri server, "
+"but could potentially work as a client device if the browsers are `as up-"
+"to-date as possible <https://support.mozilla.org/en-"
+"US/questions/1173904>`_."
+msgstr ""
+
+#: ../../install/windows.rst:20
+msgid ""
+"Download the `Windows installer "
+"<https://learningequality.org/download/>`_ for Kolibri **version** "
+"|version-b|."
+msgstr ""
+
+#: ../../install/windows.rst:21 ../../install/windows.rst:56
+msgid "Double-click the downloaded ``.exe`` file."
+msgstr ""
+
+#: ../../install/windows.rst:22
+msgid "Select the language for the installation."
+msgstr ""
+
+#: ../../install/windows.rst:23
+msgid ""
+"Python 3 installer is included, confirm the installation or the upgrade "
+"to proceed."
+msgstr ""
+
+#: ../../install/windows.rst:24
+msgid ""
+"Follow the rest of the instructions in the Kolibri installation setup "
+"wizard."
+msgstr ""
+
+#: ../../install/windows.rst:25
+msgid ""
+"Once the installation finishes, Kolibri will auto-start and open in the "
+"default browser on your computer at http://127.0.0.1:8080. This may take "
+"a moment, so please be patient."
+msgstr ""
+
+#: ../../install/windows.rst:26
+msgid "Proceed with the :ref:`setup_initial` of your facility."
+msgstr ""
+
+#: ../../install/windows.rst:29
+msgid ""
+"Windows firewall will prompt you to allow the Python process needed to "
+"run Kolibri. Click **Allow access** to accept and proceed."
+msgstr ""
+
+#: ../../install/windows.rst:34
+msgid "Allow the Python process needed to run Kolibri."
+msgstr ""
+
+#: ../../install/windows.rst:40
+msgid "Open the Windows Control Panel."
+msgstr ""
+
+#: ../../install/windows.rst:41
+msgid "Select **Programs and Features** option."
+msgstr ""
+
+#: ../../install/windows.rst:42
+msgid "Select Kolibri from the list of programs."
+msgstr ""
+
+#: ../../install/windows.rst:43
+msgid "Click the button :guilabel:`Uninstall/Change` and follow the instructions."
+msgstr ""
+
+#: ../../install/windows.rst:55
+msgid ""
+"Download the new version of Kolibri `Windows installer "
+"<https://learningequality.org/download/>`_."
+msgstr ""
+
+#: ../../install/windows.rst:57
+msgid "Follow the instructions in the installation wizard window."
+msgstr ""
+
+#: ../../install/windows.rst:58
+msgid ""
+"Once the installation of the upgrade is finished, Kolibri will auto-start"
+" and open in the default browser on your computer."
+msgstr ""
+

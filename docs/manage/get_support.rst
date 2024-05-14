@@ -3,6 +3,8 @@
 Troubleshooting
 ~~~~~~~~~~~~~~~
 
+.. tip:: We recommend you review the :doc:`/glossary` that will help you understand the terminology used in this guide, and make it easier for you to overcome any problems while setting up Kolibri.
+
 .. _network:
 
 Troubleshoot network issues

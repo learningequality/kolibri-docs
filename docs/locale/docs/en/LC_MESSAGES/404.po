@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Learning Equality
+# This file is distributed under the same license as the Kolibri package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kolibri 0.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-25 15:56-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../404.rst:4
+msgid "Page not found"
+msgstr ""
+
+#: ../../404.rst:6
+msgid ""
+"It seems you are searching for a topic that has been moved elsewhere in "
+"our documentation. Please try the following to find what you were looking"
+" for:"
+msgstr ""
+
+#: ../../404.rst:8
+msgid ""
+"Browse the table of content in the sidebar (use |menu| to open it if you "
+"are on the mobile device)"
+msgstr ""
+
+#: ../../404.rst:9
+msgid "Use the search box"
+msgstr ""
+
+#: ../../404.rst:11
+msgid ""
+"Make sure you are browsing the user guide for the `latest release of "
+"Kolibri <https://kolibri.readthedocs.io/en/latest/>`_."
+msgstr ""
+
+#: ../../404.rst:13
+msgid "We apologize for the inconvenience!"
+msgstr ""
+

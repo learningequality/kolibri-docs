@@ -6,7 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
+Debian 10 ("buster"), Ubuntu 18.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
 
 ..  raw:: html
 
@@ -18,7 +18,20 @@ Debian 9 (Stretch), Ubuntu 16.04+ and up - anything that's *not* end-of-life. Ub
 Install from PPA repository
 ---------------------------
 
-**In Ubuntu-based distributions**, use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:
+**In Debian 12 and Ubuntu 22.04** use the following commands in `Terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ to add the PPA and install Kolibri:
+
+.. code-block:: bash
+
+    sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
+    sudo gpg --output /usr/share/keyrings/learningequality-kolibri.gpg --export  DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
+
+    sudo su -c 'echo "deb [signed-by=/usr/share/keyrings/learningequality-kolibri.gpg] http://ppa.launchpad.net/learningequality/kolibri/ubuntu jammy main" > /etc/apt/sources.list.d/learningequality-ubuntu-kolibri.list'
+
+    sudo apt-get update
+    sudo apt install kolibri
+
+
+**In Ubuntu-based distributions prior to 22.04**, use the following commands:
 
 .. code-block:: bash
 
@@ -26,7 +39,7 @@ Install from PPA repository
     sudo apt-get update
     sudo apt-get install kolibri
 
-**In Debian-based distributions** you need to use these commands to point to our Launchpad PPA:
+**In Debian-based distributions prior to 12**, use the following commands:
 
 .. code-block:: bash
 

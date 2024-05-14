@@ -49,6 +49,7 @@ Kolibri can serve high quality education materials from several publicly availab
    coach/index
    learn
    faq
+   glossary
    contact
 
 

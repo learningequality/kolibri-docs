@@ -199,7 +199,7 @@ Follow these steps to import from a local network.
     - inability to discover other peers
     - ability to be discovered, but not be available for import
   
-  * On Windows 10 you need to explicitly allow both **Python** and ``kolibri.exe`` processes through the firewall, to be able to add a peer for import. Auto-discovery might still not work, but you will be able to add the peer IP manually and import resources.
+  * On Windows 10 and 11 you need to explicitly allow both **Python** and ``kolibri.exe`` processes through the firewall, to be able to add a peer for import. Auto-discovery might still not work, but you will be able to add the peer IP manually and import resources.
 
   * This feature was introduced in Kolibri version 0.11, and all the server devices to be used for this type of resources import **must have the Kolibri version 0.11 or later** running.
 
