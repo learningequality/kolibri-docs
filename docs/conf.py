@@ -9,7 +9,7 @@ import os
 import sys
 from datetime import datetime
 
-import sphinx_rtd_theme
+# import sphinx_rtd_theme
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # IMPORTANT! KEEP THIS UPDATED TO REFLECT WHICH VERSION THESE DOCS ARE WRITTEN
@@ -29,7 +29,7 @@ cwd = os.getcwd()
 extensions = [
     "sphinx.ext.todo",
 #    "sphinx.ext.autodoc",
-    "sphinx_rtd_theme",
+#    "sphinx_rtd_theme",
     "notfound.extension",
 ]
 
@@ -87,7 +87,7 @@ pygments_style = "sphinx"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = "default"
-on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+# on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 
 html_theme = "furo"
