@@ -1,3 +1,31 @@
+ @font-face {
+     font-family: "Plus Jakarta Sans";
+     src: url(PlusJakartaSans-Regular.ttf);
+ }
+
+ @font-face {
+     font-family: "FigTree";
+     src: url(Figtree-Regular.ttf);
+ }
+
+
+/*  Apply FigTree to all headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "FigTree";
+}
+
+/*  Apply Plus Jakarta Sans to body text elements */
+body,
+p,
+a {
+    font-family: "Plus Jakarta Sans";
+}
+
 
 html[lang=ar] {
     direction: rtl;
@@ -182,10 +210,10 @@ code.docutils.literal.notranslate {
     transform: rotate(90deg);
 }
 
-img {
+/*img {
 	height: 1.2em;
 	vertical-align: text-bottom;
-}
+}*/
 
 .rst-content span.guilabel {
     background-color: #f7f7f7;
