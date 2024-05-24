@@ -29,7 +29,7 @@ cwd = os.getcwd()
 extensions = [
     "sphinx.ext.todo",
 #    "sphinx.ext.autodoc",
-#    "sphinx_rtd_theme",
+    "sphinx_rtd_theme",
     "notfound.extension",
 ]
 
