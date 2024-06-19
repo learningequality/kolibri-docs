@@ -26,43 +26,44 @@ To sign in to **Kolibri** and start learning, follow these steps:
 
 #. Click the :guilabel:`SIGN IN` button if you already have an account and the username.
 
-	.. figure:: img/login-modal.png
-	  :alt: Input your username and password (if required) on the main sign in page.
+.. figure:: img/login-modal.png
+	:alt: Input your username and password (if required) on the main sign in page.
+	:align: left
 
-	  Main Kolibri sign in page.
+	Main Kolibri sign in page.
 
-	If you have used the same device before, you may see the field to directly type in your username and password (if required) on the main sign in page.
+|br|
+If you have used the same device before, you may see the field to directly type in your username and password (if required) on the main sign in page.
 
-	If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
+If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
 
-	.. figure:: img/login-modal-facility.png
-	  :alt: 
+.. figure:: img/login-modal-facility.png
+  :alt: 
+  :align: left
 
-	  Select facility on the Kolibri sign in page.
+  Select facility on the Kolibri sign in page.
 
 
 .. _sign_in_page:
 
 .. warning::
-   If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
+   If you start browsing Kolibri as a guest, you need to select **Sign in** option from the **Guest** menu in the upper right corner.
 
+   *
 	.. figure:: img/learn-page-signin.png
-	  :alt: Open the sidebar to access the sign in link.
+		:alt: Open the sidebar to access the sign in link.
+		:align: left
 
-	  "Sign in" link in the sidebar.
+		"Sign in" link in the sidebar.
 
-
-	.. figure:: img/learn-page-signin2.png
-	  :alt: Open the user menu to access the sign in link.
-
-	  "Sign in" link in the user menu.
 
 .. _profile:
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
-	.. figure:: img/update-profile.png
-	  :alt: 
+.. figure:: img/update-profile.png
+  :alt:	 
+  :align: left
 
 .. note::
    If your account has been created prior to version 0.13 of Kolibri, you will see a notification that you can update your profile to provide your birth year and gender. This information is optional, and you can choose not to provide it. 
@@ -72,6 +73,7 @@ Once you have signed in to Kolibri, you can see and edit your user data from the
 
    .. figure:: img/update-profile2.png
 	  :alt: 
+	  :align: left
 
 To sign out from Kolibri you can either:
 	* Click the to open the |person| user menu in the upper right corner, and select the |logout| **Sign out** option.
@@ -91,6 +93,7 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 		
 		.. figure:: img/create-account.png
 		 :alt: 
+		 :align: left
 
 #. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
 #. Click the :guilabel:`CONTINUE` button.
@@ -116,6 +119,7 @@ Each time you sign in to **Kolibri**, the first thing you will see is the |learn
 
 	.. figure:: img/learn-classes.png
 	  :alt: 
+	  :align: left
 
 Below the list of classes you will see some recommended resources from your classes to continue learning, as well as recent lessons and quizzes assigned in your classes. Select one of your classes to access the full list of :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>`, that teachers or coaches prepared for your class.
 
@@ -125,6 +129,7 @@ Below the list of classes you will see some recommended resources from your clas
 
 	.. figure:: img/exams-lessons.png
 	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
+	  :align: left
 
 .. _library:
 
@@ -138,6 +143,7 @@ Depending on how your school and teachers or coaches decided to organize the mat
 
 	.. figure:: img/channels.png
 	  :alt: 
+	  :align: left
 
 
 Navigate Kolibri folders with breadcrumb links
@@ -147,16 +153,19 @@ When you are browsing through folders in a Kolibri channel, **breadcrumb** links
 
 	.. figure:: img/breadcrumbs.png
 		:alt: 
+		:align: left
 
 If the full length of the breadcrumbs becomes too wide for the width of your display, the more general topics will be hidden. Click the leftmost down arrow button to access them.
 
 	.. figure:: img/breadcrumbs-folded.png
 		:alt: Click the expand more button to reveal folded breadcrumb links.
+		:align: left
 
 When you open any resource or activity in Kolibri, you will see a series of icons in the upper part of the page.
 
 .. figure:: img/resource-topbar.png
 	:alt: Buttons and icons in the resource top bar.
+	:align: left
 
 * |back| (back) button allows you to return to the library
 * type of the resource (video, document, app, etc.)
@@ -185,6 +194,7 @@ When you start doing an exercise, viewing a video, or reading a document, it wil
 
 	.. figure:: img/progress-icons.png
 		:alt: Progress status for each learning material will be indicated together with their title.
+		:align: left
 
 		Progress indicator icons for learning resources.
 
@@ -206,6 +216,7 @@ Independent of the required action (writing an answer yourself or choosing one o
 
     .. figure:: img/get-5-correct.png
 	    :alt: If the exercise requires 5 green check marks, you must provide 5 correct answers one after another.
+	    :align: left
 
 	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
@@ -222,6 +233,7 @@ You can keep track of the total points you have in the upper right corner, near 
 
 	.. figure:: img/points.png
 		:alt: 
+		:align: left
 
 Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
 
@@ -240,6 +252,7 @@ To play videos and listen to audio files in Kolibri you have several available c
 
 	.. figure:: img/video.png
 		:alt: 
+		:align: left
 
 		Kolibri video and audio player.
 
@@ -265,6 +278,7 @@ When a video has captions available, you can choose to view them at the bottom o
    
 .. figure:: img/video-transcript.png
 	:alt: 
+	:align: left
 
 	Kolibri allows you to navigate videos using the captions inside the transcript.	
 
@@ -283,6 +297,7 @@ When a video has captions available, you can choose to view them at the bottom o
 
 	.. figure:: img/pdf.png
 		:alt: 
+		:align: left
 
 
 |readShaded| Ebook viewer options
@@ -300,6 +315,7 @@ To read digital books in Kolibri you have several available controls inside the 
 
 	.. figure:: img/epub.*
 		:alt: 
+		:align: left
 
 Slideshow viewer options
 """"""""""""""""""""""""
@@ -323,6 +339,7 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 
 	.. figure:: img/search.png
 		:alt: Use the select controls to filter the results by channel or type.
+		:align: left
 
 ..  raw:: html
 
@@ -349,6 +366,7 @@ Click on a lesson title to open its materials, and follow the indications of you
 
 	.. figure:: img/learner-lesson-home.png
 		:alt: 
+		:align: left
 
 
 .. _quizzes:
@@ -360,6 +378,7 @@ If your teacher or coach scheduled an |quiz| quiz for you or your class, it will
 
 	.. figure:: img/exams3.png
 		:alt: 
+		:align: left
 
 If the quiz is listed as *Not started*, follow these steps.
 
@@ -368,6 +387,7 @@ If the quiz is listed as *Not started*, follow these steps.
 
 	.. figure:: img/exam-detail.png
 		:alt: 
+		:align: left
 
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
@@ -380,6 +400,7 @@ Once you complete and submit a quiz, it will be marked with the |mastered| (comp
 
 	.. figure:: img/exam-result.png
 		:alt:  
+		:align: left
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.

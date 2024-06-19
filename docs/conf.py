@@ -98,6 +98,10 @@ html_theme = "furo"
 # documentation.
 html_theme_options = {
     "sidebar_hide_name": True,
+    "light_css_variables": {
+#        "color-background-secondary": "#fff3cc30",
+        "color-link": "#4368F5",
+    },
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
