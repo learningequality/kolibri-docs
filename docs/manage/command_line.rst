@@ -56,18 +56,32 @@ For example (``Channel ID`` without angle brackets ``<...>``):
 
 .. warning:: When you import channels from the command line, you still must use the **32 digit channel ID**, as the :ref:`command will not work with the token <id_token>`. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to `Kolibri Studio user guide <https://kolibri-studio.readthedocs.io/en/latest/share_channels.html#make-channels-available-for-import-into-kolibri>`_ how to find it in Studio user interface, if you have channel editor access.
 
-..
-  Commented out because the API is weird and should be fixed
-  
-  Import Content Channels from a Local Drive
-  ------------------------------------------
-  
-  To import content channels from the local drive, run these two commands in sequence. Local drive should have a folder ``KOLIBRI_DATA`` at the root, with Kolibri ``content`` inside.
-  
-  .. code-block:: bash
-  
-    kolibri manage importchannel -- local <Channel ID> /path/to/local/drive
-    kolibri manage importcontent -- local <Channel ID> /path/to/local/drive
+Import channels from local drive
+********************************
+
+To import channels from a local drive (hard disk or an external USB unit, for example), run these two commands in sequence. Drive you are importing from should have a folder ``KOLIBRI_DATA`` at the root, with Kolibri ``content`` inside.
+
+.. code-block:: bash
+
+  kolibri manage importchannel disk <Channel ID> /path/to/local/drive/KOLIBRI_DATA
+  kolibri manage importcontent disk <Channel ID> /path/to/local/drive/KOLIBRI_DATA
+
+
+For example on Linux: 
+
+.. code-block:: bash
+
+  kolibri manage importchannel disk a9b25ac9814742c883ce1b0579448337 /media/MyDrive/KOLIBRI_DATA
+  kolibri manage importcontent disk a9b25ac9814742c883ce1b0579448337 /media/MyDrive/KOLIBRI_DATA
+
+
+Or on Windows:
+
+.. code-block:: bash
+
+  kolibri manage importchannel disk a9b25ac9814742c883ce1b0579448337 Z:\KOLIBRI_DATA
+  kolibri manage importcontent disk a9b25ac9814742c883ce1b0579448337 Z:\KOLIBRI_DATA
+
 
 Import channels from local network
 **********************************
