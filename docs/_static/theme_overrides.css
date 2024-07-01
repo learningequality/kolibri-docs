@@ -11,21 +11,24 @@
      src: url(Figtree-Regular.ttf);
  }
 
+ @font-face {
+     font-family: "Petrona";
+     src: url(Petrona-Regular.ttf);
+ }
 
-/*  Apply FigTree to all headers */
+/*  Apply Petrona to all headers */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "FigTree";
+    font-family: "Petrona";
 }
 
 /*  Apply Plus Jakarta Sans to body text elements */
 body,
-p,
-a {
+p {
     font-family: "Plus Jakarta Sans";
 }
 
