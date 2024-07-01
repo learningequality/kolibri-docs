@@ -47,7 +47,7 @@ On MacOS and Linux, follow these steps to run Kolibri with the ``PEX`` package.
 	  chmod +x kolibri-installer-filename.pex
 	  ./kolibri-installer-filename.pex start
 
-	.. note:: Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.14.0.pex``, type that instead of ``kolibri-installer-filename.pex``. 
+	.. note:: Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.16.0.pex``, type that instead of ``kolibri-installer-filename.pex``. 
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
    
