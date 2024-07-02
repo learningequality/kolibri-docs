@@ -36,10 +36,10 @@ Import and export users from a CSV file
 
 To import and export many users and classes at once you can use an externally generated CSV (comma separated values) file. 
 
-  .. figure:: /img/csv-import-export.png
-    :alt: 
+.. figure:: /img/csv-import-export.png
+  :alt: 
 
-    Import and export users with CSV.
+  Import and export users with CSV.
 
 .. warning:: Importing from CSV will make many changes to your users and classes, and these changes cannot be easily reverted. Read carefully the requirements below, and make sure to verify that the data in your CSV file is accurate and adheres to the format reference. 
 
@@ -68,7 +68,7 @@ The first row must be a header row, and contain the columns:
 
 * **Username** (``USERNAME``) - Required
 
-	Maximum 125 characters. Can contain letters, numbers and underscores.
+  Maximum 125 characters. Can contain letters, numbers and underscores.
 
 * **Password** (``PASSWORD``) - Required
   
@@ -88,12 +88,12 @@ The first row must be a header row, and contain the columns:
   * ``LEARNER``
 
 * **Identifier** (``IDENTIFIER``) - Optional
-	
-	Any identifying string, such as a student ID or email address. Maximum 64 characters.
+
+  Any identifying string, such as a student ID or email address. Maximum 64 characters.
 
 * **Birth year** (``BIRTH_YEAR``) - Optional
 
-	A four-digit year, greater than 1900
+  A four-digit year, greater than 1900
 
 * **Gender** (``GENDER``) - Optional
 
@@ -136,17 +136,17 @@ To import users from a CSV file, follow these steps.
 #. Click the :guilabel:`IMPORT` button to open the **Import users** page.
 #. Click the :guilabel:`Browse` button to select the CSV file with the new user and classes data.
    
-	  .. figure:: /img/import-users-browse-csv.png
-	    :alt:
+   .. figure:: /img/import-users-browse-csv.png
+     :alt:
 
-	    Browse for the CSV file.
+     Browse for the CSV file.
 
 #. Click the :guilabel:`CONTINUE` button to see the summary of changes that will be made.
 
-	  .. figure:: /img/csv-import-review-summary.png
-	    :alt:
+   .. figure:: /img/csv-import-review-summary.png
+     :alt:
 
-	    Review the changes in users and classes.
+     Review the changes in users and classes.
 
 #. Click the :guilabel:`IMPORT` button to finish importing.
 #. When you see the notification that the import was successful, click the :guilabel:`CLOSE` button.
@@ -184,7 +184,7 @@ Follow these steps to register your facility on **KDP** and perform the sync.
 #. Enter the **project token** and click the :guilabel:`CONTINUE` button.
 
    .. figure:: /img/register-facility.png
- 	   :alt:  
+    :alt:  
 
 3. Click the :guilabel:`SYNC` button to synchronize the data from your facility with the project on **Kolibri Data Portal**.
 
@@ -209,4 +209,3 @@ To set up a regular syncing schedule, follow these steps.
 You can configure your device to sync regularly with more than one device. To add a scheduled sync with another device, click the :guilabel:`ADD DEVICE` button and repeat the above steps.
 
 If you need to edit the frequency or the time of previously configured sync, click the :guilabel:`EDIT` button and adjust the values. 
-

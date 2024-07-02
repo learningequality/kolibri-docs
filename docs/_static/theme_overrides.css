@@ -33,6 +33,24 @@ p {
 }
 
 
+div .figure.align-default img {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+article .align-default {
+    text-align: left;
+}
+
+article p.caption {
+    text-align: left;
+}
+
+span.caption-text {
+    font-size: small;
+}
+
 .rst-content .admonition-title::before {
     margin-left: 4px;
 }

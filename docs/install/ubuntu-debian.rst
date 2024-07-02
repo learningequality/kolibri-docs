@@ -85,7 +85,7 @@ The advantages of downloading a ``.deb`` file is the portability: you can copy t
 
    .. note:: If you choose to install Kolibri as a system service, you will not need to start it manually.
 
-#. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
+4. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
 
 
 Uninstall
@@ -119,36 +119,36 @@ To change the system service owner, you need to change the configuration of the 
 
 #. Stop Kolibri.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-  	sudo systemctl stop kolibri
+     sudo systemctl stop kolibri
 
 
 2. Move data to your desktop user.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-  	sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
+  	 sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
 
 
 3. Change ownership.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-  	sudo chown -R $USER /home/$USER/.kolibri
+  	 sudo chown -R $USER /home/$USER/.kolibri
 
 
 4. Change the username configuration.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-  	sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
+  	 sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
 
 5. Start Kolibri again.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-  	sudo systemctl start kolibri
+  	 sudo systemctl start kolibri
 
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
@@ -166,13 +166,13 @@ To install ``kolibri-server`` follow these steps.
 
 #. Run these commands in the Terminal:
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    sudo add-apt-repository ppa:learningequality/kolibri
-    sudo apt-get update
-    sudo apt-get install kolibri-server
+     sudo add-apt-repository ppa:learningequality/kolibri
+     sudo apt-get update
+     sudo apt-get install kolibri-server
 
-  During the installation you will be offered the option to choose the port (8000, 80 or leave the default 8080).
+   During the installation you will be offered the option to choose the port (8000, 80 or leave the default 8080).
 
 2. Restart the system.
 
