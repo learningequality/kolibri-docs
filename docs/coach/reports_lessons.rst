@@ -5,8 +5,6 @@ Lessons
 
 Open the **Lessons** sub-tab from the main |reports| **Reports** view to access the progress reports on resources included in each lesson. 
 
-.. To review past lessons, use the filter to include only the *Inactive* lessons.
-
 ..  raw:: html
 
     <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/-WGVMd_aPyo?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
@@ -18,8 +16,6 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
   
 .. figure:: /img/lessons.*
   :alt: 
-
-.. TO-DO (image)
 
 #. Click on the lesson title to view its list of resources.
 #. In the selected lesson **Report** sub-tab, you can see the clickable list of resources, with their own *progress* and the *average time spent* on.
@@ -39,11 +35,3 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
 
 
       For the rest of the reports the column headings will be the same in an exported CSV file as you can see them in Kolibri.
-
-
-
-
-
-.. TO-DO (image)
-.. figure /img/edit-lesson-from-report.gif
-      :alt: 

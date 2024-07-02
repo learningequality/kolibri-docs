@@ -28,47 +28,47 @@ To import a facility on your device, follow these steps.
 
 #. Any device that has Kolibri running in the local network should appear in the **Select network address** window.
 
-	Select the device and click the :guilabel:`Continue` button.
+   Select the device and click the :guilabel:`Continue` button.
 
-  	.. figure:: /img/import-facility-select-device.png
-	   :alt: 
+   .. figure:: /img/import-facility-select-device.png
+     :alt: 
 
-	   Select the network address of the device from which you want to import a facility.
+	 Select the network address of the device from which you want to import a facility.
 
-		.. note:: If you do not see the address of the device listed, but you know the IP address, you can add it manually. Click the *Add new address* link, and fill in the required information.
+	 .. note:: If you do not see the address of the device listed, but you know the IP address, you can add it manually. Click the *Add new address* link, and fill in the required information.
 
-			.. figure:: /img/import-facility-add-device.png
-				:alt: Add the network address of the device manually.
+	 .. figure:: /img/import-facility-add-device.png
+	   :alt: Add the network address of the device manually.
 
-				Manually add the network address of the device.
+		 Manually add the network address of the device.
 
-#. **Select facility**. If there are several facilities on the source device, select the one you want to import. 
+#. **Select facility**. If there are several facilities on the source device, select the one you want to import.
 
-  	.. figure:: /img/select-facility-to-import.png
-	   :alt: 
+   .. figure:: /img/select-facility-to-import.png
+     :alt:
 
-	   Select the facility you want to import.
+     Select the facility you want to import.
 
 #. **Enter admin credentials**. The credentials (username and password) you provide in this step must be either those for the **facility admin** of the facility you are importing, or for the **super admin** of the device you are importing from.
 
-  	.. figure:: /img/import-facility-admin-creds.png
-	   :alt: 
+   .. figure:: /img/import-facility-admin-creds.png
+     :alt:
 
-	   Enter admin credentials.
+     Enter admin credentials.
 
-#. Wait for the importing facility task to complete. It may take some time, so please be patient. 
-   
-  	.. figure:: /img/import-facility-task.png
-	   :alt: 
+#. Wait for the importing facility task to complete. It may take some time, so please be patient.
 
-	   Facility is successfully imported on your device.
+   .. figure:: /img/import-facility-task.png
+     :alt:
+
+     Facility is successfully imported on your device.
 
 #. When the import process is completed click the *Back to facilities* link and you will see the new facility on the list.
 
-  	.. figure:: /img/new-imported-facility.png
-	   :alt: 
+   .. figure:: /img/new-imported-facility.png
+     :alt:
 
-	   List of the facilities on your device.
+     List of the facilities on your device.
 
 .. _sync_facility:
 
@@ -110,8 +110,8 @@ To remove a facility from the device, follow these steps.
 #. Click the :guilabel:`OPTIONS` button on the right edge of the desired facility.
 #. Select the **Remove** option.
 #. Click the :guilabel:`REMOVE` button in the confirmation window to proceed, or :guilabel:`CANCEL` to exit.
-   
-  	.. figure:: /img/remove-facility.png
-	   :alt: 
+
+   .. figure:: /img/remove-facility.png
+     :alt: 
 
 .. warning:: When you remove a facility you will loose all its data. However,  if you have previously synced it to another device or to the Kolibri Data Portal, you should be able to recover the removed facility data.

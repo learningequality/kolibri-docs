@@ -14,9 +14,9 @@ Troubleshoot network issues
 #. Can you access anything from the :ref:`external IP <access_LAN>` of the device running Kolibri **FROM** the device itself? Read more information :ref:`about IP addresses <ips>`.
 #. Can you ping the external IP address from another device on the network? For example, if Kolibri is on a device/computer with IP address ``192.168.0.104``, type this in the Terminal or Command prompt:
 
-	.. code-block:: bash
+   .. code-block:: bash
 
-	   ping 192.168.0.104
+      ping 192.168.0.104
 
 
 .. _firewalls:
@@ -42,29 +42,29 @@ In case you receive the ``database disk image is malformed`` error in Terminal, 
 
 #. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
 
-    .. code-block:: bash
+   .. code-block:: bash
 
-      cd ~/.kolibri
+     cd ~/.kolibri
 
 #. Create a new directory and save the old database.
 
-    .. code-block:: bash
+   .. code-block:: bash
 
-      mkdir -p malformed
-      cp -b db.sqlite3* malformed/
+     mkdir -p malformed
+     cp -b db.sqlite3* malformed/
 
 #. Create a new database and move it to the active location.
    
-    .. code-block:: bash
+   .. code-block:: bash
 
-      sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
-      mv fixed.db db.sqlite3
+    sqlite3 db.sqlite3 .dump | sqlite3 fixed.db
+    mv fixed.db db.sqlite3
 
 #. Remove temporary database files.
    
-    .. code-block:: bash
+   .. code-block:: bash
 
-      rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
+     rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
 
 #. Start Kolibri.
 
@@ -83,29 +83,29 @@ To apply ``.recover`` on a broken database, open your Terminal and run the follo
 
 #. Open a terminal and change the current working directory to your Kolibri's home folder. Keep the terminal open and continue with the rest of the commands.
 
-    .. code-block:: bash
+   .. code-block:: bash
 
-      cd ~/.kolibri
+     cd ~/.kolibri
 
 #. Create a new directory and save the old database.
 
-    .. code-block:: bash
+   .. code-block:: bash
 
-      mkdir -p malformed
-      cp -b db.sqlite3* malformed/
+     mkdir -p malformed
+     cp -b db.sqlite3* malformed/
 
 #. Apply the ``.restore`` command to the database and move the restored database to the active location. Check the command line outputs for potential errors.
    
-    .. code-block:: bash
+   .. code-block:: bash
 
-      sqlite3 db.sqlite3 .recover | sqlite3 fixed.db
-      mv fixed.db db.sqlite3
+     sqlite3 db.sqlite3 .recover | sqlite3 fixed.db
+     mv fixed.db db.sqlite3
 
 #. Remove temporary database files.
    
-    .. code-block:: bash
+   .. code-block:: bash
 
-      rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
+     rm -f db.sqlite3-* job_storage.sqlite3* notifications.sqlite3* process_cache/cache.db
 
 #. Start Kolibri.
 

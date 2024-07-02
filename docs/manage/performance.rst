@@ -8,16 +8,16 @@ Benchmark
 
 You can use the following command to collect information about the device where Kolibri server is running, and details about how much of its resources it is using. This command displays a snapshot of the server state at the time the command is executed, and its output will vary depending on the current server load. In case you suspect performance problems, type this in the Terminal or Command prompt.
 
-  .. code-block:: bash
+.. code-block:: bash
      
-     kolibri manage benchmark
+   kolibri manage benchmark
 
 The command will have an output similar to this:
 
-  .. figure:: /img/benchmark.png
-      :alt: Command line output of the 'kolibri manage benchmark' command
+.. figure:: /img/benchmark.png
+  :alt: Command line output of the 'kolibri manage benchmark' command
 
-      Command line output of the 'kolibri manage benchmark' command
+  Command line output of the 'kolibri manage benchmark' command
 
 Take a screenshot of the Terminal or Command prompt, or copy and paste the output in the community forum post.
 
@@ -26,15 +26,15 @@ Profile
 
 In order to collect more than a current snapshot of Kolibri server performance, you can use the profiling command. When executed, the command will collect a series of performance indicators every 10 seconds and save them in a CSV file. Type this in the Terminal or Command prompt.
 
-  .. code-block:: bash
+.. code-block:: bash
      
-     kolibri manage profile
+   kolibri manage profile
 
 .. tip:: Command collects and saves the information 60 times by default. If you want to change this value, add the ``--num-samples`` flag with the desired number at the end.
 
-  .. code-block:: bash
+.. code-block:: bash
      
-     kolibri manage profile --num-samples=100
+   kolibri manage profile --num-samples=100
 
 
 Each log line contains this information:

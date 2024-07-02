@@ -28,44 +28,44 @@ To create a new |lesson| lesson, follow these steps.
 1. Click the :guilabel:`NEW LESSON` button.
 2. Fill in the field for the lesson title, description and choose individual learners, groups or the entire class as the recipients. 
 
-  .. figure:: /img/new-lesson.png
-    :alt: 
+   .. figure:: /img/new-lesson.png
+     :alt: 
 
 3. Click :guilabel:`SAVE CHANGES`. In this step, the lesson does not have any learning resources yet, but you can see and edit some options.
 
-  .. figure:: /img/lesson-options.png
-    :alt: New lesson with no resources added; navigate to Options button and click to open it for more actions.
+   .. figure:: /img/lesson-options.png
+     :alt: New lesson with no resources added; navigate to Options button and click to open it for more actions.
 
 4. Click :guilabel:`MANAGE RESOURCES` and select the channel from which you wish to select resources for the lesson.
 
-  .. figure:: /img/select-lesson-resources.png
-    :alt: This window presents a list of channels from which you can choose to add resources to the lesson.
+   .. figure:: /img/select-lesson-resources.png
+     :alt: This window presents a list of channels from which you can choose to add resources to the lesson.
 
 5. Keep navigating the topic tree of the selected channel until you arrive to single resources. Use the checkboxes to select the resources you want to include in the lesson, and you will see a notification at the bottom of the page that the resource has been added.
 
-  .. figure:: /img/select-lesson-resources2.png
-    :alt: 
+   .. figure:: /img/select-lesson-resources2.png
+     :alt: 
 
 6. Use the **Search** feature to look for resources about a specific subject. Write the search term in the field, and press the :guilabel:`ENTER` key or click the |search| (search) button to display the results. When you finish, click the :guilabel:`EXIT SEARCH` button to return to the list of selected resources.
    
-  .. figure:: /img/search-lesson-resources.png
-    :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
+   .. figure:: /img/search-lesson-resources.png
+     :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
 
-    You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
+     You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
 
 
 7. Click the :guilabel:`CLOSE` button to close the **Manage resources** window and return to the main view of the lesson.
 
 8. After you've selected the resources for the lesson, you can:
 
-    * Grab the |dragHorizontal| (drag) button to reorder lesson resources with the mouse (drag and drop).
-    * Use the |chevronUp| (up) and |chevronDown| (down) buttons to reorder by keyboard navigation.
-    * Click the :guilabel:`REMOVE` button to delete a resource.
+   * Grab the |dragHorizontal| (drag) button to reorder lesson resources with the mouse (drag and drop).
+   * Use the |chevronUp| (up) and |chevronDown| (down) buttons to reorder by keyboard navigation.
+   * Click the :guilabel:`REMOVE` button to delete a resource.
 
-      .. figure:: /img/reorder-lesson-resources.png
-        :alt:     
+     .. figure:: /img/reorder-lesson-resources.png
+       :alt:     
 
-    You will see a confirmation notification at the bottom every time you change something in the lesson.
+     You will see a confirmation notification at the bottom every time you change something in the lesson.
 
 9. To add more resources to the same lesson and keep editing if needed, follow the steps 4 to 9 again.
 
@@ -78,8 +78,8 @@ A newly created lesson is by default *not visible to learners*, and they will no
 * Click the **Visible to learners** switch in the summary block to enable learners to see the lesson and interact with its resources.
 * Click the switch again to make the lesson invisible to learners once the designated time had passed.
 
-      .. figure:: /img/lesson-visible.png
-        :alt:
+  .. figure:: /img/lesson-visible.png
+    :alt:
 
 .. note::
   You can also change lesson visiblity from its own **Report**, and the list in the **Reports > Lessons** subtab.

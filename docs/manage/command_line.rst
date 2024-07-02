@@ -5,8 +5,8 @@ Working with Kolibri from the command line
 
 * In Windows you need to open the command prompt, for example by using the :guilabel:`WIN` + :guilabel:`R` shortcut, and then typing ``cmd``.
 
-      .. figure:: /img/cmd.exe.png
-        :alt: 
+  .. figure:: /img/cmd.exe.png
+    :alt: 
 
 * On macOS open Spotlight and type ``Terminal``. You may also need to prefix the commands with ``python -m``, for example ``python -m kolibri start``.
 
@@ -293,30 +293,30 @@ To move the folders with Kolibri channels to another location, follow these step
 
 1. Stop Kolibri.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    kolibri stop
+     kolibri stop
 
 
 2. Create a new folder that will contain all the channels' files and resources on the destination drive.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    kolibri manage content movedirectory <destination>
-
-
-  For example, if you created a new folder ``KolibriChannels`` on an external drive, run this command.
-
-  .. code-block:: bash
-
-    kolibri manage content movedirectory /mnt/my_external_drive/KolibriChannels
+     kolibri manage content movedirectory <destination>
 
 
-  If you are on Windows, and the new folder ``KolibriChannels`` is on the drive ``F:``, run this command.
+   For example, if you created a new folder ``KolibriChannels`` on an external drive, run this command.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    kolibri manage content movedirectory F:\KolibriChannels
+     kolibri manage content movedirectory /mnt/my_external_drive/KolibriChannels
+
+
+   If you are on Windows, and the new folder ``KolibriChannels`` is on the drive ``F:``, run this command.
+
+   .. code-block:: bash
+
+     kolibri manage content movedirectory F:\KolibriChannels
 
 
 3. Restart Kolibri.
@@ -344,9 +344,9 @@ There are many ways to set an environment variable either temporarily or permane
 #. Move the ``.kolibri`` folder to the new location.
 #. Run the following in Terminal:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-  KOLIBRI_HOME=/path/to/new/home kolibri start
+     KOLIBRI_HOME=/path/to/new/home kolibri start
 
 When you start the server again, all your files should be seamlessly detected at that location.
 
@@ -356,9 +356,9 @@ To change the environment variable ``KOLIBRI_HOME`` on **Windows**, follow these
 #. Move the ``.kolibri`` folder to the new location.
 #. Run the following in Command Prompt:
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-    setx KOLIBRI_HOME "/path/to/new/home"
+     setx KOLIBRI_HOME "/path/to/new/home"
 
 Restart the server, and your files should be seamlessly detected at the new location.
 
@@ -369,7 +369,7 @@ Alternatively, you can follow these steps in the GUI.
 #. Under **User Variables for...** press the :guilabel:`New...` button.
 #. Input ``KOLIBRI_HOME`` in the **Variable name** field, and your new path in the **Variable value** field, and press :guilabel:`OK` on both open windows.
 
-    .. figure:: /img/env-vars.png
-      :alt: 
+   .. figure:: /img/env-vars.png
+     :alt: 
 
 #. Restart Kolibri.
