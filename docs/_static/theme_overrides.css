@@ -32,6 +32,9 @@ p {
     font-family: "Plus Jakarta Sans";
 }
 
+body .sidebar-tree {
+    font-family: "Petrona";
+}
 
 div .figure.align-default img {
     text-align: left;
