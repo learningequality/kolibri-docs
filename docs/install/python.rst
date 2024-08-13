@@ -12,15 +12,15 @@ You can install Kolibri as a standard package from PyPi (works on Mac, Windows, 
 
 #. Install for your current user.
 
-	.. code-block:: bash
-	  
-	  pip install --user kolibri
+   .. code-block:: bash
+     
+     pip install --user kolibri
 
 #. Install system-wide (for all users).
 
-	.. code-block:: bash
+   .. code-block:: bash
 	  
-	  sudo pip install kolibri
+     sudo pip install kolibri
 
 After Kolibri has been installed from PyPi, a new ``kolibri`` command should be available in your Terminal application.
 
@@ -35,19 +35,19 @@ On MacOS and Linux, follow these steps to run Kolibri with the ``PEX`` package.
 #. Download the `PEX installer <https://learningequality.org/download/>`_ for Kolibri **version** |version-b|. 
 #. Make sure to **open the Terminal where you downloaded** the ``PEX`` file. For example, if you saved it in the *Downloads* folder, type this when you open the Terminal, and press Enter:
 
-	.. code-block:: bash
+   .. code-block:: bash
 
-	  cd Downloads
+     cd Downloads
 
 #. Type the following commands next (press Enter after each one). 
 
 
-	.. code-block:: bash
+   .. code-block:: bash
 
-	  chmod +x kolibri-installer-filename.pex
-	  ./kolibri-installer-filename.pex start
+     chmod +x kolibri-installer-filename.pex
+     ./kolibri-installer-filename.pex start
 
-	.. note:: Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.16.0.pex``, type that instead of ``kolibri-installer-filename.pex``. 
+   .. note:: Make sure to **substitute the** ``kolibri-installer-filename.pex`` **with the exact name of the file you downloaded** in both commands. For example, if the name of the downloaded file is ``kolibri-v0.16.0.pex``, type that instead of ``kolibri-installer-filename.pex``. 
 
 #. When the command finishes, open the default browser at http://127.0.0.1:8080 and proceed with the :ref:`setup_initial` of your facility. 
    

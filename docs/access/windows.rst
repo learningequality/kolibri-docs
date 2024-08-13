@@ -13,10 +13,10 @@ Kolibri taskbar options
 
 While it is running, **Kolibri** will display an icon in the Windows taskbar (usually at bottom right, near the clock), that allows you to stop it and configure other settings.  
 
-    .. figure:: ../img/taskbar-options.png
-     :alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
+.. figure:: ../img/taskbar-options.png
+  :alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
 
-     Kolibri taskbar options.
+  Kolibri taskbar options.
 
 
 * Use the **Load in browser** option to open Kolibri in the browser.

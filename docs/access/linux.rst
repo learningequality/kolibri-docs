@@ -13,18 +13,18 @@ Starting Kolibri on Linux will differ depending on the method you used to instal
 
   1. Run this command in Terminal to **start Kolibri**:
 
-    .. code-block:: bash
+     .. code-block:: bash
 
-      kolibri start
+       kolibri start
       
 
   2. Open the default browser at ``http://127.0.0.1:8080``, and it will display the **Kolibri** start page.
 
-    .. note::
-      Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri**.
+     .. note::
+       Remember to :ref:`configure other computers <access_LAN>` in the network to access **Kolibri**.
 
   3. Run this command in Terminal to **stop Kolibri**:
 
-    .. code-block:: bash
+     .. code-block:: bash
 
-      kolibri stop
+       kolibri stop
