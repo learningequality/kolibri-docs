@@ -35,7 +35,7 @@ To create a new user account, follow these steps.
 #. Add demographic data (optional).
 #. Click :guilabel:`SAVE` to add the new user.
 
-.. figure:: /img/add-new-account.png
+.. .. figure:: /img/add-new-account.png
   :alt: 
 
 	Add new user account.

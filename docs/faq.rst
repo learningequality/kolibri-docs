@@ -103,7 +103,7 @@ Both Kolibri and `Kolibri Studio <https://studio.learningequality.org/>`_ are tr
 | Vietnamese                | ✓               |                 |
 +---------------------------+-----------------+-----------------+
 
-To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <https://learningequality.org/translate/>`_.
+.. To contribute to Kolibri and Kolibri Studio as a translator, you can get started over on our `translations and internationalization page <https://learningequality.org/translate/>`_.
 
 What are some typical implementation scenarios?
 -----------------------------------------------

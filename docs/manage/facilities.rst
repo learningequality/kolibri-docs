@@ -30,14 +30,14 @@ To import a facility on your device, follow these steps.
 
    Select the device and click the :guilabel:`Continue` button.
 
-   .. figure:: /img/import-facility-select-device.png
+   .. .. figure:: /img/import-facility-select-device.png
      :alt: 
 
 	 Select the network address of the device from which you want to import a facility.
 
 	 .. note:: If you do not see the address of the device listed, but you know the IP address, you can add it manually. Click the *Add new address* link, and fill in the required information.
 
-	 .. figure:: /img/import-facility-add-device.png
+	 .. .. figure:: /img/import-facility-add-device.png
 	   :alt: Add the network address of the device manually.
 
 		 Manually add the network address of the device.

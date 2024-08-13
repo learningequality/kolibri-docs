@@ -10,7 +10,7 @@ Learner
 
 **Learners** have access to the |learn| **Learn** dashboard with the tabs |dashboard| **Home**, |library| **Library**, and |bookmark| **Bookmark**.
 
-.. figure:: /img/navbar-learner.png
+.. .. figure:: /img/navbar-learner.png
   :alt:
 
 Learners can:
@@ -22,7 +22,7 @@ Coach
 
 **Coaches** have access to the same tabs as learners, but they also have permissions to access the |coach| **Coach** dashboard with the tabs |dashboard| **Class Home**, |reports| **Reports**, and |edit| **Plan**.
 
-.. figure:: /img/navbar-coach.png
+.. .. figure:: /img/navbar-coach.png
   :alt:
 
 Coaches can:
@@ -44,7 +44,7 @@ Facility admin
 
 **Facility admins** have access to the same tabs as learners and coaches, but they also have permissions to access the |facility| **Facility** dashboard with tabs |classes| **Classes**, |people| **Users**, |settings| **Settings**, and |data| **Data**.
 
-.. figure:: /img/navbar-admin.png
+.. .. figure:: /img/navbar-admin.png
   :alt: 
 
 Admins can:
@@ -69,7 +69,7 @@ Super admin
 
 Kolibri **super admin** users have access to the same tabs as learners, coaches, and facility admins, but they also have permissions to access the |device| **Device** dashboard with tabs |channel| **Channels**, |permissions| **Permissions**, |facility| **Facilities**, |deviceInfo| **Info**, and |settings| **Settings**. Super admins have all device permissions, and are able to :ref:`assign them to other users <permissions>`. 
 
-.. figure:: /img/navbar-superadmin.png
+.. .. figure:: /img/navbar-superadmin.png
   :alt: 
 
 Super admin users can:

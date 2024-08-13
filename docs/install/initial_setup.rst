@@ -47,8 +47,7 @@ To do the initial setup of Kolibri for use at home, follow these steps.
 
 		 Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.
 
-
-   .. figure:: /img/super-admin.png
+   .. .. figure:: /img/super-admin.png
 	   :alt:  
 
 		 Select the username and password for the super admin.
@@ -120,7 +119,7 @@ Create a new learning facility
 
 #. **Enable passwords for learners**. Simplified sign-in, without the password requirement, allows easier access for younger learners.
 
-   .. figure:: /img/enable-passwords.png
+   .. .. figure:: /img/enable-passwords.png
      :alt: Step 4 of 5.
 
 	    Select if learners must type in their passwords to sign in on Kolibri.

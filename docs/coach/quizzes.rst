@@ -6,7 +6,7 @@ Manage quizzes
 
 You can view, create and delete quizzes, as well as assign them to learners, using the **Quizzes** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. The default view displays the list of all quizzes in a selected class, with indicators of their visibility status and groups they are assigned to.
 
-.. figure:: /img/manage-quizzes.png
+.. .. figure:: /img/manage-quizzes.png
   :alt: 
 
 .. note::
@@ -27,14 +27,14 @@ To create a new |quiz| quiz, click the :guilabel:`NEW QUIZ` button.
 * Adjust the number of questions you want the quiz to contain. You can use the arrow field value modifiers with the mouse, or :guilabel:`-` and :guilabel:`+` buttons if you are using the keyboard.  
 * Navigate through the topic tree and activate checkboxes of those exercises you want to include in the quiz.
 
-  .. figure:: /img/add-content-exam.png
+  .. .. figure:: /img/add-content-exam.png
     :alt: 
 
   As you keep adding and removing the exercises you will see confirmation messages at the bottom.
 
 * Use the **Search** feature to look for topics and exercises about a specific subject. Write the search term in the field, press the :guilabel:`ENTER` key or click the |search| (search) button to display the results. 
    
-  .. figure:: /img/search-exam-resources.png
+  .. .. figure:: /img/search-exam-resources.png
     :alt: There are 3 filters available to refine the search; click to open each and select one of the options.
 
   You can filter the search results by *type* of resource (exercise or topic), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`. Click :guilabel:`EXIT SEARCH` button to return to main quiz view.
@@ -82,7 +82,7 @@ Newly created quizzes are by default *not started*, meaning that learners will n
 
 * Click the :guilabel:`END QUIZ` button once the designated time had passed, and you want to stop learners from interacting with it.
   
-  .. figure:: /img/start-end-quiz.png
+  .. .. figure:: /img/start-end-quiz.png
     :alt: 
 
 .. note::

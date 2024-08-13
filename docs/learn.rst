@@ -26,7 +26,7 @@ To sign in to **Kolibri** and start learning, follow these steps:
 
 #. Click the :guilabel:`SIGN IN` button if you already have an account and the username.
 
-.. figure:: img/login-modal.png
+.. .. figure:: img/login-modal.png
 	:alt: Input your username and password (if required) on the main sign in page.
 
 	Main Kolibri sign in page.
@@ -35,7 +35,7 @@ If you have used the same device before, you may see the field to directly type 
 
 If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
 
-.. figure:: img/login-modal-facility.png
+.. .. figure:: img/login-modal-facility.png
   :alt: 
 
   Select facility on the Kolibri sign in page.
@@ -45,7 +45,7 @@ If the device you are using has more than one facility, you will have to select 
 
 .. warning:: If you start browsing Kolibri as a guest, you need to select **Sign in** option from the **Guest** menu in the upper right corner.
    
-   .. figure:: img/learn-page-signin.png
+   .. .. figure:: img/learn-page-signin.png
 		 :alt: Open the sidebar to access the sign in link.
 
 		 "Sign in" link in the sidebar.
@@ -55,7 +55,7 @@ If the device you are using has more than one facility, you will have to select 
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
-.. figure:: img/update-profile.png
+.. .. figure:: img/update-profile.png
   :alt:	 
 
 .. note::
@@ -108,7 +108,7 @@ Home
 
 Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Home** page with the list of all the |classes| classes you are enrolled to. 
 
-.. figure:: img/learn-classes.png
+.. .. figure:: img/learn-classes.png
   :alt: 
 
 Below the list of classes you will see some recommended resources from your classes to continue learning, as well as recent lessons and quizzes assigned in your classes. Select one of your classes to access the full list of :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>`, that teachers or coaches prepared for your class.
@@ -116,7 +116,7 @@ Below the list of classes you will see some recommended resources from your clas
 .. note::
    When you arrive to your school or the learning center, new lessons and quizzes assigned to your class may take some time to sync with your own device, in order for you to start interacting with them. Please be patient and wait for the sync to finish. 
 
-.. figure:: img/exams-lessons.png
+.. .. figure:: img/exams-lessons.png
   :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
 
 .. _library:
@@ -129,7 +129,7 @@ Use the |library| **Library** tab to navigate through the channels with learning
 
 Depending on how your school and teachers or coaches decided to organize the materials, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the resources from each available channel.
 
-.. figure:: img/channels.png
+.. .. figure:: img/channels.png
   :alt: 
 
 
@@ -214,7 +214,7 @@ Every time you complete a resource (finish viewing a video, reading a document, 
 
 You can keep track of the total points you have in the upper right corner, near the |person| user menu.
 
-.. figure:: img/points.png
+.. .. figure:: img/points.png
 	:alt: 
 
 Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
@@ -314,7 +314,7 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 #. Filter the search results by type of activity, language or channel.
 #. Reset the filters by clicking the **Clear all** link.
 
-   .. figure:: img/search.png
+   .. .. figure:: img/search.png
 		 :alt: Use the select controls to filter the results by channel or type.
 
 
@@ -341,7 +341,7 @@ Your teacher or coach may prepare a |lesson| lesson, a recommended set of learni
 
 Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 
-.. figure:: img/learner-lesson-home.png
+.. .. figure:: img/learner-lesson-home.png
 	:alt: 
 
 
@@ -352,7 +352,7 @@ Quizzes
 
 If your teacher or coach scheduled an |quiz| quiz for you or your class, it will be available in the |classes| **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
-.. figure:: img/exams3.png
+.. .. figure:: img/exams3.png
 	:alt: 
 
 

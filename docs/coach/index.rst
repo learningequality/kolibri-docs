@@ -7,7 +7,7 @@ You can track progress of the **Learners**, create and assign **Lessons** and **
 
 Click on a class to access the progress-tracking features and create lessons, quizzes and groups.
 
-.. figure:: /img/coach-home.png
+.. .. figure:: /img/coach-home.png
   :alt: Open the Coach page to view the list of classes
 
   Choose one of the classes from this view to access the Kolibri coach features.
@@ -22,7 +22,7 @@ Class home
 
 On the |dashboard| **Class Home** tab you can see the overview of the class activity and track progress of the learners on lessons and quizzes assigned to them.
 
-.. figure:: /img/class-home.png
+.. .. figure:: /img/class-home.png
   :alt: Open the Coach page to view the list of classes
 
   Class Home presents an overview of learner progress and activity.
@@ -35,7 +35,7 @@ To view the currently connected learner devices and check how recently they have
 #. Click the *View learners* link under the class name.
 #. Review which learner devices are connected to the central Kolibri server, and when did they last synced the progress activity.
 
-   .. figure:: /img/view-learners.png
+   .. .. figure:: /img/view-learners.png
      :alt:
 
      Review the sync status of the learner devices.
@@ -102,7 +102,7 @@ Kolibri presents actionable reports for each lesson and quiz the class learners 
   reports_learners
 
 
-.. figure:: /img/class-reports.*
+.. .. figure:: /img/class-reports.*
   :alt: Open the Reports tab to track detailed learner progress
 
 
