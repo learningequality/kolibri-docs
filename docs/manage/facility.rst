@@ -20,17 +20,17 @@ You can edit facility configuration settings in Kolibri from the |settings| **Se
 
 #. Activate the options you want to make available for the users of your facility. You have the possibility to allow users to:
 
-	* edit their full names and usernames
-	* sign in without password (only learners)
-	* download resources (videos, documents, etc.) on their own devices 
-	* create accounts on your facility 
+   * edit their full names and usernames
+   * sign in without password (only learners)
+   * download resources (videos, documents, etc.) on their own devices 
+   * create accounts on your facility 
 	
 #. Click :guilabel:`SAVE CHANGES` to apply and finish.
 
-    .. figure:: /img/manage-facility.png
-      :alt: Open Facility page, navigate to Settings tab, and use the checkboxes to activate or deactivate the available options.
+   .. figure:: /img/manage-facility.png
+     :alt: Open Facility page, navigate to Settings tab, and use the checkboxes to activate or deactivate the available options.
 
-      Manage facility configuration settings.
+     Manage facility configuration settings.
 
 Rename facility
 ***************

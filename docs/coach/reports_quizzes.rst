@@ -29,29 +29,28 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
    
 #. When you click a name of a single learner, you can see the full report for each answer. This can help you understand which questions learners had difficulties answering correctly, and how many attempts they used.
   
-    * |correct| green check mark icon indicates the **correct** answer
-    * |incorrectReport| red X mark icon indicates the **incorrect** answer
-    * |delete| gray X mark icon indicates an **unanswered** question
+   * |correct| green check mark icon indicates the **correct** answer
+   * |incorrectReport| red X mark icon indicates the **incorrect** answer
+   * |delete| gray X mark icon indicates an **unanswered** question
 
-      .. figure:: /img/exam-report-detail.png
-        :alt: 
+     .. figure:: /img/exam-report-detail.png
+       :alt: 
+
+.. _exercise_progress:
 
 #. Click on the attempt icons to see the answers for each one. In the screenshot above learner **Abby L.** had 3 attempts on *Question 8*: the first one was incorrect, the second one (selected) was correct, but the third and finally submitted one was incorrect.
 
-    .. _exercise_progress:
-
-    .. note:: 
-      
-      **Review Exercise Progress**
+   .. note:: **Review Exercise Progress**
 
       When a learner completes the questions of an exercises, the progress bar below the exercise will show the most recent and correct answers. In order for the exercise to be considered completed, the learner must complete the required number of correct answers (*check marks*) **in the row**.
 
-        .. figure:: /img/get-5-correct.png
-            :alt: If the exercise requires 5 correct check marks, learner must provide 5 correct answers one after another. Marks for each answer are located behind the button Check
+      .. figure:: /img/get-5-correct.png
+        :alt: If the exercise requires 5 correct check marks, learner must provide 5 correct answers one after another. Marks for each answer are located behind the button Check
 
-            The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
+        The correct answers (green check marks) in the image above are not in a row; this exercise will be completed only after the learner gives 5 correct answers one after another.
 
 #. Click the :guilabel:`OPTIONS` button and select **Preview** or **Edit details** option if you want to view or edit the quiz details directly from its report. Editing the quiz details from here will have the same results as from the |edit| **Plan** tab.
+
 #. Use the |print| (print) and |download| (download) buttons to print the quiz report on paper, save it in a PDF format, or export as a CSV file.
 
    .. note:: 

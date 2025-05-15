@@ -6,8 +6,8 @@ Manage groups
 
 In case you need to further divide learners inside classes, for example to address the different progress needs, you can use the **groups** feature. Create and delete groups, as well as assign learners to them from the |group| **Groups** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. Default view displays the list of all groups for the selected class, with the number of assigned learners for each group.
 
-	.. figure:: /img/groups.png
-	  :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.
+.. .. figure:: /img/groups.png
+  :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.
 
 .. note::
   To manage Kolibri groups you must sign in as **coach**, **admin** or **super admin**.
@@ -34,11 +34,11 @@ Enroll learners in a group
 #. Click to open the desired group in the **Groups** sub-tab.
 #. Click the :guilabel:`ENROLL LEARNERS` button.
 
-    * List in this view contains all the learners currently **not** enrolled in the selected group.
-    * You can search for a specific learner by name.
+   * List in this view contains all the learners currently **not** enrolled in the selected group.
+   * You can search for a specific learner by name.
       
-      .. figure:: /img/learner-groups.png
-	    :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.		
+     .. figure:: /img/learner-groups.png
+	     :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.		
 
 
 #. Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll in the group.

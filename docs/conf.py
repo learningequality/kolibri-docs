@@ -9,7 +9,7 @@ import os
 import sys
 from datetime import datetime
 
-import sphinx_rtd_theme
+# import sphinx_rtd_theme
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # IMPORTANT! KEEP THIS UPDATED TO REFLECT WHICH VERSION THESE DOCS ARE WRITTEN
@@ -29,7 +29,7 @@ cwd = os.getcwd()
 extensions = [
     "sphinx.ext.todo",
 #    "sphinx.ext.autodoc",
-    "sphinx_rtd_theme",
+#    "sphinx_rtd_theme",
     "notfound.extension",
 ]
 
@@ -87,16 +87,22 @@ pygments_style = "sphinx"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = "default"
-on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+# on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
+html_theme = "furo"
+# html_theme_path = [".", sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {}
+html_theme_options = {
+    "sidebar_hide_name": True,
+    "light_css_variables": {
+#        "color-background-secondary": "#fff3cc30",
+        "color-link": "#4368F5",
+    },
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -122,29 +128,14 @@ html_favicon = "logo.ico"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+html_css_files = [
+         'theme_overrides.css',  # custom stylesheet
+]
+
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
 html_extra_path = ["extras"]
-
-# This should be commented back in for wide tables
-# See: https://github.com/rtfd/readthedocs.org/issues/2116
-# and: https://github.com/rtfd/sphinx_rtd_theme/pull/432
-
-# html_context = {
-#     'css_files': [
-#         '_static/theme_overrides.css',  # override wide tables in RTD theme
-#     ],
-# }
-
-# Approach for custom stylesheet:
-# adapted from: http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
-# and https://github.com/altair-viz/altair/pull/418/files
-# https://github.com/rtfd/sphinx_rtd_theme/issues/117
-def setup(app):
-    # Add our custom CSS overrides
-    app.add_css_file("theme_overrides.css")
-
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.

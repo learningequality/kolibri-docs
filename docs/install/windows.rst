@@ -25,13 +25,12 @@ Install
 #. Once the installation finishes, Kolibri will auto-start and open in the default browser on your computer at http://127.0.0.1:8080. This may take a moment, so please be patient.
 #. Proceed with the :ref:`setup_initial` of your facility.
 
-.. warning::
-  Windows firewall will prompt you to allow the Python process needed to run Kolibri. Click **Allow access** to accept and proceed.
+.. warning:: Windows firewall will prompt you to allow the Python process needed to run Kolibri. Click **Allow access** to accept and proceed.
 
-	.. figure:: /img/windows-firewall.png
-	 :alt: Windows security alert window that opens when Windows firewall needs your permission to allow the Python process, needed to run Kolibri, to be executed on your computer.
+	 .. figure:: /img/windows-firewall.png
+	  :alt: Windows security alert window that opens when Windows firewall needs your permission to allow the Python process, needed to run Kolibri, to be executed on your computer.
 
-	 Allow the Python process needed to run Kolibri.
+	  Allow the Python process needed to run Kolibri.
 
 
 Uninstall

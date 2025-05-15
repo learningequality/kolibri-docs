@@ -5,16 +5,15 @@ Users
 
 You can search for, filter, add, and edit user accounts in Kolibri from the |people| **Users** tab in your |facility| **Facility** dashboard.
 
-	.. figure:: /img/manage-users.png
-	   :alt: Open Facility page and navigate to Users tab to see the the list of all the users, and access the options to manage them.
-
+.. figure:: /img/manage-users.png
+  :alt: Open Facility page and navigate to Users tab to see the the list of all the users, and access the options to manage them.	
 
 .. note::  If you have more than one facility on the device, you must first select a facility. Click on the name of the facility from the list to access its users.
 
-  .. figure:: /img/select-facility.png
-    :alt: After clicking the Facility option in the sidebar, select which one you want to work on.
+.. figure:: /img/select-facility.png
+  :alt: After clicking the Facility option in the sidebar, select which one you want to work on.
 
-    Select a facility to access its users.
+  Select a facility to access its users.
 
 Remember that to manage Kolibri users you must sign in as **admin** or **super admin**.
 
@@ -36,10 +35,10 @@ To create a new user account, follow these steps.
 #. Add demographic data (optional).
 #. Click :guilabel:`SAVE` to add the new user.
 
-		.. figure:: /img/add-new-account.png
-		  :alt: 
+.. .. figure:: /img/add-new-account.png
+  :alt: 
 
-		  Add new user account.
+	Add new user account.
 
 
 Coach type
@@ -50,8 +49,8 @@ When you create a new *Coach* user account, or change the type (role) to *Coach*
 * **Class coach**, that will have access to the coach dashboard and permissions to instruct ONLY the learners in the classes they are assigned to.
 * **Facility coach**, that will have access to the coach dashboard and permissions to instruct ALL the classes and the learners in the facility.
 
-		.. figure:: /img/coach-type.png
-		  :alt: Use the radio buttons to choose between class coach and facility coach.
+.. figure:: /img/coach-type.png
+  :alt: Use the radio buttons to choose between class coach and facility coach.
 
 
 Select users by type
@@ -60,8 +59,8 @@ Select users by type
 #. Click to open the selector under **User type** to see filtering options. **All** users are displayed by default.
 #. Toggle between options (learners, coaches, admins, super admins) to display the users according to type.
 
-	.. figure:: /img/select-users.png
-	  :alt: 
+.. figure:: /img/select-users.png
+  :alt: 
 
 
 Edit user’s account
@@ -73,8 +72,8 @@ To edit username, full name or account type, follow these steps.
 #. Edit **Full name**, **Username**, **User type**, **Identifier**, **Birth year** and **Gender** in the **Edit user details** window.
 #. Click :guilabel:`SAVE` to update the edited information, or :guilabel:`CANCEL` to exit without saving.
 
-	.. figure:: /img/edit-account-info.png
-	  :alt: 
+.. figure:: /img/edit-account-info.png
+  :alt: 
 
 
 Reset user’s password
@@ -84,8 +83,8 @@ Reset user’s password
 #. Enter the new password in both fields in the **Reset user password** window.
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without changing the password.
 
-	.. figure:: /img/edit-password.png
-	  :alt: 
+.. figure:: /img/edit-password.png
+  :alt: 
 
 
 Delete user’s account
@@ -94,8 +93,8 @@ Delete user’s account
 #. Click the :guilabel:`OPTIONS` for the desired user and select the **Delete** option.
 #. Click :guilabel:`DELETE` to confirm, or :guilabel:`CANCEL` to exit without deleting the account.
 
-	.. figure:: /img/delete-account-confirm.png
-	  :alt: 
+.. figure:: /img/delete-account-confirm.png
+  :alt: 
 
 .. warning::
   When you delete a user, all the records of their progress and interactions with the resources will be erased from the database.

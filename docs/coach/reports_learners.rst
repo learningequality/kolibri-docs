@@ -10,7 +10,7 @@ Open the **Learners** sub-tab from the main |reports| **Reports** view to access
 #. In the **Activity** sub-tab you can review their activity on resources assigned.
 #. Use the |print| (print) and |download| (download) buttons to print the report on paper, save it in a PDF format, or export as a CSV file.   
 
-.. figure:: /img/learners.*
+.. .. figure:: /img/learners.*
   :alt: 
 
 .. TO-DO (image)

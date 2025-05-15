@@ -1,27 +1,3 @@
-.. raw:: html
-
-    <style>
-        .row {clear: both}
-
-        @media only screen and (min-width: 1000px),
-               only screen and (min-width: 500px) and (max-width: 768px){
-
-            .column {
-                padding-left: 5px;
-                padding-right: 5px;
-                float: left;
-            }
-
-            .column3  {
-                width: 33.3%;
-            }
-
-            .column2  {
-                width: 50%;
-            }
-        }
-    </style>
-
 
 Kolibri User Guide
 ==================
@@ -30,13 +6,10 @@ Kolibri User Guide
 
 Kolibri can serve high quality education materials from several publicly available **channels**, collections of educational resources (exercises, videos, audio or document files) and associated metadata, prepared and organized for their use in Kolibri. It works in conjunction with `Kolibri Studio <https://studio.learningequality.org>`_, the curriculum tool used to organize resources and build custom channels, aligned to the local curricula, or according to specific learning needs.
 
-   .. figure:: img/content-channels-logos.png
-      :alt: Logos of several publicly available collections of learning resources that can be used with Kolibri.
+.. figure:: img/content-channels-logos.png
+  :alt: Logos of several publicly available collections of learning resources that can be used with Kolibri.
 
-      Some of the publicly available learning resources that you can use with Kolibri.
-
-
-.. rst-class:: clearfix row
+  Some of the publicly available learning resources that you can use with Kolibri.
 
 
 .. toctree::
@@ -53,7 +26,6 @@ Kolibri can serve high quality education materials from several publicly availab
    contact
 
 
-.. rst-class:: column column2
 
 :ref:`Learners and students<learn>`
 ***********************************
@@ -61,15 +33,11 @@ Kolibri can serve high quality education materials from several publicly availab
 Whether you are using Kolibri at your school, in a training center or at home, learn how to :ref:`open <access_learner>` it on your device, what kind of :ref:`materials and activities <content_types>` can you work with, and how to submit :ref:`quizzes <quizzes>` created by your coaches or tutors.
 
 
-.. rst-class:: column column2
-
 :ref:`Coaches and teachers <coach>`
 ***********************************
 
 Read how to :ref:`monitor activity and track the progress <track_progress>` of your learners all the way to single answers to particular questions. Create and :ref:`manage different learner groups <manage_groups>`, :ref:`assign lessons <manage_lessons>`, administer :ref:`quizzes <manage_quizzes>` and view reports.
 
-
-.. rst-class:: clearfix row
 
 :ref:`Administrators <manage>`
 ******************************
@@ -78,7 +46,3 @@ Begin by reading how to :ref:`install <install>` and :ref:`start <access>` Kolib
 :ref:`troubleshoot network issues <network>`, and ask for support on our :ref:`Community Forums <contact>`.
 
 Happy learning with Kolibri!
-
-
-.. image:: img/kolibri-use-cases.png
-  :alt: 

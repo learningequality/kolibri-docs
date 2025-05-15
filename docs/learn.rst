@@ -26,43 +26,37 @@ To sign in to **Kolibri** and start learning, follow these steps:
 
 #. Click the :guilabel:`SIGN IN` button if you already have an account and the username.
 
-	.. figure:: img/login-modal.png
-	  :alt: Input your username and password (if required) on the main sign in page.
+.. .. figure:: img/login-modal.png
+	:alt: Input your username and password (if required) on the main sign in page.
 
-	  Main Kolibri sign in page.
+	Main Kolibri sign in page.
 
-	If you have used the same device before, you may see the field to directly type in your username and password (if required) on the main sign in page.
+If you have used the same device before, you may see the field to directly type in your username and password (if required) on the main sign in page.
 
-	If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
+If the device you are using has more than one facility, you will have to select the facility (for example you school name) that your account is associated with, and only then input your username and password (if required). 
 
-	.. figure:: img/login-modal-facility.png
-	  :alt: 
+.. .. figure:: img/login-modal-facility.png
+  :alt: 
 
-	  Select facility on the Kolibri sign in page.
+  Select facility on the Kolibri sign in page.
 
 
 .. _sign_in_page:
 
-.. warning::
-   If you start browsing Kolibri as a guest, you need either to select **Sign in** option from the **Guest** menu in the upper right corner, or from the sidebar menu (left or bottom) to open the sign-in page.
+.. warning:: If you start browsing Kolibri as a guest, you need to select **Sign in** option from the **Guest** menu in the upper right corner.
+   
+   .. .. figure:: img/learn-page-signin.png
+		 :alt: Open the sidebar to access the sign in link.
 
-	.. figure:: img/learn-page-signin.png
-	  :alt: Open the sidebar to access the sign in link.
+		 "Sign in" link in the sidebar.
 
-	  "Sign in" link in the sidebar.
-
-
-	.. figure:: img/learn-page-signin2.png
-	  :alt: Open the user menu to access the sign in link.
-
-	  "Sign in" link in the user menu.
 
 .. _profile:
 
 Once you have signed in to Kolibri, you can see and edit your user data from the **Profile** option: access it from the main sidebar menu (below |learn| **Learn**), or from the user menu.
 
-	.. figure:: img/update-profile.png
-	  :alt: 
+.. .. figure:: img/update-profile.png
+  :alt:	 
 
 .. note::
    If your account has been created prior to version 0.13 of Kolibri, you will see a notification that you can update your profile to provide your birth year and gender. This information is optional, and you can choose not to provide it. 
@@ -88,8 +82,8 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 #. Click the :guilabel:`CREATE AN ACCOUNT` button on :ref:`Kolibri sign in page <sign_in_page>`. 
 #. Type in your chosen username and password (twice).
 #. If there is more than one facility on the server device, make sure that the one where you want to create an account is visible under the *Facility* heading. If it is not, use the browser *back* button, and select the correct facility first.
-		
-		.. figure:: img/create-account.png
+
+   .. figure:: img/create-account.png
 		 :alt: 
 
 #. Click the *Usage and privacy* link to read more information about who will have access to your personal information.
@@ -99,8 +93,8 @@ To create your own account on a **Kolibri** facility and start learning, follow 
 
 When page reloads you will see the Learn page with Kolibri channels.
 
-	.. tip::
-	  Make sure to remember your username and password, or save them in a safe place!
+.. tip::
+   Make sure to remember your username and password, or save them in a safe place!
 
 
 Learn with Kolibri
@@ -109,22 +103,21 @@ Learn with Kolibri
 .. _learn_home:
 
 
-Learn home
-**********
+Home
+****
 
-Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Learn home** page with the list of all the |classes| classes you are enrolled to. 
+Each time you sign in to **Kolibri**, the first thing you will see is the |learn| **Home** page with the list of all the |classes| classes you are enrolled to. 
 
-	.. figure:: img/learn-classes.png
-	  :alt: 
+.. .. figure:: img/learn-classes.png
+  :alt: 
 
 Below the list of classes you will see some recommended resources from your classes to continue learning, as well as recent lessons and quizzes assigned in your classes. Select one of your classes to access the full list of :ref:`lessons <lessons>` and :ref:`quizzes <quizzes>`, that teachers or coaches prepared for your class.
 
-	.. note::
-	  When you arrive to your school or the learning center, new lessons and quizzes assigned to your class may take some time to sync with your own device, in order for you to start interacting with them. Please be patient and wait for the sync to finish. 
+.. note::
+   When you arrive to your school or the learning center, new lessons and quizzes assigned to your class may take some time to sync with your own device, in order for you to start interacting with them. Please be patient and wait for the sync to finish. 
 
-
-	.. figure:: img/exams-lessons.png
-	  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
+.. .. figure:: img/exams-lessons.png
+  :alt: In each class you are enrolled to you may find one or more lessons and quizzes.
 
 .. _library:
 
@@ -136,8 +129,8 @@ Use the |library| **Library** tab to navigate through the channels with learning
 
 Depending on how your school and teachers or coaches decided to organize the materials, you may have one or more channels available here. Follow the indications by your teachers or coaches on how to use the resources from each available channel.
 
-	.. figure:: img/channels.png
-	  :alt: 
+.. .. figure:: img/channels.png
+  :alt: 
 
 
 Navigate Kolibri folders with breadcrumb links
@@ -145,13 +138,13 @@ Navigate Kolibri folders with breadcrumb links
 
 When you are browsing through folders in a Kolibri channel, **breadcrumb** links indicate previously visited, more general topics. Current folder is at the last position, and you can click any of the previous links in the breadcrumb to go back to a specific broader topic.
 
-	.. figure:: img/breadcrumbs.png
-		:alt: 
+.. figure:: img/breadcrumbs.png
+	:alt: 
 
 If the full length of the breadcrumbs becomes too wide for the width of your display, the more general topics will be hidden. Click the leftmost down arrow button to access them.
 
-	.. figure:: img/breadcrumbs-folded.png
-		:alt: Click the expand more button to reveal folded breadcrumb links.
+.. figure:: img/breadcrumbs-folded.png
+	:alt: Click the expand more button to reveal folded breadcrumb links.
 
 When you open any resource or activity in Kolibri, you will see a series of icons in the upper part of the page.
 
@@ -169,7 +162,7 @@ When you open any resource or activity in Kolibri, you will see a series of icon
 
 .. _content_types:
 
-Types or activities
+Types of activities
 ^^^^^^^^^^^^^^^^^^^
 
 You may see different types of icons for activities available in Kolibri channels, and you can easily distinguish them by their icons:
@@ -183,10 +176,11 @@ You may see different types of icons for activities available in Kolibri channel
 
 When you start doing an exercise, viewing a video, or reading a document, it will be marked with the |inProgress| (in-progress) icon. Once you finish viewing a video or complete the exercise, they will be marked with the |mastered| (completed) icon.
 
-	.. figure:: img/progress-icons.png
-		:alt: Progress status for each learning material will be indicated together with their title.
+.. figure:: img/progress-icons.png
+	:alt: Progress status for each learning material will be indicated together with their title.
+		:align: left
 
-		Progress indicator icons for learning resources.
+	Progress indicator icons for learning resources.
 
 
 |practiceShaded| Exercises
@@ -204,10 +198,10 @@ Independent of the required action (writing an answer yourself or choosing one o
    * If the answer is |incorrect| incorrect, read the question again, and try another answer. You can also click the :guilabel:`USE A HINT` link, read the suggestions, and try to answer again.
    * The progress bar below the exercise is taking into account only the most recent answers you give, which means that you need to have the required number of |correct| (correct) icons **in the row** for the exercise to be considered completed.
 
-    .. figure:: img/get-5-correct.png
-	    :alt: If the exercise requires 5 green check marks, you must provide 5 correct answers one after another.
+     .. figure:: img/get-5-correct.png
+	     :alt: If the exercise requires 5 green check marks, you must provide 5 correct answers one after another.
 
-	    The correct answers in the image above are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
+	     The correct answers are not in a row; this exercise will be completed only after you give 5 correct answers one after another.
 
 #. Once you have achieved the required number of correct answers in a row, you will be rewarded points, and see the suggestion to continue. Click the card under the **Next resource** heading below to continue learning with the rest of the material in that topic.
 #. If you are unable to solve some questions, try reviewing the videos in that same topic, or seek help from your peers or teacher/coach.
@@ -220,11 +214,10 @@ Every time you complete a resource (finish viewing a video, reading a document, 
 
 You can keep track of the total points you have in the upper right corner, near the |person| user menu.
 
-	.. figure:: img/points.png
-		:alt: 
+.. .. figure:: img/points.png
+	:alt: 
 
 Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
-
 
 ..  raw:: html
 
@@ -238,10 +231,10 @@ Captions for the video are available in English, French, Swahili, Arabic, Hindi,
 
 To play videos and listen to audio files in Kolibri you have several available control buttons at the bottom of the player screen. Move the cursor or tap on the player screen to make appear the control buttons while playing.
 
-	.. figure:: img/video.png
-		:alt: 
+.. figure:: img/video.png
+	:alt: 
 
-		Kolibri video and audio player.
+	Kolibri video and audio player.
 
 (controls at the bottom of the player)
 
@@ -281,7 +274,7 @@ When a video has captions available, you can choose to view them at the bottom o
 * Use the :guilabel:`Esc` key or the |fullscreen_exit| (fullscreen exit) button to close the fullscreen view and return.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the PDF viewer to download the PDF file to your computer.
 
-	.. figure:: img/pdf.png
+  .. figure:: img/pdf.png
 		:alt: 
 
 
@@ -298,7 +291,7 @@ To read digital books in Kolibri you have several available controls inside the 
 * Navigate through the book pages with |back| (previous page) and |forward| (next page) buttons, or with the slider control at the bottom.
 * Use the :guilabel:`DOWNLOAD RESOURCE` button below the viewer to download the ePub file to your computer.
 
-	.. figure:: img/epub.*
+  .. figure:: img/epub.*
 		:alt: 
 
 Slideshow viewer options
@@ -319,10 +312,11 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 #. Type a word or combination of words you are looking for in the **Keyword**  search field located in the sidebar. If you are using Kolibri on a smaller screen, click the |filter| :guilabel:`CHECK` button to open the sidebar.
 #. Press :guilabel:`Enter` or click the |search| (search) button to display the results.
 #. Filter the search results by type of activity, language or channel.
-#. Clear the filters by closing the 
+#. Reset the filters by clicking the **Clear all** link.
 
-	.. figure:: img/search.png
-		:alt: Use the select controls to filter the results by channel or type.
+   .. .. figure:: img/search.png
+		 :alt: Use the select controls to filter the results by channel or type.
+
 
 ..  raw:: html
 
@@ -347,8 +341,8 @@ Your teacher or coach may prepare a |lesson| lesson, a recommended set of learni
 
 Click on a lesson title to open its materials, and follow the indications of your teachers or coaches on how to use them.
 
-	.. figure:: img/learner-lesson-home.png
-		:alt: 
+.. .. figure:: img/learner-lesson-home.png
+	:alt: 
 
 
 .. _quizzes:
@@ -358,16 +352,17 @@ Quizzes
 
 If your teacher or coach scheduled an |quiz| quiz for you or your class, it will be available in the |classes| **Classes** tab, under the **Quizzes** heading. You may have more than one quiz available at the time.
 
-	.. figure:: img/exams3.png
-		:alt: 
+.. .. figure:: img/exams3.png
+	:alt: 
+
 
 If the quiz is listed as *Not started*, follow these steps.
 
 #. Click on the quiz when you are ready to start taking it.
 #. You can go on answering the questions in the order you prefer: move through questions with :guilabel:`PREVIOUS` and :guilabel:`NEXT` buttons, or click on the question number in the column on the left side.
 
-	.. figure:: img/exam-detail.png
-		:alt: 
+   .. figure:: img/exam-detail.png
+		 :alt: 
 
 #. Each time you fill in the answer field, or select one of the available options, the question will be marked by a colored dot in the column on the left side.
 #. You can review and correct your answers to all questions as many times you need before submitting.
@@ -378,8 +373,8 @@ A quiz that you did not yet submit will be marked with the |inProgress| (in-prog
 
 Once you complete and submit a quiz, it will be marked with the |mastered| (completed) icon, but you can still click on it to see the score and review the report with your answers.
 
-	.. figure:: img/exam-result.png
-		:alt:  
+.. figure:: img/exam-result.png
+	:alt:  
 
 .. tip::
    Use the **Show correct answer** checkbox to visualize the answer for the questions that you did not answer correctly.

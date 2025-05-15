@@ -15,16 +15,13 @@ Required hardware
 
 #. Laptops and/or other devices to host Kolibri servers.
 
-	.. commenting out for now until the tutorial is updated.
-		.. tip:: If you are planning to use Raspberry Pi as your server device, read our comprehensive tutorial about setting up :ref:`tutorial_rpi`.
-
 #. For provisioning you have the option to use:
 
-	* Fast USB 3 external drive(s). USB 2 can work too, but we recommend using more than one USB 3 drives for fastest results.
+   * Fast USB 3 external drive(s). USB 2 can work too, but we recommend using more than one USB 3 drives for fastest results.
 
-		**OR**
+     **OR**
 
-	* Working LAN (cabled is preferable to wireless, and ideally via a router that supports Gigabit ethernet).
+   * Working LAN (cabled is preferable to wireless, and ideally via a router that supports Gigabit ethernet).
 
 #. Active Internet connection to download the installer and preload channels on the first (“main”) server.
 
@@ -47,19 +44,19 @@ At this point you have the main server set-up and preloaded with channels. Befor
 
 * On Windows, the main server database and all the files related to the channels are stored in the folder named ``.kolibri``, located in ``C:/Users/<username>/.kolibri/`` (if your main hard drive is ``C:``).
 
-	``<username>`` refers to the user on your operating system that installed Kolibri as explained above. In the image below for example, you can see that the user who installed Kolibri is called **IEUser**.
+  ``<username>`` refers to the user on your operating system that installed Kolibri as explained above. In the image below for example, you can see that the user who installed Kolibri is called **IEUser**.
 
-	.. figure:: /img/IEUser.gif
-	    :alt:
+  .. figure:: /img/IEUser.gif
+    :alt:
 
-	    Find the `.kolibri` folder on Windows.
+    Find the `.kolibri` folder on Windows.
 
 * On Linux the ``.kolibri`` folder is located inside your user home folder.
 
-	.. figure:: /img/linux.kolibri.png
-	    :alt:
+  .. figure:: /img/linux.kolibri.png
+    :alt:
 
-	    Find the `.kolibri` folder on Linux.
+    Find the `.kolibri` folder on Linux.
 
 The contents of the ``.kolibri`` folder is the same for all platforms. Inside you can see the main database file ``db.sqlite3``, and the subfolder named ``content`` which contains 2 subfolders: ``databases`` with the separate database for each of the channels imported into Kolibri, and the ``storage`` folder with all the resources files.
 
@@ -80,18 +77,18 @@ Before you proceed to copy the ``.kolibri`` folder from the main server hard dri
 
 #. Stop Kolibri server with the following command
 
-	.. code-block:: bash
+   .. code-block:: bash
 
-	  kolibri stop
+      kolibri stop
 
 #. Follow that with the command to empty the user database.
 
-	.. code-block:: bash
+   .. code-block:: bash
 
-  		kolibri manage deprovision
+      kolibri manage deprovision
 
 
-	You will have to confirm twice by typing ``yes`` and pressing the :guilabel:`Enter` key.
+   You will have to confirm twice by typing ``yes`` and pressing the :guilabel:`Enter` key.
 
 
 Copy the channels to other server devices
@@ -102,15 +99,15 @@ Copy the channels to other server devices
 
 	#. After the installation you must **stop Kolibri** on the destination device, before you proceed to copy the channels.
 
-		* On Windows you need to right-click the Kolibri icon in the Windows taskbar (usually at bottom right, near the clock), and select ``Exit``. You will be prompted to confirm the selection, after which Kolibri will stop.
+	   * On Windows you need to right-click the Kolibri icon in the Windows taskbar (usually at bottom right, near the clock), and select ``Exit``. You will be prompted to confirm the selection, after which Kolibri will stop.
 
-		.. figure:: /img/taskbar-options.png
-			:alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
+	   .. figure:: /img/taskbar-options.png
+		 :alt: When you right click the Kolibri taskbar icon, you can see the taskbar options.
 
-			Stop Kolibri from the taskbar options.
+		 Stop Kolibri from the taskbar options.
 
 
-		* On Linux you need to run ``kolibri stop`` or ``sudo service kolibri stop`` (if you installed Kolibri to run as the system service).
+	   * On Linux you need to run ``kolibri stop`` or ``sudo service kolibri stop`` (if you installed Kolibri to run as the system service).
 
 
 Use the external USB drive to copy channels
@@ -119,9 +116,9 @@ Use the external USB drive to copy channels
 #. Copy the ``.kolibri`` folder from the main server hard drive, and paste it on the external USB drive.
 #. Copy the ``.kolibri`` folder from the USB drive, and paste it inside the destination device hard drive.
 
-	.. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the main server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
+   .. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the main server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
 
-	.. warning:: You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it.
+   .. warning:: You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it.
 
 
 Use the cabled LAN connection to copy channels
@@ -129,16 +126,16 @@ Use the cabled LAN connection to copy channels
 
 #. Connect all the devices, main server and the others where you need to copy the channels on, to the same local area network (LAN).
 
-	Configure the network access on the main server, so the rest of the devices can:
+   Configure the network access on the main server, so the rest of the devices can:
 
-	* See it among their Network locations in the Windows Explorer
-	* Open it and freely browse its shared folders (``.kolibri`` folder should be shared)
+   * See it among their Network locations in the Windows Explorer
+   * Open it and freely browse its shared folders (``.kolibri`` folder should be shared)
 
 #. Use the Windows or File Explorer on each destination device to copy the ``.kolibri`` folder from the main server hard drive, and paste it inside the destination device hard drive.
 
-	.. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the main server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
+   .. note:: On Windows you need to copy the ``.kolibri`` folder into the ``C:/Users/<username>/`` folder, where the ``<username>`` is the account you were logged in as when you installed Kolibri on that destination device (it may be different from the account on the main server). On Linux you need to copy inside the home folder of the user who installed Kolibri, or is the owner of the Kolibri system service.
 
-	.. warning:: You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it.
+   .. warning:: You should see an alert message that there is already a  ``.kolibri`` folder on the destination device: choose the option to overwrite it.
 
 #. You should be able to access the main server from several other destination servers through the LAN, and copy the ``.kolibri`` folder at the same time.
 
