@@ -8,10 +8,6 @@ Compatibility
 
 Kolibri macOS app has been tested on Catalina (10.15) macOS release.
 
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/fpeRtUXhXbY?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
 
 Install
 -------

@@ -6,11 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 10 ("buster"), Ubuntu 18.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
-
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/3ChukxUWXWU?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+Debian 11 ("Bullseye"), Ubuntu 20.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
 
 
 .. _ppa:

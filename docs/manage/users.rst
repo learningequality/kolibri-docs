@@ -17,12 +17,6 @@ You can search for, filter, add, and edit user accounts in Kolibri from the |peo
 
 Remember that to manage Kolibri users you must sign in as **admin** or **super admin**.
 
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/-U_nNwBM2dE?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
-
 
 Create a new user account
 -------------------------

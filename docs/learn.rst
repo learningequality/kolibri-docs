@@ -13,11 +13,6 @@ Access Kolibri
   	* If you are using Kolibri on your own, outside an education center or facility, follow the instructions how to :doc:`access/index` according to your operating system.
   	* If you don't have an account, but Kolibri at your facility or home is set up to allow learners to create their own, follow the steps to :ref:`create one for yourself <create_account>`. 
 
-..  raw:: html
-
-	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/SBQBFjLqDVg?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Sign in to Kolibri
 ******************
@@ -64,8 +59,6 @@ Once you have signed in to Kolibri, you can see and edit your user data from the
    * Click the *Usage and privacy* link to read more information about who will have access to your personal information.
    * Click the :guilabel:`UPDATE` button if you choose to provide it.
 
-   .. figure:: img/update-profile2.png
-	  :alt: 
 
 To sign out from Kolibri you can either:
 	* Click the to open the |person| user menu in the upper right corner, and select the |logout| **Sign out** option.
@@ -219,12 +212,6 @@ You can keep track of the total points you have in the upper right corner, near 
 
 Total points will also be visible on your :ref:`profile <profile>` page: access it from the main sidebar menu (below |learn| **Learn**), or from the |person| user menu.
 
-..  raw:: html
-
-	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/uDZgcEb6WMs?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
-
 
 |watchSolid| Video and |listenShaded| audio player options
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -318,11 +305,6 @@ If you are looking for a specific subject, topic, or term, use the **Search** fe
 		 :alt: Use the select controls to filter the results by channel or type.
 
 
-..  raw:: html
-
-	 <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/Xt39o2Rz5Ko?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
 
 Bookmarks
 ^^^^^^^^^

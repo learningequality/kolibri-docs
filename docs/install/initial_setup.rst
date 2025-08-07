@@ -78,7 +78,7 @@ Group learning
 
 #. **Select device type**. If you want to set up a :term:`full device <Device>` you can create a new facility, or import one from another device in your local network. To import only one or more learner accounts, select the :ref:`learn-only device <learn_only_device>`. 
 
-   .. figure:: /img/select-device-type.png
+   .. figure:: /img/select-device-type-full.png
 	   :alt:  
 
 	   Select the how do you want to set up your device.
@@ -172,6 +172,12 @@ If you are part of a wider learning environment, where several learning faciliti
 
    Select the device and click the :guilabel:`Continue` button.
 
+   .. figure:: /img/initial-setup-select-one-of-devices.png
+     :alt: Step 1 of 5.
+
+     Select the device from which to import the facility.
+
+
    .. note:: If you do not see the address of the device listed, but you know the IP address, you can add it manually. Click the *Add new address* link, and fill in the required information.
 
    .. warning:: **Firewalls** may impede your ability to see other devices in your local network or add them as source. If you are unable to see other devices, make sure to:
@@ -182,14 +188,14 @@ If you are part of a wider learning environment, where several learning faciliti
 #. **Select facility**. If there are several facilities on the device, select the one you want to import.
 
    .. figure:: /img/initial-setup-select-facility-to-import.png
-     :alt: Step 1 of 5.
+     :alt: Step 2 of 5.
 
      Select the facility you want to import.
 
 #. Provide the credentials (username and password) for either the **facility admin** of the facility you want to import, or for the **super admin** of the device you are importing from.
 
    .. figure:: /img/import-facility-creds.png
-		 :alt: Step 2 of 5.
+		 :alt: Step 3 of 5.
 
 		 Provide admin credentials for the facility you want to import.
 
@@ -203,24 +209,15 @@ If you are part of a wider learning environment, where several learning faciliti
 
 		 Device super admin credentials cannot be retrieved when lost, and you will have to manually create another super admin account to manage your device.			
 
-   .. figure:: /img/import-facility-create-super-admin.png
-     :alt: Step 4 of 5.
-
-     Select the super admin account.
 
 #. **Responsibilities of the administrator**. When you are setting up a Kolibri facility, especially in formal environments like schools, you need to take into consideration the relevant privacy laws and regulations. As **super admin**, you or someone you delegate, will be responsible for protecting and managing the user accounts and personal information stored on the device. Review the data usage and privacy statement before finishing the facility setup.
 
-   .. figure:: /img/super-admin-resp.png
+   .. figure:: /img/super-admin-resp2.png
 	   :alt: Step 5 of 5.
 
 	   Review the super admin responsibilities regarding the data usage and privacy.
 
 #. Wait for the facility data to load on your device. It may take some time, so please be patient. When you see the confirmation that the process is completed click the :guilabel:`Continue` button.
-   
-   .. figure:: /img/initial-setup-loading-facility.png
-	   :alt: Step 2 of 4.
-
-	   Facility successfully imported onto your device.
 
 
 .. _learn_only_device:
@@ -244,7 +241,7 @@ When setting up a :term:`learn-only device <Learn-only device>`, you can:
 
 #. Select the **Learn-only device** option and click the :guilabel:`Continue` button.
 
-   .. figure:: /img/learn-only-device.png
+   .. figure:: /img/select-device-type-lod.png
 	   :alt:  
 
 Create a new account for an existing facility
@@ -290,6 +287,9 @@ Import one or more accounts from an existing facility
 #. **Select facility**. If there are several facilities on the device, select the one you want to import the learner account from. 
 
 #. **Import individual learner accounts**. Enter the username and password of the learner you want to import to your device.
+   
+   .. figure:: /img/import-account-learn-only-device.png
+     :alt:  
 
 #. Wait for the learner data to load on your device. It may take some time, so please be patient. When you see the confirmation that the process is completed, you can choose to create another learner account on the same device. Otherwise, click the :guilabel:`Finish` button.
    
