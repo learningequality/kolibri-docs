@@ -18,11 +18,7 @@ You can view, create and delete classes, as well as search, filter and enroll Ko
 
 To manage Kolibri classes you must sign in as **admin** or **super admin**.
 
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/_tFyRB2lgEA?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.      
+  
 
 
 Add new class
@@ -107,9 +103,6 @@ Remove coaches from a class
 
 #. Click :guilabel:`REMOVE` for the chosen coach.
 #. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the coach.
-
-   .. figure:: /img/remove-coach-from-class.png
-     :alt: 
 
 .. note::
   Coaches removed from the class will not be deleted from the database, and you can still access their accounts from the |people| **Users** tab in the |facility| **Facility** dashboard.

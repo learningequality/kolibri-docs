@@ -1,24 +1,21 @@
 
 .. _manage_lessons:
 
-Manage lessons
---------------
+Lessons
+#######
 
 Kolibri **Lessons** offer you the possibility to prepare smaller selections of available learning resources and assign them to learners on a temporary basis. You can select resources from multiple channels, and copy the created lessons to other classes or groups as needed. 
 
-To view, create or delete lessons, as well as assign them to learners, use the **Lessons** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. Default view displays the list of all lessons created for the selected class, the number of resources they contain, groups they are assigned to, and their status indicator.
+To view, create or delete lessons, assign them to learners, as well as view lesson reports, use the **Lessons** tab in your |coach| **Coach** dashboard. Default view displays the list of all lessons created for the selected class, size and number of resources they contain, groups they are assigned to, and their status and progress indicators.
 
-.. .. figure:: /img/lessons.png
+.. figure:: /img/lessons-home.png
     :alt: 
 
 .. note::
   To manage |lesson| **Lessons** in Kolibri classes and groups, you must sign in as **coach**, **admin** or **super admin**.
 
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/0tM3jX_Ofyw?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+Manage lessons
+--------------
 
 Create new lesson
 """""""""""""""""
@@ -54,16 +51,16 @@ To create a new |lesson| lesson, follow these steps.
      You can filter the search results by *type* of resource (video, document, exercise...), include only those from a specific *channel*, or exclude :ref:`resources for coaches <coach_resource>`.
 
 
-7. Click the :guilabel:`CLOSE` button to close the **Manage resources** window and return to the main view of the lesson.
+7. Click the :guilabel:`SAVE & FINISH` button to close the **Manage resources** window and return to the main view of the lesson.
+
+   .. figure:: /img/lesson-visible.png
+     :alt:
 
 8. After you've selected the resources for the lesson, you can:
 
    * Grab the |dragHorizontal| (drag) button to reorder lesson resources with the mouse (drag and drop).
    * Use the |chevronUp| (up) and |chevronDown| (down) buttons to reorder by keyboard navigation.
-   * Click the :guilabel:`REMOVE` button to delete a resource.
-
-     .. .. figure:: /img/reorder-lesson-resources.png
-       :alt:     
+   * Click the |close| (close) button to remove a resource from the lesson.
 
      You will see a confirmation notification at the bottom every time you change something in the lesson.
 
@@ -78,12 +75,6 @@ A newly created lesson is by default *not visible to learners*, and they will no
 * Click the **Visible to learners** switch in the summary block to enable learners to see the lesson and interact with its resources.
 * Click the switch again to make the lesson invisible to learners once the designated time had passed.
 
-  .. figure:: /img/lesson-visible.png
-    :alt:
-
-.. note::
-  You can also change lesson visiblity from its own **Report**, and the list in the **Reports > Lessons** subtab.
-
 
 Change lesson recipients
 """"""""""""""""""""""""
@@ -91,8 +82,8 @@ Change lesson recipients
 You can change the recipients of the lesson, reassigning the lesson to a different group or the entire class. Follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click the :guilabel:`OPTIONS` button and select **Edit details**.
-#. Select the entire class, groups or individual learners to whom you wish to assign the lesson under the *Recipients* heading.
+#. Click the |optionsHorizontal| (options) button and select **Edit details**.
+#. Select the entire class, groups or individual learners to whom you wish to assign the lesson under the *Recipients* |nbrs| heading.
 #. Click :guilabel:`SAVE CHANGES` to confirm, or :guilabel:`CANCEL` to exit without change.
 
 
@@ -102,7 +93,7 @@ Copy lesson
 To copy a lesson to a different group or another class of your facility, follow these steps.
 
 1. Select the desired lesson from the list in the **Lessons** tab.
-2. Click :guilabel:`OPTIONS` and select **Copy lesson**.
+2. Click the |optionsHorizontal| (options) button and select **Copy lesson**.
 3. Select the class to which you wish to copy the lesson to.
 4. Select the entire class, groups or individual learners to whom you wish to assign the lesson.
 5. Click :guilabel:`COPY` to confirm, or :guilabel:`CANCEL` to exit without change.
@@ -116,7 +107,7 @@ Rename lesson
 To rename a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click :guilabel:`OPTIONS` and select **Edit details**.
+#. Click the |optionsHorizontal| (options) button and select **Edit details**.
 #. Change the lesson title in the confirmation window.
 #. Click :guilabel:`SAVE` to confirm, or :guilabel:`CANCEL` to exit without renaming the lesson.
 
@@ -127,5 +118,39 @@ Delete lesson
 To delete a lesson, follow these steps.
 
 #. Select the desired lesson from the list in the **Lessons** tab.
-#. Click :guilabel:`OPTIONS` and select **Delete**.
+#. Click the |optionsHorizontal| (options) button and select **Delete**.
 #. Click :guilabel:`DELETE` in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the lesson.
+
+
+View learner progress in lessons
+--------------------------------
+
+In the main view of the **Lessons** tab you can view the summary of the progress for all lessons created in the class. 
+
+* **Progress** column presents the summary of learners who |inProgress| *started* |nbrs| and |mastered| *completed* |nbrs| the lessons, or |helpNeeded| *need help* |nbrs| with some of the included resources.
+
+* The switch in the **Visible to learners** column indicates whether the learners can access the lesson resources or not. You can change the lesson visibility from here, as well as in detail page of each lessons.
+
+* You can filter the lessons by **Status** (visible or not visible) and **Recipients** (entire class or groups).
+  
+.. .. figure:: /img/lessons.*
+  :alt: 
+
+To view more detailed report about the progress of learners in the class for each lesson, follow these steps. 
+
+#. Click on the lesson title to open it.
+#. In the **Resources** sub-tab, you can see the clickable list of resources, with their own *progress* |nbrs| and the *average time spent* |nbrs| values.
+#. When you click to open the single resource, you can see the progress report for each learner (|inProgress| *started*, |mastered| *completed* |nbrs| or |helpNeeded| *need help*), and the time spent on it.
+#. If the resource is an exercise, you can access the **Difficult questions** sub-tab and review each attempt with incorrect answers.
+#. Open the **Learners** sub-tab to access the progress report for each learner. 
+
+
+Print and export coach reports
+""""""""""""""""""""""""""""""
+
+Whenever you see the |print| (print) and |download| (download) buttons, you will be able to print the report on paper, save in a PDF format, or export as a CSV file, for further analysis or to share with others. Follow these steps.
+
+#. Click the |print| (print) button for the report you want to print or save as PDF file on your local drive. You will either have to select your paper printer device, or the *Save as PDF* option in the print dialog.
+    
+#. Click the |download| (download) button for the report you want to export as CSV file on your local drive. 
+
