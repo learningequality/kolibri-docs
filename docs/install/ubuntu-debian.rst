@@ -6,11 +6,7 @@ Debian/Ubuntu
 Compatibility
 -------------
 
-Debian 10 ("buster"), Ubuntu 18.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
-
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/3ChukxUWXWU?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
+Debian 11 ("Bullseye"), Ubuntu 20.04+ and up - anything that's *not* end-of-life. Ubuntu-based distributions have a number of flavors, for instance Xubuntu and Mint.
 
 
 .. _ppa:
@@ -48,6 +44,18 @@ Install from PPA repository
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys DC5BAA93F9E4AE4F0411F97C74F88ADB3194DD81
     sudo apt-get update
     sudo apt-get install kolibri
+
+
+.. warning:: Debian 13 (aka Trixie) has started enforcing certain constraints on PPA keys that Launchpad is not conforming to yet, and as a result we had to make a separate PPA for Debian 13 and upwards for now. Folow these steps:
+
+   .. code-block:: bash
+
+      # Download the signing key
+      curl -fsSL https://learningequality.github.io/kolibri-installer-debian/pubkey.asc \ | sudo tee /etc/apt/keyrings/kolibri.asc > /dev/null
+
+      # Add the repository
+      echo "deb [signed-by=/etc/apt/keyrings/kolibri.asc] https://learningequality.github.io/kolibri-installer-debian/ stable main" \ | sudo tee /etc/apt/sources.list.d/kolibri.list > /dev/null
+
 
 Uninstall
 *********

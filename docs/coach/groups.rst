@@ -1,22 +1,18 @@
-
 .. _manage_groups:
 
-Manage groups
--------------
+Groups
+######
 
-In case you need to further divide learners inside classes, for example to address the different progress needs, you can use the **groups** feature. Create and delete groups, as well as assign learners to them from the |group| **Groups** sub-tab in the |edit| **Plan** tab of your |coach| **Coach** dashboard. Default view displays the list of all groups for the selected class, with the number of assigned learners for each group.
+In case you need to further divide learners inside classes, for example to address the different progress needs, you can use the **groups** feature. Create and delete groups, as well as assign learners to them from the |group| **Groups** tab in the |coach| **Coach** dashboard. Default view displays the list of all groups for the selected class, with the number of assigned learners for each group.
 
-.. .. figure:: /img/groups.png
-  :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.
+.. figure:: /img/groups-home.png
+  :alt: Navigate to Groups tab to view and manage groups.
 
 .. note::
   To manage Kolibri groups you must sign in as **coach**, **admin** or **super admin**.
 
-..  raw:: html
-
-    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/sjxJ8JxwD-Y?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
-
-Captions for the video are available in English, French, Swahili, Arabic, Hindi, Marathi and Brazilian Portuguese.
+Manage groups
+-------------
 
 Create a new group
 """"""""""""""""""
@@ -31,14 +27,14 @@ To create a new learner group, follow these steps.
 Enroll learners in a group
 """"""""""""""""""""""""""
 
-#. Click to open the desired group in the **Groups** sub-tab.
+#. Click to open the desired group in the **Groups** tab.
 #. Click the :guilabel:`ENROLL LEARNERS` button.
 
    * List in this view contains all the learners currently **not** enrolled in the selected group.
    * You can search for a specific learner by name.
       
      .. figure:: /img/learner-groups.png
-	     :alt: Open Coach > Plan page and navigate to Groups tab to view and manage learners and groups.		
+	     :alt: Navigate to Groups tab to view and manage learners and groups.		
 
 
 #. Use checkboxes to select all the learners in the list, or the search field for specific learners you want to enroll in the group.
@@ -47,7 +43,7 @@ Enroll learners in a group
 Remove learners from group
 """"""""""""""""""""""""""
 
-#. Click :guilabel:`REMOVE` for the chosen learner.
+#. Click to activate the :guilabel:`REMOVE` checkbox for the chosen learner.
 #. Click :guilabel:`REMOVE` to confirm, or :guilabel:`CANCEL` to exit without removing the learner.
 
 
@@ -56,8 +52,7 @@ Rename group
 
 To rename group, follow these steps.
 
-#. Click the :guilabel:`OPTIONS` button on the right edge of the desired group.
-#. Select the **Rename** option.
+#. Click the |optionsHorizontal| (options) button and select **Rename group**.
 #. Input the new name for the group in the confirmation window.
 #. Click the :guilabel:`SAVE` button to proceed, or :guilabel:`CANCEL` to exit without renaming the group.
 
@@ -67,6 +62,5 @@ Delete group
 
 To delete a group, follow these steps.
 
-#. Click the :guilabel:`OPTIONS` button on the right edge of the desired group.
-#. Select the **Delete** option.
+#. Click the |optionsHorizontal| (options) button and select **Delete group**.
 #. Click the :guilabel:`DELETE` button in the confirmation window to proceed, or :guilabel:`CANCEL` to exit without deleting the group.
