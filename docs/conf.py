@@ -48,6 +48,7 @@ linkcheck_ignore = [
     "https://twitter.com/LearnEQ/",
     "https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit",
     "https://www.raspberrypi.com/documentation/computers/getting-started.html",
+    "https://blog.learningequality.org/",
 ]
 
 # Where to find translated image files

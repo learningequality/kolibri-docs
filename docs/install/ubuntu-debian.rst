@@ -45,6 +45,18 @@ Install from PPA repository
     sudo apt-get update
     sudo apt-get install kolibri
 
+
+.. warning:: Debian 13 (aka Trixie) has started enforcing certain constraints on PPA keys that Launchpad is not conforming to yet, and as a result we had to make a separate PPA for Debian 13 and upwards for now. Folow these steps:
+
+   .. code-block:: bash
+
+      # Download the signing key
+      curl -fsSL https://learningequality.github.io/kolibri-installer-debian/pubkey.asc \ | sudo tee /etc/apt/keyrings/kolibri.asc > /dev/null
+
+      # Add the repository
+      echo "deb [signed-by=/etc/apt/keyrings/kolibri.asc] https://learningequality.github.io/kolibri-installer-debian/ stable main" \ | sudo tee /etc/apt/sources.list.d/kolibri.list > /dev/null
+
+
 Uninstall
 *********
 From the command line: ``sudo apt-get remove kolibri``.
