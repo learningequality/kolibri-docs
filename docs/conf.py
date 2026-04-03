@@ -16,7 +16,7 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # FOR! DO NOT LET THEM BE TARGETTED AT MORE THAN ONE MINOR SERIES!
 # I.E.: 0.1.x -- important to add 'dev' suffix for docs targetting development
 # series.
-DISPLAY_VERSION = "0.18"
+DISPLAY_VERSION = "0.19"
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -165,8 +165,8 @@ rst_prolog = """
 
 .. |br| replace:: :raw-html:`<br /><br />`
 .. |nbrs| replace:: :raw-html:`&nbsp;`
-.. |version| replace:: 0.18
-.. |version-b| replace:: :raw-html:`<strong>0.18</strong>`
+.. |version| replace:: 0.19
+.. |version-b| replace:: :raw-html:`<strong>0.19</strong>`
 
 
 """

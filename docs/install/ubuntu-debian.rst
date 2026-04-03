@@ -136,27 +136,27 @@ To change the system service owner, you need to change the configuration of the 
 
    .. code-block:: bash
 
-  	 sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
+    sudo mv /var/kolibri/.kolibri /home/$USER/.kolibri
 
 
 3. Change ownership.
 
    .. code-block:: bash
 
-  	 sudo chown -R $USER /home/$USER/.kolibri
+    sudo chown -R $USER /home/$USER/.kolibri
 
 
 4. Change the username configuration.
 
    .. code-block:: bash
 
-  	 sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
+    sudo sh -c 'sudo echo -n $USER > /etc/kolibri/username'
 
 5. Start Kolibri again.
 
    .. code-block:: bash
 
-  	 sudo systemctl start kolibri
+    sudo systemctl start kolibri
 
 
 .. note:: Replace the ``$USER`` in commands above with the name of the user you wish to be the new Kolibri system service owner.
@@ -169,6 +169,9 @@ Higher performance with the ``kolibri-server`` package
 We have of a higher-performance wrapper around the ``kolibri`` package for Ubuntu and Debian systems called ``kolibri-server``. 
 
 ``kolibri-server`` has some specific features like **static content cache** and **optimized usage of the CPU processing power** in multi core devices. For example, a *Raspberry Pi 3+* device has 4 CPU cores, and with ``kolibri-server`` it will likely be able to serve 2-3 times more client devices compared to base Kolibri. Find out more details in the `package repository <https://github.com/learningequality/kolibri-server>`_. 
+
+.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but also on local WiFi access point characteristics.
+
 
 To install ``kolibri-server`` follow these steps.
 
@@ -184,4 +187,12 @@ To install ``kolibri-server`` follow these steps.
 
 2. Restart the system.
 
-.. warning:: Keep in mind that the ``kolibri-server`` system performance will depend not only on server device features, but also on local WiFi access point characteristics.
+.. warning:: Debian 13 (aka Trixie) has started enforcing certain constraints on PPA keys that Launchpad is not conforming to yet, and as a result we had to make a separate PPA for Debian 13 and upwards for now. Folow these steps:
+
+   .. code-block:: bash
+
+      # Download the signing key
+      curl -fsSL https://learningequality.github.io/kolibri-server/pubkey.asc \ | sudo tee /etc/apt/keyrings/kolibri-server.asc > /dev/null
+
+      # Add the repository
+      echo "deb [signed-by=/etc/apt/keyrings/kolibri-server.asc] https://learningequality.github.io/kolibri-server/ stable main" \ | sudo tee /etc/apt/sources.list.d/kolibri-server.list > /dev/null
