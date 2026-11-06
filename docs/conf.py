@@ -167,6 +167,7 @@ rst_prolog = """
 .. |nbrs| replace:: :raw-html:`&nbsp;`
 .. |version| replace:: 0.18
 .. |version-b| replace:: :raw-html:`<strong>0.18</strong>`
+.. |community_forums| replace:: `Community Forums <https://community.learningequality.org/>`__
 
 
 """
