@@ -68,7 +68,7 @@ In case you receive the ``database disk image is malformed`` error in Terminal, 
 
 #. Start Kolibri.
 
-For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
+For further assistance, please report the issue on our |community_forums|, stating the operating system and Kolibri version.
 
 Corrupted database
 ------------------
@@ -109,14 +109,14 @@ To apply ``.recover`` on a broken database, open your Terminal and run the follo
 
 #. Start Kolibri.
 
-For further assistance, please report the issue on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and Kolibri version.
+For further assistance, please report the issue on our |community_forums|, stating the operating system and Kolibri version.
 
 Videos are not playing
 ----------------------
 
 Make sure to check the :ref:`system requirements <sys_reqs>` to see if you can support video playback. If you encounter the error *No compatible source was found for this media* when you try to play videos in Firefox on Ubuntu for example, you must install the `restricted extras package <https://help.ubuntu.com/community/RestrictedFormats>`__. If you are still unable to view videos in open source browsers like Chromium or Firefox, try using Google Chrome.
 
-Please report any issues on our `Community Forums <https://community.learningequality.org/>`_, stating the operating system and browser you are using.
+Please report any issues on our |community_forums|, stating the operating system and browser you are using.
 
 
 Antivirus

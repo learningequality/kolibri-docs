@@ -15,7 +15,7 @@ Working with Kolibri from the command line
 .. warning:: In the commands below, angle brackets and the text between them ``<...>`` are used to denote placeholders for you to modify. Make sure to replace them with your own information.
 
 
-If you see errors in the prompt/terminal output while running the commands below, ask for help at our `Community Forums <https://community.learningequality.org/>`_, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
+If you see errors in the prompt/terminal output while running the commands below, ask for help at our |community_forums|, or `file an issue on GitHub <https://github.com/learningequality/kolibri/issues/new>`_.
 
 
 Start/Stop Kolibri
